@@ -1,0 +1,1316 @@
+{
+  "start_time": "2018-05-14T19:10:57.632657",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are chefs preparing a meal.",
+      "Vous \u00eates deux cuisiners/cuisini\u00e8res en train de pr\u00e9parer un repas."
+    ],
+    [
+      "You are the head chef and you are talking to your subordinate.",
+      "Vous \u00eates le ou la chef(fe) et vous discutez avec votre chef(fe) adjoint."
+    ],
+    [
+      "You are the subordinate chef and you are talking to the head chef.",
+      "Vous \u00eates le ou la chef(fe) adjoint(e) et vous discutez avec le/la chef(fe)."
+    ]
+  ],
+  "user1": {
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "eval-stage": true,
+    "role_num": 2,
+    "role": [
+      "You are the subordinate chef and you are talking to the head chef.",
+      "Vous \u00eates le ou la chef(fe) adjoint(e) et vous discutez avec le/la chef(fe)."
+    ],
+    "lang": "french",
+    "initiated_dialogue": true,
+    "turn_number": 1
+  },
+  "user2": {
+    "useragent": "Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Mobile/14G60 Safari/602.1",
+    "rolenum": 1,
+    "eval-stage": true,
+    "lang": "english",
+    "role": [
+      "You are the head chef and you are talking to your subordinate.",
+      "Vous \u00eates le ou la chef(fe) et vous discutez avec votre chef(fe) adjoint."
+    ],
+    "initiated_dialogue": false,
+    "turn_number": 2
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Could you please wash your hands after touching your face",
+      "preprocessed_text": "could you please wash your hands after touching your face",
+      "translated_text": "pourriez @-@ vous vous laver les mains apr\u00e8s avoir touch\u00e9 votre visage ?",
+      "postprocessed_text": "Pourriez-vous vous laver les mains apr\u00e8s avoir touch\u00e9 votre visage ?",
+      "composition_time": "2018-05-14T19:11:24.250484",
+      "preprocessing_begin": "2018-05-14T19:11:24.314519",
+      "preprocessing_end": "2018-05-14T19:11:26.371388",
+      "translation_begin": "2018-05-14T19:11:26.371467",
+      "translation_end": "2018-05-14T19:11:27.594380",
+      "postprocessing_begin": "2018-05-14T19:11:27.594811",
+      "postprocessing_end": "2018-05-14T19:11:27.627448",
+      "sent_time": "2018-05-14T19:11:27.628464",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:14:19.169674"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Pourriez-vous vous laver les mains apr\u00e8s avoir touch\u00e9 votre visage s\u2019il vous pla\u00eet.",
+      "normalised_version": "Could you please wash your hands after touching your face?"
+    },
+    "1": {
+      "language": "english",
+      "original_text": "It is vital that we maintain good hygiene",
+      "preprocessed_text": "it is vital that we maintain good hygiene",
+      "translated_text": "il est vital de maintenir l&apos; hygi\u00e8ne .",
+      "postprocessed_text": "Il est vital de maintenir l'hygi\u00e8ne.",
+      "composition_time": "2018-05-14T19:12:01.381650",
+      "preprocessing_begin": "2018-05-14T19:12:01.447074",
+      "preprocessing_end": "2018-05-14T19:12:03.824044",
+      "translation_begin": "2018-05-14T19:12:03.824123",
+      "translation_end": "2018-05-14T19:12:04.696725",
+      "postprocessing_begin": "2018-05-14T19:12:04.697136",
+      "postprocessing_end": "2018-05-14T19:12:04.730407",
+      "sent_time": "2018-05-14T19:12:04.732080",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:14:19.852280"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:14:21.421232",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Il est crucial que nous gardions une bonne hygi\u00e8ne.",
+      "normalised_version": "It is vital that we maintain good hygiene."
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Vous avez raison.",
+      "preprocessed_text": "vous avez raison .",
+      "translated_text": "you &apos;re right .",
+      "postprocessed_text": "You're right.",
+      "composition_time": "2018-05-14T19:12:48.597060",
+      "preprocessing_begin": "2018-05-14T19:12:48.659181",
+      "preprocessing_end": "2018-05-14T19:12:50.915815",
+      "translation_begin": "2018-05-14T19:12:50.915929",
+      "translation_end": "2018-05-14T19:12:51.557332",
+      "postprocessing_begin": "2018-05-14T19:12:51.557573",
+      "postprocessing_end": "2018-05-14T19:12:51.600170",
+      "sent_time": "2018-05-14T19:12:51.601156",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:14:37.014022"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "You\u2019re right.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "je me lave imm\u00e9diatement les mains !",
+      "preprocessed_text": "je me lave imm\u00e9diatement les mains !",
+      "translated_text": "I &apos;ll wash my hands right now !",
+      "postprocessed_text": "I'll wash my hands right now!",
+      "composition_time": "2018-05-14T19:13:19.209568",
+      "preprocessing_begin": "2018-05-14T19:13:19.269911",
+      "preprocessing_end": "2018-05-14T19:13:21.521714",
+      "translation_begin": "2018-05-14T19:13:21.521784",
+      "translation_end": "2018-05-14T19:13:22.196666",
+      "postprocessing_begin": "2018-05-14T19:13:22.196875",
+      "postprocessing_end": "2018-05-14T19:13:22.229248",
+      "sent_time": "2018-05-14T19:13:22.230154",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:14:38.460538"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "I\u2019ll wash my hands straight away!",
+      "normalised_version": "Je me lave imm\u00e9diatement les mains !"
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Que souhaitez vous que nous pr\u00e9parions ensuite pour le menu de ce soir ?",
+      "preprocessed_text": "que souhaitez vous que nous pr\u00e9par@@ ions ensuite pour le menu de ce soir ?",
+      "translated_text": "what do you want us to do next for tonight &apos;s menu ?",
+      "postprocessed_text": "What do you want us to do next for tonight's menu?",
+      "composition_time": "2018-05-14T19:13:32.643594",
+      "preprocessing_begin": "2018-05-14T19:13:32.699808",
+      "preprocessing_end": "2018-05-14T19:13:35.286708",
+      "translation_begin": "2018-05-14T19:13:35.286794",
+      "translation_end": "2018-05-14T19:13:36.440604",
+      "postprocessing_begin": "2018-05-14T19:13:36.440782",
+      "postprocessing_end": "2018-05-14T19:13:36.480986",
+      "sent_time": "2018-05-14T19:13:36.482254",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:14:45.437022"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "What do you want us to prepare next for this evening\u2019s menu?",
+      "normalised_version": "Que souhaitez-vous que nous pr\u00e9parions ensuite pour le menu de ce soir ?"
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Great, I am pleased we have cleared the ground rules",
+      "preprocessed_text": "great , I am pleased we have cleared the ground rules",
+      "translated_text": "super , je suis content qu&apos; on ait r\u00e9gl\u00e9 les r\u00e8gles .",
+      "postprocessed_text": "Super, je suis content qu'on ait r\u00e9gl\u00e9 les r\u00e8gles.",
+      "composition_time": "2018-05-14T19:13:44.727343",
+      "preprocessing_begin": "2018-05-14T19:13:44.791788",
+      "preprocessing_end": "2018-05-14T19:13:46.895033",
+      "translation_begin": "2018-05-14T19:13:46.895176",
+      "translation_end": "2018-05-14T19:13:47.987347",
+      "postprocessing_begin": "2018-05-14T19:13:47.987575",
+      "postprocessing_end": "2018-05-14T19:13:48.036786",
+      "sent_time": "2018-05-14T19:13:48.038271",
+      "eval": {
+        "problems": [
+          "grammar",
+          "style",
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:15:33.730733"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-14T19:15:35.632155",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-14T19:15:37.043954",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-14T19:15:37.685821",
+            false
+          ],
+          [
+            "style",
+            "2018-05-14T19:15:38.199976",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-14T19:15:39.322636",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Bien, je suis heureuse que nous ayons clarifi\u00e9 les r\u00e8gles de base.",
+      "normalised_version": "Great, I am pleased we have cleared the ground rules."
+    },
+    "6": {
+      "language": "english",
+      "original_text": "What is on the menu for tonight, do you remember?",
+      "preprocessed_text": "what is on the menu for tonight , do you remember ?",
+      "translated_text": "qu&apos; est @-@ ce qu&apos; il y a au menu pour ce soir , tu te souviens ?",
+      "postprocessed_text": "Qu'est-ce qu'il y a au menu pour ce soir, tu te souviens ?",
+      "composition_time": "2018-05-14T19:14:00.191516",
+      "preprocessing_begin": "2018-05-14T19:14:00.229842",
+      "preprocessing_end": "2018-05-14T19:14:02.331339",
+      "translation_begin": "2018-05-14T19:14:02.331428",
+      "translation_end": "2018-05-14T19:14:03.693808",
+      "postprocessing_begin": "2018-05-14T19:14:03.694095",
+      "postprocessing_end": "2018-05-14T19:14:03.756201",
+      "sent_time": "2018-05-14T19:14:03.757600",
+      "eval": {
+        "problems": [
+          "style",
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:15:41.883934"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-14T19:15:44.015949",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-14T19:15:44.652822",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Qu\u2019y a-t-il au menu pour ce soir, vous vous en souvenez\u00a0?",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Il me semble que nous devions pr\u00e9voir une entr\u00e9e avec du poisson.",
+      "preprocessed_text": "il me semble que nous devions pr\u00e9voir une entr\u00e9e avec du poisson .",
+      "translated_text": "it seems to me that we should be planning an entrance with fish .",
+      "postprocessed_text": "It seems to me that we should be planning an entrance with fish.",
+      "composition_time": "2018-05-14T19:14:41.610146",
+      "preprocessing_begin": "2018-05-14T19:14:41.671150",
+      "preprocessing_end": "2018-05-14T19:14:44.024674",
+      "translation_begin": "2018-05-14T19:14:44.024745",
+      "translation_end": "2018-05-14T19:14:45.276430",
+      "postprocessing_begin": "2018-05-14T19:14:45.276669",
+      "postprocessing_end": "2018-05-14T19:14:45.332859",
+      "sent_time": "2018-05-14T19:14:45.334355",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:14:53.583393"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:14:56.467270",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "I think we had to prepare a fish starter.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Puis un plat avec de la viande, et enfin un dessert avec des fruits rouges.",
+      "preprocessed_text": "puis un plat avec de la viande , et enfin un dessert avec des fruits rouges .",
+      "translated_text": "then a dish with meat , and then dessert with red fruit .",
+      "postprocessed_text": "Then a dish with meat, and then dessert with red fruit.",
+      "composition_time": "2018-05-14T19:15:09.262390",
+      "preprocessing_begin": "2018-05-14T19:15:09.324156",
+      "preprocessing_end": "2018-05-14T19:15:11.741417",
+      "translation_begin": "2018-05-14T19:15:11.741488",
+      "translation_end": "2018-05-14T19:15:12.985849",
+      "postprocessing_begin": "2018-05-14T19:15:12.986225",
+      "postprocessing_end": "2018-05-14T19:15:13.020435",
+      "sent_time": "2018-05-14T19:15:13.021189",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:16:39.134069"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Then a meat main course and finally a dessert with red berries.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "Your are very good at inventing special dishes with fresh produce",
+      "preprocessed_text": "your are very good at inventing special dishes with fresh produce",
+      "translated_text": "tu es tr\u00e8s bon pour inventer des plats sp\u00e9ciaux avec des produits frais .",
+      "postprocessed_text": "Tu es tr\u00e8s bon pour inventer des plats sp\u00e9ciaux avec des produits frais.",
+      "composition_time": "2018-05-14T19:15:42.865775",
+      "preprocessing_begin": "2018-05-14T19:15:42.942037",
+      "preprocessing_end": "2018-05-14T19:15:45.570108",
+      "translation_begin": "2018-05-14T19:15:45.570391",
+      "translation_end": "2018-05-14T19:15:46.893619",
+      "postprocessing_begin": "2018-05-14T19:15:46.893897",
+      "postprocessing_end": "2018-05-14T19:15:46.955958",
+      "sent_time": "2018-05-14T19:15:46.957657",
+      "eval": {
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:17:44.367722"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-14T19:18:17.907564",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-14T19:18:20.986713",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Vous \u00eates excellente pour inventer des plats originaux avec des produits frais.",
+      "normalised_version": "Your are very good at inventing special dishes with fresh produce."
+    },
+    "10": {
+      "language": "english",
+      "original_text": "What shall we do with the bream?",
+      "preprocessed_text": "what shall we do with the bre@@ am ?",
+      "translated_text": "qu&apos; allons @-@ nous faire de la br@@ am ?",
+      "postprocessed_text": "Qu'allons-nous faire de la bram ?",
+      "composition_time": "2018-05-14T19:15:56.796399",
+      "preprocessing_begin": "2018-05-14T19:15:56.858957",
+      "preprocessing_end": "2018-05-14T19:15:59.187375",
+      "translation_begin": "2018-05-14T19:15:59.187507",
+      "translation_end": "2018-05-14T19:16:00.252713",
+      "postprocessing_begin": "2018-05-14T19:16:00.253101",
+      "postprocessing_end": "2018-05-14T19:16:00.295081",
+      "sent_time": "2018-05-14T19:16:00.296854",
+      "eval": {
+        "problems": [
+          "meaning"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:17:52.799854"
+          ],
+          [
+            "poor",
+            "2018-05-14T19:17:54.518895"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-14T19:17:55.820339",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Que devrions-nous faire avec la daurade\u00a0?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "english",
+      "original_text": "It is lovely and fresh, something simple I suggest that won't detract from the flavour",
+      "preprocessed_text": "it is lovely and fresh , something simple I suggest that won &apos;t de@@ tract from the flavour",
+      "translated_text": "il est beau et frais , quelque chose de simple , je sugg\u00e8re que \u00e7a ne s&apos; efface pas du go\u00fbt .",
+      "postprocessed_text": "Il est beau et frais, quelque chose de simple, je sugg\u00e8re que \u00e7a ne s'efface pas du go\u00fbt.",
+      "composition_time": "2018-05-14T19:16:26.904576",
+      "preprocessing_begin": "2018-05-14T19:16:26.974503",
+      "preprocessing_end": "2018-05-14T19:16:29.314462",
+      "translation_begin": "2018-05-14T19:16:29.314559",
+      "translation_end": "2018-05-14T19:16:31.276878",
+      "postprocessing_begin": "2018-05-14T19:16:31.277157",
+      "postprocessing_end": "2018-05-14T19:16:31.327477",
+      "sent_time": "2018-05-14T19:16:31.328497",
+      "eval": {
+        "problems": [
+          "word choice",
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:18:04.012121"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:18:07.936617",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-14T19:18:09.795928",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Elle est vraiment fra\u00eeche, je sugg\u00e8re quelque chose de simple qui ne masque rien \u00e0 la saveur.",
+      "normalised_version": "It is lovely and fresh, something simple I suggest that won't detract from the flavour."
+    },
+    "12": {
+      "language": "french",
+      "original_text": "que voulez vous dire exactement par \"bram\", je ne suis pas certaine d'avoir bien compris.",
+      "preprocessed_text": "que voulez vous dire exactement par &quot; Bram &quot; , je ne suis pas certaine d&apos; avoir bien compris .",
+      "translated_text": "what exactly do you mean , &quot; Bram , &quot; I &apos;m not sure I understand .",
+      "postprocessed_text": "What exactly do you mean, \"Bram,\" I'm not sure I understand.",
+      "composition_time": "2018-05-14T19:17:40.230532",
+      "preprocessing_begin": "2018-05-14T19:17:40.300952",
+      "preprocessing_end": "2018-05-14T19:17:42.977875",
+      "translation_begin": "2018-05-14T19:17:42.977975",
+      "translation_end": "2018-05-14T19:17:44.326275",
+      "postprocessing_begin": "2018-05-14T19:17:44.326475",
+      "postprocessing_end": "2018-05-14T19:17:44.360061",
+      "sent_time": "2018-05-14T19:17:44.361099",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:19:03.620201"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "What do you mean exactly by \u201cbream\u201d? I\u2019m not sure I understood correctly.",
+      "normalised_version": "Que voulez-vous dire exactement par \u201cbram\"? Je ne suis pas certaine d'avoir bien compris."
+    },
+    "13": {
+      "language": "english",
+      "original_text": "Bream is a small white fish, slightly like sea bass I guess",
+      "preprocessed_text": "bre@@ am is a small white fish , slightly like sea bass I guess",
+      "translated_text": "bre@@ am est un petit poisson blanc , l\u00e9g\u00e8rement comme le bar , je suppose .",
+      "postprocessed_text": "Bream est un petit poisson blanc, l\u00e9g\u00e8rement comme le bar, je suppose.",
+      "composition_time": "2018-05-14T19:18:23.815429",
+      "preprocessing_begin": "2018-05-14T19:18:23.876584",
+      "preprocessing_end": "2018-05-14T19:18:26.463696",
+      "translation_begin": "2018-05-14T19:18:26.463814",
+      "translation_end": "2018-05-14T19:18:28.104766",
+      "postprocessing_begin": "2018-05-14T19:18:28.105051",
+      "postprocessing_end": "2018-05-14T19:18:28.157819",
+      "sent_time": "2018-05-14T19:18:28.158820",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:19:49.503371"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:19:52.535957",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "La daurade est un petit poisson blanc, un peu comme le bar je crois.",
+      "normalised_version": "Bream is a small white fish, slightly like sea bass I guess."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "merci de cette pr\u00e9cision.",
+      "preprocessed_text": "merci de cette pr\u00e9cision .",
+      "translated_text": "thank you for your precision .",
+      "postprocessed_text": "Thank you for your precision.",
+      "composition_time": "2018-05-14T19:18:52.100940",
+      "preprocessing_begin": "2018-05-14T19:18:52.156978",
+      "preprocessing_end": "2018-05-14T19:18:54.704758",
+      "translation_begin": "2018-05-14T19:18:54.704908",
+      "translation_end": "2018-05-14T19:18:55.357838",
+      "postprocessing_begin": "2018-05-14T19:18:55.358101",
+      "postprocessing_end": "2018-05-14T19:18:55.392416",
+      "sent_time": "2018-05-14T19:18:55.393641",
+      "eval": {
+        "problems": [
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:19:05.401616"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-14T19:19:07.229541",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Thank you for clarifying.",
+      "normalised_version": "Merci de cette pr\u00e9cision."
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Peut \u00eatre pourrions nous le faire mariner dans du citron, et avec un peu d'huile d'olive ?",
+      "preprocessed_text": "peut \u00eatre pourrions nous le faire mariner dans du citron , et avec un peu d&apos; huile d&apos; olive ?",
+      "translated_text": "maybe we can marin@@ ate it in lemon , and with a little olive oil ?",
+      "postprocessed_text": "Maybe we can marinate it in lemon, and with a little olive oil?",
+      "composition_time": "2018-05-14T19:19:08.428267",
+      "preprocessing_begin": "2018-05-14T19:19:08.493264",
+      "preprocessing_end": "2018-05-14T19:19:11.017410",
+      "translation_begin": "2018-05-14T19:19:11.017501",
+      "translation_end": "2018-05-14T19:19:12.461980",
+      "postprocessing_begin": "2018-05-14T19:19:12.462184",
+      "postprocessing_end": "2018-05-14T19:19:12.495934",
+      "sent_time": "2018-05-14T19:19:12.496523",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:20:59.000775"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Perhaps we could marinate it in lemon and with a bit of olive oil?",
+      "normalised_version": "Peut-\u00eatre pourrions-nous le faire mariner dans du citron, et avec un peu d'huile d'olive ?"
+    },
+    "16": {
+      "language": "french",
+      "original_text": "afin de le servir en entr\u00e9e, accompagn\u00e9 de quelques l\u00e9gumes frais ?",
+      "preprocessed_text": "afin de le servir en entr\u00e9e , accompagn\u00e9 de quelques l\u00e9gumes frais ?",
+      "translated_text": "in order to serve him in the entrance , along with some fresh vegetables ?",
+      "postprocessed_text": "In order to serve him in the entrance, along with some fresh vegetables?",
+      "composition_time": "2018-05-14T19:19:43.470420",
+      "preprocessing_begin": "2018-05-14T19:19:43.523036",
+      "preprocessing_end": "2018-05-14T19:19:45.868284",
+      "translation_begin": "2018-05-14T19:19:45.868371",
+      "translation_end": "2018-05-14T19:19:47.086982",
+      "postprocessing_begin": "2018-05-14T19:19:47.087198",
+      "postprocessing_end": "2018-05-14T19:19:47.126463",
+      "sent_time": "2018-05-14T19:19:47.127506",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-14T19:21:06.669563"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:21:14.826935",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "To serve it as a starter, with some fresh vegetables?",
+      "normalised_version": "Afin de le servir en entr\u00e9e, accompagn\u00e9 de quelques l\u00e9gumes frais ?"
+    },
+    "17": {
+      "language": "english",
+      "original_text": "I think if you fillet it, then fry it lightly and serve with a lemon and olive oil emulsion",
+      "preprocessed_text": "I think if you fill@@ et it , then fry it lightly and serve with a lemon and olive oil emul@@ sion",
+      "translated_text": "je pense que si tu le prends , puis fais le frire doucement et sers avec un citron et une \u00e9@@ mul@@ sion d&apos; huile d&apos; olive",
+      "postprocessed_text": "Je pense que si tu le prends, puis fais le frire doucement et sers avec un citron et une \u00e9mulsion d'huile d'olive",
+      "composition_time": "2018-05-14T19:20:08.263413",
+      "preprocessing_begin": "2018-05-14T19:20:08.331309",
+      "preprocessing_end": "2018-05-14T19:20:10.617067",
+      "translation_begin": "2018-05-14T19:20:10.617171",
+      "translation_end": "2018-05-14T19:20:12.973426",
+      "postprocessing_begin": "2018-05-14T19:20:12.973656",
+      "postprocessing_end": "2018-05-14T19:20:13.036741",
+      "sent_time": "2018-05-14T19:20:13.037506",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:22:16.178721"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:22:21.391910",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je me dis que si vous levez les filets, vous pouvez ensuite les frire l\u00e9g\u00e8rement et les servir avec une \u00e9mulsion de citron et d\u2019huile d\u2019olive.",
+      "normalised_version": "I think if you fillet it, then fry it lightly and serve with a lemon and olive oil emulsion."
+    },
+    "18": {
+      "language": "english",
+      "original_text": "I think we could just prepare it and serve with a little seaweed as it is a starter",
+      "preprocessed_text": "I think we could just prepare it and serve with a little seaweed as it is a starter",
+      "translated_text": "je pense qu&apos; on pourrait le pr\u00e9parer et servir avec un peu d&apos; algues .",
+      "postprocessed_text": "Je pense qu'on pourrait le pr\u00e9parer et servir avec un peu d'algues.",
+      "composition_time": "2018-05-14T19:20:42.814775",
+      "preprocessing_begin": "2018-05-14T19:20:42.888054",
+      "preprocessing_end": "2018-05-14T19:20:45.580312",
+      "translation_begin": "2018-05-14T19:20:45.580377",
+      "translation_end": "2018-05-14T19:20:47.358664",
+      "postprocessing_begin": "2018-05-14T19:20:47.358881",
+      "postprocessing_end": "2018-05-14T19:20:47.403392",
+      "sent_time": "2018-05-14T19:20:47.404396",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:23:52.059233"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:24:00.814077",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je pense qu\u2019on pourrait le pr\u00e9parer et le servir avec un peu d\u2019algue car c\u2019est une entr\u00e9e.",
+      "normalised_version": "I think we could just prepare it and serve with a little seaweed as it is a starter."
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Ah oui, c'est une tr\u00e8s bonne id\u00e9e !",
+      "preprocessed_text": "ah oui , c&apos; est une tr\u00e8s bonne id\u00e9e !",
+      "translated_text": "oh , yeah , that &apos;s a great idea !",
+      "postprocessed_text": "Oh, yeah, that's a great idea!",
+      "composition_time": "2018-05-14T19:21:16.359646",
+      "preprocessing_begin": "2018-05-14T19:21:16.415478",
+      "preprocessing_end": "2018-05-14T19:21:18.708674",
+      "translation_begin": "2018-05-14T19:21:18.708748",
+      "translation_end": "2018-05-14T19:21:19.569261",
+      "postprocessing_begin": "2018-05-14T19:21:19.569593",
+      "postprocessing_end": "2018-05-14T19:21:19.624259",
+      "sent_time": "2018-05-14T19:21:19.625805",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:28:09.140951"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Ah yes, that\u2019s a very good idea!",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "les algues apporteront un petit c\u00f4t\u00e9 iod\u00e9, et c'est original !",
+      "preprocessed_text": "les algues appor@@ teront un petit c\u00f4t\u00e9 i@@ od@@ \u00e9 , et c&apos; est original !",
+      "translated_text": "the algae will bring a small side , and it &apos;s original !",
+      "postprocessed_text": "The algae will bring a small side, and it's original!",
+      "composition_time": "2018-05-14T19:21:41.584753",
+      "preprocessing_begin": "2018-05-14T19:21:41.656880",
+      "preprocessing_end": "2018-05-14T19:21:44.229449",
+      "translation_begin": "2018-05-14T19:21:44.229551",
+      "translation_end": "2018-05-14T19:21:45.461807",
+      "postprocessing_begin": "2018-05-14T19:21:45.462075",
+      "postprocessing_end": "2018-05-14T19:21:45.506430",
+      "sent_time": "2018-05-14T19:21:45.507485",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:28:11.922474"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:28:14.273011",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Seaweed will give it a slightly salty touch, and it\u2019s original!",
+      "normalised_version": "Les algues apporteront un petit c\u00f4t\u00e9 iod\u00e9, et c'est original !"
+    },
+    "21": {
+      "language": "english",
+      "original_text": "There are plenty of fresh strawberries, perhaps you could start by mascerating them in sugar and some liqueur",
+      "preprocessed_text": "there are plenty of fresh strawberries , perhaps you could start by mas@@ cer@@ ating them in sugar and some liqueur",
+      "translated_text": "il y a plein de fraises fra\u00eeches , peut @-@ \u00eatre pourriez @-@ vous commencer par les ma\u00eetriser dans du sucre et de la liqueur .",
+      "postprocessed_text": "Il y a plein de fraises fra\u00eeches, peut-\u00eatre pourriez-vous commencer par les ma\u00eetriser dans du sucre et de la liqueur.",
+      "composition_time": "2018-05-14T19:22:11.945929",
+      "preprocessing_begin": "2018-05-14T19:22:12.011734",
+      "preprocessing_end": "2018-05-14T19:22:14.409778",
+      "translation_begin": "2018-05-14T19:22:14.409909",
+      "translation_end": "2018-05-14T19:22:16.548984",
+      "postprocessing_begin": "2018-05-14T19:22:16.549198",
+      "postprocessing_end": "2018-05-14T19:22:16.600512",
+      "sent_time": "2018-05-14T19:22:16.601100",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:24:03.306112"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:26:00.137188",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Il y a beaucoup de fraises fra\u00eeches, peut-\u00eatre pourriez-vous les faire mac\u00e9rer dans du sucre et de la liqueur.",
+      "normalised_version": "There are plenty of fresh strawberries, perhaps you could start by macerating them in sugar and some liqueur."
+    },
+    "22": {
+      "language": "english",
+      "original_text": "If you get those started",
+      "preprocessed_text": "if you get those started",
+      "translated_text": "si tu commences",
+      "postprocessed_text": "Si tu commences",
+      "composition_time": "2018-05-14T19:22:39.317832",
+      "preprocessing_begin": "2018-05-14T19:22:39.392418",
+      "preprocessing_end": "2018-05-14T19:22:41.814592",
+      "translation_begin": "2018-05-14T19:22:41.814693",
+      "translation_end": "2018-05-14T19:22:42.301788",
+      "postprocessing_begin": "2018-05-14T19:22:42.302045",
+      "postprocessing_end": "2018-05-14T19:22:42.333029",
+      "sent_time": "2018-05-14T19:22:42.334125",
+      "eval": {
+        "problems": [
+          "style",
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:26:04.446098"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-14T19:26:06.236426",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-14T19:26:07.091284",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Si vous les d\u00e9marrez.",
+      "normalised_version": "If you get those started."
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Bien s\u00fbr.",
+      "preprocessed_text": "bien s\u00fbr .",
+      "translated_text": "of course .",
+      "postprocessed_text": "Of course.",
+      "composition_time": "2018-05-14T19:22:41.197586",
+      "preprocessing_begin": "2018-05-14T19:22:41.237729",
+      "preprocessing_end": "2018-05-14T19:22:43.749399",
+      "translation_begin": "2018-05-14T19:22:43.749509",
+      "translation_end": "2018-05-14T19:22:44.204130",
+      "postprocessing_begin": "2018-05-14T19:22:44.204797",
+      "postprocessing_end": "2018-05-14T19:22:44.259402",
+      "sent_time": "2018-05-14T19:22:44.260777",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:24:21.529547"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Of course.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "What do you think of the healthy eating initiative that the Government are getting involved in?",
+      "preprocessed_text": "what do you think of the healthy eating initiative that the Government are getting involved in ?",
+      "translated_text": "que pensez @-@ vous de la bonne initiative de manger que le gouvernement est impliqu\u00e9 ?",
+      "postprocessed_text": "Que pensez-vous de la bonne initiative de manger que le gouvernement est impliqu\u00e9 ?",
+      "composition_time": "2018-05-14T19:23:16.218371",
+      "preprocessing_begin": "2018-05-14T19:23:16.288705",
+      "preprocessing_end": "2018-05-14T19:23:18.701302",
+      "translation_begin": "2018-05-14T19:23:18.701455",
+      "translation_end": "2018-05-14T19:23:20.330281",
+      "postprocessing_begin": "2018-05-14T19:23:20.330487",
+      "postprocessing_end": "2018-05-14T19:23:20.384369",
+      "sent_time": "2018-05-14T19:23:20.385745",
+      "eval": {
+        "problems": [
+          "style",
+          "grammar",
+          "meaning"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:26:11.149297"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-14T19:26:14.359353",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-14T19:26:14.973180",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-14T19:26:16.120042",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Que pensez-vous de l\u2019initiative sur l\u2019alimentation saine dans laquelle le gouvernement s\u2019investit\u00a0?",
+      "normalised_version": "What do you think of the healthy eating initiative that the government are getting involved in?"
+    },
+    "25": {
+      "language": "french",
+      "original_text": "On pourrait peut \u00eatre faire des petites tartes au citron avec les fraises ?",
+      "preprocessed_text": "on pourrait peut \u00eatre faire des petites tartes au citron avec les fraises ?",
+      "translated_text": "maybe we could make a little lemon pie with the strawberries ?",
+      "postprocessed_text": "Maybe we could make a little lemon pie with the strawberries?",
+      "composition_time": "2018-05-14T19:23:17.497873",
+      "preprocessing_begin": "2018-05-14T19:23:17.553985",
+      "preprocessing_end": "2018-05-14T19:23:20.248680",
+      "translation_begin": "2018-05-14T19:23:20.248775",
+      "translation_end": "2018-05-14T19:23:21.249844",
+      "postprocessing_begin": "2018-05-14T19:23:21.250066",
+      "postprocessing_end": "2018-05-14T19:23:21.296974",
+      "sent_time": "2018-05-14T19:23:21.297878",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:24:31.036583"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "We could perhaps do little lemon tarts with strawberries?",
+      "normalised_version": "On pourrait peut-\u00eatre faire des petites tartes au citron avec les fraises ?"
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Obesity in France is not such a problem as it is in England",
+      "preprocessed_text": "obesity in France is not such a problem as it is in England",
+      "translated_text": "l&apos; ob\u00e9sit\u00e9 en France n&apos; est pas un tel probl\u00e8me qu&apos; en Angleterre .",
+      "postprocessed_text": "L'ob\u00e9sit\u00e9 en France n'est pas un tel probl\u00e8me qu'en Angleterre.",
+      "composition_time": "2018-05-14T19:23:48.205029",
+      "preprocessing_begin": "2018-05-14T19:23:48.273013",
+      "preprocessing_end": "2018-05-14T19:23:50.675508",
+      "translation_begin": "2018-05-14T19:23:50.675652",
+      "translation_end": "2018-05-14T19:23:52.009157",
+      "postprocessing_begin": "2018-05-14T19:23:52.009540",
+      "postprocessing_end": "2018-05-14T19:23:52.043278",
+      "sent_time": "2018-05-14T19:23:52.044381",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:26:26.853282"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:26:33.260633",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "L\u2019ob\u00e9sit\u00e9 en France n\u2019est pas un probl\u00e8me aussi important qu\u2019en Angleterre.",
+      "normalised_version": "Obesity in France is not such a problem as it is in England."
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Do you think I am right about that?",
+      "preprocessed_text": "do you think I am right about that ?",
+      "translated_text": "tu crois que j&apos; ai raison ?",
+      "postprocessed_text": "Tu crois que j'ai raison ?",
+      "composition_time": "2018-05-14T19:24:01.443415",
+      "preprocessing_begin": "2018-05-14T19:24:01.513332",
+      "preprocessing_end": "2018-05-14T19:24:03.953685",
+      "translation_begin": "2018-05-14T19:24:03.953808",
+      "translation_end": "2018-05-14T19:24:04.853573",
+      "postprocessing_begin": "2018-05-14T19:24:04.853803",
+      "postprocessing_end": "2018-05-14T19:24:04.905327",
+      "sent_time": "2018-05-14T19:24:04.906723",
+      "eval": {
+        "problems": [
+          "style",
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:26:19.825813"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-14T19:26:21.001507",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-14T19:26:22.941704",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Pensez-vous que j\u2019ai raison \u00e0 ce sujet\u00a0?",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "french",
+      "original_text": "L'obesit\u00e9 est devenu un probl\u00e8me mondial.",
+      "preprocessed_text": "l&apos; ob@@ es@@ it\u00e9 est devenu un probl\u00e8me mondial .",
+      "translated_text": "the object became a global problem .",
+      "postprocessed_text": "The object became a global problem.",
+      "composition_time": "2018-05-14T19:24:46.080103",
+      "preprocessing_begin": "2018-05-14T19:24:46.148637",
+      "preprocessing_end": "2018-05-14T19:24:48.727839",
+      "translation_begin": "2018-05-14T19:24:48.727942",
+      "translation_end": "2018-05-14T19:24:49.615495",
+      "postprocessing_begin": "2018-05-14T19:24:49.615744",
+      "postprocessing_end": "2018-05-14T19:24:49.652928",
+      "sent_time": "2018-05-14T19:24:49.654110",
+      "eval": {
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:25:00.049258"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-14T19:25:02.025200",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-14T19:25:02.978934",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-14T19:25:04.753405",
+            true
+          ],
+          [
+            "style",
+            "2018-05-14T19:25:08.461763",
+            false
+          ]
+        ]
+      },
+      "reference_translation": "Obesity has become a worldwide problem.",
+      "normalised_version": "L\u2019ob\u00e9sit\u00e9 est devenue un probl\u00e8me mondial."
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Mais avec des bons produits, on peut donner envie de mieux manger !",
+      "preprocessed_text": "mais avec des bons produits , on peut donner envie de mieux manger !",
+      "translated_text": "but with good stuff , you can make you want to eat better .",
+      "postprocessed_text": "But with good stuff, you can make you want to eat better.",
+      "composition_time": "2018-05-14T19:25:45.618522",
+      "preprocessing_begin": "2018-05-14T19:25:45.655408",
+      "preprocessing_end": "2018-05-14T19:25:48.232876",
+      "translation_begin": "2018-05-14T19:25:48.233091",
+      "translation_end": "2018-05-14T19:25:49.434964",
+      "postprocessing_begin": "2018-05-14T19:25:49.435266",
+      "postprocessing_end": "2018-05-14T19:25:49.483517",
+      "sent_time": "2018-05-14T19:25:49.484887",
+      "eval": {
+        "problems": [
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-14T19:26:37.286012"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-14T19:26:40.811823",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "But with good produce, we can inspire people to want to eat better!",
+      "normalised_version": "Mais avec de bons produits, on peut donner envie de mieux manger !"
+    },
+    "30": {
+      "language": "english",
+      "original_text": "Bearing that in mind I think we should leave the lemon pies and concentrate on a lighter menu",
+      "preprocessed_text": "bearing that in mind I think we should leave the lemon pies and concentrate on a lighter menu",
+      "translated_text": "avec \u00e7a en t\u00eate , je pense qu&apos; on devrait laisser les tartes au citron et se concentrer sur un menu plus l\u00e9ger .",
+      "postprocessed_text": "Avec \u00e7a en t\u00eate, je pense qu'on devrait laisser les tartes au citron et se concentrer sur un menu plus l\u00e9ger.",
+      "composition_time": "2018-05-14T19:26:02.638845",
+      "preprocessing_begin": "2018-05-14T19:26:02.703262",
+      "preprocessing_end": "2018-05-14T19:26:05.046824",
+      "translation_begin": "2018-05-14T19:26:05.047003",
+      "translation_end": "2018-05-14T19:26:06.977938",
+      "postprocessing_begin": "2018-05-14T19:26:06.978164",
+      "postprocessing_end": "2018-05-14T19:26:07.030579",
+      "sent_time": "2018-05-14T19:26:07.031673",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-14T19:27:31.847122"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-14T19:27:36.056644",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Avec \u00e7a en t\u00eate je pense que nous devrions laisser tomber les tartes au citron et nous concentrer sur un menu plus l\u00e9ger.",
+      "normalised_version": "Bearing that in mind I think we should leave the lemon pies and concentrate on a lighter menu."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Vous avez raison, les fraises suffisent amplement !",
+      "preprocessed_text": "vous avez raison , les fraises suffisent amplement !",
+      "translated_text": "you &apos;re right .",
+      "postprocessed_text": "You're right.",
+      "composition_time": "2018-05-14T19:27:25.583301",
+      "preprocessing_begin": "2018-05-14T19:27:25.623196",
+      "preprocessing_end": "2018-05-14T19:27:27.969334",
+      "translation_begin": "2018-05-14T19:27:27.969466",
+      "translation_end": "2018-05-14T19:27:28.735342",
+      "postprocessing_begin": "2018-05-14T19:27:28.735742",
+      "postprocessing_end": "2018-05-14T19:27:28.776360",
+      "sent_time": "2018-05-14T19:27:28.777716",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:27:32.565000"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "You\u2019re right. The strawberries are more than good enough.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "Thanks for your suggestions today, good bye",
+      "preprocessed_text": "thanks for your suggestions today , good bye",
+      "translated_text": "merci pour vos suggestions , au revoir .",
+      "postprocessed_text": "Merci pour vos suggestions, au revoir.",
+      "composition_time": "2018-05-14T19:27:54.033781",
+      "preprocessing_begin": "2018-05-14T19:27:54.095431",
+      "preprocessing_end": "2018-05-14T19:27:56.463991",
+      "translation_begin": "2018-05-14T19:27:56.464085",
+      "translation_end": "2018-05-14T19:27:57.277253",
+      "postprocessing_begin": "2018-05-14T19:27:57.277538",
+      "postprocessing_end": "2018-05-14T19:27:57.328997",
+      "sent_time": "2018-05-14T19:27:57.330000",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-14T19:28:14.810177"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Merci pour vos suggestions aujourd\u2019hui, au revoir.",
+      "normalised_version": "Thanks for your suggestions today, good bye."
+    }
+  },
+  "final_evaluation_user1": {
+    "verbatim_quality": "",
+    "timestamp": "2018-05-14T19:28:48.345148",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "grammaticality": "good",
+    "coherence": "good",
+    "particular_problems": "",
+    "interface": "",
+    "would_use": true,
+    "style": "average",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "verbatim_quality": "",
+    "timestamp": "2018-05-14T19:28:45.858451",
+    "meaning": "excellent",
+    "tech": "There were no technical problems",
+    "grammaticality": "good",
+    "coherence": "excellent",
+    "particular_problems": "",
+    "interface": "",
+    "would_use": true,
+    "style": "excellent",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

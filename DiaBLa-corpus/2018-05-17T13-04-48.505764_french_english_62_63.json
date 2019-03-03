@@ -1,0 +1,1112 @@
+{
+  "start_time": "2018-05-17T13:04:48.505764",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are at home in the evening.",
+      "Vous \u00eates \u00e0 la maison le soir."
+    ],
+    [
+      "You are telling your spouse about the awful day you had.",
+      "Vous racontez \u00e0 votre partenaire la journ\u00e9e difficile que vous venez de passer."
+    ],
+    [
+      "You are listening to your spouse telling you about the awful day they had.",
+      "Vous \u00e9coutez votre partenaire qui vous raconte la journ\u00e9e difficile qu'il/elle vient de passer."
+    ]
+  ],
+  "user1": {
+    "role_num": 2,
+    "lang": "french",
+    "role": [
+      "You are listening to your spouse telling you about the awful day they had.",
+      "Vous \u00e9coutez votre partenaire qui vous raconte la journ\u00e9e difficile qu'il/elle vient de passer."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (Linux; Android 7.0; WAS-LX1A Build/HUAWEIWAS-LX1A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.158 Mobile Safari/537.36",
+    "eval-stage": true
+  },
+  "user2": {
+    "lang": "english",
+    "role": [
+      "You are telling your spouse about the awful day you had.",
+      "Vous racontez \u00e0 votre partenaire la journ\u00e9e difficile que vous venez de passer."
+    ],
+    "rolenum": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 2,
+    "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+    "eval-stage": true
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Coucou, comment s'est pass\u00e9e ta journ\u00e9e ?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> coucou , comment s&apos; est pass\u00e9e ta journ\u00e9e ?",
+      "translated_text": "cuckoo <CONCAT> hey , how was your day ?",
+      "postprocessed_text": "Hey, how was your day?",
+      "composition_time": "2018-05-17T13:05:49.515901",
+      "preprocessing_begin": "2018-05-17T13:05:49.592122",
+      "preprocessing_end": "2018-05-17T13:05:52.056332",
+      "translation_begin": "2018-05-17T13:05:52.056510",
+      "translation_end": "2018-05-17T13:05:52.922159",
+      "postprocessing_begin": "2018-05-17T13:05:52.922404",
+      "postprocessing_end": "2018-05-17T13:05:52.955178",
+      "sent_time": "2018-05-17T13:05:52.956201",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:06:05.074727"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Hi, how did you day go?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Hey, I had a terrible day at the office.",
+      "preprocessed_text": "hey , how was your day ? <CONCAT> hey , I had a terrible day at the office .",
+      "translated_text": "comment s&apos; est pass\u00e9e ta journ\u00e9e ? <CONCAT> j&apos; ai pass\u00e9 une journ\u00e9e horrible au bureau .",
+      "postprocessed_text": "J'ai pass\u00e9 une journ\u00e9e horrible au bureau.",
+      "composition_time": "2018-05-17T13:06:14.262416",
+      "preprocessing_begin": "2018-05-17T13:06:14.327478",
+      "preprocessing_end": "2018-05-17T13:06:16.484012",
+      "translation_begin": "2018-05-17T13:06:16.484125",
+      "translation_end": "2018-05-17T13:06:18.195859",
+      "postprocessing_begin": "2018-05-17T13:06:18.196259",
+      "postprocessing_end": "2018-05-17T13:06:18.250933",
+      "sent_time": "2018-05-17T13:06:18.252555",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:06:29.923663"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Salut, j'ai eu une journ\u00e9e horrible au boulot.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Raconte-moi.",
+      "preprocessed_text": "j&apos; ai pass\u00e9 une journ\u00e9e horrible au bureau . <CONCAT> raconte @-@ moi .",
+      "translated_text": "I had a horrible day at the office . <CONCAT> tell me .",
+      "postprocessed_text": "Tell me.",
+      "composition_time": "2018-05-17T13:07:15.780536",
+      "preprocessing_begin": "2018-05-17T13:07:15.851766",
+      "preprocessing_end": "2018-05-17T13:07:18.146323",
+      "translation_begin": "2018-05-17T13:07:18.146517",
+      "translation_end": "2018-05-17T13:07:19.900263",
+      "postprocessing_begin": "2018-05-17T13:07:19.900653",
+      "postprocessing_end": "2018-05-17T13:07:19.937300",
+      "sent_time": "2018-05-17T13:07:19.938885",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:07:23.841572"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Tell me about it.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Que s'est-il pass\u00e9 ?",
+      "preprocessed_text": "raconte @-@ moi . <CONCAT> que s&apos; est @-@ il pass\u00e9 ?",
+      "translated_text": "tell me . <CONCAT> what happened ?",
+      "postprocessed_text": "What happened?",
+      "composition_time": "2018-05-17T13:07:15.780536",
+      "preprocessing_begin": "2018-05-17T13:07:15.851766",
+      "preprocessing_end": "2018-05-17T13:07:18.146323",
+      "translation_begin": "2018-05-17T13:07:18.146517",
+      "translation_end": "2018-05-17T13:07:19.900263",
+      "postprocessing_begin": "2018-05-17T13:07:19.900653",
+      "postprocessing_end": "2018-05-17T13:07:19.937300",
+      "sent_time": "2018-05-17T13:07:19.939848",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:07:24.649301"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "What happened?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "I accidentally transferred \u00e2\u0082\u00ac1 billion to the wrong customer account!",
+      "preprocessed_text": "what happened ? <CONCAT> I accidentally transferred \u00e2 \u0082 \u00ac 1 billion to the wrong customer account !",
+      "translated_text": "que s&apos; est @-@ il pass\u00e9 ? <CONCAT> j&apos; ai accidentellement transf\u00e9r\u00e9 un milliard sur le mauvais compte client !",
+      "postprocessed_text": "J'ai accidentellement transf\u00e9r\u00e9 un milliard sur le mauvais compte client !",
+      "composition_time": "2018-05-17T13:07:49.059629",
+      "preprocessing_begin": "2018-05-17T13:07:49.128849",
+      "preprocessing_end": "2018-05-17T13:07:51.392924",
+      "translation_begin": "2018-05-17T13:07:51.393026",
+      "translation_end": "2018-05-17T13:07:53.086363",
+      "postprocessing_begin": "2018-05-17T13:07:53.086659",
+      "postprocessing_end": "2018-05-17T13:07:53.133693",
+      "sent_time": "2018-05-17T13:07:53.134919",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:08:43.615100"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "J'ai transf\u00e9r\u00e9 par accident 1 milliard d\u2019euros sur le mauvais compte client.",
+      "normalised_version": "I accidentally transferred \u20ac1 billion to the wrong customer account!"
+    },
+    "5": {
+      "language": "english",
+      "original_text": "My boss was so angry with me.",
+      "preprocessed_text": "I accidentally transferred \u00e2 \u0082 \u00ac 1 billion to the wrong customer account ! <CONCAT> my boss was so angry with me .",
+      "translated_text": "j&apos; ai accidentellement transf\u00e9r\u00e9 un milliard sur le mauvais compte client ! <CONCAT> mon patron \u00e9tait tellement en col\u00e8re contre moi .",
+      "postprocessed_text": "Mon patron \u00e9tait tellement en col\u00e8re contre moi.",
+      "composition_time": "2018-05-17T13:07:58.181198",
+      "preprocessing_begin": "2018-05-17T13:07:58.241098",
+      "preprocessing_end": "2018-05-17T13:08:00.628621",
+      "translation_begin": "2018-05-17T13:08:00.628703",
+      "translation_end": "2018-05-17T13:08:02.081879",
+      "postprocessing_begin": "2018-05-17T13:08:02.082111",
+      "postprocessing_end": "2018-05-17T13:08:02.126117",
+      "sent_time": "2018-05-17T13:08:02.127215",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:08:44.490425"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Ma chef \u00e9tait tellement en col\u00e8re contre moi.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "She told me that if we cannot get the money back then I'll need to find the 1 billion euros myself.",
+      "preprocessed_text": "my boss was so angry with me . <CONCAT> she told me that if we cannot get the money back then I &apos;ll need to find the 1 billion euros myself .",
+      "translated_text": "mon patron \u00e9tait tellement en col\u00e8re contre moi . <CONCAT> elle m&apos; a dit que si on ne pouvait pas r\u00e9cup\u00e9rer l&apos; argent , j&apos; aurais besoin de trouver l&apos; argent moi @-@ m\u00eame .",
+      "postprocessed_text": "Elle m'a dit que si on ne pouvait pas r\u00e9cup\u00e9rer l'argent, j'aurais besoin de trouver l'argent moi-m\u00eame.",
+      "composition_time": "2018-05-17T13:08:45.676187",
+      "preprocessing_begin": "2018-05-17T13:08:45.740661",
+      "preprocessing_end": "2018-05-17T13:08:48.145493",
+      "translation_begin": "2018-05-17T13:08:48.145597",
+      "translation_end": "2018-05-17T13:08:50.976951",
+      "postprocessing_begin": "2018-05-17T13:08:50.977383",
+      "postprocessing_end": "2018-05-17T13:08:51.012362",
+      "sent_time": "2018-05-17T13:08:51.013491",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T13:09:03.350407"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ],
+        "verbatim": "Incoh\u00e9rence feminin/masculin avec le pr\u00e9c\u00e9dent message",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-17T13:09:07.716440",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Incoh\u00e9rence feminin/masculin avec le pr\u00e9c\u00e9dent message",
+            "2018-05-17T13:09:36.090984",
+            "2018-05-17T13:09:36.090984"
+          ]
+        ]
+      },
+      "reference_translation": "Elle m'a dit que si nous ne pouvions pas r\u00e9cup\u00e9rer l'argent je devrai trouver 1 milliard d'euros moi-m\u00eame.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "N'y a-t-il pas une autre solution ?",
+      "preprocessed_text": "elle m&apos; a dit que si on ne pouvait pas r\u00e9cup\u00e9rer l&apos; argent , j&apos; aurais besoin de trouver l&apos; argent moi @-@ m\u00eame . <CONCAT> n&apos; y a @-@ t @-@ il pas une autre solution ?",
+      "translated_text": "she told me if we couldn &apos;t get the money back , I &apos;d need to find the money myself . <CONCAT> isn &apos;t there another way ?",
+      "postprocessed_text": "Isn't there another way?",
+      "composition_time": "2018-05-17T13:10:03.483584",
+      "preprocessing_begin": "2018-05-17T13:10:03.558391",
+      "preprocessing_end": "2018-05-17T13:10:06.082865",
+      "translation_begin": "2018-05-17T13:10:06.082936",
+      "translation_end": "2018-05-17T13:10:08.245039",
+      "postprocessing_begin": "2018-05-17T13:10:08.245382",
+      "postprocessing_end": "2018-05-17T13:10:08.278328",
+      "sent_time": "2018-05-17T13:10:08.279777",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:10:20.614729"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Is there no other solution?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Ce n'est pas possible !",
+      "preprocessed_text": "n&apos; y a @-@ t @-@ il pas une autre solution ? <CONCAT> ce n&apos; est pas possible !",
+      "translated_text": "is there no other way ? <CONCAT> no way !",
+      "postprocessed_text": "No way!",
+      "composition_time": "2018-05-17T13:10:10.378729",
+      "preprocessing_begin": "2018-05-17T13:10:10.444677",
+      "preprocessing_end": "2018-05-17T13:10:13.097838",
+      "translation_begin": "2018-05-17T13:10:13.097924",
+      "translation_end": "2018-05-17T13:10:14.104941",
+      "postprocessing_begin": "2018-05-17T13:10:14.105234",
+      "postprocessing_end": "2018-05-17T13:10:14.140535",
+      "sent_time": "2018-05-17T13:10:14.141737",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:10:22.304196"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "That\u2019s not possible!",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "I don't know.",
+      "preprocessed_text": "no way ! <CONCAT> I don &apos;t know .",
+      "translated_text": "pas possible ! <CONCAT> je ne sais pas .",
+      "postprocessed_text": "Je ne sais pas.",
+      "composition_time": "2018-05-17T13:10:50.433653",
+      "preprocessing_begin": "2018-05-17T13:10:50.500011",
+      "preprocessing_end": "2018-05-17T13:10:52.631070",
+      "translation_begin": "2018-05-17T13:10:52.631146",
+      "translation_end": "2018-05-17T13:10:55.459053",
+      "postprocessing_begin": "2018-05-17T13:10:55.459485",
+      "postprocessing_end": "2018-05-17T13:10:55.500405",
+      "sent_time": "2018-05-17T13:10:55.501899",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:28:53.091236"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je ne sais pas.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "If we cannot get the money back, can you give me 1 billion euros to pay back to the company?",
+      "preprocessed_text": "I don &apos;t know . <CONCAT> if we cannot get the money back , can you give me 1 billion euros to pay back to the company ?",
+      "translated_text": "je ne sais pas . <CONCAT> si on ne r\u00e9cup\u00e8re pas l&apos; argent , pouvez @-@ vous me donner 1 milliard d&apos; euros pour rembourser la soci\u00e9t\u00e9 ?",
+      "postprocessed_text": "Si on ne r\u00e9cup\u00e8re pas l'argent, pouvez-vous me donner 1 milliard d'euros pour rembourser la soci\u00e9t\u00e9 ?",
+      "composition_time": "2018-05-17T13:10:50.433653",
+      "preprocessing_begin": "2018-05-17T13:10:50.500011",
+      "preprocessing_end": "2018-05-17T13:10:52.631070",
+      "translation_begin": "2018-05-17T13:10:52.631146",
+      "translation_end": "2018-05-17T13:10:55.459053",
+      "postprocessing_begin": "2018-05-17T13:10:55.459485",
+      "postprocessing_end": "2018-05-17T13:10:55.500405",
+      "sent_time": "2018-05-17T13:10:55.502470",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T13:12:01.953758"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "Vouvoiement /tutoiement",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T13:12:09.471037",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Vouvoiement /tutoiement",
+            "2018-05-17T13:12:24.439612",
+            "2018-05-17T13:12:24.439612"
+          ]
+        ]
+      },
+      "reference_translation": "Si on n\u2019arrive pas \u00e0 r\u00e9cup\u00e9rer l'argent, est-ce que tu peux me donner 1 milliard d'euros pour rembourser l\u2019entreprise ?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Mais nous ne les avons pas !",
+      "preprocessed_text": "si on ne r\u00e9cup\u00e8re pas l&apos; argent , pouvez @-@ vous me donner 1 milliard d&apos; euros pour rembourser la soci\u00e9t\u00e9 ? <CONCAT> mais nous ne les avons pas !",
+      "translated_text": "if we don &apos;t get the money , can you give me 1 billion euros to pay off the company ? <CONCAT> but we don &apos;t have it !",
+      "postprocessed_text": "But we don't have it!",
+      "composition_time": "2018-05-17T13:12:38.340576",
+      "preprocessing_begin": "2018-05-17T13:12:38.400394",
+      "preprocessing_end": "2018-05-17T13:12:40.871821",
+      "translation_begin": "2018-05-17T13:12:40.871923",
+      "translation_end": "2018-05-17T13:12:43.542280",
+      "postprocessing_begin": "2018-05-17T13:12:43.542656",
+      "postprocessing_end": "2018-05-17T13:12:43.595335",
+      "sent_time": "2018-05-17T13:12:43.596773",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:14:32.942525"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "But we don\u2019t have them!",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "N'est-il pas possible de faire appel \u00e0 un avocat ?",
+      "preprocessed_text": "mais nous ne les avons pas ! <CONCAT> n&apos; est @-@ il pas possible de faire appel \u00e0 un avocat ?",
+      "translated_text": "but we don &apos;t have them ! <CONCAT> isn &apos;t it possible to get a lawyer ?",
+      "postprocessed_text": "Isn't it possible to get a lawyer?",
+      "composition_time": "2018-05-17T13:13:08.069886",
+      "preprocessing_begin": "2018-05-17T13:13:08.137469",
+      "preprocessing_end": "2018-05-17T13:13:10.303594",
+      "translation_begin": "2018-05-17T13:13:10.303704",
+      "translation_end": "2018-05-17T13:13:11.647831",
+      "postprocessing_begin": "2018-05-17T13:13:11.648050",
+      "postprocessing_end": "2018-05-17T13:13:11.696501",
+      "sent_time": "2018-05-17T13:13:11.697553",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:14:32.945822"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Can\u2019t you call on a lawyer?",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "Yes, I think you're right.",
+      "preprocessed_text": "isn &apos;t it possible to get a lawyer ? <CONCAT> yes , I think you &apos;re right .",
+      "translated_text": "n&apos; est @-@ il pas possible d&apos; avoir un avocat ? <CONCAT> oui , je pense que vous avez raison .",
+      "postprocessed_text": "Oui, je pense que vous avez raison.",
+      "composition_time": "2018-05-17T13:13:46.773874",
+      "preprocessing_begin": "2018-05-17T13:13:46.839195",
+      "preprocessing_end": "2018-05-17T13:13:49.210321",
+      "translation_begin": "2018-05-17T13:13:49.210396",
+      "translation_end": "2018-05-17T13:13:52.590934",
+      "postprocessing_begin": "2018-05-17T13:13:52.591151",
+      "postprocessing_end": "2018-05-17T13:13:52.639897",
+      "sent_time": "2018-05-17T13:13:52.640530",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T13:15:39.693219"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "Vous/tu",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T13:15:42.936752",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Vous/tu",
+            "2018-05-17T13:15:50.251551",
+            "2018-05-17T13:15:50.251551"
+          ]
+        ]
+      },
+      "reference_translation": "Oui, je pense que tu as raison.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "english",
+      "original_text": "We should get a lawyer and explain that this was a mistake.",
+      "preprocessed_text": "yes , I think you &apos;re right . <CONCAT> we should get a lawyer and explain that this was a mistake .",
+      "translated_text": "oui , je pense que vous avez raison . <CONCAT> nous devrions prendre un avocat et expliquer que c&apos; \u00e9tait une erreur .",
+      "postprocessed_text": "Nous devrions prendre un avocat et expliquer que c'\u00e9tait une erreur.",
+      "composition_time": "2018-05-17T13:13:46.773874",
+      "preprocessing_begin": "2018-05-17T13:13:46.839195",
+      "preprocessing_end": "2018-05-17T13:13:49.210321",
+      "translation_begin": "2018-05-17T13:13:49.210396",
+      "translation_end": "2018-05-17T13:13:52.590934",
+      "postprocessing_begin": "2018-05-17T13:13:52.591151",
+      "postprocessing_end": "2018-05-17T13:13:52.639897",
+      "sent_time": "2018-05-17T13:13:52.640990",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:15:38.384550"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Nous devons trouver un avocat et expliquer que c'\u00e9tait une erreur.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "But if the lawyer can't help us then maybe we should ask a sorcerer to help us to cast a spell on my boss.",
+      "preprocessed_text": "we should get a lawyer and explain that this was a mistake . <CONCAT> but if the lawyer can &apos;t help us then maybe we should ask a sorcerer to help us to cast a spell on my boss .",
+      "translated_text": "nous devrions prendre un avocat et expliquer que c&apos; \u00e9tait une erreur . <CONCAT> mais si l&apos; avocat ne peut pas nous aider alors peut @-@ \u00eatre que nous devrions demander \u00e0 un sorcier de nous aider \u00e0 jeter un sort sur mon patron .",
+      "postprocessed_text": "Mais si l'avocat ne peut pas nous aider alors peut-\u00eatre que nous devrions demander \u00e0 un sorcier de nous aider \u00e0 jeter un sort sur mon patron.",
+      "composition_time": "2018-05-17T13:14:18.718300",
+      "preprocessing_begin": "2018-05-17T13:14:18.780700",
+      "preprocessing_end": "2018-05-17T13:14:21.125406",
+      "translation_begin": "2018-05-17T13:14:21.125472",
+      "translation_end": "2018-05-17T13:14:24.506051",
+      "postprocessing_begin": "2018-05-17T13:14:24.506269",
+      "postprocessing_end": "2018-05-17T13:14:24.541622",
+      "sent_time": "2018-05-17T13:14:24.542632",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:16:27.001010"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Mais si l'avocat ne peut pas nous aider alors peut-\u00eatre que nous devrions demander \u00e0 un sorcier de jeter un sort contre ma chef.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "Do you know any good sorcerers?",
+      "preprocessed_text": "but if the lawyer can &apos;t help us then maybe we should ask a sorcerer to help us to cast a spell on my boss . <CONCAT> do you know any good sorcer@@ ers ?",
+      "translated_text": "mais si l&apos; avocat ne peut pas nous aider alors peut @-@ \u00eatre que nous devrions demander \u00e0 un sorcier de nous aider \u00e0 jeter un sort sur mon patron . <CONCAT> connaissez @-@ vous de bons sorciers ?",
+      "postprocessed_text": "Connaissez-vous de bons sorciers ?",
+      "composition_time": "2018-05-17T13:14:27.179876",
+      "preprocessing_begin": "2018-05-17T13:14:27.246057",
+      "preprocessing_end": "2018-05-17T13:14:29.671662",
+      "translation_begin": "2018-05-17T13:14:29.671748",
+      "translation_end": "2018-05-17T13:14:32.881429",
+      "postprocessing_begin": "2018-05-17T13:14:32.881671",
+      "postprocessing_end": "2018-05-17T13:14:32.934499",
+      "sent_time": "2018-05-17T13:14:32.935957",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:16:25.489514"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Est-ce que tu connais un bon sorcier ?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Pas en particulier",
+      "preprocessed_text": "connaissez @-@ vous de bons sorciers ? <CONCAT> pas en particulier",
+      "translated_text": "do you know any good witches ? <CONCAT> not in particular .",
+      "postprocessed_text": "Not in particular.",
+      "composition_time": "2018-05-17T13:16:06.835563",
+      "preprocessing_begin": "2018-05-17T13:16:06.899724",
+      "preprocessing_end": "2018-05-17T13:16:09.160858",
+      "translation_begin": "2018-05-17T13:16:09.160927",
+      "translation_end": "2018-05-17T13:16:10.159997",
+      "postprocessing_begin": "2018-05-17T13:16:10.160223",
+      "postprocessing_end": "2018-05-17T13:16:10.200220",
+      "sent_time": "2018-05-17T13:16:10.201275",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:16:38.785164"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Not especially.",
+      "normalised_version": "Pas en particulier."
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Mais nous en trouverons s\u00fbrement dans la for\u00eat",
+      "preprocessed_text": "pas en particulier <CONCAT> mais nous en trouverons s\u00fbrement dans la for\u00eat",
+      "translated_text": "not in particular <CONCAT> but we &apos;ll probably find some in the forest",
+      "postprocessed_text": "But we'll probably find some in the forest",
+      "composition_time": "2018-05-17T13:16:20.000617",
+      "preprocessing_begin": "2018-05-17T13:16:20.064342",
+      "preprocessing_end": "2018-05-17T13:16:22.195887",
+      "translation_begin": "2018-05-17T13:16:22.195961",
+      "translation_end": "2018-05-17T13:16:23.285112",
+      "postprocessing_begin": "2018-05-17T13:16:23.285393",
+      "postprocessing_end": "2018-05-17T13:16:23.333281",
+      "sent_time": "2018-05-17T13:16:23.334363",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:16:39.370948"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "We\u2019ll surely be able to find one in the forest.",
+      "normalised_version": "Mais nous en trouverons s\u00fbrement dans la for\u00eat."
+    },
+    "19": {
+      "language": "english",
+      "original_text": "I don't like going into the woods.",
+      "preprocessed_text": "but we &apos;ll probably find some in the forest <CONCAT> I don &apos;t like going into the woods .",
+      "translated_text": "mais on en trouvera s\u00fbrement dans la for\u00eat . <CONCAT> je n&apos; aime pas aller dans les bois .",
+      "postprocessed_text": "Je n'aime pas aller dans les bois.",
+      "composition_time": "2018-05-17T13:17:08.106340",
+      "preprocessing_begin": "2018-05-17T13:17:08.177207",
+      "preprocessing_end": "2018-05-17T13:17:10.520076",
+      "translation_begin": "2018-05-17T13:17:10.520188",
+      "translation_end": "2018-05-17T13:17:14.228002",
+      "postprocessing_begin": "2018-05-17T13:17:14.228232",
+      "postprocessing_end": "2018-05-17T13:17:14.261020",
+      "sent_time": "2018-05-17T13:17:14.261969",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:19:19.078895"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je n'aime pas aller dans la for\u00eat.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "Could you go for me and find the best sorcerer for less than 1 billion euros?",
+      "preprocessed_text": "I don &apos;t like going into the woods . <CONCAT> could you go for me and find the best sorcerer for less than 1 billion euros ?",
+      "translated_text": "je n&apos; aime pas aller dans les bois . <CONCAT> peux @-@ tu aller chercher le meilleur sorcier pour moins de 1 milliard d&apos; euros ?",
+      "postprocessed_text": "Peux-tu aller chercher le meilleur sorcier pour moins de 1 milliard d'euros ?",
+      "composition_time": "2018-05-17T13:17:08.106340",
+      "preprocessing_begin": "2018-05-17T13:17:08.177207",
+      "preprocessing_end": "2018-05-17T13:17:10.520076",
+      "translation_begin": "2018-05-17T13:17:10.520188",
+      "translation_end": "2018-05-17T13:17:14.228002",
+      "postprocessing_begin": "2018-05-17T13:17:14.228232",
+      "postprocessing_end": "2018-05-17T13:17:14.261020",
+      "sent_time": "2018-05-17T13:17:14.262409",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:19:21.946278"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Est-ce que tu peux y aller et trouver le meilleur sorcier pour moins de 1 milliard d\u2019euros ?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Es-tu stupide ?",
+      "preprocessed_text": "peux @-@ tu aller chercher le meilleur sorcier pour moins de 1 milliard d&apos; euros ? <CONCAT> es @-@ tu stupide ?",
+      "translated_text": "can you get the best sorcerer for less than a billion euros ? <CONCAT> are you stupid ?",
+      "postprocessed_text": "Are you stupid?",
+      "composition_time": "2018-05-17T13:19:14.054209",
+      "preprocessing_begin": "2018-05-17T13:19:14.130806",
+      "preprocessing_end": "2018-05-17T13:19:16.741840",
+      "translation_begin": "2018-05-17T13:19:16.741987",
+      "translation_end": "2018-05-17T13:19:19.021221",
+      "postprocessing_begin": "2018-05-17T13:19:19.021542",
+      "postprocessing_end": "2018-05-17T13:19:19.068745",
+      "sent_time": "2018-05-17T13:19:19.070086",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-17T13:27:40.208005"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "other"
+        ],
+        "verbatim": "Translation error seems to have caused a problem.",
+        "problem_history": [
+          [
+            "other",
+            "2018-05-17T13:27:41.984306",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Translation error seems to have caused a problem.",
+            "2018-05-17T13:27:50.474830",
+            "2018-05-17T13:27:50.474830"
+          ]
+        ]
+      },
+      "reference_translation": "Are you stupid?",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Payer encore plus ?",
+      "preprocessed_text": "es @-@ tu stupide ? <CONCAT> payer encore plus ?",
+      "translated_text": "are you stupid ? <CONCAT> pay even more ?",
+      "postprocessed_text": "Pay even more?",
+      "composition_time": "2018-05-17T13:19:14.054209",
+      "preprocessing_begin": "2018-05-17T13:19:14.130806",
+      "preprocessing_end": "2018-05-17T13:19:16.741840",
+      "translation_begin": "2018-05-17T13:19:16.741987",
+      "translation_end": "2018-05-17T13:19:19.021221",
+      "postprocessing_begin": "2018-05-17T13:19:19.021542",
+      "postprocessing_end": "2018-05-17T13:19:19.068745",
+      "sent_time": "2018-05-17T13:19:19.070759",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-17T13:22:52.460411"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "other"
+        ],
+        "verbatim": "The translation system does not seem to have understood than I meant less than 1 billion instead of more than 1 billion",
+        "problem_history": [
+          [
+            "other",
+            "2018-05-17T13:23:21.531952",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "The translation system does not seem to have understood than I meant less than 1 billion instead of more than 1 billion",
+            "2018-05-17T13:23:21.876682",
+            "2018-05-17T13:23:21.876682"
+          ]
+        ]
+      },
+      "reference_translation": "Pay even more?",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Et si cela ne marche pas ?",
+      "preprocessed_text": "payer encore plus ? <CONCAT> et si cela ne marche pas ?",
+      "translated_text": "pay even more ? <CONCAT> what if it doesn &apos;t work ?",
+      "postprocessed_text": "What if it doesn't work?",
+      "composition_time": "2018-05-17T13:19:38.543412",
+      "preprocessing_begin": "2018-05-17T13:19:38.581504",
+      "preprocessing_end": "2018-05-17T13:19:41.265978",
+      "translation_begin": "2018-05-17T13:19:41.266035",
+      "translation_end": "2018-05-17T13:19:42.511089",
+      "postprocessing_begin": "2018-05-17T13:19:42.511304",
+      "postprocessing_end": "2018-05-17T13:19:42.563061",
+      "sent_time": "2018-05-17T13:19:42.564491",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:27:39.288334"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "And what if it doesn\u2019t work?",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "I said for less than 1 billion euros not more than 1 billion euros.",
+      "preprocessed_text": "what if it doesn &apos;t work ? <CONCAT> I said for less than 1 billion euros not more than 1 billion euros .",
+      "translated_text": "et si \u00e7a ne marche pas ? <CONCAT> pour moins de 1 milliard d&apos; euros , pas plus de 1 milliard d&apos; euros .",
+      "postprocessed_text": "Pour moins de 1 milliard d'euros, pas plus de 1 milliard d'euros.",
+      "composition_time": "2018-05-17T13:20:09.568569",
+      "preprocessing_begin": "2018-05-17T13:20:09.638684",
+      "preprocessing_end": "2018-05-17T13:20:11.765778",
+      "translation_begin": "2018-05-17T13:20:11.765875",
+      "translation_end": "2018-05-17T13:20:13.916678",
+      "postprocessing_begin": "2018-05-17T13:20:13.916916",
+      "postprocessing_end": "2018-05-17T13:20:13.957168",
+      "sent_time": "2018-05-17T13:20:13.959045",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:22:47.674224"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "J'ai dit pour moins de 1 milliard d'euros, pas pour plus de 1 milliard d'euros.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "Et o\u00f9 vais-je trouver un milliard d'euros ?",
+      "preprocessed_text": "pour moins de 1 milliard d&apos; euros , pas plus de 1 milliard d&apos; euros . <CONCAT> et o\u00f9 vais @-@ je trouver un milliard d&apos; euros ?",
+      "translated_text": "for less than a billion euros , no more than a billion euros . <CONCAT> where will I get a billion euros ?",
+      "postprocessed_text": "Where will I get a billion euros?",
+      "composition_time": "2018-05-17T13:23:05.718943",
+      "preprocessing_begin": "2018-05-17T13:23:05.758193",
+      "preprocessing_end": "2018-05-17T13:23:07.968735",
+      "translation_begin": "2018-05-17T13:23:07.968849",
+      "translation_end": "2018-05-17T13:23:09.929461",
+      "postprocessing_begin": "2018-05-17T13:23:09.929679",
+      "postprocessing_end": "2018-05-17T13:23:09.974714",
+      "sent_time": "2018-05-17T13:23:09.975928",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:27:33.672919"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "And where am I going to find a billion euros?",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "Mes parents ne voudront jamais me pr\u00eater une telle somme.",
+      "preprocessed_text": "et o\u00f9 vais @-@ je trouver un milliard d&apos; euros ? <CONCAT> mes parents ne voudront jamais me pr\u00eater une telle somme .",
+      "translated_text": "where will I get a billion dollars ? <CONCAT> my parents won &apos;t lend me that kind of money .",
+      "postprocessed_text": "My parents won't lend me that kind of money.",
+      "composition_time": "2018-05-17T13:23:20.585482",
+      "preprocessing_begin": "2018-05-17T13:23:20.653020",
+      "preprocessing_end": "2018-05-17T13:23:23.270789",
+      "translation_begin": "2018-05-17T13:23:23.270886",
+      "translation_end": "2018-05-17T13:23:25.390549",
+      "postprocessing_begin": "2018-05-17T13:23:25.390871",
+      "postprocessing_end": "2018-05-17T13:23:25.448656",
+      "sent_time": "2018-05-17T13:23:25.450266",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:27:35.008077"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "My parents won\u2019t want to lend me such a sum.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "OK then we will need to steal the money from the bank.",
+      "preprocessed_text": "my parents won &apos;t lend me that kind of money . <CONCAT> OK then we will need to steal the money from the bank .",
+      "translated_text": "mes parents ne me pr\u00ea@@ teront pas autant d&apos; argent . <CONCAT> ok alors nous aurons besoin de voler l&apos; argent de la banque .",
+      "postprocessed_text": "Ok alors nous aurons besoin de voler l'argent de la banque.",
+      "composition_time": "2018-05-17T13:23:44.253984",
+      "preprocessing_begin": "2018-05-17T13:23:44.324416",
+      "preprocessing_end": "2018-05-17T13:23:46.471064",
+      "translation_begin": "2018-05-17T13:23:46.471183",
+      "translation_end": "2018-05-17T13:23:48.675930",
+      "postprocessing_begin": "2018-05-17T13:23:48.676168",
+      "postprocessing_end": "2018-05-17T13:23:48.714663",
+      "sent_time": "2018-05-17T13:23:48.715703",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:28:49.243807"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "OK alors nous devons voler cet argent \u00e0 une banque.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "french",
+      "original_text": "Je vais me coucher",
+      "preprocessed_text": "ok alors nous aurons besoin de voler l&apos; argent de la banque . <CONCAT> je vais me coucher",
+      "translated_text": "okay , then we &apos;ll need to steal the money from the bank . <CONCAT> I &apos;m going to bed .",
+      "postprocessed_text": "I'm going to bed.",
+      "composition_time": "2018-05-17T13:25:26.980690",
+      "preprocessing_begin": "2018-05-17T13:25:27.056696",
+      "preprocessing_end": "2018-05-17T13:25:29.600672",
+      "translation_begin": "2018-05-17T13:25:29.600797",
+      "translation_end": "2018-05-17T13:25:31.464954",
+      "postprocessing_begin": "2018-05-17T13:25:31.465228",
+      "postprocessing_end": "2018-05-17T13:25:31.534149",
+      "sent_time": "2018-05-17T13:25:31.535250",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T13:27:26.360606"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-17T13:27:28.304731",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m going to sleep.",
+      "normalised_version": "Je vais me coucher."
+    },
+    "29": {
+      "language": "french",
+      "original_text": "On r\u00e9fl\u00e9chira demain",
+      "preprocessed_text": "je vais me coucher <CONCAT> on r\u00e9fl\u00e9ch@@ ira demain",
+      "translated_text": "I &apos;m going to bed . <CONCAT> we &apos;ll think about it tomorrow .",
+      "postprocessed_text": "We'll think about it tomorrow.",
+      "composition_time": "2018-05-17T13:25:45.038027",
+      "preprocessing_begin": "2018-05-17T13:25:45.078792",
+      "preprocessing_end": "2018-05-17T13:25:47.405234",
+      "translation_begin": "2018-05-17T13:25:47.405308",
+      "translation_end": "2018-05-17T13:25:48.749173",
+      "postprocessing_begin": "2018-05-17T13:25:48.749439",
+      "postprocessing_end": "2018-05-17T13:25:48.804688",
+      "sent_time": "2018-05-17T13:25:48.806136",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T13:27:29.320456"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "We\u2019ll think about it tomorrow.",
+      "normalised_version": "On r\u00e9fl\u00e9chira demain."
+    },
+    "30": {
+      "language": "english",
+      "original_text": "OK, I'm sorry for all the stress that my awful day has caused.",
+      "preprocessed_text": "we &apos;ll think about it tomorrow . <CONCAT> OK , I &apos;m sorry for all the stress that my awful day has caused .",
+      "translated_text": "nous y r\u00e9fl\u00e9ch@@ irons demain . <CONCAT> ok , je suis d\u00e9sol\u00e9 pour tout le stress que mon horrible jour a caus\u00e9 .",
+      "postprocessed_text": "Ok, je suis d\u00e9sol\u00e9 pour tout le stress que mon horrible jour a caus\u00e9.",
+      "composition_time": "2018-05-17T13:27:05.427043",
+      "preprocessing_begin": "2018-05-17T13:27:05.490564",
+      "preprocessing_end": "2018-05-17T13:27:07.999868",
+      "translation_begin": "2018-05-17T13:27:07.999962",
+      "translation_end": "2018-05-17T13:27:09.808248",
+      "postprocessing_begin": "2018-05-17T13:27:09.808487",
+      "postprocessing_end": "2018-05-17T13:27:09.847057",
+      "sent_time": "2018-05-17T13:27:09.848081",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T13:28:12.081333"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "other"
+        ],
+        "verbatim": "Pas naturel",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T13:28:23.606549",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-17T13:28:24.196846",
+            false
+          ],
+          [
+            "other",
+            "2018-05-17T13:28:26.341395",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Pas naturel",
+            "2018-05-17T13:28:40.789943",
+            "2018-05-17T13:28:40.789943"
+          ]
+        ]
+      },
+      "reference_translation": "OK, je suis d\u00e9sol\u00e9 pour tout le stress que mon horrible journ\u00e9e a provoqu\u00e9.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "style": "good",
+    "would_use": true,
+    "grammaticality": "good",
+    "verbatim_quality": "",
+    "meaning": "good",
+    "particular_problems": "vouvoiement /tutoiement\r\nadjectifs plac\u00e9s avant le nom, pas forc\u00e9ment tr\u00e8s naturel en francais\r\ngenre",
+    "interface": "",
+    "tech": "There were no technical problems",
+    "coherence": "average",
+    "timestamp": "2018-05-17T13:30:48.161825",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "style": "excellent",
+    "would_use": true,
+    "grammaticality": "excellent",
+    "verbatim_quality": "it felt very natural but it was quite slow. i'm not sure if that was caused by the translation model or my partner.",
+    "meaning": "excellent",
+    "particular_problems": "i think there was a mis-translation of \"less than 1 billion euros\" because my partner asked how could we get \"more than 1 billion euros\".",
+    "interface": "",
+    "tech": "There were no technical problems",
+    "coherence": "good",
+    "timestamp": "2018-05-17T13:29:08.290512",
+    "word_choice": "excellent",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

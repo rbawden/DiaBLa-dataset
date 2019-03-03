@@ -1,0 +1,1410 @@
+{
+  "start_time": "2018-05-16T19:01:34.661055",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a bar.",
+      "Vous \u00eates dans un bar."
+    ],
+    [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ]
+  ],
+  "user1": {
+    "role_num": 2,
+    "lang": "french",
+    "role": [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 2,
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+    "eval-stage": true
+  },
+  "user2": {
+    "lang": "english",
+    "role": [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    "rolenum": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60 [FBAN/FBIOS;FBAV/168.0.0.57.90;FBBV/103647182;FBDV/iPad3,4;FBMD/iPad;FBSN/iOS;FBSV/10.3.3;FBSS/2;FBCR/;FBID/tablet;FBLC/en_GB;FBOP/5;FBRV/0]",
+    "eval-stage": true
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Good evening.",
+      "preprocessed_text": "good evening .",
+      "translated_text": "bonsoir .",
+      "postprocessed_text": "Bonsoir.",
+      "composition_time": "2018-05-16T19:02:29.133099",
+      "preprocessing_begin": "2018-05-16T19:02:29.210727",
+      "preprocessing_end": "2018-05-16T19:02:31.745843",
+      "translation_begin": "2018-05-16T19:02:31.745950",
+      "translation_end": "2018-05-16T19:02:32.823541",
+      "postprocessing_begin": "2018-05-16T19:02:32.823817",
+      "postprocessing_end": "2018-05-16T19:02:32.855683",
+      "sent_time": "2018-05-16T19:02:32.856744",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:03:45.906204"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Bonsoir.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "What would you like?",
+      "preprocessed_text": "what would you like ?",
+      "translated_text": "qu&apos; est @-@ ce que tu veux ?",
+      "postprocessed_text": "Qu'est-ce que tu veux ?",
+      "composition_time": "2018-05-16T19:02:29.133099",
+      "preprocessing_begin": "2018-05-16T19:02:29.210727",
+      "preprocessing_end": "2018-05-16T19:02:31.745843",
+      "translation_begin": "2018-05-16T19:02:31.745950",
+      "translation_end": "2018-05-16T19:02:32.823541",
+      "postprocessing_begin": "2018-05-16T19:02:32.823817",
+      "postprocessing_end": "2018-05-16T19:02:32.855683",
+      "sent_time": "2018-05-16T19:02:32.857224",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:03:46.268381"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ],
+        "verbatim": "Tu ou vous ?",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-16T19:03:47.900110",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Tu ou vous ?",
+            "2018-05-16T19:04:03.660441",
+            "2018-05-16T19:04:03.660441"
+          ]
+        ]
+      },
+      "reference_translation": "Que voulez-vous ?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Je prendrai bien une caipirinha.",
+      "preprocessed_text": "je prendrai bien une c@@ ai@@ pir@@ inha .",
+      "translated_text": "I &apos;ll have a c@@ ai@@ pir@@ inha .",
+      "postprocessed_text": "I'll have a caipirinha.",
+      "composition_time": "2018-05-16T19:03:41.313009",
+      "preprocessing_begin": "2018-05-16T19:03:41.372553",
+      "preprocessing_end": "2018-05-16T19:03:43.689449",
+      "translation_begin": "2018-05-16T19:03:43.689582",
+      "translation_end": "2018-05-16T19:03:45.848359",
+      "postprocessing_begin": "2018-05-16T19:03:45.848577",
+      "postprocessing_end": "2018-05-16T19:03:45.899966",
+      "sent_time": "2018-05-16T19:03:45.901275",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:06:43.050876"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019d quite like a caipirinha.",
+      "normalised_version": "Je prendrais bien une caipirinha."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Avec quelques olives et des rondelles de saucisson si possible",
+      "preprocessed_text": "avec quelques olives et des rondelles de saucisson si possible",
+      "translated_text": "with a few olives and sausage rings if possible .",
+      "postprocessed_text": "With a few olives and sausage rings if possible.",
+      "composition_time": "2018-05-16T19:03:41.313009",
+      "preprocessing_begin": "2018-05-16T19:03:41.372553",
+      "preprocessing_end": "2018-05-16T19:03:43.689449",
+      "translation_begin": "2018-05-16T19:03:43.689582",
+      "translation_end": "2018-05-16T19:03:45.848359",
+      "postprocessing_begin": "2018-05-16T19:03:45.848577",
+      "postprocessing_end": "2018-05-16T19:03:45.899966",
+      "sent_time": "2018-05-16T19:03:45.901905",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:06:44.926716"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "With some olives and sausage slices if possible.",
+      "normalised_version": "Avec quelques olives et des rondelles de saucisson si possible."
+    },
+    "4": {
+      "language": "english",
+      "original_text": "Certainly, sir.",
+      "preprocessed_text": "certainly , sir .",
+      "translated_text": "certainement , monsieur .",
+      "postprocessed_text": "Certainement, monsieur.",
+      "composition_time": "2018-05-16T19:05:17.301947",
+      "preprocessing_begin": "2018-05-16T19:05:17.366023",
+      "preprocessing_end": "2018-05-16T19:05:19.727370",
+      "translation_begin": "2018-05-16T19:05:19.727474",
+      "translation_end": "2018-05-16T19:05:22.377279",
+      "postprocessing_begin": "2018-05-16T19:05:22.377579",
+      "postprocessing_end": "2018-05-16T19:05:22.427199",
+      "sent_time": "2018-05-16T19:05:22.428309",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:08:01.972796"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Certainement, Monsieur.",
+      "normalised_version": "Certainly, Sir."
+    },
+    "5": {
+      "language": "english",
+      "original_text": "One caipirinha coming up.",
+      "preprocessed_text": "one c@@ ai@@ pir@@ inha coming up .",
+      "translated_text": "une c@@ ai@@ pir@@ inha arrive .",
+      "postprocessed_text": "Une caipirinha arrive.",
+      "composition_time": "2018-05-16T19:05:17.301947",
+      "preprocessing_begin": "2018-05-16T19:05:17.366023",
+      "preprocessing_end": "2018-05-16T19:05:19.727370",
+      "translation_begin": "2018-05-16T19:05:19.727474",
+      "translation_end": "2018-05-16T19:05:22.377279",
+      "postprocessing_begin": "2018-05-16T19:05:22.377579",
+      "postprocessing_end": "2018-05-16T19:05:22.427199",
+      "sent_time": "2018-05-16T19:05:22.428839",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:08:01.975781"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "La caipirinha arrive.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "Here you are, and your olives, but I'm sorry we don't have any sausage rings.",
+      "preprocessed_text": "here you are , and your olives , but I &apos;m sorry we don &apos;t have any sausage rings .",
+      "translated_text": "vous \u00eates l\u00e0 , et vos olives , mais je suis d\u00e9sol\u00e9 qu&apos; on n&apos; en ait pas .",
+      "postprocessed_text": "Vous \u00eates l\u00e0, et vos olives, mais je suis d\u00e9sol\u00e9 qu'on n'en ait pas.",
+      "composition_time": "2018-05-16T19:05:17.301947",
+      "preprocessing_begin": "2018-05-16T19:05:17.366023",
+      "preprocessing_end": "2018-05-16T19:05:19.727370",
+      "translation_begin": "2018-05-16T19:05:19.727474",
+      "translation_end": "2018-05-16T19:05:22.377279",
+      "postprocessing_begin": "2018-05-16T19:05:22.377579",
+      "postprocessing_end": "2018-05-16T19:05:22.427199",
+      "sent_time": "2018-05-16T19:05:22.429318",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:08:10.997584"
+          ],
+          [
+            "poor",
+            "2018-05-16T19:08:29.496475"
+          ],
+          [
+            "medium",
+            "2018-05-16T19:08:33.976298"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style",
+          "word choice",
+          "meaning"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-16T19:08:17.497526",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-16T19:08:18.256098",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-16T19:08:20.217058",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "La voil\u00e0, et voil\u00e0 vos olives. Mais je suis d\u00e9sol\u00e9e nous n\u2019avons pas de tranches de saucisson.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Vous n'avez pas de saucisson ?",
+      "preprocessed_text": "vous n&apos; avez pas de saucisson ?",
+      "translated_text": "you don &apos;t have a sausage ?",
+      "postprocessed_text": "You don't have a sausage?",
+      "composition_time": "2018-05-16T19:07:55.374953",
+      "preprocessing_begin": "2018-05-16T19:07:55.441548",
+      "preprocessing_end": "2018-05-16T19:07:58.107489",
+      "translation_begin": "2018-05-16T19:07:58.107686",
+      "translation_end": "2018-05-16T19:08:01.897884",
+      "postprocessing_begin": "2018-05-16T19:08:01.898137",
+      "postprocessing_end": "2018-05-16T19:08:01.960619",
+      "sent_time": "2018-05-16T19:08:01.962580",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:08:16.127326"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ],
+        "verbatim": "A bit abrupt - almost like a joke!",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-16T19:08:38.464273",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "A bit abrupt - almost like a joke!",
+            "2018-05-16T19:09:25.320947",
+            "2018-05-16T19:09:25.320947"
+          ]
+        ]
+      },
+      "reference_translation": "You don\u2019t have any sausage?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Pas grave.",
+      "preprocessed_text": "pas grave .",
+      "translated_text": "it &apos;s okay .",
+      "postprocessed_text": "It's okay.",
+      "composition_time": "2018-05-16T19:07:55.374953",
+      "preprocessing_begin": "2018-05-16T19:07:55.441548",
+      "preprocessing_end": "2018-05-16T19:07:58.107489",
+      "translation_begin": "2018-05-16T19:07:58.107686",
+      "translation_end": "2018-05-16T19:08:01.897884",
+      "postprocessing_begin": "2018-05-16T19:08:01.898137",
+      "postprocessing_end": "2018-05-16T19:08:01.960619",
+      "sent_time": "2018-05-16T19:08:01.963381",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:09:25.276575"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Never mind.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Je suis assez \u00e9tonn\u00e9 que vous connaissiez la caipirinha.",
+      "preprocessed_text": "je suis assez \u00e9tonn\u00e9 que vous connaissiez la c@@ ai@@ pir@@ inha .",
+      "translated_text": "I &apos;m surprised you know the c@@ ai@@ pir@@ inha .",
+      "postprocessed_text": "I'm surprised you know the caipirinha.",
+      "composition_time": "2018-05-16T19:07:55.374953",
+      "preprocessing_begin": "2018-05-16T19:07:55.441548",
+      "preprocessing_end": "2018-05-16T19:07:58.107489",
+      "translation_begin": "2018-05-16T19:07:58.107686",
+      "translation_end": "2018-05-16T19:08:01.897884",
+      "postprocessing_begin": "2018-05-16T19:08:01.898137",
+      "postprocessing_end": "2018-05-16T19:08:01.960619",
+      "sent_time": "2018-05-16T19:08:01.964111",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:09:26.775738"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m quite surprised you know what a caipirinha is.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Ce n'est pas un ap\u00e9ritif tr\u00e8s courant en Europe.",
+      "preprocessed_text": "ce n&apos; est pas un ap\u00e9ritif tr\u00e8s courant en Europe .",
+      "translated_text": "this is not a very common ap@@ eri@@ tif in Europe .",
+      "postprocessed_text": "This is not a very common aperitif in Europe.",
+      "composition_time": "2018-05-16T19:07:55.374953",
+      "preprocessing_begin": "2018-05-16T19:07:55.441548",
+      "preprocessing_end": "2018-05-16T19:07:58.107489",
+      "translation_begin": "2018-05-16T19:07:58.107686",
+      "translation_end": "2018-05-16T19:08:01.897884",
+      "postprocessing_begin": "2018-05-16T19:08:01.898137",
+      "postprocessing_end": "2018-05-16T19:08:01.960619",
+      "sent_time": "2018-05-16T19:08:01.964773",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:09:30.113013"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "'It is', rather than 'this is'",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-16T19:09:32.944248",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'It is', rather than 'this is'",
+            "2018-05-16T19:10:25.204498",
+            "2018-05-16T19:10:25.204498"
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s not a very common aperitif in Europe.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Vous avez appris \u00e0 la faire o\u00f9?",
+      "preprocessed_text": "vous avez appris \u00e0 la faire o\u00f9 ?",
+      "translated_text": "where did you learn to do that ?",
+      "postprocessed_text": "Where did you learn to do that?",
+      "composition_time": "2018-05-16T19:07:55.374953",
+      "preprocessing_begin": "2018-05-16T19:07:55.441548",
+      "preprocessing_end": "2018-05-16T19:07:58.107489",
+      "translation_begin": "2018-05-16T19:07:58.107686",
+      "translation_end": "2018-05-16T19:08:01.897884",
+      "postprocessing_begin": "2018-05-16T19:08:01.898137",
+      "postprocessing_end": "2018-05-16T19:08:01.960619",
+      "sent_time": "2018-05-16T19:08:01.965493",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:10:25.174008"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Where did you learn how to make it?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "I have been a bartender for a few years and I've worked in a lot of different places.",
+      "preprocessed_text": "I have been a bartender for a few years and I &apos;ve worked in a lot of different places .",
+      "translated_text": "j&apos; ai \u00e9t\u00e9 barman pendant quelques ann\u00e9es et j&apos; ai travaill\u00e9 dans beaucoup d&apos; endroits diff\u00e9rents .",
+      "postprocessed_text": "J'ai \u00e9t\u00e9 barman pendant quelques ann\u00e9es et j'ai travaill\u00e9 dans beaucoup d'endroits diff\u00e9rents.",
+      "composition_time": "2018-05-16T19:12:21.097892",
+      "preprocessing_begin": "2018-05-16T19:12:21.176701",
+      "preprocessing_end": "2018-05-16T19:12:23.451324",
+      "translation_begin": "2018-05-16T19:12:23.451436",
+      "translation_end": "2018-05-16T19:12:26.693752",
+      "postprocessing_begin": "2018-05-16T19:12:26.694064",
+      "postprocessing_end": "2018-05-16T19:12:26.757207",
+      "sent_time": "2018-05-16T19:12:26.758356",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:16:18.212850"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "J\u2019ai \u00e9t\u00e9 barmaid depuis quelques ann\u00e9es et j\u2019ai travaill\u00e9 \u00e0 beaucoup d\u2019endroits diff\u00e9rents.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "I also did some training while working in a famous bar in London.",
+      "preprocessed_text": "I also did some training while working in a famous bar in London .",
+      "translated_text": "j&apos; ai aussi fait un entra\u00eenement pendant que je travaillais dans un bar c\u00e9l\u00e8bre \u00e0 Londres .",
+      "postprocessed_text": "J'ai aussi fait un entra\u00eenement pendant que je travaillais dans un bar c\u00e9l\u00e8bre \u00e0 Londres.",
+      "composition_time": "2018-05-16T19:12:21.097892",
+      "preprocessing_begin": "2018-05-16T19:12:21.176701",
+      "preprocessing_end": "2018-05-16T19:12:23.451324",
+      "translation_begin": "2018-05-16T19:12:23.451436",
+      "translation_end": "2018-05-16T19:12:26.693752",
+      "postprocessing_begin": "2018-05-16T19:12:26.694064",
+      "postprocessing_end": "2018-05-16T19:12:26.757207",
+      "sent_time": "2018-05-16T19:12:26.758825",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:16:26.559383"
+          ],
+          [
+            "medium",
+            "2018-05-16T19:16:29.289960"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-16T19:16:31.309958",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-16T19:16:33.224504",
+            false
+          ],
+          [
+            "word choice",
+            "2018-05-16T19:16:42.316309",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je me suis aussi entrain\u00e9e quand je travaillais dans un bar r\u00e9put\u00e9 \u00e0 Londres.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "G\u00e9nial !",
+      "preprocessed_text": "g\u00e9nial !",
+      "translated_text": "awesome !",
+      "postprocessed_text": "Awesome!",
+      "composition_time": "2018-05-16T19:16:13.241609",
+      "preprocessing_begin": "2018-05-16T19:16:13.313065",
+      "preprocessing_end": "2018-05-16T19:16:15.759262",
+      "translation_begin": "2018-05-16T19:16:15.759411",
+      "translation_end": "2018-05-16T19:16:18.164826",
+      "postprocessing_begin": "2018-05-16T19:16:18.165036",
+      "postprocessing_end": "2018-05-16T19:16:18.205513",
+      "sent_time": "2018-05-16T19:16:18.206576",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:20:24.337444"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Great!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "C'est une sacr\u00e9e exp\u00e9rience !",
+      "preprocessed_text": "c&apos; est une sacr\u00e9e exp\u00e9rience !",
+      "translated_text": "it &apos;s a hell of a experience .",
+      "postprocessed_text": "It's a hell of a experience.",
+      "composition_time": "2018-05-16T19:16:13.241609",
+      "preprocessing_begin": "2018-05-16T19:16:13.313065",
+      "preprocessing_end": "2018-05-16T19:16:15.759262",
+      "translation_begin": "2018-05-16T19:16:15.759411",
+      "translation_end": "2018-05-16T19:16:18.164826",
+      "postprocessing_begin": "2018-05-16T19:16:18.165036",
+      "postprocessing_end": "2018-05-16T19:16:18.205513",
+      "sent_time": "2018-05-16T19:16:18.207039",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-16T19:20:34.129505"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "other"
+        ],
+        "verbatim": "What experience is being referred to? And why would you say it's a 'hell of a' one?",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-16T19:20:53.284463",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-16T19:21:00.757996",
+            false
+          ],
+          [
+            "other",
+            "2018-05-16T19:21:05.128423",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "What experience is being referred to? And why would you say it's a 'hell of a' one?",
+            "2018-05-16T19:22:14.597238",
+            "2018-05-16T19:22:14.597238"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s some experience!",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Vous \u00eates all\u00e9 dans quels pays ?",
+      "preprocessed_text": "vous \u00eates all\u00e9 dans quels pays ?",
+      "translated_text": "which country did you go to ?",
+      "postprocessed_text": "Which country did you go to?",
+      "composition_time": "2018-05-16T19:16:13.241609",
+      "preprocessing_begin": "2018-05-16T19:16:13.313065",
+      "preprocessing_end": "2018-05-16T19:16:15.759262",
+      "translation_begin": "2018-05-16T19:16:15.759411",
+      "translation_end": "2018-05-16T19:16:18.164826",
+      "postprocessing_begin": "2018-05-16T19:16:18.165036",
+      "postprocessing_end": "2018-05-16T19:16:18.205513",
+      "sent_time": "2018-05-16T19:16:18.207484",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:22:14.584032"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Which countries did you go to?",
+      "normalised_version": "Vous \u00eates all\u00e9e dans quels pays ?"
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Quel est votre ap\u00e9ritif pr\u00e9f\u00e9r\u00e9 ?",
+      "preprocessed_text": "quel est votre ap\u00e9ritif pr\u00e9f\u00e9r\u00e9 ?",
+      "translated_text": "what &apos;s your favorite ap@@ eri@@ tif ?",
+      "postprocessed_text": "What's your favorite aperitif?",
+      "composition_time": "2018-05-16T19:16:13.241609",
+      "preprocessing_begin": "2018-05-16T19:16:13.313065",
+      "preprocessing_end": "2018-05-16T19:16:15.759262",
+      "translation_begin": "2018-05-16T19:16:15.759411",
+      "translation_end": "2018-05-16T19:16:18.164826",
+      "postprocessing_begin": "2018-05-16T19:16:18.165036",
+      "postprocessing_end": "2018-05-16T19:16:18.205513",
+      "sent_time": "2018-05-16T19:16:18.207886",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:22:23.212426"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "What\u2019s your favourite aperitif?",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "I've spent time in France, Germany and South America.",
+      "preprocessed_text": "I &apos;ve spent time in France , Germany and South America .",
+      "translated_text": "j&apos; ai pass\u00e9 du temps en France , en Allemagne et en Am\u00e9rique du Sud .",
+      "postprocessed_text": "J'ai pass\u00e9 du temps en France, en Allemagne et en Am\u00e9rique du Sud.",
+      "composition_time": "2018-05-16T19:22:49.819675",
+      "preprocessing_begin": "2018-05-16T19:22:49.883925",
+      "preprocessing_end": "2018-05-16T19:22:52.085508",
+      "translation_begin": "2018-05-16T19:22:52.085614",
+      "translation_end": "2018-05-16T19:22:55.260896",
+      "postprocessing_begin": "2018-05-16T19:22:55.261117",
+      "postprocessing_end": "2018-05-16T19:22:55.300907",
+      "sent_time": "2018-05-16T19:22:55.302003",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:23:12.758592"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "J\u2019ai pass\u00e9 du temps en France, en Allemagne et en Am\u00e9rique du sud.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "I don't have a favourite aperitif myself - I don't drink much at all, really only at special occasions where I like a glass of champagne.",
+      "preprocessed_text": "I don &apos;t have a favourite ap@@ eri@@ tif myself - I don &apos;t drink much at all , really only at special occasions where I like a glass of champagne .",
+      "translated_text": "je n&apos; ai pas moi @-@ m\u00eame un ap\u00e9ritif favori , je ne bois pas beaucoup , seulement aux occasions sp\u00e9ciales o\u00f9 j&apos; aime un verre de champagne .",
+      "postprocessed_text": "Je n'ai pas moi-m\u00eame un ap\u00e9ritif favori, je ne bois pas beaucoup, seulement aux occasions sp\u00e9ciales o\u00f9 j'aime un verre de champagne.",
+      "composition_time": "2018-05-16T19:22:49.819675",
+      "preprocessing_begin": "2018-05-16T19:22:49.883925",
+      "preprocessing_end": "2018-05-16T19:22:52.085508",
+      "translation_begin": "2018-05-16T19:22:52.085614",
+      "translation_end": "2018-05-16T19:22:55.260896",
+      "postprocessing_begin": "2018-05-16T19:22:55.261117",
+      "postprocessing_end": "2018-05-16T19:22:55.300907",
+      "sent_time": "2018-05-16T19:22:55.302474",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:23:20.113962"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Moi je n\u2019ai pas d\u2019ap\u00e9ritif pr\u00e9f\u00e9r\u00e9 - Je ne bois pas beaucoup, en fait seulement pour les grandes occasions, o\u00f9 j\u2019aime bien prendre un verre de champagne.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Oui un verre de champagne c'est toujours, partout, un excellent ap\u00e9ritif.",
+      "preprocessed_text": "oui un verre de champagne c&apos; est toujours , partout , un excellent ap\u00e9ritif .",
+      "translated_text": "yes , a glass of champagne is always , everywhere , an excellent ap@@ eri@@ tif .",
+      "postprocessed_text": "Yes, a glass of champagne is always, everywhere, an excellent aperitif.",
+      "composition_time": "2018-05-16T19:25:30.530831",
+      "preprocessing_begin": "2018-05-16T19:25:30.607045",
+      "preprocessing_end": "2018-05-16T19:25:33.203098",
+      "translation_begin": "2018-05-16T19:25:33.203224",
+      "translation_end": "2018-05-16T19:25:35.821218",
+      "postprocessing_begin": "2018-05-16T19:25:35.821572",
+      "postprocessing_end": "2018-05-16T19:25:35.887595",
+      "sent_time": "2018-05-16T19:25:35.889048",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:32:20.744087"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes a glass of champagne is always, everywhere, an excellent aperitif.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Vous avez beaucoup voyag\u00e9 !",
+      "preprocessed_text": "vous avez beaucoup voyag\u00e9 !",
+      "translated_text": "you &apos;ve traveled a lot !",
+      "postprocessed_text": "You've traveled a lot!",
+      "composition_time": "2018-05-16T19:25:30.530831",
+      "preprocessing_begin": "2018-05-16T19:25:30.607045",
+      "preprocessing_end": "2018-05-16T19:25:33.203098",
+      "translation_begin": "2018-05-16T19:25:33.203224",
+      "translation_end": "2018-05-16T19:25:35.821218",
+      "postprocessing_begin": "2018-05-16T19:25:35.821572",
+      "postprocessing_end": "2018-05-16T19:25:35.887595",
+      "sent_time": "2018-05-16T19:25:35.889747",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:32:33.138900"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "Not how I spell 'travelled'",
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "Not how I spell 'travelled'",
+            "2018-05-16T19:33:21.096605",
+            "2018-05-16T19:33:21.096605"
+          ]
+        ]
+      },
+      "reference_translation": "You\u2019ve travelled a lot!",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Quel pays vous a le plus plu ?",
+      "preprocessed_text": "quel pays vous a le plus plu ?",
+      "translated_text": "which country did you enjoy the most ?",
+      "postprocessed_text": "Which country did you enjoy the most?",
+      "composition_time": "2018-05-16T19:25:30.530831",
+      "preprocessing_begin": "2018-05-16T19:25:30.607045",
+      "preprocessing_end": "2018-05-16T19:25:33.203098",
+      "translation_begin": "2018-05-16T19:25:33.203224",
+      "translation_end": "2018-05-16T19:25:35.821218",
+      "postprocessing_begin": "2018-05-16T19:25:35.821572",
+      "postprocessing_end": "2018-05-16T19:25:35.887595",
+      "sent_time": "2018-05-16T19:25:35.890343",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:33:26.554767"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Which country did you like the most?",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "english",
+      "original_text": "South America was really interesting, different from home.",
+      "preprocessed_text": "South America was really interesting , different from home .",
+      "translated_text": "l&apos; Am\u00e9rique du Sud \u00e9tait vraiment int\u00e9ressante , diff\u00e9rente de chez nous .",
+      "postprocessed_text": "L'Am\u00e9rique du Sud \u00e9tait vraiment int\u00e9ressante, diff\u00e9rente de chez nous.",
+      "composition_time": "2018-05-16T19:32:13.008728",
+      "preprocessing_begin": "2018-05-16T19:32:13.080715",
+      "preprocessing_end": "2018-05-16T19:32:15.551223",
+      "translation_begin": "2018-05-16T19:32:15.551352",
+      "translation_end": "2018-05-16T19:32:17.834067",
+      "postprocessing_begin": "2018-05-16T19:32:17.834292",
+      "postprocessing_end": "2018-05-16T19:32:17.889239",
+      "sent_time": "2018-05-16T19:32:17.890655",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:35:29.171291"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "L\u2019Am\u00e9rique du sud \u00e9tait vraiment int\u00e9ressante, diff\u00e9rente de chez nous.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "I did some travelling and there was so much to see.",
+      "preprocessed_text": "I did some travelling and there was so much to see .",
+      "translated_text": "j&apos; ai voyag\u00e9 et il y avait tellement \u00e0 voir .",
+      "postprocessed_text": "J'ai voyag\u00e9 et il y avait tellement \u00e0 voir.",
+      "composition_time": "2018-05-16T19:32:13.008728",
+      "preprocessing_begin": "2018-05-16T19:32:13.080715",
+      "preprocessing_end": "2018-05-16T19:32:15.551223",
+      "translation_begin": "2018-05-16T19:32:15.551352",
+      "translation_end": "2018-05-16T19:32:17.834067",
+      "postprocessing_begin": "2018-05-16T19:32:17.834292",
+      "postprocessing_end": "2018-05-16T19:32:17.889239",
+      "sent_time": "2018-05-16T19:32:17.891305",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:35:33.567828"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-16T19:35:36.902017",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "J\u2019ai un peu voyag\u00e9 et il y avait tant de choses \u00e0 voir.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "Oui, beaucoup de choses \u00e0 voir en Am\u00e9rique du Sud.",
+      "preprocessed_text": "oui , beaucoup de choses \u00e0 voir en Am\u00e9rique du Sud .",
+      "translated_text": "yes , a lot to see in South America .",
+      "postprocessed_text": "Yes, a lot to see in South America.",
+      "composition_time": "2018-05-16T19:35:23.933945",
+      "preprocessing_begin": "2018-05-16T19:35:24.011724",
+      "preprocessing_end": "2018-05-16T19:35:26.573504",
+      "translation_begin": "2018-05-16T19:35:26.573627",
+      "translation_end": "2018-05-16T19:35:29.099998",
+      "postprocessing_begin": "2018-05-16T19:35:29.100263",
+      "postprocessing_end": "2018-05-16T19:35:29.161058",
+      "sent_time": "2018-05-16T19:35:29.162585",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:38:02.457737"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes, lots of things to see in South America.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "Vous avez-pu aller en Argentine, ou allez voir les ruines incas ?",
+      "preprocessed_text": "vous avez @-@ pu aller en Argentine , ou allez voir les ruines inc@@ as ?",
+      "translated_text": "have you been able to go to Argentina , or see the ruins ?",
+      "postprocessed_text": "Have you been able to go to Argentina, or see the ruins?",
+      "composition_time": "2018-05-16T19:35:23.933945",
+      "preprocessing_begin": "2018-05-16T19:35:24.011724",
+      "preprocessing_end": "2018-05-16T19:35:26.573504",
+      "translation_begin": "2018-05-16T19:35:26.573627",
+      "translation_end": "2018-05-16T19:35:29.099998",
+      "postprocessing_begin": "2018-05-16T19:35:29.100263",
+      "postprocessing_end": "2018-05-16T19:35:29.161058",
+      "sent_time": "2018-05-16T19:35:29.163246",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:38:09.725454"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "'Were you' rather than 'have you been able to' is more general, less time defined. ",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-16T19:38:12.648050",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'Were you' rather than 'have you been able to' is more general, less time defined. ",
+            "2018-05-16T19:40:10.066028",
+            "2018-05-16T19:40:10.066028"
+          ]
+        ]
+      },
+      "reference_translation": "Did you get to go to Argentina or go to see the Inca ruins?",
+      "normalised_version": "Vous avez pu aller en Argentine, ou aller voir les ruines incas ?"
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Which ruins?",
+      "preprocessed_text": "which ruins ?",
+      "translated_text": "quelles ruines ?",
+      "postprocessed_text": "Quelles ruines ?",
+      "composition_time": "2018-05-16T19:37:54.918071",
+      "preprocessing_begin": "2018-05-16T19:37:54.989333",
+      "preprocessing_end": "2018-05-16T19:37:57.687967",
+      "translation_begin": "2018-05-16T19:37:57.688137",
+      "translation_end": "2018-05-16T19:37:58.738377",
+      "postprocessing_begin": "2018-05-16T19:37:58.738617",
+      "postprocessing_end": "2018-05-16T19:37:58.792675",
+      "sent_time": "2018-05-16T19:37:58.793904",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:41:48.901006"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Quelles ruines ?",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "There were a few.",
+      "preprocessed_text": "there were a few .",
+      "translated_text": "il y en avait quelques @-@ uns .",
+      "postprocessed_text": "Il y en avait quelques-uns.",
+      "composition_time": "2018-05-16T19:37:54.918071",
+      "preprocessing_begin": "2018-05-16T19:37:54.989333",
+      "preprocessing_end": "2018-05-16T19:37:57.687967",
+      "translation_begin": "2018-05-16T19:37:57.688137",
+      "translation_end": "2018-05-16T19:37:58.738377",
+      "postprocessing_begin": "2018-05-16T19:37:58.738617",
+      "postprocessing_end": "2018-05-16T19:37:58.792675",
+      "sent_time": "2018-05-16T19:37:58.794476",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:41:50.719209"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-16T19:41:56.142702",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Il y en avait pas mal.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "J'esp\u00e8re que vous avez pu quand m\u00eame all\u00e9 \u00e0 Machu Picchu.",
+      "preprocessed_text": "j&apos; esp\u00e8re que vous avez pu quand m\u00eame all\u00e9 \u00e0 Machu Pic@@ chu .",
+      "translated_text": "I hope you still could have gone to Machu Pic@@ chu .",
+      "postprocessed_text": "I hope you still could have gone to Machu Picchu.",
+      "composition_time": "2018-05-16T19:41:41.007104",
+      "preprocessing_begin": "2018-05-16T19:41:41.079965",
+      "preprocessing_end": "2018-05-16T19:41:43.635523",
+      "translation_begin": "2018-05-16T19:41:43.635711",
+      "translation_end": "2018-05-16T19:41:45.587205",
+      "postprocessing_begin": "2018-05-16T19:41:45.587433",
+      "postprocessing_end": "2018-05-16T19:41:45.630884",
+      "sent_time": "2018-05-16T19:41:45.631474",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-16T19:42:27.792541"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "Verb construction not appropriate ",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-16T19:42:31.435985",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Verb construction not appropriate ",
+            "2018-05-16T19:43:11.529750",
+            "2018-05-16T19:43:11.529750"
+          ]
+        ]
+      },
+      "reference_translation": "I hope you got to go to Mach Picchu anyhow.",
+      "normalised_version": "J'esp\u00e8re que vous avez pu quand m\u00eame aller \u00e0 Machu Picchu."
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Vous avez ramener des souvenirs de ces pays sud-am\u00e9ricains ?",
+      "preprocessed_text": "vous avez ramener des souvenirs de ces pays sud @-@ am\u00e9ricains ?",
+      "translated_text": "you bring back memories of these South American countries ?",
+      "postprocessed_text": "You bring back memories of these South American countries?",
+      "composition_time": "2018-05-16T19:41:41.007104",
+      "preprocessing_begin": "2018-05-16T19:41:41.079965",
+      "preprocessing_end": "2018-05-16T19:41:43.635523",
+      "translation_begin": "2018-05-16T19:41:43.635711",
+      "translation_end": "2018-05-16T19:41:45.587205",
+      "postprocessing_begin": "2018-05-16T19:41:45.587433",
+      "postprocessing_end": "2018-05-16T19:41:45.630884",
+      "sent_time": "2018-05-16T19:41:45.631890",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:43:11.518359"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Did you bring back any souvenirs from those South American countries?",
+      "normalised_version": "Vous avez ramen\u00e9 des souvenirs de ces pays sud-am\u00e9ricains ?"
+    },
+    "31": {
+      "language": "english",
+      "original_text": "So you've been there yourself?",
+      "preprocessed_text": "so you &apos;ve been there yourself ?",
+      "translated_text": "tu y as \u00e9t\u00e9 toi @-@ m\u00eame ?",
+      "postprocessed_text": "Tu y as \u00e9t\u00e9 toi-m\u00eame ?",
+      "composition_time": "2018-05-16T19:42:23.084574",
+      "preprocessing_begin": "2018-05-16T19:42:23.158212",
+      "preprocessing_end": "2018-05-16T19:42:25.556374",
+      "translation_begin": "2018-05-16T19:42:25.556490",
+      "translation_end": "2018-05-16T19:42:26.399287",
+      "postprocessing_begin": "2018-05-16T19:42:26.399532",
+      "postprocessing_end": "2018-05-16T19:42:26.433484",
+      "sent_time": "2018-05-16T19:42:26.434782",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:43:21.464647"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-16T19:43:23.547513",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Donc vous y \u00eates all\u00e9 vous aussi ?",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "i bien s\u00fbr.",
+      "preprocessed_text": "I bien s\u00fbr .",
+      "translated_text": "I sure .",
+      "postprocessed_text": "I sure.",
+      "composition_time": "2018-05-16T19:45:33.713318",
+      "preprocessing_begin": "2018-05-16T19:45:33.783937",
+      "preprocessing_end": "2018-05-16T19:45:36.173842",
+      "translation_begin": "2018-05-16T19:45:36.174024",
+      "translation_end": "2018-05-16T19:45:38.938840",
+      "postprocessing_begin": "2018-05-16T19:45:38.939149",
+      "postprocessing_end": "2018-05-16T19:45:38.988874",
+      "sent_time": "2018-05-16T19:45:38.990151",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-16T19:46:25.566925"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-16T19:46:33.169437",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes of course.",
+      "normalised_version": "Oui bien s\u00fbr."
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Ainsi qu'\u00e0 Mexico.",
+      "preprocessed_text": "ainsi qu&apos; \u00e0 Mexico .",
+      "translated_text": "and in Mexico City .",
+      "postprocessed_text": "And in Mexico City.",
+      "composition_time": "2018-05-16T19:45:33.713318",
+      "preprocessing_begin": "2018-05-16T19:45:33.783937",
+      "preprocessing_end": "2018-05-16T19:45:36.173842",
+      "translation_begin": "2018-05-16T19:45:36.174024",
+      "translation_end": "2018-05-16T19:45:38.938840",
+      "postprocessing_begin": "2018-05-16T19:45:38.939149",
+      "postprocessing_end": "2018-05-16T19:45:38.988874",
+      "sent_time": "2018-05-16T19:45:38.990607",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:47:24.039571"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "And to Mexico.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "J'ai ramen\u00e9 en particulier de tr\u00e8s belles pierres.",
+      "preprocessed_text": "j&apos; ai ramen\u00e9 en particulier de tr\u00e8s belles pierres .",
+      "translated_text": "I brought in some very beautiful stones .",
+      "postprocessed_text": "I brought in some very beautiful stones.",
+      "composition_time": "2018-05-16T19:45:33.713318",
+      "preprocessing_begin": "2018-05-16T19:45:33.783937",
+      "preprocessing_end": "2018-05-16T19:45:36.173842",
+      "translation_begin": "2018-05-16T19:45:36.174024",
+      "translation_end": "2018-05-16T19:45:38.938840",
+      "postprocessing_begin": "2018-05-16T19:45:38.939149",
+      "postprocessing_end": "2018-05-16T19:45:38.988874",
+      "sent_time": "2018-05-16T19:45:38.991035",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-16T19:47:35.142127"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "'Brought in' -to where?",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-16T19:47:37.188980",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-16T19:47:39.237160",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-16T19:47:40.355048",
+            false
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'Brought in' -to where?",
+            "2018-05-16T19:48:12.985766",
+            "2018-05-16T19:48:12.985766"
+          ]
+        ]
+      },
+      "reference_translation": "I brought back in particular some very beautiful stones.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Vous vous int\u00e9ressez \u00e0 la min\u00e9ralogie ? ?",
+      "preprocessed_text": "vous vous int\u00e9ressez \u00e0 la min@@ \u00e9r@@ alo@@ gie ? ?",
+      "translated_text": "are you interested in min@@ er@@ alo@@ gy ?",
+      "postprocessed_text": "Are you interested in mineralogy?",
+      "composition_time": "2018-05-16T19:45:33.713318",
+      "preprocessing_begin": "2018-05-16T19:45:33.783937",
+      "preprocessing_end": "2018-05-16T19:45:36.173842",
+      "translation_begin": "2018-05-16T19:45:36.174024",
+      "translation_end": "2018-05-16T19:45:38.938840",
+      "postprocessing_begin": "2018-05-16T19:45:38.939149",
+      "postprocessing_end": "2018-05-16T19:45:38.988874",
+      "sent_time": "2018-05-16T19:45:38.991444",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-16T19:48:16.962757"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Are you interested in mineralogy?",
+      "normalised_version": "Vous vous int\u00e9ressez \u00e0 la min\u00e9ralogie ?"
+    },
+    "36": {
+      "language": "english",
+      "original_text": "I've met some gold-diggers in my time, but other than that, it's not something I know anything about.",
+      "preprocessed_text": "I &apos;ve met some gold @-@ di@@ ggers in my time , but other than that , it &apos;s not something I know anything about .",
+      "translated_text": "j&apos; ai rencontr\u00e9 des tas d&apos; or dans mon temps , mais \u00e0 part \u00e7a , ce n&apos; est pas quelque chose que je connais .",
+      "postprocessed_text": "J'ai rencontr\u00e9 des tas d'or dans mon temps, mais \u00e0 part \u00e7a, ce n'est pas quelque chose que je connais.",
+      "composition_time": "2018-05-16T19:49:37.641542",
+      "preprocessing_begin": "2018-05-16T19:49:37.718749",
+      "preprocessing_end": "2018-05-16T19:49:39.997700",
+      "translation_begin": "2018-05-16T19:49:39.997870",
+      "translation_end": "2018-05-16T19:49:42.097817",
+      "postprocessing_begin": "2018-05-16T19:49:42.098031",
+      "postprocessing_end": "2018-05-16T19:49:42.131895",
+      "sent_time": "2018-05-16T19:49:42.133476",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-16T19:49:53.873453"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice",
+          "style"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-16T19:49:58.365480",
+            true
+          ],
+          [
+            "style",
+            "2018-05-16T19:50:07.425182",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "J\u2019ai rencontr\u00e9 des chercheurs d\u2019or dans le temps mais, en dehors de cela, ce n\u2019est pas quelque chose que je connais.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "style": "average",
+    "would_use": true,
+    "grammaticality": "excellent",
+    "verbatim_quality": "",
+    "meaning": "good",
+    "particular_problems": "",
+    "interface": "",
+    "tech": "There were no technical problems",
+    "coherence": "good",
+    "timestamp": "2018-05-16T19:51:12.801575",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "style": "good",
+    "would_use": false,
+    "grammaticality": "excellent",
+    "verbatim_quality": "",
+    "meaning": "excellent",
+    "particular_problems": "verb tenses sometimes not appropriate.",
+    "interface": "it worked well.",
+    "tech": "There were no technical problems",
+    "coherence": "excellent",
+    "timestamp": "2018-05-16T19:54:28.299578",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

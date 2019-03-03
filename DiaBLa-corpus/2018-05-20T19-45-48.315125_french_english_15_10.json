@@ -1,0 +1,1638 @@
+{
+  "start_time": "2018-05-20T19:45:48.315125",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are chefs preparing a meal.",
+      "Vous \u00eates deux cuisiners/cuisini\u00e8res en train de pr\u00e9parer un repas."
+    ],
+    [
+      "You are the head chef and you are talking to your subordinate.",
+      "Vous \u00eates le ou la chef(fe) et vous discutez avec votre chef(fe) adjoint."
+    ],
+    [
+      "You are the subordinate chef and you are talking to the head chef.",
+      "Vous \u00eates le ou la chef(fe) adjoint(e) et vous discutez avec le/la chef(fe)."
+    ]
+  ],
+  "user1": {
+    "useragent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "lang": "french",
+    "role": [
+      "You are the subordinate chef and you are talking to the head chef.",
+      "Vous \u00eates le ou la chef(fe) adjoint(e) et vous discutez avec le/la chef(fe)."
+    ],
+    "role_num": 2,
+    "turn_number": 2,
+    "eval-stage": true,
+    "initiated_dialogue": true
+  },
+  "user2": {
+    "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.0 Mobile/15E148 Safari/604.1",
+    "lang": "english",
+    "rolenum": 1,
+    "role": [
+      "You are the head chef and you are talking to your subordinate.",
+      "Vous \u00eates le ou la chef(fe) et vous discutez avec votre chef(fe) adjoint."
+    ],
+    "eval-stage": true,
+    "turn_number": 1,
+    "initiated_dialogue": false
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Put your phone away please it is not hygienic in the kitchen",
+      "preprocessed_text": "put your phone away please it is not hygienic in the kitchen",
+      "translated_text": "range ton t\u00e9l\u00e9phone , s&apos; il te pla\u00eet , ce n&apos; est pas hygi\u00e9nique dans la cuisine .",
+      "postprocessed_text": "Range ton t\u00e9l\u00e9phone, s'il te pla\u00eet, ce n'est pas hygi\u00e9nique dans la cuisine.",
+      "composition_time": "2018-05-20T19:46:26.215591",
+      "preprocessing_begin": "2018-05-20T19:46:26.286174",
+      "preprocessing_end": "2018-05-20T19:46:28.708343",
+      "translation_begin": "2018-05-20T19:46:28.708436",
+      "translation_end": "2018-05-20T19:46:30.030441",
+      "postprocessing_begin": "2018-05-20T19:46:30.030673",
+      "postprocessing_end": "2018-05-20T19:46:30.082460",
+      "sent_time": "2018-05-20T19:46:30.083119",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:46:38.918813"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Mets ton t\u00e9l\u00e9phone ailleurs, ce n\u2019est pas hygi\u00e9nique dans la cuisine.",
+      "normalised_version": "Put your phone away please. It is not hygienic in the kitchen."
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Just get on and start prepping the vegetables for tonight",
+      "preprocessed_text": "just get on and start prepping the vegetables for tonight",
+      "translated_text": "monte et commence \u00e0 pr\u00e9parer les l\u00e9gumes pour ce soir .",
+      "postprocessed_text": "Monte et commence \u00e0 pr\u00e9parer les l\u00e9gumes pour ce soir.",
+      "composition_time": "2018-05-20T19:46:58.692203",
+      "preprocessing_begin": "2018-05-20T19:46:58.762390",
+      "preprocessing_end": "2018-05-20T19:47:01.423244",
+      "translation_begin": "2018-05-20T19:47:01.423387",
+      "translation_end": "2018-05-20T19:47:02.547223",
+      "postprocessing_begin": "2018-05-20T19:47:02.547494",
+      "postprocessing_end": "2018-05-20T19:47:02.613439",
+      "sent_time": "2018-05-20T19:47:02.614846",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:47:21.324722"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Mets-y toi et commence \u00e0 pr\u00e9parer les l\u00e9gumes pour ce soir.",
+      "normalised_version": "Just get on and start prepping the vegetables for tonight."
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Mais euuuh !",
+      "preprocessed_text": "mais eu@@ u@@ uh !",
+      "translated_text": "but eu@@ u@@ uh !",
+      "postprocessed_text": "But euuuh!",
+      "composition_time": "2018-05-20T19:47:55.260429",
+      "preprocessing_begin": "2018-05-20T19:47:55.323051",
+      "preprocessing_end": "2018-05-20T19:47:57.888273",
+      "translation_begin": "2018-05-20T19:47:57.888409",
+      "translation_end": "2018-05-20T19:47:59.883016",
+      "postprocessing_begin": "2018-05-20T19:47:59.883269",
+      "postprocessing_end": "2018-05-20T19:47:59.931780",
+      "sent_time": "2018-05-20T19:47:59.933101",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:50:13.118654"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-20T19:50:16.171141",
+            true
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Leave off!",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Sans t\u00e9l\u00e9phone pas d'instragram, sans instagram pas de publicit\u00e9 pour nos bons petits plats !",
+      "preprocessed_text": "sans t\u00e9l\u00e9phone pas d&apos; In@@ str@@ ag@@ ram , sans inst@@ ag@@ ram pas de publicit\u00e9 pour nos bons petits plats !",
+      "translated_text": "no phone from In@@ str@@ ag@@ ram .",
+      "postprocessed_text": "No phone from Instragram.",
+      "composition_time": "2018-05-20T19:47:55.260429",
+      "preprocessing_begin": "2018-05-20T19:47:55.323051",
+      "preprocessing_end": "2018-05-20T19:47:57.888273",
+      "translation_begin": "2018-05-20T19:47:57.888409",
+      "translation_end": "2018-05-20T19:47:59.883016",
+      "postprocessing_begin": "2018-05-20T19:47:59.883269",
+      "postprocessing_end": "2018-05-20T19:47:59.931780",
+      "sent_time": "2018-05-20T19:47:59.933664",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:50:18.936772"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-20T19:50:22.166254",
+            true
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "No telephone no instagram, no instagram no advertising for our lovely little dishes!",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Je monte, mais franchement je garde mon t\u00e9l\u00e9phone nah !!",
+      "preprocessed_text": "je monte , mais franchement je garde mon t\u00e9l\u00e9phone nah ! !",
+      "translated_text": "I &apos;m going up , but I &apos;m keeping my phone nah !",
+      "postprocessed_text": "I'm going up, but I'm keeping my phone nah!",
+      "composition_time": "2018-05-20T19:48:08.488694",
+      "preprocessing_begin": "2018-05-20T19:48:08.556106",
+      "preprocessing_end": "2018-05-20T19:48:10.958089",
+      "translation_begin": "2018-05-20T19:48:10.958209",
+      "translation_end": "2018-05-20T19:48:12.203490",
+      "postprocessing_begin": "2018-05-20T19:48:12.203710",
+      "postprocessing_end": "2018-05-20T19:48:12.237653",
+      "sent_time": "2018-05-20T19:48:12.238661",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:50:30.068249"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-20T19:50:34.121668",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019ll go up, but I\u2019m keeping my telephone, so there!!",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Look I am trying to be considerate as I know you are having some personal issues but please get on with your work",
+      "preprocessed_text": "look I am trying to be considerate as I know you are having some personal issues but please get on with your work",
+      "translated_text": "j&apos; essaie d&apos; \u00eatre pr\u00e9venant , comme je sais que vous avez des probl\u00e8mes personnels , mais s&apos; il vous pla\u00eet , continuez votre travail .",
+      "postprocessed_text": "J'essaie d'\u00eatre pr\u00e9venant, comme je sais que vous avez des probl\u00e8mes personnels, mais s'il vous pla\u00eet, continuez votre travail.",
+      "composition_time": "2018-05-20T19:49:15.917722",
+      "preprocessing_begin": "2018-05-20T19:49:15.980333",
+      "preprocessing_end": "2018-05-20T19:49:18.133531",
+      "translation_begin": "2018-05-20T19:49:18.133630",
+      "translation_end": "2018-05-20T19:49:20.662762",
+      "postprocessing_begin": "2018-05-20T19:49:20.663052",
+      "postprocessing_end": "2018-05-20T19:49:20.715818",
+      "sent_time": "2018-05-20T19:49:20.717714",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:49:47.354299"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Attends\u00a0! J\u2019essaie d\u2019\u00eatre compr\u00e9hensif car je sais que tu as des probl\u00e8mes personnels mais s\u2019il te pla\u00eet mets-toi au travail.",
+      "normalised_version": "Look I am trying to be considerate as I know you are having some personal issues but please get on with your work."
+    },
+    "6": {
+      "language": "english",
+      "original_text": "The peppers need grilling and then peeling",
+      "preprocessed_text": "the peppers need grilling and then peeling",
+      "translated_text": "les poivrons ont besoin d&apos; \u00eatre cuisin@@ \u00e9s et d&apos; \u00e9plucher .",
+      "postprocessed_text": "Les poivrons ont besoin d'\u00eatre cuisin\u00e9s et d'\u00e9plucher.",
+      "composition_time": "2018-05-20T19:49:47.177318",
+      "preprocessing_begin": "2018-05-20T19:49:47.263142",
+      "preprocessing_end": "2018-05-20T19:49:49.967681",
+      "translation_begin": "2018-05-20T19:49:49.967962",
+      "translation_end": "2018-05-20T19:49:51.229319",
+      "postprocessing_begin": "2018-05-20T19:49:51.229635",
+      "postprocessing_end": "2018-05-20T19:49:51.277891",
+      "sent_time": "2018-05-20T19:49:51.279420",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:50:00.335314"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-20T19:50:02.676428",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Les poivrons doivent \u00eatre grill\u00e9s et ensuite pel\u00e9s.",
+      "normalised_version": "The peppers need grilling and then peeling."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "The garlic needs roasting",
+      "preprocessed_text": "the garlic needs roasting",
+      "translated_text": "l&apos; ail a besoin d&apos; \u00eatre grill\u00e9 .",
+      "postprocessed_text": "L'ail a besoin d'\u00eatre grill\u00e9.",
+      "composition_time": "2018-05-20T19:50:01.436372",
+      "preprocessing_begin": "2018-05-20T19:50:01.502078",
+      "preprocessing_end": "2018-05-20T19:50:03.834267",
+      "translation_begin": "2018-05-20T19:50:03.834365",
+      "translation_end": "2018-05-20T19:50:04.509301",
+      "postprocessing_begin": "2018-05-20T19:50:04.509570",
+      "postprocessing_end": "2018-05-20T19:50:04.587257",
+      "sent_time": "2018-05-20T19:50:04.588769",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:50:09.380286"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "L\u2019ail doit \u00eatre r\u00f4ti.",
+      "normalised_version": "The garlic needs roasting."
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Oh lalaa !",
+      "preprocessed_text": "oh l@@ al@@ aa !",
+      "translated_text": "oh l@@ al@@ aa !",
+      "postprocessed_text": "Oh lalaa!",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.838595",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:53:59.626761"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Dearie me no!",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Pas d'ail.",
+      "preprocessed_text": "pas d&apos; ail .",
+      "translated_text": "no garlic .",
+      "postprocessed_text": "No garlic.",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.839238",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:54:01.131141"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "No garlic.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Cela me donne mauvaise haleine.",
+      "preprocessed_text": "cela me donne mauvaise haleine .",
+      "translated_text": "it gives me bad breath .",
+      "postprocessed_text": "It gives me bad breath.",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.839882",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:54:12.248803"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "It gives me bad breath.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Et avec une mauvaise haleine, impossible pour moi de me montrer en public.",
+      "preprocessed_text": "et avec une mauvaise haleine , impossible pour moi de me montrer en public .",
+      "translated_text": "and with bad breath , impossible for me to show up in public .",
+      "postprocessed_text": "And with bad breath, impossible for me to show up in public.",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.840491",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:54:18.728730"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-20T19:54:20.357312",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "And with bad breath, there\u2019s no way I\u2019m showing my face in public.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "Je pr\u00e9pare les poivrons et les prendrai en photo.",
+      "preprocessed_text": "je pr\u00e9pare les poivrons et les prendrai en photo .",
+      "translated_text": "I &apos;ll get the peppers ready and take a picture of them .",
+      "postprocessed_text": "I'll get the peppers ready and take a picture of them.",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.841103",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:54:24.926540"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019ll prepare the pepper and take a photo of them.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "\u00c0 moi les nouveaux abonn\u00e9s!!!!!!",
+      "preprocessed_text": "\u00e0 moi les nouveaux abonn\u00e9s ! ! ! ! ! !",
+      "translated_text": "give me the new subscri@@ ptions !",
+      "postprocessed_text": "Give me the new subscriptions!",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.841763",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:54:30.575521"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T19:54:35.294480",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "New followers for me!!!!!!",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "hahaha",
+      "preprocessed_text": "h@@ ah@@ aha",
+      "translated_text": "ha @-@ ha @-@ ha .",
+      "postprocessed_text": "Ha-ha-ha.",
+      "composition_time": "2018-05-20T19:51:23.297444",
+      "preprocessing_begin": "2018-05-20T19:51:23.360742",
+      "preprocessing_end": "2018-05-20T19:51:25.880762",
+      "translation_begin": "2018-05-20T19:51:25.880879",
+      "translation_end": "2018-05-20T19:51:30.782138",
+      "postprocessing_begin": "2018-05-20T19:51:30.782408",
+      "postprocessing_end": "2018-05-20T19:51:30.837136",
+      "sent_time": "2018-05-20T19:51:30.842402",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:54:37.166844"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Hahaha",
+      "normalised_version": "Hahaha"
+    },
+    "15": {
+      "language": "english",
+      "original_text": "You are not here to be a joker",
+      "preprocessed_text": "you are not here to be a joker",
+      "translated_text": "tu n&apos; es pas l\u00e0 pour \u00eatre Joker .",
+      "postprocessed_text": "Tu n'es pas l\u00e0 pour \u00eatre Joker.",
+      "composition_time": "2018-05-20T19:52:05.185063",
+      "preprocessing_begin": "2018-05-20T19:52:05.256765",
+      "preprocessing_end": "2018-05-20T19:52:07.502682",
+      "translation_begin": "2018-05-20T19:52:07.502788",
+      "translation_end": "2018-05-20T19:52:08.539516",
+      "postprocessing_begin": "2018-05-20T19:52:08.539777",
+      "postprocessing_end": "2018-05-20T19:52:08.592351",
+      "sent_time": "2018-05-20T19:52:08.594117",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-20T19:52:44.257603"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-20T19:52:46.728195",
+            true
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "Tu n\u2019es pas ici pour faire le clown.",
+      "normalised_version": "You are not here to be a joker."
+    },
+    "16": {
+      "language": "english",
+      "original_text": "You are a junior sous chef and you had better remember it",
+      "preprocessed_text": "you are a junior sous chef and you had better remember it",
+      "translated_text": "tu es un sous @-@ chef et tu as int\u00e9r\u00eat \u00e0 t&apos; en souvenir .",
+      "postprocessed_text": "Tu es un sous-chef et tu as int\u00e9r\u00eat \u00e0 t'en souvenir.",
+      "composition_time": "2018-05-20T19:52:28.256332",
+      "preprocessing_begin": "2018-05-20T19:52:28.337991",
+      "preprocessing_end": "2018-05-20T19:52:30.724148",
+      "translation_begin": "2018-05-20T19:52:30.724359",
+      "translation_end": "2018-05-20T19:52:32.088380",
+      "postprocessing_begin": "2018-05-20T19:52:32.088607",
+      "postprocessing_end": "2018-05-20T19:52:32.144566",
+      "sent_time": "2018-05-20T19:52:32.145915",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:52:55.669625"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Tu es un sous-chef junior et tu as int\u00e9r\u00eat \u00e0 t\u2019en souvenir.",
+      "normalised_version": "You are a junior sous-chef and you had better remember it."
+    },
+    "17": {
+      "language": "english",
+      "original_text": "As for not liking garlic I am not interested in your likes and dislikes",
+      "preprocessed_text": "as for not liking garlic I am not interested in your likes and dislikes",
+      "translated_text": "comme pour ne pas aimer l&apos; ail , je ne suis pas int\u00e9ress\u00e9 par tes go\u00fbts et tes go\u00fbts .",
+      "postprocessed_text": "Comme pour ne pas aimer l'ail, je ne suis pas int\u00e9ress\u00e9 par tes go\u00fbts et tes go\u00fbts.",
+      "composition_time": "2018-05-20T19:52:57.700473",
+      "preprocessing_begin": "2018-05-20T19:52:57.772612",
+      "preprocessing_end": "2018-05-20T19:53:00.111522",
+      "translation_begin": "2018-05-20T19:53:00.111629",
+      "translation_end": "2018-05-20T19:53:01.817645",
+      "postprocessing_begin": "2018-05-20T19:53:01.817861",
+      "postprocessing_end": "2018-05-20T19:53:01.863341",
+      "sent_time": "2018-05-20T19:53:01.864113",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-20T19:53:10.983650"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-20T19:53:13.285526",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-20T19:53:16.261792",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-20T19:53:17.090590",
+            true
+          ]
+        ],
+        "problems": [
+          "meaning",
+          "word choice",
+          "coherence"
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "Et concernant le fait que tu n\u2019aimes pas l\u2019ail, ce que tu aimes ou pas ne m\u2019int\u00e9resse pas.",
+      "normalised_version": "As for not liking garlic I am not interested in your likes and dislikes."
+    },
+    "18": {
+      "language": "english",
+      "original_text": "I know a very good recipe for garlic soup which uses forty cloves",
+      "preprocessed_text": "I know a very good recipe for garlic soup which uses forty clo@@ ves",
+      "translated_text": "je connais une tr\u00e8s bonne recette pour la soupe \u00e0 l&apos; ail .",
+      "postprocessed_text": "Je connais une tr\u00e8s bonne recette pour la soupe \u00e0 l'ail.",
+      "composition_time": "2018-05-20T19:53:35.778084",
+      "preprocessing_begin": "2018-05-20T19:53:35.855917",
+      "preprocessing_end": "2018-05-20T19:53:38.440746",
+      "translation_begin": "2018-05-20T19:53:38.440888",
+      "translation_end": "2018-05-20T19:53:40.340148",
+      "postprocessing_begin": "2018-05-20T19:53:40.340386",
+      "postprocessing_end": "2018-05-20T19:53:40.375117",
+      "sent_time": "2018-05-20T19:53:40.376270",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:54:22.750116"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je connais une tr\u00e8s bonne recette de soupe \u00e0 l\u2019ail qui utilise quarante clous de girofle.",
+      "normalised_version": "I know a very good recipe for garlic soup which uses forty cloves."
+    },
+    "19": {
+      "language": "english",
+      "original_text": "You can make that tomorrow",
+      "preprocessed_text": "you can make that tomorrow",
+      "translated_text": "tu pourras le faire demain .",
+      "postprocessed_text": "Tu pourras le faire demain.",
+      "composition_time": "2018-05-20T19:53:46.165768",
+      "preprocessing_begin": "2018-05-20T19:53:46.204503",
+      "preprocessing_end": "2018-05-20T19:53:48.702245",
+      "translation_begin": "2018-05-20T19:53:48.702326",
+      "translation_end": "2018-05-20T19:53:49.186799",
+      "postprocessing_begin": "2018-05-20T19:53:49.187016",
+      "postprocessing_end": "2018-05-20T19:53:49.229403",
+      "sent_time": "2018-05-20T19:53:49.230388",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:54:24.167703"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Tu peux faire \u00e7a demain.",
+      "normalised_version": "You can make that tomorrow."
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Mais c'est injuste !",
+      "preprocessed_text": "mais c&apos; est injuste !",
+      "translated_text": "but that &apos;s not fair !",
+      "postprocessed_text": "But that's not fair!",
+      "composition_time": "2018-05-20T19:55:15.603586",
+      "preprocessing_begin": "2018-05-20T19:55:15.677014",
+      "preprocessing_end": "2018-05-20T19:55:18.410332",
+      "translation_begin": "2018-05-20T19:55:18.410455",
+      "translation_end": "2018-05-20T19:55:21.712757",
+      "postprocessing_begin": "2018-05-20T19:55:21.712975",
+      "postprocessing_end": "2018-05-20T19:55:21.756717",
+      "sent_time": "2018-05-20T19:55:21.757317",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:55:25.384922"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "But that\u2019s not fair!",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Je suis sous-chef en cuisine, mais chef supr\u00e8me en relations publiques !",
+      "preprocessed_text": "je suis sous @-@ chef en cuisine , mais chef su@@ pr@@ \u00e8me en relations publiques !",
+      "translated_text": "I &apos;m a chef in the kitchen , but I &apos;m a PR chef !",
+      "postprocessed_text": "I'm a chef in the kitchen, but I'm a PR chef!",
+      "composition_time": "2018-05-20T19:55:15.603586",
+      "preprocessing_begin": "2018-05-20T19:55:15.677014",
+      "preprocessing_end": "2018-05-20T19:55:18.410332",
+      "translation_begin": "2018-05-20T19:55:18.410455",
+      "translation_end": "2018-05-20T19:55:21.712757",
+      "postprocessing_begin": "2018-05-20T19:55:21.712975",
+      "postprocessing_end": "2018-05-20T19:55:21.756717",
+      "sent_time": "2018-05-20T19:55:21.757816",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:59:52.313229"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m a sous-chef in the kitchen, but a Commander-in-chief when it comes to public relations!",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Parfum, photos, accueil, tout cela me convient bien mieux que de finir au fourneau !",
+      "preprocessed_text": "parfum , photos , accueil , tout cela me convient bien mieux que de finir au fourneau !",
+      "translated_text": "perfume , pictures , reception , this whole thing suits me better than finishing the stove !",
+      "postprocessed_text": "Perfume, pictures, reception, this whole thing suits me better than finishing the stove!",
+      "composition_time": "2018-05-20T19:55:15.603586",
+      "preprocessing_begin": "2018-05-20T19:55:15.677014",
+      "preprocessing_end": "2018-05-20T19:55:18.410332",
+      "translation_begin": "2018-05-20T19:55:18.410455",
+      "translation_end": "2018-05-20T19:55:21.712757",
+      "postprocessing_begin": "2018-05-20T19:55:21.712975",
+      "postprocessing_end": "2018-05-20T19:55:21.756717",
+      "sent_time": "2018-05-20T19:55:21.758243",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:55:37.367264"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Perfume, photos and reception all suit me better than ending up at the stove!",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Je refuse !",
+      "preprocessed_text": "je refuse !",
+      "translated_text": "I refuse !",
+      "postprocessed_text": "I refuse!",
+      "composition_time": "2018-05-20T19:55:35.154386",
+      "preprocessing_begin": "2018-05-20T19:55:35.215111",
+      "preprocessing_end": "2018-05-20T19:55:37.795954",
+      "translation_begin": "2018-05-20T19:55:37.796047",
+      "translation_end": "2018-05-20T19:55:39.722790",
+      "postprocessing_begin": "2018-05-20T19:55:39.723012",
+      "postprocessing_end": "2018-05-20T19:55:39.762759",
+      "sent_time": "2018-05-20T19:55:39.763564",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:57:51.904908"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I refuse!",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Je dis bien : Je refuse de faire la cuisine \u00e0 l'ail !",
+      "preprocessed_text": "je dis bien : je refuse de faire la cuisine \u00e0 l&apos; ail !",
+      "translated_text": "I say , I refuse to cook garlic !",
+      "postprocessed_text": "I say, I refuse to cook garlic!",
+      "composition_time": "2018-05-20T19:55:35.154386",
+      "preprocessing_begin": "2018-05-20T19:55:35.215111",
+      "preprocessing_end": "2018-05-20T19:55:37.795954",
+      "translation_begin": "2018-05-20T19:55:37.796047",
+      "translation_end": "2018-05-20T19:55:39.722790",
+      "postprocessing_begin": "2018-05-20T19:55:39.723012",
+      "postprocessing_end": "2018-05-20T19:55:39.762759",
+      "sent_time": "2018-05-20T19:55:39.763983",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:57:55.091685"
+          ]
+        ],
+        "problem_history": [
+          [
+            "style",
+            "2018-05-20T19:57:59.758132",
+            true
+          ]
+        ],
+        "problems": [
+          "style"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "I mean: I refuse to cook with garlic!",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "Mes belels chemises vont empester !",
+      "preprocessed_text": "mes bel@@ els chemises vont emp@@ ester !",
+      "translated_text": "my bel@@ els are going to stink !",
+      "postprocessed_text": "My belels are going to stink!",
+      "composition_time": "2018-05-20T19:55:35.154386",
+      "preprocessing_begin": "2018-05-20T19:55:35.215111",
+      "preprocessing_end": "2018-05-20T19:55:37.795954",
+      "translation_begin": "2018-05-20T19:55:37.796047",
+      "translation_end": "2018-05-20T19:55:39.722790",
+      "postprocessing_begin": "2018-05-20T19:55:39.723012",
+      "postprocessing_end": "2018-05-20T19:55:39.762759",
+      "sent_time": "2018-05-20T19:55:39.764353",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T19:58:06.866535"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T19:58:09.467263",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "My beautiful shirts will reek!",
+      "normalised_version": "Mes belles chemises vont empester !"
+    },
+    "26": {
+      "language": "english",
+      "original_text": "As I said I am the boss and you will do as you are told",
+      "preprocessed_text": "as I said I am the boss and you will do as you are told",
+      "translated_text": "comme je l&apos; ai dit , je suis le patron et tu feras ce qu&apos; on te dira .",
+      "postprocessed_text": "Comme je l'ai dit, je suis le patron et tu feras ce qu'on te dira.",
+      "composition_time": "2018-05-20T19:56:24.250063",
+      "preprocessing_begin": "2018-05-20T19:56:24.291555",
+      "preprocessing_end": "2018-05-20T19:56:26.571639",
+      "translation_begin": "2018-05-20T19:56:26.571773",
+      "translation_end": "2018-05-20T19:56:28.003514",
+      "postprocessing_begin": "2018-05-20T19:56:28.003750",
+      "postprocessing_end": "2018-05-20T19:56:28.051049",
+      "sent_time": "2018-05-20T19:56:28.051754",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:56:37.863206"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Comme je le disais, je suis le chef et tu vas faire ce qu\u2019on te demande.",
+      "normalised_version": "As I said I am the boss and you will do as you are told."
+    },
+    "27": {
+      "language": "english",
+      "original_text": "I am not interested in your opinions and what part of your anatomy will smell",
+      "preprocessed_text": "I am not interested in your opinions and what part of your anatomy will smell",
+      "translated_text": "je ne suis pas int\u00e9ress\u00e9 par votre opinion et quelle partie de votre anatomie va sentir",
+      "postprocessed_text": "Je ne suis pas int\u00e9ress\u00e9 par votre opinion et quelle partie de votre anatomie va sentir",
+      "composition_time": "2018-05-20T19:57:01.774850",
+      "preprocessing_begin": "2018-05-20T19:57:01.839117",
+      "preprocessing_end": "2018-05-20T19:57:04.261684",
+      "translation_begin": "2018-05-20T19:57:04.261790",
+      "translation_end": "2018-05-20T19:57:05.750492",
+      "postprocessing_begin": "2018-05-20T19:57:05.750896",
+      "postprocessing_end": "2018-05-20T19:57:05.804751",
+      "sent_time": "2018-05-20T19:57:05.805888",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:57:14.575113"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je ne suis pas int\u00e9ress\u00e9 par tes avis ou par savoir quelle partie de ton anatomie va puer.",
+      "normalised_version": "I am not interested in your opinions and what part of your anatomy will smell."
+    },
+    "28": {
+      "language": "english",
+      "original_text": "Smelling of garlic will stop you flirting with the waitresses anyway",
+      "preprocessed_text": "smelling of garlic will stop you flirting with the waitresses anyway",
+      "translated_text": "l&apos; odeur de l&apos; ail te fera arr\u00eater de flirter avec les serveuses de toute fa\u00e7on .",
+      "postprocessed_text": "L'odeur de l'ail te fera arr\u00eater de flirter avec les serveuses de toute fa\u00e7on.",
+      "composition_time": "2018-05-20T19:57:44.668902",
+      "preprocessing_begin": "2018-05-20T19:57:44.731751",
+      "preprocessing_end": "2018-05-20T19:57:47.323311",
+      "translation_begin": "2018-05-20T19:57:47.323388",
+      "translation_end": "2018-05-20T19:57:48.865051",
+      "postprocessing_begin": "2018-05-20T19:57:48.865279",
+      "postprocessing_end": "2018-05-20T19:57:48.913365",
+      "sent_time": "2018-05-20T19:57:48.914854",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T19:58:11.785997"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "L\u2019odeur de l\u2019ail t\u2019emp\u00eachera de flirter avec les serveuses, de toute fa\u00e7on.",
+      "normalised_version": "Smelling of garlic will stop you flirting with the waitresses anyway."
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Vous \u00eates cruel !",
+      "preprocessed_text": "vous \u00eates cruel !",
+      "translated_text": "you &apos;re cruel !",
+      "postprocessed_text": "You're cruel!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.973661",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:00:23.438570"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "You\u2019re cruel!",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Que vous ai-je donc fait !",
+      "preprocessed_text": "que vous ai @-@ je donc fait !",
+      "translated_text": "what have I done to you ?",
+      "postprocessed_text": "What have I done to you?",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.975478",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:02:21.866992"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "What have I ever done to you?",
+      "normalised_version": "Que vous ai-je donc fait ?"
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Les serveuses ne sont pas int\u00e9ressantes, les clientes oui !",
+      "preprocessed_text": "les serveuses ne sont pas int\u00e9ressantes , les clientes oui !",
+      "translated_text": "waitresses aren &apos;t interesting , customers do !",
+      "postprocessed_text": "Waitresses aren't interesting, customers do!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.975894",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:02:28.548210"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T20:02:30.515570",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "The waitress aren\u2019t very interesting, but the customers are!",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Je me dois de gagner des abonn\u00e9es !",
+      "preprocessed_text": "je me dois de gagner des ab@@ onn\u00e9es !",
+      "translated_text": "I have to earn a pair !",
+      "postprocessed_text": "I have to earn a pair!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.976255",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:02:34.124949"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T20:02:36.327385",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "I have to earn myself followers!",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Je suis une starsur instargram et autres r\u00e9seaux sociaux !",
+      "preprocessed_text": "je suis une star@@ sur inst@@ ar@@ gram et autres r\u00e9seaux sociaux !",
+      "translated_text": "I &apos;m an inst@@ ar@@ gram and other social networks !",
+      "postprocessed_text": "I'm an instargram and other social networks!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.976664",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:02:41.399414"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-20T20:02:43.573076",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-20T20:02:47.569957",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m a star on Instagram and other social networking sites!",
+      "normalised_version": "Je suis une star sur Instagram et autres r\u00e9seaux sociaux !"
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Une star !!",
+      "preprocessed_text": "une star ! !",
+      "translated_text": "a star !",
+      "postprocessed_text": "A star!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.977036",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:02:51.074071"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "A star!!",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Le fait que j'aille au toilette m'apporte 2000 j'aimes.",
+      "preprocessed_text": "le fait que j&apos; aille au toilette m&apos; apporte 2000 j&apos; aimes .",
+      "translated_text": "the fact that I go to the toilet brings me 2,000 I love .",
+      "postprocessed_text": "The fact that I go to the toilet brings me 2,000 I love.",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.977439",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:03:07.700094"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T20:03:09.514756",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Me going to the toilet gives me 2000 likes.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "Je ne fais ce boulot qu'en attendant de me faire embaucher par une boite de mannequins !",
+      "preprocessed_text": "je ne fais ce boulot qu&apos; en attendant de me faire embaucher par une boite de mannequins !",
+      "translated_text": "I &apos;m only doing this job until I get hired by a box of models !",
+      "postprocessed_text": "I'm only doing this job until I get hired by a box of models!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.977818",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:03:13.857731"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T20:03:15.031869",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m only doing this job whilst waiting to be recruited by a modelling agency!",
+      "normalised_version": "Je ne fais ce boulot qu'en attendant de me faire embaucher par une bo\u00eete de mannequins !"
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Je suis une star!!",
+      "preprocessed_text": "je suis une star ! !",
+      "translated_text": "I &apos;m a star !",
+      "postprocessed_text": "I'm a star!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.978155",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:03:17.728578"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m a star!!",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "UNE STAR !!!!!!!",
+      "preprocessed_text": "une ST@@ AR ! ! ! ! ! ! !",
+      "translated_text": "let &apos;s go !",
+      "postprocessed_text": "Let's go!",
+      "composition_time": "2018-05-20T20:00:06.478300",
+      "preprocessing_begin": "2018-05-20T20:00:06.543589",
+      "preprocessing_end": "2018-05-20T20:00:09.039923",
+      "translation_begin": "2018-05-20T20:00:09.039987",
+      "translation_end": "2018-05-20T20:00:16.934565",
+      "postprocessing_begin": "2018-05-20T20:00:16.934808",
+      "postprocessing_end": "2018-05-20T20:00:16.972689",
+      "sent_time": "2018-05-20T20:00:16.978518",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:03:19.663249"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "A STAR!!!!!!!",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "english",
+      "original_text": "You are deluded",
+      "preprocessed_text": "you are deluded",
+      "translated_text": "tu te fais des illusions .",
+      "postprocessed_text": "Tu te fais des illusions.",
+      "composition_time": "2018-05-20T20:01:15.372057",
+      "preprocessing_begin": "2018-05-20T20:01:15.413617",
+      "preprocessing_end": "2018-05-20T20:01:17.789712",
+      "translation_begin": "2018-05-20T20:01:17.790179",
+      "translation_end": "2018-05-20T20:01:18.262253",
+      "postprocessing_begin": "2018-05-20T20:01:18.262475",
+      "postprocessing_end": "2018-05-20T20:01:18.309427",
+      "sent_time": "2018-05-20T20:01:18.310467",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:01:22.060439"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Tu te fais des films.",
+      "normalised_version": "You are deluded."
+    },
+    "40": {
+      "language": "english",
+      "original_text": "Well, since you are here you will do as I say and not spend your time fantasising",
+      "preprocessed_text": "well , since you are here you will do as I say and not spend your time fantas@@ ising",
+      "translated_text": "puisque vous \u00eates ici , vous ferez ce que je vous dis et ne pas passer votre temps \u00e0 r\u00eaver .",
+      "postprocessed_text": "Puisque vous \u00eates ici, vous ferez ce que je vous dis et ne pas passer votre temps \u00e0 r\u00eaver.",
+      "composition_time": "2018-05-20T20:01:53.883608",
+      "preprocessing_begin": "2018-05-20T20:01:53.950230",
+      "preprocessing_end": "2018-05-20T20:01:56.410097",
+      "translation_begin": "2018-05-20T20:01:56.410203",
+      "translation_end": "2018-05-20T20:01:58.443914",
+      "postprocessing_begin": "2018-05-20T20:01:58.444166",
+      "postprocessing_end": "2018-05-20T20:01:58.499497",
+      "sent_time": "2018-05-20T20:01:58.501196",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:02:09.783234"
+          ]
+        ],
+        "problem_history": [
+          [
+            "style",
+            "2018-05-20T20:02:13.391776",
+            true
+          ]
+        ],
+        "problems": [
+          "style"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Bon, tant que tu es ici tu vas faire ce que je dis et ne pas passer ton temps \u00e0 fantasmer.",
+      "normalised_version": "Well, since you are here you will do as I say and not spend your time fantasising."
+    },
+    "41": {
+      "language": "english",
+      "original_text": "You are here to work to just leave now",
+      "preprocessed_text": "you are here to work to just leave now",
+      "translated_text": "vous \u00eates ici pour travailler pour partir maintenant .",
+      "postprocessed_text": "Vous \u00eates ici pour travailler pour partir maintenant.",
+      "composition_time": "2018-05-20T20:02:09.970751",
+      "preprocessing_begin": "2018-05-20T20:02:10.048001",
+      "preprocessing_end": "2018-05-20T20:02:12.523560",
+      "translation_begin": "2018-05-20T20:02:12.523695",
+      "translation_end": "2018-05-20T20:02:13.489166",
+      "postprocessing_begin": "2018-05-20T20:02:13.489468",
+      "postprocessing_end": "2018-05-20T20:02:13.531026",
+      "sent_time": "2018-05-20T20:02:13.532018",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-20T20:02:19.306566"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-20T20:02:22.493270",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Tu es ici pour travailler, sinon pars imm\u00e9diatement.",
+      "normalised_version": "You are here to work to just leave now."
+    },
+    "42": {
+      "language": "french",
+      "original_text": "Tr\u00e8s bien !",
+      "preprocessed_text": "tr\u00e8s bien !",
+      "translated_text": "all right !",
+      "postprocessed_text": "All right!",
+      "composition_time": "2018-05-20T20:03:29.618636",
+      "preprocessing_begin": "2018-05-20T20:03:29.667486",
+      "preprocessing_end": "2018-05-20T20:03:32.082410",
+      "translation_begin": "2018-05-20T20:03:32.082485",
+      "translation_end": "2018-05-20T20:03:35.552741",
+      "postprocessing_begin": "2018-05-20T20:03:35.552963",
+      "postprocessing_end": "2018-05-20T20:03:35.596337",
+      "sent_time": "2018-05-20T20:03:35.597404",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:03:43.455435"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Very good!",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "french",
+      "original_text": "Je vais travailler.",
+      "preprocessed_text": "je vais travailler .",
+      "translated_text": "I &apos;m going to work .",
+      "postprocessed_text": "I'm going to work.",
+      "composition_time": "2018-05-20T20:03:29.618636",
+      "preprocessing_begin": "2018-05-20T20:03:29.667486",
+      "preprocessing_end": "2018-05-20T20:03:32.082410",
+      "translation_begin": "2018-05-20T20:03:32.082485",
+      "translation_end": "2018-05-20T20:03:35.552741",
+      "postprocessing_begin": "2018-05-20T20:03:35.552963",
+      "postprocessing_end": "2018-05-20T20:03:35.596337",
+      "sent_time": "2018-05-20T20:03:35.597908",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:03:44.520922"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m going to work.",
+      "normalised_version": ""
+    },
+    "44": {
+      "language": "french",
+      "original_text": "Je vais travailler chez Chanel et d\u00e9mission d\u00e8s \u00e0 pr\u00e9sent de ce travail alimentaire pourri !",
+      "preprocessed_text": "je vais travailler chez Chanel et d\u00e9mission d\u00e8s \u00e0 pr\u00e9sent de ce travail alimentaire pourri !",
+      "translated_text": "I &apos;m going to work in Chanel and resign from this rotten food job !",
+      "postprocessed_text": "I'm going to work in Chanel and resign from this rotten food job!",
+      "composition_time": "2018-05-20T20:03:29.618636",
+      "preprocessing_begin": "2018-05-20T20:03:29.667486",
+      "preprocessing_end": "2018-05-20T20:03:32.082410",
+      "translation_begin": "2018-05-20T20:03:32.082485",
+      "translation_end": "2018-05-20T20:03:35.552741",
+      "postprocessing_begin": "2018-05-20T20:03:35.552963",
+      "postprocessing_end": "2018-05-20T20:03:35.596337",
+      "sent_time": "2018-05-20T20:03:35.598341",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:03:58.953392"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m going to work at Chanel and step down immediately from this rubbish day job! ",
+      "normalised_version": "Je vais travailler chez Chanel et d\u00e9missionner d\u00e8s \u00e0 pr\u00e9sent de ce travail alimentaire pourri !"
+    },
+    "45": {
+      "language": "french",
+      "original_text": "Franchement, utiliser de l'ail ne sied pas \u00e0 une personne de mon calibre !",
+      "preprocessed_text": "franchement , utiliser de l&apos; ail ne sied pas \u00e0 une personne de mon calibre !",
+      "translated_text": "honestly , using garlic doesn &apos;t suit a person of my caliber !",
+      "postprocessed_text": "Honestly, using garlic doesn't suit a person of my caliber!",
+      "composition_time": "2018-05-20T20:03:29.618636",
+      "preprocessing_begin": "2018-05-20T20:03:29.667486",
+      "preprocessing_end": "2018-05-20T20:03:32.082410",
+      "translation_begin": "2018-05-20T20:03:32.082485",
+      "translation_end": "2018-05-20T20:03:35.552741",
+      "postprocessing_begin": "2018-05-20T20:03:35.552963",
+      "postprocessing_end": "2018-05-20T20:03:35.596337",
+      "sent_time": "2018-05-20T20:03:35.598778",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:04:20.631209"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Frankly, using garlic isn\u2019t fitting for someone of my calibre!",
+      "normalised_version": ""
+    },
+    "46": {
+      "language": "french",
+      "original_text": "Adieu !",
+      "preprocessed_text": "adieu !",
+      "translated_text": "farewell !",
+      "postprocessed_text": "Farewell!",
+      "composition_time": "2018-05-20T20:03:29.618636",
+      "preprocessing_begin": "2018-05-20T20:03:29.667486",
+      "preprocessing_end": "2018-05-20T20:03:32.082410",
+      "translation_begin": "2018-05-20T20:03:32.082485",
+      "translation_end": "2018-05-20T20:03:35.552741",
+      "postprocessing_begin": "2018-05-20T20:03:35.552963",
+      "postprocessing_end": "2018-05-20T20:03:35.596337",
+      "sent_time": "2018-05-20T20:03:35.599184",
+      "eval": {
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-20T20:04:22.623549"
+          ]
+        ],
+        "problem_history": [],
+        "problems": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Farewell!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "style": "excellent",
+    "coherence": "good",
+    "grammaticality": "good",
+    "interface": "cool",
+    "verbatim_quality": "correcte",
+    "meaning": "average",
+    "particular_problems": "les expressions.",
+    "tech": "There were no technical problems",
+    "would_use": true,
+    "timestamp": "2018-05-20T20:05:49.283864",
+    "word_choice": "excellent",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "style": "good",
+    "coherence": "good",
+    "grammaticality": "good",
+    "interface": "",
+    "verbatim_quality": "some strange word use",
+    "meaning": "average",
+    "particular_problems": "",
+    "tech": "There were no technical problems",
+    "would_use": true,
+    "timestamp": "2018-05-20T20:07:13.140483",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}
