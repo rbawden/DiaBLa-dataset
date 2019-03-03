@@ -1,0 +1,1162 @@
+{
+  "start_time": "2018-05-17T10:47:07.057335",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are feeding the ducks by the pond.",
+      "Vous nourrissez les canards au bord d'un \u00e9tang."
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "user1": {
+    "role_num": 2,
+    "lang": "french",
+    "role": [
+      "",
+      ""
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "eval-stage": true
+  },
+  "user2": {
+    "lang": "english",
+    "role": [
+      "",
+      ""
+    ],
+    "rolenum": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 2,
+    "useragent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36",
+    "eval-stage": true
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "bonjour, comment allez vous ?",
+      "preprocessed_text": "bonjour , comment allez vous ?",
+      "translated_text": "hi , how are you ?",
+      "postprocessed_text": "Hi, how are you?",
+      "composition_time": "2018-05-17T10:47:42.708436",
+      "preprocessing_begin": "2018-05-17T10:47:42.789013",
+      "preprocessing_end": "2018-05-17T10:47:45.539999",
+      "translation_begin": "2018-05-17T10:47:45.540094",
+      "translation_end": "2018-05-17T10:47:46.134523",
+      "postprocessing_begin": "2018-05-17T10:47:46.135021",
+      "postprocessing_end": "2018-05-17T10:47:46.183057",
+      "sent_time": "2018-05-17T10:47:46.185494",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:49:39.205972"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Hello, how are you?",
+      "normalised_version": "Bonjour, comment allez-vous ?"
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Hello, I am great thank you.",
+      "preprocessed_text": "hello , I am great thank you .",
+      "translated_text": "bonjour , je suis grand merci .",
+      "postprocessed_text": "Bonjour, je suis grand merci.",
+      "composition_time": "2018-05-17T10:48:07.766702",
+      "preprocessing_begin": "2018-05-17T10:48:07.832049",
+      "preprocessing_end": "2018-05-17T10:48:10.256142",
+      "translation_begin": "2018-05-17T10:48:10.256370",
+      "translation_end": "2018-05-17T10:48:11.330011",
+      "postprocessing_begin": "2018-05-17T10:48:11.330502",
+      "postprocessing_end": "2018-05-17T10:48:11.368915",
+      "sent_time": "2018-05-17T10:48:11.371425",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-17T10:48:25.225092"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-17T10:48:28.338710",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Bonjour, je vais bien merci.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "How are you doing today?",
+      "preprocessed_text": "how are you doing today ?",
+      "translated_text": "comment \u00e7a va , aujourd&apos; hui ?",
+      "postprocessed_text": "Comment \u00e7a va, aujourd'hui ?",
+      "composition_time": "2018-05-17T10:48:07.766702",
+      "preprocessing_begin": "2018-05-17T10:48:07.832049",
+      "preprocessing_end": "2018-05-17T10:48:10.256142",
+      "translation_begin": "2018-05-17T10:48:10.256370",
+      "translation_end": "2018-05-17T10:48:11.330011",
+      "postprocessing_begin": "2018-05-17T10:48:11.330502",
+      "postprocessing_end": "2018-05-17T10:48:11.368915",
+      "sent_time": "2018-05-17T10:48:11.372734",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:49.312860"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Comment allez-vous aujourd\u2019hui ?",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "\u00e7a va bien.",
+      "preprocessed_text": "\u00e7a va bien .",
+      "translated_text": "I &apos;m fine .",
+      "postprocessed_text": "I'm fine.",
+      "composition_time": "2018-05-17T10:49:32.585708",
+      "preprocessing_begin": "2018-05-17T10:49:32.661119",
+      "preprocessing_end": "2018-05-17T10:49:34.874276",
+      "translation_begin": "2018-05-17T10:49:34.874424",
+      "translation_end": "2018-05-17T10:49:36.191054",
+      "postprocessing_begin": "2018-05-17T10:49:36.191452",
+      "postprocessing_end": "2018-05-17T10:49:36.236683",
+      "sent_time": "2018-05-17T10:49:36.237935",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:49:41.508801"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "It\u2019s going well.",
+      "normalised_version": "\u00c7a va bien."
+    },
+    "4": {
+      "language": "french",
+      "original_text": "C'est un beau temps pour nourrir les canards.",
+      "preprocessed_text": "c&apos; est un beau temps pour nourrir les canards .",
+      "translated_text": "it &apos;s a good time to feed the ducks .",
+      "postprocessed_text": "It's a good time to feed the ducks.",
+      "composition_time": "2018-05-17T10:49:32.585708",
+      "preprocessing_begin": "2018-05-17T10:49:32.661119",
+      "preprocessing_end": "2018-05-17T10:49:34.874276",
+      "translation_begin": "2018-05-17T10:49:34.874424",
+      "translation_end": "2018-05-17T10:49:36.191054",
+      "postprocessing_begin": "2018-05-17T10:49:36.191452",
+      "postprocessing_end": "2018-05-17T10:49:36.236683",
+      "sent_time": "2018-05-17T10:49:36.238972",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:49:42.558308"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "It's lovely weather for feeding the ducks.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Why is that?",
+      "preprocessed_text": "why is that ?",
+      "translated_text": "pourquoi ?",
+      "postprocessed_text": "Pourquoi ?",
+      "composition_time": "2018-05-17T10:49:53.409316",
+      "preprocessing_begin": "2018-05-17T10:49:53.477900",
+      "preprocessing_end": "2018-05-17T10:49:55.941144",
+      "translation_begin": "2018-05-17T10:49:55.941291",
+      "translation_end": "2018-05-17T10:49:56.965017",
+      "postprocessing_begin": "2018-05-17T10:49:56.965427",
+      "postprocessing_end": "2018-05-17T10:49:57.009122",
+      "sent_time": "2018-05-17T10:49:57.010790",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:50.903077"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Pourquoi donc ?",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "Because they are hungry",
+      "preprocessed_text": "because they are hungry",
+      "translated_text": "parce qu&apos; ils ont faim .",
+      "postprocessed_text": "Parce qu'ils ont faim.",
+      "composition_time": "2018-05-17T10:49:53.409316",
+      "preprocessing_begin": "2018-05-17T10:49:53.477900",
+      "preprocessing_end": "2018-05-17T10:49:55.941144",
+      "translation_begin": "2018-05-17T10:49:55.941291",
+      "translation_end": "2018-05-17T10:49:56.965017",
+      "postprocessing_begin": "2018-05-17T10:49:56.965427",
+      "postprocessing_end": "2018-05-17T10:49:57.009122",
+      "sent_time": "2018-05-17T10:49:57.011769",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:55.136095"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Parce qu\u2019ils ont faim.",
+      "normalised_version": "Because they are hungry."
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Ils ont l'air d'avoir faim.",
+      "preprocessed_text": "ils ont l&apos; air d&apos; avoir faim .",
+      "translated_text": "they look hungry .",
+      "postprocessed_text": "They look hungry.",
+      "composition_time": "2018-05-17T10:50:32.543357",
+      "preprocessing_begin": "2018-05-17T10:50:32.619267",
+      "preprocessing_end": "2018-05-17T10:50:35.245914",
+      "translation_begin": "2018-05-17T10:50:35.246027",
+      "translation_end": "2018-05-17T10:50:35.855038",
+      "postprocessing_begin": "2018-05-17T10:50:35.855454",
+      "postprocessing_end": "2018-05-17T10:50:35.906579",
+      "sent_time": "2018-05-17T10:50:35.908294",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:53:54.975858"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "They look hungry.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "What shall we give them to eat?",
+      "preprocessed_text": "what shall we give them to eat ?",
+      "translated_text": "qu&apos; est @-@ ce qu&apos; on leur donne \u00e0 manger ?",
+      "postprocessed_text": "Qu'est-ce qu'on leur donne \u00e0 manger ?",
+      "composition_time": "2018-05-17T10:52:27.263404",
+      "preprocessing_begin": "2018-05-17T10:52:27.348092",
+      "preprocessing_end": "2018-05-17T10:52:29.654800",
+      "translation_begin": "2018-05-17T10:52:29.655035",
+      "translation_end": "2018-05-17T10:52:32.283059",
+      "postprocessing_begin": "2018-05-17T10:52:32.283309",
+      "postprocessing_end": "2018-05-17T10:52:32.317501",
+      "sent_time": "2018-05-17T10:52:32.318558",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:57.097905"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Que devrions-nous leur donner \u00e0 manger ?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "I have heard that bread is not the best for them, what do you think?",
+      "preprocessed_text": "I have heard that bread is not the best for them , what do you think ?",
+      "translated_text": "j&apos; ai entendu dire que le pain n&apos; est pas le meilleur pour eux , qu&apos; en pensez @-@ vous ?",
+      "postprocessed_text": "J'ai entendu dire que le pain n'est pas le meilleur pour eux, qu'en pensez-vous ?",
+      "composition_time": "2018-05-17T10:52:27.263404",
+      "preprocessing_begin": "2018-05-17T10:52:27.348092",
+      "preprocessing_end": "2018-05-17T10:52:29.654800",
+      "translation_begin": "2018-05-17T10:52:29.655035",
+      "translation_end": "2018-05-17T10:52:32.283059",
+      "postprocessing_begin": "2018-05-17T10:52:32.283309",
+      "postprocessing_end": "2018-05-17T10:52:32.317501",
+      "sent_time": "2018-05-17T10:52:32.319034",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:03:04.726087"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "J\u2019ai entendu dire que le pain n\u2019\u00e9tait pas bon pour eux, qu\u2019en penses-tu ?",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "il partait que donner du pain au canards ce n'est pas bon pour eux.",
+      "preprocessed_text": "il partait que donner du pain au canards ce n&apos; est pas bon pour eux .",
+      "translated_text": "he was leaving that giving ducks bread is not good for them .",
+      "postprocessed_text": "He was leaving that giving ducks bread is not good for them.",
+      "composition_time": "2018-05-17T10:52:33.237163",
+      "preprocessing_begin": "2018-05-17T10:52:33.295448",
+      "preprocessing_end": "2018-05-17T10:52:36.006889",
+      "translation_begin": "2018-05-17T10:52:36.006992",
+      "translation_end": "2018-05-17T10:52:37.916804",
+      "postprocessing_begin": "2018-05-17T10:52:37.917217",
+      "postprocessing_end": "2018-05-17T10:52:37.965396",
+      "sent_time": "2018-05-17T10:52:37.967354",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-17T10:53:49.730051"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T10:53:52.792560",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Apparently giving bread to ducks isn\u2019t good for them.",
+      "normalised_version": "il para\u00eet que donner du pain au canards ce n'est pas bon pour eux."
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Il vaut mieux leur donner des carottes",
+      "preprocessed_text": "il vaut mieux leur donner des carottes",
+      "translated_text": "better give them carrots .",
+      "postprocessed_text": "Better give them carrots.",
+      "composition_time": "2018-05-17T10:52:33.237163",
+      "preprocessing_begin": "2018-05-17T10:52:33.295448",
+      "preprocessing_end": "2018-05-17T10:52:36.006889",
+      "translation_begin": "2018-05-17T10:52:36.006992",
+      "translation_end": "2018-05-17T10:52:37.916804",
+      "postprocessing_begin": "2018-05-17T10:52:37.917217",
+      "postprocessing_end": "2018-05-17T10:52:37.965396",
+      "sent_time": "2018-05-17T10:52:37.968741",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:53:56.225663"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "It\u2019s better to give carrots.",
+      "normalised_version": "Il vaut mieux leur donner des carottes."
+    },
+    "12": {
+      "language": "english",
+      "original_text": "Haha!",
+      "preprocessed_text": "haha !",
+      "translated_text": "haha !",
+      "postprocessed_text": "Haha !",
+      "composition_time": "2018-05-17T10:54:10.431169",
+      "preprocessing_begin": "2018-05-17T10:54:10.518938",
+      "preprocessing_end": "2018-05-17T10:54:13.075027",
+      "translation_begin": "2018-05-17T10:54:13.075185",
+      "translation_end": "2018-05-17T10:54:14.782183",
+      "postprocessing_begin": "2018-05-17T10:54:14.782663",
+      "postprocessing_end": "2018-05-17T10:54:14.830885",
+      "sent_time": "2018-05-17T10:54:14.832748",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:10.602254"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Haha !",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "The carrots might sink before they have a chance to eat them!",
+      "preprocessed_text": "the carrots might sink before they have a chance to eat them !",
+      "translated_text": "les carottes pourraient couler avant d&apos; avoir une chance de les manger !",
+      "postprocessed_text": "Les carottes pourraient couler avant d'avoir une chance de les manger !",
+      "composition_time": "2018-05-17T10:54:10.431169",
+      "preprocessing_begin": "2018-05-17T10:54:10.518938",
+      "preprocessing_end": "2018-05-17T10:54:13.075027",
+      "translation_begin": "2018-05-17T10:54:13.075185",
+      "translation_end": "2018-05-17T10:54:14.782183",
+      "postprocessing_begin": "2018-05-17T10:54:14.782663",
+      "postprocessing_end": "2018-05-17T10:54:14.830885",
+      "sent_time": "2018-05-17T10:54:14.833774",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T11:02:20.170404"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "les carottes qui les mange ?",
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "les carottes qui les mange ?",
+            "2018-05-17T11:02:33.126758",
+            "2018-05-17T11:02:33.126758"
+          ]
+        ]
+      },
+      "reference_translation": "Les carottes pourraient couler avant qu\u2019ils aient la moindre chance de les manger !",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "\u00e7a ne flotte pas les carottes ?",
+      "preprocessed_text": "\u00e7a ne flotte pas les carottes ?",
+      "translated_text": "it doesn &apos;t float carrots ?",
+      "postprocessed_text": "It doesn't float carrots?",
+      "composition_time": "2018-05-17T10:55:01.126105",
+      "preprocessing_begin": "2018-05-17T10:55:01.191552",
+      "preprocessing_end": "2018-05-17T10:55:03.690131",
+      "translation_begin": "2018-05-17T10:55:03.690292",
+      "translation_end": "2018-05-17T10:55:04.378841",
+      "postprocessing_begin": "2018-05-17T10:55:04.379145",
+      "postprocessing_end": "2018-05-17T10:55:04.430057",
+      "sent_time": "2018-05-17T10:55:04.431806",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-17T10:58:07.304495"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T10:58:10.190370",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Don\u2019t carrots float?",
+      "normalised_version": "\u00c7a ne flotte pas les carottes ?"
+    },
+    "15": {
+      "language": "french",
+      "original_text": "si on tend la main peut \u00eatre qu'ils viendront manger dedans",
+      "preprocessed_text": "si on tend la main peut \u00eatre qu&apos; ils viendront manger dedans",
+      "translated_text": "if we reach out , maybe they &apos;ll come for lunch .",
+      "postprocessed_text": "If we reach out, maybe they'll come for lunch.",
+      "composition_time": "2018-05-17T10:56:00.404578",
+      "preprocessing_begin": "2018-05-17T10:56:00.477620",
+      "preprocessing_end": "2018-05-17T10:56:03.075860",
+      "translation_begin": "2018-05-17T10:56:03.075971",
+      "translation_end": "2018-05-17T10:56:04.355728",
+      "postprocessing_begin": "2018-05-17T10:56:04.356244",
+      "postprocessing_end": "2018-05-17T10:56:04.411116",
+      "sent_time": "2018-05-17T10:56:04.413286",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:58:11.851460"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "If we stretch our hands, perhaps they will come and eat from them.",
+      "normalised_version": "Si on tend la main peut-\u00eatre qu'ils viendront manger dedans."
+    },
+    "16": {
+      "language": "french",
+      "original_text": "au pire, ils plongeront.",
+      "preprocessed_text": "au pire , ils plong@@ eront .",
+      "translated_text": "at worst , they &apos;ll go down .",
+      "postprocessed_text": "At worst, they'll go down.",
+      "composition_time": "2018-05-17T10:56:23.992219",
+      "preprocessing_begin": "2018-05-17T10:56:24.063111",
+      "preprocessing_end": "2018-05-17T10:56:26.490331",
+      "translation_begin": "2018-05-17T10:56:26.490428",
+      "translation_end": "2018-05-17T10:56:27.466832",
+      "postprocessing_begin": "2018-05-17T10:56:27.467202",
+      "postprocessing_end": "2018-05-17T10:56:27.526939",
+      "sent_time": "2018-05-17T10:56:27.529178",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T10:58:13.711808"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "At worst, they\u2019ll dive.",
+      "normalised_version": "Au pire, ils plongeront."
+    },
+    "17": {
+      "language": "english",
+      "original_text": "Hopefully they won't sink while eating, that would be a sad lunchtime for them.",
+      "preprocessed_text": "hopefully they won &apos;t sink while eating , that would be a sad lunchtime for them .",
+      "translated_text": "j&apos; esp\u00e8re qu&apos; ils ne vont pas couler en mangeant , ce serait un mauvais d\u00e9jeuner pour eux .",
+      "postprocessed_text": "J'esp\u00e8re qu'ils ne vont pas couler en mangeant, ce serait un mauvais d\u00e9jeuner pour eux.",
+      "composition_time": "2018-05-17T10:58:29.933811",
+      "preprocessing_begin": "2018-05-17T10:58:29.995267",
+      "preprocessing_end": "2018-05-17T10:58:32.303746",
+      "translation_begin": "2018-05-17T10:58:32.303875",
+      "translation_end": "2018-05-17T10:58:34.126921",
+      "postprocessing_begin": "2018-05-17T10:58:34.127433",
+      "postprocessing_end": "2018-05-17T10:58:34.183903",
+      "sent_time": "2018-05-17T10:58:34.186017",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T11:01:26.124049"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "je ne suis pas sur pour d\u00e9jeuner on utiliserais plut\u00f4t repas ici je pense.",
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "je ne suis pas sur pour d\u00e9jeuner on utiliserais plut\u00f4t repas ici je pense.",
+            "2018-05-17T11:02:00.939472",
+            "2018-05-17T11:02:00.939472"
+          ]
+        ]
+      },
+      "reference_translation": "Esp\u00e9rons qu\u2019ils ne se noieront pas en mangeant, ce serait un d\u00e9jeuner bien triste pour eux.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Maybe we could try and stroke them?",
+      "preprocessed_text": "maybe we could try and stroke them ?",
+      "translated_text": "peut @-@ \u00eatre qu&apos; on pourrait essayer de les caresser ?",
+      "postprocessed_text": "Peut-\u00eatre qu'on pourrait essayer de les caresser ?",
+      "composition_time": "2018-05-17T10:58:47.715801",
+      "preprocessing_begin": "2018-05-17T10:58:47.782134",
+      "preprocessing_end": "2018-05-17T10:58:50.007418",
+      "translation_begin": "2018-05-17T10:58:50.007524",
+      "translation_end": "2018-05-17T10:58:52.298214",
+      "postprocessing_begin": "2018-05-17T10:58:52.298492",
+      "postprocessing_end": "2018-05-17T10:58:52.350815",
+      "sent_time": "2018-05-17T10:58:52.351844",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:01:06.424160"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Peut-\u00eatre que nous pourrions essayer et aussi les caresser ?",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "If we make duck noises they might come over!",
+      "preprocessed_text": "if we make duck noises they might come over !",
+      "translated_text": "si on fait des bruits de canard , ils pourraient venir !",
+      "postprocessed_text": "Si on fait des bruits de canard, ils pourraient venir !",
+      "composition_time": "2018-05-17T10:58:47.715801",
+      "preprocessing_begin": "2018-05-17T10:58:47.782134",
+      "preprocessing_end": "2018-05-17T10:58:50.007418",
+      "translation_begin": "2018-05-17T10:58:50.007524",
+      "translation_end": "2018-05-17T10:58:52.298214",
+      "postprocessing_begin": "2018-05-17T10:58:52.298492",
+      "postprocessing_end": "2018-05-17T10:58:52.350815",
+      "sent_time": "2018-05-17T10:58:52.352598",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:01:02.699363"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Si nous faisons des cris de canard ils viendront peut-\u00eatre !",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "Shall we try?",
+      "preprocessed_text": "shall we try ?",
+      "translated_text": "on essaie ?",
+      "postprocessed_text": "On essaie ?",
+      "composition_time": "2018-05-17T10:58:47.715801",
+      "preprocessing_begin": "2018-05-17T10:58:47.782134",
+      "preprocessing_end": "2018-05-17T10:58:50.007418",
+      "translation_begin": "2018-05-17T10:58:50.007524",
+      "translation_end": "2018-05-17T10:58:52.298214",
+      "postprocessing_begin": "2018-05-17T10:58:52.298492",
+      "postprocessing_end": "2018-05-17T10:58:52.350815",
+      "sent_time": "2018-05-17T10:58:52.353296",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:01:01.631402"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "On essaye ?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "oui !",
+      "preprocessed_text": "oui !",
+      "translated_text": "yes !",
+      "postprocessed_text": "Yes!",
+      "composition_time": "2018-05-17T10:59:27.133629",
+      "preprocessing_begin": "2018-05-17T10:59:27.197432",
+      "preprocessing_end": "2018-05-17T10:59:29.632852",
+      "translation_begin": "2018-05-17T10:59:29.632968",
+      "translation_end": "2018-05-17T10:59:30.362939",
+      "postprocessing_begin": "2018-05-17T10:59:30.363336",
+      "postprocessing_end": "2018-05-17T10:59:30.416243",
+      "sent_time": "2018-05-17T10:59:30.418597",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:21.529993"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes!",
+      "normalised_version": "Oui !"
+    },
+    "22": {
+      "language": "french",
+      "original_text": "essayons",
+      "preprocessed_text": "essayons",
+      "translated_text": "let &apos;s try",
+      "postprocessed_text": "Let's try",
+      "composition_time": "2018-05-17T10:59:27.133629",
+      "preprocessing_begin": "2018-05-17T10:59:27.197432",
+      "preprocessing_end": "2018-05-17T10:59:29.632852",
+      "translation_begin": "2018-05-17T10:59:29.632968",
+      "translation_end": "2018-05-17T10:59:30.362939",
+      "postprocessing_begin": "2018-05-17T10:59:30.363336",
+      "postprocessing_end": "2018-05-17T10:59:30.416243",
+      "sent_time": "2018-05-17T10:59:30.420166",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:02:22.127141"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Let\u2019s try.",
+      "normalised_version": "Essayons."
+    },
+    "23": {
+      "language": "french",
+      "original_text": "coin coin petit canard viens par ici on a \u00e0 mang\u00e9",
+      "preprocessed_text": "coin coin petit canard viens par ici on a \u00e0 mang\u00e9",
+      "translated_text": "corner little duck , come over here we have something to eat .",
+      "postprocessed_text": "Corner little duck, come over here we have something to eat.",
+      "composition_time": "2018-05-17T11:00:50.806625",
+      "preprocessing_begin": "2018-05-17T11:00:50.869827",
+      "preprocessing_end": "2018-05-17T11:00:53.461957",
+      "translation_begin": "2018-05-17T11:00:53.462072",
+      "translation_end": "2018-05-17T11:00:54.453100",
+      "postprocessing_begin": "2018-05-17T11:00:54.453374",
+      "postprocessing_end": "2018-05-17T11:00:54.506278",
+      "sent_time": "2018-05-17T11:00:54.507595",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T11:02:17.982722"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T11:02:19.344549",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Quack quack little duck\u2026 come here\u2026 we have food!",
+      "normalised_version": "Coin coin petit canard viens par ici on a \u00e0 manger."
+    },
+    "24": {
+      "language": "english",
+      "original_text": "Quack Quack",
+      "preprocessed_text": "quack Qu@@ ack",
+      "translated_text": "coin Qu@@ ack",
+      "postprocessed_text": "Coin Quack",
+      "composition_time": "2018-05-17T11:02:34.636139",
+      "preprocessing_begin": "2018-05-17T11:02:34.700234",
+      "preprocessing_end": "2018-05-17T11:02:37.054669",
+      "translation_begin": "2018-05-17T11:02:37.054784",
+      "translation_end": "2018-05-17T11:02:37.439550",
+      "postprocessing_begin": "2018-05-17T11:02:37.440009",
+      "postprocessing_end": "2018-05-17T11:02:37.499083",
+      "sent_time": "2018-05-17T11:02:37.501893",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:03:42.065698"
+          ],
+          [
+            "medium",
+            "2018-05-17T11:03:42.071322"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "je ne sais pas si c'est une erreur ou non.",
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "je ne sais pas si c'est une erreur ou non.",
+            "2018-05-17T11:07:01.040043",
+            "2018-05-17T11:07:01.040043"
+          ]
+        ]
+      },
+      "reference_translation": "Coin Coin\u00a0!",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "Yes!",
+      "preprocessed_text": "yes !",
+      "translated_text": "oui !",
+      "postprocessed_text": "Oui !",
+      "composition_time": "2018-05-17T11:02:54.268357",
+      "preprocessing_begin": "2018-05-17T11:02:54.336317",
+      "preprocessing_end": "2018-05-17T11:02:56.494524",
+      "translation_begin": "2018-05-17T11:02:56.494637",
+      "translation_end": "2018-05-17T11:02:58.443050",
+      "postprocessing_begin": "2018-05-17T11:02:58.443422",
+      "postprocessing_end": "2018-05-17T11:02:58.512819",
+      "sent_time": "2018-05-17T11:02:58.514620",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:03:44.384874"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Oui !",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "He came over.",
+      "preprocessed_text": "he came over .",
+      "translated_text": "il est venu .",
+      "postprocessed_text": "Il est venu.",
+      "composition_time": "2018-05-17T11:02:54.268357",
+      "preprocessing_begin": "2018-05-17T11:02:54.336317",
+      "preprocessing_end": "2018-05-17T11:02:56.494524",
+      "translation_begin": "2018-05-17T11:02:56.494637",
+      "translation_end": "2018-05-17T11:02:58.443050",
+      "postprocessing_begin": "2018-05-17T11:02:58.443422",
+      "postprocessing_end": "2018-05-17T11:02:58.512819",
+      "sent_time": "2018-05-17T11:02:58.515468",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:03:45.239098"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Il vient par ici.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "He took the carrot from your hand!",
+      "preprocessed_text": "he took the carrot from your hand !",
+      "translated_text": "il a pris la carotte de ta main !",
+      "postprocessed_text": "Il a pris la carotte de ta main !",
+      "composition_time": "2018-05-17T11:02:54.268357",
+      "preprocessing_begin": "2018-05-17T11:02:54.336317",
+      "preprocessing_end": "2018-05-17T11:02:56.494524",
+      "translation_begin": "2018-05-17T11:02:56.494637",
+      "translation_end": "2018-05-17T11:02:58.443050",
+      "postprocessing_begin": "2018-05-17T11:02:58.443422",
+      "postprocessing_end": "2018-05-17T11:02:58.512819",
+      "sent_time": "2018-05-17T11:02:58.516306",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:03:46.748903"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Il a pris la carotte dans ta main !",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "french",
+      "original_text": "profitons en pour le caresser avant qu'il ne parte",
+      "preprocessed_text": "profitons en pour le caresser avant qu&apos; il ne parte",
+      "translated_text": "let &apos;s just use it to stroke him before he leaves .",
+      "postprocessed_text": "Let's just use it to stroke him before he leaves.",
+      "composition_time": "2018-05-17T11:03:38.483310",
+      "preprocessing_begin": "2018-05-17T11:03:38.563591",
+      "preprocessing_end": "2018-05-17T11:03:40.973134",
+      "translation_begin": "2018-05-17T11:03:40.973273",
+      "translation_end": "2018-05-17T11:03:42.006852",
+      "postprocessing_begin": "2018-05-17T11:03:42.007402",
+      "postprocessing_end": "2018-05-17T11:03:42.050044",
+      "sent_time": "2018-05-17T11:03:42.052727",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:08:44.150571"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Let\u2019s make the most of it and stroke him before he leaves.",
+      "normalised_version": "Profitons-en pour le caresser avant qu'il ne parte."
+    },
+    "29": {
+      "language": "french",
+      "original_text": "ah trop tard.",
+      "preprocessed_text": "ah trop tard .",
+      "translated_text": "ah , too late .",
+      "postprocessed_text": "Ah, too late.",
+      "composition_time": "2018-05-17T11:04:44.317454",
+      "preprocessing_begin": "2018-05-17T11:04:44.401926",
+      "preprocessing_end": "2018-05-17T11:04:46.972285",
+      "translation_begin": "2018-05-17T11:04:46.972387",
+      "translation_end": "2018-05-17T11:04:47.892322",
+      "postprocessing_begin": "2018-05-17T11:04:47.892737",
+      "postprocessing_end": "2018-05-17T11:04:47.935880",
+      "sent_time": "2018-05-17T11:04:47.937603",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:08:44.887715"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Oh too late.",
+      "normalised_version": "Ah trop tard."
+    },
+    "30": {
+      "language": "french",
+      "original_text": "il a eu peur",
+      "preprocessed_text": "il a eu peur",
+      "translated_text": "he got scared .",
+      "postprocessed_text": "He got scared.",
+      "composition_time": "2018-05-17T11:04:44.317454",
+      "preprocessing_begin": "2018-05-17T11:04:44.401926",
+      "preprocessing_end": "2018-05-17T11:04:46.972285",
+      "translation_begin": "2018-05-17T11:04:46.972387",
+      "translation_end": "2018-05-17T11:04:47.892322",
+      "postprocessing_begin": "2018-05-17T11:04:47.892737",
+      "postprocessing_end": "2018-05-17T11:04:47.935880",
+      "sent_time": "2018-05-17T11:04:47.938564",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:08:45.789774"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "He got scared.",
+      "normalised_version": "Il a eu peur."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "il n'a laiss\u00e9 que des plumes en partant.",
+      "preprocessed_text": "il n&apos; a laiss\u00e9 que des plumes en partant .",
+      "translated_text": "all he left was feathers on the way out .",
+      "postprocessed_text": "All he left was feathers on the way out.",
+      "composition_time": "2018-05-17T11:05:19.189409",
+      "preprocessing_begin": "2018-05-17T11:05:19.253424",
+      "preprocessing_end": "2018-05-17T11:05:21.642930",
+      "translation_begin": "2018-05-17T11:05:21.643054",
+      "translation_end": "2018-05-17T11:05:22.525222",
+      "postprocessing_begin": "2018-05-17T11:05:22.525667",
+      "postprocessing_end": "2018-05-17T11:05:22.568905",
+      "sent_time": "2018-05-17T11:05:22.570127",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:08:49.058093"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "He\u2019s just left feathers as he left.",
+      "normalised_version": "Il n'a laiss\u00e9 que des plumes en partant."
+    },
+    "32": {
+      "language": "french",
+      "original_text": "peut \u00eatre qu'il se laissera caress\u00e9 la prochaine fois.",
+      "preprocessed_text": "peut \u00eatre qu&apos; il se laissera caress\u00e9 la prochaine fois .",
+      "translated_text": "maybe he &apos;ll get car@@ essed next time .",
+      "postprocessed_text": "Maybe he'll get caressed next time.",
+      "composition_time": "2018-05-17T11:08:03.576129",
+      "preprocessing_begin": "2018-05-17T11:08:03.654370",
+      "preprocessing_end": "2018-05-17T11:08:06.092506",
+      "translation_begin": "2018-05-17T11:08:06.092623",
+      "translation_end": "2018-05-17T11:08:07.435004",
+      "postprocessing_begin": "2018-05-17T11:08:07.435412",
+      "postprocessing_end": "2018-05-17T11:08:07.473925",
+      "sent_time": "2018-05-17T11:08:07.475473",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-17T11:08:50.746037"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-17T11:08:52.304438",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Perhaps he\u2019ll let us stroke him next time.",
+      "normalised_version": "Peut-\u00eatre qu'il se laissera caresser la prochaine fois."
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Nous devrions rentrer.",
+      "preprocessed_text": "nous devrions rentrer .",
+      "translated_text": "we should go home .",
+      "postprocessed_text": "We should go home.",
+      "composition_time": "2018-05-17T11:08:03.576129",
+      "preprocessing_begin": "2018-05-17T11:08:03.654370",
+      "preprocessing_end": "2018-05-17T11:08:06.092506",
+      "translation_begin": "2018-05-17T11:08:06.092623",
+      "translation_end": "2018-05-17T11:08:07.435004",
+      "postprocessing_begin": "2018-05-17T11:08:07.435412",
+      "postprocessing_end": "2018-05-17T11:08:07.473925",
+      "sent_time": "2018-05-17T11:08:07.476369",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-17T11:08:53.726857"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "We should go home.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "style": "excellent",
+    "would_use": true,
+    "grammaticality": "excellent",
+    "verbatim_quality": "je ne sais pas si mon interlocuteur me parlais de fa\u00e7on formel ou pas. je pense que oui.",
+    "meaning": "good",
+    "particular_problems": "i feel great,  je suis grand\r\ncoin,  quack ?",
+    "interface": "tr\u00e8s bien, la correction automatique m'a aid\u00e9",
+    "tech": "There were no technical problems",
+    "coherence": "excellent",
+    "timestamp": "2018-05-17T11:11:41.387480",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "style": "good",
+    "would_use": true,
+    "grammaticality": "excellent",
+    "verbatim_quality": "yeah really good - threw in a few phrases that i thought might test the system but worked out very well",
+    "meaning": "excellent",
+    "particular_problems": "nothing really",
+    "interface": "very good interface - easy to use and very clear",
+    "tech": "There were no technical problems",
+    "coherence": "excellent",
+    "timestamp": "2018-05-17T11:09:57.108591",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

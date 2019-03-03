@@ -1,0 +1,1568 @@
+{
+  "start_time": "2018-04-30T13:07:04.181990",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a bar.",
+      "Vous \u00eates dans un bar."
+    ],
+    [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ]
+  ],
+  "user1": {
+    "role": [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "eval-stage": true,
+    "role_num": 2,
+    "lang": "french",
+    "turn_number": 2,
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+  },
+  "user2": {
+    "role": [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "eval-stage": true,
+    "rolenum": 1,
+    "lang": "english",
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0"
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Hello.",
+      "preprocessed_text": "<BEGIN>  <CONCAT> hello .",
+      "translated_text": "bonjour . <CONCAT> bonjour .",
+      "postprocessed_text": "Bonjour.",
+      "composition_time": "2018-04-30T13:07:34.896892",
+      "preprocessing_begin": "2018-04-30T13:07:34.968764",
+      "preprocessing_end": "2018-04-30T13:07:37.365870",
+      "translation_begin": "2018-04-30T13:07:37.365950",
+      "translation_end": "2018-04-30T13:07:38.911618",
+      "postprocessing_begin": "2018-04-30T13:07:38.911892",
+      "postprocessing_end": "2018-04-30T13:07:38.975245",
+      "sent_time": "2018-04-30T13:07:38.976324",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:25:33.287291"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Bonjour.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "What can I get you?",
+      "preprocessed_text": "hello . <CONCAT> what can I get you ?",
+      "translated_text": "bonjour . <CONCAT> qu&apos; est @-@ ce que je vous sers ?",
+      "postprocessed_text": "Qu'est-ce que je vous sers ?",
+      "composition_time": "2018-04-30T13:07:34.896892",
+      "preprocessing_begin": "2018-04-30T13:07:34.968764",
+      "preprocessing_end": "2018-04-30T13:07:37.365870",
+      "translation_begin": "2018-04-30T13:07:37.365950",
+      "translation_end": "2018-04-30T13:07:38.911618",
+      "postprocessing_begin": "2018-04-30T13:07:38.911892",
+      "postprocessing_end": "2018-04-30T13:07:38.975245",
+      "sent_time": "2018-04-30T13:07:38.976873",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:25:33.978917"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Qu'est-ce que vous d\u00e9sirez\u00a0?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Un caf\u00e9 et un jus d'orange press\u00e9e",
+      "preprocessed_text": "qu&apos; est @-@ ce que je vous sers ? <CONCAT> un caf\u00e9 et un jus d&apos; orange press\u00e9e",
+      "translated_text": "what can I get you ? <CONCAT> coffee and orange juice .",
+      "postprocessed_text": "Coffee and orange juice.",
+      "composition_time": "2018-04-30T13:08:15.066149",
+      "preprocessing_begin": "2018-04-30T13:08:15.141787",
+      "preprocessing_end": "2018-04-30T13:08:17.701859",
+      "translation_begin": "2018-04-30T13:08:17.701947",
+      "translation_end": "2018-04-30T13:08:18.791645",
+      "postprocessing_begin": "2018-04-30T13:08:18.792065",
+      "postprocessing_end": "2018-04-30T13:08:18.822290",
+      "sent_time": "2018-04-30T13:08:18.823342",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:09:14.361110"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "A coffee and freshly squeezed orange juice.",
+      "normalised_version": "Un caf\u00e9 et un jus d'orange press\u00e9e."
+    },
+    "3": {
+      "language": "english",
+      "original_text": "OK.",
+      "preprocessed_text": "coffee and orange juice . <CONCAT> OK .",
+      "translated_text": "caf\u00e9 et jus d&apos; orange . <CONCAT> ok .",
+      "postprocessed_text": "Ok.",
+      "composition_time": "2018-04-30T13:08:47.977366",
+      "preprocessing_begin": "2018-04-30T13:08:48.043328",
+      "preprocessing_end": "2018-04-30T13:08:50.430379",
+      "translation_begin": "2018-04-30T13:08:50.430454",
+      "translation_end": "2018-04-30T13:08:53.605362",
+      "postprocessing_begin": "2018-04-30T13:08:53.605947",
+      "postprocessing_end": "2018-04-30T13:08:53.657760",
+      "sent_time": "2018-04-30T13:08:53.658944",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:08.017652"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "OK.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "Is that a small orange juice?",
+      "preprocessed_text": "OK . <CONCAT> is that a small orange juice ?",
+      "translated_text": "ok . <CONCAT> c&apos; est un petit jus d&apos; orange ?",
+      "postprocessed_text": "C'est un petit jus d'orange ?",
+      "composition_time": "2018-04-30T13:08:47.977366",
+      "preprocessing_begin": "2018-04-30T13:08:48.043328",
+      "preprocessing_end": "2018-04-30T13:08:50.430379",
+      "translation_begin": "2018-04-30T13:08:50.430454",
+      "translation_end": "2018-04-30T13:08:53.605362",
+      "postprocessing_begin": "2018-04-30T13:08:53.605947",
+      "postprocessing_end": "2018-04-30T13:08:53.657760",
+      "sent_time": "2018-04-30T13:08:53.660119",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:09.094093"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Un petit jus d'orange\u00a0?",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "And would you like ice in it?",
+      "preprocessed_text": "is that a small orange juice ? <CONCAT> and would you like ice in it ?",
+      "translated_text": "c&apos; est un petit jus d&apos; orange ? <CONCAT> et tu veux de la glace ?",
+      "postprocessed_text": "Et tu veux de la glace ?",
+      "composition_time": "2018-04-30T13:08:47.977366",
+      "preprocessing_begin": "2018-04-30T13:08:48.043328",
+      "preprocessing_end": "2018-04-30T13:08:50.430379",
+      "translation_begin": "2018-04-30T13:08:50.430454",
+      "translation_end": "2018-04-30T13:08:53.605362",
+      "postprocessing_begin": "2018-04-30T13:08:53.605947",
+      "postprocessing_end": "2018-04-30T13:08:53.657760",
+      "sent_time": "2018-04-30T13:08:53.661152",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:22:46.183370"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:22:49.680449",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Et avec des gla\u00e7ons\u00a0?",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "How would you like your coffee?",
+      "preprocessed_text": "and would you like ice in it ? <CONCAT> how would you like your coffee ?",
+      "translated_text": "et vous voulez de la glace ? <CONCAT> comment voulez @-@ vous votre caf\u00e9 ?",
+      "postprocessed_text": "Comment voulez-vous votre caf\u00e9 ?",
+      "composition_time": "2018-04-30T13:09:58.399749",
+      "preprocessing_begin": "2018-04-30T13:09:58.476112",
+      "preprocessing_end": "2018-04-30T13:10:00.453996",
+      "translation_begin": "2018-04-30T13:10:00.454074",
+      "translation_end": "2018-04-30T13:10:03.965435",
+      "postprocessing_begin": "2018-04-30T13:10:03.965789",
+      "postprocessing_end": "2018-04-30T13:10:03.995514",
+      "sent_time": "2018-04-30T13:10:03.996690",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:12.920426"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Qu'est-ce que vous voulez comme caf\u00e9\u00a0?",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "Cappuccio?",
+      "preprocessed_text": "how would you like your coffee ? <CONCAT> Cap@@ pu@@ c@@ cio ?",
+      "translated_text": "comment voulez @-@ vous votre caf\u00e9 ? <CONCAT> Cap@@ puc@@ cio ?",
+      "postprocessed_text": "Cappuccio ?",
+      "composition_time": "2018-04-30T13:09:58.399749",
+      "preprocessing_begin": "2018-04-30T13:09:58.476112",
+      "preprocessing_end": "2018-04-30T13:10:00.453996",
+      "translation_begin": "2018-04-30T13:10:00.454074",
+      "translation_end": "2018-04-30T13:10:03.965435",
+      "postprocessing_begin": "2018-04-30T13:10:03.965789",
+      "postprocessing_end": "2018-04-30T13:10:03.995514",
+      "sent_time": "2018-04-30T13:10:03.997359",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:22:31.986580"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Un cappucino\u00a0?",
+      "normalised_version": "Cappuccino?"
+    },
+    "8": {
+      "language": "english",
+      "original_text": "Flat White?",
+      "preprocessed_text": "Cap@@ pu@@ c@@ cio ? <CONCAT> flat White ?",
+      "translated_text": "Cap@@ puc@@ cio ? <CONCAT> blanc @-@ bec ?",
+      "postprocessed_text": "Blanc-bec ?",
+      "composition_time": "2018-04-30T13:09:58.399749",
+      "preprocessing_begin": "2018-04-30T13:09:58.476112",
+      "preprocessing_end": "2018-04-30T13:10:00.453996",
+      "translation_begin": "2018-04-30T13:10:00.454074",
+      "translation_end": "2018-04-30T13:10:03.965435",
+      "postprocessing_begin": "2018-04-30T13:10:03.965789",
+      "postprocessing_end": "2018-04-30T13:10:03.995514",
+      "sent_time": "2018-04-30T13:10:03.997796",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:12:30.941660"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:12:37.532075",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Un flat white\u00a0?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "Americano?",
+      "preprocessed_text": "flat White ? <CONCAT> Americano ?",
+      "translated_text": "blanc @-@ bec ? <CONCAT> am\u00e9ricain ?",
+      "postprocessed_text": "Am\u00e9ricain ?",
+      "composition_time": "2018-04-30T13:09:58.399749",
+      "preprocessing_begin": "2018-04-30T13:09:58.476112",
+      "preprocessing_end": "2018-04-30T13:10:00.453996",
+      "translation_begin": "2018-04-30T13:10:00.454074",
+      "translation_end": "2018-04-30T13:10:03.965435",
+      "postprocessing_begin": "2018-04-30T13:10:03.965789",
+      "postprocessing_end": "2018-04-30T13:10:03.995514",
+      "sent_time": "2018-04-30T13:10:03.998240",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:18.940668"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Un americano\u00a0?",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Plut\u00f4t un grand verre de jus d'orange press\u00e9e, sans glace",
+      "preprocessed_text": "et tu veux de la glace ? <CONCAT> plut\u00f4t un grand verre de jus d&apos; orange press\u00e9e , sans glace",
+      "translated_text": "and you want some ice cream ? <CONCAT> more like a big glass of squeezed orange juice , no ice .",
+      "postprocessed_text": "More like a big glass of squeezed orange juice, no ice.",
+      "composition_time": "2018-04-30T13:10:01.594930",
+      "preprocessing_begin": "2018-04-30T13:10:01.631986",
+      "preprocessing_end": "2018-04-30T13:10:03.876486",
+      "translation_begin": "2018-04-30T13:10:03.876966",
+      "translation_end": "2018-04-30T13:10:05.316561",
+      "postprocessing_begin": "2018-04-30T13:10:05.316795",
+      "postprocessing_end": "2018-04-30T13:10:05.346093",
+      "sent_time": "2018-04-30T13:10:05.347090",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:10:49.592790"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Just a large glass of squeezed orange juice, no ice.",
+      "normalised_version": "Plut\u00f4t un grand verre de jus d'orange press\u00e9e, sans glace."
+    },
+    "11": {
+      "language": "english",
+      "original_text": "Yes I can do that for you.",
+      "preprocessed_text": "more like a big glass of squeezed orange juice , no ice . <CONCAT> yes I can do that for you .",
+      "translated_text": "plut\u00f4t un grand verre de jus d&apos; orange , sans glace . <CONCAT> je peux faire \u00e7a pour toi .",
+      "postprocessed_text": "Je peux faire \u00e7a pour toi.",
+      "composition_time": "2018-04-30T13:10:41.204681",
+      "preprocessing_begin": "2018-04-30T13:10:41.271441",
+      "preprocessing_end": "2018-04-30T13:10:43.265267",
+      "translation_begin": "2018-04-30T13:10:43.265385",
+      "translation_end": "2018-04-30T13:10:46.468198",
+      "postprocessing_begin": "2018-04-30T13:10:46.468520",
+      "postprocessing_end": "2018-04-30T13:10:46.513870",
+      "sent_time": "2018-04-30T13:10:46.514766",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:22:18.866141"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:22:23.952576",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Oui, je peux vous faire \u00e7a.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "It will take a minute to squeeze the orange juice.",
+      "preprocessed_text": "yes I can do that for you . <CONCAT> it will take a minute to squeeze the orange juice .",
+      "translated_text": "oui , je peux faire \u00e7a pour toi . <CONCAT> \u00e7a prendra une minute pour presser le jus d&apos; orange .",
+      "postprocessed_text": "\u00c7a prendra une minute pour presser le jus d'orange.",
+      "composition_time": "2018-04-30T13:10:41.204681",
+      "preprocessing_begin": "2018-04-30T13:10:41.271441",
+      "preprocessing_end": "2018-04-30T13:10:43.265267",
+      "translation_begin": "2018-04-30T13:10:43.265385",
+      "translation_end": "2018-04-30T13:10:46.468198",
+      "postprocessing_begin": "2018-04-30T13:10:46.468520",
+      "postprocessing_end": "2018-04-30T13:10:46.513870",
+      "sent_time": "2018-04-30T13:10:46.515306",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:22:14.558982"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "\u00c7a prendra une minute de vous faire un jus d'orange press\u00e9.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Un caf\u00e9 blanc-bec, car je n'en ai jamais gout\u00e9 .",
+      "preprocessed_text": "\u00e7a prendra une minute pour presser le jus d&apos; orange . <CONCAT> un caf\u00e9 blanc @-@ bec , car je n&apos; en ai jamais gou@@ t\u00e9 .",
+      "translated_text": "it &apos;ll take a minute to squeeze the orange juice . <CONCAT> it &apos;s a white coffee , because I &apos;ve never tasted it .",
+      "postprocessed_text": "It's a white coffee, because I've never tasted it.",
+      "composition_time": "2018-04-30T13:11:23.646338",
+      "preprocessing_begin": "2018-04-30T13:11:23.717373",
+      "preprocessing_end": "2018-04-30T13:11:26.200989",
+      "translation_begin": "2018-04-30T13:11:26.201076",
+      "translation_end": "2018-04-30T13:11:29.292884",
+      "postprocessing_begin": "2018-04-30T13:11:29.293221",
+      "postprocessing_end": "2018-04-30T13:11:29.324617",
+      "sent_time": "2018-04-30T13:11:29.325491",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:13:31.814461"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "coherence"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-30T13:13:34.569893",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "A flat white coffee, since I\u2019ve never tasted one before.",
+      "normalised_version": "Un caf\u00e9 blanc-bec, car je n'en ai jamais gout\u00e9."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "C'est comment ?",
+      "preprocessed_text": "un caf\u00e9 blanc @-@ bec , car je n&apos; en ai jamais gou@@ t\u00e9 . <CONCAT> c&apos; est comment ?",
+      "translated_text": "it &apos;s a white coffee , because I &apos;ve never had one . <CONCAT> what &apos;s it like ?",
+      "postprocessed_text": "What's it like?",
+      "composition_time": "2018-04-30T13:11:23.646338",
+      "preprocessing_begin": "2018-04-30T13:11:23.717373",
+      "preprocessing_end": "2018-04-30T13:11:26.200989",
+      "translation_begin": "2018-04-30T13:11:26.201076",
+      "translation_end": "2018-04-30T13:11:29.292884",
+      "postprocessing_begin": "2018-04-30T13:11:29.293221",
+      "postprocessing_end": "2018-04-30T13:11:29.324617",
+      "sent_time": "2018-04-30T13:11:29.325964",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:13:13.962016"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "What\u2019s it like?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "It's very good - the best in town!",
+      "preprocessed_text": "what &apos;s it like ? <CONCAT> it &apos;s very good - the best in town !",
+      "translated_text": "c&apos; est comment ? <CONCAT> c&apos; est tr\u00e8s bon , le meilleur de la ville !",
+      "postprocessed_text": "C'est tr\u00e8s bon, le meilleur de la ville !",
+      "composition_time": "2018-04-30T13:12:38.462885",
+      "preprocessing_begin": "2018-04-30T13:12:38.530656",
+      "preprocessing_end": "2018-04-30T13:12:40.645703",
+      "translation_begin": "2018-04-30T13:12:40.645812",
+      "translation_end": "2018-04-30T13:12:43.814524",
+      "postprocessing_begin": "2018-04-30T13:12:43.814895",
+      "postprocessing_end": "2018-04-30T13:12:43.861546",
+      "sent_time": "2018-04-30T13:12:43.862758",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:22:02.102414"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "C'est tr\u00e8s bon \u2014 le meilleur dans toute la ville\u00a0!",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "I'll make you some and you can see what you think.",
+      "preprocessed_text": "it &apos;s very good - the best in town ! <CONCAT> I &apos;ll make you some and you can see what you think .",
+      "translated_text": "c&apos; est tr\u00e8s bon , le meilleur de la ville ! <CONCAT> je vais t&apos; en faire et tu peux voir ce que tu penses .",
+      "postprocessed_text": "Je vais t'en faire et tu peux voir ce que tu penses.",
+      "composition_time": "2018-04-30T13:12:38.462885",
+      "preprocessing_begin": "2018-04-30T13:12:38.530656",
+      "preprocessing_end": "2018-04-30T13:12:40.645703",
+      "translation_begin": "2018-04-30T13:12:40.645812",
+      "translation_end": "2018-04-30T13:12:43.814524",
+      "postprocessing_begin": "2018-04-30T13:12:43.814895",
+      "postprocessing_end": "2018-04-30T13:12:43.861546",
+      "sent_time": "2018-04-30T13:12:43.863566",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:15:38.080179"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice",
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:15:55.489434",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-30T13:16:41.364798",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je vais vous en pr\u00e9parez un et vous me direz ce que vous en pensez.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "english",
+      "original_text": "Are you visiting the town/ I don't think I have seen you in here before.",
+      "preprocessed_text": "I &apos;ll make you some and you can see what you think . <CONCAT> are you visiting the town / I don &apos;t think I have seen you in here before .",
+      "translated_text": "je vais t&apos; en faire et tu peux voir ce que tu penses . <CONCAT> es @-@ tu en visite en ville / Je ne pense pas t&apos; avoir d\u00e9j\u00e0 vu ici avant .",
+      "postprocessed_text": "Es-tu en visite en ville / Je ne pense pas t'avoir d\u00e9j\u00e0 vu ici avant.",
+      "composition_time": "2018-04-30T13:13:08.606590",
+      "preprocessing_begin": "2018-04-30T13:13:08.686082",
+      "preprocessing_end": "2018-04-30T13:13:10.934160",
+      "translation_begin": "2018-04-30T13:13:10.934273",
+      "translation_end": "2018-04-30T13:13:13.903040",
+      "postprocessing_begin": "2018-04-30T13:13:13.903486",
+      "postprocessing_end": "2018-04-30T13:13:13.954609",
+      "sent_time": "2018-04-30T13:13:13.955876",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:22:01.191549"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Est-ce que vous \u00eates de passage\u00a0? Je ne pense pas vous avoir d\u00e9j\u00e0 vu avant.",
+      "normalised_version": "Are you visiting the town? I don't think I have seen you in here before."
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Tr\u00e8s bien; Je prendrai aussi une tartine beurr\u00e9e et un croissant",
+      "preprocessed_text": "es @-@ tu en visite en ville / Je ne pense pas t&apos; avoir d\u00e9j\u00e0 vu ici avant . <CONCAT> tr\u00e8s bien ; Je prendrai aussi une tartine beur@@ r\u00e9e et un croissant",
+      "translated_text": "are you visiting in town / I don &apos;t think I &apos;ve seen you here before . <CONCAT> all right ;",
+      "postprocessed_text": "All right;",
+      "composition_time": "2018-04-30T13:13:41.886453",
+      "preprocessing_begin": "2018-04-30T13:13:41.955704",
+      "preprocessing_end": "2018-04-30T13:13:43.969907",
+      "translation_begin": "2018-04-30T13:13:43.970013",
+      "translation_end": "2018-04-30T13:13:46.296370",
+      "postprocessing_begin": "2018-04-30T13:13:46.296606",
+      "postprocessing_end": "2018-04-30T13:13:46.338362",
+      "sent_time": "2018-04-30T13:13:46.339729",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:13:52.375392"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Great. I\u2019ll also have some buttered toast and a croissant.",
+      "normalised_version": "Tr\u00e8s bien. Je prendrai aussi une tartine beurr\u00e9e et un croissant."
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Oui, je suis de passage dans cette ville pour une r\u00e9union de travail .",
+      "preprocessed_text": "tr\u00e8s bien ; Je prendrai aussi une tartine beur@@ r\u00e9e et un croissant <CONCAT> oui , je suis de passage dans cette ville pour une r\u00e9union de travail .",
+      "translated_text": "all right , I &apos;ll have a buttered toast and a croissant . <CONCAT> yes , I &apos;m just passing through this town for a work meeting .",
+      "postprocessed_text": "Yes, I'm just passing through this town for a work meeting.",
+      "composition_time": "2018-04-30T13:15:10.546246",
+      "preprocessing_begin": "2018-04-30T13:15:10.613444",
+      "preprocessing_end": "2018-04-30T13:15:12.669559",
+      "translation_begin": "2018-04-30T13:15:12.669678",
+      "translation_end": "2018-04-30T13:15:15.860035",
+      "postprocessing_begin": "2018-04-30T13:15:15.860252",
+      "postprocessing_end": "2018-04-30T13:15:15.903833",
+      "sent_time": "2018-04-30T13:15:15.904593",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:15:20.302643"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes, I\u2019m just passing through town for a work meeting.",
+      "normalised_version": "Oui, je suis de passage dans cette ville pour une r\u00e9union de travail."
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Qu'il y a-t-il d'int\u00e9ressant \u00e0 visiter ?",
+      "preprocessed_text": "oui , je suis de passage dans cette ville pour une r\u00e9union de travail . <CONCAT> qu&apos; il y a @-@ t @-@ il d&apos; int\u00e9ressant \u00e0 visiter ?",
+      "translated_text": "yes , I &apos;m just passing through this town for a work meeting . <CONCAT> what &apos;s interesting to see ?",
+      "postprocessed_text": "What's interesting to see?",
+      "composition_time": "2018-04-30T13:15:10.546246",
+      "preprocessing_begin": "2018-04-30T13:15:10.613444",
+      "preprocessing_end": "2018-04-30T13:15:12.669559",
+      "translation_begin": "2018-04-30T13:15:12.669678",
+      "translation_end": "2018-04-30T13:15:15.860035",
+      "postprocessing_begin": "2018-04-30T13:15:15.860252",
+      "postprocessing_end": "2018-04-30T13:15:15.903833",
+      "sent_time": "2018-04-30T13:15:15.905037",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:15:21.170424"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "What is worth visiting here?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "The art gallery is interesting.",
+      "preprocessed_text": "what &apos;s interesting to see ? <CONCAT> the art gallery is interesting .",
+      "translated_text": "qu&apos; est @-@ ce qui est int\u00e9ressant \u00e0 voir ? <CONCAT> la galerie d&apos; art est int\u00e9ressante .",
+      "postprocessed_text": "La galerie d'art est int\u00e9ressante.",
+      "composition_time": "2018-04-30T13:17:03.254301",
+      "preprocessing_begin": "2018-04-30T13:17:03.320657",
+      "preprocessing_end": "2018-04-30T13:17:05.363644",
+      "translation_begin": "2018-04-30T13:17:05.363746",
+      "translation_end": "2018-04-30T13:17:09.585251",
+      "postprocessing_begin": "2018-04-30T13:17:09.585630",
+      "postprocessing_end": "2018-04-30T13:17:09.618180",
+      "sent_time": "2018-04-30T13:17:09.620718",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:21:53.405673"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "La gallerie d'art est int\u00e9ressante.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "english",
+      "original_text": "They have a special exihibition at the moment on Vincent Van Gogh.",
+      "preprocessed_text": "the art gallery is interesting . <CONCAT> they have a special exi@@ hibition at the moment on Vincent Van Gogh .",
+      "translated_text": "la galerie d&apos; art est int\u00e9ressante . <CONCAT> ils ont une exposition sur Vincent Van Gogh .",
+      "postprocessed_text": "Ils ont une exposition sur Vincent Van Gogh.",
+      "composition_time": "2018-04-30T13:17:03.254301",
+      "preprocessing_begin": "2018-04-30T13:17:03.320657",
+      "preprocessing_end": "2018-04-30T13:17:05.363644",
+      "translation_begin": "2018-04-30T13:17:05.363746",
+      "translation_end": "2018-04-30T13:17:09.585251",
+      "postprocessing_begin": "2018-04-30T13:17:09.585630",
+      "postprocessing_end": "2018-04-30T13:17:09.618180",
+      "sent_time": "2018-04-30T13:17:09.621634",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:21:52.212583"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Ils ont une exposition temporaire en ce moment sur Vincent Van Gogh.",
+      "normalised_version": "They have a special exhibition at the moment on Vincent Van Gogh."
+    },
+    "23": {
+      "language": "english",
+      "original_text": "Or you could visit the cathedral.",
+      "preprocessed_text": "they have a special exi@@ hibition at the moment on Vincent Van Gogh . <CONCAT> or you could visit the cathedral .",
+      "translated_text": "ils ont une exposition sur Vincent Van Gogh . <CONCAT> ou vous pourriez visiter la cath\u00e9drale .",
+      "postprocessed_text": "Ou vous pourriez visiter la cath\u00e9drale.",
+      "composition_time": "2018-04-30T13:17:03.254301",
+      "preprocessing_begin": "2018-04-30T13:17:03.320657",
+      "preprocessing_end": "2018-04-30T13:17:05.363644",
+      "translation_begin": "2018-04-30T13:17:05.363746",
+      "translation_end": "2018-04-30T13:17:09.585251",
+      "postprocessing_begin": "2018-04-30T13:17:09.585630",
+      "postprocessing_end": "2018-04-30T13:17:09.618180",
+      "sent_time": "2018-04-30T13:17:09.622516",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:21:50.952617"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Vous pouvez aussi visiter la cath\u00e9drale.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "O\u00f9 sont situ\u00e9es la galerie d'art et la cath\u00e9drale.",
+      "preprocessed_text": "ou vous pourriez visiter la cath\u00e9drale . <CONCAT> o\u00f9 sont situ@@ \u00e9es la galerie d&apos; art et la cath\u00e9drale .",
+      "translated_text": "or you could visit the cathedral . <CONCAT> where the art and the cathedral are located .",
+      "postprocessed_text": "Where the art and the cathedral are located.",
+      "composition_time": "2018-04-30T13:18:49.875229",
+      "preprocessing_begin": "2018-04-30T13:18:49.947310",
+      "preprocessing_end": "2018-04-30T13:18:51.974103",
+      "translation_begin": "2018-04-30T13:18:51.974248",
+      "translation_end": "2018-04-30T13:18:55.080773",
+      "postprocessing_begin": "2018-04-30T13:18:55.081115",
+      "postprocessing_end": "2018-04-30T13:18:55.134903",
+      "sent_time": "2018-04-30T13:18:55.136402",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:20:10.652028"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-30T13:20:13.137010",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Where\u2019s the art gallery and the cathedral?",
+      "normalised_version": "O\u00f9 sont situ\u00e9es la galerie d'art et la cath\u00e9drale?"
+    },
+    "25": {
+      "language": "french",
+      "original_text": "C'est loin d'ici ?",
+      "preprocessed_text": "o\u00f9 sont situ@@ \u00e9es la galerie d&apos; art et la cath\u00e9drale . <CONCAT> c&apos; est loin d&apos; ici ?",
+      "translated_text": "where the art and the cathedral are located . <CONCAT> is it far from here ?",
+      "postprocessed_text": "Is it far from here?",
+      "composition_time": "2018-04-30T13:18:49.875229",
+      "preprocessing_begin": "2018-04-30T13:18:49.947310",
+      "preprocessing_end": "2018-04-30T13:18:51.974103",
+      "translation_begin": "2018-04-30T13:18:51.974248",
+      "translation_end": "2018-04-30T13:18:55.080773",
+      "postprocessing_begin": "2018-04-30T13:18:55.081115",
+      "postprocessing_end": "2018-04-30T13:18:55.134903",
+      "sent_time": "2018-04-30T13:18:55.137218",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:20:19.265777"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-30T13:20:21.207978",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Are they far from here?",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "The art gallery is just a hundred metres from the bar.",
+      "preprocessed_text": "is it far from here ? <CONCAT> the art gallery is just a hundred metres from the bar .",
+      "translated_text": "c&apos; est loin d&apos; ici ? <CONCAT> la galerie d&apos; art est \u00e0 100 m\u00e8tres du bar .",
+      "postprocessed_text": "La galerie d'art est \u00e0 100 m\u00e8tres du bar.",
+      "composition_time": "2018-04-30T13:20:04.404968",
+      "preprocessing_begin": "2018-04-30T13:20:04.464435",
+      "preprocessing_end": "2018-04-30T13:20:06.529644",
+      "translation_begin": "2018-04-30T13:20:06.529708",
+      "translation_end": "2018-04-30T13:20:10.603053",
+      "postprocessing_begin": "2018-04-30T13:20:10.603273",
+      "postprocessing_end": "2018-04-30T13:20:10.644631",
+      "sent_time": "2018-04-30T13:20:10.645429",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:21:49.884502"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "La galerie d'art n'est qu'\u00e0 cent m\u00e8tres du bar.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Turn left and you will find it.",
+      "preprocessed_text": "the art gallery is just a hundred metres from the bar . <CONCAT> turn left and you will find it .",
+      "translated_text": "la galerie d&apos; art est \u00e0 100 m\u00e8tres du bar . <CONCAT> tournez \u00e0 gauche et vous la trouverez .",
+      "postprocessed_text": "Tournez \u00e0 gauche et vous la trouverez.",
+      "composition_time": "2018-04-30T13:20:04.404968",
+      "preprocessing_begin": "2018-04-30T13:20:04.464435",
+      "preprocessing_end": "2018-04-30T13:20:06.529644",
+      "translation_begin": "2018-04-30T13:20:06.529708",
+      "translation_end": "2018-04-30T13:20:10.603053",
+      "postprocessing_begin": "2018-04-30T13:20:10.603273",
+      "postprocessing_end": "2018-04-30T13:20:10.644631",
+      "sent_time": "2018-04-30T13:20:10.645883",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:21:42.743490"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Prenez \u00e0 gauche en sortant et vous la trouverez.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "The cathedral is a bit further.",
+      "preprocessed_text": "turn left and you will find it . <CONCAT> the cathedral is a bit further .",
+      "translated_text": "tournez \u00e0 gauche et vous le trouverez . <CONCAT> la cath\u00e9drale est un peu plus loin .",
+      "postprocessed_text": "La cath\u00e9drale est un peu plus loin.",
+      "composition_time": "2018-04-30T13:20:04.404968",
+      "preprocessing_begin": "2018-04-30T13:20:04.464435",
+      "preprocessing_end": "2018-04-30T13:20:06.529644",
+      "translation_begin": "2018-04-30T13:20:06.529708",
+      "translation_end": "2018-04-30T13:20:10.603053",
+      "postprocessing_begin": "2018-04-30T13:20:10.603273",
+      "postprocessing_end": "2018-04-30T13:20:10.644631",
+      "sent_time": "2018-04-30T13:20:10.646252",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:21:42.740046"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "La cath\u00e9drale est un peu plus loin.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Tr\u00e8s bien.",
+      "preprocessed_text": "la cath\u00e9drale est un peu plus loin . <CONCAT> tr\u00e8s bien .",
+      "translated_text": "the cathedral is a little further up . <CONCAT> all right .",
+      "postprocessed_text": "All right.",
+      "composition_time": "2018-04-30T13:21:35.359666",
+      "preprocessing_begin": "2018-04-30T13:21:35.429079",
+      "preprocessing_end": "2018-04-30T13:21:37.474868",
+      "translation_begin": "2018-04-30T13:21:37.474935",
+      "translation_end": "2018-04-30T13:21:42.702026",
+      "postprocessing_begin": "2018-04-30T13:21:42.702255",
+      "postprocessing_end": "2018-04-30T13:21:42.732819",
+      "sent_time": "2018-04-30T13:21:42.733651",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:22:12.218384"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Great.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Sinon, je viens de go\u00fbter votre caf\u00e9 blanc-bec.",
+      "preprocessed_text": "tr\u00e8s bien . <CONCAT> sinon , je viens de go\u00fbter votre caf\u00e9 blanc @-@ bec .",
+      "translated_text": "all right . <CONCAT> otherwise , I just had a taste of your white @-@ mouth coffee .",
+      "postprocessed_text": "Otherwise, I just had a taste of your white-mouth coffee.",
+      "composition_time": "2018-04-30T13:21:35.359666",
+      "preprocessing_begin": "2018-04-30T13:21:35.429079",
+      "preprocessing_end": "2018-04-30T13:21:37.474868",
+      "translation_begin": "2018-04-30T13:21:37.474935",
+      "translation_end": "2018-04-30T13:21:42.702026",
+      "postprocessing_begin": "2018-04-30T13:21:42.702255",
+      "postprocessing_end": "2018-04-30T13:21:42.732819",
+      "sent_time": "2018-04-30T13:21:42.734083",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:23:33.793371"
+          ]
+        ],
+        "verbatim": "white-mouth?",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:23:37.697514",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "white-mouth?",
+            "2018-04-30T13:23:47.414334",
+            "2018-04-30T13:23:47.414334"
+          ]
+        ]
+      },
+      "reference_translation": "By the way, I just tasted your flat white coffee.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Pas terrible.",
+      "preprocessed_text": "sinon , je viens de go\u00fbter votre caf\u00e9 blanc @-@ bec . <CONCAT> pas terrible .",
+      "translated_text": "otherwise , I just had a taste of your white @-@ nosed coffee . <CONCAT> not so good .",
+      "postprocessed_text": "Not so good.",
+      "composition_time": "2018-04-30T13:21:35.359666",
+      "preprocessing_begin": "2018-04-30T13:21:35.429079",
+      "preprocessing_end": "2018-04-30T13:21:37.474868",
+      "translation_begin": "2018-04-30T13:21:37.474935",
+      "translation_end": "2018-04-30T13:21:42.702026",
+      "postprocessing_begin": "2018-04-30T13:21:42.702255",
+      "postprocessing_end": "2018-04-30T13:21:42.732819",
+      "sent_time": "2018-04-30T13:21:42.734478",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:23.827967"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Not great.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Qu'est ce que vous mettez dedans ?",
+      "preprocessed_text": "pas terrible . <CONCAT> qu&apos; est ce que vous mettez dedans ?",
+      "translated_text": "not great . <CONCAT> what do you put in it ?",
+      "postprocessed_text": "What do you put in it?",
+      "composition_time": "2018-04-30T13:21:35.359666",
+      "preprocessing_begin": "2018-04-30T13:21:35.429079",
+      "preprocessing_end": "2018-04-30T13:21:37.474868",
+      "translation_begin": "2018-04-30T13:21:37.474935",
+      "translation_end": "2018-04-30T13:21:42.702026",
+      "postprocessing_begin": "2018-04-30T13:21:42.702255",
+      "postprocessing_end": "2018-04-30T13:21:42.732819",
+      "sent_time": "2018-04-30T13:21:42.734851",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:24.887474"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "What do you put in it?",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Du sirop d'\u00e9rable ?",
+      "preprocessed_text": "qu&apos; est ce que vous mettez dedans ? <CONCAT> du sirop d&apos; \u00e9rable ?",
+      "translated_text": "what do you put in it ? <CONCAT> maple syrup ?",
+      "postprocessed_text": "Maple syrup?",
+      "composition_time": "2018-04-30T13:21:35.359666",
+      "preprocessing_begin": "2018-04-30T13:21:35.429079",
+      "preprocessing_end": "2018-04-30T13:21:37.474868",
+      "translation_begin": "2018-04-30T13:21:37.474935",
+      "translation_end": "2018-04-30T13:21:42.702026",
+      "postprocessing_begin": "2018-04-30T13:21:42.702255",
+      "postprocessing_end": "2018-04-30T13:21:42.732819",
+      "sent_time": "2018-04-30T13:21:42.735239",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:25.738634"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Maple syrup?",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "english",
+      "original_text": "It's a special recipe.",
+      "preprocessed_text": "maple syrup ? <CONCAT> it &apos;s a special recipe .",
+      "translated_text": "du sirop d&apos; \u00e9rable ? <CONCAT> c&apos; est une recette sp\u00e9ciale .",
+      "postprocessed_text": "C'est une recette sp\u00e9ciale.",
+      "composition_time": "2018-04-30T13:23:15.981271",
+      "preprocessing_begin": "2018-04-30T13:23:16.047836",
+      "preprocessing_end": "2018-04-30T13:23:18.190381",
+      "translation_begin": "2018-04-30T13:23:18.190448",
+      "translation_end": "2018-04-30T13:23:21.664346",
+      "postprocessing_begin": "2018-04-30T13:23:21.664712",
+      "postprocessing_end": "2018-04-30T13:23:21.695117",
+      "sent_time": "2018-04-30T13:23:21.696353",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:48.184047"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "C'est une recette sp\u00e9ciale.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "I'm not allowed to say!",
+      "preprocessed_text": "it &apos;s a special recipe . <CONCAT> I &apos;m not allowed to say !",
+      "translated_text": "c&apos; est une recette sp\u00e9ciale . <CONCAT> je n&apos; ai pas le droit de le dire !",
+      "postprocessed_text": "Je n'ai pas le droit de le dire !",
+      "composition_time": "2018-04-30T13:23:15.981271",
+      "preprocessing_begin": "2018-04-30T13:23:16.047836",
+      "preprocessing_end": "2018-04-30T13:23:18.190381",
+      "translation_begin": "2018-04-30T13:23:18.190448",
+      "translation_end": "2018-04-30T13:23:21.664346",
+      "postprocessing_begin": "2018-04-30T13:23:21.664712",
+      "postprocessing_end": "2018-04-30T13:23:21.695117",
+      "sent_time": "2018-04-30T13:23:21.697156",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:23:50.078043"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je n'ai pas le droit de vous dire\u00a0!",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "english",
+      "original_text": "Can I get you something else instead?",
+      "preprocessed_text": "I &apos;m not allowed to say ! <CONCAT> can I get you something else instead ?",
+      "translated_text": "je n&apos; ai pas le droit de le dire ! <CONCAT> je peux t&apos; offrir autre chose \u00e0 la place ?",
+      "postprocessed_text": "Je peux t'offrir autre chose \u00e0 la place ?",
+      "composition_time": "2018-04-30T13:23:15.981271",
+      "preprocessing_begin": "2018-04-30T13:23:16.047836",
+      "preprocessing_end": "2018-04-30T13:23:18.190381",
+      "translation_begin": "2018-04-30T13:23:18.190448",
+      "translation_end": "2018-04-30T13:23:21.664346",
+      "postprocessing_begin": "2018-04-30T13:23:21.664712",
+      "postprocessing_end": "2018-04-30T13:23:21.695117",
+      "sent_time": "2018-04-30T13:23:21.697911",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:23:51.566296"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:23:56.418138",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Est-ce que je peux vous apporter quelque chose d'autre \u00e0 la place\u00a0?",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Non merci.",
+      "preprocessed_text": "je peux t&apos; offrir autre chose \u00e0 la place ? <CONCAT> non merci .",
+      "translated_text": "can I get you something else instead ? <CONCAT> no , thanks .",
+      "postprocessed_text": "No, thanks.",
+      "composition_time": "2018-04-30T13:25:17.973769",
+      "preprocessing_begin": "2018-04-30T13:25:18.040523",
+      "preprocessing_end": "2018-04-30T13:25:20.273686",
+      "translation_begin": "2018-04-30T13:25:20.273784",
+      "translation_end": "2018-04-30T13:25:24.040214",
+      "postprocessing_begin": "2018-04-30T13:25:24.040433",
+      "postprocessing_end": "2018-04-30T13:25:24.080961",
+      "sent_time": "2018-04-30T13:25:24.081811",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:25:34.194645"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "No thanks.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "Vous avez d'autres recettes sp\u00e9ciales ici ?",
+      "preprocessed_text": "non merci . <CONCAT> vous avez d&apos; autres recettes sp\u00e9ciales ici ?",
+      "translated_text": "no , thanks . <CONCAT> do you have any other special recipes here ?",
+      "postprocessed_text": "Do you have any other special recipes here?",
+      "composition_time": "2018-04-30T13:25:17.973769",
+      "preprocessing_begin": "2018-04-30T13:25:18.040523",
+      "preprocessing_end": "2018-04-30T13:25:20.273686",
+      "translation_begin": "2018-04-30T13:25:20.273784",
+      "translation_end": "2018-04-30T13:25:24.040214",
+      "postprocessing_begin": "2018-04-30T13:25:24.040433",
+      "postprocessing_end": "2018-04-30T13:25:24.080961",
+      "sent_time": "2018-04-30T13:25:24.082267",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:25:35.344838"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Do you have any other special recipes here?",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "french",
+      "original_text": "Sinon, je veux bien un peu de sucre et une paille pour mon jus d'orange",
+      "preprocessed_text": "vous avez d&apos; autres recettes sp\u00e9ciales ici ? <CONCAT> sinon , je veux bien un peu de sucre et une paille pour mon jus d&apos; orange",
+      "translated_text": "do you have any other special recipes here ? <CONCAT> otherwise , I &apos;d like a little sugar and a straw for my orange juice .",
+      "postprocessed_text": "Otherwise, I'd like a little sugar and a straw for my orange juice.",
+      "composition_time": "2018-04-30T13:25:17.973769",
+      "preprocessing_begin": "2018-04-30T13:25:18.040523",
+      "preprocessing_end": "2018-04-30T13:25:20.273686",
+      "translation_begin": "2018-04-30T13:25:20.273784",
+      "translation_end": "2018-04-30T13:25:24.040214",
+      "postprocessing_begin": "2018-04-30T13:25:24.040433",
+      "postprocessing_end": "2018-04-30T13:25:24.080961",
+      "sent_time": "2018-04-30T13:25:24.082680",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:25:38.596699"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "By the way, I\u2019d like a little sugar and a straw for my orange juice.",
+      "normalised_version": "Sinon, je veux bien un peu de sucre et une paille pour mon jus d\u2019orange."
+    },
+    "40": {
+      "language": "english",
+      "original_text": "No other special recipes.Only coffee English style.",
+      "preprocessed_text": "otherwise , I &apos;d like a little sugar and a straw for my orange juice . <CONCAT> no other special re@@ cip@@ es.@@ Only coffee English style .",
+      "translated_text": "sinon , j&apos; aimerais un peu de sucre et une paille pour mon jus d&apos; orange . <CONCAT> pas d&apos; autre recette sp\u00e9ciale .",
+      "postprocessed_text": "Pas d'autre recette sp\u00e9ciale.",
+      "composition_time": "2018-04-30T13:26:17.849008",
+      "preprocessing_begin": "2018-04-30T13:26:17.912705",
+      "preprocessing_end": "2018-04-30T13:26:20.302308",
+      "translation_begin": "2018-04-30T13:26:20.302388",
+      "translation_end": "2018-04-30T13:26:24.251996",
+      "postprocessing_begin": "2018-04-30T13:26:24.252346",
+      "postprocessing_end": "2018-04-30T13:26:24.291504",
+      "sent_time": "2018-04-30T13:26:24.292688",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:26:44.717303"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Pas d'autre recette sp\u00e9ciale. Seulement du caf\u00e9 \u00e0 l'anglaise.",
+      "normalised_version": "No other special recipes. Only coffee English-style."
+    },
+    "41": {
+      "language": "english",
+      "original_text": "Would you like to sit at a table and i will bring your orange juice over to you?",
+      "preprocessed_text": "no other special re@@ cip@@ es.@@ Only coffee English style . <CONCAT> would you like to sit at a table and i will bring your orange juice over to you ?",
+      "translated_text": "rien d&apos; autre . <CONCAT> voulez @-@ vous vous asseoir \u00e0 une table et je vous apporterai votre jus d&apos; orange ?",
+      "postprocessed_text": "Voulez-vous vous asseoir \u00e0 une table et je vous apporterai votre jus d'orange ?",
+      "composition_time": "2018-04-30T13:26:17.849008",
+      "preprocessing_begin": "2018-04-30T13:26:17.912705",
+      "preprocessing_end": "2018-04-30T13:26:20.302308",
+      "translation_begin": "2018-04-30T13:26:20.302388",
+      "translation_end": "2018-04-30T13:26:24.251996",
+      "postprocessing_begin": "2018-04-30T13:26:24.252346",
+      "postprocessing_end": "2018-04-30T13:26:24.291504",
+      "sent_time": "2018-04-30T13:26:24.293457",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:26:45.808001"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Est-ce que vous voulez vous asseoir \u00e0 une table\u00a0? Je vous apporterai votre jus d'orange.",
+      "normalised_version": "Would you like to sit at a table and I will bring your orange juice over to you?"
+    },
+    "42": {
+      "language": "french",
+      "original_text": "Oui merci.; Et si vous avez le journal du jour je suis preneur",
+      "preprocessed_text": "voulez @-@ vous vous asseoir \u00e0 une table et je vous apporterai votre jus d&apos; orange ? <CONCAT> oui merci . ; Et si vous avez le journal du jour je suis preneur",
+      "translated_text": "would you like to sit at a table and I &apos;ll bring you your orange juice ? <CONCAT> yes , thank you .",
+      "postprocessed_text": "Yes, thank you.",
+      "composition_time": "2018-04-30T13:28:01.534063",
+      "preprocessing_begin": "2018-04-30T13:28:01.603165",
+      "preprocessing_end": "2018-04-30T13:28:03.637855",
+      "translation_begin": "2018-04-30T13:28:03.637966",
+      "translation_end": "2018-04-30T13:28:05.835926",
+      "postprocessing_begin": "2018-04-30T13:28:05.836194",
+      "postprocessing_end": "2018-04-30T13:28:05.879934",
+      "sent_time": "2018-04-30T13:28:05.880941",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:29:22.909230"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes thank you. And I\u2019d like today\u2019s paper if you have it.",
+      "normalised_version": "Oui merci. Et si vous avez le journal du jour je suis preneur."
+    },
+    "43": {
+      "language": "english",
+      "original_text": "RIght I'll do that and then I need to serve the customer who has just come in.",
+      "preprocessed_text": "yes , thank you . <CONCAT> right I &apos;ll do that and then I need to serve the customer who has just come in .",
+      "translated_text": "oui , merci . <CONCAT> d&apos; accord , je vais faire \u00e7a et je dois servir le client qui vient d&apos; arriver .",
+      "postprocessed_text": "D'accord, je vais faire \u00e7a et je dois servir le client qui vient d'arriver.",
+      "composition_time": "2018-04-30T13:29:04.729153",
+      "preprocessing_begin": "2018-04-30T13:29:04.804086",
+      "preprocessing_end": "2018-04-30T13:29:07.207691",
+      "translation_begin": "2018-04-30T13:29:07.207774",
+      "translation_end": "2018-04-30T13:29:13.150837",
+      "postprocessing_begin": "2018-04-30T13:29:13.151287",
+      "postprocessing_end": "2018-04-30T13:29:13.210863",
+      "sent_time": "2018-04-30T13:29:13.212602",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:30:18.300146"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:30:22.942394",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Tr\u00e8s bien, je vais faire \u00e7a et ensuite servir le client qui vient d'arriver.",
+      "normalised_version": "Right I'll do that and then I need to serve the customer who has just come in."
+    },
+    "44": {
+      "language": "english",
+      "original_text": "I hope you enjoy the orange juice and get to see the art gallery.",
+      "preprocessed_text": "right I &apos;ll do that and then I need to serve the customer who has just come in . <CONCAT> I hope you enjoy the orange juice and get to see the art gallery .",
+      "translated_text": "d&apos; accord , je vais faire \u00e7a et je dois servir le client qui vient d&apos; arriver . <CONCAT> j&apos; esp\u00e8re que tu appr\u00e9cies le jus d&apos; orange et que tu verras la galerie d&apos; art.",
+      "postprocessed_text": "J'esp\u00e8re que tu appr\u00e9cies le jus d'orange et que tu verras la galerie d'art.",
+      "composition_time": "2018-04-30T13:29:04.729153",
+      "preprocessing_begin": "2018-04-30T13:29:04.804086",
+      "preprocessing_end": "2018-04-30T13:29:07.207691",
+      "translation_begin": "2018-04-30T13:29:07.207774",
+      "translation_end": "2018-04-30T13:29:13.150837",
+      "postprocessing_begin": "2018-04-30T13:29:13.151287",
+      "postprocessing_end": "2018-04-30T13:29:13.210863",
+      "sent_time": "2018-04-30T13:29:13.213757",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:30:28.806668"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:30:34.818067",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "J'esp\u00e8re que vous appr\u00e9cierez le jus d'orange et que vous irez voir la galerie d'art.",
+      "normalised_version": ""
+    },
+    "45": {
+      "language": "english",
+      "original_text": "Thanks very much for your custom.",
+      "preprocessed_text": "I hope you enjoy the orange juice and get to see the art gallery . <CONCAT> thanks very much for your custom .",
+      "translated_text": "j&apos; esp\u00e8re que tu appr\u00e9cies le jus d&apos; orange et que tu iras voir la galerie d&apos; art. <CONCAT> merci beaucoup pour ta coutume .",
+      "postprocessed_text": "Merci beaucoup pour ta coutume.",
+      "composition_time": "2018-04-30T13:29:04.729153",
+      "preprocessing_begin": "2018-04-30T13:29:04.804086",
+      "preprocessing_end": "2018-04-30T13:29:07.207691",
+      "translation_begin": "2018-04-30T13:29:07.207774",
+      "translation_end": "2018-04-30T13:29:13.150837",
+      "postprocessing_begin": "2018-04-30T13:29:13.151287",
+      "postprocessing_end": "2018-04-30T13:29:13.210863",
+      "sent_time": "2018-04-30T13:29:13.214867",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:30:41.528310"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-30T13:30:46.863566",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "Merci beaucoup d'\u00eatre venu chez nous.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "timestamp": "2018-04-30T13:34:28.656663",
+    "coherence": "excellent",
+    "verbatim_quality": "",
+    "grammaticality": "excellent",
+    "interface": "excellent",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "particular_problems": "emplois successifs de \"je\" et \"vous\"",
+    "style": "good",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "timestamp": "2018-04-30T13:30:54.994490",
+    "coherence": "good",
+    "verbatim_quality": "mostly good and all understandable allowing the converstion to flow.",
+    "grammaticality": "good",
+    "interface": "",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "particular_problems": "",
+    "style": "good",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

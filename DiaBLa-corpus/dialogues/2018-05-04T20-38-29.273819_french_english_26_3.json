@@ -1,0 +1,1315 @@
+{
+  "start_time": "2018-05-04T20:38:29.273819",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are feeding the ducks by the pond.",
+      "Vous nourrissez les canards au bord d'un \u00e9tang."
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": true,
+    "role_num": 2,
+    "role": [
+      "",
+      ""
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:59.0) Gecko/20100101 Firefox/59.0"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "",
+      ""
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 1
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "So, the idea is, if you get the duck's body it's 5 points and it's 10 for the head!",
+      "preprocessed_text": "<BEGIN>  <CONCAT> so , the idea is , if you get the duck &apos;s body it &apos;s 5 points and it &apos;s 10 for the head !",
+      "translated_text": "traduction : <CONCAT> donc , si tu as le corps du canard , il y a 5 points et c&apos; est 10 pour la t\u00eate !",
+      "postprocessed_text": "Donc, si tu as le corps du canard, il y a 5 points et c'est 10 pour la t\u00eate !",
+      "composition_time": "2018-05-04T20:39:34.397708",
+      "preprocessing_begin": "2018-05-04T20:39:34.495089",
+      "preprocessing_end": "2018-05-04T20:39:37.001217",
+      "translation_begin": "2018-05-04T20:39:37.001416",
+      "translation_end": "2018-05-04T20:39:42.545728",
+      "postprocessing_begin": "2018-05-04T20:39:42.546337",
+      "postprocessing_end": "2018-05-04T20:39:42.601371",
+      "sent_time": "2018-05-04T20:39:42.602849",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:45:52.157144",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:45:50.909175"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Donc, l\u2019id\u00e9e est, si tu touches le corps du canard c\u2019est 5 points et 10 si c\u2019est la t\u00eate.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Here, take some breadcrumbs.",
+      "preprocessed_text": "so , the idea is , if you get the duck &apos;s body it &apos;s 5 points and it &apos;s 10 for the head ! <CONCAT> here , take some bread@@ crumbs .",
+      "translated_text": "alors , l&apos; id\u00e9e , c&apos; est que si tu prends le corps du canard , c&apos; est 5 points et 10 pour la t\u00eate ! <CONCAT> tiens , prends des miettes de pain .",
+      "postprocessed_text": "Tiens, prends des miettes de pain.",
+      "composition_time": "2018-05-04T20:39:34.397708",
+      "preprocessing_begin": "2018-05-04T20:39:34.495089",
+      "preprocessing_end": "2018-05-04T20:39:37.001217",
+      "translation_begin": "2018-05-04T20:39:37.001416",
+      "translation_end": "2018-05-04T20:39:42.545728",
+      "postprocessing_begin": "2018-05-04T20:39:42.546337",
+      "postprocessing_end": "2018-05-04T20:39:42.601371",
+      "sent_time": "2018-05-04T20:39:42.603519",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:45:48.807628",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:45:46.675944"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Tiens, prends quelques morceaux de pain.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Tu me propose un jeu ?",
+      "preprocessed_text": "tiens , prends des miettes de pain . <CONCAT> tu me propose un jeu ?",
+      "translated_text": "here , have some bread crumbs . <CONCAT> are you offering me a game ?",
+      "postprocessed_text": "Are you offering me a game?",
+      "composition_time": "2018-05-04T20:40:39.525586",
+      "preprocessing_begin": "2018-05-04T20:40:39.609698",
+      "preprocessing_end": "2018-05-04T20:40:42.181794",
+      "translation_begin": "2018-05-04T20:40:42.181934",
+      "translation_end": "2018-05-04T20:40:44.015551",
+      "postprocessing_begin": "2018-05-04T20:40:44.016188",
+      "postprocessing_end": "2018-05-04T20:40:44.095565",
+      "sent_time": "2018-05-04T20:40:44.098792",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:40:57.752704"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Are you suggesting we play a game?",
+      "normalised_version": "Tu me proposes un jeu ?"
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Dans lequel, selon l'endroit o\u00f9 je touche le canard, je peux gagner plus ou moins de points ?",
+      "preprocessed_text": "tu me propose un jeu ? <CONCAT> dans lequel , selon l&apos; endroit o\u00f9 je touche le canard , je peux gagner plus ou moins de points ?",
+      "translated_text": "are you offering me a game ? <CONCAT> in which , according to where I touch the duck , can I earn more or less points ?",
+      "postprocessed_text": "In which, according to where I touch the duck, can I earn more or less points?",
+      "composition_time": "2018-05-04T20:41:00.607413",
+      "preprocessing_begin": "2018-05-04T20:41:00.692590",
+      "preprocessing_end": "2018-05-04T20:41:03.229651",
+      "translation_begin": "2018-05-04T20:41:03.229736",
+      "translation_end": "2018-05-04T20:41:05.854807",
+      "postprocessing_begin": "2018-05-04T20:41:05.855443",
+      "postprocessing_end": "2018-05-04T20:41:05.918022",
+      "sent_time": "2018-05-04T20:41:05.920515",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-04T20:41:24.189287",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"can I\" should be \"I can\" (word order)",
+            "2018-05-04T20:41:36.397078",
+            "2018-05-04T20:41:36.397078"
+          ]
+        ],
+        "verbatim": "\"can I\" should be \"I can\" (word order)",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:41:23.249438"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "In which, according to where I hit the duck, I gain a variable number of points?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Ais je bien compris ?",
+      "preprocessed_text": "dans lequel , selon l&apos; endroit o\u00f9 je touche le canard , je peux gagner plus ou moins de points ? <CONCAT> ais je bien compris ?",
+      "translated_text": "in which , according to where I touch the duck , can I earn more or less points ? <CONCAT> do I understand ?",
+      "postprocessed_text": "Do I understand?",
+      "composition_time": "2018-05-04T20:41:06.948456",
+      "preprocessing_begin": "2018-05-04T20:41:07.018695",
+      "preprocessing_end": "2018-05-04T20:41:09.681681",
+      "translation_begin": "2018-05-04T20:41:09.681838",
+      "translation_end": "2018-05-04T20:41:11.856026",
+      "postprocessing_begin": "2018-05-04T20:41:11.856427",
+      "postprocessing_end": "2018-05-04T20:41:11.905405",
+      "sent_time": "2018-05-04T20:41:11.907182",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-04T20:41:40.592221",
+            true
+          ],
+          [
+            "style",
+            "2018-05-04T20:41:44.294123",
+            false
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:41:39.692766"
+          ],
+          [
+            "perfect",
+            "2018-05-04T20:41:45.905655"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Have I understood correctly?",
+      "normalised_version": "Ai-je bien compris ?"
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Of course!",
+      "preprocessed_text": "in which , according to where I touch the duck , can I earn more or less points ? <CONCAT> of course !",
+      "translated_text": "dans lequel , d&apos; apr\u00e8s l&apos; endroit o\u00f9 je touche le canard , je peux gagner plus ou moins de points ? <CONCAT> bien s\u00fbr !",
+      "postprocessed_text": "Bien s\u00fbr !",
+      "composition_time": "2018-05-04T20:41:09.227126",
+      "preprocessing_begin": "2018-05-04T20:41:09.300623",
+      "preprocessing_end": "2018-05-04T20:41:11.673178",
+      "translation_begin": "2018-05-04T20:41:11.673262",
+      "translation_end": "2018-05-04T20:41:14.923779",
+      "postprocessing_begin": "2018-05-04T20:41:14.924291",
+      "postprocessing_end": "2018-05-04T20:41:14.981719",
+      "sent_time": "2018-05-04T20:41:14.983556",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:45:40.805938"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Bien s\u00fbr !",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "Don't you know it?",
+      "preprocessed_text": "of course ! <CONCAT> don &apos;t you know it ?",
+      "translated_text": "bien s\u00fbr ! <CONCAT> tu ne le sais pas ?",
+      "postprocessed_text": "Tu ne le sais pas ?",
+      "composition_time": "2018-05-04T20:41:09.227126",
+      "preprocessing_begin": "2018-05-04T20:41:09.300623",
+      "preprocessing_end": "2018-05-04T20:41:11.673178",
+      "translation_begin": "2018-05-04T20:41:11.673262",
+      "translation_end": "2018-05-04T20:41:14.923779",
+      "postprocessing_begin": "2018-05-04T20:41:14.924291",
+      "postprocessing_end": "2018-05-04T20:41:14.981719",
+      "sent_time": "2018-05-04T20:41:14.984786",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:55:51.988689",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:45:41.576092"
+          ],
+          [
+            "medium",
+            "2018-05-04T20:55:50.491084"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Tu ne le connais pas ?",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Non, c'est la premi\u00e8re fois de ma vie que je joue \u00e0 ce jeu !",
+      "preprocessed_text": "tu ne le sais pas ? <CONCAT> non , c&apos; est la premi\u00e8re fois de ma vie que je joue \u00e0 ce jeu !",
+      "translated_text": "don &apos;t you know ? <CONCAT> no , it &apos;s the first time in my life I &apos;ve played this game !",
+      "postprocessed_text": "No, it's the first time in my life I've played this game!",
+      "composition_time": "2018-05-04T20:41:39.806704",
+      "preprocessing_begin": "2018-05-04T20:41:39.894523",
+      "preprocessing_end": "2018-05-04T20:41:42.464553",
+      "translation_begin": "2018-05-04T20:41:42.464645",
+      "translation_end": "2018-05-04T20:41:44.619108",
+      "postprocessing_begin": "2018-05-04T20:41:44.619626",
+      "postprocessing_end": "2018-05-04T20:41:44.686284",
+      "sent_time": "2018-05-04T20:41:44.688841",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:41:53.291135"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "No, it\u2019s the first time in my life I\u2019ve played this game.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Apr\u00e8s, cela fait des ann\u00e9es maintenant que j'habite en Islande.",
+      "preprocessed_text": "non , c&apos; est la premi\u00e8re fois de ma vie que je joue \u00e0 ce jeu ! <CONCAT> apr\u00e8s , cela fait des ann\u00e9es maintenant que j&apos; habite en Islande .",
+      "translated_text": "no , it &apos;s the first time in my life I &apos;ve played this game ! <CONCAT> after that , I &apos;ve been living in Iceland for years now .",
+      "postprocessed_text": "After that, I've been living in Iceland for years now.",
+      "composition_time": "2018-05-04T20:41:56.574094",
+      "preprocessing_begin": "2018-05-04T20:41:56.654163",
+      "preprocessing_end": "2018-05-04T20:41:58.958707",
+      "translation_begin": "2018-05-04T20:41:58.958825",
+      "translation_end": "2018-05-04T20:42:01.244172",
+      "postprocessing_begin": "2018-05-04T20:42:01.244657",
+      "postprocessing_end": "2018-05-04T20:42:01.297836",
+      "sent_time": "2018-05-04T20:42:01.298814",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:42:10.252145",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"after that\"",
+            "2018-05-04T20:42:14.335764",
+            "2018-05-04T20:42:14.335764"
+          ]
+        ],
+        "verbatim": "\"after that\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:42:07.856001"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Then again, I\u2019ve been living in Iceland for years now.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Et, il n'y a pas de canards, plut\u00f4t des moutons, et des chevaux...",
+      "preprocessed_text": "apr\u00e8s , cela fait des ann\u00e9es maintenant que j&apos; habite en Islande . <CONCAT> et , il n&apos; y a pas de canards , plut\u00f4t des moutons , et des chevaux ...",
+      "translated_text": "after , it &apos;s been years now that I live in Iceland . <CONCAT> and there are no ducks , more sheep , and horses ...",
+      "postprocessed_text": "And there are no ducks, more sheep, and horses...",
+      "composition_time": "2018-05-04T20:42:18.908999",
+      "preprocessing_begin": "2018-05-04T20:42:18.991297",
+      "preprocessing_end": "2018-05-04T20:42:21.381573",
+      "translation_begin": "2018-05-04T20:42:21.381706",
+      "translation_end": "2018-05-04T20:42:23.915733",
+      "postprocessing_begin": "2018-05-04T20:42:23.917118",
+      "postprocessing_end": "2018-05-04T20:42:23.983691",
+      "sent_time": "2018-05-04T20:42:23.986701",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:42:28.641927"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "And there aren\u2019t any ducks, only sheep and horses\u2026",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "You could play with horses, but you risk getting charged at!",
+      "preprocessed_text": "and there are no ducks , more sheep , and horses ... <CONCAT> you could play with horses , but you risk getting charged at !",
+      "translated_text": "et il n&apos; y a pas de canards , plus de moutons , et de chevaux ... <CONCAT> tu pourrais jouer avec les chevaux , mais tu risques d&apos; \u00eatre accus\u00e9 !",
+      "postprocessed_text": "Tu pourrais jouer avec les chevaux, mais tu risques d'\u00eatre accus\u00e9 !",
+      "composition_time": "2018-05-04T20:43:30.449182",
+      "preprocessing_begin": "2018-05-04T20:43:30.531191",
+      "preprocessing_end": "2018-05-04T20:43:32.862874",
+      "translation_begin": "2018-05-04T20:43:32.863045",
+      "translation_end": "2018-05-04T20:43:41.032674",
+      "postprocessing_begin": "2018-05-04T20:43:41.033105",
+      "postprocessing_end": "2018-05-04T20:43:41.091545",
+      "sent_time": "2018-05-04T20:43:41.093098",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:45:27.515664",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:45:21.935914"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Tu pourrais jouer avec des chevaux mais tu risques de te faire charger !",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "english",
+      "original_text": "It works a lot better with ducks, because they don't fight back as much!",
+      "preprocessed_text": "you could play with horses , but you risk getting charged at ! <CONCAT> it works a lot better with ducks , because they don &apos;t fight back as much !",
+      "translated_text": "tu pourrais jouer avec les chevaux , mais tu risques d&apos; \u00eatre accus\u00e9 ! <CONCAT> il fonctionne mieux avec les canards , parce qu&apos; ils ne se battent pas autant !",
+      "postprocessed_text": "Il fonctionne mieux avec les canards, parce qu'ils ne se battent pas autant !",
+      "composition_time": "2018-05-04T20:43:30.449182",
+      "preprocessing_begin": "2018-05-04T20:43:30.531191",
+      "preprocessing_end": "2018-05-04T20:43:32.862874",
+      "translation_begin": "2018-05-04T20:43:32.863045",
+      "translation_end": "2018-05-04T20:43:41.032674",
+      "postprocessing_begin": "2018-05-04T20:43:41.033105",
+      "postprocessing_end": "2018-05-04T20:43:41.091545",
+      "sent_time": "2018-05-04T20:43:41.094263",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-04T20:45:30.331153",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-04T20:45:35.596062",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:45:28.829770"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar",
+          "word choice"
+        ]
+      },
+      "reference_translation": "\u00c7a se passe beaucoup mieux avec les canards car ils ne ripostent pas autant !",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "And they like being fed anyway.",
+      "preprocessed_text": "it works a lot better with ducks , because they don &apos;t fight back as much ! <CONCAT> and they like being fed anyway .",
+      "translated_text": "\u00e7a marche beaucoup mieux avec les canards , parce qu&apos; ils ne se battent pas autant ! <CONCAT> et ils aiment \u00eatre nourris de toute fa\u00e7on .",
+      "postprocessed_text": "Et ils aiment \u00eatre nourris de toute fa\u00e7on.",
+      "composition_time": "2018-05-04T20:43:30.449182",
+      "preprocessing_begin": "2018-05-04T20:43:30.531191",
+      "preprocessing_end": "2018-05-04T20:43:32.862874",
+      "translation_begin": "2018-05-04T20:43:32.863045",
+      "translation_end": "2018-05-04T20:43:41.032674",
+      "postprocessing_begin": "2018-05-04T20:43:41.033105",
+      "postprocessing_end": "2018-05-04T20:43:41.091545",
+      "sent_time": "2018-05-04T20:43:41.095360",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:45:37.394140"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Et ils aiment \u00eatre nourris de toute fa\u00e7on.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "So it's win win!",
+      "preprocessed_text": "and they like being fed anyway . <CONCAT> so it &apos;s win win !",
+      "translated_text": "et ils aiment \u00eatre nourris de toute fa\u00e7on . <CONCAT> alors c&apos; est gagner gagnant !",
+      "postprocessed_text": "Alors c'est gagner gagnant !",
+      "composition_time": "2018-05-04T20:43:30.449182",
+      "preprocessing_begin": "2018-05-04T20:43:30.531191",
+      "preprocessing_end": "2018-05-04T20:43:32.862874",
+      "translation_begin": "2018-05-04T20:43:32.863045",
+      "translation_end": "2018-05-04T20:43:41.032674",
+      "postprocessing_begin": "2018-05-04T20:43:41.033105",
+      "postprocessing_end": "2018-05-04T20:43:41.091545",
+      "sent_time": "2018-05-04T20:43:41.096455",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:45:18.508574",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-04T20:56:05.529693",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-04T20:56:09.193864",
+            false
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:45:16.485264"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Donc c\u2019est gagnant gagnant !",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "En effet !",
+      "preprocessed_text": "alors c&apos; est gagner gagnant ! <CONCAT> en effet !",
+      "translated_text": "then it &apos;s a win ! <CONCAT> indeed !",
+      "postprocessed_text": "Indeed!",
+      "composition_time": "2018-05-04T20:44:13.312010",
+      "preprocessing_begin": "2018-05-04T20:44:13.390567",
+      "preprocessing_end": "2018-05-04T20:44:15.800725",
+      "translation_begin": "2018-05-04T20:44:15.800829",
+      "translation_end": "2018-05-04T20:44:16.774749",
+      "postprocessing_begin": "2018-05-04T20:44:16.775274",
+      "postprocessing_end": "2018-05-04T20:44:16.837678",
+      "sent_time": "2018-05-04T20:44:16.839776",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:44:47.933405"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, it is!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "De toute fa\u00e7on, ils vont se pr\u00e9cipiter sur le pain !",
+      "preprocessed_text": "en effet ! <CONCAT> de toute fa\u00e7on , ils vont se pr\u00e9cipiter sur le pain !",
+      "translated_text": "indeed ! <CONCAT> anyway , they &apos;ll rush on the bread !",
+      "postprocessed_text": "Anyway, they'll rush on the bread!",
+      "composition_time": "2018-05-04T20:44:36.522182",
+      "preprocessing_begin": "2018-05-04T20:44:36.606149",
+      "preprocessing_end": "2018-05-04T20:44:38.947641",
+      "translation_begin": "2018-05-04T20:44:38.947780",
+      "translation_end": "2018-05-04T20:44:40.255664",
+      "postprocessing_begin": "2018-05-04T20:44:40.256196",
+      "postprocessing_end": "2018-05-04T20:44:40.316189",
+      "sent_time": "2018-05-04T20:44:40.318607",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:44:46.338392",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:44:45.280179"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "In any case, they\u2019re going to throw themselves at the bread!",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Oh, as tu vu... il y a aussi des canetons...",
+      "preprocessed_text": "de toute fa\u00e7on , ils vont se pr\u00e9cipiter sur le pain ! <CONCAT> oh , as tu vu ... il y a aussi des can@@ etons ...",
+      "translated_text": "anyway , they &apos;re gonna rush on the bread ! <CONCAT> oh , have you seen ... there are also duck@@ lings ...",
+      "postprocessed_text": "Oh, have you seen... there are also ducklings...",
+      "composition_time": "2018-05-04T20:45:01.411493",
+      "preprocessing_begin": "2018-05-04T20:45:01.494708",
+      "preprocessing_end": "2018-05-04T20:45:03.989501",
+      "translation_begin": "2018-05-04T20:45:03.989660",
+      "translation_end": "2018-05-04T20:45:06.057873",
+      "postprocessing_begin": "2018-05-04T20:45:06.058288",
+      "postprocessing_end": "2018-05-04T20:45:06.101787",
+      "sent_time": "2018-05-04T20:45:06.103590",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:45:15.698088"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oh, have you seen? There are ducklings too\u2026",
+      "normalised_version": "Oh, as-tu vu... il y a aussi des canetons..."
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Ils sont vraiment mignons...",
+      "preprocessed_text": "oh , as tu vu ... il y a aussi des can@@ etons ... <CONCAT> ils sont vraiment mignons ...",
+      "translated_text": "oh , have you seen ... there are also duck@@ lings ... <CONCAT> they &apos;re really cute ...",
+      "postprocessed_text": "They're really cute...",
+      "composition_time": "2018-05-04T20:45:12.351957",
+      "preprocessing_begin": "2018-05-04T20:45:12.434162",
+      "preprocessing_end": "2018-05-04T20:45:14.991920",
+      "translation_begin": "2018-05-04T20:45:14.991994",
+      "translation_end": "2018-05-04T20:45:16.436246",
+      "postprocessing_begin": "2018-05-04T20:45:16.436579",
+      "postprocessing_end": "2018-05-04T20:45:16.477254",
+      "sent_time": "2018-05-04T20:45:16.478585",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:45:36.764669"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "They are really cute\u2026",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "I love watching them bobbing about in the water! 20 points for a duckling!",
+      "preprocessed_text": "they &apos;re really cute ... <CONCAT> I love watching them bobbing about in the water ! 20 points for a duck@@ ling !",
+      "translated_text": "ils sont vraiment mignons ... <CONCAT> j&apos; adore les regarder se balancer dans l&apos; eau ! 20 points pour un can@@ eton !",
+      "postprocessed_text": "J'adore les regarder se balancer dans l'eau ! 20 points pour un caneton !",
+      "composition_time": "2018-05-04T20:46:02.348685",
+      "preprocessing_begin": "2018-05-04T20:46:02.427634",
+      "preprocessing_end": "2018-05-04T20:46:04.658171",
+      "translation_begin": "2018-05-04T20:46:04.658264",
+      "translation_end": "2018-05-04T20:46:08.065744",
+      "postprocessing_begin": "2018-05-04T20:46:08.066128",
+      "postprocessing_end": "2018-05-04T20:46:08.103753",
+      "sent_time": "2018-05-04T20:46:08.105117",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:48:34.324060"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "J\u2019adore les regarder flotter dans l\u2019eau ! 20 points pour un caneton !",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "Or is that too cruel?",
+      "preprocessed_text": "I love watching them bobbing about in the water ! 20 points for a duck@@ ling ! <CONCAT> or is that too cruel ?",
+      "translated_text": "j&apos; adore les regarder se balancer dans l&apos; eau ! 20 points pour un can@@ eton ! <CONCAT> ou est @-@ ce trop cruel ?",
+      "postprocessed_text": "Ou est-ce trop cruel ?",
+      "composition_time": "2018-05-04T20:46:02.348685",
+      "preprocessing_begin": "2018-05-04T20:46:02.427634",
+      "preprocessing_end": "2018-05-04T20:46:04.658171",
+      "translation_begin": "2018-05-04T20:46:04.658264",
+      "translation_end": "2018-05-04T20:46:08.065744",
+      "postprocessing_begin": "2018-05-04T20:46:08.066128",
+      "postprocessing_end": "2018-05-04T20:46:08.103753",
+      "sent_time": "2018-05-04T20:46:08.105933",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:48:33.722957"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C\u2019est pas trop cruel ?",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "oh non, ils sont trop mignons....",
+      "preprocessed_text": "ou est @-@ ce trop cruel ? <CONCAT> oh non , ils sont trop mignons ....",
+      "translated_text": "or is it too cruel ? <CONCAT> oh no , they &apos;re too cute ...",
+      "postprocessed_text": "Oh no, they're too cute...",
+      "composition_time": "2018-05-04T20:46:46.260289",
+      "preprocessing_begin": "2018-05-04T20:46:46.338809",
+      "preprocessing_end": "2018-05-04T20:46:48.677297",
+      "translation_begin": "2018-05-04T20:46:48.677481",
+      "translation_end": "2018-05-04T20:46:49.933382",
+      "postprocessing_begin": "2018-05-04T20:46:49.933644",
+      "postprocessing_end": "2018-05-04T20:46:49.986912",
+      "sent_time": "2018-05-04T20:46:49.988392",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:46:54.985917"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oh no, they\u2019re too cute\u2026",
+      "normalised_version": "Oh non, ils sont trop mignons...."
+    },
+    "21": {
+      "language": "french",
+      "original_text": "On peut envisager de changer la r\u00e8gle",
+      "preprocessed_text": "oh non , ils sont trop mignons .... <CONCAT> on peut envisager de changer la r\u00e8gle",
+      "translated_text": "oh , no , they &apos;re too cute . <CONCAT> we can start thinking about changing the rules .",
+      "postprocessed_text": "We can start thinking about changing the rules.",
+      "composition_time": "2018-05-04T20:47:35.445727",
+      "preprocessing_begin": "2018-05-04T20:47:35.526270",
+      "preprocessing_end": "2018-05-04T20:47:37.998512",
+      "translation_begin": "2018-05-04T20:47:37.998659",
+      "translation_end": "2018-05-04T20:47:39.510413",
+      "postprocessing_begin": "2018-05-04T20:47:39.510822",
+      "postprocessing_end": "2018-05-04T20:47:39.561015",
+      "sent_time": "2018-05-04T20:47:39.562988",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:47:51.650707"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "We could think of changing the rules.",
+      "normalised_version": "On peut envisager de changer la r\u00e8gle."
+    },
+    "22": {
+      "language": "french",
+      "original_text": "si l'on arrive \u00e0 attirer 3 cannetons sur un m\u00eame bout de pain envoy\u00e9 dans l'eau, alors on gagne 20 points",
+      "preprocessed_text": "on peut envisager de changer la r\u00e8gle <CONCAT> si l&apos; on arrive \u00e0 attirer 3 cann@@ etons sur un m\u00eame bout de pain envoy\u00e9 dans l&apos; eau , alors on gagne 20 points",
+      "translated_text": "we can think about changing the rule . <CONCAT> if we can draw three steps to one piece of bread in the water , then we get 20 points .",
+      "postprocessed_text": "If we can draw three steps to one piece of bread in the water, then we get 20 points.",
+      "composition_time": "2018-05-04T20:48:05.884161",
+      "preprocessing_begin": "2018-05-04T20:48:05.956913",
+      "preprocessing_end": "2018-05-04T20:48:08.425620",
+      "translation_begin": "2018-05-04T20:48:08.425704",
+      "translation_end": "2018-05-04T20:48:10.633054",
+      "postprocessing_begin": "2018-05-04T20:48:10.633510",
+      "postprocessing_end": "2018-05-04T20:48:10.670531",
+      "sent_time": "2018-05-04T20:48:10.672190",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-04T20:49:51.421642",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-04T20:49:49.531312"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "If you manage to coax 3 ducklings with the same piece of bread thrown into the water, then you win 20 points.",
+      "normalised_version": "Si l'on arrive \u00e0 attirer 3 canetons sur un m\u00eame bout de pain envoy\u00e9 dans l'eau, alors on gagne 20 points."
+    },
+    "23": {
+      "language": "english",
+      "original_text": "I don't really understand your new rule.",
+      "preprocessed_text": "if we can draw three steps to one piece of bread in the water , then we get 20 points . <CONCAT> I don &apos;t really understand your new rule .",
+      "translated_text": "si on peut faire trois pas pour un morceau de pain dans l&apos; eau , alors on aura 20 points . <CONCAT> je ne comprends pas vraiment ta nouvelle r\u00e8gle .",
+      "postprocessed_text": "Je ne comprends pas vraiment ta nouvelle r\u00e8gle.",
+      "composition_time": "2018-05-04T20:49:05.366803",
+      "preprocessing_begin": "2018-05-04T20:49:05.437745",
+      "preprocessing_end": "2018-05-04T20:49:07.845428",
+      "translation_begin": "2018-05-04T20:49:07.845542",
+      "translation_end": "2018-05-04T20:49:12.647110",
+      "postprocessing_begin": "2018-05-04T20:49:12.647482",
+      "postprocessing_end": "2018-05-04T20:49:12.706902",
+      "sent_time": "2018-05-04T20:49:12.708049",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:43.548358"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je ne comprends pas vraiment ta nouvelle r\u00e8gle.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "What do you mean by \"draw three steps to one piece of bread in the water\"?",
+      "preprocessed_text": "I don &apos;t really understand your new rule . <CONCAT> what do you mean by &quot; draw three steps to one piece of bread in the water &quot; ?",
+      "translated_text": "je ne comprends pas vraiment ta nouvelle r\u00e8gle . <CONCAT> que veux @-@ tu dire par &quot; tirer trois marches vers un morceau de pain dans l&apos; eau &quot; ?",
+      "postprocessed_text": "Que veux-tu dire par \"tirer trois marches vers un morceau de pain dans l'eau\" ?",
+      "composition_time": "2018-05-04T20:49:05.366803",
+      "preprocessing_begin": "2018-05-04T20:49:05.437745",
+      "preprocessing_end": "2018-05-04T20:49:07.845428",
+      "translation_begin": "2018-05-04T20:49:07.845542",
+      "translation_end": "2018-05-04T20:49:12.647110",
+      "postprocessing_begin": "2018-05-04T20:49:12.647482",
+      "postprocessing_end": "2018-05-04T20:49:12.706902",
+      "sent_time": "2018-05-04T20:49:12.708658",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:56.006818"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Qu\u2019est-ce que tu veux dire par \u00ab\u00a0tirer trois pas vers un morceaux de pain dans l\u2019eau \u00a0\u00bb ?",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "je me suis mal exprim\u00e9e",
+      "preprocessed_text": "que veux @-@ tu dire par &quot; tirer trois marches vers un morceau de pain dans l&apos; eau &quot; ? <CONCAT> je me suis mal exprim\u00e9e",
+      "translated_text": "what do you mean , &quot; pulling three steps towards a piece of bread in the water &quot; ? <CONCAT> I mis@@ spoke",
+      "postprocessed_text": "I misspoke",
+      "composition_time": "2018-05-04T20:49:51.799574",
+      "preprocessing_begin": "2018-05-04T20:49:51.876662",
+      "preprocessing_end": "2018-05-04T20:49:54.287410",
+      "translation_begin": "2018-05-04T20:49:54.287477",
+      "translation_end": "2018-05-04T20:49:56.094772",
+      "postprocessing_begin": "2018-05-04T20:49:56.095155",
+      "postprocessing_end": "2018-05-04T20:49:56.139896",
+      "sent_time": "2018-05-04T20:49:56.141394",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:50:00.389218"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I wasn\u2019t very clear.",
+      "normalised_version": "Je me suis mal exprim\u00e9e."
+    },
+    "26": {
+      "language": "french",
+      "original_text": "l'id\u00e9e est de faire se rejoindre trois canetons",
+      "preprocessed_text": "je me suis mal exprim\u00e9e <CONCAT> l&apos; id\u00e9e est de faire se rejoindre trois can@@ etons",
+      "translated_text": "I mis@@ spoke . <CONCAT> the idea is to make it three duck@@ lings .",
+      "postprocessed_text": "The idea is to make it three ducklings.",
+      "composition_time": "2018-05-04T20:50:24.915817",
+      "preprocessing_begin": "2018-05-04T20:50:24.997120",
+      "preprocessing_end": "2018-05-04T20:50:27.617149",
+      "translation_begin": "2018-05-04T20:50:27.617264",
+      "translation_end": "2018-05-04T20:50:28.774886",
+      "postprocessing_begin": "2018-05-04T20:50:28.775275",
+      "postprocessing_end": "2018-05-04T20:50:28.829304",
+      "sent_time": "2018-05-04T20:50:28.831377",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:51:01.232084"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "The idea is to bring together three ducklings",
+      "normalised_version": "L'id\u00e9e est de faire se rejoindre trois canetons"
+    },
+    "27": {
+      "language": "french",
+      "original_text": "sur un m\u00eame morceau de pain",
+      "preprocessed_text": "l&apos; id\u00e9e est de faire se rejoindre trois can@@ etons <CONCAT> sur un m\u00eame morceau de pain",
+      "translated_text": "the idea is to join three duck@@ lings <CONCAT> on one piece of bread",
+      "postprocessed_text": "On one piece of bread",
+      "composition_time": "2018-05-04T20:50:29.422318",
+      "preprocessing_begin": "2018-05-04T20:50:29.492962",
+      "preprocessing_end": "2018-05-04T20:50:32.082324",
+      "translation_begin": "2018-05-04T20:50:32.082444",
+      "translation_end": "2018-05-04T20:50:33.488465",
+      "postprocessing_begin": "2018-05-04T20:50:33.488891",
+      "postprocessing_end": "2018-05-04T20:50:33.550031",
+      "sent_time": "2018-05-04T20:50:33.552114",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-04T20:51:02.934345",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:51:01.911979"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "using the same piece of bread.",
+      "normalised_version": "sur un m\u00eame morceau de pain."
+    },
+    "28": {
+      "language": "english",
+      "original_text": "You really think it's possible to get three ducklings with one piece of bread?",
+      "preprocessed_text": "on one piece of bread <CONCAT> you really think it &apos;s possible to get three duck@@ lings with one piece of bread ?",
+      "translated_text": "sur un morceau de pain . <CONCAT> tu crois vraiment que c&apos; est possible d&apos; avoir trois can@@ etons avec un morceau de pain ?",
+      "postprocessed_text": "Tu crois vraiment que c'est possible d'avoir trois canetons avec un morceau de pain ?",
+      "composition_time": "2018-05-04T20:51:36.268339",
+      "preprocessing_begin": "2018-05-04T20:51:36.339176",
+      "preprocessing_end": "2018-05-04T20:51:38.923680",
+      "translation_begin": "2018-05-04T20:51:38.923773",
+      "translation_end": "2018-05-04T20:51:43.384316",
+      "postprocessing_begin": "2018-05-04T20:51:43.384850",
+      "postprocessing_end": "2018-05-04T20:51:43.435110",
+      "sent_time": "2018-05-04T20:51:43.436537",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:32.026588"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu penses vraiment que c\u2019est possible d\u2019avoir trois canetons avec un seul morceau de pain ?",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "english",
+      "original_text": "They'd need to be very close together...",
+      "preprocessed_text": "you really think it &apos;s possible to get three duck@@ lings with one piece of bread ? <CONCAT> they &apos;d need to be very close together ...",
+      "translated_text": "tu crois vraiment que c&apos; est possible d&apos; avoir trois can@@ etons avec un morceau de pain ? <CONCAT> ils doivent \u00eatre tr\u00e8s proches ...",
+      "postprocessed_text": "Ils doivent \u00eatre tr\u00e8s proches...",
+      "composition_time": "2018-05-04T20:51:36.268339",
+      "preprocessing_begin": "2018-05-04T20:51:36.339176",
+      "preprocessing_end": "2018-05-04T20:51:38.923680",
+      "translation_begin": "2018-05-04T20:51:38.923773",
+      "translation_end": "2018-05-04T20:51:43.384316",
+      "postprocessing_begin": "2018-05-04T20:51:43.384850",
+      "postprocessing_end": "2018-05-04T20:51:43.435110",
+      "sent_time": "2018-05-04T20:51:43.437522",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-04T20:55:39.216322",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:31.012163"
+          ],
+          [
+            "medium",
+            "2018-05-04T20:55:36.032552"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Il faudrait qu\u2019ils soient vraiment proches les uns des autres.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "c'est pour cela que le score est \u00e9lev\u00e9...",
+      "preprocessed_text": "ils doivent \u00eatre tr\u00e8s proches ... <CONCAT> c&apos; est pour cela que le score est \u00e9lev\u00e9 ...",
+      "translated_text": "they must be very close ... <CONCAT> that &apos;s why the score is high ...",
+      "postprocessed_text": "That's why the score is high...",
+      "composition_time": "2018-05-04T20:52:00.718755",
+      "preprocessing_begin": "2018-05-04T20:52:00.789018",
+      "preprocessing_end": "2018-05-04T20:52:03.239592",
+      "translation_begin": "2018-05-04T20:52:03.239730",
+      "translation_end": "2018-05-04T20:52:04.537885",
+      "postprocessing_begin": "2018-05-04T20:52:04.538224",
+      "postprocessing_end": "2018-05-04T20:52:04.577075",
+      "sent_time": "2018-05-04T20:52:04.578472",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:52:39.188071"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That\u2019s why the score is high\u2026",
+      "normalised_version": "C\u2019est pour cela que le score est \u00e9lev\u00e9..."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "20 points",
+      "preprocessed_text": "c&apos; est pour cela que le score est \u00e9lev\u00e9 ... <CONCAT> 20 points",
+      "translated_text": "that &apos;s why the score is high ... <CONCAT> 20 points",
+      "postprocessed_text": "20 points",
+      "composition_time": "2018-05-04T20:52:15.552200",
+      "preprocessing_begin": "2018-05-04T20:52:15.621236",
+      "preprocessing_end": "2018-05-04T20:52:18.074373",
+      "translation_begin": "2018-05-04T20:52:18.074461",
+      "translation_end": "2018-05-04T20:52:19.111687",
+      "postprocessing_begin": "2018-05-04T20:52:19.112093",
+      "postprocessing_end": "2018-05-04T20:52:19.164204",
+      "sent_time": "2018-05-04T20:52:19.166366",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:52:39.839535"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "20 points.",
+      "normalised_version": "20 points."
+    },
+    "32": {
+      "language": "english",
+      "original_text": "True...",
+      "preprocessed_text": "20 points <CONCAT> true ...",
+      "translated_text": "20 points . <CONCAT> c&apos; est vrai .",
+      "postprocessed_text": "C'est vrai.",
+      "composition_time": "2018-05-04T20:52:31.375479",
+      "preprocessing_begin": "2018-05-04T20:52:31.448672",
+      "preprocessing_end": "2018-05-04T20:52:33.867578",
+      "translation_begin": "2018-05-04T20:52:33.867722",
+      "translation_end": "2018-05-04T20:52:34.687198",
+      "postprocessing_begin": "2018-05-04T20:52:34.687435",
+      "postprocessing_end": "2018-05-04T20:52:34.726162",
+      "sent_time": "2018-05-04T20:52:34.727270",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:24.058636"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C\u2019est vrai\u2026",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "et cela risque d'\u00eatre tr\u00e8s difficile \u00e0 r\u00e9aliser !",
+      "preprocessed_text": "c&apos; est vrai . <CONCAT> et cela risque d&apos; \u00eatre tr\u00e8s difficile \u00e0 r\u00e9aliser !",
+      "translated_text": "that &apos;s true . <CONCAT> and that may be very difficult to realize .",
+      "postprocessed_text": "And that may be very difficult to realize.",
+      "composition_time": "2018-05-04T20:52:41.023895",
+      "preprocessing_begin": "2018-05-04T20:52:41.093031",
+      "preprocessing_end": "2018-05-04T20:52:43.375240",
+      "translation_begin": "2018-05-04T20:52:43.375376",
+      "translation_end": "2018-05-04T20:52:44.659212",
+      "postprocessing_begin": "2018-05-04T20:52:44.659598",
+      "postprocessing_end": "2018-05-04T20:52:44.713321",
+      "sent_time": "2018-05-04T20:52:44.731776",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-04T20:52:49.158978",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"realize\"",
+            "2018-05-04T20:52:53.371744",
+            "2018-05-04T20:52:53.371744"
+          ]
+        ],
+        "verbatim": "\"realize\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T20:52:48.261798"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "And it could be difficult to achieve!",
+      "normalised_version": "Et cela risque d'\u00eatre tr\u00e8s difficile \u00e0 r\u00e9aliser !"
+    },
+    "34": {
+      "language": "english",
+      "original_text": "Well, let's give it a go then!",
+      "preprocessed_text": "and that may be very difficult to realize . <CONCAT> well , let &apos;s give it a go then !",
+      "translated_text": "c&apos; est peut @-@ \u00eatre difficile \u00e0 comprendre . <CONCAT> alors , allons @-@ y !",
+      "postprocessed_text": "Alors, allons-y !",
+      "composition_time": "2018-05-04T20:53:09.365406",
+      "preprocessing_begin": "2018-05-04T20:53:09.450020",
+      "preprocessing_end": "2018-05-04T20:53:11.763401",
+      "translation_begin": "2018-05-04T20:53:11.763488",
+      "translation_end": "2018-05-04T20:53:13.981890",
+      "postprocessing_begin": "2018-05-04T20:53:13.982271",
+      "postprocessing_end": "2018-05-04T20:53:14.041411",
+      "sent_time": "2018-05-04T20:53:14.043273",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:26.443724"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Eh bien, on n\u2019a qu\u2019\u00e0 essayer alors !",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "You go first!",
+      "preprocessed_text": "well , let &apos;s give it a go then ! <CONCAT> you go first !",
+      "translated_text": "alors , allons @-@ y ! <CONCAT> toi d&apos; abord !",
+      "postprocessed_text": "Toi d'abord !",
+      "composition_time": "2018-05-04T20:53:09.365406",
+      "preprocessing_begin": "2018-05-04T20:53:09.450020",
+      "preprocessing_end": "2018-05-04T20:53:11.763401",
+      "translation_begin": "2018-05-04T20:53:11.763488",
+      "translation_end": "2018-05-04T20:53:13.981890",
+      "postprocessing_begin": "2018-05-04T20:53:13.982271",
+      "postprocessing_end": "2018-05-04T20:53:14.041411",
+      "sent_time": "2018-05-04T20:53:14.044129",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T20:53:27.583879"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu commences !",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "good",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "",
+    "timestamp": "2018-05-04T20:57:50.315729",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "average",
+    "coherence": "excellent",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "some sentences not very understandable, but the other person said she misspoke, so possibly a typing error!",
+    "timestamp": "2018-05-04T20:55:59.018340",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

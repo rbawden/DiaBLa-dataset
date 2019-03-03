@@ -1,0 +1,113 @@
+List of scenarios used and the roles for each of the participants
+
+1.
+You are both lost in a forest.
+Vous êtes tous les deux perdus dans une forêt
+Role 1: N/A
+Role 2: N/A
+
+2.
+You are chefs preparing a meal.
+Vous êtes deux cuisiners/cuisinières en train de préparer un repas.
+Role 1:
+You are the head chef and you are talking to your subordinate.
+Vous êtes le ou la chef(fe) et vous discutez avec votre chef(fe) adjoint.
+Role 2:
+You are the subordinate chef and you are talking to the head chef.
+Vous êtes le ou la chef(fe) adjoint(e) et vous discutez avec le/la chef(fe).
+
+3.
+You are in a classroom.
+Vous êtes dans une salle de classe.
+Role 1:
+You are the teacher and you are talking to a student.
+Vous êtes le ou la professeur(e) et vous discutez avec un(e) élève(e) ou étudiant(e).
+Role 2:
+You are the student and you are talking to your teacher.
+Vous êtes un(e) élève(e) ou étudiant(e) et vous discutez avec votre professeur(e).
+
+4.
+You are feeding the ducks by the pond.
+Vous nourrissez les canards au bord d'un étang.
+Role 1: N/A
+Role 2: N/A
+
+5.
+You are both organising a party.
+Vous organisez une fête.
+Role 1:
+It's your party.
+C'est votre anniversaire
+Role 2:
+It's their party.
+C'est l'anniversaire de la personne avec qui vous discutez.
+
+6.
+You are both stuck in a lift at work.
+Vous êtes tous les deux bloqué(e)s dans un ascenseur au travail.
+Role 1:
+You are an employee and you are with your boss.
+Vous êtes un(e) employé(e) et vous êtes avec votre patron(ne).
+Role 2:
+You are the boss and are with an employee.
+Vous êtes le ou la patron(ne) et vous êtes avec un(e) employé(e).
+
+7.
+You are in a retirement home.
+Vous êtes dans une maison de retraite.
+Role 1:
+You are visiting and talking to an old friend.
+Vous rendez visite et discutez avec un(e) vieil(le) ami(e).
+Role 2:
+You are a resident and you are talking with an old friend who is visiting you.
+Vous êtes un résident(e). Vous discutez avec un vieil ami qui est venu vous rendre visite.
+
+8.
+You are in a bar.
+Vous êtes dans un bar.
+Role 1:
+You are the bartender and talking to a customer.
+Vous êtes barman/barmaid et vous parlez à un(e) client(e).
+Role 2:
+You are a customer and are talking to the bartender.
+Vous êtes un(e) client(e) et vous parlez au barman/à la barmaid.
+
+9.
+You are in an aeroplane.
+Vous êtes dans un avion.
+Role 1:
+You are scared and are speaking to the person sitting next to you.
+Vous avez peur de l'avion et parlez à la personne à côté de vous.
+Role 2:
+You are speaking to the person next to you, who is scared.
+Vous parlez à la personne à côté de vous, qui a peur de l'avion.
+
+10.
+You are at home in the evening.
+Vous êtes à la maison le soir.
+Role 1:
+You are telling your spouse about the awful day you had.
+Vous racontez à votre partenaire la journée difficile que vous venez de passer.
+Role 2:
+You are listening to your spouse telling you about the awful day they had.
+Vous écoutez votre partenaire qui vous raconte la journée difficile qu'il/elle vient de passer.
+
+11.
+You are in a psychiatrist's consulting room.
+Vous êtes dans le cabinet d'un psychiatre.
+Role 1:
+You are the psychiatrist and are with your patient.
+Vous êtes le psychiatre et parlez avec l'un(e) de vos patients.
+Role 2:
+You are a patient and you are talking to your psychiatrist.
+Vous êtes le ou la patient(e) et parlez avec votre psychiatre.
+
+12.
+You are on holiday by the pool.
+Vous êtes en vacances à côté de la piscine.
+Role 1:
+You are trying to relax and the other person wants to do something else.
+Vous essayez de vous reposer et l'autre personne veut faire autre chose.
+Role 2:
+You want to do something else and the other person is trying to relax.
+Vous voulez faire autre chose et l'autre personne essaie de se reposer.

@@ -1,0 +1,39 @@
+2018-05-02T20-44-33.029998_french_english_22_24.json
+Replace <USERNAME> with Maria in 0
+
+2018-05-04T16-26-41.455660_french_english_4_34.json
+Replace <USERNAME> with Julie in 1
+
+2018-05-07T13-50-08.661870_french_english_1_37.json
+Replace <USERNAME> with Arthur in 100
+
+2018-05-07T14-16-18.332546_french_english_16_3.json
+Replace <USERNAME> with Nina in verbatim_quality
+
+2018-05-08T19-26-56.187389_french_english_43_24.json
+Replace <USERNAME> with Sandra in 31
+
+2018-05-09T18-27-37.658753_french_english_1_44.json
+Replace <USERNAME> with Tristan in 49
+
+2018-05-14T13-21-20.795702_french_english_50_3.json
+Replace <USERNAME> with Caroline in 0
+
+2018-05-14T19-29-22.875336_french_english_35_53.json
+Replace <USERNAME> with Ali in 0
+Replace <USERNAME> with Michelle in 3
+
+2018-05-17T11-13-55.950622_french_english_60_59.json
+Replace <USERNAME> with Sami in 0
+
+2018-05-20T19-01-50.945289_french_english_55_45.json
+Replace <USERNAME> with Alice in 2
+
+2018-05-20T19-26-10.766239_french_english_55_17.json
+Replace <USERNAME> with Emma in 0
+
+2018-05-20T19-45-38.611553_french_english_64_17.json
+Replace <USERNAME> with Louise in 0
+
+2018-05-21T18-59-31.070231_french_english_72_17.json
+Replace <USERNAME> with Sandra in 0

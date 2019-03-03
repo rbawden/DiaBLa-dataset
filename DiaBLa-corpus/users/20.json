@@ -1,0 +1,12 @@
+{
+   "age": "18-24",
+   "idnum": 20,
+   "gender": "female",
+   "creation_date": "2018-05-01T11:15:03.938877",
+   "english_ability": "native",
+   "otherlangs": "",
+   "french_ability": "poor",
+   "worked_in_research": false,
+   "worked_in_NLP": false,
+   "agreed_to_terms_and_conditions": true
+}

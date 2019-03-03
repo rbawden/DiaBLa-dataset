@@ -1,0 +1,1217 @@
+{
+  "start_time": "2018-04-25T17:32:57.426273",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in an aeroplane.",
+      "Vous \u00eates dans un avion."
+    ],
+    [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    [
+      "Your interlocutor is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "role": [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    "eval-stage": true,
+    "lang": "french",
+    "role_num": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ]
+  },
+  "user2": {
+    "rolenum": 2,
+    "role": [
+      "Your interlocutor is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ],
+    "eval-stage": true,
+    "lang": "english",
+    "turn_number": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ]
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "They say that flying is the safest form of transport, you know!",
+      "preprocessed_text": "they say that flying is the safest form of transport , you know !",
+      "translated_text": "ils disent que voler est la forme la plus s\u00fbre du transport , vous savez !",
+      "postprocessed_text": "Ils disent que voler est la forme la plus s\u00fbre du transport, vous savez !",
+      "composition_time": "2018-04-25T17:33:50.873506",
+      "preprocessing_begin": "2018-04-25T17:33:50.875373",
+      "preprocessing_end": "2018-04-25T17:33:52.881872",
+      "translation_begin": "2018-04-25T17:33:52.882110",
+      "translation_end": "2018-04-25T17:33:55.287388",
+      "postprocessing_begin": "2018-04-25T17:33:55.287805",
+      "postprocessing_end": "2018-04-25T17:33:55.340866",
+      "sent_time": "2018-04-25T17:33:55.342339",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:34:02.606947"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-25T17:34:06.985162",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-25T17:34:08.211709",
+            true
+          ],
+          [
+            "coherence",
+            "2018-04-25T17:34:13.032092",
+            false
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "On dit que l'avion est le mode de transport le plus s\u00fbr, vous savez\u00a0!",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "You shouldn't worry so much.",
+      "preprocessed_text": "you shouldn &apos;t worry so much .",
+      "translated_text": "tu ne devrais pas t&apos; inqui\u00e9ter autant .",
+      "postprocessed_text": "Tu ne devrais pas t'inqui\u00e9ter autant.",
+      "composition_time": "2018-04-25T17:33:50.873506",
+      "preprocessing_begin": "2018-04-25T17:33:50.875373",
+      "preprocessing_end": "2018-04-25T17:33:52.881872",
+      "translation_begin": "2018-04-25T17:33:52.882110",
+      "translation_end": "2018-04-25T17:33:55.287388",
+      "postprocessing_begin": "2018-04-25T17:33:55.287805",
+      "postprocessing_end": "2018-04-25T17:33:55.340866",
+      "sent_time": "2018-04-25T17:33:55.343247",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:34:15.802373"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "coherence"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-25T17:34:17.677091",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "Vous ne devriez pas \u00eatre aussi inquiet.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Oh, je sais.",
+      "preprocessed_text": "oh , je sais .",
+      "translated_text": "oh , I know .",
+      "postprocessed_text": "Oh, I know.",
+      "composition_time": "2018-04-25T17:34:59.571889",
+      "preprocessing_begin": "2018-04-25T17:34:59.573739",
+      "preprocessing_end": "2018-04-25T17:35:01.652402",
+      "translation_begin": "2018-04-25T17:35:01.652467",
+      "translation_end": "2018-04-25T17:35:03.302846",
+      "postprocessing_begin": "2018-04-25T17:35:03.303298",
+      "postprocessing_end": "2018-04-25T17:35:03.336336",
+      "sent_time": "2018-04-25T17:35:03.337185",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Oh, I know.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Mais vous savez, \u00eatre un peu stress\u00e9 en avion n'est pas quelque chose de rationnel.",
+      "preprocessed_text": "mais vous savez , \u00eatre un peu stress\u00e9 en avion n&apos; est pas quelque chose de rationnel .",
+      "translated_text": "but you know , being a little stressed out on planes is not a rational thing .",
+      "postprocessed_text": "But you know, being a little stressed out on planes is not a rational thing.",
+      "composition_time": "2018-04-25T17:34:59.571889",
+      "preprocessing_begin": "2018-04-25T17:34:59.573739",
+      "preprocessing_end": "2018-04-25T17:35:01.652402",
+      "translation_begin": "2018-04-25T17:35:01.652467",
+      "translation_end": "2018-04-25T17:35:03.302846",
+      "postprocessing_begin": "2018-04-25T17:35:03.303298",
+      "postprocessing_end": "2018-04-25T17:35:03.336336",
+      "sent_time": "2018-04-25T17:35:03.337604",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:35:21.960216"
+          ]
+        ],
+        "verbatim": "a tiny bit too formal for spontaneous speech",
+        "problems": [
+          "style"
+        ],
+        "problem_history": [
+          [
+            "style",
+            "2018-04-25T17:35:25.310352",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "a tiny bit too formal for spontaneous speech",
+            "2018-04-25T17:35:45.909579",
+            "2018-04-25T17:35:45.909579"
+          ]
+        ],
+        "judgment": "medium"
+      },
+      "reference_translation": "But being a bit stressed when flying isn\u2019t something rational, you know.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Il y a quelque chose de vraiment pas naturel dans le fait qu'un objet si gros et si lourd qu'un avion puisse \u00eatre suspendu \u00e0 10 kilom\u00e8tres au dessus du sol.",
+      "preprocessed_text": "il y a quelque chose de vraiment pas naturel dans le fait qu&apos; un objet si gros et si lourd qu&apos; un avion puisse \u00eatre suspendu \u00e0 10 kilom\u00e8tres au dessus du sol .",
+      "translated_text": "there &apos;s something really unnatural about an object so big and heavy that a plane can be suspended from 10 miles above the ground .",
+      "postprocessed_text": "There's something really unnatural about an object so big and heavy that a plane can be suspended from 10 miles above the ground.",
+      "composition_time": "2018-04-25T17:35:36.237163",
+      "preprocessing_begin": "2018-04-25T17:35:36.239914",
+      "preprocessing_end": "2018-04-25T17:35:38.785148",
+      "translation_begin": "2018-04-25T17:35:38.785257",
+      "translation_end": "2018-04-25T17:35:41.177590",
+      "postprocessing_begin": "2018-04-25T17:35:41.178001",
+      "postprocessing_end": "2018-04-25T17:35:41.231850",
+      "sent_time": "2018-04-25T17:35:41.233063",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:35:54.958634"
+          ]
+        ],
+        "verbatim": "\"so... that\" should be \"as... as\". \"from\" should not be there.",
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-25T17:35:56.091653",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "so... that shou",
+            "2018-04-25T17:36:19.607941",
+            "2018-04-25T17:36:19.607941"
+          ],
+          [
+            "\"so... that\" should be \"as... as\". \"from\" should not be there.",
+            "2018-04-25T17:37:39.073763",
+            "2018-04-25T17:37:39.073763"
+          ]
+        ],
+        "judgment": "medium"
+      },
+      "reference_translation": "There\u2019s really something unnatural about such a big, heavy object as a plane being suspended 10 kilometres above the ground. ",
+      "normalised_version": "Il y a quelque chose de vraiment pas naturel dans le fait qu'un objet si gros et si lourd qu'un avion puisse \u00eatre suspendu \u00e0 10 kilom\u00e8tres au-dessus du sol."
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Well, imagine when space travel becomes commercialised.",
+      "preprocessed_text": "well , imagine when space travel becomes commerci@@ alised .",
+      "translated_text": "et bien , imagine quand le voyage spatial devient commerci@@ alis\u00e9 .",
+      "postprocessed_text": "Et bien, imagine quand le voyage spatial devient commercialis\u00e9.",
+      "composition_time": "2018-04-25T17:36:55.874921",
+      "preprocessing_begin": "2018-04-25T17:36:55.877160",
+      "preprocessing_end": "2018-04-25T17:36:58.152695",
+      "translation_begin": "2018-04-25T17:36:58.152754",
+      "translation_end": "2018-04-25T17:37:00.746039",
+      "postprocessing_begin": "2018-04-25T17:37:00.746430",
+      "postprocessing_end": "2018-04-25T17:37:00.796627",
+      "sent_time": "2018-04-25T17:37:00.798556",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:37:07.624302"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "grammar",
+          "word choice",
+          "coherence"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-25T17:37:09.816257",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-25T17:37:12.251842",
+            true
+          ],
+          [
+            "coherence",
+            "2018-04-25T17:37:15.534024",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "Eh bien imaginez lorsqu'ils vendront des voyages spatiaux.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "That's going to be a bit of a shock for you isn't it!",
+      "preprocessed_text": "that &apos;s going to be a bit of a shock for you isn &apos;t it !",
+      "translated_text": "\u00e7a va \u00eatre un peu un choc pour vous , n&apos; est @-@ ce pas ?",
+      "postprocessed_text": "\u00c7a va \u00eatre un peu un choc pour vous, n'est-ce pas ?",
+      "composition_time": "2018-04-25T17:36:55.874921",
+      "preprocessing_begin": "2018-04-25T17:36:55.877160",
+      "preprocessing_end": "2018-04-25T17:36:58.152695",
+      "translation_begin": "2018-04-25T17:36:58.152754",
+      "translation_end": "2018-04-25T17:37:00.746039",
+      "postprocessing_begin": "2018-04-25T17:37:00.746430",
+      "postprocessing_end": "2018-04-25T17:37:00.796627",
+      "sent_time": "2018-04-25T17:37:00.799914",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:37:21.983868"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-25T17:37:29.568019",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "\u00c7a va \u00eatre un sacr\u00e9 choc pour vous, n'est-ce pas\u00a0?",
+      "normalised_version": "That's going to be a bit of a shock for you, isn't it!"
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Ah oui, ne m'en parlez pas!",
+      "preprocessed_text": "ah oui , ne m&apos; en parlez pas !",
+      "translated_text": "oh , yeah , tell me about it .",
+      "postprocessed_text": "Oh, yeah, tell me about it.",
+      "composition_time": "2018-04-25T17:37:40.882085",
+      "preprocessing_begin": "2018-04-25T17:37:40.884282",
+      "preprocessing_end": "2018-04-25T17:37:42.922779",
+      "translation_begin": "2018-04-25T17:37:42.922863",
+      "translation_end": "2018-04-25T17:37:43.475901",
+      "postprocessing_begin": "2018-04-25T17:37:43.476143",
+      "postprocessing_end": "2018-04-25T17:37:43.508248",
+      "sent_time": "2018-04-25T17:37:43.509156",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Oh, don\u2019t!",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Mais en m\u00eame temps, \u00eatre loin de la terre, sans la gravit\u00e9, c'est diff\u00e9rent.",
+      "preprocessed_text": "mais en m\u00eame temps , \u00eatre loin de la terre , sans la gravit\u00e9 , c&apos; est diff\u00e9rent .",
+      "translated_text": "but at the same time , being away from the earth , without gravity , it &apos;s different .",
+      "postprocessed_text": "But at the same time, being away from the earth, without gravity, it's different.",
+      "composition_time": "2018-04-25T17:37:54.084803",
+      "preprocessing_begin": "2018-04-25T17:37:54.086714",
+      "preprocessing_end": "2018-04-25T17:37:56.623757",
+      "translation_begin": "2018-04-25T17:37:56.623848",
+      "translation_end": "2018-04-25T17:37:58.079678",
+      "postprocessing_begin": "2018-04-25T17:37:58.079927",
+      "postprocessing_end": "2018-04-25T17:37:58.130244",
+      "sent_time": "2018-04-25T17:37:58.131093",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Yet, it\u2019s different - being far from Earth, without gravity.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "On ne risque pas de tomber, puisqu'il n'y a plus vraiment de haut et de bas.",
+      "preprocessed_text": "on ne risque pas de tomber , puisqu&apos; il n&apos; y a plus vraiment de haut et de bas .",
+      "translated_text": "we &apos;re not going to fall apart , since there &apos;s not really up and down .",
+      "postprocessed_text": "We're not going to fall apart, since there's not really up and down.",
+      "composition_time": "2018-04-25T17:38:09.271655",
+      "preprocessing_begin": "2018-04-25T17:38:09.273530",
+      "preprocessing_end": "2018-04-25T17:38:11.658210",
+      "translation_begin": "2018-04-25T17:38:11.658312",
+      "translation_end": "2018-04-25T17:38:13.047391",
+      "postprocessing_begin": "2018-04-25T17:38:13.047675",
+      "postprocessing_end": "2018-04-25T17:38:13.093803",
+      "sent_time": "2018-04-25T17:38:13.094846",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:38:27.868992"
+          ]
+        ],
+        "verbatim": "did he really mean \"fall apart\" or \"fall\"?",
+        "problems": [
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-25T17:38:29.161428",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "did he really mean \"fall apart\" or \"fall\"?",
+            "2018-04-25T17:38:43.119117",
+            "2018-04-25T17:38:43.119117"
+          ]
+        ],
+        "judgment": "medium"
+      },
+      "reference_translation": "You\u2019re not in danger of falling, since there isn\u2019t really and up and a down.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Non, dans l'espace, en fait, c'est plut\u00f4t comme dans un sous-marin.",
+      "preprocessed_text": "non , dans l&apos; espace , en fait , c&apos; est plut\u00f4t comme dans un sous @-@ marin .",
+      "translated_text": "no , in space , actually , it &apos;s more like a submarine .",
+      "postprocessed_text": "No, in space, actually, it's more like a submarine.",
+      "composition_time": "2018-04-25T17:38:16.969418",
+      "preprocessing_begin": "2018-04-25T17:38:16.971236",
+      "preprocessing_end": "2018-04-25T17:38:19.325026",
+      "translation_begin": "2018-04-25T17:38:19.325108",
+      "translation_end": "2018-04-25T17:38:20.688683",
+      "postprocessing_begin": "2018-04-25T17:38:20.689047",
+      "postprocessing_end": "2018-04-25T17:38:20.750881",
+      "sent_time": "2018-04-25T17:38:20.752534",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "No, in fact in space it\u2019s more like in a submarine.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Il faut que le vaisseau spatial soit solide, car s'il y a un trou dans la coque on est certainement tr\u00e8s vite mort.",
+      "preprocessed_text": "il faut que le vaisseau spatial soit solide , car s&apos; il y a un trou dans la coque on est certainement tr\u00e8s vite mort .",
+      "translated_text": "the spaceship has to be solid , &apos; cause if there &apos;s a hole in the hull , we &apos;ll probably be dead soon .",
+      "postprocessed_text": "The spaceship has to be solid, 'cause if there's a hole in the hull, we'll probably be dead soon.",
+      "composition_time": "2018-04-25T17:38:39.022402",
+      "preprocessing_begin": "2018-04-25T17:38:39.024447",
+      "preprocessing_end": "2018-04-25T17:38:41.650537",
+      "translation_begin": "2018-04-25T17:38:41.650682",
+      "translation_end": "2018-04-25T17:38:44.352851",
+      "postprocessing_begin": "2018-04-25T17:38:44.353200",
+      "postprocessing_end": "2018-04-25T17:38:44.391637",
+      "sent_time": "2018-04-25T17:38:44.393587",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "The spaceship has to be solid, because if there\u2019s a little hole in the hull then you\u2019d certainly be dead very quickly.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "Comme dans un sous-marin.",
+      "preprocessed_text": "comme dans un sous @-@ marin .",
+      "translated_text": "like a submarine .",
+      "postprocessed_text": "Like a submarine.",
+      "composition_time": "2018-04-25T17:38:39.022402",
+      "preprocessing_begin": "2018-04-25T17:38:39.024447",
+      "preprocessing_end": "2018-04-25T17:38:41.650537",
+      "translation_begin": "2018-04-25T17:38:41.650682",
+      "translation_end": "2018-04-25T17:38:44.352851",
+      "postprocessing_begin": "2018-04-25T17:38:44.353200",
+      "postprocessing_end": "2018-04-25T17:38:44.391637",
+      "sent_time": "2018-04-25T17:38:44.394726",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Like in a submarine.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "C'est absurde, mais je crois que j'aurais moins peur.",
+      "preprocessed_text": "c&apos; est absurde , mais je crois que j&apos; aurais moins peur .",
+      "translated_text": "it &apos;s absurd , but I think I &apos;d be less afraid .",
+      "postprocessed_text": "It's absurd, but I think I'd be less afraid.",
+      "composition_time": "2018-04-25T17:38:51.984254",
+      "preprocessing_begin": "2018-04-25T17:38:51.986704",
+      "preprocessing_end": "2018-04-25T17:38:54.535839",
+      "translation_begin": "2018-04-25T17:38:54.536178",
+      "translation_end": "2018-04-25T17:38:55.827553",
+      "postprocessing_begin": "2018-04-25T17:38:55.827921",
+      "postprocessing_end": "2018-04-25T17:38:55.873265",
+      "sent_time": "2018-04-25T17:38:55.874142",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "It\u2019s silly, but I think I\u2019d be less scared.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "english",
+      "original_text": "Well, can you not force yourself to be rational about it?",
+      "preprocessed_text": "well , can you not force yourself to be rational about it ?",
+      "translated_text": "pouvez @-@ vous ne pas vous forcer \u00e0 \u00eatre rationnel \u00e0 ce sujet ?",
+      "postprocessed_text": "Pouvez-vous ne pas vous forcer \u00e0 \u00eatre rationnel \u00e0 ce sujet ?",
+      "composition_time": "2018-04-25T17:39:47.970675",
+      "preprocessing_begin": "2018-04-25T17:39:47.972734",
+      "preprocessing_end": "2018-04-25T17:39:50.518653",
+      "translation_begin": "2018-04-25T17:39:50.518739",
+      "translation_end": "2018-04-25T17:39:54.047189",
+      "postprocessing_begin": "2018-04-25T17:39:54.047647",
+      "postprocessing_end": "2018-04-25T17:39:54.100611",
+      "sent_time": "2018-04-25T17:39:54.102091",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:40:10.259129"
+          ]
+        ],
+        "verbatim": "Je soup\u00e7onne une n\u00e9gation de trop",
+        "problems": [
+          "coherence",
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-25T17:40:12.890277",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-25T17:40:21.777486",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Je soup\u00e7onne une n\u00e9gation de trop",
+            "2018-04-25T17:40:27.490583",
+            "2018-04-25T17:40:27.490583"
+          ]
+        ],
+        "judgment": "medium"
+      },
+      "reference_translation": "Mais vous ne pourriez pas vous forcer \u00e0 voir \u00e7a de fa\u00e7on rationnelle\u00a0?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "Being in space is worse than being here now.",
+      "preprocessed_text": "being in space is worse than being here now .",
+      "translated_text": "\u00eatre dans l&apos; espace est pire que d&apos; \u00eatre ici maintenant .",
+      "postprocessed_text": "\u00catre dans l'espace est pire que d'\u00eatre ici maintenant.",
+      "composition_time": "2018-04-25T17:39:47.970675",
+      "preprocessing_begin": "2018-04-25T17:39:47.972734",
+      "preprocessing_end": "2018-04-25T17:39:50.518653",
+      "translation_begin": "2018-04-25T17:39:50.518739",
+      "translation_end": "2018-04-25T17:39:54.047189",
+      "postprocessing_begin": "2018-04-25T17:39:54.047647",
+      "postprocessing_end": "2018-04-25T17:39:54.100611",
+      "sent_time": "2018-04-25T17:39:54.103017",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:40:36.562797"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "style"
+        ],
+        "problem_history": [
+          [
+            "style",
+            "2018-04-25T17:40:38.070332",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "\u00catre dans l'espace est encore pire qu'\u00eatre ici maintenant.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "Are you really still scared after what you just said?",
+      "preprocessed_text": "are you really still scared after what you just said ?",
+      "translated_text": "tu as vraiment toujours peur apr\u00e8s ce que tu viens de dire ?",
+      "postprocessed_text": "Tu as vraiment toujours peur apr\u00e8s ce que tu viens de dire ?",
+      "composition_time": "2018-04-25T17:39:47.970675",
+      "preprocessing_begin": "2018-04-25T17:39:47.972734",
+      "preprocessing_end": "2018-04-25T17:39:50.518653",
+      "translation_begin": "2018-04-25T17:39:50.518739",
+      "translation_end": "2018-04-25T17:39:54.047189",
+      "postprocessing_begin": "2018-04-25T17:39:54.047647",
+      "postprocessing_end": "2018-04-25T17:39:54.100611",
+      "sent_time": "2018-04-25T17:39:54.103856",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:40:42.892848"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "coherence"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-25T17:40:44.607272",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "Est-ce que vous avez encore peur, apr\u00e8s ce que vous venez de dire\u00a0?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Oui, absolument.",
+      "preprocessed_text": "oui , absolument .",
+      "translated_text": "yes , absolutely .",
+      "postprocessed_text": "Yes, absolutely.",
+      "composition_time": "2018-04-25T17:40:50.438893",
+      "preprocessing_begin": "2018-04-25T17:40:50.440993",
+      "preprocessing_end": "2018-04-25T17:40:52.973506",
+      "translation_begin": "2018-04-25T17:40:52.973692",
+      "translation_end": "2018-04-25T17:40:53.399450",
+      "postprocessing_begin": "2018-04-25T17:40:53.399688",
+      "postprocessing_end": "2018-04-25T17:40:53.444659",
+      "sent_time": "2018-04-25T17:40:53.445799",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Yes, definitely.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Ce n'est pas vraiment de la peur, du reste.",
+      "preprocessed_text": "ce n&apos; est pas vraiment de la peur , du reste .",
+      "translated_text": "it &apos;s not really fear , the rest .",
+      "postprocessed_text": "It's not really fear, the rest.",
+      "composition_time": "2018-04-25T17:41:11.252261",
+      "preprocessing_begin": "2018-04-25T17:41:11.254292",
+      "preprocessing_end": "2018-04-25T17:41:13.768407",
+      "translation_begin": "2018-04-25T17:41:13.768494",
+      "translation_end": "2018-04-25T17:41:15.062680",
+      "postprocessing_begin": "2018-04-25T17:41:15.062905",
+      "postprocessing_end": "2018-04-25T17:41:15.097692",
+      "sent_time": "2018-04-25T17:41:15.098684",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Anyway, it\u2019s not really fear",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Plut\u00f4t une sorte de stress.",
+      "preprocessed_text": "plut\u00f4t une sorte de stress .",
+      "translated_text": "more like some kind of stress .",
+      "postprocessed_text": "More like some kind of stress.",
+      "composition_time": "2018-04-25T17:41:11.252261",
+      "preprocessing_begin": "2018-04-25T17:41:11.254292",
+      "preprocessing_end": "2018-04-25T17:41:13.768407",
+      "translation_begin": "2018-04-25T17:41:13.768494",
+      "translation_end": "2018-04-25T17:41:15.062680",
+      "postprocessing_begin": "2018-04-25T17:41:15.062905",
+      "postprocessing_end": "2018-04-25T17:41:15.097692",
+      "sent_time": "2018-04-25T17:41:15.099149",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "More a kind of stress.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Mais vous, \u00e7a ne vous stresse absolument pas?",
+      "preprocessed_text": "mais vous , \u00e7a ne vous stresse absolument pas ?",
+      "translated_text": "but you &apos;re not nervous about it , are you ?",
+      "postprocessed_text": "But you're not nervous about it, are you?",
+      "composition_time": "2018-04-25T17:41:38.840126",
+      "preprocessing_begin": "2018-04-25T17:41:38.841967",
+      "preprocessing_end": "2018-04-25T17:41:41.062086",
+      "translation_begin": "2018-04-25T17:41:41.062400",
+      "translation_end": "2018-04-25T17:41:42.010151",
+      "postprocessing_begin": "2018-04-25T17:41:42.010458",
+      "postprocessing_end": "2018-04-25T17:41:42.059296",
+      "sent_time": "2018-04-25T17:41:42.060513",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "But how about you? Doesn\u2019t it stress you out at all?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "M\u00eame quand il y a des turbulences?",
+      "preprocessed_text": "m\u00eame quand il y a des turbulences ?",
+      "translated_text": "even when there &apos;s turbulence ?",
+      "postprocessed_text": "Even when there's turbulence?",
+      "composition_time": "2018-04-25T17:41:44.121078",
+      "preprocessing_begin": "2018-04-25T17:41:44.122729",
+      "preprocessing_end": "2018-04-25T17:41:46.548576",
+      "translation_begin": "2018-04-25T17:41:46.548670",
+      "translation_end": "2018-04-25T17:41:47.293705",
+      "postprocessing_begin": "2018-04-25T17:41:47.293980",
+      "postprocessing_end": "2018-04-25T17:41:47.346395",
+      "sent_time": "2018-04-25T17:41:47.347871",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Even when there\u2019s turbulence?",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "english",
+      "original_text": "No, it's like a rollercoaster.",
+      "preprocessed_text": "no , it &apos;s like a roller@@ coaster .",
+      "translated_text": "non , c&apos; est comme des montagnes russes .",
+      "postprocessed_text": "Non, c'est comme des montagnes russes.",
+      "composition_time": "2018-04-25T17:42:32.907732",
+      "preprocessing_begin": "2018-04-25T17:42:32.909742",
+      "preprocessing_end": "2018-04-25T17:42:35.206647",
+      "translation_begin": "2018-04-25T17:42:35.206717",
+      "translation_end": "2018-04-25T17:42:37.908074",
+      "postprocessing_begin": "2018-04-25T17:42:37.908688",
+      "postprocessing_end": "2018-04-25T17:42:37.961165",
+      "sent_time": "2018-04-25T17:42:37.963099",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Non, c'est comme des montagnes russes.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "english",
+      "original_text": "It's amazing!",
+      "preprocessed_text": "it &apos;s amazing !",
+      "translated_text": "c&apos; est incroyable !",
+      "postprocessed_text": "C'est incroyable !",
+      "composition_time": "2018-04-25T17:42:32.907732",
+      "preprocessing_begin": "2018-04-25T17:42:32.909742",
+      "preprocessing_end": "2018-04-25T17:42:35.206647",
+      "translation_begin": "2018-04-25T17:42:35.206717",
+      "translation_end": "2018-04-25T17:42:37.908074",
+      "postprocessing_begin": "2018-04-25T17:42:37.908688",
+      "postprocessing_end": "2018-04-25T17:42:37.961165",
+      "sent_time": "2018-04-25T17:42:37.964507",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:42:53.595931"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-25T17:42:55.329368",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "C'est g\u00e9nial\u00a0!",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "And they have amazing service.",
+      "preprocessed_text": "and they have amazing service .",
+      "translated_text": "et ils ont un service incroyable .",
+      "postprocessed_text": "Et ils ont un service incroyable.",
+      "composition_time": "2018-04-25T17:42:32.907732",
+      "preprocessing_begin": "2018-04-25T17:42:32.909742",
+      "preprocessing_end": "2018-04-25T17:42:35.206647",
+      "translation_begin": "2018-04-25T17:42:35.206717",
+      "translation_end": "2018-04-25T17:42:37.908074",
+      "postprocessing_begin": "2018-04-25T17:42:37.908688",
+      "postprocessing_end": "2018-04-25T17:42:37.961165",
+      "sent_time": "2018-04-25T17:42:37.965903",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Et le service est parfait.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "I love it when they give free food!",
+      "preprocessed_text": "I love it when they give free food !",
+      "translated_text": "j&apos; adore quand ils donnent de la nourriture gratuite !",
+      "postprocessed_text": "J'adore quand ils donnent de la nourriture gratuite !",
+      "composition_time": "2018-04-25T17:42:32.907732",
+      "preprocessing_begin": "2018-04-25T17:42:32.909742",
+      "preprocessing_end": "2018-04-25T17:42:35.206647",
+      "translation_begin": "2018-04-25T17:42:35.206717",
+      "translation_end": "2018-04-25T17:42:37.908074",
+      "postprocessing_begin": "2018-04-25T17:42:37.908688",
+      "postprocessing_end": "2018-04-25T17:42:37.961165",
+      "sent_time": "2018-04-25T17:42:37.967299",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "J'adore quand ils donnent de la nourriture gratuitement.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Especially when there's turbulence and all the tea and coffee goes everywhere!",
+      "preprocessed_text": "especially when there &apos;s turbulence and all the tea and coffee goes everywhere !",
+      "translated_text": "surtout quand il y a des turbulences , et tout le th\u00e9 et le caf\u00e9 vont partout !",
+      "postprocessed_text": "Surtout quand il y a des turbulences, et tout le th\u00e9 et le caf\u00e9 vont partout !",
+      "composition_time": "2018-04-25T17:42:56.243439",
+      "preprocessing_begin": "2018-04-25T17:42:56.245709",
+      "preprocessing_end": "2018-04-25T17:42:58.627205",
+      "translation_begin": "2018-04-25T17:42:58.627272",
+      "translation_end": "2018-04-25T17:43:00.364463",
+      "postprocessing_begin": "2018-04-25T17:43:00.364788",
+      "postprocessing_end": "2018-04-25T17:43:00.399503",
+      "sent_time": "2018-04-25T17:43:00.400733",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:43:08.340724"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-25T17:43:09.645637",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-25T17:43:15.362687",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "Surtout quand il y a des turbulences et que le th\u00e9 et le caf\u00e9 se renversent partout\u00a0!",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "That's really hilarious.",
+      "preprocessed_text": "that &apos;s really hilarious .",
+      "translated_text": "c&apos; est vraiment hilarant .",
+      "postprocessed_text": "C'est vraiment hilarant.",
+      "composition_time": "2018-04-25T17:42:56.243439",
+      "preprocessing_begin": "2018-04-25T17:42:56.245709",
+      "preprocessing_end": "2018-04-25T17:42:58.627205",
+      "translation_begin": "2018-04-25T17:42:58.627272",
+      "translation_end": "2018-04-25T17:43:00.364463",
+      "postprocessing_begin": "2018-04-25T17:43:00.364788",
+      "postprocessing_end": "2018-04-25T17:43:00.399503",
+      "sent_time": "2018-04-25T17:43:00.401492",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "C'est vraiment hilarant.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "french",
+      "original_text": "Je vous l'accorde, c'est amusant.",
+      "preprocessed_text": "je vous l&apos; accorde , c&apos; est amusant .",
+      "translated_text": "I &apos;ll give you that , it &apos;s fun .",
+      "postprocessed_text": "I'll give you that, it's fun.",
+      "composition_time": "2018-04-25T17:43:30.693520",
+      "preprocessing_begin": "2018-04-25T17:43:30.695546",
+      "preprocessing_end": "2018-04-25T17:43:33.262060",
+      "translation_begin": "2018-04-25T17:43:33.262151",
+      "translation_end": "2018-04-25T17:43:34.017788",
+      "postprocessing_begin": "2018-04-25T17:43:34.018076",
+      "postprocessing_end": "2018-04-25T17:43:34.052949",
+      "sent_time": "2018-04-25T17:43:34.053853",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "I agree with you there - it\u2019s fun.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Mais c'est \u00e9galement terriblement stressant pour les gens comme moi.",
+      "preprocessed_text": "mais c&apos; est \u00e9galement terriblement stressant pour les gens comme moi .",
+      "translated_text": "but it &apos;s also awfully stressful for people like me .",
+      "postprocessed_text": "But it's also awfully stressful for people like me.",
+      "composition_time": "2018-04-25T17:43:39.648827",
+      "preprocessing_begin": "2018-04-25T17:43:39.650478",
+      "preprocessing_end": "2018-04-25T17:43:41.883663",
+      "translation_begin": "2018-04-25T17:43:41.883780",
+      "translation_end": "2018-04-25T17:43:42.746509",
+      "postprocessing_begin": "2018-04-25T17:43:42.746766",
+      "postprocessing_end": "2018-04-25T17:43:42.778289",
+      "sent_time": "2018-04-25T17:43:42.779147",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "But it\u2019s also incredibly stressful for people like me.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "english",
+      "original_text": "Ah, don't worry.",
+      "preprocessed_text": "ah , don &apos;t worry .",
+      "translated_text": "ne t&apos; inqui\u00e8te pas .",
+      "postprocessed_text": "Ne t'inqui\u00e8te pas.",
+      "composition_time": "2018-04-25T17:44:29.191220",
+      "preprocessing_begin": "2018-04-25T17:44:29.193358",
+      "preprocessing_end": "2018-04-25T17:44:31.696232",
+      "translation_begin": "2018-04-25T17:44:31.696319",
+      "translation_end": "2018-04-25T17:44:33.888858",
+      "postprocessing_begin": "2018-04-25T17:44:33.889170",
+      "postprocessing_end": "2018-04-25T17:44:33.927772",
+      "sent_time": "2018-04-25T17:44:33.928880",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:44:37.556925"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "coherence"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-25T17:44:39.238814",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "Oh, ne vous inqui\u00e9tez pas.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "They're bringing the duty free round soon.",
+      "preprocessed_text": "they &apos;re bringing the duty free round soon .",
+      "translated_text": "le service est bient\u00f4t libre .",
+      "postprocessed_text": "Le service est bient\u00f4t libre.",
+      "composition_time": "2018-04-25T17:44:29.191220",
+      "preprocessing_begin": "2018-04-25T17:44:29.193358",
+      "preprocessing_end": "2018-04-25T17:44:31.696232",
+      "translation_begin": "2018-04-25T17:44:31.696319",
+      "translation_end": "2018-04-25T17:44:33.888858",
+      "postprocessing_begin": "2018-04-25T17:44:33.889170",
+      "postprocessing_end": "2018-04-25T17:44:33.927772",
+      "sent_time": "2018-04-25T17:44:33.929597",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-25T17:44:44.296322"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-25T17:44:46.610159",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "poor"
+      },
+      "reference_translation": "Ils vont bient\u00f4t passer pour le duty free.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "That should make you feel a bit better, surely!",
+      "preprocessed_text": "that should make you feel a bit better , surely !",
+      "translated_text": "ca devrait te faire te sentir un peu mieux , s\u00fbrement !",
+      "postprocessed_text": "Ca devrait te faire te sentir un peu mieux, s\u00fbrement !",
+      "composition_time": "2018-04-25T17:44:29.191220",
+      "preprocessing_begin": "2018-04-25T17:44:29.193358",
+      "preprocessing_end": "2018-04-25T17:44:31.696232",
+      "translation_begin": "2018-04-25T17:44:31.696319",
+      "translation_end": "2018-04-25T17:44:33.888858",
+      "postprocessing_begin": "2018-04-25T17:44:33.889170",
+      "postprocessing_end": "2018-04-25T17:44:33.927772",
+      "sent_time": "2018-04-25T17:44:33.930262",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-25T17:44:53.027464"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "coherence",
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-25T17:44:54.845916",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-25T17:45:00.210567",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "judgment": "medium"
+      },
+      "reference_translation": "Je suis s\u00fbr que \u00e7a va vous aider \u00e0 vous sentir un peu mieux\u00a0!",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "On verra!",
+      "preprocessed_text": "on verra !",
+      "translated_text": "we &apos;ll see .",
+      "postprocessed_text": "We'll see.",
+      "composition_time": "2018-04-25T17:45:16.793414",
+      "preprocessing_begin": "2018-04-25T17:45:16.796434",
+      "preprocessing_end": "2018-04-25T17:45:19.487077",
+      "translation_begin": "2018-04-25T17:45:19.487146",
+      "translation_end": "2018-04-25T17:45:20.535000",
+      "postprocessing_begin": "2018-04-25T17:45:20.535320",
+      "postprocessing_end": "2018-04-25T17:45:20.578545",
+      "sent_time": "2018-04-25T17:45:20.579792",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "We\u2019ll see!",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Merci pour votre soutien, en tout cas.",
+      "preprocessed_text": "merci pour votre soutien , en tout cas .",
+      "translated_text": "thank you for your support , anyway .",
+      "postprocessed_text": "Thank you for your support, anyway.",
+      "composition_time": "2018-04-25T17:45:16.793414",
+      "preprocessing_begin": "2018-04-25T17:45:16.796434",
+      "preprocessing_end": "2018-04-25T17:45:19.487077",
+      "translation_begin": "2018-04-25T17:45:19.487146",
+      "translation_end": "2018-04-25T17:45:20.535000",
+      "postprocessing_begin": "2018-04-25T17:45:20.535320",
+      "postprocessing_end": "2018-04-25T17:45:20.578545",
+      "sent_time": "2018-04-25T17:45:20.580634",
+      "eval": {
+        "judgment_history": [],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "verbatim_history": [],
+        "judgment": "perfect"
+      },
+      "reference_translation": "Thanks for your support anyway.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "particular_problems": "surtout tu/vous et quelques choix lexicaux. les autres probl\u00e8mes (sens, grammaire) semblent moins fr\u00e9quents.",
+    "timestamp": "2018-04-25T17:47:25.631927",
+    "coherence": "poor",
+    "style": "good",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "meaning": "average",
+    "verbatim_quality": "tu/vous est annot\u00e9 comme un d\u00e9faut de \"coh\u00e9rence\"",
+    "interface": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "particular_problems": "",
+    "timestamp": "2018-04-25T17:48:03.133253",
+    "coherence": "excellent",
+    "style": "good",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "meaning": "good",
+    "verbatim_quality": "good, aside some strange sentences, where i am not sure that it was correctly translated.",
+    "interface": "",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

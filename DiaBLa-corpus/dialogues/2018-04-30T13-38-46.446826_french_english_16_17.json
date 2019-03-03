@@ -1,0 +1,1238 @@
+{
+  "start_time": "2018-04-30T13:38:46.446826",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in an aeroplane.",
+      "Vous \u00eates dans un avion."
+    ],
+    [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    [
+      "You are speaking to the person next to you, who is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ]
+  ],
+  "user1": {
+    "role": [
+      "You are speaking to the person next to you, who is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "eval-stage": true,
+    "role_num": 2,
+    "lang": "french",
+    "turn_number": 2,
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+  },
+  "user2": {
+    "role": [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "eval-stage": true,
+    "rolenum": 1,
+    "lang": "english",
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (Windows NT 6.1; rv:52.0) Gecko/20100101 Firefox/52.0"
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Hi, I m better when we get in the air",
+      "preprocessed_text": "hi , I m better when we get in the air",
+      "translated_text": "salut , je me sens mieux quand on est dans l&apos; air .",
+      "postprocessed_text": "Salut, je me sens mieux quand on est dans l'air.",
+      "composition_time": "2018-04-30T13:39:35.662309",
+      "preprocessing_begin": "2018-04-30T13:39:35.735584",
+      "preprocessing_end": "2018-04-30T13:39:37.786570",
+      "translation_begin": "2018-04-30T13:39:37.786639",
+      "translation_end": "2018-04-30T13:39:38.670341",
+      "postprocessing_begin": "2018-04-30T13:39:38.670547",
+      "postprocessing_end": "2018-04-30T13:39:38.707077",
+      "sent_time": "2018-04-30T13:39:38.708134",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:41:27.774322"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Bonjour, je me sens mieux une fois qu'on est \u00e0 l'altitude de croisi\u00e8re.",
+      "normalised_version": "Hi, I m better when we get in the air."
+    },
+    "1": {
+      "language": "french",
+      "original_text": "Pourquoi, vous avez peur au moment du d\u00e9colage ?",
+      "preprocessed_text": "pourquoi , vous avez peur au moment du d\u00e9@@ col@@ age ?",
+      "translated_text": "why , are you afraid at the time of de@@ col@@ ation ?",
+      "postprocessed_text": "Why, are you afraid at the time of decolation?",
+      "composition_time": "2018-04-30T13:40:20.880594",
+      "preprocessing_begin": "2018-04-30T13:40:20.947059",
+      "preprocessing_end": "2018-04-30T13:40:22.930886",
+      "translation_begin": "2018-04-30T13:40:22.931000",
+      "translation_end": "2018-04-30T13:40:23.829859",
+      "postprocessing_begin": "2018-04-30T13:40:23.830127",
+      "postprocessing_end": "2018-04-30T13:40:23.862550",
+      "sent_time": "2018-04-30T13:40:23.863779",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:40:51.860895"
+          ]
+        ],
+        "verbatim": "no idea what the translation meant",
+        "problems": [
+          "coherence",
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-30T13:40:58.283019",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-30T13:41:01.177241",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": [
+          [
+            "no idea what the translation meant",
+            "2018-04-30T13:41:44.430329",
+            "2018-04-30T13:41:44.430329"
+          ]
+        ]
+      },
+      "reference_translation": "Why, do you get scared during takeoff?",
+      "normalised_version": "Pourquoi, vous avez peur au moment du d\u00e9collage ?"
+    },
+    "2": {
+      "language": "english",
+      "original_text": "i really dont like flying at all, but needs must",
+      "preprocessed_text": "I really dont like flying at all , but needs must",
+      "translated_text": "je n&apos; aime vraiment pas voler du tout , mais il faut ...",
+      "postprocessed_text": "Je n'aime vraiment pas voler du tout, mais il faut...",
+      "composition_time": "2018-04-30T13:40:48.282359",
+      "preprocessing_begin": "2018-04-30T13:40:48.345369",
+      "preprocessing_end": "2018-04-30T13:40:50.760150",
+      "translation_begin": "2018-04-30T13:40:50.760263",
+      "translation_end": "2018-04-30T13:40:51.819236",
+      "postprocessing_begin": "2018-04-30T13:40:51.819626",
+      "postprocessing_end": "2018-04-30T13:40:51.854333",
+      "sent_time": "2018-04-30T13:40:51.855855",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:41:34.901895"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je n'aime vraiment pas voler, mais n\u00e9cessit\u00e9 fait loi.",
+      "normalised_version": "I really dont like flying at all, but needs must."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "C'est la premi\u00e8re fois que vous prenez l'avion ?",
+      "preprocessed_text": "c&apos; est la premi\u00e8re fois que vous prenez l&apos; avion ?",
+      "translated_text": "is this the first time you &apos;ve been on a plane ?",
+      "postprocessed_text": "Is this the first time you've been on a plane?",
+      "composition_time": "2018-04-30T13:42:47.790522",
+      "preprocessing_begin": "2018-04-30T13:42:47.858429",
+      "preprocessing_end": "2018-04-30T13:42:49.901217",
+      "translation_begin": "2018-04-30T13:42:49.901331",
+      "translation_end": "2018-04-30T13:42:51.729860",
+      "postprocessing_begin": "2018-04-30T13:42:51.730078",
+      "postprocessing_end": "2018-04-30T13:42:51.762873",
+      "sent_time": "2018-04-30T13:42:51.763849",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:43:04.601937"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Is it your first time taking the plane?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "C'est un moyen de transport extr\u00eamement s\u00fbr, il ne faut pas paniquer",
+      "preprocessed_text": "c&apos; est un moyen de transport extr\u00eamement s\u00fbr , il ne faut pas paniquer",
+      "translated_text": "it &apos;s an extremely safe transport , you don &apos;t need to panic .",
+      "postprocessed_text": "It's an extremely safe transport, you don't need to panic.",
+      "composition_time": "2018-04-30T13:42:47.790522",
+      "preprocessing_begin": "2018-04-30T13:42:47.858429",
+      "preprocessing_end": "2018-04-30T13:42:49.901217",
+      "translation_begin": "2018-04-30T13:42:49.901331",
+      "translation_end": "2018-04-30T13:42:51.729860",
+      "postprocessing_begin": "2018-04-30T13:42:51.730078",
+      "postprocessing_end": "2018-04-30T13:42:51.762873",
+      "sent_time": "2018-04-30T13:42:51.764301",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:44:05.790022"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "It\u2019s a very safe means of transport. There\u2019s no need to panic.",
+      "normalised_version": "C'est un moyen de transport extr\u00eamement s\u00fbr, il ne faut pas paniquer."
+    },
+    "5": {
+      "language": "english",
+      "original_text": "i ve flown quite a few times but just feel stressed at the going up and down and obviously if there is turbulance",
+      "preprocessed_text": "I ve flown quite a few times but just feel stressed at the going up and down and obviously if there is tur@@ bul@@ ance",
+      "translated_text": "j&apos; ai vol\u00e9 plusieurs fois , mais je me sens juste stress\u00e9 au d\u00e9part , et de toute \u00e9vidence s&apos; il y a une Tur@@ bul@@ ance .",
+      "postprocessed_text": "J'ai vol\u00e9 plusieurs fois, mais je me sens juste stress\u00e9 au d\u00e9part, et de toute \u00e9vidence s'il y a une Turbulance.",
+      "composition_time": "2018-04-30T13:43:55.128265",
+      "preprocessing_begin": "2018-04-30T13:43:55.199663",
+      "preprocessing_end": "2018-04-30T13:43:57.610840",
+      "translation_begin": "2018-04-30T13:43:57.610957",
+      "translation_end": "2018-04-30T13:44:00.166719",
+      "postprocessing_begin": "2018-04-30T13:44:00.167032",
+      "postprocessing_end": "2018-04-30T13:44:00.216002",
+      "sent_time": "2018-04-30T13:44:00.217695",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:44:13.689540"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "other"
+        ],
+        "problem_history": [
+          [
+            "other",
+            "2018-04-30T13:44:29.121693",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "J'ai d\u00e9j\u00e0 pris l'avion un certain nombre de fois, mais je suis quand m\u00eame stress\u00e9e pendant le d\u00e9collage et l'atterrissage, et bien s\u00fbr quand il y a des turbulences.",
+      "normalised_version": "I\u2019ve flown quite a few times but just feel stressed at the going up and down and obviously if there is turbulence."
+    },
+    "6": {
+      "language": "french",
+      "original_text": "Les avions sont construits de telle mani\u00e8re qu'ils peuvent r\u00e9sister \u00e0 des turbulences tr\u00e8s fortes.",
+      "preprocessed_text": "les avions sont construits de telle mani\u00e8re qu&apos; ils peuvent r\u00e9sister \u00e0 des turbulences tr\u00e8s fortes .",
+      "translated_text": "planes are built so that they can resist very strong turbulence .",
+      "postprocessed_text": "Planes are built so that they can resist very strong turbulence.",
+      "composition_time": "2018-04-30T13:45:54.177462",
+      "preprocessing_begin": "2018-04-30T13:45:54.249155",
+      "preprocessing_end": "2018-04-30T13:45:56.329473",
+      "translation_begin": "2018-04-30T13:45:56.329566",
+      "translation_end": "2018-04-30T13:45:58.024839",
+      "postprocessing_begin": "2018-04-30T13:45:58.025026",
+      "postprocessing_end": "2018-04-30T13:45:58.066316",
+      "sent_time": "2018-04-30T13:45:58.067128",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:46:26.927566"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Planes are built to resist strong turbulence.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Il ne faut pas vous inqui\u00e9ter outre mesure",
+      "preprocessed_text": "il ne faut pas vous inqui\u00e9ter outre mesure",
+      "translated_text": "there &apos;s nothing to worry about .",
+      "postprocessed_text": "There's nothing to worry about.",
+      "composition_time": "2018-04-30T13:45:54.177462",
+      "preprocessing_begin": "2018-04-30T13:45:54.249155",
+      "preprocessing_end": "2018-04-30T13:45:56.329473",
+      "translation_begin": "2018-04-30T13:45:56.329566",
+      "translation_end": "2018-04-30T13:45:58.024839",
+      "postprocessing_begin": "2018-04-30T13:45:58.025026",
+      "postprocessing_end": "2018-04-30T13:45:58.066316",
+      "sent_time": "2018-04-30T13:45:58.067601",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:46:29.465343"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Don\u2019t worry too much.",
+      "normalised_version": "Il ne faut pas vous inqui\u00e9ter outre mesure."
+    },
+    "8": {
+      "language": "english",
+      "original_text": "i know the theory but anxiety is not always rational",
+      "preprocessed_text": "I know the theory but anxiety is not always rational",
+      "translated_text": "je connais la th\u00e9orie , mais l&apos; anxi\u00e9t\u00e9 n&apos; est pas toujours rationnelle .",
+      "postprocessed_text": "Je connais la th\u00e9orie, mais l'anxi\u00e9t\u00e9 n'est pas toujours rationnelle.",
+      "composition_time": "2018-04-30T13:46:46.599807",
+      "preprocessing_begin": "2018-04-30T13:46:46.673540",
+      "preprocessing_end": "2018-04-30T13:46:48.834685",
+      "translation_begin": "2018-04-30T13:46:48.834802",
+      "translation_end": "2018-04-30T13:46:50.165083",
+      "postprocessing_begin": "2018-04-30T13:46:50.165342",
+      "postprocessing_end": "2018-04-30T13:46:50.216031",
+      "sent_time": "2018-04-30T13:46:50.217494",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:47:14.975577"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je sais ce qu'il en est en th\u00e9orie, mais l'angoisse n'est pas toujours quelque chose de rationnel.",
+      "normalised_version": "I know the theory but anxiety is not always rational."
+    },
+    "9": {
+      "language": "english",
+      "original_text": "i ll try to switch off and not think about it",
+      "preprocessed_text": "I ll try to switch off and not think about it",
+      "translated_text": "je vais essayer d&apos; \u00e9teindre et de ne pas y penser .",
+      "postprocessed_text": "Je vais essayer d'\u00e9teindre et de ne pas y penser.",
+      "composition_time": "2018-04-30T13:47:04.099213",
+      "preprocessing_begin": "2018-04-30T13:47:04.165729",
+      "preprocessing_end": "2018-04-30T13:47:06.262776",
+      "translation_begin": "2018-04-30T13:47:06.262861",
+      "translation_end": "2018-04-30T13:47:07.384320",
+      "postprocessing_begin": "2018-04-30T13:47:07.384575",
+      "postprocessing_end": "2018-04-30T13:47:07.436407",
+      "sent_time": "2018-04-30T13:47:07.437572",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:47:19.594280"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-30T13:47:26.955515",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "J'essaye de la mettre de c\u00f4t\u00e9 et de ne pas y penser.",
+      "normalised_version": "I\u2019ll try to switch off and not think about it."
+    },
+    "10": {
+      "language": "english",
+      "original_text": "ignore me if I start over breathing",
+      "preprocessed_text": "ignore me if I start over breathing",
+      "translated_text": "ignore @-@ moi si je commence \u00e0 respirer .",
+      "postprocessed_text": "Ignore-moi si je commence \u00e0 respirer.",
+      "composition_time": "2018-04-30T13:47:18.370119",
+      "preprocessing_begin": "2018-04-30T13:47:18.434997",
+      "preprocessing_end": "2018-04-30T13:47:20.523556",
+      "translation_begin": "2018-04-30T13:47:20.523665",
+      "translation_end": "2018-04-30T13:47:21.330318",
+      "postprocessing_begin": "2018-04-30T13:47:21.330555",
+      "postprocessing_end": "2018-04-30T13:47:21.365100",
+      "sent_time": "2018-04-30T13:47:21.366871",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:47:38.459745"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-30T13:47:41.936464",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "Ne faites pas attention \u00e0 moi si je commence \u00e0 hyperventiler.",
+      "normalised_version": "Ignore me if I start over-breathing."
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Vous devriez essayer de somnoler un peu, cela calmera votre stress.",
+      "preprocessed_text": "vous devriez essayer de somno@@ ler un peu , cela calmera votre stress .",
+      "translated_text": "you should try to sleep a little , it &apos;ll calm your stress .",
+      "postprocessed_text": "You should try to sleep a little, it'll calm your stress.",
+      "composition_time": "2018-04-30T13:49:28.685759",
+      "preprocessing_begin": "2018-04-30T13:49:28.755022",
+      "preprocessing_end": "2018-04-30T13:49:31.204487",
+      "translation_begin": "2018-04-30T13:49:31.204613",
+      "translation_end": "2018-04-30T13:49:33.728303",
+      "postprocessing_begin": "2018-04-30T13:49:33.728552",
+      "postprocessing_end": "2018-04-30T13:49:33.770616",
+      "sent_time": "2018-04-30T13:49:33.771766",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:50:21.004409"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "You should try to doze a little. It\u2019ll help calm you down.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "O\u00f9 prendre une fl\u00fbte de champagne !",
+      "preprocessed_text": "o\u00f9 prendre une fl\u00fbte de champagne !",
+      "translated_text": "where would you like a glass of champagne ?",
+      "postprocessed_text": "Where would you like a glass of champagne?",
+      "composition_time": "2018-04-30T13:49:28.685759",
+      "preprocessing_begin": "2018-04-30T13:49:28.755022",
+      "preprocessing_end": "2018-04-30T13:49:31.204487",
+      "translation_begin": "2018-04-30T13:49:31.204613",
+      "translation_end": "2018-04-30T13:49:33.728303",
+      "postprocessing_begin": "2018-04-30T13:49:33.728552",
+      "postprocessing_end": "2018-04-30T13:49:33.770616",
+      "sent_time": "2018-04-30T13:49:33.772300",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:50:30.406325"
+          ]
+        ],
+        "verbatim": "? typing error maybe",
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-30T13:50:35.845678",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "? typing error maybe",
+            "2018-04-30T13:50:48.851307",
+            "2018-04-30T13:50:48.851307"
+          ]
+        ]
+      },
+      "reference_translation": "Or have a glass of champagne!",
+      "normalised_version": "Ou prendre une fl\u00fbte de champagne !"
+    },
+    "13": {
+      "language": "french",
+      "original_text": "C'est efficace aussi",
+      "preprocessed_text": "c&apos; est efficace aussi",
+      "translated_text": "it works , too .",
+      "postprocessed_text": "It works, too.",
+      "composition_time": "2018-04-30T13:49:28.685759",
+      "preprocessing_begin": "2018-04-30T13:49:28.755022",
+      "preprocessing_end": "2018-04-30T13:49:31.204487",
+      "translation_begin": "2018-04-30T13:49:31.204613",
+      "translation_end": "2018-04-30T13:49:33.728303",
+      "postprocessing_begin": "2018-04-30T13:49:33.728552",
+      "postprocessing_end": "2018-04-30T13:49:33.770616",
+      "sent_time": "2018-04-30T13:49:33.772829",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:50:48.844162"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "That works well too.",
+      "normalised_version": "C'est efficace aussi."
+    },
+    "14": {
+      "language": "english",
+      "original_text": "i think the champagne sounds more fun",
+      "preprocessed_text": "I think the champagne sounds more fun",
+      "translated_text": "je pense que le champagne semble plus amusant .",
+      "postprocessed_text": "Je pense que le champagne semble plus amusant.",
+      "composition_time": "2018-04-30T13:49:54.645267",
+      "preprocessing_begin": "2018-04-30T13:49:54.711831",
+      "preprocessing_end": "2018-04-30T13:49:57.076887",
+      "translation_begin": "2018-04-30T13:49:57.076962",
+      "translation_end": "2018-04-30T13:49:57.904302",
+      "postprocessing_begin": "2018-04-30T13:49:57.904651",
+      "postprocessing_end": "2018-04-30T13:49:57.937631",
+      "sent_time": "2018-04-30T13:49:57.938489",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:50:33.663454"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:50:37.574350",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Le champagne m'a l'air plus sympa.",
+      "normalised_version": "I think the champagne sounds more fun."
+    },
+    "15": {
+      "language": "english",
+      "original_text": "I m not one for sleeping in odd places",
+      "preprocessed_text": "I m not one for sleeping in odd places",
+      "translated_text": "je ne dors pas dans des endroits \u00e9tranges .",
+      "postprocessed_text": "Je ne dors pas dans des endroits \u00e9tranges.",
+      "composition_time": "2018-04-30T13:50:09.460593",
+      "preprocessing_begin": "2018-04-30T13:50:09.523836",
+      "preprocessing_end": "2018-04-30T13:50:11.642051",
+      "translation_begin": "2018-04-30T13:50:11.642140",
+      "translation_end": "2018-04-30T13:50:12.864351",
+      "postprocessing_begin": "2018-04-30T13:50:12.864691",
+      "postprocessing_end": "2018-04-30T13:50:12.918994",
+      "sent_time": "2018-04-30T13:50:12.920471",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:50:40.994523"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-30T13:50:44.398478",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je ne suis pas du genre \u00e0 dormir dans des endroits bizarres.",
+      "normalised_version": "I\u2019m not one for sleeping in odd places."
+    },
+    "16": {
+      "language": "english",
+      "original_text": "do you fly often?",
+      "preprocessed_text": "do you fly often ?",
+      "translated_text": "vous volez souvent ?",
+      "postprocessed_text": "Vous volez souvent ?",
+      "composition_time": "2018-04-30T13:50:15.989973",
+      "preprocessing_begin": "2018-04-30T13:50:16.058163",
+      "preprocessing_end": "2018-04-30T13:50:18.478038",
+      "translation_begin": "2018-04-30T13:50:18.478141",
+      "translation_end": "2018-04-30T13:50:19.038998",
+      "postprocessing_begin": "2018-04-30T13:50:19.039208",
+      "postprocessing_end": "2018-04-30T13:50:19.078064",
+      "sent_time": "2018-04-30T13:50:19.078919",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:52:50.588953"
+          ],
+          [
+            "perfect",
+            "2018-04-30T13:53:07.984693"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Vous prenez souvent l'avion\u00a0?",
+      "normalised_version": "Do you fly often?"
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Oui tr\u00e8s souvent pour mon travail car je suis responsable d'affaires et doit visiter beaucoup de pays.",
+      "preprocessed_text": "oui tr\u00e8s souvent pour mon travail car je suis responsable d&apos; affaires et doit visiter beaucoup de pays .",
+      "translated_text": "yes , very often for my work because I &apos;m in charge of business and should visit a lot of countries .",
+      "postprocessed_text": "Yes, very often for my work because I'm in charge of business and should visit a lot of countries.",
+      "composition_time": "2018-04-30T13:52:39.785867",
+      "preprocessing_begin": "2018-04-30T13:52:39.855669",
+      "preprocessing_end": "2018-04-30T13:52:41.874298",
+      "translation_begin": "2018-04-30T13:52:41.874360",
+      "translation_end": "2018-04-30T13:52:43.842236",
+      "postprocessing_begin": "2018-04-30T13:52:43.842514",
+      "postprocessing_end": "2018-04-30T13:52:43.875142",
+      "sent_time": "2018-04-30T13:52:43.876039",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:54:19.719955"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-30T13:54:28.332078",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes, regularly for work - I\u2019m a business manager and have to visit lots of countries.",
+      "normalised_version": "Oui tr\u00e8s souvent pour mon travail car je suis responsable d'affaires et dois visiter beaucoup de pays."
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Et vous, pour quelles raisons voyagez-vous ?",
+      "preprocessed_text": "et vous , pour quelles raisons voyagez @-@ vous ?",
+      "translated_text": "and you , for what reason do you travel ?",
+      "postprocessed_text": "And you, for what reason do you travel?",
+      "composition_time": "2018-04-30T13:52:39.785867",
+      "preprocessing_begin": "2018-04-30T13:52:39.855669",
+      "preprocessing_end": "2018-04-30T13:52:41.874298",
+      "translation_begin": "2018-04-30T13:52:41.874360",
+      "translation_end": "2018-04-30T13:52:43.842236",
+      "postprocessing_begin": "2018-04-30T13:52:43.842514",
+      "postprocessing_end": "2018-04-30T13:52:43.875142",
+      "sent_time": "2018-04-30T13:52:43.876454",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:54:22.423715"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "How about you? Why are you travelling?",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "family stuff, my son lives in Paris",
+      "preprocessed_text": "family stuff , my son lives in Paris",
+      "translated_text": "des affaires familiales , mon fils vit \u00e0 Paris .",
+      "postprocessed_text": "Des affaires familiales, mon fils vit \u00e0 Paris.",
+      "composition_time": "2018-04-30T13:53:47.878532",
+      "preprocessing_begin": "2018-04-30T13:53:47.942892",
+      "preprocessing_end": "2018-04-30T13:53:50.026522",
+      "translation_begin": "2018-04-30T13:53:50.026626",
+      "translation_end": "2018-04-30T13:53:50.905670",
+      "postprocessing_begin": "2018-04-30T13:53:50.905979",
+      "postprocessing_end": "2018-04-30T13:53:50.960030",
+      "sent_time": "2018-04-30T13:53:50.961337",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:55:59.956830"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Raisons familiales, mon fils vit \u00e0 Paris.",
+      "normalised_version": "Family stuff, my son lives in Paris."
+    },
+    "20": {
+      "language": "english",
+      "original_text": "He comes to the UK often but his children are too little to travel much",
+      "preprocessed_text": "he comes to the UK often but his children are too little to travel much",
+      "translated_text": "il vient souvent au Royaume @-@ Uni , mais ses enfants sont trop petits pour voyager .",
+      "postprocessed_text": "Il vient souvent au Royaume-Uni, mais ses enfants sont trop petits pour voyager.",
+      "composition_time": "2018-04-30T13:54:10.883750",
+      "preprocessing_begin": "2018-04-30T13:54:10.952780",
+      "preprocessing_end": "2018-04-30T13:54:13.520787",
+      "translation_begin": "2018-04-30T13:54:13.520869",
+      "translation_end": "2018-04-30T13:54:15.164081",
+      "postprocessing_begin": "2018-04-30T13:54:15.164287",
+      "postprocessing_end": "2018-04-30T13:54:15.214896",
+      "sent_time": "2018-04-30T13:54:15.215696",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:56:04.183990"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Il vient souvent au Royaume-Uni mais ses enfants sont trop petits pour voyager souvent.",
+      "normalised_version": "He comes to the UK often but his children are too little to travel much."
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Ah tr\u00e8s bien.",
+      "preprocessed_text": "ah tr\u00e8s bien .",
+      "translated_text": "oh , right .",
+      "postprocessed_text": "Oh, right.",
+      "composition_time": "2018-04-30T13:55:50.565796",
+      "preprocessing_begin": "2018-04-30T13:55:50.638399",
+      "preprocessing_end": "2018-04-30T13:55:52.648938",
+      "translation_begin": "2018-04-30T13:55:52.649017",
+      "translation_end": "2018-04-30T13:55:54.725404",
+      "postprocessing_begin": "2018-04-30T13:55:54.725594",
+      "postprocessing_end": "2018-04-30T13:55:54.770538",
+      "sent_time": "2018-04-30T13:55:54.771311",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:58:37.195368"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Ah, nice.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Et vous, vous allez souvent les voir ?",
+      "preprocessed_text": "et vous , vous allez souvent les voir ?",
+      "translated_text": "how often do you get to see them ?",
+      "postprocessed_text": "How often do you get to see them?",
+      "composition_time": "2018-04-30T13:55:50.565796",
+      "preprocessing_begin": "2018-04-30T13:55:50.638399",
+      "preprocessing_end": "2018-04-30T13:55:52.648938",
+      "translation_begin": "2018-04-30T13:55:52.649017",
+      "translation_end": "2018-04-30T13:55:54.725404",
+      "postprocessing_begin": "2018-04-30T13:55:54.725594",
+      "postprocessing_end": "2018-04-30T13:55:54.770538",
+      "sent_time": "2018-04-30T13:55:54.771760",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:58:40.215905"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "And do you often go to visit them?",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Quels \u00e2ges ont vos petits enfants si ce n'est pas indiscret ?",
+      "preprocessed_text": "quels \u00e2ges ont vos petits enfants si ce n&apos; est pas indiscret ?",
+      "translated_text": "what ages have your grandchildren if it &apos;s not indiscreet ?",
+      "postprocessed_text": "What ages have your grandchildren if it's not indiscreet?",
+      "composition_time": "2018-04-30T13:55:50.565796",
+      "preprocessing_begin": "2018-04-30T13:55:50.638399",
+      "preprocessing_end": "2018-04-30T13:55:52.648938",
+      "translation_begin": "2018-04-30T13:55:52.649017",
+      "translation_end": "2018-04-30T13:55:54.725404",
+      "postprocessing_begin": "2018-04-30T13:55:54.725594",
+      "postprocessing_end": "2018-04-30T13:55:54.770538",
+      "sent_time": "2018-04-30T13:55:54.772130",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-30T13:58:45.592120"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-30T13:58:48.618053",
+            true
+          ]
+        ],
+        "judgment": "medium",
+        "verbatim_history": []
+      },
+      "reference_translation": "How old are your grandchildren if it\u2019s not too indiscreet?",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "You re meant to say I dont look old enough to be a grandma!",
+      "preprocessed_text": "you re meant to say I dont look old enough to be a grandma !",
+      "translated_text": "tu veux dire que je n&apos; ai pas l&apos; \u00e2ge d&apos; \u00eatre grand @-@ m\u00e8re !",
+      "postprocessed_text": "Tu veux dire que je n'ai pas l'\u00e2ge d'\u00eatre grand-m\u00e8re !",
+      "composition_time": "2018-04-30T13:57:13.156486",
+      "preprocessing_begin": "2018-04-30T13:57:13.221473",
+      "preprocessing_end": "2018-04-30T13:57:15.284265",
+      "translation_begin": "2018-04-30T13:57:15.284349",
+      "translation_end": "2018-04-30T13:57:16.479193",
+      "postprocessing_begin": "2018-04-30T13:57:16.479483",
+      "postprocessing_end": "2018-04-30T13:57:16.514517",
+      "sent_time": "2018-04-30T13:57:16.515440",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:58:00.642187"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Vous devriez me dire que je n'ai pas l'air assez vieille pour \u00eatre une grand-m\u00e8re\u00a0!",
+      "normalised_version": "You\u2019re meant to say I don\u2019t look old enough to be a grandma!"
+    },
+    "25": {
+      "language": "english",
+      "original_text": "I see them about every 3 months",
+      "preprocessed_text": "I see them about every 3 months",
+      "translated_text": "je les vois tous les 3 mois .",
+      "postprocessed_text": "Je les vois tous les 3 mois.",
+      "composition_time": "2018-04-30T13:57:26.814194",
+      "preprocessing_begin": "2018-04-30T13:57:26.881495",
+      "preprocessing_end": "2018-04-30T13:57:29.121726",
+      "translation_begin": "2018-04-30T13:57:29.121785",
+      "translation_end": "2018-04-30T13:57:29.767535",
+      "postprocessing_begin": "2018-04-30T13:57:29.767774",
+      "postprocessing_end": "2018-04-30T13:57:29.799521",
+      "sent_time": "2018-04-30T13:57:29.800383",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:58:02.948867"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je les vois tous les 3 mois environ.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "but I still dont like flying, although when I see their smiling faces it is worth my stress",
+      "preprocessed_text": "but I still dont like flying , although when I see their smiling faces it is worth my stress",
+      "translated_text": "mais je n&apos; aime toujours pas voler , bien que quand je vois leurs visages souri@@ ants , \u00e7a vaut le coup .",
+      "postprocessed_text": "Mais je n'aime toujours pas voler, bien que quand je vois leurs visages souriants, \u00e7a vaut le coup.",
+      "composition_time": "2018-04-30T13:58:07.592489",
+      "preprocessing_begin": "2018-04-30T13:58:07.666317",
+      "preprocessing_end": "2018-04-30T13:58:10.050017",
+      "translation_begin": "2018-04-30T13:58:10.050102",
+      "translation_end": "2018-04-30T13:58:11.908655",
+      "postprocessing_begin": "2018-04-30T13:58:11.908877",
+      "postprocessing_end": "2018-04-30T13:58:11.945265",
+      "sent_time": "2018-04-30T13:58:11.946140",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T13:59:55.828157"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Mais malgr\u00e9 \u00e7a je n'aime pas prendre l'avion, m\u00eame si quand je vois leurs visages souriants \u00e7a vaut bien un peu de stress.",
+      "normalised_version": "but I still dont like flying, although when I see their smiling faces it is worth my stress."
+    },
+    "27": {
+      "language": "english",
+      "original_text": "they are 3 and 5",
+      "preprocessed_text": "they are 3 and 5",
+      "translated_text": "ils sont 3 et 5 .",
+      "postprocessed_text": "Ils sont 3 et 5.",
+      "composition_time": "2018-04-30T13:58:18.474521",
+      "preprocessing_begin": "2018-04-30T13:58:18.539137",
+      "preprocessing_end": "2018-04-30T13:58:20.687878",
+      "translation_begin": "2018-04-30T13:58:20.687957",
+      "translation_end": "2018-04-30T13:58:21.312845",
+      "postprocessing_begin": "2018-04-30T13:58:21.313186",
+      "postprocessing_end": "2018-04-30T13:58:21.375391",
+      "sent_time": "2018-04-30T13:58:21.376204",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-30T13:59:58.710856"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [
+          "meaning",
+          "style"
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-30T14:00:10.488103",
+            true
+          ],
+          [
+            "style",
+            "2018-04-30T14:00:11.752830",
+            true
+          ]
+        ],
+        "judgment": "poor",
+        "verbatim_history": []
+      },
+      "reference_translation": "Ils ont 3 et 5 ans.",
+      "normalised_version": "They are 3 and 5."
+    },
+    "28": {
+      "language": "french",
+      "original_text": "Je comprends tr\u00e8s bien.",
+      "preprocessed_text": "je comprends tr\u00e8s bien .",
+      "translated_text": "I understand perfectly .",
+      "postprocessed_text": "I understand perfectly.",
+      "composition_time": "2018-04-30T13:59:43.797612",
+      "preprocessing_begin": "2018-04-30T13:59:43.856384",
+      "preprocessing_end": "2018-04-30T13:59:46.204045",
+      "translation_begin": "2018-04-30T13:59:46.204179",
+      "translation_end": "2018-04-30T13:59:48.531596",
+      "postprocessing_begin": "2018-04-30T13:59:48.531808",
+      "postprocessing_end": "2018-04-30T13:59:48.585279",
+      "sent_time": "2018-04-30T13:59:48.586508",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:00:22.537633"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I understand.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Moi aussi j'ai des petits enfants Et que comptez-vous faire avec eux \u00e0 Paris ?",
+      "preprocessed_text": "moi aussi j&apos; ai des petits enfants Et que comptez @-@ vous faire avec eux \u00e0 Paris ?",
+      "translated_text": "I also have grandchildren and what do you intend to do with them in Paris ?",
+      "postprocessed_text": "I also have grandchildren and what do you intend to do with them in Paris?",
+      "composition_time": "2018-04-30T13:59:43.797612",
+      "preprocessing_begin": "2018-04-30T13:59:43.856384",
+      "preprocessing_end": "2018-04-30T13:59:46.204045",
+      "translation_begin": "2018-04-30T13:59:46.204179",
+      "translation_end": "2018-04-30T13:59:48.531596",
+      "postprocessing_begin": "2018-04-30T13:59:48.531808",
+      "postprocessing_end": "2018-04-30T13:59:48.585279",
+      "sent_time": "2018-04-30T13:59:48.587167",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:00:25.899377"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "I have grandchildren too. And what are you planning to do with them in Paris?",
+      "normalised_version": "Moi aussi j'ai des petits enfants. Et que comptez-vous faire avec eux \u00e0 Paris ?"
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Les emmener au cirque ?",
+      "preprocessed_text": "les emmener au cirque ?",
+      "translated_text": "take them to the circus ?",
+      "postprocessed_text": "Take them to the circus?",
+      "composition_time": "2018-04-30T13:59:43.797612",
+      "preprocessing_begin": "2018-04-30T13:59:43.856384",
+      "preprocessing_end": "2018-04-30T13:59:46.204045",
+      "translation_begin": "2018-04-30T13:59:46.204179",
+      "translation_end": "2018-04-30T13:59:48.531596",
+      "postprocessing_begin": "2018-04-30T13:59:48.531808",
+      "postprocessing_end": "2018-04-30T13:59:48.585279",
+      "sent_time": "2018-04-30T13:59:48.587788",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:00:27.315834"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Take them to the circus?",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "That is a good idea",
+      "preprocessed_text": "that is a good idea",
+      "translated_text": "c&apos; est une bonne id\u00e9e .",
+      "postprocessed_text": "C'est une bonne id\u00e9e.",
+      "composition_time": "2018-04-30T14:00:44.134335",
+      "preprocessing_begin": "2018-04-30T14:00:44.199679",
+      "preprocessing_end": "2018-04-30T14:00:46.142788",
+      "translation_begin": "2018-04-30T14:00:46.143025",
+      "translation_end": "2018-04-30T14:00:46.555570",
+      "postprocessing_begin": "2018-04-30T14:00:46.555853",
+      "postprocessing_end": "2018-04-30T14:00:46.593647",
+      "sent_time": "2018-04-30T14:00:46.594440",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:01:00.835969"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "C'est une bonne id\u00e9e.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "I think I may try and sleep now after the champagne",
+      "preprocessed_text": "I think I may try and sleep now after the champagne",
+      "translated_text": "je pense que je vais essayer de dormir maintenant apr\u00e8s le champagne .",
+      "postprocessed_text": "Je pense que je vais essayer de dormir maintenant apr\u00e8s le champagne.",
+      "composition_time": "2018-04-30T14:01:11.018973",
+      "preprocessing_begin": "2018-04-30T14:01:11.091121",
+      "preprocessing_end": "2018-04-30T14:01:13.236480",
+      "translation_begin": "2018-04-30T14:01:13.236566",
+      "translation_end": "2018-04-30T14:01:14.493772",
+      "postprocessing_begin": "2018-04-30T14:01:14.494102",
+      "postprocessing_end": "2018-04-30T14:01:14.544355",
+      "sent_time": "2018-04-30T14:01:14.545566",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:02:12.528931"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Je crois que je vais essayer de dormir maintenant, apr\u00e8s le champagne.",
+      "normalised_version": "I think I may try and sleep now after the champagne."
+    },
+    "33": {
+      "language": "english",
+      "original_text": "thanks for helping me calm down",
+      "preprocessed_text": "thanks for helping me calm down",
+      "translated_text": "merci de m&apos; aider \u00e0 me calmer .",
+      "postprocessed_text": "Merci de m'aider \u00e0 me calmer.",
+      "composition_time": "2018-04-30T14:01:30.946135",
+      "preprocessing_begin": "2018-04-30T14:01:31.017486",
+      "preprocessing_end": "2018-04-30T14:01:33.439893",
+      "translation_begin": "2018-04-30T14:01:33.439976",
+      "translation_end": "2018-04-30T14:01:34.111996",
+      "postprocessing_begin": "2018-04-30T14:01:34.112230",
+      "postprocessing_end": "2018-04-30T14:01:34.148276",
+      "sent_time": "2018-04-30T14:01:34.149237",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:02:13.892668"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "Merci de m'avoir aid\u00e9 \u00e0 me calmer.",
+      "normalised_version": "Thanks for helping me calm down."
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Il n'y as pas de quoi.",
+      "preprocessed_text": "il n&apos; y as pas de quoi .",
+      "translated_text": "you &apos;re welcome .",
+      "postprocessed_text": "You're welcome.",
+      "composition_time": "2018-04-30T14:02:06.918855",
+      "preprocessing_begin": "2018-04-30T14:02:06.989296",
+      "preprocessing_end": "2018-04-30T14:02:09.583000",
+      "translation_begin": "2018-04-30T14:02:09.583101",
+      "translation_end": "2018-04-30T14:02:10.083510",
+      "postprocessing_begin": "2018-04-30T14:02:10.083716",
+      "postprocessing_end": "2018-04-30T14:02:10.131774",
+      "sent_time": "2018-04-30T14:02:10.132921",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-04-30T14:02:20.792175"
+          ]
+        ],
+        "verbatim": "",
+        "problems": [],
+        "problem_history": [],
+        "judgment": "perfect",
+        "verbatim_history": []
+      },
+      "reference_translation": "That\u2019s quite all right.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "timestamp": "2018-04-30T14:04:08.488721",
+    "coherence": "excellent",
+    "verbatim_quality": "",
+    "grammaticality": "excellent",
+    "interface": "excellent",
+    "meaning": "excellent",
+    "tech": "There were no technical problems",
+    "particular_problems": "r\u00e9ponse \u00e0 la demande d'age des enfants",
+    "style": "good",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "timestamp": "2018-04-30T14:04:22.065682",
+    "coherence": "good",
+    "verbatim_quality": "the dialogue was generally natural",
+    "grammaticality": "good",
+    "interface": "simple to use",
+    "meaning": "excellent",
+    "tech": "There were no technical problems",
+    "particular_problems": "only one word",
+    "style": "good",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

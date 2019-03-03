@@ -1,0 +1,1332 @@
+{
+  "start_time": "2018-05-02T12:17:47.118853",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are both organising a party.",
+      "Vous organisez une f\u00eate."
+    ],
+    [
+      "It's your party.",
+      "C'est votre anniversaire"
+    ],
+    [
+      "It's their party.",
+      "C'est l'anniversaire de la personne avec qui vous discutez."
+    ]
+  ],
+  "user1": {
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "It's their party.",
+      "C'est l'anniversaire de la personne avec qui vous discutez."
+    ],
+    "role_num": 2,
+    "initiated_dialogue": true,
+    "turn_number": 2,
+    "lang": "french"
+  },
+  "user2": {
+    "rolenum": 1,
+    "useragent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "role": [
+      "It's your party.",
+      "C'est votre anniversaire"
+    ],
+    "initiated_dialogue": false,
+    "eval-stage": true,
+    "turn_number": 1,
+    "lang": "english"
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Hi, planning this party will be fun.",
+      "preprocessed_text": "hi , planning this party will be fun .",
+      "translated_text": "\u00e7a va \u00eatre sympa de pr\u00e9parer la f\u00eate .",
+      "postprocessed_text": "\u00c7a va \u00eatre sympa de pr\u00e9parer la f\u00eate.",
+      "composition_time": "2018-05-02T12:19:00.368438",
+      "preprocessing_begin": "2018-05-02T12:19:00.403594",
+      "preprocessing_end": "2018-05-02T12:19:02.843374",
+      "translation_begin": "2018-05-02T12:19:02.843441",
+      "translation_end": "2018-05-02T12:19:04.434491",
+      "postprocessing_begin": "2018-05-02T12:19:04.434859",
+      "postprocessing_end": "2018-05-02T12:19:04.463024",
+      "sent_time": "2018-05-02T12:19:04.464426",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:19:42.260013"
+          ]
+        ]
+      },
+      "reference_translation": "Salut, \u00e7a va \u00eatre sympa d'organiser cette f\u00eate.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "What kind of party do you think it should be?",
+      "preprocessed_text": "what kind of party do you think it should be ?",
+      "translated_text": "quel genre de f\u00eate pensez @-@ vous que \u00e7a devrait \u00eatre ?",
+      "postprocessed_text": "Quel genre de f\u00eate pensez-vous que \u00e7a devrait \u00eatre ?",
+      "composition_time": "2018-05-02T12:19:00.368438",
+      "preprocessing_begin": "2018-05-02T12:19:00.403594",
+      "preprocessing_end": "2018-05-02T12:19:02.843374",
+      "translation_begin": "2018-05-02T12:19:02.843441",
+      "translation_end": "2018-05-02T12:19:04.434491",
+      "postprocessing_begin": "2018-05-02T12:19:04.434859",
+      "postprocessing_end": "2018-05-02T12:19:04.463024",
+      "sent_time": "2018-05-02T12:19:04.465357",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-02T12:19:47.833845",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-02T12:19:53.116911",
+            "2018-05-02T12:19:53.116911"
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:19:44.928236"
+          ]
+        ]
+      },
+      "reference_translation": "Quel type de f\u00eate tu penses que \u00e7a devrait \u00eatre\u00a0?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "C'est pour ton anniversaire.",
+      "preprocessed_text": "c&apos; est pour ton anniversaire .",
+      "translated_text": "it &apos;s for your birthday .",
+      "postprocessed_text": "It's for your birthday.",
+      "composition_time": "2018-05-02T12:19:38.783800",
+      "preprocessing_begin": "2018-05-02T12:19:38.820142",
+      "preprocessing_end": "2018-05-02T12:19:41.112577",
+      "translation_begin": "2018-05-02T12:19:41.112652",
+      "translation_end": "2018-05-02T12:19:42.219871",
+      "postprocessing_begin": "2018-05-02T12:19:42.220313",
+      "postprocessing_end": "2018-05-02T12:19:42.250836",
+      "sent_time": "2018-05-02T12:19:42.252750",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:22:24.882643"
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s your birthday.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Qu'est-ce qui te ferait plaisir?",
+      "preprocessed_text": "qu&apos; est @-@ ce qui te ferait plaisir ?",
+      "translated_text": "what would you like ?",
+      "postprocessed_text": "What would you like?",
+      "composition_time": "2018-05-02T12:19:38.783800",
+      "preprocessing_begin": "2018-05-02T12:19:38.820142",
+      "preprocessing_end": "2018-05-02T12:19:41.112577",
+      "translation_begin": "2018-05-02T12:19:41.112652",
+      "translation_end": "2018-05-02T12:19:42.219871",
+      "postprocessing_begin": "2018-05-02T12:19:42.220313",
+      "postprocessing_end": "2018-05-02T12:19:42.250836",
+      "sent_time": "2018-05-02T12:19:42.254037",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:24:15.254007"
+          ]
+        ]
+      },
+      "reference_translation": "What would you like to do?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "I was thinking along the lines of a them maybe?",
+      "preprocessed_text": "I was thinking along the lines of a them maybe ?",
+      "translated_text": "je pensais le long des lignes d&apos; eux , peut @-@ \u00eatre ?",
+      "postprocessed_text": "Je pensais le long des lignes d'eux, peut-\u00eatre ?",
+      "composition_time": "2018-05-02T12:19:46.150506",
+      "preprocessing_begin": "2018-05-02T12:19:46.182786",
+      "preprocessing_end": "2018-05-02T12:19:48.422729",
+      "translation_begin": "2018-05-02T12:19:48.422788",
+      "translation_end": "2018-05-02T12:19:49.330551",
+      "postprocessing_begin": "2018-05-02T12:19:49.330905",
+      "postprocessing_end": "2018-05-02T12:19:49.367226",
+      "sent_time": "2018-05-02T12:19:49.368117",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-02T12:20:06.530714",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-02T12:20:08.265774",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "coherence",
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T12:20:04.926424"
+          ]
+        ]
+      },
+      "reference_translation": "Je pensais \u00e0 quelque chose autour d'un th\u00e8me, peut-\u00eatre.",
+      "normalised_version": "I was thinking along the lines of a theme maybe?"
+    },
+    "5": {
+      "language": "english",
+      "original_text": "sorry, I meant 'theme'",
+      "preprocessed_text": "sorry , I meant &apos; them@@ e&apos;",
+      "translated_text": "d\u00e9sol\u00e9 , je le pensais .",
+      "postprocessed_text": "D\u00e9sol\u00e9, je le pensais.",
+      "composition_time": "2018-05-02T12:20:11.230986",
+      "preprocessing_begin": "2018-05-02T12:20:11.261609",
+      "preprocessing_end": "2018-05-02T12:20:13.435985",
+      "translation_begin": "2018-05-02T12:20:13.436035",
+      "translation_end": "2018-05-02T12:20:14.003252",
+      "postprocessing_begin": "2018-05-02T12:20:14.003456",
+      "postprocessing_end": "2018-05-02T12:20:14.044455",
+      "sent_time": "2018-05-02T12:20:14.045367",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-02T12:20:32.346720",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-02T12:21:04.756392",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "genre",
+            "2018-05-02T12:21:12.412341",
+            "2018-05-02T12:21:12.412341"
+          ]
+        ],
+        "problems": [
+          "coherence",
+          "grammar"
+        ],
+        "verbatim": "genre",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T12:20:30.399004"
+          ],
+          [
+            "medium",
+            "2018-05-02T12:21:03.202300"
+          ]
+        ]
+      },
+      "reference_translation": "D\u00e9sol\u00e9e, je voulais dire \u00ab\u00a0th\u00e8me\u00a0\u00bb",
+      "normalised_version": "Sorry, I meant \u201ctheme\u201d."
+    },
+    "6": {
+      "language": "english",
+      "original_text": "1980's theme would be good",
+      "preprocessed_text": "1980 &apos;s theme would be good",
+      "translated_text": "le th\u00e8me de 1980 serait bien .",
+      "postprocessed_text": "Le th\u00e8me de 1980 serait bien.",
+      "composition_time": "2018-05-02T12:21:03.007760",
+      "preprocessing_begin": "2018-05-02T12:21:03.039298",
+      "preprocessing_end": "2018-05-02T12:21:05.158408",
+      "translation_begin": "2018-05-02T12:21:05.158511",
+      "translation_end": "2018-05-02T12:21:05.771583",
+      "postprocessing_begin": "2018-05-02T12:21:05.771801",
+      "postprocessing_end": "2018-05-02T12:21:05.803827",
+      "sent_time": "2018-05-02T12:21:05.804899",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:23:10.183382"
+          ]
+        ]
+      },
+      "reference_translation": "Un th\u00e8me ann\u00e9es 80 serait pas mal.",
+      "normalised_version": "1980's theme would be good."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "We could get everyone to dress up in 1980's clothes",
+      "preprocessed_text": "we could get everyone to dress up in 1980 &apos;s clothes",
+      "translated_text": "tout le monde pourrait s&apos; habiller en 1980 .",
+      "postprocessed_text": "Tout le monde pourrait s'habiller en 1980.",
+      "composition_time": "2018-05-02T12:21:24.274189",
+      "preprocessing_begin": "2018-05-02T12:21:24.304988",
+      "preprocessing_end": "2018-05-02T12:21:26.525240",
+      "translation_begin": "2018-05-02T12:21:26.525301",
+      "translation_end": "2018-05-02T12:21:27.478250",
+      "postprocessing_begin": "2018-05-02T12:21:27.478610",
+      "postprocessing_end": "2018-05-02T12:21:27.511985",
+      "sent_time": "2018-05-02T12:21:27.513253",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:23:12.788947"
+          ]
+        ]
+      },
+      "reference_translation": "On pourrait demander \u00e0 tout le monde de venir avec des habits des ann\u00e9es 80.",
+      "normalised_version": "We could get everyone to dress up in 1980's clothes."
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Ah oui, les ann\u00e9es 80, c'est super comme id\u00e9e!",
+      "preprocessed_text": "ah oui , les ann\u00e9es 80 , c&apos; est super comme id\u00e9e !",
+      "translated_text": "oh yeah , the &apos; 80s , that &apos;s a great idea !",
+      "postprocessed_text": "Oh yeah, the '80s, that's a great idea!",
+      "composition_time": "2018-05-02T12:22:19.520732",
+      "preprocessing_begin": "2018-05-02T12:22:19.553108",
+      "preprocessing_end": "2018-05-02T12:22:21.894538",
+      "translation_begin": "2018-05-02T12:22:21.894664",
+      "translation_end": "2018-05-02T12:22:24.716266",
+      "postprocessing_begin": "2018-05-02T12:22:24.716595",
+      "postprocessing_end": "2018-05-02T12:22:24.747854",
+      "sent_time": "2018-05-02T12:22:24.749286",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:24:18.838082"
+          ]
+        ]
+      },
+      "reference_translation": "Ah yeah, the 80\u2019s, what a great idea!",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Il faudrait retrouver tous les tubes qu'on \u00e9coutais \u00e0 l'\u00e9poque!",
+      "preprocessed_text": "il faudrait retrouver tous les tubes qu&apos; on \u00e9coutais \u00e0 l&apos; \u00e9poque !",
+      "translated_text": "we &apos;d have to find all the canisters we were listening to back then .",
+      "postprocessed_text": "We'd have to find all the canisters we were listening to back then.",
+      "composition_time": "2018-05-02T12:22:19.520732",
+      "preprocessing_begin": "2018-05-02T12:22:19.553108",
+      "preprocessing_end": "2018-05-02T12:22:21.894538",
+      "translation_begin": "2018-05-02T12:22:21.894664",
+      "translation_end": "2018-05-02T12:22:24.716266",
+      "postprocessing_begin": "2018-05-02T12:22:24.716595",
+      "postprocessing_end": "2018-05-02T12:22:24.747854",
+      "sent_time": "2018-05-02T12:22:24.750264",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T12:24:26.478595",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "I'm not sure what cannisters means",
+            "2018-05-02T12:25:25.988442",
+            "2018-05-02T12:25:25.988442"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "I'm not sure what cannisters means",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:24:22.949537"
+          ]
+        ]
+      },
+      "reference_translation": "We need to find all the hits we listened to back in the day!",
+      "normalised_version": "Il faudrait retrouver tous les tubes qu'on \u00e9coutait \u00e0 l'\u00e9poque!"
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Je devrais encore avoir des cassettes quelque part...",
+      "preprocessed_text": "je devrais encore avoir des cassettes quelque part ...",
+      "translated_text": "I should still have tapes somewhere ...",
+      "postprocessed_text": "I should still have tapes somewhere...",
+      "composition_time": "2018-05-02T12:22:19.520732",
+      "preprocessing_begin": "2018-05-02T12:22:19.553108",
+      "preprocessing_end": "2018-05-02T12:22:21.894538",
+      "translation_begin": "2018-05-02T12:22:21.894664",
+      "translation_end": "2018-05-02T12:22:24.716266",
+      "postprocessing_begin": "2018-05-02T12:22:24.716595",
+      "postprocessing_end": "2018-05-02T12:22:24.747854",
+      "sent_time": "2018-05-02T12:22:24.751174",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:24:28.944080"
+          ]
+        ]
+      },
+      "reference_translation": "I should still have my cassettes somewhere\u2026",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "english",
+      "original_text": "Have you heard of Spotify?",
+      "preprocessed_text": "have you heard of Spo@@ ti@@ fy ?",
+      "translated_text": "avez @-@ vous entendu parler de Spo@@ ti@@ fy ?",
+      "postprocessed_text": "Avez-vous entendu parler de Spotify ?",
+      "composition_time": "2018-05-02T12:23:27.283750",
+      "preprocessing_begin": "2018-05-02T12:23:27.316652",
+      "preprocessing_end": "2018-05-02T12:23:29.832196",
+      "translation_begin": "2018-05-02T12:23:29.832273",
+      "translation_end": "2018-05-02T12:23:32.397053",
+      "postprocessing_begin": "2018-05-02T12:23:32.397461",
+      "postprocessing_end": "2018-05-02T12:23:32.427851",
+      "sent_time": "2018-05-02T12:23:32.429297",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:25:44.812599"
+          ]
+        ]
+      },
+      "reference_translation": "Tu as entendu parler de Spotify\u00a0?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "It's an online music app that has just about any music from any era",
+      "preprocessed_text": "it &apos;s an online music app that has just about any music from any era",
+      "translated_text": "c&apos; est une application de musique en ligne qui n&apos; a que de la musique de n&apos; importe quelle \u00e9poque .",
+      "postprocessed_text": "C'est une application de musique en ligne qui n'a que de la musique de n'importe quelle \u00e9poque.",
+      "composition_time": "2018-05-02T12:23:27.283750",
+      "preprocessing_begin": "2018-05-02T12:23:27.316652",
+      "preprocessing_end": "2018-05-02T12:23:29.832196",
+      "translation_begin": "2018-05-02T12:23:29.832273",
+      "translation_end": "2018-05-02T12:23:32.397053",
+      "postprocessing_begin": "2018-05-02T12:23:32.397461",
+      "postprocessing_end": "2018-05-02T12:23:32.427851",
+      "sent_time": "2018-05-02T12:23:32.430235",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-02T12:25:51.857686",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:25:49.344126"
+          ]
+        ]
+      },
+      "reference_translation": "C'est une app de musique en ligne qui a \u00e0 peu pr\u00e8s toute la musique de n'importe quelle p\u00e9riode.",
+      "normalised_version": "It's an online music app that has just about any music from any era."
+    },
+    "13": {
+      "language": "french",
+      "original_text": "C'est pas b\u00eate.",
+      "preprocessed_text": "c&apos; est pas b\u00eate .",
+      "translated_text": "it &apos;s not stupid .",
+      "postprocessed_text": "It's not stupid.",
+      "composition_time": "2018-05-02T12:25:37.139589",
+      "preprocessing_begin": "2018-05-02T12:25:37.171041",
+      "preprocessing_end": "2018-05-02T12:25:39.660316",
+      "translation_begin": "2018-05-02T12:25:39.660398",
+      "translation_end": "2018-05-02T12:25:44.773288",
+      "postprocessing_begin": "2018-05-02T12:25:44.773509",
+      "postprocessing_end": "2018-05-02T12:25:44.805604",
+      "sent_time": "2018-05-02T12:25:44.806476",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T12:28:15.395686"
+          ],
+          [
+            "perfect",
+            "2018-05-02T12:28:35.043080"
+          ],
+          [
+            "poor",
+            "2018-05-02T12:28:41.947664"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s not a bad idea.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Il doit y avoir des playlists... je peux chercher de la musique ce soir.",
+      "preprocessed_text": "il doit y avoir des play@@ list@@ s ... je peux chercher de la musique ce soir .",
+      "translated_text": "there must be play@@ lists ... I can pick up some music tonight .",
+      "postprocessed_text": "There must be playlists... I can pick up some music tonight.",
+      "composition_time": "2018-05-02T12:25:37.139589",
+      "preprocessing_begin": "2018-05-02T12:25:37.171041",
+      "preprocessing_end": "2018-05-02T12:25:39.660316",
+      "translation_begin": "2018-05-02T12:25:39.660398",
+      "translation_end": "2018-05-02T12:25:44.773288",
+      "postprocessing_begin": "2018-05-02T12:25:44.773509",
+      "postprocessing_end": "2018-05-02T12:25:44.805604",
+      "sent_time": "2018-05-02T12:25:44.806896",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:28:46.580145"
+          ]
+        ]
+      },
+      "reference_translation": "There must be playlists\u2026 I can look for music this evening.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Je crois que Marc utilise beaucoup Spotify.",
+      "preprocessed_text": "je crois que Marc utilise beaucoup Spo@@ ti@@ fy .",
+      "translated_text": "I think Marc &apos;s using a lot of Spo@@ ti@@ fy .",
+      "postprocessed_text": "I think Marc's using a lot of Spotify.",
+      "composition_time": "2018-05-02T12:25:37.139589",
+      "preprocessing_begin": "2018-05-02T12:25:37.171041",
+      "preprocessing_end": "2018-05-02T12:25:39.660316",
+      "translation_begin": "2018-05-02T12:25:39.660398",
+      "translation_end": "2018-05-02T12:25:44.773288",
+      "postprocessing_begin": "2018-05-02T12:25:44.773509",
+      "postprocessing_end": "2018-05-02T12:25:44.805604",
+      "sent_time": "2018-05-02T12:25:44.807289",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:28:48.987484"
+          ]
+        ]
+      },
+      "reference_translation": "I think that Marc uses Spotify a lot.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Il adore les tubes des ann\u00e9es 80 et 90.",
+      "preprocessed_text": "il adore les tubes des ann\u00e9es 80 et 90 .",
+      "translated_text": "he loves tubes from the &apos; 80s and &apos; 90s .",
+      "postprocessed_text": "He loves tubes from the '80s and' 90s.",
+      "composition_time": "2018-05-02T12:25:37.139589",
+      "preprocessing_begin": "2018-05-02T12:25:37.171041",
+      "preprocessing_end": "2018-05-02T12:25:39.660316",
+      "translation_begin": "2018-05-02T12:25:39.660398",
+      "translation_end": "2018-05-02T12:25:44.773288",
+      "postprocessing_begin": "2018-05-02T12:25:44.773509",
+      "postprocessing_end": "2018-05-02T12:25:44.805604",
+      "sent_time": "2018-05-02T12:25:44.807681",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T12:29:02.548116",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:28:52.243230"
+          ]
+        ]
+      },
+      "reference_translation": "He loves hits from the 80\u2019s and 90\u2019s.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Il a peut-\u00eatre des playlists qu'il a compos\u00e9es lui-m\u00eame.",
+      "preprocessed_text": "il a peut @-@ \u00eatre des play@@ list@@ s qu&apos; il a compos@@ \u00e9es lui @-@ m\u00eame .",
+      "translated_text": "maybe he &apos;s got play@@ lists he wrote himself .",
+      "postprocessed_text": "Maybe he's got playlists he wrote himself.",
+      "composition_time": "2018-05-02T12:25:37.139589",
+      "preprocessing_begin": "2018-05-02T12:25:37.171041",
+      "preprocessing_end": "2018-05-02T12:25:39.660316",
+      "translation_begin": "2018-05-02T12:25:39.660398",
+      "translation_end": "2018-05-02T12:25:44.773288",
+      "postprocessing_begin": "2018-05-02T12:25:44.773509",
+      "postprocessing_end": "2018-05-02T12:25:44.805604",
+      "sent_time": "2018-05-02T12:25:44.808069",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:29:08.387668"
+          ]
+        ]
+      },
+      "reference_translation": "Perhaps he\u2019s got some playlists he compiled himself.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Je vais lui demander!",
+      "preprocessed_text": "je vais lui demander !",
+      "translated_text": "I &apos;ll ask him !",
+      "postprocessed_text": "I'll ask him!",
+      "composition_time": "2018-05-02T12:25:37.139589",
+      "preprocessing_begin": "2018-05-02T12:25:37.171041",
+      "preprocessing_end": "2018-05-02T12:25:39.660316",
+      "translation_begin": "2018-05-02T12:25:39.660398",
+      "translation_end": "2018-05-02T12:25:44.773288",
+      "postprocessing_begin": "2018-05-02T12:25:44.773509",
+      "postprocessing_end": "2018-05-02T12:25:44.805604",
+      "sent_time": "2018-05-02T12:25:44.808431",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:29:09.731930"
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019ll ask him.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "Great, thank you.",
+      "preprocessed_text": "great , thank you .",
+      "translated_text": "merci .",
+      "postprocessed_text": "Merci.",
+      "composition_time": "2018-05-02T12:27:09.288715",
+      "preprocessing_begin": "2018-05-02T12:27:09.320394",
+      "preprocessing_end": "2018-05-02T12:27:11.477262",
+      "translation_begin": "2018-05-02T12:27:11.477374",
+      "translation_end": "2018-05-02T12:27:13.870395",
+      "postprocessing_begin": "2018-05-02T12:27:13.870610",
+      "postprocessing_end": "2018-05-02T12:27:13.900750",
+      "sent_time": "2018-05-02T12:27:13.901655",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:29:19.851592"
+          ]
+        ]
+      },
+      "reference_translation": "Super, merci.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "Foodwise, we could have a selection of food - cold meat, curries, bread and cheese",
+      "preprocessed_text": "Fo@@ od@@ wise , we could have a selection of food - cold meat , cur@@ ries , bread and cheese",
+      "translated_text": "Fo@@ od@@ sages , nous pourrions avoir une s\u00e9lection de nourriture , de la viande froide , de la viande , du pain et du fromage .",
+      "postprocessed_text": "Foodsages, nous pourrions avoir une s\u00e9lection de nourriture, de la viande froide, de la viande, du pain et du fromage.",
+      "composition_time": "2018-05-02T12:27:09.288715",
+      "preprocessing_begin": "2018-05-02T12:27:09.320394",
+      "preprocessing_end": "2018-05-02T12:27:11.477262",
+      "translation_begin": "2018-05-02T12:27:11.477374",
+      "translation_end": "2018-05-02T12:27:13.870395",
+      "postprocessing_begin": "2018-05-02T12:27:13.870610",
+      "postprocessing_end": "2018-05-02T12:27:13.900750",
+      "sent_time": "2018-05-02T12:27:13.902019",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-02T12:29:25.414069",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-02T12:29:30.633075",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-02T12:29:32.184346",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "mots proches non diff\u00e9renci\u00e9s? n\u00e9ologisme non reconnu?",
+            "2018-05-02T12:29:59.789797",
+            "2018-05-02T12:29:59.789797"
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "word choice",
+          "coherence"
+        ],
+        "verbatim": "mots proches non diff\u00e9renci\u00e9s? n\u00e9ologisme non reconnu?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:29:22.068500"
+          ]
+        ]
+      },
+      "reference_translation": "Pour la nourriture, on pourrait avoir des choses vari\u00e9es \u2014 de la viande froide, des currys, du pain et du fromage",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "and of course a cake!",
+      "preprocessed_text": "and of course a cake !",
+      "translated_text": "et bien s\u00fbr , un g\u00e2teau !",
+      "postprocessed_text": "Et bien s\u00fbr, un g\u00e2teau !",
+      "composition_time": "2018-05-02T12:27:14.088719",
+      "preprocessing_begin": "2018-05-02T12:27:14.141466",
+      "preprocessing_end": "2018-05-02T12:27:16.210601",
+      "translation_begin": "2018-05-02T12:27:16.210672",
+      "translation_end": "2018-05-02T12:27:16.708138",
+      "postprocessing_begin": "2018-05-02T12:27:16.708346",
+      "postprocessing_end": "2018-05-02T12:27:16.735935",
+      "sent_time": "2018-05-02T12:27:16.736853",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:30:07.067331"
+          ]
+        ]
+      },
+      "reference_translation": "et bien s\u00fbr un g\u00e2teau\u00a0!",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "english",
+      "original_text": "I'm not sure there was a particular type of food for the 1980s?",
+      "preprocessed_text": "I &apos;m not sure there was a particular type of food for the 1980s ?",
+      "translated_text": "je ne suis pas s\u00fbr qu&apos; il y ait une sorte de nourriture particuli\u00e8re pour les ann\u00e9es 80 ?",
+      "postprocessed_text": "Je ne suis pas s\u00fbr qu'il y ait une sorte de nourriture particuli\u00e8re pour les ann\u00e9es 80 ?",
+      "composition_time": "2018-05-02T12:27:51.049612",
+      "preprocessing_begin": "2018-05-02T12:27:51.083599",
+      "preprocessing_end": "2018-05-02T12:27:53.226324",
+      "translation_begin": "2018-05-02T12:27:53.226403",
+      "translation_end": "2018-05-02T12:27:54.915846",
+      "postprocessing_begin": "2018-05-02T12:27:54.916120",
+      "postprocessing_end": "2018-05-02T12:27:54.953650",
+      "sent_time": "2018-05-02T12:27:54.954658",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-02T12:30:11.478139",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "une sorte de/un type de",
+            "2018-05-02T12:30:19.289115",
+            "2018-05-02T12:30:19.289115"
+          ]
+        ],
+        "problems": [
+          "style"
+        ],
+        "verbatim": "une sorte de/un type de",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:30:09.811867"
+          ]
+        ]
+      },
+      "reference_translation": "Je ne sais pas trop s'il y a des nourritures typiques des ann\u00e9es 80.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "\u00c9videmment un g\u00e2teau!",
+      "preprocessed_text": "\u00e9videmment un g\u00e2teau !",
+      "translated_text": "of course a cake !",
+      "postprocessed_text": "Of course a cake!",
+      "composition_time": "2018-05-02T12:29:12.931696",
+      "preprocessing_begin": "2018-05-02T12:29:12.965489",
+      "preprocessing_end": "2018-05-02T12:29:15.301900",
+      "translation_begin": "2018-05-02T12:29:15.301987",
+      "translation_end": "2018-05-02T12:29:19.803025",
+      "postprocessing_begin": "2018-05-02T12:29:19.803397",
+      "postprocessing_end": "2018-05-02T12:29:19.839252",
+      "sent_time": "2018-05-02T12:29:19.840636",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:31:43.765947"
+          ]
+        ]
+      },
+      "reference_translation": "Obviously a cake!",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "C'est essentiel!",
+      "preprocessed_text": "c&apos; est essentiel !",
+      "translated_text": "it &apos;s essential !",
+      "postprocessed_text": "It's essential!",
+      "composition_time": "2018-05-02T12:29:12.931696",
+      "preprocessing_begin": "2018-05-02T12:29:12.965489",
+      "preprocessing_end": "2018-05-02T12:29:15.301900",
+      "translation_begin": "2018-05-02T12:29:15.301987",
+      "translation_end": "2018-05-02T12:29:19.803025",
+      "postprocessing_begin": "2018-05-02T12:29:19.803397",
+      "postprocessing_end": "2018-05-02T12:29:19.839252",
+      "sent_time": "2018-05-02T12:29:19.841509",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:31:44.719617"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s a must!",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "Je peux en faire un si tu veux.",
+      "preprocessed_text": "je peux en faire un si tu veux .",
+      "translated_text": "I can make one if you want .",
+      "postprocessed_text": "I can make one if you want.",
+      "composition_time": "2018-05-02T12:29:12.931696",
+      "preprocessing_begin": "2018-05-02T12:29:12.965489",
+      "preprocessing_end": "2018-05-02T12:29:15.301900",
+      "translation_begin": "2018-05-02T12:29:15.301987",
+      "translation_end": "2018-05-02T12:29:19.803025",
+      "postprocessing_begin": "2018-05-02T12:29:19.803397",
+      "postprocessing_end": "2018-05-02T12:29:19.839252",
+      "sent_time": "2018-05-02T12:29:19.842380",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:31:46.703022"
+          ]
+        ]
+      },
+      "reference_translation": "I could make you one if you want.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "J'adore faire de la p\u00e2tisserie.",
+      "preprocessed_text": "j&apos; adore faire de la p\u00e2tisserie .",
+      "translated_text": "I love baking .",
+      "postprocessed_text": "I love baking.",
+      "composition_time": "2018-05-02T12:29:12.931696",
+      "preprocessing_begin": "2018-05-02T12:29:12.965489",
+      "preprocessing_end": "2018-05-02T12:29:15.301900",
+      "translation_begin": "2018-05-02T12:29:15.301987",
+      "translation_end": "2018-05-02T12:29:19.803025",
+      "postprocessing_begin": "2018-05-02T12:29:19.803397",
+      "postprocessing_end": "2018-05-02T12:29:19.839252",
+      "sent_time": "2018-05-02T12:29:19.843242",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:31:47.727614"
+          ]
+        ]
+      },
+      "reference_translation": "I love baking.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "french",
+      "original_text": "On pourrait faire un g\u00e2teau avec un gla\u00e7age \u00e0 paillettes, \u00e7a fera disco style ann\u00e9es 80!",
+      "preprocessed_text": "on pourrait faire un g\u00e2teau avec un gla\u00e7age \u00e0 paillettes , \u00e7a fera disco style ann\u00e9es 80 !",
+      "translated_text": "we could bake a cake with glitter frosting , it &apos;ll be 80 @-@ year @-@ olds !",
+      "postprocessed_text": "We could bake a cake with glitter frosting, it'll be 80-year-olds!",
+      "composition_time": "2018-05-02T12:29:12.931696",
+      "preprocessing_begin": "2018-05-02T12:29:12.965489",
+      "preprocessing_end": "2018-05-02T12:29:15.301900",
+      "translation_begin": "2018-05-02T12:29:15.301987",
+      "translation_end": "2018-05-02T12:29:19.803025",
+      "postprocessing_begin": "2018-05-02T12:29:19.803397",
+      "postprocessing_end": "2018-05-02T12:29:19.839252",
+      "sent_time": "2018-05-02T12:29:19.844098",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T12:31:56.159945",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "I hope the cake won't be 80 years old!",
+            "2018-05-02T12:32:05.052510",
+            "2018-05-02T12:32:05.052510"
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "I hope the cake won't be 80 years old!",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:31:50.919483"
+          ]
+        ]
+      },
+      "reference_translation": "We could make a cake with glittery icing - like a 80\u2019s style disco!",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "french",
+      "original_text": "D'ailleurs, il faudra absolument qu'on danse!!",
+      "preprocessed_text": "d&apos; ailleurs , il faudra absolument qu&apos; on danse ! !",
+      "translated_text": "by the way , we &apos;re gonna have to dance !",
+      "postprocessed_text": "By the way, we're gonna have to dance!",
+      "composition_time": "2018-05-02T12:29:12.931696",
+      "preprocessing_begin": "2018-05-02T12:29:12.965489",
+      "preprocessing_end": "2018-05-02T12:29:15.301900",
+      "translation_begin": "2018-05-02T12:29:15.301987",
+      "translation_end": "2018-05-02T12:29:19.803025",
+      "postprocessing_begin": "2018-05-02T12:29:19.803397",
+      "postprocessing_end": "2018-05-02T12:29:19.839252",
+      "sent_time": "2018-05-02T12:29:19.844966",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:32:09.449360"
+          ]
+        ]
+      },
+      "reference_translation": "For that matter, we definitely need dancing!",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "english",
+      "original_text": "I'm up for dancing disco style!",
+      "preprocessed_text": "I &apos;m up for dancing disco style !",
+      "translated_text": "je suis pr\u00eat pour la danse du disco !",
+      "postprocessed_text": "Je suis pr\u00eat pour la danse du disco !",
+      "composition_time": "2018-05-02T12:30:25.906868",
+      "preprocessing_begin": "2018-05-02T12:30:25.940604",
+      "preprocessing_end": "2018-05-02T12:30:28.055200",
+      "translation_begin": "2018-05-02T12:30:28.055273",
+      "translation_end": "2018-05-02T12:30:29.848481",
+      "postprocessing_begin": "2018-05-02T12:30:29.848861",
+      "postprocessing_end": "2018-05-02T12:30:29.889157",
+      "sent_time": "2018-05-02T12:30:29.890478",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-02T12:32:19.155886",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "style"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:32:14.661054"
+          ]
+        ]
+      },
+      "reference_translation": "Je suis pr\u00eate pour danser en mode disco\u00a0!",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "english",
+      "original_text": "Talking of glitter, we could get a glitter ball",
+      "preprocessed_text": "talking of glitter , we could get a glitter ball",
+      "translated_text": "en parlant de paillettes , on pourrait avoir une boule de paillettes .",
+      "postprocessed_text": "En parlant de paillettes, on pourrait avoir une boule de paillettes.",
+      "composition_time": "2018-05-02T12:30:25.906868",
+      "preprocessing_begin": "2018-05-02T12:30:25.940604",
+      "preprocessing_end": "2018-05-02T12:30:28.055200",
+      "translation_begin": "2018-05-02T12:30:28.055273",
+      "translation_end": "2018-05-02T12:30:29.848481",
+      "postprocessing_begin": "2018-05-02T12:30:29.848861",
+      "postprocessing_end": "2018-05-02T12:30:29.889157",
+      "sent_time": "2018-05-02T12:30:29.891419",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T12:32:27.452134",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "boule \"de\" paillettes",
+            "2018-05-02T12:32:45.078134",
+            "2018-05-02T12:32:45.078134"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "boule \"de\" paillettes",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:32:23.048264"
+          ],
+          [
+            "medium",
+            "2018-05-02T12:32:24.881143"
+          ]
+        ]
+      },
+      "reference_translation": "\u00c0 propos de paillettes, on pourrait avoir une boule \u00e0 facettes.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "and thank you for offering to bake a cake, I'm sure it will look wonderful",
+      "preprocessed_text": "and thank you for offering to bake a cake , I &apos;m sure it will look wonderful",
+      "translated_text": "et merci d&apos; avoir propos\u00e9 de faire un g\u00e2teau , je suis s\u00fbr que \u00e7a ira tr\u00e8s bien .",
+      "postprocessed_text": "Et merci d'avoir propos\u00e9 de faire un g\u00e2teau, je suis s\u00fbr que \u00e7a ira tr\u00e8s bien.",
+      "composition_time": "2018-05-02T12:31:08.813964",
+      "preprocessing_begin": "2018-05-02T12:31:08.848855",
+      "preprocessing_end": "2018-05-02T12:31:11.250243",
+      "translation_begin": "2018-05-02T12:31:11.250306",
+      "translation_end": "2018-05-02T12:31:12.658179",
+      "postprocessing_begin": "2018-05-02T12:31:12.658545",
+      "postprocessing_end": "2018-05-02T12:31:12.686466",
+      "sent_time": "2018-05-02T12:31:12.687771",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T12:32:47.479151",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T12:32:45.065359"
+          ]
+        ]
+      },
+      "reference_translation": "Et merci d'avoir propos\u00e9 de faire un g\u00e2teau, je suis s\u00fbre qu'il sera magnifique.",
+      "normalised_version": "and thank you for offering to bake a cake, I'm sure it will look wonderful."
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Ah oui!",
+      "preprocessed_text": "ah oui !",
+      "translated_text": "oh , yeah .",
+      "postprocessed_text": "Oh, yeah.",
+      "composition_time": "2018-05-02T12:32:08.341757",
+      "preprocessing_begin": "2018-05-02T12:32:08.374278",
+      "preprocessing_end": "2018-05-02T12:32:10.676118",
+      "translation_begin": "2018-05-02T12:32:10.676203",
+      "translation_end": "2018-05-02T12:32:14.614568",
+      "postprocessing_begin": "2018-05-02T12:32:14.614810",
+      "postprocessing_end": "2018-05-02T12:32:14.653448",
+      "sent_time": "2018-05-02T12:32:14.654394",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:32:27.568192"
+          ]
+        ]
+      },
+      "reference_translation": "Oh yes!",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Je me souviens qu'\u00e0 l'\u00e9poque on en avait fabriqu\u00e9 une avec du polystyr\u00e8ne et des bouts de miroirs cass\u00e9s.",
+      "preprocessed_text": "je me souviens qu&apos; \u00e0 l&apos; \u00e9poque on en avait fabriqu\u00e9 une avec du polysty@@ r\u00e8ne et des bouts de miroirs cass\u00e9s .",
+      "translated_text": "I remember that at the time we made one with poly@@ sty@@ rene and broken mirrors .",
+      "postprocessed_text": "I remember that at the time we made one with polystyrene and broken mirrors.",
+      "composition_time": "2018-05-02T12:32:08.341757",
+      "preprocessing_begin": "2018-05-02T12:32:08.374278",
+      "preprocessing_end": "2018-05-02T12:32:10.676118",
+      "translation_begin": "2018-05-02T12:32:10.676203",
+      "translation_end": "2018-05-02T12:32:14.614568",
+      "postprocessing_begin": "2018-05-02T12:32:14.614810",
+      "postprocessing_end": "2018-05-02T12:32:14.653448",
+      "sent_time": "2018-05-02T12:32:14.654785",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:32:41.513039"
+          ]
+        ]
+      },
+      "reference_translation": "I remember back in the day that we made one out of polystyrene and pieces of broken mirror.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "On pourrait faire un petit atelier d\u00e9coration dimanche matin, comme \u00e7a tout sera pr\u00eat pour la f\u00eate le samedi d'apr\u00e8s.",
+      "preprocessed_text": "on pourrait faire un petit atelier d\u00e9coration dimanche matin , comme \u00e7a tout sera pr\u00eat pour la f\u00eate le samedi d&apos; apr\u00e8s .",
+      "translated_text": "we could do a little workshop on Sunday morning , and then everything will be ready for the party on Saturday .",
+      "postprocessed_text": "We could do a little workshop on Sunday morning, and then everything will be ready for the party on Saturday.",
+      "composition_time": "2018-05-02T12:32:08.341757",
+      "preprocessing_begin": "2018-05-02T12:32:08.374278",
+      "preprocessing_end": "2018-05-02T12:32:10.676118",
+      "translation_begin": "2018-05-02T12:32:10.676203",
+      "translation_end": "2018-05-02T12:32:14.614568",
+      "postprocessing_begin": "2018-05-02T12:32:14.614810",
+      "postprocessing_end": "2018-05-02T12:32:14.653448",
+      "sent_time": "2018-05-02T12:32:14.655197",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:32:46.345297"
+          ]
+        ]
+      },
+      "reference_translation": "We could do a decoration workshop on Sunday morning. That way everything will be ready for the party the following Saturday.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "That's a good plan!",
+      "preprocessed_text": "that &apos;s a good plan !",
+      "translated_text": "c&apos; est un bon plan !",
+      "postprocessed_text": "C'est un bon plan !",
+      "composition_time": "2018-05-02T12:33:18.329714",
+      "preprocessing_begin": "2018-05-02T12:33:18.367786",
+      "preprocessing_end": "2018-05-02T12:33:20.655394",
+      "translation_begin": "2018-05-02T12:33:20.655456",
+      "translation_end": "2018-05-02T12:33:21.189146",
+      "postprocessing_begin": "2018-05-02T12:33:21.189552",
+      "postprocessing_end": "2018-05-02T12:33:21.234085",
+      "sent_time": "2018-05-02T12:33:21.235537",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T12:33:40.765962"
+          ]
+        ]
+      },
+      "reference_translation": "Bonne id\u00e9e\u00a0!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "would_use": true,
+    "particular_problems": "- mots compos\u00e9s, peut-\u00eatre des n\u00e9ologismes?\r\n- sp\u00e9cificit\u00e9s li\u00e9es au dialogue en anglais (oui/non simple vs. formules \u00e9tendues yes, that would be great/yes, it is...)?",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "style": "average",
+    "verbatim_quality": "quelques bizarreries et incoh\u00e9rences",
+    "timestamp": "2018-05-02T12:37:26.576516",
+    "meaning": "poor",
+    "interface": ":-)",
+    "coherence": "good",
+    "word_choice": "poor",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "would_use": true,
+    "particular_problems": "",
+    "grammaticality": "excellent",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "verbatim_quality": "the nuances of what is being said is good.  just the occasional word meaning is incorrect",
+    "timestamp": "2018-05-02T12:34:39.278347",
+    "meaning": "excellent",
+    "interface": "",
+    "coherence": "excellent",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

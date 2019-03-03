@@ -1,0 +1,1893 @@
+{
+  "start_time": "2018-04-29T12:49:32.341838",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a classroom.",
+      "Vous \u00eates dans une salle de classe."
+    ],
+    [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ]
+  ],
+  "user1": {
+    "eval-stage": true,
+    "role_num": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6",
+    "lang": "french",
+    "role": [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    "turn_number": 2
+  },
+  "user2": {
+    "eval-stage": false,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "rolenum": 2,
+    "lang": "english",
+    "role": [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ],
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.162 Safari/537.36"
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Why do we learn about History?",
+      "preprocessed_text": "why do we learn about History ?",
+      "translated_text": "pourquoi on apprend l&apos; histoire ?",
+      "postprocessed_text": "Pourquoi on apprend l'histoire ?",
+      "composition_time": "2018-04-29T12:51:00.374098",
+      "preprocessing_begin": "2018-04-29T12:51:00.453111",
+      "preprocessing_end": "2018-04-29T12:51:02.965839",
+      "translation_begin": "2018-04-29T12:51:02.965921",
+      "translation_end": "2018-04-29T12:51:03.722292",
+      "postprocessing_begin": "2018-04-29T12:51:03.722746",
+      "postprocessing_end": "2018-04-29T12:51:03.762750",
+      "sent_time": "2018-04-29T12:51:03.764140",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Pourquoi est-ce qu'on apprend l'histoire\u00a0?",
+      "normalised_version": "Why do we learn about history?"
+    },
+    "1": {
+      "language": "french",
+      "original_text": "Mais mademoiselle, l'histoire est une discipline tr\u00e8s importante.",
+      "preprocessed_text": "mais mademoiselle , l&apos; histoire est une discipline tr\u00e8s importante .",
+      "translated_text": "but mademoiselle , history is a very important discipline .",
+      "postprocessed_text": "But mademoiselle, history is a very important discipline.",
+      "composition_time": "2018-04-29T12:51:40.315509",
+      "preprocessing_begin": "2018-04-29T12:51:40.383566",
+      "preprocessing_end": "2018-04-29T12:51:42.557717",
+      "translation_begin": "2018-04-29T12:51:42.557778",
+      "translation_end": "2018-04-29T12:51:44.546667",
+      "postprocessing_begin": "2018-04-29T12:51:44.546913",
+      "postprocessing_end": "2018-04-29T12:51:44.583136",
+      "sent_time": "2018-04-29T12:51:44.584211",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "But young lady, history is a very important subject.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Elle permet de comprendre le pr\u00e9sent et de pr\u00e9parer l'avenir en \u00e9tudiant le pass\u00e9.",
+      "preprocessed_text": "elle permet de comprendre le pr\u00e9sent et de pr\u00e9parer l&apos; avenir en \u00e9tudiant le pass\u00e9 .",
+      "translated_text": "it allows you to understand the present and prepare the future as a student of the past .",
+      "postprocessed_text": "It allows you to understand the present and prepare the future as a student of the past.",
+      "composition_time": "2018-04-29T12:51:40.315509",
+      "preprocessing_begin": "2018-04-29T12:51:40.383566",
+      "preprocessing_end": "2018-04-29T12:51:42.557717",
+      "translation_begin": "2018-04-29T12:51:42.557778",
+      "translation_end": "2018-04-29T12:51:44.546667",
+      "postprocessing_begin": "2018-04-29T12:51:44.546913",
+      "postprocessing_end": "2018-04-29T12:51:44.583136",
+      "sent_time": "2018-04-29T12:51:44.584954",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Through it you can understand the present and prepare for the future by studying the past.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Et puis \u00e7a fait partie de la culture g\u00e9n\u00e9rale de toute personne \u00e9duqu\u00e9e.",
+      "preprocessed_text": "et puis \u00e7a fait partie de la culture g\u00e9n\u00e9rale de toute personne \u00e9duqu\u00e9e .",
+      "translated_text": "and then it &apos;s part of the general culture of all educated people .",
+      "postprocessed_text": "And then it's part of the general culture of all educated people.",
+      "composition_time": "2018-04-29T12:51:56.001813",
+      "preprocessing_begin": "2018-04-29T12:51:56.069996",
+      "preprocessing_end": "2018-04-29T12:51:58.280173",
+      "translation_begin": "2018-04-29T12:51:58.280234",
+      "translation_end": "2018-04-29T12:51:59.240910",
+      "postprocessing_begin": "2018-04-29T12:51:59.241212",
+      "postprocessing_end": "2018-04-29T12:51:59.282435",
+      "sent_time": "2018-04-29T12:51:59.283254",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "And it\u2019s part of any educated person\u2019s general knowledge.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Ne pas conna\u00eetre l'histoire c'est venir de nulle part et \u00eatre perdu dans le pr\u00e9sent.",
+      "preprocessed_text": "ne pas conna\u00eetre l&apos; histoire c&apos; est venir de nulle part et \u00eatre perdu dans le pr\u00e9sent .",
+      "translated_text": "not knowing the story is come from nowhere and be lost in the present .",
+      "postprocessed_text": "Not knowing the story is come from nowhere and be lost in the present.",
+      "composition_time": "2018-04-29T12:52:09.213874",
+      "preprocessing_begin": "2018-04-29T12:52:09.279582",
+      "preprocessing_end": "2018-04-29T12:52:11.712315",
+      "translation_begin": "2018-04-29T12:52:11.712431",
+      "translation_end": "2018-04-29T12:52:12.825181",
+      "postprocessing_begin": "2018-04-29T12:52:12.825421",
+      "postprocessing_end": "2018-04-29T12:52:12.864887",
+      "sent_time": "2018-04-29T12:52:12.865807",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "meaning",
+          "coherence"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T12:52:34.822019"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-29T12:52:42.626543",
+            true
+          ],
+          [
+            "coherence",
+            "2018-04-29T12:52:45.175154",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Not knowing history means coming from nowhere and being lost in the present.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Why does school not teach us more about the negatives of debt and looking after our mental health?",
+      "preprocessed_text": "why does school not teach us more about the negatives of debt and looking after our mental health ?",
+      "translated_text": "pourquoi l&apos; \u00e9cole ne nous apprend pas plus sur les n\u00e9gatifs de la dette et \u00e0 la recherche de notre sant\u00e9 mentale ?",
+      "postprocessed_text": "Pourquoi l'\u00e9cole ne nous apprend pas plus sur les n\u00e9gatifs de la dette et \u00e0 la recherche de notre sant\u00e9 mentale ?",
+      "composition_time": "2018-04-29T12:55:09.471722",
+      "preprocessing_begin": "2018-04-29T12:55:09.551854",
+      "preprocessing_end": "2018-04-29T12:55:12.015342",
+      "translation_begin": "2018-04-29T12:55:12.015492",
+      "translation_end": "2018-04-29T12:55:14.161036",
+      "postprocessing_begin": "2018-04-29T12:55:14.161297",
+      "postprocessing_end": "2018-04-29T12:55:14.213258",
+      "sent_time": "2018-04-29T12:55:14.214207",
+      "eval": {
+        "judgment": "poor",
+        "verbatim": "",
+        "problems": [
+          "meaning",
+          "word choice",
+          "grammar"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-29T12:55:44.676791"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-29T12:55:56.440456",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-29T12:55:57.238191",
+            true
+          ],
+          [
+            "grammar",
+            "2018-04-29T12:56:00.657461",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Pourquoi est-ce qu'on n'en apprend pas plus \u00e0 l'\u00e9cole sur les inconv\u00e9nients de la dette et sur comment prendre soin de notre sant\u00e9 mentale\u00a0?",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "french",
+      "original_text": "Chaque professeur est sp\u00e9cialiste d'une discipline.",
+      "preprocessed_text": "chaque professeur est sp\u00e9cialiste d&apos; une discipline .",
+      "translated_text": "every teacher specializes in discipline .",
+      "postprocessed_text": "Every teacher specializes in discipline.",
+      "composition_time": "2018-04-29T12:56:19.286352",
+      "preprocessing_begin": "2018-04-29T12:56:19.352638",
+      "preprocessing_end": "2018-04-29T12:56:21.501014",
+      "translation_begin": "2018-04-29T12:56:21.501140",
+      "translation_end": "2018-04-29T12:56:22.192272",
+      "postprocessing_begin": "2018-04-29T12:56:22.192609",
+      "postprocessing_end": "2018-04-29T12:56:22.226760",
+      "sent_time": "2018-04-29T12:56:22.227613",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "meaning"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T12:56:48.562949"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-29T12:56:59.174831",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Each teacher is specialist in a subject.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Je suis d'accord avec vous que certains sujets ne sont pas assez trait\u00e9s.",
+      "preprocessed_text": "je suis d&apos; accord avec vous que certains sujets ne sont pas assez trait\u00e9s .",
+      "translated_text": "I agree with you that certain subjects are not treated enough .",
+      "postprocessed_text": "I agree with you that certain subjects are not treated enough.",
+      "composition_time": "2018-04-29T12:56:29.036232",
+      "preprocessing_begin": "2018-04-29T12:56:29.098438",
+      "preprocessing_end": "2018-04-29T12:56:31.318742",
+      "translation_begin": "2018-04-29T12:56:31.318825",
+      "translation_end": "2018-04-29T12:56:32.288427",
+      "postprocessing_begin": "2018-04-29T12:56:32.288648",
+      "postprocessing_end": "2018-04-29T12:56:32.322568",
+      "sent_time": "2018-04-29T12:56:32.323505",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T12:57:11.084001"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T12:57:22.724341",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "I agree with you that certain topics aren\u2019t dealt with enough.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Mais l'histoire est tr\u00e8s importante.",
+      "preprocessed_text": "mais l&apos; histoire est tr\u00e8s importante .",
+      "translated_text": "but the story is very important .",
+      "postprocessed_text": "But the story is very important.",
+      "composition_time": "2018-04-29T12:56:35.117670",
+      "preprocessing_begin": "2018-04-29T12:56:35.184648",
+      "preprocessing_end": "2018-04-29T12:56:37.721653",
+      "translation_begin": "2018-04-29T12:56:37.721757",
+      "translation_end": "2018-04-29T12:56:38.309886",
+      "postprocessing_begin": "2018-04-29T12:56:38.310208",
+      "postprocessing_end": "2018-04-29T12:56:38.353457",
+      "sent_time": "2018-04-29T12:56:38.354650",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "But history is important.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "C'est aussi par l'histoire que l'on comprend ce qu'est la d\u00e9mocratie, la politique, l'identit\u00e9 culturelle de son pays.",
+      "preprocessed_text": "c&apos; est aussi par l&apos; histoire que l&apos; on comprend ce qu&apos; est la d\u00e9mocratie , la politique , l&apos; identit\u00e9 culturelle de son pays .",
+      "translated_text": "it &apos;s also in the story that we understand what democracy is , politics , the cultural identity of his country .",
+      "postprocessed_text": "It's also in the story that we understand what democracy is, politics, the cultural identity of his country.",
+      "composition_time": "2018-04-29T12:56:57.577916",
+      "preprocessing_begin": "2018-04-29T12:56:57.641740",
+      "preprocessing_end": "2018-04-29T12:57:00.067535",
+      "translation_begin": "2018-04-29T12:57:00.067659",
+      "translation_end": "2018-04-29T12:57:02.047542",
+      "postprocessing_begin": "2018-04-29T12:57:02.047920",
+      "postprocessing_end": "2018-04-29T12:57:02.096270",
+      "sent_time": "2018-04-29T12:57:02.097685",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "not *his country, the cultural identity of *one's country",
+        "problems": [],
+        "verbatim_history": [
+          [
+            "not *his country, the cultural identity of *one's country",
+            "2018-04-29T12:58:06.044958",
+            "2018-04-29T12:58:06.044958"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T12:57:35.097394"
+          ]
+        ],
+        "problem_history": []
+      },
+      "reference_translation": "It\u2019s also through history that we can understand democracy, politics and our country\u2019s cultural identity.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Et puis \u00e7a ne vous fascine pas, les civilisations anciennes?",
+      "preprocessed_text": "et puis \u00e7a ne vous fascine pas , les civilisations anciennes ?",
+      "translated_text": "and it doesn &apos;t fascin@@ ate you , ancient civilizations ?",
+      "postprocessed_text": "And it doesn't fascinate you, ancient civilizations?",
+      "composition_time": "2018-04-29T12:57:09.973868",
+      "preprocessing_begin": "2018-04-29T12:57:10.044480",
+      "preprocessing_end": "2018-04-29T12:57:12.289599",
+      "translation_begin": "2018-04-29T12:57:12.289672",
+      "translation_end": "2018-04-29T12:57:13.380964",
+      "postprocessing_begin": "2018-04-29T12:57:13.381319",
+      "postprocessing_end": "2018-04-29T12:57:13.447300",
+      "sent_time": "2018-04-29T12:57:13.448868",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "And aren\u2019t you fascinated by ancient civilisations?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "La naissance de l'\u00e9criture?",
+      "preprocessed_text": "la naissance de l&apos; \u00e9criture ?",
+      "translated_text": "the birth of writing ?",
+      "postprocessed_text": "The birth of writing?",
+      "composition_time": "2018-04-29T12:57:14.385604",
+      "preprocessing_begin": "2018-04-29T12:57:14.454130",
+      "preprocessing_end": "2018-04-29T12:57:16.509962",
+      "translation_begin": "2018-04-29T12:57:16.510025",
+      "translation_end": "2018-04-29T12:57:17.204483",
+      "postprocessing_begin": "2018-04-29T12:57:17.204892",
+      "postprocessing_end": "2018-04-29T12:57:17.257105",
+      "sent_time": "2018-04-29T12:57:17.259216",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "The birth of writing?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "Yes I suppose it is very interesting, but it does not feel very relevant to the present",
+      "preprocessed_text": "yes I suppose it is very interesting , but it does not feel very relevant to the present",
+      "translated_text": "oui , je suppose que c&apos; est tr\u00e8s int\u00e9ressant , mais ce n&apos; est pas pertinent pour le pr\u00e9sent .",
+      "postprocessed_text": "Oui, je suppose que c'est tr\u00e8s int\u00e9ressant, mais ce n'est pas pertinent pour le pr\u00e9sent.",
+      "composition_time": "2018-04-29T12:58:31.254609",
+      "preprocessing_begin": "2018-04-29T12:58:31.320293",
+      "preprocessing_end": "2018-04-29T12:58:33.371520",
+      "translation_begin": "2018-04-29T12:58:33.371606",
+      "translation_end": "2018-04-29T12:58:35.283812",
+      "postprocessing_begin": "2018-04-29T12:58:35.284049",
+      "postprocessing_end": "2018-04-29T12:58:35.348411",
+      "sent_time": "2018-04-29T12:58:35.349544",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "\"je suppose\" > \"j'imagine\"",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"je suppose\" > \"j'imagine\"",
+            "2018-04-29T12:59:17.965668",
+            "2018-04-29T12:59:17.965668"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T12:59:05.233097"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T12:59:16.415691",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-29T12:59:16.621171",
+            false
+          ],
+          [
+            "word choice",
+            "2018-04-29T12:59:17.270581",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Oui, c'est s\u00fbrement tr\u00e8s int\u00e9ressant, mais \u00e7a n'a pas l'air tr\u00e8s pertinent par rapport au pr\u00e9sent.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Mais si, car l'histoire se r\u00e9p\u00e8te souvent.",
+      "preprocessed_text": "mais si , car l&apos; histoire se r\u00e9p\u00e8te souvent .",
+      "translated_text": "yes , it is , because the story often repeats itself .",
+      "postprocessed_text": "Yes, it is, because the story often repeats itself.",
+      "composition_time": "2018-04-29T13:00:15.396611",
+      "preprocessing_begin": "2018-04-29T13:00:15.463224",
+      "preprocessing_end": "2018-04-29T13:00:17.911582",
+      "translation_begin": "2018-04-29T13:00:17.911643",
+      "translation_end": "2018-04-29T13:00:20.369951",
+      "postprocessing_begin": "2018-04-29T13:00:20.370275",
+      "postprocessing_end": "2018-04-29T13:00:20.404684",
+      "sent_time": "2018-04-29T13:00:20.405752",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Of course it is, since history often repeats itself.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "\u00c9tudier les cons\u00e9quences de d\u00e9cisions qui ont \u00e9t\u00e9 prises dans le pass\u00e9 permet de comprendre quelles sont les bonnes d\u00e9cisions \u00e0 prendre aujourd'hui!",
+      "preprocessed_text": "\u00e9tudier les cons\u00e9quences de d\u00e9cisions qui ont \u00e9t\u00e9 prises dans le pass\u00e9 permet de comprendre quelles sont les bonnes d\u00e9cisions \u00e0 prendre aujourd&apos; hui !",
+      "translated_text": "studying the consequences of decisions that were taken in the past allows you to understand what the right decisions to make today !",
+      "postprocessed_text": "Studying the consequences of decisions that were taken in the past allows you to understand what the right decisions to make today!",
+      "composition_time": "2018-04-29T13:00:15.396611",
+      "preprocessing_begin": "2018-04-29T13:00:15.463224",
+      "preprocessing_end": "2018-04-29T13:00:17.911582",
+      "translation_begin": "2018-04-29T13:00:17.911643",
+      "translation_end": "2018-04-29T13:00:20.369951",
+      "postprocessing_begin": "2018-04-29T13:00:20.370275",
+      "postprocessing_end": "2018-04-29T13:00:20.404684",
+      "sent_time": "2018-04-29T13:00:20.406509",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "decisions that were *made/ what the right decisions to make *are today",
+        "problems": [],
+        "verbatim_history": [
+          [
+            "decisions that were *made/ what the right decisions to make *are today",
+            "2018-04-29T13:01:14.713606",
+            "2018-04-29T13:01:14.713606"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:00:46.305785"
+          ]
+        ],
+        "problem_history": []
+      },
+      "reference_translation": "Studying the consequences of decisions taken in the past allows us to understand which are the good decisions to take today!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Prenons un exemple.",
+      "preprocessed_text": "prenons un exemple .",
+      "translated_text": "let &apos;s take an example .",
+      "postprocessed_text": "Let's take an example.",
+      "composition_time": "2018-04-29T13:02:09.652588",
+      "preprocessing_begin": "2018-04-29T13:02:09.722540",
+      "preprocessing_end": "2018-04-29T13:02:12.035599",
+      "translation_begin": "2018-04-29T13:02:12.035690",
+      "translation_end": "2018-04-29T13:02:12.538719",
+      "postprocessing_begin": "2018-04-29T13:02:12.539042",
+      "postprocessing_end": "2018-04-29T13:02:12.575366",
+      "sent_time": "2018-04-29T13:02:12.576517",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Let\u2019s take an example.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Apr\u00e8s la premi\u00e8re guerre mondiale, les vainqueurs ont d\u00e9cid\u00e9 de demander des r\u00e9parations tr\u00e8s \u00e9lev\u00e9es \u00e0 l'Allemagne.",
+      "preprocessed_text": "apr\u00e8s la premi\u00e8re guerre mondiale , les vainqueurs ont d\u00e9cid\u00e9 de demander des r\u00e9parations tr\u00e8s \u00e9lev\u00e9es \u00e0 l&apos; Allemagne .",
+      "translated_text": "after the first world war , the winners have decided to ask for some very high repairs in Germany .",
+      "postprocessed_text": "After the first world war, the winners have decided to ask for some very high repairs in Germany.",
+      "composition_time": "2018-04-29T13:02:49.339485",
+      "preprocessing_begin": "2018-04-29T13:02:49.406180",
+      "preprocessing_end": "2018-04-29T13:02:51.468460",
+      "translation_begin": "2018-04-29T13:02:51.468528",
+      "translation_end": "2018-04-29T13:02:54.602574",
+      "postprocessing_begin": "2018-04-29T13:02:54.602881",
+      "postprocessing_end": "2018-04-29T13:02:54.634206",
+      "sent_time": "2018-04-29T13:02:54.634952",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:03:42.481977"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:03:44.300237",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "After the first world war the victors decided to make Germany pay huge reparations.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "\u00c7a repr\u00e9sentait une fortune.",
+      "preprocessed_text": "\u00e7a repr\u00e9sentait une fortune .",
+      "translated_text": "it meant a fortune .",
+      "postprocessed_text": "It meant a fortune.",
+      "composition_time": "2018-04-29T13:02:49.339485",
+      "preprocessing_begin": "2018-04-29T13:02:49.406180",
+      "preprocessing_end": "2018-04-29T13:02:51.468460",
+      "translation_begin": "2018-04-29T13:02:51.468528",
+      "translation_end": "2018-04-29T13:02:54.602574",
+      "postprocessing_begin": "2018-04-29T13:02:54.602881",
+      "postprocessing_end": "2018-04-29T13:02:54.634206",
+      "sent_time": "2018-04-29T13:02:54.635316",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:03:48.015957"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:03:50.223031",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "It was a fortune.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "french",
+      "original_text": "\u00c7a a ruin\u00e9 l'\u00e9conomie allemande, et a conduit indirectement \u00e0 la seconde guerre mondiale.",
+      "preprocessed_text": "\u00e7a a ruin\u00e9 l&apos; \u00e9conomie allemande , et a conduit indirectement \u00e0 la seconde guerre mondiale .",
+      "translated_text": "it ruined the German economy , and drove indirectly into World War II .",
+      "postprocessed_text": "It ruined the German economy, and drove indirectly into World War II.",
+      "composition_time": "2018-04-29T13:02:49.339485",
+      "preprocessing_begin": "2018-04-29T13:02:49.406180",
+      "preprocessing_end": "2018-04-29T13:02:51.468460",
+      "translation_begin": "2018-04-29T13:02:51.468528",
+      "translation_end": "2018-04-29T13:02:54.602574",
+      "postprocessing_begin": "2018-04-29T13:02:54.602881",
+      "postprocessing_end": "2018-04-29T13:02:54.634206",
+      "sent_time": "2018-04-29T13:02:54.636050",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "It ruined the German economy and indirectly led to the second world war.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Apr\u00e8s la seconde guerre mondiale, les vainqueurs ont compris gr\u00e2ce \u00e0 cela qu'il ne fallait pas recommencer la m\u00eame erreur.",
+      "preprocessed_text": "apr\u00e8s la seconde guerre mondiale , les vainqueurs ont compris gr\u00e2ce \u00e0 cela qu&apos; il ne fallait pas recommencer la m\u00eame erreur .",
+      "translated_text": "after the second world war , the winners understood because of what it was that we didn &apos;t have to make the same mistake again .",
+      "postprocessed_text": "After the second world war, the winners understood because of what it was that we didn't have to make the same mistake again.",
+      "composition_time": "2018-04-29T13:03:24.770848",
+      "preprocessing_begin": "2018-04-29T13:03:24.831971",
+      "preprocessing_end": "2018-04-29T13:03:27.165866",
+      "translation_begin": "2018-04-29T13:03:27.165930",
+      "translation_end": "2018-04-29T13:03:30.353927",
+      "postprocessing_begin": "2018-04-29T13:03:30.354222",
+      "postprocessing_end": "2018-04-29T13:03:30.385415",
+      "sent_time": "2018-04-29T13:03:30.386208",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:04:04.625218"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-29T13:04:07.953749",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-29T13:04:12.636105",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "In the aftermath of the second world war, the victors understood as a result that they mustn\u2019t commit the same error again.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Et ils ont construit l'Europe \u00e0 la place.",
+      "preprocessed_text": "et ils ont construit l&apos; Europe \u00e0 la place .",
+      "translated_text": "and they built Europe instead .",
+      "postprocessed_text": "And they built Europe instead.",
+      "composition_time": "2018-04-29T13:03:24.770848",
+      "preprocessing_begin": "2018-04-29T13:03:24.831971",
+      "preprocessing_end": "2018-04-29T13:03:27.165866",
+      "translation_begin": "2018-04-29T13:03:27.165930",
+      "translation_end": "2018-04-29T13:03:30.353927",
+      "postprocessing_begin": "2018-04-29T13:03:30.354222",
+      "postprocessing_end": "2018-04-29T13:03:30.385415",
+      "sent_time": "2018-04-29T13:03:30.386596",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "And they created Europe instead.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Et maintenant, nous vivons en paix depuis 70 ans en Europe.",
+      "preprocessed_text": "et maintenant , nous vivons en paix depuis 70 ans en Europe .",
+      "translated_text": "and now we &apos;ve lived in peace for 70 years in Europe .",
+      "postprocessed_text": "And now we've lived in peace for 70 years in Europe.",
+      "composition_time": "2018-04-29T13:03:24.770848",
+      "preprocessing_begin": "2018-04-29T13:03:24.831971",
+      "preprocessing_end": "2018-04-29T13:03:27.165866",
+      "translation_begin": "2018-04-29T13:03:27.165930",
+      "translation_end": "2018-04-29T13:03:30.353927",
+      "postprocessing_begin": "2018-04-29T13:03:30.354222",
+      "postprocessing_end": "2018-04-29T13:03:30.385415",
+      "sent_time": "2018-04-29T13:03:30.386980",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "And now we\u2019ve lived in peace for 70 years in Europe.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "english",
+      "original_text": "That is true.",
+      "preprocessed_text": "that is true .",
+      "translated_text": "c&apos; est vrai .",
+      "postprocessed_text": "C'est vrai.",
+      "composition_time": "2018-04-29T13:07:33.529345",
+      "preprocessing_begin": "2018-04-29T13:07:33.591489",
+      "preprocessing_end": "2018-04-29T13:07:36.001076",
+      "translation_begin": "2018-04-29T13:07:36.001160",
+      "translation_end": "2018-04-29T13:07:38.665929",
+      "postprocessing_begin": "2018-04-29T13:07:38.666394",
+      "postprocessing_end": "2018-04-29T13:07:38.709534",
+      "sent_time": "2018-04-29T13:07:38.711907",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "C'est vrai.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "english",
+      "original_text": "Do you think that one day in the future children will not need to learn to write with a pen and just use a computer instead?",
+      "preprocessed_text": "do you think that one day in the future children will not need to learn to write with a pen and just use a computer instead ?",
+      "translated_text": "pensez @-@ vous qu&apos; un jour dans les futurs enfants n&apos; aura pas besoin d&apos; apprendre \u00e0 \u00e9crire avec un stylo et juste utiliser un ordinateur \u00e0 la place ?",
+      "postprocessed_text": "Pensez-vous qu'un jour dans les futurs enfants n'aura pas besoin d'apprendre \u00e0 \u00e9crire avec un stylo et juste utiliser un ordinateur \u00e0 la place ?",
+      "composition_time": "2018-04-29T13:07:33.529345",
+      "preprocessing_begin": "2018-04-29T13:07:33.591489",
+      "preprocessing_end": "2018-04-29T13:07:36.001076",
+      "translation_begin": "2018-04-29T13:07:36.001160",
+      "translation_end": "2018-04-29T13:07:38.665929",
+      "postprocessing_begin": "2018-04-29T13:07:38.666394",
+      "postprocessing_end": "2018-04-29T13:07:38.709534",
+      "sent_time": "2018-04-29T13:07:38.713629",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "grammar",
+          "style"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:07:46.284057"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-29T13:07:50.867245",
+            true
+          ],
+          [
+            "style",
+            "2018-04-29T13:07:58.404665",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Vous pensez qu'un jour dans le futur les enfants n'auront pas besoin d'apprendre \u00e0 \u00e9crire avec un stylo et utiliseront juste un ordinateur \u00e0 la place\u00a0?",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Je ne pense pas.",
+      "preprocessed_text": "je ne pense pas .",
+      "translated_text": "I don &apos;t think so .",
+      "postprocessed_text": "I don't think so.",
+      "composition_time": "2018-04-29T13:08:21.510860",
+      "preprocessing_begin": "2018-04-29T13:08:21.549384",
+      "preprocessing_end": "2018-04-29T13:08:23.882108",
+      "translation_begin": "2018-04-29T13:08:23.882189",
+      "translation_end": "2018-04-29T13:08:25.718127",
+      "postprocessing_begin": "2018-04-29T13:08:25.718422",
+      "postprocessing_end": "2018-04-29T13:08:25.767828",
+      "sent_time": "2018-04-29T13:08:25.769144",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "I don\u2019t think so.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "Il faudra toujours \u00eatre capable d'\u00e9crire des lettres, de signer des documents...",
+      "preprocessed_text": "il faudra toujours \u00eatre capable d&apos; \u00e9crire des lettres , de signer des documents ...",
+      "translated_text": "you &apos;ll always have to be able to write letters , sign documents ...",
+      "postprocessed_text": "You'll always have to be able to write letters, sign documents...",
+      "composition_time": "2018-04-29T13:08:21.510860",
+      "preprocessing_begin": "2018-04-29T13:08:21.549384",
+      "preprocessing_end": "2018-04-29T13:08:23.882108",
+      "translation_begin": "2018-04-29T13:08:23.882189",
+      "translation_end": "2018-04-29T13:08:25.718127",
+      "postprocessing_begin": "2018-04-29T13:08:25.718422",
+      "postprocessing_end": "2018-04-29T13:08:25.767828",
+      "sent_time": "2018-04-29T13:08:25.769986",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "We\u2019ll always need to write letters, sign documents\u2026",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "Mais vous, qu'est-ce qui vous int\u00e9resse?",
+      "preprocessed_text": "mais vous , qu&apos; est @-@ ce qui vous int\u00e9resse ?",
+      "translated_text": "but what are you interested in ?",
+      "postprocessed_text": "But what are you interested in?",
+      "composition_time": "2018-04-29T13:08:26.274801",
+      "preprocessing_begin": "2018-04-29T13:08:26.336596",
+      "preprocessing_end": "2018-04-29T13:08:28.729743",
+      "translation_begin": "2018-04-29T13:08:28.729835",
+      "translation_end": "2018-04-29T13:08:29.393682",
+      "postprocessing_begin": "2018-04-29T13:08:29.393997",
+      "postprocessing_end": "2018-04-29T13:08:29.428707",
+      "sent_time": "2018-04-29T13:08:29.429496",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "So what are you interested in?",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "french",
+      "original_text": "Quelles sont les mati\u00e8res qui vous semblent utiles?",
+      "preprocessed_text": "quelles sont les mati\u00e8res qui vous semblent utiles ?",
+      "translated_text": "what are the subjects that seem useful to you ?",
+      "postprocessed_text": "What are the subjects that seem useful to you?",
+      "composition_time": "2018-04-29T13:08:43.721497",
+      "preprocessing_begin": "2018-04-29T13:08:43.786267",
+      "preprocessing_end": "2018-04-29T13:08:45.863805",
+      "translation_begin": "2018-04-29T13:08:45.863896",
+      "translation_end": "2018-04-29T13:08:46.741733",
+      "postprocessing_begin": "2018-04-29T13:08:46.742076",
+      "postprocessing_end": "2018-04-29T13:08:46.777454",
+      "sent_time": "2018-04-29T13:08:46.778648",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Which subjects do you find useful?",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "I am very passionate about looking after the planet",
+      "preprocessed_text": "I am very passionate about looking after the planet",
+      "translated_text": "je suis tr\u00e8s passionn\u00e9 par la recherche de la plan\u00e8te .",
+      "postprocessed_text": "Je suis tr\u00e8s passionn\u00e9 par la recherche de la plan\u00e8te.",
+      "composition_time": "2018-04-29T13:09:02.034650",
+      "preprocessing_begin": "2018-04-29T13:09:02.096659",
+      "preprocessing_end": "2018-04-29T13:09:04.395361",
+      "translation_begin": "2018-04-29T13:09:04.395505",
+      "translation_end": "2018-04-29T13:09:05.529486",
+      "postprocessing_begin": "2018-04-29T13:09:05.529768",
+      "postprocessing_end": "2018-04-29T13:09:05.580219",
+      "sent_time": "2018-04-29T13:09:05.581397",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "\"de la\" -> \"sur la\" ?",
+        "problems": [
+          "meaning",
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"de la\" -> \"sur la\" ?",
+            "2018-04-29T13:10:29.128828",
+            "2018-04-29T13:10:29.128828"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:10:15.819357"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-29T13:10:19.621994",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-29T13:10:20.319293",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Prendre soin de la plan\u00e8te, \u00e7a \u00e7a me passionne vraiment.",
+      "normalised_version": "I am very passionate about looking after the planet."
+    },
+    "29": {
+      "language": "english",
+      "original_text": "And making sure that we look after it",
+      "preprocessed_text": "and making sure that we look after it",
+      "translated_text": "et s&apos; assurer qu&apos; on s&apos; en occupe .",
+      "postprocessed_text": "Et s'assurer qu'on s'en occupe.",
+      "composition_time": "2018-04-29T13:09:12.197113",
+      "preprocessing_begin": "2018-04-29T13:09:12.258401",
+      "preprocessing_end": "2018-04-29T13:09:14.744718",
+      "translation_begin": "2018-04-29T13:09:14.744791",
+      "translation_end": "2018-04-29T13:09:15.726758",
+      "postprocessing_begin": "2018-04-29T13:09:15.727055",
+      "postprocessing_end": "2018-04-29T13:09:15.777171",
+      "sent_time": "2018-04-29T13:09:15.778120",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "word choice",
+          "meaning"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:10:30.137286"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:10:32.455356",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-29T13:10:33.619564",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Et savoir quoi faire pour en prendre soin.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "english",
+      "original_text": "by recycling, being mindful of the ocean and finding new sources of energy",
+      "preprocessed_text": "by recycling , being mindful of the ocean and finding new sources of energy",
+      "translated_text": "par le recyclage , \u00eatre attentif \u00e0 l&apos; oc\u00e9an et trouver de nouvelles sources d&apos; \u00e9nergie .",
+      "postprocessed_text": "Par le recyclage, \u00eatre attentif \u00e0 l'oc\u00e9an et trouver de nouvelles sources d'\u00e9nergie.",
+      "composition_time": "2018-04-29T13:09:55.711139",
+      "preprocessing_begin": "2018-04-29T13:09:55.781732",
+      "preprocessing_end": "2018-04-29T13:09:58.190297",
+      "translation_begin": "2018-04-29T13:09:58.190378",
+      "translation_end": "2018-04-29T13:09:59.589118",
+      "postprocessing_begin": "2018-04-29T13:09:59.589508",
+      "postprocessing_end": "2018-04-29T13:09:59.645935",
+      "sent_time": "2018-04-29T13:09:59.647316",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "",
+        "problems": [
+          "style"
+        ],
+        "verbatim_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:10:41.370407"
+          ]
+        ],
+        "problem_history": [
+          [
+            "style",
+            "2018-04-29T13:10:48.223497",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "En recyclant, en prenant soin des oc\u00e9ans et en trouvant de nouvelles sources d'\u00e9nergie.",
+      "normalised_version": "by recycling, being mindful of the ocean and finding new sources of energy."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Oui, ce sont des sujets tr\u00e8s importants, vous avez raison.",
+      "preprocessed_text": "oui , ce sont des sujets tr\u00e8s importants , vous avez raison .",
+      "translated_text": "yes , they &apos;re very important subjects , you &apos;re right .",
+      "postprocessed_text": "Yes, they're very important subjects, you're right.",
+      "composition_time": "2018-04-29T13:11:02.796053",
+      "preprocessing_begin": "2018-04-29T13:11:02.860233",
+      "preprocessing_end": "2018-04-29T13:11:05.103330",
+      "translation_begin": "2018-04-29T13:11:05.103470",
+      "translation_end": "2018-04-29T13:11:06.017021",
+      "postprocessing_begin": "2018-04-29T13:11:06.017357",
+      "postprocessing_end": "2018-04-29T13:11:06.050068",
+      "sent_time": "2018-04-29T13:11:06.052062",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Yes, they are very important topics, you\u2019re right.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Vous envisagez de faire des \u00e9tudes dans ce domaine?",
+      "preprocessed_text": "vous envisagez de faire des \u00e9tudes dans ce domaine ?",
+      "translated_text": "are you planning to study in this field ?",
+      "postprocessed_text": "Are you planning to study in this field?",
+      "composition_time": "2018-04-29T13:11:12.338774",
+      "preprocessing_begin": "2018-04-29T13:11:12.405511",
+      "preprocessing_end": "2018-04-29T13:11:15.094084",
+      "translation_begin": "2018-04-29T13:11:15.094174",
+      "translation_end": "2018-04-29T13:11:15.925465",
+      "postprocessing_begin": "2018-04-29T13:11:15.925759",
+      "postprocessing_end": "2018-04-29T13:11:15.974826",
+      "sent_time": "2018-04-29T13:11:15.976136",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Do you plan on studying it?",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "english",
+      "original_text": "I would like to study more about the planet and how we can change our behaviour for the better",
+      "preprocessed_text": "I would like to study more about the planet and how we can change our behaviour for the better",
+      "translated_text": "je voudrais en savoir plus sur la plan\u00e8te et comment nous pouvons changer notre comportement pour le meilleur .",
+      "postprocessed_text": "Je voudrais en savoir plus sur la plan\u00e8te et comment nous pouvons changer notre comportement pour le meilleur.",
+      "composition_time": "2018-04-29T13:11:39.970534",
+      "preprocessing_begin": "2018-04-29T13:11:40.037517",
+      "preprocessing_end": "2018-04-29T13:11:42.134554",
+      "translation_begin": "2018-04-29T13:11:42.134637",
+      "translation_end": "2018-04-29T13:11:43.927206",
+      "postprocessing_begin": "2018-04-29T13:11:43.927518",
+      "postprocessing_end": "2018-04-29T13:11:43.963371",
+      "sent_time": "2018-04-29T13:11:43.964412",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "\"pour le meilleur\"",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"pour le meilleur\"",
+            "2018-04-29T13:12:58.623256",
+            "2018-04-29T13:12:58.623256"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:12:51.755802"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:12:56.412025",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "J'aimerais travailler plus sur la plan\u00e8te et sur la fa\u00e7on d'am\u00e9liorer notre comportement.",
+      "normalised_version": "I would like to study more about the planet and how we can change our behaviour for the better."
+    },
+    "34": {
+      "language": "english",
+      "original_text": "But I also really enjoy reading and theatre",
+      "preprocessed_text": "but I also really enjoy reading and theatre",
+      "translated_text": "mais j&apos; aime aussi la lecture et le th\u00e9\u00e2tre .",
+      "postprocessed_text": "Mais j'aime aussi la lecture et le th\u00e9\u00e2tre.",
+      "composition_time": "2018-04-29T13:12:21.122399",
+      "preprocessing_begin": "2018-04-29T13:12:21.185543",
+      "preprocessing_end": "2018-04-29T13:12:23.752445",
+      "translation_begin": "2018-04-29T13:12:23.752562",
+      "translation_end": "2018-04-29T13:12:24.540144",
+      "postprocessing_begin": "2018-04-29T13:12:24.540496",
+      "postprocessing_end": "2018-04-29T13:12:24.589707",
+      "sent_time": "2018-04-29T13:12:24.590551",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Mais j'aime aussi beaucoup lire et le th\u00e9\u00e2tre.",
+      "normalised_version": "But I also really enjoy reading and theatre."
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Vous devriez commencer \u00e0 vous renseigner pour savoir dans quelles universit\u00e9s il y a des cursus qui pourraient vous int\u00e9resser.",
+      "preprocessed_text": "vous devriez commencer \u00e0 vous renseigner pour savoir dans quelles universit\u00e9s il y a des cur@@ sus qui pourraient vous int\u00e9resser .",
+      "translated_text": "you might want to start looking into which schools there are cur@@ sus that might interest you .",
+      "postprocessed_text": "You might want to start looking into which schools there are cursus that might interest you.",
+      "composition_time": "2018-04-29T13:13:58.471182",
+      "preprocessing_begin": "2018-04-29T13:13:58.542131",
+      "preprocessing_end": "2018-04-29T13:14:00.628386",
+      "translation_begin": "2018-04-29T13:14:00.628447",
+      "translation_end": "2018-04-29T13:14:02.007493",
+      "postprocessing_begin": "2018-04-29T13:14:02.007897",
+      "postprocessing_end": "2018-04-29T13:14:02.038850",
+      "sent_time": "2018-04-29T13:14:02.039711",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "*courses",
+        "problems": [
+          "other"
+        ],
+        "verbatim_history": [
+          [
+            "*courses",
+            "2018-04-29T13:14:50.855868",
+            "2018-04-29T13:14:50.855868"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:14:28.599529"
+          ]
+        ],
+        "problem_history": [
+          [
+            "other",
+            "2018-04-29T13:14:35.058245",
+            true
+          ],
+          [
+            "other",
+            "2018-04-29T13:14:36.781422",
+            false
+          ],
+          [
+            "grammar",
+            "2018-04-29T13:14:42.675054",
+            true
+          ],
+          [
+            "other",
+            "2018-04-29T13:14:47.379565",
+            true
+          ],
+          [
+            "grammar",
+            "2018-04-29T13:14:49.051140",
+            false
+          ]
+        ]
+      },
+      "reference_translation": "You should start to look into which universities have courses that might interest you.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "Mais l'environnement est une discipline vraiment passionnante et tr\u00e8s importante pour notre avenir, donc je vous encourage dans cette voie!",
+      "preprocessed_text": "mais l&apos; environnement est une discipline vraiment passionnante et tr\u00e8s importante pour notre avenir , donc je vous encourage dans cette voie !",
+      "translated_text": "but the environment is a very exciting and very important discipline for our future , so I encourage you in this path !",
+      "postprocessed_text": "But the environment is a very exciting and very important discipline for our future, so I encourage you in this path!",
+      "composition_time": "2018-04-29T13:14:44.925933",
+      "preprocessing_begin": "2018-04-29T13:14:44.967319",
+      "preprocessing_end": "2018-04-29T13:14:47.153156",
+      "translation_begin": "2018-04-29T13:14:47.153233",
+      "translation_end": "2018-04-29T13:14:48.810298",
+      "postprocessing_begin": "2018-04-29T13:14:48.810504",
+      "postprocessing_end": "2018-04-29T13:14:48.860380",
+      "sent_time": "2018-04-29T13:14:48.861739",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "But the environment is a really fascinating subject and is very important for our future, so I encourage you to keep at it!",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "english",
+      "original_text": "Do I need a University Degree to get a job working to change the environment?",
+      "preprocessed_text": "do I need a University De@@ gree to get a job working to change the environment ?",
+      "translated_text": "est @-@ ce que j&apos; ai besoin d&apos; un dipl\u00f4me universitaire pour avoir un emploi pour changer l&apos; environnement ?",
+      "postprocessed_text": "Est-ce que j'ai besoin d'un dipl\u00f4me universitaire pour avoir un emploi pour changer l'environnement ?",
+      "composition_time": "2018-04-29T13:15:38.764083",
+      "preprocessing_begin": "2018-04-29T13:15:38.832408",
+      "preprocessing_end": "2018-04-29T13:15:41.136310",
+      "translation_begin": "2018-04-29T13:15:41.136389",
+      "translation_end": "2018-04-29T13:15:43.160218",
+      "postprocessing_begin": "2018-04-29T13:15:43.160599",
+      "postprocessing_end": "2018-04-29T13:15:43.209770",
+      "sent_time": "2018-04-29T13:15:43.210840",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Est-ce que j'ai besoin d'un dipl\u00f4me universitaire pour trouver un travail o\u00f9 je pourrais changer l'environnement\u00a0?",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "\u00c7a d\u00e9pend de ce que vous voulez faire comme m\u00e9tier.",
+      "preprocessed_text": "\u00e7a d\u00e9pend de ce que vous voulez faire comme m\u00e9tier .",
+      "translated_text": "depends on what you want to do .",
+      "postprocessed_text": "Depends on what you want to do.",
+      "composition_time": "2018-04-29T13:15:53.827155",
+      "preprocessing_begin": "2018-04-29T13:15:53.887073",
+      "preprocessing_end": "2018-04-29T13:15:56.102003",
+      "translation_begin": "2018-04-29T13:15:56.102087",
+      "translation_end": "2018-04-29T13:15:56.946893",
+      "postprocessing_begin": "2018-04-29T13:15:56.947327",
+      "postprocessing_end": "2018-04-29T13:15:56.992699",
+      "sent_time": "2018-04-29T13:15:56.993995",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "It depends what you want to do for a career.",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "french",
+      "original_text": "On n'a pas besoin de dipl\u00f4me universitaire pour changer son comportement au quotidien, et pour inciter son entourage \u00e0 faire de m\u00eame.",
+      "preprocessed_text": "on n&apos; a pas besoin de dipl\u00f4me universitaire pour changer son comportement au quotidien , et pour inciter son entourage \u00e0 faire de m\u00eame .",
+      "translated_text": "we don &apos;t need a college degree to change his behavior daily , and to encourage people to do the same .",
+      "postprocessed_text": "We don't need a college degree to change his behavior daily, and to encourage people to do the same.",
+      "composition_time": "2018-04-29T13:16:13.531181",
+      "preprocessing_begin": "2018-04-29T13:16:13.593576",
+      "preprocessing_end": "2018-04-29T13:16:16.110011",
+      "translation_begin": "2018-04-29T13:16:16.110112",
+      "translation_end": "2018-04-29T13:16:17.968049",
+      "postprocessing_begin": "2018-04-29T13:16:17.968431",
+      "postprocessing_end": "2018-04-29T13:16:18.001980",
+      "sent_time": "2018-04-29T13:16:18.003047",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "to change *our behaviour",
+        "problems": [
+          "meaning",
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "to change *our behaviour",
+            "2018-04-29T13:17:32.614676",
+            "2018-04-29T13:17:32.614676"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:16:29.365234"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-29T13:17:03.247902",
+            true
+          ],
+          [
+            "grammar",
+            "2018-04-29T13:17:12.269461",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "You don\u2019t need a degree to change your day-to-day behaviour and to encourage those around you to do the same.",
+      "normalised_version": ""
+    },
+    "40": {
+      "language": "french",
+      "original_text": "Mais si vous voulez allez plus loin, par exemple dans la recherche ou l'ing\u00e9nierie, alors vous aurez besoin de comp\u00e9tences et de dipl\u00f4mes que seules des \u00e9tudes sup\u00e9rieures peuvent vous donner.",
+      "preprocessed_text": "mais si vous voulez allez plus loin , par exemple dans la recherche ou l&apos; ing\u00e9nierie , alors vous aurez besoin de comp\u00e9tences et de dipl\u00f4mes que seules des \u00e9tudes sup\u00e9rieures peuvent vous donner .",
+      "translated_text": "but if you want to go further , for example in research or engineering , then you &apos;ll need skills and degrees that only higher studies can give you .",
+      "postprocessed_text": "But if you want to go further, for example in research or engineering, then you'll need skills and degrees that only higher studies can give you.",
+      "composition_time": "2018-04-29T13:16:46.176427",
+      "preprocessing_begin": "2018-04-29T13:16:46.237042",
+      "preprocessing_end": "2018-04-29T13:16:48.717377",
+      "translation_begin": "2018-04-29T13:16:48.717456",
+      "translation_end": "2018-04-29T13:16:51.179803",
+      "postprocessing_begin": "2018-04-29T13:16:51.180192",
+      "postprocessing_end": "2018-04-29T13:16:51.217518",
+      "sent_time": "2018-04-29T13:16:51.218486",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "But if you want to go further, for example by going into research or engineering, you\u2019ll need skills and degrees that only higher education can give you.",
+      "normalised_version": ""
+    },
+    "41": {
+      "language": "english",
+      "original_text": "If we all used computers at school it would be better for the planet!",
+      "preprocessed_text": "if we all used computers at school it would be better for the planet !",
+      "translated_text": "si on utilisait tous les ordinateurs \u00e0 l&apos; \u00e9cole , ce serait mieux pour la plan\u00e8te !",
+      "postprocessed_text": "Si on utilisait tous les ordinateurs \u00e0 l'\u00e9cole, ce serait mieux pour la plan\u00e8te !",
+      "composition_time": "2018-04-29T13:19:29.260342",
+      "preprocessing_begin": "2018-04-29T13:19:29.325164",
+      "preprocessing_end": "2018-04-29T13:19:31.376731",
+      "translation_begin": "2018-04-29T13:19:31.376818",
+      "translation_end": "2018-04-29T13:19:33.635946",
+      "postprocessing_begin": "2018-04-29T13:19:33.636117",
+      "postprocessing_end": "2018-04-29T13:19:33.670334",
+      "sent_time": "2018-04-29T13:19:33.671012",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "les>des",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "les>des",
+            "2018-04-29T13:20:03.270176",
+            "2018-04-29T13:20:03.270176"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:19:56.194399"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-29T13:19:57.845989",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Si on utilisait tous des ordinateurs \u00e0 l'\u00e9cole, ce serait meilleur pour l'environnement.",
+      "normalised_version": ""
+    },
+    "42": {
+      "language": "english",
+      "original_text": "How about iPads instead of paper note books?",
+      "preprocessed_text": "how about iP@@ ads instead of paper note books ?",
+      "translated_text": "et les i@@ P@@ ads au lieu des livres de papier ?",
+      "postprocessed_text": "Et les iPads au lieu des livres de papier ?",
+      "composition_time": "2018-04-29T13:19:29.260342",
+      "preprocessing_begin": "2018-04-29T13:19:29.325164",
+      "preprocessing_end": "2018-04-29T13:19:31.376731",
+      "translation_begin": "2018-04-29T13:19:31.376818",
+      "translation_end": "2018-04-29T13:19:33.635946",
+      "postprocessing_begin": "2018-04-29T13:19:33.636117",
+      "postprocessing_end": "2018-04-29T13:19:33.670334",
+      "sent_time": "2018-04-29T13:19:33.671376",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "les>des ; \"de papier\" bizarre",
+        "problems": [
+          "style",
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "les>des ; \"de papier\" bizarre",
+            "2018-04-29T13:20:20.299618",
+            "2018-04-29T13:20:20.299618"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:20:04.781221"
+          ]
+        ],
+        "problem_history": [
+          [
+            "style",
+            "2018-04-29T13:20:19.013480",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-29T13:20:19.731608",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Pourquoi pas des iPad \u00e0 la place des cahiers en papier\u00a0?",
+      "normalised_version": "How about iPads instead of paper notebooks?"
+    },
+    "43": {
+      "language": "english",
+      "original_text": "I think my fellow students would be very happy",
+      "preprocessed_text": "I think my fellow students would be very happy",
+      "translated_text": "je pense que mes camarades d&apos; \u00e9l\u00e8ves seraient tr\u00e8s heureux .",
+      "postprocessed_text": "Je pense que mes camarades d'\u00e9l\u00e8ves seraient tr\u00e8s heureux.",
+      "composition_time": "2018-04-29T13:20:00.715554",
+      "preprocessing_begin": "2018-04-29T13:20:00.780653",
+      "preprocessing_end": "2018-04-29T13:20:02.971656",
+      "translation_begin": "2018-04-29T13:20:02.971715",
+      "translation_end": "2018-04-29T13:20:03.829661",
+      "postprocessing_begin": "2018-04-29T13:20:03.829898",
+      "postprocessing_end": "2018-04-29T13:20:03.882535",
+      "sent_time": "2018-04-29T13:20:03.883743",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "\"mes camarades d'\u00e9l\u00e8ves\"",
+        "problems": [
+          "word choice",
+          "meaning"
+        ],
+        "verbatim_history": [
+          [
+            "\"mes camarades d'\u00e9l\u00e8ves\"",
+            "2018-04-29T13:20:31.884635",
+            "2018-04-29T13:20:31.884635"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:20:23.412773"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:20:30.639319",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-29T13:20:34.465126",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je pense que mes camarades de classe seraient contents.",
+      "normalised_version": "I think my fellow students would be very happy."
+    },
+    "44": {
+      "language": "french",
+      "original_text": "Vous devriez vous renseigner, car produire des ordinateurs et des iPads est tr\u00e8s polluant.",
+      "preprocessed_text": "vous devriez vous renseigner , car produire des ordinateurs et des i@@ P@@ ads est tr\u00e8s pollu@@ ant .",
+      "translated_text": "you should look into it , because producing computers and i@@ P@@ ads are very polluted .",
+      "postprocessed_text": "You should look into it, because producing computers and iPads are very polluted.",
+      "composition_time": "2018-04-29T13:20:57.850540",
+      "preprocessing_begin": "2018-04-29T13:20:57.916508",
+      "preprocessing_end": "2018-04-29T13:20:59.942785",
+      "translation_begin": "2018-04-29T13:20:59.942861",
+      "translation_end": "2018-04-29T13:21:01.349732",
+      "postprocessing_begin": "2018-04-29T13:21:01.349998",
+      "postprocessing_end": "2018-04-29T13:21:01.395733",
+      "sent_time": "2018-04-29T13:21:01.397009",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "*can be very polluting ",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "*can be very polluting ",
+            "2018-04-29T13:22:32.424426",
+            "2018-04-29T13:22:32.424426"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:21:35.567184"
+          ]
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-29T13:21:37.355469",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "You should look into it, because manufacturing computers and iPads creates a lot of pollution.",
+      "normalised_version": ""
+    },
+    "45": {
+      "language": "french",
+      "original_text": "Alors que le papier peut \u00eatre produit de fa\u00e7on respectueuse de l'environnement, en replantant les arbres.",
+      "preprocessed_text": "alors que le papier peut \u00eatre produit de fa\u00e7on respectueuse de l&apos; environnement , en re@@ plan@@ tant les arbres .",
+      "translated_text": "while paper can be produced in a way @-@ in @-@ the @-@ way environment , re@@ planting the trees .",
+      "postprocessed_text": "While paper can be produced in a way-in-the-way environment, replanting the trees.",
+      "composition_time": "2018-04-29T13:21:22.348025",
+      "preprocessing_begin": "2018-04-29T13:21:22.404110",
+      "preprocessing_end": "2018-04-29T13:21:24.732926",
+      "translation_begin": "2018-04-29T13:21:24.732978",
+      "translation_end": "2018-04-29T13:21:26.362150",
+      "postprocessing_begin": "2018-04-29T13:21:26.362329",
+      "postprocessing_end": "2018-04-29T13:21:26.411044",
+      "sent_time": "2018-04-29T13:21:26.412044",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "I'm not sure I would say way-in-the-way",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "I'm not sure I would say way-in-the-way",
+            "2018-04-29T13:23:02.095956",
+            "2018-04-29T13:23:02.095956"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:22:46.388248"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:22:48.176098",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Whereas paper can be manufactured in an environmentally friendly way, by replanting trees.",
+      "normalised_version": ""
+    },
+    "46": {
+      "language": "english",
+      "original_text": "Why is producing computers and iPads very polluting?",
+      "preprocessed_text": "why is producing computers and iP@@ ads very pollu@@ ting ?",
+      "translated_text": "pourquoi produire les ordinateurs et les i@@ P@@ ads tr\u00e8s pollu@@ ants ?",
+      "postprocessed_text": "Pourquoi produire les ordinateurs et les iPads tr\u00e8s polluants ?",
+      "composition_time": "2018-04-29T13:23:18.851453",
+      "preprocessing_begin": "2018-04-29T13:23:18.917527",
+      "preprocessing_end": "2018-04-29T13:23:21.072836",
+      "translation_begin": "2018-04-29T13:23:21.072930",
+      "translation_end": "2018-04-29T13:23:22.244257",
+      "postprocessing_begin": "2018-04-29T13:23:22.244436",
+      "postprocessing_end": "2018-04-29T13:23:22.282717",
+      "sent_time": "2018-04-29T13:23:22.283536",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "formulation g\u00e9n\u00e9rale",
+        "problems": [
+          "meaning",
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "formulation g\u00e9n\u00e9rale",
+            "2018-04-29T13:24:00.382396",
+            "2018-04-29T13:24:00.382396"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:23:47.493407"
+          ]
+        ],
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-29T13:23:49.206793",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-29T13:23:50.342044",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Pourquoi est-ce que fabriquer des ordinateurs et des iPad est tr\u00e8s polluant\u00a0?",
+      "normalised_version": ""
+    },
+    "47": {
+      "language": "french",
+      "original_text": "Parce qu'aujourd'hui, on ne sait pas les produire sans polluer.",
+      "preprocessed_text": "parce qu&apos; aujourd&apos; hui , on ne sait pas les produire sans pollu@@ er .",
+      "translated_text": "because today , we don &apos;t know how to produce them without pollu@@ ting .",
+      "postprocessed_text": "Because today, we don't know how to produce them without polluting.",
+      "composition_time": "2018-04-29T13:24:37.198947",
+      "preprocessing_begin": "2018-04-29T13:24:37.253810",
+      "preprocessing_end": "2018-04-29T13:24:39.682163",
+      "translation_begin": "2018-04-29T13:24:39.682216",
+      "translation_end": "2018-04-29T13:24:42.475731",
+      "postprocessing_begin": "2018-04-29T13:24:42.476110",
+      "postprocessing_end": "2018-04-29T13:24:42.516612",
+      "sent_time": "2018-04-29T13:24:42.517476",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Because today we don\u2019t yet know how to make them without polluting.",
+      "normalised_version": ""
+    },
+    "48": {
+      "language": "french",
+      "original_text": "Les appareils \u00e9lectroniques contiennent de nombreux produits toxiques, par exemple dans les batteries, les \u00e9crans, les processeurs.",
+      "preprocessed_text": "les appareils \u00e9lectroniques contiennent de nombreux produits toxiques , par exemple dans les batteries , les \u00e9crans , les proc@@ esseurs .",
+      "translated_text": "electronic devices contain many toxic chemicals , for example , in the batteries , the monitors , the chips .",
+      "postprocessed_text": "Electronic devices contain many toxic chemicals, for example, in the batteries, the monitors, the chips.",
+      "composition_time": "2018-04-29T13:24:37.198947",
+      "preprocessing_begin": "2018-04-29T13:24:37.253810",
+      "preprocessing_end": "2018-04-29T13:24:39.682163",
+      "translation_begin": "2018-04-29T13:24:39.682216",
+      "translation_end": "2018-04-29T13:24:42.475731",
+      "postprocessing_begin": "2018-04-29T13:24:42.476110",
+      "postprocessing_end": "2018-04-29T13:24:42.516612",
+      "sent_time": "2018-04-29T13:24:42.517881",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Electronic devices contain a number of toxic substances, for example in the batteries, screen and processors.",
+      "normalised_version": ""
+    },
+    "49": {
+      "language": "french",
+      "original_text": "Je pense notamment aux semi-conducteurs, qui sont presque exclusivement produits en Chine, dans des mines tr\u00e8s polluantes.",
+      "preprocessed_text": "je pense notamment aux semi @-@ conducteurs , qui sont presque exclusivement produits en Chine , dans des mines tr\u00e8s pollu@@ antes .",
+      "translated_text": "I think about the semi @-@ drivers , who are almost exclusively products in China , in very polluted mines .",
+      "postprocessed_text": "I think about the semi-drivers, who are almost exclusively products in China, in very polluted mines.",
+      "composition_time": "2018-04-29T13:25:12.780148",
+      "preprocessing_begin": "2018-04-29T13:25:12.846909",
+      "preprocessing_end": "2018-04-29T13:25:14.846514",
+      "translation_begin": "2018-04-29T13:25:14.846595",
+      "translation_end": "2018-04-29T13:25:16.557210",
+      "postprocessing_begin": "2018-04-29T13:25:16.557797",
+      "postprocessing_end": "2018-04-29T13:25:16.597793",
+      "sent_time": "2018-04-29T13:25:16.598217",
+      "eval": {
+        "judgment": "medium",
+        "verbatim": "I'm not sure of meaning of 'semi-drivers'",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "I'm not sure of meaning of 'semi-drivers'",
+            "2018-04-29T13:25:55.848889",
+            "2018-04-29T13:25:55.848889"
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-29T13:25:38.625935"
+          ]
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-29T13:25:40.725056",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "I am thinking in particular of semi-conductors, which are almost exclusively produced in China, in highly polluting mines.",
+      "normalised_version": ""
+    },
+    "50": {
+      "language": "french",
+      "original_text": "Mais vous pourrez en parler \u00e0 votre professeur de physique, si \u00e7a vous int\u00e9resse.",
+      "preprocessed_text": "mais vous pourrez en parler \u00e0 votre professeur de physique , si \u00e7a vous int\u00e9resse .",
+      "translated_text": "but you can talk to your physics teacher , if you &apos;re interested .",
+      "postprocessed_text": "But you can talk to your physics teacher, if you're interested.",
+      "composition_time": "2018-04-29T13:25:27.611475",
+      "preprocessing_begin": "2018-04-29T13:25:27.679446",
+      "preprocessing_end": "2018-04-29T13:25:30.231868",
+      "translation_begin": "2018-04-29T13:25:30.231938",
+      "translation_end": "2018-04-29T13:25:31.476818",
+      "postprocessing_begin": "2018-04-29T13:25:31.477115",
+      "postprocessing_end": "2018-04-29T13:25:31.523630",
+      "sent_time": "2018-04-29T13:25:31.524226",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "But you could speak to your Physics teacher about it, if you\u2019re interested.",
+      "normalised_version": ""
+    },
+    "51": {
+      "language": "french",
+      "original_text": "Je dois maintenant vous laisser, car le cours suivant commence dans 1 minute!",
+      "preprocessed_text": "je dois maintenant vous laisser , car le cours suivant commence dans 1 minute !",
+      "translated_text": "I have to leave now , because the next class starts in one minute !",
+      "postprocessed_text": "I have to leave now, because the next class starts in one minute!",
+      "composition_time": "2018-04-29T13:25:44.911443",
+      "preprocessing_begin": "2018-04-29T13:25:44.980715",
+      "preprocessing_end": "2018-04-29T13:25:47.525531",
+      "translation_begin": "2018-04-29T13:25:47.525701",
+      "translation_end": "2018-04-29T13:25:48.671992",
+      "postprocessing_begin": "2018-04-29T13:25:48.672199",
+      "postprocessing_end": "2018-04-29T13:25:48.706144",
+      "sent_time": "2018-04-29T13:25:48.706920",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "I have to leave you now, since the next class is starting in 1 minute!",
+      "normalised_version": ""
+    },
+    "52": {
+      "language": "french",
+      "original_text": "\u00c0 la semaine prochaine!",
+      "preprocessed_text": "\u00e0 la semaine prochaine !",
+      "translated_text": "see you next week !",
+      "postprocessed_text": "See you next week!",
+      "composition_time": "2018-04-29T13:25:51.856040",
+      "preprocessing_begin": "2018-04-29T13:25:51.915391",
+      "preprocessing_end": "2018-04-29T13:25:53.923528",
+      "translation_begin": "2018-04-29T13:25:53.923619",
+      "translation_end": "2018-04-29T13:25:54.430366",
+      "postprocessing_begin": "2018-04-29T13:25:54.430574",
+      "postprocessing_end": "2018-04-29T13:25:54.464872",
+      "sent_time": "2018-04-29T13:25:54.465677",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "See you next week!",
+      "normalised_version": ""
+    },
+    "53": {
+      "language": "english",
+      "original_text": "Thank you!",
+      "preprocessed_text": "thank you !",
+      "translated_text": "merci !",
+      "postprocessed_text": "Merci !",
+      "composition_time": "2018-04-29T13:26:04.080323",
+      "preprocessing_begin": "2018-04-29T13:26:04.142880",
+      "preprocessing_end": "2018-04-29T13:26:06.588571",
+      "translation_begin": "2018-04-29T13:26:06.588617",
+      "translation_end": "2018-04-29T13:26:06.887767",
+      "postprocessing_begin": "2018-04-29T13:26:06.887954",
+      "postprocessing_end": "2018-04-29T13:26:06.950963",
+      "sent_time": "2018-04-29T13:26:06.951831",
+      "eval": {
+        "judgment": "perfect",
+        "verbatim": "",
+        "problems": [],
+        "verbatim_history": [],
+        "judgment_history": [],
+        "problem_history": []
+      },
+      "reference_translation": "Merci\u00a0!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "would_use": true,
+    "style": "good",
+    "tech": "There were no technical problems",
+    "grammaticality": "average",
+    "coherence": "good",
+    "timestamp": "2018-04-29T13:27:09.268577",
+    "meaning": "average",
+    "particular_problems": "",
+    "verbatim_quality": "",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {},
+  "fr_transl": true
+}

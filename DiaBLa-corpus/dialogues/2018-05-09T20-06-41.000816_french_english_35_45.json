@@ -1,0 +1,1341 @@
+{
+  "start_time": "2018-05-09T20:06:41.000816",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are both lost in a forest.",
+      "Vous \u00eates tous les deux perdus dans une for\u00eat"
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "user1": {
+    "turn_number": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "role_num": 2,
+    "role": [
+      "",
+      ""
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15"
+  },
+  "user2": {
+    "turn_number": 2,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299",
+    "role": [
+      "",
+      ""
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 1
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Je crois que ce chemin forestier nous conduit dans une impasse.",
+      "preprocessed_text": "<BEGIN>  <CONCAT> je crois que ce chemin forestier nous conduit dans une impasse .",
+      "translated_text": "Abbot <CONCAT> I believe this forest path leads us to a dead end .",
+      "postprocessed_text": "I believe this forest path leads us to a dead end.",
+      "composition_time": "2018-05-09T20:07:52.997386",
+      "preprocessing_begin": "2018-05-09T20:07:53.094537",
+      "preprocessing_end": "2018-05-09T20:07:55.881580",
+      "translation_begin": "2018-05-09T20:07:55.881757",
+      "translation_end": "2018-05-09T20:07:57.310358",
+      "postprocessing_begin": "2018-05-09T20:07:57.310706",
+      "postprocessing_end": "2018-05-09T20:07:57.352658",
+      "sent_time": "2018-05-09T20:07:57.353777",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:49.889765"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I think this forest path is leading us to a dead end.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Have you been here before?",
+      "preprocessed_text": "I believe this forest path leads us to a dead end . <CONCAT> have you been here before ?",
+      "translated_text": "je crois que cette for\u00eat m\u00e8ne \u00e0 une impasse . <CONCAT> vous \u00eates d\u00e9j\u00e0 venu ici ?",
+      "postprocessed_text": "Vous \u00eates d\u00e9j\u00e0 venu ici ?",
+      "composition_time": "2018-05-09T20:08:34.108310",
+      "preprocessing_begin": "2018-05-09T20:08:34.203360",
+      "preprocessing_end": "2018-05-09T20:08:36.472425",
+      "translation_begin": "2018-05-09T20:08:36.472528",
+      "translation_end": "2018-05-09T20:08:38.077134",
+      "postprocessing_begin": "2018-05-09T20:08:38.077476",
+      "postprocessing_end": "2018-05-09T20:08:38.142558",
+      "sent_time": "2018-05-09T20:08:38.144939",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:09:27.262234"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "\u00cates-vous d\u00e9j\u00e0 venu ici\u00a0?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Il commence \u00e0 faire nuit.",
+      "preprocessed_text": "vous \u00eates d\u00e9j\u00e0 venu ici ? <CONCAT> il commence \u00e0 faire nuit .",
+      "translated_text": "have you been here before ? <CONCAT> it &apos;s getting dark .",
+      "postprocessed_text": "It's getting dark.",
+      "composition_time": "2018-05-09T20:08:46.988494",
+      "preprocessing_begin": "2018-05-09T20:08:47.084321",
+      "preprocessing_end": "2018-05-09T20:08:49.440805",
+      "translation_begin": "2018-05-09T20:08:49.440934",
+      "translation_end": "2018-05-09T20:08:51.598688",
+      "postprocessing_begin": "2018-05-09T20:08:51.598974",
+      "postprocessing_end": "2018-05-09T20:08:51.664130",
+      "sent_time": "2018-05-09T20:08:51.665542",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:42.430328"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s getting dark.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "C'est probl\u00e9matique.",
+      "preprocessed_text": "il commence \u00e0 faire nuit . <CONCAT> c&apos; est probl\u00e9matique .",
+      "translated_text": "it &apos;s getting dark . <CONCAT> it &apos;s problematic .",
+      "postprocessed_text": "It's problematic.",
+      "composition_time": "2018-05-09T20:08:46.988494",
+      "preprocessing_begin": "2018-05-09T20:08:47.084321",
+      "preprocessing_end": "2018-05-09T20:08:49.440805",
+      "translation_begin": "2018-05-09T20:08:49.440934",
+      "translation_end": "2018-05-09T20:08:51.598688",
+      "postprocessing_begin": "2018-05-09T20:08:51.598974",
+      "postprocessing_end": "2018-05-09T20:08:51.664130",
+      "sent_time": "2018-05-09T20:08:51.666364",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:24:39.553067",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:24:37.126642"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "It\u2019s a problem.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Non, je ne connais pas le secteur.",
+      "preprocessed_text": "c&apos; est probl\u00e9matique . <CONCAT> non , je ne connais pas le secteur .",
+      "translated_text": "that &apos;s problematic . <CONCAT> no , I don &apos;t know the area .",
+      "postprocessed_text": "No, I don't know the area.",
+      "composition_time": "2018-05-09T20:09:02.990348",
+      "preprocessing_begin": "2018-05-09T20:09:03.080685",
+      "preprocessing_end": "2018-05-09T20:09:05.629201",
+      "translation_begin": "2018-05-09T20:09:05.629305",
+      "translation_end": "2018-05-09T20:09:06.889650",
+      "postprocessing_begin": "2018-05-09T20:09:06.890061",
+      "postprocessing_end": "2018-05-09T20:09:06.951746",
+      "sent_time": "2018-05-09T20:09:06.953402",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:36.094551"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "No, I don\u2019t know the area.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Do you think we should go back the way came into the forest?",
+      "preprocessed_text": "no , I don &apos;t know the area . <CONCAT> do you think we should go back the way came into the forest ?",
+      "translated_text": "non , je ne connais pas la r\u00e9gion . <CONCAT> tu crois qu&apos; on devrait retourner dans la for\u00eat ?",
+      "postprocessed_text": "Tu crois qu'on devrait retourner dans la for\u00eat ?",
+      "composition_time": "2018-05-09T20:09:16.710137",
+      "preprocessing_begin": "2018-05-09T20:09:16.804013",
+      "preprocessing_end": "2018-05-09T20:09:19.545060",
+      "translation_begin": "2018-05-09T20:09:19.545241",
+      "translation_end": "2018-05-09T20:09:21.483261",
+      "postprocessing_begin": "2018-05-09T20:09:21.483617",
+      "postprocessing_end": "2018-05-09T20:09:21.542784",
+      "sent_time": "2018-05-09T20:09:21.544301",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:10:05.412897"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Pensez-vous que nous devrions revenir par le chemin que nous avons pris pour rentrer dans cette for\u00eat\u00a0?",
+      "normalised_version": "Do you think we should go back the way we came into the forest?"
+    },
+    "6": {
+      "language": "french",
+      "original_text": "Oui, je pense qu'il serait plus prudent de revenir sur nos pas.",
+      "preprocessed_text": "tu crois qu&apos; on devrait retourner dans la for\u00eat ? <CONCAT> oui , je pense qu&apos; il serait plus prudent de revenir sur nos pas .",
+      "translated_text": "do you think we should go back to the forest ? <CONCAT> yes , I think it would be prudent to retrace our steps .",
+      "postprocessed_text": "Yes, I think it would be prudent to retrace our steps.",
+      "composition_time": "2018-05-09T20:10:00.511734",
+      "preprocessing_begin": "2018-05-09T20:10:00.603708",
+      "preprocessing_end": "2018-05-09T20:10:02.973564",
+      "translation_begin": "2018-05-09T20:10:02.973690",
+      "translation_end": "2018-05-09T20:10:05.339503",
+      "postprocessing_begin": "2018-05-09T20:10:05.339891",
+      "postprocessing_end": "2018-05-09T20:10:05.406248",
+      "sent_time": "2018-05-09T20:10:05.407666",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:27.948757"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, I think it would be wiser to retrace our steps.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Depuis combien de temps marchons-nous sur ce chemin ?",
+      "preprocessed_text": "oui , je pense qu&apos; il serait plus prudent de revenir sur nos pas . <CONCAT> depuis combien de temps marchons @-@ nous sur ce chemin ?",
+      "translated_text": "yes , I think it would be prudent to retrace our steps . <CONCAT> how long have we walked on this path ?",
+      "postprocessed_text": "How long have we walked on this path?",
+      "composition_time": "2018-05-09T20:10:38.444010",
+      "preprocessing_begin": "2018-05-09T20:10:38.527437",
+      "preprocessing_end": "2018-05-09T20:10:41.144176",
+      "translation_begin": "2018-05-09T20:10:41.144242",
+      "translation_end": "2018-05-09T20:10:43.378025",
+      "postprocessing_begin": "2018-05-09T20:10:43.378358",
+      "postprocessing_end": "2018-05-09T20:10:43.457391",
+      "sent_time": "2018-05-09T20:10:43.459382",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:24.284131"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "How long have we walking on this path?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "That's a good idea.",
+      "preprocessed_text": "how long have we walked on this path ? <CONCAT> that &apos;s a good idea .",
+      "translated_text": "depuis combien de temps sommes @-@ nous sur ce chemin ? <CONCAT> c&apos; est une bonne id\u00e9e .",
+      "postprocessed_text": "C'est une bonne id\u00e9e.",
+      "composition_time": "2018-05-09T20:11:10.105227",
+      "preprocessing_begin": "2018-05-09T20:11:10.194636",
+      "preprocessing_end": "2018-05-09T20:11:12.522616",
+      "translation_begin": "2018-05-09T20:11:12.522703",
+      "translation_end": "2018-05-09T20:11:16.795169",
+      "postprocessing_begin": "2018-05-09T20:11:16.795761",
+      "postprocessing_end": "2018-05-09T20:11:16.856703",
+      "sent_time": "2018-05-09T20:11:16.858393",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:12:38.000684"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C\u2019est une bonne id\u00e9e.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "What time is it now?",
+      "preprocessed_text": "that &apos;s a good idea . <CONCAT> what time is it now ?",
+      "translated_text": "bonne id\u00e9e . <CONCAT> quelle heure est @-@ il ?",
+      "postprocessed_text": "Quelle heure est-il ?",
+      "composition_time": "2018-05-09T20:11:10.105227",
+      "preprocessing_begin": "2018-05-09T20:11:10.194636",
+      "preprocessing_end": "2018-05-09T20:11:12.522616",
+      "translation_begin": "2018-05-09T20:11:12.522703",
+      "translation_end": "2018-05-09T20:11:16.795169",
+      "postprocessing_begin": "2018-05-09T20:11:16.795761",
+      "postprocessing_end": "2018-05-09T20:11:16.856703",
+      "sent_time": "2018-05-09T20:11:16.859119",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:12:41.547947"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Quelle heure est-il\u00a0?",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "Do you have your phone or watch?",
+      "preprocessed_text": "what time is it now ? <CONCAT> do you have your phone or watch ?",
+      "translated_text": "quelle heure est @-@ il ? <CONCAT> vous avez votre t\u00e9l\u00e9phone ou votre montre ?",
+      "postprocessed_text": "Vous avez votre t\u00e9l\u00e9phone ou votre montre ?",
+      "composition_time": "2018-05-09T20:11:10.105227",
+      "preprocessing_begin": "2018-05-09T20:11:10.194636",
+      "preprocessing_end": "2018-05-09T20:11:12.522616",
+      "translation_begin": "2018-05-09T20:11:12.522703",
+      "translation_end": "2018-05-09T20:11:16.795169",
+      "postprocessing_begin": "2018-05-09T20:11:16.795761",
+      "postprocessing_end": "2018-05-09T20:11:16.856703",
+      "sent_time": "2018-05-09T20:11:16.859831",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:12:45.423176"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Vous avez votre t\u00e9l\u00e9phone ou votre montre\u00a0?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Oui, j'ai une montre.",
+      "preprocessed_text": "vous avez votre t\u00e9l\u00e9phone ou votre montre ? <CONCAT> oui , j&apos; ai une montre .",
+      "translated_text": "do you have your phone or watch ? <CONCAT> yes , I have a watch .",
+      "postprocessed_text": "Yes, I have a watch.",
+      "composition_time": "2018-05-09T20:12:00.369931",
+      "preprocessing_begin": "2018-05-09T20:12:00.479151",
+      "preprocessing_end": "2018-05-09T20:12:03.139818",
+      "translation_begin": "2018-05-09T20:12:03.139963",
+      "translation_end": "2018-05-09T20:12:06.142940",
+      "postprocessing_begin": "2018-05-09T20:12:06.143461",
+      "postprocessing_end": "2018-05-09T20:12:06.198682",
+      "sent_time": "2018-05-09T20:12:06.200380",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:19.132939"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, I have a watch.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "Mon t\u00e9l\u00e9phone n'a plus de batterie.",
+      "preprocessed_text": "oui , j&apos; ai une montre . <CONCAT> mon t\u00e9l\u00e9phone n&apos; a plus de batterie .",
+      "translated_text": "yes , I have a watch . <CONCAT> my phone is dead .",
+      "postprocessed_text": "My phone is dead.",
+      "composition_time": "2018-05-09T20:12:00.369931",
+      "preprocessing_begin": "2018-05-09T20:12:00.479151",
+      "preprocessing_end": "2018-05-09T20:12:03.139818",
+      "translation_begin": "2018-05-09T20:12:03.139963",
+      "translation_end": "2018-05-09T20:12:06.142940",
+      "postprocessing_begin": "2018-05-09T20:12:06.143461",
+      "postprocessing_end": "2018-05-09T20:12:06.198682",
+      "sent_time": "2018-05-09T20:12:06.201618",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:16.990218"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "My phone is out of battery.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Il est d\u00e9j\u00e0 20h, la nuit approche.",
+      "preprocessed_text": "mon t\u00e9l\u00e9phone n&apos; a plus de batterie . <CONCAT> il est d\u00e9j\u00e0 20h , la nuit approche .",
+      "translated_text": "my phone &apos;s dead . <CONCAT> it &apos;s 8 : 00 already , it &apos;s getting dark .",
+      "postprocessed_text": "It's 8: 00 already, it's getting dark.",
+      "composition_time": "2018-05-09T20:12:17.607752",
+      "preprocessing_begin": "2018-05-09T20:12:17.705281",
+      "preprocessing_end": "2018-05-09T20:12:20.175904",
+      "translation_begin": "2018-05-09T20:12:20.176009",
+      "translation_end": "2018-05-09T20:12:21.780423",
+      "postprocessing_begin": "2018-05-09T20:12:21.780952",
+      "postprocessing_end": "2018-05-09T20:12:21.847930",
+      "sent_time": "2018-05-09T20:12:21.849621",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:15.446165"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s already 8pm and it\u2019s getting dark.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Avez-vous de quoi d\u00eener ?",
+      "preprocessed_text": "il est d\u00e9j\u00e0 20h , la nuit approche . <CONCAT> avez @-@ vous de quoi d\u00eener ?",
+      "translated_text": "it &apos;s 8 : 00 already , the night is approaching . <CONCAT> do you have any dinner ?",
+      "postprocessed_text": "Do you have any dinner?",
+      "composition_time": "2018-05-09T20:12:33.770461",
+      "preprocessing_begin": "2018-05-09T20:12:33.855410",
+      "preprocessing_end": "2018-05-09T20:12:36.267374",
+      "translation_begin": "2018-05-09T20:12:36.267496",
+      "translation_end": "2018-05-09T20:12:37.900001",
+      "postprocessing_begin": "2018-05-09T20:12:37.900420",
+      "postprocessing_end": "2018-05-09T20:12:37.961942",
+      "sent_time": "2018-05-09T20:12:37.963161",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:12.961452"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Do you have anything for dinner?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "Do you have an idea of how long it took us to reach this point in the forest?",
+      "preprocessed_text": "do you have any dinner ? <CONCAT> do you have an idea of how long it took us to reach this point in the forest ?",
+      "translated_text": "avez @-@ vous un d\u00eener ? <CONCAT> avez @-@ vous une id\u00e9e du temps o\u00f9 il nous a fallu pour atteindre ce point dans la for\u00eat ?",
+      "postprocessed_text": "Avez-vous une id\u00e9e du temps o\u00f9 il nous a fallu pour atteindre ce point dans la for\u00eat ?",
+      "composition_time": "2018-05-09T20:12:50.880522",
+      "preprocessing_begin": "2018-05-09T20:12:50.961860",
+      "preprocessing_end": "2018-05-09T20:12:53.379392",
+      "translation_begin": "2018-05-09T20:12:53.379549",
+      "translation_end": "2018-05-09T20:12:56.040184",
+      "postprocessing_begin": "2018-05-09T20:12:56.040626",
+      "postprocessing_end": "2018-05-09T20:12:56.101804",
+      "sent_time": "2018-05-09T20:12:56.104266",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:14:55.165237"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Avez-vous une id\u00e9e du temps que cela nous a pris pour arriver ici dans la for\u00eat\u00a0?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Je crois que cela fait quatre heures que nous marchons sur ce chemin.",
+      "preprocessed_text": "avez @-@ vous une id\u00e9e du temps o\u00f9 il nous a fallu pour atteindre ce point dans la for\u00eat ? <CONCAT> je crois que cela fait quatre heures que nous marchons sur ce chemin .",
+      "translated_text": "do you have any idea how long it took us to reach that point in the forest ? <CONCAT> I believe it &apos;s been four hours since we walked on this path .",
+      "postprocessed_text": "I believe it's been four hours since we walked on this path.",
+      "composition_time": "2018-05-09T20:13:25.729274",
+      "preprocessing_begin": "2018-05-09T20:13:25.822927",
+      "preprocessing_end": "2018-05-09T20:13:28.211625",
+      "translation_begin": "2018-05-09T20:13:28.211771",
+      "translation_end": "2018-05-09T20:13:30.964677",
+      "postprocessing_begin": "2018-05-09T20:13:30.965202",
+      "postprocessing_end": "2018-05-09T20:13:31.026845",
+      "sent_time": "2018-05-09T20:13:31.029617",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:24:05.529087"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I think we\u2019ve been walking for four hours on this path.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "english",
+      "original_text": "I have some biscuits in my rucksack.",
+      "preprocessed_text": "I believe it &apos;s been four hours since we walked on this path . <CONCAT> I have some biscuits in my ruck@@ sack .",
+      "translated_text": "je crois que \u00e7a fait 4 heures qu&apos; on a march\u00e9 sur ce chemin . <CONCAT> j&apos; ai des biscuits dans mon sac \u00e0 dos .",
+      "postprocessed_text": "J'ai des biscuits dans mon sac \u00e0 dos.",
+      "composition_time": "2018-05-09T20:13:47.388985",
+      "preprocessing_begin": "2018-05-09T20:13:47.478238",
+      "preprocessing_end": "2018-05-09T20:13:49.882499",
+      "translation_begin": "2018-05-09T20:13:49.882602",
+      "translation_end": "2018-05-09T20:13:53.761908",
+      "postprocessing_begin": "2018-05-09T20:13:53.762394",
+      "postprocessing_end": "2018-05-09T20:13:53.823560",
+      "sent_time": "2018-05-09T20:13:53.825679",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:14:58.707772"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "J\u2019ai quelques biscuits dans mon sac \u00e0 dos.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "We had better move fast.",
+      "preprocessed_text": "I have some biscuits in my ruck@@ sack . <CONCAT> we had better move fast .",
+      "translated_text": "j&apos; ai des biscuits dans mon sac \u00e0 dos . <CONCAT> on ferait mieux de se d\u00e9p\u00eacher .",
+      "postprocessed_text": "On ferait mieux de se d\u00e9p\u00eacher.",
+      "composition_time": "2018-05-09T20:13:47.388985",
+      "preprocessing_begin": "2018-05-09T20:13:47.478238",
+      "preprocessing_end": "2018-05-09T20:13:49.882499",
+      "translation_begin": "2018-05-09T20:13:49.882602",
+      "translation_end": "2018-05-09T20:13:53.761908",
+      "postprocessing_begin": "2018-05-09T20:13:53.762394",
+      "postprocessing_end": "2018-05-09T20:13:53.823560",
+      "sent_time": "2018-05-09T20:13:53.827598",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:15:02.043415"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Nous aurions int\u00e9r\u00eat \u00e0 bouger vite.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Le probl\u00e8me, c'est la lumi\u00e8re.",
+      "preprocessed_text": "on ferait mieux de se d\u00e9p\u00eacher . <CONCAT> le probl\u00e8me , c&apos; est la lumi\u00e8re .",
+      "translated_text": "we better hurry . <CONCAT> the problem is the light .",
+      "postprocessed_text": "The problem is the light.",
+      "composition_time": "2018-05-09T20:13:59.069187",
+      "preprocessing_begin": "2018-05-09T20:13:59.162123",
+      "preprocessing_end": "2018-05-09T20:14:01.692107",
+      "translation_begin": "2018-05-09T20:14:01.692196",
+      "translation_end": "2018-05-09T20:14:04.664451",
+      "postprocessing_begin": "2018-05-09T20:14:04.664742",
+      "postprocessing_end": "2018-05-09T20:14:04.726550",
+      "sent_time": "2018-05-09T20:14:04.728339",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:23:57.551627"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "The problem is light.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Nous risquons de nous perdre ou de tr\u00e9bucher sur un obstacle et nous blesser.",
+      "preprocessed_text": "le probl\u00e8me , c&apos; est la lumi\u00e8re . <CONCAT> nous risquons de nous perdre ou de tr\u00e9bucher sur un obstacle et nous blesser .",
+      "translated_text": "the problem is the light . <CONCAT> we may lose ourselves or trip over an obstacle and hurt us .",
+      "postprocessed_text": "We may lose ourselves or trip over an obstacle and hurt us.",
+      "composition_time": "2018-05-09T20:13:59.069187",
+      "preprocessing_begin": "2018-05-09T20:13:59.162123",
+      "preprocessing_end": "2018-05-09T20:14:01.692107",
+      "translation_begin": "2018-05-09T20:14:01.692196",
+      "translation_end": "2018-05-09T20:14:04.664451",
+      "postprocessing_begin": "2018-05-09T20:14:04.664742",
+      "postprocessing_end": "2018-05-09T20:14:04.726550",
+      "sent_time": "2018-05-09T20:14:04.729676",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:23:51.994596",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:23:39.152749"
+          ],
+          [
+            "medium",
+            "2018-05-09T20:23:47.645978"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "We could get lost or stumble on something and get injured.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Oui, nous devons nous d\u00e9p\u00eacher.",
+      "preprocessed_text": "nous risquons de nous perdre ou de tr\u00e9bucher sur un obstacle et nous blesser . <CONCAT> oui , nous devons nous d\u00e9p\u00eacher .",
+      "translated_text": "we may lose ourselves or trip over an obstacle and hurt us . <CONCAT> yes , we must hurry .",
+      "postprocessed_text": "Yes, we must hurry.",
+      "composition_time": "2018-05-09T20:14:26.222989",
+      "preprocessing_begin": "2018-05-09T20:14:26.327148",
+      "preprocessing_end": "2018-05-09T20:14:28.878235",
+      "translation_begin": "2018-05-09T20:14:28.878340",
+      "translation_end": "2018-05-09T20:14:30.720142",
+      "postprocessing_begin": "2018-05-09T20:14:30.720627",
+      "postprocessing_end": "2018-05-09T20:14:30.763585",
+      "sent_time": "2018-05-09T20:14:30.764743",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:23:37.005207"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, we have to hurry.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Soyons prudents dans nos pas.",
+      "preprocessed_text": "oui , nous devons nous d\u00e9p\u00eacher . <CONCAT> soyons prudents dans nos pas .",
+      "translated_text": "yes , we must hurry . <CONCAT> let &apos;s be careful in our steps .",
+      "postprocessed_text": "Let's be careful in our steps.",
+      "composition_time": "2018-05-09T20:14:46.332993",
+      "preprocessing_begin": "2018-05-09T20:14:46.426671",
+      "preprocessing_end": "2018-05-09T20:14:48.792776",
+      "translation_begin": "2018-05-09T20:14:48.792869",
+      "translation_end": "2018-05-09T20:14:50.200264",
+      "postprocessing_begin": "2018-05-09T20:14:50.200821",
+      "postprocessing_end": "2018-05-09T20:14:50.255443",
+      "sent_time": "2018-05-09T20:14:50.257827",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:23:24.325468",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "use 'with'",
+            "2018-05-09T20:23:32.921287",
+            "2018-05-09T20:23:32.921287"
+          ]
+        ],
+        "verbatim": "use 'with'",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:23:21.251139"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "We should be careful where we tread.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Et de votre c\u00f4t\u00e9, votre portable poss\u00e8de t-il encore de la batterie ?",
+      "preprocessed_text": "soyons prudents dans nos pas . <CONCAT> et de votre c\u00f4t\u00e9 , votre portable poss\u00e8de t @-@ il encore de la batterie ?",
+      "translated_text": "let &apos;s be careful in our steps . <CONCAT> and on your side , does your phone still own drums ?",
+      "postprocessed_text": "And on your side, does your phone still own drums?",
+      "composition_time": "2018-05-09T20:15:40.457688",
+      "preprocessing_begin": "2018-05-09T20:15:40.547964",
+      "preprocessing_end": "2018-05-09T20:15:43.366912",
+      "translation_begin": "2018-05-09T20:15:43.367042",
+      "translation_end": "2018-05-09T20:15:45.112484",
+      "postprocessing_begin": "2018-05-09T20:15:45.112749",
+      "postprocessing_end": "2018-05-09T20:15:45.161612",
+      "sent_time": "2018-05-09T20:15:45.162961",
+      "eval": {
+        "problem_history": [
+          [
+            "other",
+            "2018-05-09T20:23:04.689564",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "? drums",
+            "2018-05-09T20:23:11.554247",
+            "2018-05-09T20:23:11.554247"
+          ]
+        ],
+        "verbatim": "? drums",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:23:01.664328"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "other"
+        ]
+      },
+      "reference_translation": "And does your phone still have some battery?",
+      "normalised_version": "Et de votre c\u00f4t\u00e9, votre portable poss\u00e8de-t-il encore de la batterie ?"
+    },
+    "24": {
+      "language": "english",
+      "original_text": "Four hours?",
+      "preprocessed_text": "let &apos;s be careful in our steps . <CONCAT> four hours ?",
+      "translated_text": "faisons attention sur nos marches . <CONCAT> quatre heures ?",
+      "postprocessed_text": "Quatre heures ?",
+      "composition_time": "2018-05-09T20:15:43.033504",
+      "preprocessing_begin": "2018-05-09T20:15:43.152119",
+      "preprocessing_end": "2018-05-09T20:15:45.564645",
+      "translation_begin": "2018-05-09T20:15:45.564700",
+      "translation_end": "2018-05-09T20:15:48.704140",
+      "postprocessing_begin": "2018-05-09T20:15:48.704499",
+      "postprocessing_end": "2018-05-09T20:15:48.761304",
+      "sent_time": "2018-05-09T20:15:48.762018",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:15:58.239858"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Quatre heures\u00a0?",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "Luckily I have my phone on me so we had better alert our families and tell them about our problem.",
+      "preprocessed_text": "four hours ? <CONCAT> luckily I have my phone on me so we had better alert our families and tell them about our problem .",
+      "translated_text": "quatre heures ? <CONCAT> heureusement que j&apos; ai mon t\u00e9l\u00e9phone sur moi , alors il vaudrait mieux alerter nos familles et leur parler de notre probl\u00e8me .",
+      "postprocessed_text": "Heureusement que j'ai mon t\u00e9l\u00e9phone sur moi, alors il vaudrait mieux alerter nos familles et leur parler de notre probl\u00e8me.",
+      "composition_time": "2018-05-09T20:15:43.033504",
+      "preprocessing_begin": "2018-05-09T20:15:43.152119",
+      "preprocessing_end": "2018-05-09T20:15:45.564645",
+      "translation_begin": "2018-05-09T20:15:45.564700",
+      "translation_end": "2018-05-09T20:15:48.704140",
+      "postprocessing_begin": "2018-05-09T20:15:48.704499",
+      "postprocessing_end": "2018-05-09T20:15:48.761304",
+      "sent_time": "2018-05-09T20:15:48.762573",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:16:05.306167"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Heureusement que j'ai mon t\u00e9l\u00e9phone sur moi, nous ferions mieux de pr\u00e9venir nos familles et de leur parler de notre probl\u00e8me.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "Super, envoyez au moins un sms pour les pr\u00e9venir.",
+      "preprocessed_text": "heureusement que j&apos; ai mon t\u00e9l\u00e9phone sur moi , alors il vaudrait mieux alerter nos familles et leur parler de notre probl\u00e8me . <CONCAT> super , envoyez au moins un sms pour les pr\u00e9venir .",
+      "translated_text": "luckily I have my phone on me , so we better call our families and talk to them about our problem . <CONCAT> great , at least send a text to warn them .",
+      "postprocessed_text": "Great, at least send a text to warn them.",
+      "composition_time": "2018-05-09T20:16:23.647676",
+      "preprocessing_begin": "2018-05-09T20:16:23.737649",
+      "preprocessing_end": "2018-05-09T20:16:26.117097",
+      "translation_begin": "2018-05-09T20:16:26.117179",
+      "translation_end": "2018-05-09T20:16:29.324965",
+      "postprocessing_begin": "2018-05-09T20:16:29.325459",
+      "postprocessing_end": "2018-05-09T20:16:29.370283",
+      "sent_time": "2018-05-09T20:16:29.371950",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:22:53.591855"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Great, send them a text to let them know.",
+      "normalised_version": "Super, envoyez au moins un SMS pour les pr\u00e9venir."
+    },
+    "27": {
+      "language": "english",
+      "original_text": "We can use the torch in my phone .",
+      "preprocessed_text": "great , at least send a text to warn them . <CONCAT> we can use the torch in my phone .",
+      "translated_text": "super , envoie au moins un texto pour les pr\u00e9venir . <CONCAT> on peut utiliser la torche dans mon t\u00e9l\u00e9phone .",
+      "postprocessed_text": "On peut utiliser la torche dans mon t\u00e9l\u00e9phone.",
+      "composition_time": "2018-05-09T20:16:45.566164",
+      "preprocessing_begin": "2018-05-09T20:16:45.654197",
+      "preprocessing_end": "2018-05-09T20:16:48.073709",
+      "translation_begin": "2018-05-09T20:16:48.073812",
+      "translation_end": "2018-05-09T20:16:50.009707",
+      "postprocessing_begin": "2018-05-09T20:16:50.010171",
+      "postprocessing_end": "2018-05-09T20:16:50.074148",
+      "sent_time": "2018-05-09T20:16:50.075045",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:18:09.090280"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Nous pouvons utiliser la lampe de mon t\u00e9l\u00e9phone.",
+      "normalised_version": "We can use the torch in my phone."
+    },
+    "28": {
+      "language": "french",
+      "original_text": "Oui, mais \u00e9conomisons-l\u00e0 car cela consomme beaucoup de batterie.",
+      "preprocessed_text": "on peut utiliser la torche dans mon t\u00e9l\u00e9phone . <CONCAT> oui , mais \u00e9conom@@ isons @-@ l\u00e0 car cela consomme beaucoup de batterie .",
+      "translated_text": "we can use the torch in my phone . <CONCAT> yes , but let &apos;s save it because it uses a lot of drums .",
+      "postprocessed_text": "Yes, but let's save it because it uses a lot of drums.",
+      "composition_time": "2018-05-09T20:17:15.037628",
+      "preprocessing_begin": "2018-05-09T20:17:15.121456",
+      "preprocessing_end": "2018-05-09T20:17:17.720388",
+      "translation_begin": "2018-05-09T20:17:17.720499",
+      "translation_end": "2018-05-09T20:17:20.061919",
+      "postprocessing_begin": "2018-05-09T20:17:20.062415",
+      "postprocessing_end": "2018-05-09T20:17:20.128292",
+      "sent_time": "2018-05-09T20:17:20.130910",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "not sure what 'drums' means",
+            "2018-05-09T20:22:44.349137",
+            "2018-05-09T20:22:44.349137"
+          ]
+        ],
+        "verbatim": "not sure what 'drums' means",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:22:30.477561"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Yes, but use it sparingly, because it uses lots of battery.",
+      "normalised_version": "Oui, mais \u00e9conomisons-la car cela consomme beaucoup de batterie."
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Avez-vous des v\u00eatements chauds ?",
+      "preprocessed_text": "oui , mais \u00e9conom@@ isons @-@ l\u00e0 car cela consomme beaucoup de batterie . <CONCAT> avez @-@ vous des v\u00eatements chauds ?",
+      "translated_text": "yes , but let &apos;s save it because it uses a lot of drums . <CONCAT> do you have any warm clothes ?",
+      "postprocessed_text": "Do you have any warm clothes?",
+      "composition_time": "2018-05-09T20:17:29.411784",
+      "preprocessing_begin": "2018-05-09T20:17:29.484697",
+      "preprocessing_end": "2018-05-09T20:17:32.159674",
+      "translation_begin": "2018-05-09T20:17:32.159743",
+      "translation_end": "2018-05-09T20:17:33.920351",
+      "postprocessing_begin": "2018-05-09T20:17:33.920723",
+      "postprocessing_end": "2018-05-09T20:17:33.962229",
+      "sent_time": "2018-05-09T20:17:33.963872",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:22:25.907181"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Do you have any warm clothes?",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "english",
+      "original_text": "Good idea.",
+      "preprocessed_text": "yes , but let &apos;s save it because it uses a lot of drums . <CONCAT> good idea .",
+      "translated_text": "oui , mais gardons \u00e7a parce qu&apos; il utilise beaucoup de tambours . <CONCAT> bonne id\u00e9e .",
+      "postprocessed_text": "Bonne id\u00e9e.",
+      "composition_time": "2018-05-09T20:17:29.308646",
+      "preprocessing_begin": "2018-05-09T20:17:29.391002",
+      "preprocessing_end": "2018-05-09T20:17:32.023397",
+      "translation_begin": "2018-05-09T20:17:32.023517",
+      "translation_end": "2018-05-09T20:17:34.651320",
+      "postprocessing_begin": "2018-05-09T20:17:34.651827",
+      "postprocessing_end": "2018-05-09T20:17:34.715306",
+      "sent_time": "2018-05-09T20:17:34.716848",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:18:11.293600"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Bonne id\u00e9e.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "We had better get a move on.",
+      "preprocessed_text": "good idea . <CONCAT> we had better get a move on .",
+      "translated_text": "bonne id\u00e9e . <CONCAT> on ferait mieux d&apos; y aller .",
+      "postprocessed_text": "On ferait mieux d'y aller.",
+      "composition_time": "2018-05-09T20:17:29.308646",
+      "preprocessing_begin": "2018-05-09T20:17:29.391002",
+      "preprocessing_end": "2018-05-09T20:17:32.023397",
+      "translation_begin": "2018-05-09T20:17:32.023517",
+      "translation_end": "2018-05-09T20:17:34.651320",
+      "postprocessing_begin": "2018-05-09T20:17:34.651827",
+      "postprocessing_end": "2018-05-09T20:17:34.715306",
+      "sent_time": "2018-05-09T20:17:34.718591",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:18:12.291492"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Nous devrions nous mettre en route.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Avec la nuit qui tombe, il risque de faire froid assez vite maintenant.",
+      "preprocessed_text": "on ferait mieux d&apos; y aller . <CONCAT> avec la nuit qui tombe , il risque de faire froid assez vite maintenant .",
+      "translated_text": "we &apos;d better go . <CONCAT> with the night falling , it might get cold fast enough now .",
+      "postprocessed_text": "With the night falling, it might get cold fast enough now.",
+      "composition_time": "2018-05-09T20:17:45.462911",
+      "preprocessing_begin": "2018-05-09T20:17:45.551571",
+      "preprocessing_end": "2018-05-09T20:17:48.185491",
+      "translation_begin": "2018-05-09T20:17:48.185605",
+      "translation_end": "2018-05-09T20:17:49.865227",
+      "postprocessing_begin": "2018-05-09T20:17:49.866374",
+      "postprocessing_end": "2018-05-09T20:17:49.954795",
+      "sent_time": "2018-05-09T20:17:49.956960",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:21:52.498350",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'fast enough' not usually used",
+            "2018-05-09T20:22:19.175666",
+            "2018-05-09T20:22:19.175666"
+          ]
+        ],
+        "verbatim": "'fast enough' not usually used",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:21:49.751057"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "With night falling, it could get cold pretty quickly now.",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "english",
+      "original_text": "Only a jacket and a scarf.",
+      "preprocessed_text": "with the night falling , it might get cold fast enough now . <CONCAT> only a jacket and a scarf .",
+      "translated_text": "avec la tomb\u00e9e de la nuit , \u00e7a pourrait refroidir assez vite . <CONCAT> seulement une veste et une \u00e9charpe .",
+      "postprocessed_text": "Seulement une veste et une \u00e9charpe.",
+      "composition_time": "2018-05-09T20:17:57.822089",
+      "preprocessing_begin": "2018-05-09T20:17:57.927192",
+      "preprocessing_end": "2018-05-09T20:18:00.329535",
+      "translation_begin": "2018-05-09T20:18:00.329655",
+      "translation_end": "2018-05-09T20:18:02.217441",
+      "postprocessing_begin": "2018-05-09T20:18:02.218126",
+      "postprocessing_end": "2018-05-09T20:18:02.280576",
+      "sent_time": "2018-05-09T20:18:02.282245",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:18:13.897243"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Seulement une veste et une \u00e9charpe.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Essayons de marcher un peu plus vite pour nous r\u00e9chauffer.",
+      "preprocessed_text": "seulement une veste et une \u00e9charpe . <CONCAT> essayons de marcher un peu plus vite pour nous r\u00e9chauffer .",
+      "translated_text": "just a jacket and a scarf . <CONCAT> let &apos;s try to walk a little faster to warm ourselves .",
+      "postprocessed_text": "Let's try to walk a little faster to warm ourselves.",
+      "composition_time": "2018-05-09T20:18:42.549045",
+      "preprocessing_begin": "2018-05-09T20:18:42.633777",
+      "preprocessing_end": "2018-05-09T20:18:45.248020",
+      "translation_begin": "2018-05-09T20:18:45.248098",
+      "translation_end": "2018-05-09T20:18:47.211923",
+      "postprocessing_begin": "2018-05-09T20:18:47.212511",
+      "postprocessing_end": "2018-05-09T20:18:47.276506",
+      "sent_time": "2018-05-09T20:18:47.278637",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:25:22.798004"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Let\u2019s try to walk a bit faster to keep warm.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Je crois avoir encore de l'eau chaude dans mon sac.",
+      "preprocessed_text": "essayons de marcher un peu plus vite pour nous r\u00e9chauffer . <CONCAT> je crois avoir encore de l&apos; eau chaude dans mon sac .",
+      "translated_text": "let &apos;s try to walk a little faster to warm ourselves . <CONCAT> I think I still have some hot water in my bag .",
+      "postprocessed_text": "I think I still have some hot water in my bag.",
+      "composition_time": "2018-05-09T20:19:22.356595",
+      "preprocessing_begin": "2018-05-09T20:19:22.444064",
+      "preprocessing_end": "2018-05-09T20:19:24.993751",
+      "translation_begin": "2018-05-09T20:19:24.993878",
+      "translation_end": "2018-05-09T20:19:28.871201",
+      "postprocessing_begin": "2018-05-09T20:19:28.871701",
+      "postprocessing_end": "2018-05-09T20:19:28.945179",
+      "sent_time": "2018-05-09T20:19:28.947334",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:20:55.425103"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I think I still have some hot water in my bag.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "Voulez-vous du th\u00e9 ou du caf\u00e9 ?",
+      "preprocessed_text": "je crois avoir encore de l&apos; eau chaude dans mon sac . <CONCAT> voulez @-@ vous du th\u00e9 ou du caf\u00e9 ?",
+      "translated_text": "I think I still have some hot water in my bag . <CONCAT> would you like some tea or coffee ?",
+      "postprocessed_text": "Would you like some tea or coffee?",
+      "composition_time": "2018-05-09T20:19:22.356595",
+      "preprocessing_begin": "2018-05-09T20:19:22.444064",
+      "preprocessing_end": "2018-05-09T20:19:24.993751",
+      "translation_begin": "2018-05-09T20:19:24.993878",
+      "translation_end": "2018-05-09T20:19:28.871201",
+      "postprocessing_begin": "2018-05-09T20:19:28.871701",
+      "postprocessing_end": "2018-05-09T20:19:28.945179",
+      "sent_time": "2018-05-09T20:19:28.948747",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:20:57.464605"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Would you like a tea or coffee?",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "english",
+      "original_text": "I would love some tea but we better not stop.",
+      "preprocessed_text": "would you like some tea or coffee ? <CONCAT> I would love some tea but we better not stop .",
+      "translated_text": "voulez @-@ vous du th\u00e9 ou du caf\u00e9 ? <CONCAT> j&apos; aimerais bien du th\u00e9 , mais il vaut mieux ne pas s&apos; arr\u00eater .",
+      "postprocessed_text": "J'aimerais bien du th\u00e9, mais il vaut mieux ne pas s'arr\u00eater.",
+      "composition_time": "2018-05-09T20:20:01.795751",
+      "preprocessing_begin": "2018-05-09T20:20:01.889492",
+      "preprocessing_end": "2018-05-09T20:20:04.345052",
+      "translation_begin": "2018-05-09T20:20:04.345186",
+      "translation_end": "2018-05-09T20:20:06.872471",
+      "postprocessing_begin": "2018-05-09T20:20:06.872859",
+      "postprocessing_end": "2018-05-09T20:20:06.922030",
+      "sent_time": "2018-05-09T20:20:06.923125",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:20:44.928938"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "J\u2019adorerais un peu de th\u00e9 mais nous ne devrions pas nous arr\u00eater.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "Entendu, nous le prendrons tout \u00e0 l'heure.",
+      "preprocessed_text": "j&apos; aimerais bien du th\u00e9 , mais il vaut mieux ne pas s&apos; arr\u00eater . <CONCAT> entendu , nous le prendrons tout \u00e0 l&apos; heure .",
+      "translated_text": "I &apos;d like some tea , but it &apos;s better not to stop . <CONCAT> all right , we &apos;ll take it later .",
+      "postprocessed_text": "All right, we'll take it later.",
+      "composition_time": "2018-05-09T20:20:40.259600",
+      "preprocessing_begin": "2018-05-09T20:20:40.350992",
+      "preprocessing_end": "2018-05-09T20:20:42.752447",
+      "translation_begin": "2018-05-09T20:20:42.752579",
+      "translation_end": "2018-05-09T20:20:44.844952",
+      "postprocessing_begin": "2018-05-09T20:20:44.845394",
+      "postprocessing_end": "2018-05-09T20:20:44.907590",
+      "sent_time": "2018-05-09T20:20:44.910370",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-09T20:21:09.733856",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "almost pe",
+            "2018-05-09T20:21:32.201681",
+            "2018-05-09T20:21:32.201681"
+          ],
+          [
+            "",
+            "2018-05-09T20:21:42.504248",
+            "2018-05-09T20:21:42.504248"
+          ]
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:21:00.344718"
+          ],
+          [
+            "medium",
+            "2018-05-09T20:21:06.978458"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Ok, we\u2019ll have some later.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "good",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "",
+    "timestamp": "2018-05-09T20:21:20.631321",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "initially had trouble accessing website",
+    "meaning": "excellent",
+    "coherence": "good",
+    "grammaticality": "excellent",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "what does 'drums' mean",
+    "timestamp": "2018-05-09T20:27:00.991391",
+    "verbatim_quality": "overall good",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

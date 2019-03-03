@@ -1,0 +1,1308 @@
+{
+  "start_time": "2018-05-03T19:25:05.200199",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in an aeroplane.",
+      "Vous \u00eates dans un avion."
+    ],
+    [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    [
+      "You are speaking to the person next to you, who is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": true,
+    "role_num": 2,
+    "role": [
+      "You are speaking to the person next to you, who is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:59.0) Gecko/20100101 Firefox/59.0"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "role": [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 1
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Hi, this is my first time flying and I have to admit that I'm a bit nervous",
+      "preprocessed_text": "<BEGIN>  <CONCAT> hi , this is my first time flying and I have to admit that I &apos;m a bit nervous",
+      "translated_text": "bonne nuit . <CONCAT> salut , c&apos; est ma premi\u00e8re fois et je dois avouer que je suis un peu nerveux .",
+      "postprocessed_text": "Salut, c'est ma premi\u00e8re fois et je dois avouer que je suis un peu nerveux.",
+      "composition_time": "2018-05-03T19:26:18.102743",
+      "preprocessing_begin": "2018-05-03T19:26:18.142267",
+      "preprocessing_end": "2018-05-03T19:26:20.279876",
+      "translation_begin": "2018-05-03T19:26:20.279984",
+      "translation_end": "2018-05-03T19:26:22.046770",
+      "postprocessing_begin": "2018-05-03T19:26:22.047182",
+      "postprocessing_end": "2018-05-03T19:26:22.089824",
+      "sent_time": "2018-05-03T19:26:22.090762",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T19:26:39.239721",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Familier",
+            "2018-05-03T19:27:53.277316",
+            "2018-05-03T19:27:53.277316"
+          ]
+        ],
+        "verbatim": "Familier",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:26:36.640980"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Bonjour, c'est la premi\u00e8re fois que je prends l'avion, et je dois avouer que je suis un peu nerveuse.",
+      "normalised_version": "Hi, this is my first time flying and I have to admit that I'm a bit nervous."
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Have you flown before?",
+      "preprocessed_text": "hi , this is my first time flying and I have to admit that I &apos;m a bit nervous <CONCAT> have you flown before ?",
+      "translated_text": "salut , c&apos; est ma premi\u00e8re fois en avion et je dois admettre que je suis un peu nerveux . <CONCAT> tu as d\u00e9j\u00e0 pris l&apos; avion ?",
+      "postprocessed_text": "Tu as d\u00e9j\u00e0 pris l'avion ?",
+      "composition_time": "2018-05-03T19:26:33.062933",
+      "preprocessing_begin": "2018-05-03T19:26:33.099003",
+      "preprocessing_end": "2018-05-03T19:26:35.317105",
+      "translation_begin": "2018-05-03T19:26:35.317409",
+      "translation_end": "2018-05-03T19:26:37.380366",
+      "postprocessing_begin": "2018-05-03T19:26:37.380712",
+      "postprocessing_end": "2018-05-03T19:26:37.413000",
+      "sent_time": "2018-05-03T19:26:37.414753",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T19:27:55.353935",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tutoiement",
+            "2018-05-03T19:28:00.365771",
+            "2018-05-03T19:28:00.365771"
+          ]
+        ],
+        "verbatim": "tutoiement",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:27:53.270002"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Avez-vous d\u00e9j\u00e0 pris l'avion\u00a0?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "oui",
+      "preprocessed_text": "tu as d\u00e9j\u00e0 pris l&apos; avion ? <CONCAT> oui",
+      "translated_text": "have you ever been on a plane ? <CONCAT> yes",
+      "postprocessed_text": "Yes",
+      "composition_time": "2018-05-03T19:26:45.878701",
+      "preprocessing_begin": "2018-05-03T19:26:45.915544",
+      "preprocessing_end": "2018-05-03T19:26:48.142537",
+      "translation_begin": "2018-05-03T19:26:48.142683",
+      "translation_end": "2018-05-03T19:26:49.112144",
+      "postprocessing_begin": "2018-05-03T19:26:49.112413",
+      "postprocessing_end": "2018-05-03T19:26:49.150924",
+      "sent_time": "2018-05-03T19:26:49.152067",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:28:34.490340"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes.",
+      "normalised_version": "Oui."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "je le prends tr\u00e8s souvent !",
+      "preprocessed_text": "oui <CONCAT> je le prends tr\u00e8s souvent !",
+      "translated_text": "yes <CONCAT> I take it very often !",
+      "postprocessed_text": "I take it very often!",
+      "composition_time": "2018-05-03T19:26:52.505222",
+      "preprocessing_begin": "2018-05-03T19:26:52.540750",
+      "preprocessing_end": "2018-05-03T19:26:54.615627",
+      "translation_begin": "2018-05-03T19:26:54.615696",
+      "translation_end": "2018-05-03T19:26:55.324868",
+      "postprocessing_begin": "2018-05-03T19:26:55.325163",
+      "postprocessing_end": "2018-05-03T19:26:55.358422",
+      "sent_time": "2018-05-03T19:26:55.359584",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:28:36.096072"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "I take it quite often!",
+      "normalised_version": "Je le prends tr\u00e8s souvent !"
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Presque toutes les semaines pour mon travail.",
+      "preprocessed_text": "je le prends tr\u00e8s souvent ! <CONCAT> presque toutes les semaines pour mon travail .",
+      "translated_text": "I take it very often ! <CONCAT> almost every week for my work .",
+      "postprocessed_text": "Almost every week for my work.",
+      "composition_time": "2018-05-03T19:26:59.620638",
+      "preprocessing_begin": "2018-05-03T19:26:59.658643",
+      "preprocessing_end": "2018-05-03T19:27:01.980056",
+      "translation_begin": "2018-05-03T19:27:01.980163",
+      "translation_end": "2018-05-03T19:27:03.029912",
+      "postprocessing_begin": "2018-05-03T19:27:03.030195",
+      "postprocessing_end": "2018-05-03T19:27:03.064464",
+      "sent_time": "2018-05-03T19:27:03.065479",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:28:39.582006"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Almost every week for work.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "french",
+      "original_text": "Vous allez voir, le voyage va bien se passer, j'en suis certaine !",
+      "preprocessed_text": "presque toutes les semaines pour mon travail . <CONCAT> vous allez voir , le voyage va bien se passer , j&apos; en suis certaine !",
+      "translated_text": "almost every week for my work . <CONCAT> you &apos;ll see , the journey will go well , I &apos;m sure !",
+      "postprocessed_text": "You'll see, the journey will go well, I'm sure!",
+      "composition_time": "2018-05-03T19:27:29.171554",
+      "preprocessing_begin": "2018-05-03T19:27:29.209303",
+      "preprocessing_end": "2018-05-03T19:27:31.484398",
+      "translation_begin": "2018-05-03T19:27:31.484460",
+      "translation_end": "2018-05-03T19:27:33.238633",
+      "postprocessing_begin": "2018-05-03T19:27:33.238872",
+      "postprocessing_end": "2018-05-03T19:27:33.268557",
+      "sent_time": "2018-05-03T19:27:33.269478",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:28:42.413511"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "You\u2019ll see, the journey will be ok, I\u2019m sure of it.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "I'm quite scared in fact.",
+      "preprocessed_text": "you &apos;ll see , the journey will go well , I &apos;m sure ! <CONCAT> I &apos;m quite scared in fact .",
+      "translated_text": "tu verras , le voyage se passera bien , j&apos; en suis s\u00fbr ! <CONCAT> j&apos; ai tr\u00e8s peur en fait .",
+      "postprocessed_text": "J'ai tr\u00e8s peur en fait.",
+      "composition_time": "2018-05-03T19:27:49.736718",
+      "preprocessing_begin": "2018-05-03T19:27:49.774665",
+      "preprocessing_end": "2018-05-03T19:27:51.910551",
+      "translation_begin": "2018-05-03T19:27:51.910650",
+      "translation_end": "2018-05-03T19:27:55.245756",
+      "postprocessing_begin": "2018-05-03T19:27:55.245981",
+      "postprocessing_end": "2018-05-03T19:27:55.276765",
+      "sent_time": "2018-05-03T19:27:55.277823",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:29:08.436845"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "J'ai vraiment peur, en fait.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "What is that strange noise and shaking?",
+      "preprocessed_text": "I &apos;m quite scared in fact . <CONCAT> what is that strange noise and shaking ?",
+      "translated_text": "j&apos; ai tr\u00e8s peur en fait . <CONCAT> quel est ce bruit \u00e9trange et qui tremble ?",
+      "postprocessed_text": "Quel est ce bruit \u00e9trange et qui tremble ?",
+      "composition_time": "2018-05-03T19:27:49.736718",
+      "preprocessing_begin": "2018-05-03T19:27:49.774665",
+      "preprocessing_end": "2018-05-03T19:27:51.910551",
+      "translation_begin": "2018-05-03T19:27:51.910650",
+      "translation_end": "2018-05-03T19:27:55.245756",
+      "postprocessing_begin": "2018-05-03T19:27:55.245981",
+      "postprocessing_end": "2018-05-03T19:27:55.276765",
+      "sent_time": "2018-05-03T19:27:55.278290",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T19:29:12.526470",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "bruit qui tremble",
+            "2018-05-03T19:29:18.508735",
+            "2018-05-03T19:29:18.508735"
+          ]
+        ],
+        "verbatim": "bruit qui tremble",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:29:11.028194"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Qu'est-ce c'est que ce bruit et ce tremblement bizarres\u00a0?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "C'est tout \u00e0 fait normal, il s'agit du remplissage du carburant avant le d\u00e9part !",
+      "preprocessed_text": "quel est ce bruit \u00e9trange et qui tremble ? <CONCAT> c&apos; est tout \u00e0 fait normal , il s&apos; agit du remplis@@ sage du carburant avant le d\u00e9part !",
+      "translated_text": "what &apos;s that strange sound that &apos;s shaking ? <CONCAT> it &apos;s perfectly normal .",
+      "postprocessed_text": "It's perfectly normal.",
+      "composition_time": "2018-05-03T19:28:17.546750",
+      "preprocessing_begin": "2018-05-03T19:28:17.582701",
+      "preprocessing_end": "2018-05-03T19:28:19.837709",
+      "translation_begin": "2018-05-03T19:28:19.837796",
+      "translation_end": "2018-05-03T19:28:21.694204",
+      "postprocessing_begin": "2018-05-03T19:28:21.694568",
+      "postprocessing_end": "2018-05-03T19:28:21.738406",
+      "sent_time": "2018-05-03T19:28:21.739856",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:28:44.202430"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s totally normal. It\u2019s them filling up with fuel before take-off!",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Moi aussi, j'avais tr\u00e8s peur quand j'ai commenc\u00e9 \u00e0 prendre l'avion il y a 10 ans",
+      "preprocessed_text": "c&apos; est tout \u00e0 fait normal , il s&apos; agit du remplis@@ sage du carburant avant le d\u00e9part ! <CONCAT> moi aussi , j&apos; avais tr\u00e8s peur quand j&apos; ai commenc\u00e9 \u00e0 prendre l&apos; avion il y a 10 ans",
+      "translated_text": "it &apos;s perfectly normal . <CONCAT> I was very scared , too , when I started getting on the plane ten years ago .",
+      "postprocessed_text": "I was very scared, too, when I started getting on the plane ten years ago.",
+      "composition_time": "2018-05-03T19:28:31.133847",
+      "preprocessing_begin": "2018-05-03T19:28:31.167689",
+      "preprocessing_end": "2018-05-03T19:28:33.305728",
+      "translation_begin": "2018-05-03T19:28:33.305809",
+      "translation_end": "2018-05-03T19:28:35.108668",
+      "postprocessing_begin": "2018-05-03T19:28:35.109392",
+      "postprocessing_end": "2018-05-03T19:28:35.147612",
+      "sent_time": "2018-05-03T19:28:35.149064",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:28:47.942749"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I too used to be scared when I started flying 10 years ago.",
+      "normalised_version": "Moi aussi, j'avais tr\u00e8s peur quand j'ai commenc\u00e9 \u00e0 prendre l'avion il y a 10 ans."
+    },
+    "10": {
+      "language": "french",
+      "original_text": "et j'ai m\u00eame fait une formation pour apprendre \u00e0 ne pas avoir peur en avion !",
+      "preprocessed_text": "moi aussi , j&apos; avais tr\u00e8s peur quand j&apos; ai commenc\u00e9 \u00e0 prendre l&apos; avion il y a 10 ans <CONCAT> et j&apos; ai m\u00eame fait une formation pour apprendre \u00e0 ne pas avoir peur en avion !",
+      "translated_text": "I was really scared , too , when I started getting on the plane ten years ago . <CONCAT> and I even trained to learn how to not be afraid of flying !",
+      "postprocessed_text": "And I even trained to learn how to not be afraid of flying!",
+      "composition_time": "2018-05-03T19:28:55.777783",
+      "preprocessing_begin": "2018-05-03T19:28:55.812622",
+      "preprocessing_end": "2018-05-03T19:28:58.075807",
+      "translation_begin": "2018-05-03T19:28:58.075875",
+      "translation_end": "2018-05-03T19:29:00.416779",
+      "postprocessing_begin": "2018-05-03T19:29:00.417307",
+      "postprocessing_end": "2018-05-03T19:29:00.460277",
+      "sent_time": "2018-05-03T19:29:00.461243",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:32:37.590225"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "And I even took a course in learning not be scared of flying!",
+      "normalised_version": "Et j'ai m\u00eame fait une formation pour apprendre \u00e0 ne pas avoir peur en avion !"
+    },
+    "11": {
+      "language": "english",
+      "original_text": "Really!",
+      "preprocessed_text": "and I even trained to learn how to not be afraid of flying ! <CONCAT> really !",
+      "translated_text": "et j&apos; ai m\u00eame appris \u00e0 ne pas avoir peur de voler ! <CONCAT> vraiment !",
+      "postprocessed_text": "Vraiment !",
+      "composition_time": "2018-05-03T19:29:15.720241",
+      "preprocessing_begin": "2018-05-03T19:29:15.755277",
+      "preprocessing_end": "2018-05-03T19:29:17.956818",
+      "translation_begin": "2018-05-03T19:29:17.956920",
+      "translation_end": "2018-05-03T19:29:19.995839",
+      "postprocessing_begin": "2018-05-03T19:29:19.996254",
+      "postprocessing_end": "2018-05-03T19:29:20.026021",
+      "sent_time": "2018-05-03T19:29:20.027502",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:29:28.176490"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Vraiment\u00a0?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "that's reassuring",
+      "preprocessed_text": "really ! <CONCAT> that &apos;s reassuring",
+      "translated_text": "vraiment ! <CONCAT> c&apos; est rassurant .",
+      "postprocessed_text": "C'est rassurant.",
+      "composition_time": "2018-05-03T19:29:15.720241",
+      "preprocessing_begin": "2018-05-03T19:29:15.755277",
+      "preprocessing_end": "2018-05-03T19:29:17.956818",
+      "translation_begin": "2018-05-03T19:29:17.956920",
+      "translation_end": "2018-05-03T19:29:19.995839",
+      "postprocessing_begin": "2018-05-03T19:29:19.996254",
+      "postprocessing_end": "2018-05-03T19:29:20.026021",
+      "sent_time": "2018-05-03T19:29:20.028483",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:29:32.338666"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C'est rassurant\u2026",
+      "normalised_version": "That's reassuring."
+    },
+    "13": {
+      "language": "english",
+      "original_text": "Maybe I should order a drink from the drinks trolley to sooth my nerves.",
+      "preprocessed_text": "that &apos;s reassuring <CONCAT> maybe I should order a drink from the drinks trolley to so@@ oth my nerves .",
+      "translated_text": "c&apos; est rassurant . <CONCAT> je devrais peut @-@ \u00eatre commander un verre dans le chariot de boissons pour me calmer les nerfs .",
+      "postprocessed_text": "Je devrais peut-\u00eatre commander un verre dans le chariot de boissons pour me calmer les nerfs.",
+      "composition_time": "2018-05-03T19:29:46.802252",
+      "preprocessing_begin": "2018-05-03T19:29:46.837618",
+      "preprocessing_end": "2018-05-03T19:29:48.934098",
+      "translation_begin": "2018-05-03T19:29:48.934174",
+      "translation_end": "2018-05-03T19:29:52.565081",
+      "postprocessing_begin": "2018-05-03T19:29:52.565362",
+      "postprocessing_end": "2018-05-03T19:29:52.603393",
+      "sent_time": "2018-05-03T19:29:52.604522",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T19:31:44.483759",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "calmer les nerfs...",
+            "2018-05-03T19:31:50.330552",
+            "2018-05-03T19:31:50.330552"
+          ]
+        ],
+        "verbatim": "calmer les nerfs...",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:31:43.035151"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je devrais peut-\u00eatre commander un verre au chariot \u00e0 boissons pour me calmer.",
+      "normalised_version": "Maybe I should order a drink from the drinks trolley to soothe my nerves."
+    },
+    "14": {
+      "language": "english",
+      "original_text": "Would you like one?",
+      "preprocessed_text": "maybe I should order a drink from the drinks trolley to so@@ oth my nerves . <CONCAT> would you like one ?",
+      "translated_text": "peut @-@ \u00eatre que je devrais commander \u00e0 boire dans le chariot de boissons pour me calmer les nerfs . <CONCAT> tu en veux un ?",
+      "postprocessed_text": "Tu en veux un ?",
+      "composition_time": "2018-05-03T19:29:46.802252",
+      "preprocessing_begin": "2018-05-03T19:29:46.837618",
+      "preprocessing_end": "2018-05-03T19:29:48.934098",
+      "translation_begin": "2018-05-03T19:29:48.934174",
+      "translation_end": "2018-05-03T19:29:52.565081",
+      "postprocessing_begin": "2018-05-03T19:29:52.565362",
+      "postprocessing_end": "2018-05-03T19:29:52.603393",
+      "sent_time": "2018-05-03T19:29:52.605420",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:31:54.582283",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "familier",
+            "2018-05-03T19:31:58.180153",
+            "2018-05-03T19:31:58.180153"
+          ]
+        ],
+        "verbatim": "familier",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:31:51.860648"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Vous en voulez un\u00a0?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "C'est une bonne id\u00e9e pour se d\u00e9tendre!",
+      "preprocessed_text": "tu en veux un ? <CONCAT> c&apos; est une bonne id\u00e9e pour se d\u00e9tendre !",
+      "translated_text": "do you want one ? <CONCAT> it &apos;s a good idea to relax !",
+      "postprocessed_text": "It's a good idea to relax!",
+      "composition_time": "2018-05-03T19:30:19.171645",
+      "preprocessing_begin": "2018-05-03T19:30:19.206570",
+      "preprocessing_end": "2018-05-03T19:30:21.524812",
+      "translation_begin": "2018-05-03T19:30:21.524878",
+      "translation_end": "2018-05-03T19:30:22.569013",
+      "postprocessing_begin": "2018-05-03T19:30:22.569439",
+      "postprocessing_end": "2018-05-03T19:30:22.609077",
+      "sent_time": "2018-05-03T19:30:22.610520",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:32:41.116373"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That\u2019s a good way to relax!",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "par contre, je vais prendre un caf\u00e9 plut\u00f4t...",
+      "preprocessed_text": "c&apos; est une bonne id\u00e9e pour se d\u00e9tendre ! <CONCAT> par contre , je vais prendre un caf\u00e9 plut\u00f4t ...",
+      "translated_text": "it &apos;s a good idea to relax ! <CONCAT> but I &apos;ll have a coffee instead ...",
+      "postprocessed_text": "But I'll have a coffee instead...",
+      "composition_time": "2018-05-03T19:30:41.665746",
+      "preprocessing_begin": "2018-05-03T19:30:41.709047",
+      "preprocessing_end": "2018-05-03T19:30:44.026912",
+      "translation_begin": "2018-05-03T19:30:44.027002",
+      "translation_end": "2018-05-03T19:30:45.508574",
+      "postprocessing_begin": "2018-05-03T19:30:45.508940",
+      "postprocessing_end": "2018-05-03T19:30:45.541952",
+      "sent_time": "2018-05-03T19:30:45.543390",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:32:42.882706"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But I\u2019ll take a coffee instead\u2026",
+      "normalised_version": "Par contre, je vais prendre un caf\u00e9 plut\u00f4t..."
+    },
+    "17": {
+      "language": "french",
+      "original_text": "je me suis lev\u00e9e un peu t\u00f4t pour prendre l'avion, et j'ai bien besoin de ce caf\u00e9 pour me r\u00e9veiller un peu !",
+      "preprocessed_text": "par contre , je vais prendre un caf\u00e9 plut\u00f4t ... <CONCAT> je me suis lev\u00e9e un peu t\u00f4t pour prendre l&apos; avion , et j&apos; ai bien besoin de ce caf\u00e9 pour me r\u00e9veiller un peu !",
+      "translated_text": "but I &apos;ll have coffee instead ... <CONCAT> I got up a little early to get on the plane , and I need that coffee to wake me up a bit !",
+      "postprocessed_text": "I got up a little early to get on the plane, and I need that coffee to wake me up a bit!",
+      "composition_time": "2018-05-03T19:31:18.719182",
+      "preprocessing_begin": "2018-05-03T19:31:18.753038",
+      "preprocessing_end": "2018-05-03T19:31:21.159676",
+      "translation_begin": "2018-05-03T19:31:21.159785",
+      "translation_end": "2018-05-03T19:31:23.719658",
+      "postprocessing_begin": "2018-05-03T19:31:23.719999",
+      "postprocessing_end": "2018-05-03T19:31:23.751074",
+      "sent_time": "2018-05-03T19:31:23.752570",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:32:43.715852"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I got up early this morning to get the plane, and I need a coffee to help me wake up a bit!",
+      "normalised_version": "Je me suis lev\u00e9e un peu t\u00f4t pour prendre l'avion, et j'ai bien besoin de ce caf\u00e9 pour me r\u00e9veiller un peu !"
+    },
+    "18": {
+      "language": "english",
+      "original_text": "OK.",
+      "preprocessed_text": "I got up a little early to get on the plane , and I need that coffee to wake me up a bit ! <CONCAT> OK .",
+      "translated_text": "je me suis lev\u00e9 un peu t\u00f4t pour monter dans l&apos; avion , et j&apos; ai besoin de ce caf\u00e9 pour me r\u00e9veiller un peu ! <CONCAT> ok .",
+      "postprocessed_text": "Ok.",
+      "composition_time": "2018-05-03T19:32:05.199728",
+      "preprocessing_begin": "2018-05-03T19:32:05.233947",
+      "preprocessing_end": "2018-05-03T19:32:07.295307",
+      "translation_begin": "2018-05-03T19:32:07.295394",
+      "translation_end": "2018-05-03T19:32:12.233709",
+      "postprocessing_begin": "2018-05-03T19:32:12.233939",
+      "postprocessing_end": "2018-05-03T19:32:12.284866",
+      "sent_time": "2018-05-03T19:32:12.285952",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:32:33.690810"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "OK.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "I'll grab the stewardess when she passes.",
+      "preprocessed_text": "OK . <CONCAT> I &apos;ll grab the stewardess when she passes .",
+      "translated_text": "ok . <CONCAT> je prends l&apos; h\u00f4tesse de l&apos; air quand elle passe .",
+      "postprocessed_text": "Je prends l'h\u00f4tesse de l'air quand elle passe.",
+      "composition_time": "2018-05-03T19:32:05.199728",
+      "preprocessing_begin": "2018-05-03T19:32:05.233947",
+      "preprocessing_end": "2018-05-03T19:32:07.295307",
+      "translation_begin": "2018-05-03T19:32:07.295394",
+      "translation_end": "2018-05-03T19:32:12.233709",
+      "postprocessing_begin": "2018-05-03T19:32:12.233939",
+      "postprocessing_end": "2018-05-03T19:32:12.284866",
+      "sent_time": "2018-05-03T19:32:12.286584",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:32:32.736731"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Je vais attraper l'h\u00f4tesse quand elle passera.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "Would you like anything to eat with your coffee?",
+      "preprocessed_text": "I &apos;ll grab the stewardess when she passes . <CONCAT> would you like anything to eat with your coffee ?",
+      "translated_text": "je prendrai l&apos; h\u00f4tesse de l&apos; air quand elle passera . <CONCAT> voulez @-@ vous manger quelque chose avec votre caf\u00e9 ?",
+      "postprocessed_text": "Voulez-vous manger quelque chose avec votre caf\u00e9 ?",
+      "composition_time": "2018-05-03T19:32:05.199728",
+      "preprocessing_begin": "2018-05-03T19:32:05.233947",
+      "preprocessing_end": "2018-05-03T19:32:07.295307",
+      "translation_begin": "2018-05-03T19:32:07.295394",
+      "translation_end": "2018-05-03T19:32:12.233709",
+      "postprocessing_begin": "2018-05-03T19:32:12.233939",
+      "postprocessing_end": "2018-05-03T19:32:12.284866",
+      "sent_time": "2018-05-03T19:32:12.287152",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:35:42.645708"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Vous voulez quelque chose \u00e0 manger avec votre caf\u00e9\u00a0?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "What do you do for work?",
+      "preprocessed_text": "would you like anything to eat with your coffee ? <CONCAT> what do you do for work ?",
+      "translated_text": "voulez @-@ vous manger quelque chose avec votre caf\u00e9 ? <CONCAT> que faites @-@ vous pour le travail ?",
+      "postprocessed_text": "Que faites-vous pour le travail ?",
+      "composition_time": "2018-05-03T19:32:15.497562",
+      "preprocessing_begin": "2018-05-03T19:32:15.535535",
+      "preprocessing_end": "2018-05-03T19:32:17.839279",
+      "translation_begin": "2018-05-03T19:32:17.839365",
+      "translation_end": "2018-05-03T19:32:19.250060",
+      "postprocessing_begin": "2018-05-03T19:32:19.250326",
+      "postprocessing_end": "2018-05-03T19:32:19.280983",
+      "sent_time": "2018-05-03T19:32:19.282519",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T19:35:47.111044",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "pour le vs comme",
+            "2018-05-03T19:35:50.838627",
+            "2018-05-03T19:35:50.838627"
+          ]
+        ],
+        "verbatim": "pour le vs comme",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:35:43.882952"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Vous faites quoi comme travail\u00a0?",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "je mangerais bien un croissant avec le caf\u00e9",
+      "preprocessed_text": "que faites @-@ vous pour le travail ? <CONCAT> je mangerais bien un croissant avec le caf\u00e9",
+      "translated_text": "what do you do for work ? <CONCAT> I could eat a croissant with coffee .",
+      "postprocessed_text": "I could eat a croissant with coffee.",
+      "composition_time": "2018-05-03T19:33:00.837028",
+      "preprocessing_begin": "2018-05-03T19:33:00.887745",
+      "preprocessing_end": "2018-05-03T19:33:03.117614",
+      "translation_begin": "2018-05-03T19:33:03.117710",
+      "translation_end": "2018-05-03T19:33:04.364252",
+      "postprocessing_begin": "2018-05-03T19:33:04.364627",
+      "postprocessing_end": "2018-05-03T19:33:04.396441",
+      "sent_time": "2018-05-03T19:33:04.397955",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:36:51.052617"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I could do with a croissant with the coffee.",
+      "normalised_version": "Je mangerais bien un croissant avec le caf\u00e9."
+    },
+    "23": {
+      "language": "english",
+      "original_text": "Good idea, I'll get one too.",
+      "preprocessed_text": "I could eat a croissant with coffee . <CONCAT> good idea , I &apos;ll get one too .",
+      "translated_text": "je pourrais manger un croissant avec du caf\u00e9 . <CONCAT> bonne id\u00e9e , j&apos; en prendrai une aussi .",
+      "postprocessed_text": "Bonne id\u00e9e, j'en prendrai une aussi.",
+      "composition_time": "2018-05-03T19:34:08.241253",
+      "preprocessing_begin": "2018-05-03T19:34:08.275894",
+      "preprocessing_end": "2018-05-03T19:34:10.350306",
+      "translation_begin": "2018-05-03T19:34:10.350369",
+      "translation_end": "2018-05-03T19:34:13.465823",
+      "postprocessing_begin": "2018-05-03T19:34:13.466098",
+      "postprocessing_end": "2018-05-03T19:34:13.508552",
+      "sent_time": "2018-05-03T19:34:13.509595",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:35:58.933694",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "un croissant",
+            "2018-05-03T19:36:10.322274",
+            "2018-05-03T19:36:10.322274"
+          ]
+        ],
+        "verbatim": "un croissant",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:35:56.573701"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Bonne id\u00e9e, je vais en prendre un moi aussi.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "I usually only eat croissant on special occasions.",
+      "preprocessed_text": "good idea , I &apos;ll get one too . <CONCAT> I usually only eat croissant on special occasions .",
+      "translated_text": "bonne id\u00e9e , j&apos; en prendrai une aussi . <CONCAT> je ne mange que des croissants \u00e0 des occasions sp\u00e9ciales .",
+      "postprocessed_text": "Je ne mange que des croissants \u00e0 des occasions sp\u00e9ciales.",
+      "composition_time": "2018-05-03T19:34:08.241253",
+      "preprocessing_begin": "2018-05-03T19:34:08.275894",
+      "preprocessing_end": "2018-05-03T19:34:10.350306",
+      "translation_begin": "2018-05-03T19:34:10.350369",
+      "translation_end": "2018-05-03T19:34:13.465823",
+      "postprocessing_begin": "2018-05-03T19:34:13.466098",
+      "postprocessing_end": "2018-05-03T19:34:13.508552",
+      "sent_time": "2018-05-03T19:34:13.510556",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:36:14.876708",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "que des croissants : formulation \u00e9trange : grammaire ?",
+            "2018-05-03T19:36:33.118322",
+            "2018-05-03T19:36:33.118322"
+          ]
+        ],
+        "verbatim": "que des croissants : formulation \u00e9trange : grammaire ?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:36:10.316136"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Normalement je ne mange des croissants que pour les grandes occasions.",
+      "normalised_version": "I usually only eat croissants on special occasions."
+    },
+    "25": {
+      "language": "french",
+      "original_text": "je suis artisan chocolatier, et voyage dans le monde entier \u00e0 la recherche du meilleur chocolat...",
+      "preprocessed_text": "je ne mange que des croissants \u00e0 des occasions sp\u00e9ciales . <CONCAT> je suis artisan chocol@@ ati@@ er , et voyage dans le monde entier \u00e0 la recherche du meilleur chocolat ...",
+      "translated_text": "I only eat croissants on special occasions . <CONCAT> I &apos;m a chocol@@ ati@@ er .",
+      "postprocessed_text": "I'm a chocolatier.",
+      "composition_time": "2018-05-03T19:34:17.985763",
+      "preprocessing_begin": "2018-05-03T19:34:18.023674",
+      "preprocessing_end": "2018-05-03T19:34:20.394160",
+      "translation_begin": "2018-05-03T19:34:20.394243",
+      "translation_end": "2018-05-03T19:34:22.657572",
+      "postprocessing_begin": "2018-05-03T19:34:22.657968",
+      "postprocessing_end": "2018-05-03T19:34:22.689159",
+      "sent_time": "2018-05-03T19:34:22.690748",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:36:53.959231"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I\u2019m a chocolatier, and travel all over the world in search of the best chocolate\u2026",
+      "normalised_version": "Je suis artisan chocolatier, et voyage dans le monde entier \u00e0 la recherche du meilleur chocolat\u2026"
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Flying for the first time is a bit of a special occasion.",
+      "preprocessed_text": "I &apos;m a chocol@@ ati@@ er . <CONCAT> flying for the first time is a bit of a special occasion .",
+      "translated_text": "je suis chocol@@ ati@@ er . <CONCAT> voler pour la premi\u00e8re fois est une occasion sp\u00e9ciale .",
+      "postprocessed_text": "Voler pour la premi\u00e8re fois est une occasion sp\u00e9ciale.",
+      "composition_time": "2018-05-03T19:34:24.882099",
+      "preprocessing_begin": "2018-05-03T19:34:24.924405",
+      "preprocessing_end": "2018-05-03T19:34:27.053391",
+      "translation_begin": "2018-05-03T19:34:27.053466",
+      "translation_end": "2018-05-03T19:34:28.559868",
+      "postprocessing_begin": "2018-05-03T19:34:28.560241",
+      "postprocessing_end": "2018-05-03T19:34:28.601221",
+      "sent_time": "2018-05-03T19:34:28.602924",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:36:37.461987"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Prendre l'avion pour la premi\u00e8re fois est un peu une grande occasion.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "french",
+      "original_text": "C'est certain !",
+      "preprocessed_text": "voler pour la premi\u00e8re fois est une occasion sp\u00e9ciale . <CONCAT> c&apos; est certain !",
+      "translated_text": "flying for the first time is a special occasion . <CONCAT> that &apos;s for sure !",
+      "postprocessed_text": "That's for sure!",
+      "composition_time": "2018-05-03T19:34:39.997618",
+      "preprocessing_begin": "2018-05-03T19:34:40.034196",
+      "preprocessing_end": "2018-05-03T19:34:42.179488",
+      "translation_begin": "2018-05-03T19:34:42.179560",
+      "translation_end": "2018-05-03T19:34:43.315970",
+      "postprocessing_begin": "2018-05-03T19:34:43.316197",
+      "postprocessing_end": "2018-05-03T19:34:43.359991",
+      "sent_time": "2018-05-03T19:34:43.361104",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:36:55.904789"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That\u2019s for sure!",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "Oh wow!",
+      "preprocessed_text": "flying for the first time is a bit of a special occasion . <CONCAT> oh wow !",
+      "translated_text": "voler pour la premi\u00e8re fois est une occasion sp\u00e9ciale . <CONCAT> oh wow !",
+      "postprocessed_text": "Oh wow !",
+      "composition_time": "2018-05-03T19:34:42.372003",
+      "preprocessing_begin": "2018-05-03T19:34:42.407344",
+      "preprocessing_end": "2018-05-03T19:34:44.509821",
+      "translation_begin": "2018-05-03T19:34:44.509867",
+      "translation_end": "2018-05-03T19:34:46.333749",
+      "postprocessing_begin": "2018-05-03T19:34:46.334080",
+      "postprocessing_end": "2018-05-03T19:34:46.370607",
+      "sent_time": "2018-05-03T19:34:46.372036",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T19:37:03.371050",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:36:54.591006"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Oh ouah\u00a0!",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "english",
+      "original_text": "What a dream job",
+      "preprocessed_text": "oh wow ! <CONCAT> what a dream job",
+      "translated_text": "oh wow ! <CONCAT> quel travail de r\u00eave",
+      "postprocessed_text": "Quel travail de r\u00eave",
+      "composition_time": "2018-05-03T19:34:42.372003",
+      "preprocessing_begin": "2018-05-03T19:34:42.407344",
+      "preprocessing_end": "2018-05-03T19:34:44.509821",
+      "translation_begin": "2018-05-03T19:34:44.509867",
+      "translation_end": "2018-05-03T19:34:46.333749",
+      "postprocessing_begin": "2018-05-03T19:34:46.334080",
+      "postprocessing_end": "2018-05-03T19:34:46.370607",
+      "sent_time": "2018-05-03T19:34:46.372995",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:37:04.516228"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Quel travail de r\u00eave\u00a0!",
+      "normalised_version": "What a dream job."
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Mais, comme je suis un peu gourmande, j'ai tendance \u00e0 manger souvent des croissants !",
+      "preprocessed_text": "quel travail de r\u00eave <CONCAT> mais , comme je suis un peu gourmande , j&apos; ai tendance \u00e0 manger souvent des croissants !",
+      "translated_text": "what a dream job <CONCAT> but since I &apos;m a bit greedy , I tend to eat croissants often !",
+      "postprocessed_text": "But since I'm a bit greedy, I tend to eat croissants often!",
+      "composition_time": "2018-05-03T19:34:52.374525",
+      "preprocessing_begin": "2018-05-03T19:34:52.412633",
+      "preprocessing_end": "2018-05-03T19:34:54.666488",
+      "translation_begin": "2018-05-03T19:34:54.666560",
+      "translation_end": "2018-05-03T19:34:56.156825",
+      "postprocessing_begin": "2018-05-03T19:34:56.157226",
+      "postprocessing_end": "2018-05-03T19:34:56.207127",
+      "sent_time": "2018-05-03T19:34:56.208285",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:36:59.536281"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But since I\u2019m a bit of a food lover, I tend to eat croissants quite often.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Oui, c'est un m\u00e9tier fantastique !",
+      "preprocessed_text": "mais , comme je suis un peu gourmande , j&apos; ai tendance \u00e0 manger souvent des croissants ! <CONCAT> oui , c&apos; est un m\u00e9tier fantastique !",
+      "translated_text": "but , since I &apos;m a bit greedy , I tend to eat croissants often ! <CONCAT> yes , it &apos;s a fantastic job !",
+      "postprocessed_text": "Yes, it's a fantastic job!",
+      "composition_time": "2018-05-03T19:35:02.958227",
+      "preprocessing_begin": "2018-05-03T19:35:02.996831",
+      "preprocessing_end": "2018-05-03T19:35:05.268605",
+      "translation_begin": "2018-05-03T19:35:05.268673",
+      "translation_end": "2018-05-03T19:35:06.989056",
+      "postprocessing_begin": "2018-05-03T19:35:06.989334",
+      "postprocessing_end": "2018-05-03T19:35:07.023387",
+      "sent_time": "2018-05-03T19:35:07.024768",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:37:01.475118"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, it\u2019s a fantastic job!",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "Which chocolate company do you work for?",
+      "preprocessed_text": "yes , it &apos;s a fantastic job ! <CONCAT> which chocolate company do you work for ?",
+      "translated_text": "oui , c&apos; est un travail fantastique ! <CONCAT> quelle entreprise de chocolat travaillez @-@ vous ?",
+      "postprocessed_text": "Quelle entreprise de chocolat travaillez-vous ?",
+      "composition_time": "2018-05-03T19:35:11.995595",
+      "preprocessing_begin": "2018-05-03T19:35:12.032024",
+      "preprocessing_end": "2018-05-03T19:35:14.217523",
+      "translation_begin": "2018-05-03T19:35:14.217593",
+      "translation_end": "2018-05-03T19:35:15.682664",
+      "postprocessing_begin": "2018-05-03T19:35:15.683023",
+      "postprocessing_end": "2018-05-03T19:35:15.716386",
+      "sent_time": "2018-05-03T19:35:15.718051",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:37:11.596629",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "aggrammatisme",
+            "2018-05-03T19:37:19.985951",
+            "2018-05-03T19:37:19.985951"
+          ]
+        ],
+        "verbatim": "aggrammatisme",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:37:10.140595"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Vous travaillez pour quel industriel du chocolat\u00a0?",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "je suis auto-entrepreneur, et travaille \u00e0 mon compte",
+      "preprocessed_text": "quelle entreprise de chocolat travaillez @-@ vous ? <CONCAT> je suis auto @-@ entrepreneur , et travaille \u00e0 mon compte",
+      "translated_text": "what chocolate company do you work at ? <CONCAT> I &apos;m an auto contractor , and I &apos;m working on my account .",
+      "postprocessed_text": "I'm an auto contractor, and I'm working on my account.",
+      "composition_time": "2018-05-03T19:35:30.815454",
+      "preprocessing_begin": "2018-05-03T19:35:30.849600",
+      "preprocessing_end": "2018-05-03T19:35:32.931340",
+      "translation_begin": "2018-05-03T19:35:32.931410",
+      "translation_end": "2018-05-03T19:35:34.799693",
+      "postprocessing_begin": "2018-05-03T19:35:34.800118",
+      "postprocessing_end": "2018-05-03T19:35:34.829690",
+      "sent_time": "2018-05-03T19:35:34.831093",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "I'm not sure what this means",
+            "2018-05-03T19:37:14.910314",
+            "2018-05-03T19:37:14.910314"
+          ]
+        ],
+        "verbatim": "I'm not sure what this means",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T19:37:05.176923"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": []
+      },
+      "reference_translation": "I'm self-employed, and so work for myself.",
+      "normalised_version": "Je suis auto-entrepreneur, et travaille \u00e0 mon compte."
+    },
+    "34": {
+      "language": "english",
+      "original_text": "I'm not sure what that means, but you are definitely someone to stay in touch with!!",
+      "preprocessed_text": "I &apos;m an auto contractor , and I &apos;m working on my account . <CONCAT> I &apos;m not sure what that means , but you are definitely someone to stay in touch with ! !",
+      "translated_text": "je suis un entrepreneur de voiture , et je travaille sur mon compte . <CONCAT> je ne suis pas s\u00fbr de ce que \u00e7a veut dire , mais tu es d\u00e9finitivement quelqu&apos; un avec qui rester en contact !",
+      "postprocessed_text": "Je ne suis pas s\u00fbr de ce que \u00e7a veut dire, mais tu es d\u00e9finitivement quelqu'un avec qui rester en contact !",
+      "composition_time": "2018-05-03T19:36:31.617417",
+      "preprocessing_begin": "2018-05-03T19:36:31.653029",
+      "preprocessing_end": "2018-05-03T19:36:33.776847",
+      "translation_begin": "2018-05-03T19:36:33.776962",
+      "translation_end": "2018-05-03T19:36:38.740372",
+      "postprocessing_begin": "2018-05-03T19:36:38.740788",
+      "postprocessing_end": "2018-05-03T19:36:38.771751",
+      "sent_time": "2018-05-03T19:36:38.773294",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:37:50.035233",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-03T19:37:52.925846",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:37:26.930672"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar",
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je ne sais pas trop ce que cela veut dire, mais vous \u00eates clairement quelqu'un avec qui rester en contact\u00a0!",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "I adore chocolate",
+      "preprocessed_text": "I &apos;m not sure what that means , but you are definitely someone to stay in touch with ! ! <CONCAT> I adore chocolate",
+      "translated_text": "je ne suis pas s\u00fbr de ce que \u00e7a veut dire , mais tu es d\u00e9finitivement quelqu&apos; un avec qui rester en contact ! <CONCAT> j&apos; adore le chocolat",
+      "postprocessed_text": "J'adore le chocolat",
+      "composition_time": "2018-05-03T19:36:31.617417",
+      "preprocessing_begin": "2018-05-03T19:36:31.653029",
+      "preprocessing_end": "2018-05-03T19:36:33.776847",
+      "translation_begin": "2018-05-03T19:36:33.776962",
+      "translation_end": "2018-05-03T19:36:38.740372",
+      "postprocessing_begin": "2018-05-03T19:36:38.740788",
+      "postprocessing_end": "2018-05-03T19:36:38.771751",
+      "sent_time": "2018-05-03T19:36:38.774291",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:37:35.487256"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "J'adore le chocolat\u00a0!",
+      "normalised_version": "I adore chocolate."
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "good",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "style": "average",
+    "particular_problems": "\"prendre l'h\u00f4tesse\", traduction un peu malencontreuse...\r\ndifficult\u00e9s sans doute pour traduire \"auto-entrepreneur\".\r\nqq tournures de phrase probl\u00e9matiques sur le plan grammatical, mais cela ne pose pas de probl\u00e8me majeur sur le sens global",
+    "timestamp": "2018-05-03T19:42:51.897043",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "excellent",
+    "grammaticality": "excellent",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "",
+    "timestamp": "2018-05-03T19:38:07.435122",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "excellent",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

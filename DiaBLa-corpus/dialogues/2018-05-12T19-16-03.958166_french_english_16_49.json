@@ -1,0 +1,1442 @@
+{
+  "start_time": "2018-05-12T19:16:03.958166",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are on holiday by the pool.",
+      "Vous \u00eates en vacances \u00e0 c\u00f4t\u00e9 de la piscine."
+    ],
+    [
+      "You are trying to relax and the other person wants to do something else.",
+      "Vous essayez de vous reposer et l'autre personne veut faire autre chose."
+    ],
+    [
+      "You want to do something else and the other person is trying to relax",
+      "Vous voulez faire autre chose et l'autre personne essaie de se reposer."
+    ]
+  ],
+  "user1": {
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.170 Safari/537.36",
+    "eval-stage": true,
+    "role_num": 2,
+    "role": [
+      "You want to do something else and the other person is trying to relax",
+      "Vous voulez faire autre chose et l'autre personne essaie de se reposer."
+    ],
+    "lang": "french",
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 2
+  },
+  "user2": {
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36",
+    "rolenum": 1,
+    "eval-stage": true,
+    "lang": "english",
+    "role": [
+      "You are trying to relax and the other person wants to do something else.",
+      "Vous essayez de vous reposer et l'autre personne veut faire autre chose."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 1
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Excuse me.",
+      "preprocessed_text": "<BEGIN>  <CONCAT> excuse me .",
+      "translated_text": "excuse @-@ moi . <CONCAT> excuse @-@ moi .",
+      "postprocessed_text": "Excuse-moi.",
+      "composition_time": "2018-05-12T19:17:10.383381",
+      "preprocessing_begin": "2018-05-12T19:17:10.451073",
+      "preprocessing_end": "2018-05-12T19:17:12.688276",
+      "translation_begin": "2018-05-12T19:17:12.688460",
+      "translation_end": "2018-05-12T19:17:16.345567",
+      "postprocessing_begin": "2018-05-12T19:17:16.345903",
+      "postprocessing_end": "2018-05-12T19:17:16.379324",
+      "sent_time": "2018-05-12T19:17:16.380478",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:17:25.325506"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Excuse-moi.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "I'm trying to have a relaxing time here and I'd prefer not to be disturbed.",
+      "preprocessed_text": "excuse me . <CONCAT> I &apos;m trying to have a relaxing time here and I &apos;d prefer not to be disturbed .",
+      "translated_text": "excusez @-@ moi . <CONCAT> j&apos; essaie de me d\u00e9tendre et je pr\u00e9f\u00e8re ne pas \u00eatre d\u00e9rang\u00e9 .",
+      "postprocessed_text": "J'essaie de me d\u00e9tendre et je pr\u00e9f\u00e8re ne pas \u00eatre d\u00e9rang\u00e9.",
+      "composition_time": "2018-05-12T19:17:10.383381",
+      "preprocessing_begin": "2018-05-12T19:17:10.451073",
+      "preprocessing_end": "2018-05-12T19:17:12.688276",
+      "translation_begin": "2018-05-12T19:17:12.688460",
+      "translation_end": "2018-05-12T19:17:16.345567",
+      "postprocessing_begin": "2018-05-12T19:17:16.345903",
+      "postprocessing_end": "2018-05-12T19:17:16.379324",
+      "sent_time": "2018-05-12T19:17:16.381062",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:17:26.498485"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "J\u2019essaie de me d\u00e9tendre ici et je pr\u00e9f\u00e9rerais ne pas \u00eatre d\u00e9rang\u00e9.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "Thank you.",
+      "preprocessed_text": "I &apos;m trying to have a relaxing time here and I &apos;d prefer not to be disturbed . <CONCAT> thank you .",
+      "translated_text": "j&apos; essaie de me d\u00e9tendre et je pr\u00e9f\u00e8re ne pas \u00eatre d\u00e9rang\u00e9 . <CONCAT> merci .",
+      "postprocessed_text": "Merci.",
+      "composition_time": "2018-05-12T19:17:10.383381",
+      "preprocessing_begin": "2018-05-12T19:17:10.451073",
+      "preprocessing_end": "2018-05-12T19:17:12.688276",
+      "translation_begin": "2018-05-12T19:17:12.688460",
+      "translation_end": "2018-05-12T19:17:16.345567",
+      "postprocessing_begin": "2018-05-12T19:17:16.345903",
+      "postprocessing_end": "2018-05-12T19:17:16.379324",
+      "sent_time": "2018-05-12T19:17:16.381637",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:17:27.486917"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Merci.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "D'accord.",
+      "preprocessed_text": "merci . <CONCAT> d&apos; accord .",
+      "translated_text": "thank you . <CONCAT> okay .",
+      "postprocessed_text": "Okay.",
+      "composition_time": "2018-05-12T19:18:37.138287",
+      "preprocessing_begin": "2018-05-12T19:18:37.207927",
+      "preprocessing_end": "2018-05-12T19:18:39.863454",
+      "translation_begin": "2018-05-12T19:18:39.863577",
+      "translation_end": "2018-05-12T19:18:43.521193",
+      "postprocessing_begin": "2018-05-12T19:18:43.521443",
+      "postprocessing_end": "2018-05-12T19:18:43.569553",
+      "sent_time": "2018-05-12T19:18:43.570482",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:20:31.578188"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Ok.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Mais cela fait d\u00e9j\u00e0 plus d'une heure que nous sommes l\u00e0.",
+      "preprocessed_text": "d&apos; accord . <CONCAT> mais cela fait d\u00e9j\u00e0 plus d&apos; une heure que nous sommes l\u00e0 .",
+      "translated_text": "okay . <CONCAT> but it &apos;s already over an hour ago that we &apos;re here .",
+      "postprocessed_text": "But it's already over an hour ago that we're here.",
+      "composition_time": "2018-05-12T19:18:37.138287",
+      "preprocessing_begin": "2018-05-12T19:18:37.207927",
+      "preprocessing_end": "2018-05-12T19:18:39.863454",
+      "translation_begin": "2018-05-12T19:18:39.863577",
+      "translation_end": "2018-05-12T19:18:43.521193",
+      "postprocessing_begin": "2018-05-12T19:18:43.521443",
+      "postprocessing_end": "2018-05-12T19:18:43.569553",
+      "sent_time": "2018-05-12T19:18:43.570920",
+      "eval": {
+        "problems": [
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-12T19:20:23.843169"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-12T19:20:24.762848",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "But we\u2019ve been here for more than an hour already.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "french",
+      "original_text": "On pourrait aller marcher un peu en ville",
+      "preprocessed_text": "mais cela fait d\u00e9j\u00e0 plus d&apos; une heure que nous sommes l\u00e0 . <CONCAT> on pourrait aller marcher un peu en ville",
+      "translated_text": "but it &apos;s already over an hour ago that we &apos;re here . <CONCAT> we could go to town for a while .",
+      "postprocessed_text": "We could go to town for a while.",
+      "composition_time": "2018-05-12T19:18:37.138287",
+      "preprocessing_begin": "2018-05-12T19:18:37.207927",
+      "preprocessing_end": "2018-05-12T19:18:39.863454",
+      "translation_begin": "2018-05-12T19:18:39.863577",
+      "translation_end": "2018-05-12T19:18:43.521193",
+      "postprocessing_begin": "2018-05-12T19:18:43.521443",
+      "postprocessing_end": "2018-05-12T19:18:43.569553",
+      "sent_time": "2018-05-12T19:18:43.571326",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:20:30.860685"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "We could go for a bit of a walk in town.",
+      "normalised_version": "On pourrait aller marcher un peu en ville."
+    },
+    "6": {
+      "language": "english",
+      "original_text": "I've seen the town and I'm not impressed.",
+      "preprocessed_text": "we could go to town for a while . <CONCAT> I &apos;ve seen the town and I &apos;m not impressed .",
+      "translated_text": "on pourrait aller en ville un moment . <CONCAT> j&apos; ai vu la ville et je ne suis pas impressionn\u00e9 .",
+      "postprocessed_text": "J'ai vu la ville et je ne suis pas impressionn\u00e9.",
+      "composition_time": "2018-05-12T19:20:13.518650",
+      "preprocessing_begin": "2018-05-12T19:20:13.586554",
+      "preprocessing_end": "2018-05-12T19:20:16.038319",
+      "translation_begin": "2018-05-12T19:20:16.038422",
+      "translation_end": "2018-05-12T19:20:23.772091",
+      "postprocessing_begin": "2018-05-12T19:20:23.772559",
+      "postprocessing_end": "2018-05-12T19:20:23.829779",
+      "sent_time": "2018-05-12T19:20:23.831478",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:20:36.077968"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "J\u2019ai vu la ville et je n\u2019ai pas \u00e9t\u00e9 impressionn\u00e9.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "I'd much rather just laze here in the sun and perhaps read a chapter or two of my book.",
+      "preprocessed_text": "I &apos;ve seen the town and I &apos;m not impressed . <CONCAT> I &apos;d much rather just l@@ aze here in the sun and perhaps read a chapter or two of my book .",
+      "translated_text": "j&apos; ai vu la ville et je ne suis pas impressionn\u00e9 . <CONCAT> j&apos; aimerais beaucoup rester ici au soleil et peut @-@ \u00eatre lire un chapitre ou deux de mon livre .",
+      "postprocessed_text": "J'aimerais beaucoup rester ici au soleil et peut-\u00eatre lire un chapitre ou deux de mon livre.",
+      "composition_time": "2018-05-12T19:20:13.518650",
+      "preprocessing_begin": "2018-05-12T19:20:13.586554",
+      "preprocessing_end": "2018-05-12T19:20:16.038319",
+      "translation_begin": "2018-05-12T19:20:16.038422",
+      "translation_end": "2018-05-12T19:20:23.772091",
+      "postprocessing_begin": "2018-05-12T19:20:23.772559",
+      "postprocessing_end": "2018-05-12T19:20:23.829779",
+      "sent_time": "2018-05-12T19:20:23.832589",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:21:34.993753"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Je pr\u00e9f\u00e8re simplement rester allong\u00e9 au soleil et lire un ou deux chapitres de mon livre.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "I'm really getting into the story and I think it's going to become quite exciting soon.",
+      "preprocessed_text": "I &apos;d much rather just l@@ aze here in the sun and perhaps read a chapter or two of my book . <CONCAT> I &apos;m really getting into the story and I think it &apos;s going to become quite exciting soon .",
+      "translated_text": "j&apos; aimerais beaucoup rester ici au soleil et peut @-@ \u00eatre lire un chapitre ou deux de mon livre . <CONCAT> je vais vraiment dans l&apos; histoire et je pense que \u00e7a va devenir tr\u00e8s excitant bient\u00f4t .",
+      "postprocessed_text": "Je vais vraiment dans l'histoire et je pense que \u00e7a va devenir tr\u00e8s excitant bient\u00f4t.",
+      "composition_time": "2018-05-12T19:20:13.518650",
+      "preprocessing_begin": "2018-05-12T19:20:13.586554",
+      "preprocessing_end": "2018-05-12T19:20:16.038319",
+      "translation_begin": "2018-05-12T19:20:16.038422",
+      "translation_end": "2018-05-12T19:20:23.772091",
+      "postprocessing_begin": "2018-05-12T19:20:23.772559",
+      "postprocessing_end": "2018-05-12T19:20:23.829779",
+      "sent_time": "2018-05-12T19:20:23.833707",
+      "eval": {
+        "problems": [
+          "word choice",
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:21:34.996685"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:21:37.596629",
+            true
+          ],
+          [
+            "style",
+            "2018-05-12T19:21:55.714348",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "J\u2019entre vraiment dans l\u2019histoire et je pense que cela va bient\u00f4t devenir palpitant.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Bon, comme tu voudras.",
+      "preprocessed_text": "je vais vraiment dans l&apos; histoire et je pense que \u00e7a va devenir tr\u00e8s excitant bient\u00f4t . <CONCAT> bon , comme tu voudras .",
+      "translated_text": "I &apos;m really into history , and I think it &apos;s going to be very exciting soon . <CONCAT> okay , suit yourself .",
+      "postprocessed_text": "Okay, suit yourself.",
+      "composition_time": "2018-05-12T19:21:27.426067",
+      "preprocessing_begin": "2018-05-12T19:21:27.494753",
+      "preprocessing_end": "2018-05-12T19:21:29.897058",
+      "translation_begin": "2018-05-12T19:21:29.897248",
+      "translation_end": "2018-05-12T19:21:34.933384",
+      "postprocessing_begin": "2018-05-12T19:21:34.933766",
+      "postprocessing_end": "2018-05-12T19:21:34.982350",
+      "sent_time": "2018-05-12T19:21:34.984069",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:23:18.651801"
+          ],
+          [
+            "medium",
+            "2018-05-12T19:24:52.729482"
+          ],
+          [
+            "perfect",
+            "2018-05-12T19:24:55.073565"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Ok, as you wish.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Quel est ce livre passionnant que tu es en train de lire.",
+      "preprocessed_text": "bon , comme tu voudras . <CONCAT> quel est ce livre passionnant que tu es en train de lire .",
+      "translated_text": "all right , suit yourself . <CONCAT> what is this exciting book you &apos;re reading ?",
+      "postprocessed_text": "What is this exciting book you're reading?",
+      "composition_time": "2018-05-12T19:21:27.426067",
+      "preprocessing_begin": "2018-05-12T19:21:27.494753",
+      "preprocessing_end": "2018-05-12T19:21:29.897058",
+      "translation_begin": "2018-05-12T19:21:29.897248",
+      "translation_end": "2018-05-12T19:21:34.933384",
+      "postprocessing_begin": "2018-05-12T19:21:34.933766",
+      "postprocessing_end": "2018-05-12T19:21:34.982350",
+      "sent_time": "2018-05-12T19:21:34.985127",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:23:18.654039"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "What is the fascinating book you\u2019re reading.",
+      "normalised_version": "Quel est ce livre passionnant que tu es en train de lire?"
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Un roman policier ?",
+      "preprocessed_text": "quel est ce livre passionnant que tu es en train de lire . <CONCAT> un roman policier ?",
+      "translated_text": "what is this exciting book you &apos;re reading ? <CONCAT> a detective novel ?",
+      "postprocessed_text": "A detective novel?",
+      "composition_time": "2018-05-12T19:21:27.426067",
+      "preprocessing_begin": "2018-05-12T19:21:27.494753",
+      "preprocessing_end": "2018-05-12T19:21:29.897058",
+      "translation_begin": "2018-05-12T19:21:29.897248",
+      "translation_end": "2018-05-12T19:21:34.933384",
+      "postprocessing_begin": "2018-05-12T19:21:34.933766",
+      "postprocessing_end": "2018-05-12T19:21:34.982350",
+      "sent_time": "2018-05-12T19:21:34.986174",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:23:18.656123"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "A detective novel?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "It's a kind of detective novel.",
+      "preprocessed_text": "a detective novel ? <CONCAT> it &apos;s a kind of detective novel .",
+      "translated_text": "un roman policier ? <CONCAT> c&apos; est un genre de roman policier .",
+      "postprocessed_text": "C'est un genre de roman policier.",
+      "composition_time": "2018-05-12T19:23:11.999487",
+      "preprocessing_begin": "2018-05-12T19:23:12.059838",
+      "preprocessing_end": "2018-05-12T19:23:14.145940",
+      "translation_begin": "2018-05-12T19:23:14.146059",
+      "translation_end": "2018-05-12T19:23:18.605587",
+      "postprocessing_begin": "2018-05-12T19:23:18.605986",
+      "postprocessing_end": "2018-05-12T19:23:18.644637",
+      "sent_time": "2018-05-12T19:23:18.645861",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:23:31.272564"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "C\u2019est une sorte de roman policier.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "The main character is a genealogist and he is trying to make sense of a family story about smugglers and a cache of gold sovereigns.",
+      "preprocessed_text": "it &apos;s a kind of detective novel . <CONCAT> the main character is a genealo@@ gist and he is trying to make sense of a family story about smugglers and a cache of gold so@@ ver@@ ei@@ gn@@ s .",
+      "translated_text": "c&apos; est un genre de roman d&apos; inspecteur . <CONCAT> le personnage principal est un g\u00e9n\u00e9alo@@ g@@ iste et il essaie de donner un sens \u00e0 une histoire de famille sur les contrebandiers et une cache d&apos; or .",
+      "postprocessed_text": "Le personnage principal est un g\u00e9n\u00e9alogiste et il essaie de donner un sens \u00e0 une histoire de famille sur les contrebandiers et une cache d'or.",
+      "composition_time": "2018-05-12T19:23:11.999487",
+      "preprocessing_begin": "2018-05-12T19:23:12.059838",
+      "preprocessing_end": "2018-05-12T19:23:14.145940",
+      "translation_begin": "2018-05-12T19:23:14.146059",
+      "translation_end": "2018-05-12T19:23:18.605587",
+      "postprocessing_begin": "2018-05-12T19:23:18.605986",
+      "postprocessing_end": "2018-05-12T19:23:18.644637",
+      "sent_time": "2018-05-12T19:23:18.646661",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:23:46.628592"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Le personnage principal est un g\u00e9n\u00e9alogiste et il essaie de donner du sens \u00e0 une histoire de famille sur des contrebandiers et un tr\u00e9sor de souverains d\u2019or. ",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Cela me semble une curieuse histoire.",
+      "preprocessed_text": "le personnage principal est un g\u00e9n\u00e9alo@@ g@@ iste et il essaie de donner un sens \u00e0 une histoire de famille sur les contrebandiers et une cache d&apos; or . <CONCAT> cela me semble une curieuse histoire .",
+      "translated_text": "the main character is a genealo@@ gist and he &apos;s trying to make sense of a family story about smugglers and a cache of gold . <CONCAT> that sounds like a curious story to me .",
+      "postprocessed_text": "That sounds like a curious story to me.",
+      "composition_time": "2018-05-12T19:25:10.355968",
+      "preprocessing_begin": "2018-05-12T19:25:10.421859",
+      "preprocessing_end": "2018-05-12T19:25:12.747277",
+      "translation_begin": "2018-05-12T19:25:12.747414",
+      "translation_end": "2018-05-12T19:25:18.967723",
+      "postprocessing_begin": "2018-05-12T19:25:18.968157",
+      "postprocessing_end": "2018-05-12T19:25:19.002649",
+      "sent_time": "2018-05-12T19:25:19.004125",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:27:42.727461"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "That sounds like a strange story.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Je vais aller chercher mon livre de science-fiction.",
+      "preprocessed_text": "cela me semble une curieuse histoire . <CONCAT> je vais aller chercher mon livre de science @-@ fiction .",
+      "translated_text": "that sounds like a funny story to me . <CONCAT> I &apos;m gonna go get my science fiction book .",
+      "postprocessed_text": "I'm gonna go get my science fiction book.",
+      "composition_time": "2018-05-12T19:25:10.355968",
+      "preprocessing_begin": "2018-05-12T19:25:10.421859",
+      "preprocessing_end": "2018-05-12T19:25:12.747277",
+      "translation_begin": "2018-05-12T19:25:12.747414",
+      "translation_end": "2018-05-12T19:25:18.967723",
+      "postprocessing_begin": "2018-05-12T19:25:18.968157",
+      "postprocessing_end": "2018-05-12T19:25:19.002649",
+      "sent_time": "2018-05-12T19:25:19.005094",
+      "eval": {
+        "problems": [
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:27:46.705949"
+          ],
+          [
+            "medium",
+            "2018-05-12T19:27:48.933232"
+          ]
+        ],
+        "verbatim": "Using \"gonna\" sounds a bit odd.",
+        "verbatim_history": [
+          [
+            "Using \"gonna\" sounds a bit odd.",
+            "2018-05-12T19:28:18.303678",
+            "2018-05-12T19:28:18.303678"
+          ]
+        ],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-12T19:27:53.618135",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019m going to go get my science fiction book.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "C'est mieux.",
+      "preprocessed_text": "je vais aller chercher mon livre de science @-@ fiction . <CONCAT> c&apos; est mieux .",
+      "translated_text": "I &apos;m gonna go get my science fiction book . <CONCAT> that &apos;s better .",
+      "postprocessed_text": "That's better.",
+      "composition_time": "2018-05-12T19:25:10.355968",
+      "preprocessing_begin": "2018-05-12T19:25:10.421859",
+      "preprocessing_end": "2018-05-12T19:25:12.747277",
+      "translation_begin": "2018-05-12T19:25:12.747414",
+      "translation_end": "2018-05-12T19:25:18.967723",
+      "postprocessing_begin": "2018-05-12T19:25:18.968157",
+      "postprocessing_end": "2018-05-12T19:25:19.002649",
+      "sent_time": "2018-05-12T19:25:19.006068",
+      "eval": {
+        "problems": [
+          "coherence"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:28:18.297018"
+          ]
+        ],
+        "verbatim": "Not sure that this really follows. Is a science fiction book better than a detective one?",
+        "verbatim_history": [
+          [
+            "Not sure that this really follows. Is a science fiction book better than a detective one?",
+            "2018-05-12T19:29:07.968996",
+            "2018-05-12T19:29:07.968996"
+          ]
+        ],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-12T19:28:23.544991",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s better.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Veux-tu boire quelque chose ?",
+      "preprocessed_text": "c&apos; est mieux . <CONCAT> veux @-@ tu boire quelque chose ?",
+      "translated_text": "that &apos;s better . <CONCAT> would you like a drink ?",
+      "postprocessed_text": "Would you like a drink?",
+      "composition_time": "2018-05-12T19:25:10.355968",
+      "preprocessing_begin": "2018-05-12T19:25:10.421859",
+      "preprocessing_end": "2018-05-12T19:25:12.747277",
+      "translation_begin": "2018-05-12T19:25:12.747414",
+      "translation_end": "2018-05-12T19:25:18.967723",
+      "postprocessing_begin": "2018-05-12T19:25:18.968157",
+      "postprocessing_end": "2018-05-12T19:25:19.002649",
+      "sent_time": "2018-05-12T19:25:19.006990",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:29:07.961394"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Do you want to drink something?",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Gosh!",
+      "preprocessed_text": "would you like a drink ? <CONCAT> gosh !",
+      "translated_text": "vous voulez boire quelque chose ? <CONCAT> \u00e7a alors !",
+      "postprocessed_text": "\u00c7a alors !",
+      "composition_time": "2018-05-12T19:27:30.461115",
+      "preprocessing_begin": "2018-05-12T19:27:30.523401",
+      "preprocessing_end": "2018-05-12T19:27:33.121190",
+      "translation_begin": "2018-05-12T19:27:33.121324",
+      "translation_end": "2018-05-12T19:27:42.661719",
+      "postprocessing_begin": "2018-05-12T19:27:42.662155",
+      "postprocessing_end": "2018-05-12T19:27:42.712161",
+      "sent_time": "2018-05-12T19:27:42.713745",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:29:50.723762"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Mon Dieu\u00a0!",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "I thought you weren't going to ask.",
+      "preprocessed_text": "gosh ! <CONCAT> I thought you weren &apos;t going to ask .",
+      "translated_text": "mon Dieu ! <CONCAT> je croyais que tu ne demanderais pas .",
+      "postprocessed_text": "Je croyais que tu ne demanderais pas.",
+      "composition_time": "2018-05-12T19:27:30.461115",
+      "preprocessing_begin": "2018-05-12T19:27:30.523401",
+      "preprocessing_end": "2018-05-12T19:27:33.121190",
+      "translation_begin": "2018-05-12T19:27:33.121324",
+      "translation_end": "2018-05-12T19:27:42.661719",
+      "postprocessing_begin": "2018-05-12T19:27:42.662155",
+      "postprocessing_end": "2018-05-12T19:27:42.712161",
+      "sent_time": "2018-05-12T19:27:42.714838",
+      "eval": {
+        "problems": [
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:29:52.658730"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-12T19:29:56.200040",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je pensais que tu ne demanderais jamais.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "I'd love an Aperol spritz.",
+      "preprocessed_text": "I thought you weren &apos;t going to ask . <CONCAT> I &apos;d love an A@@ per@@ ol sp@@ ritz .",
+      "translated_text": "je croyais que tu ne demanderais pas . <CONCAT> j&apos; aimerais un sp@@ ri@@ tz A@@ per@@ ol .",
+      "postprocessed_text": "J'aimerais un spritz Aperol.",
+      "composition_time": "2018-05-12T19:27:30.461115",
+      "preprocessing_begin": "2018-05-12T19:27:30.523401",
+      "preprocessing_end": "2018-05-12T19:27:33.121190",
+      "translation_begin": "2018-05-12T19:27:33.121324",
+      "translation_end": "2018-05-12T19:27:42.661719",
+      "postprocessing_begin": "2018-05-12T19:27:42.662155",
+      "postprocessing_end": "2018-05-12T19:27:42.712161",
+      "sent_time": "2018-05-12T19:27:42.715907",
+      "eval": {
+        "problems": [
+          "other"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:30:02.220151"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "other",
+            "2018-05-12T19:30:04.307809",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "J\u2019adorerais un spritz.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "Just as a matter of interest; why is a science fiction book better?",
+      "preprocessed_text": "I &apos;d love an A@@ per@@ ol sp@@ ritz . <CONCAT> just as a matter of interest ; why is a science fiction book better ?",
+      "translated_text": "j&apos; adorerais un sp@@ ri@@ tz A@@ per@@ ol . <CONCAT> c&apos; est juste une question d&apos; int\u00e9r\u00eat , pourquoi un livre de science @-@ fiction est meilleur ?",
+      "postprocessed_text": "C'est juste une question d'int\u00e9r\u00eat, pourquoi un livre de science-fiction est meilleur ?",
+      "composition_time": "2018-05-12T19:27:30.461115",
+      "preprocessing_begin": "2018-05-12T19:27:30.523401",
+      "preprocessing_end": "2018-05-12T19:27:33.121190",
+      "translation_begin": "2018-05-12T19:27:33.121324",
+      "translation_end": "2018-05-12T19:27:42.661719",
+      "postprocessing_begin": "2018-05-12T19:27:42.662155",
+      "postprocessing_end": "2018-05-12T19:27:42.712161",
+      "sent_time": "2018-05-12T19:27:42.716943",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:30:08.487251"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Juste par curiosit\u00e9, pourquoi est-ce mieux, un livre de science fiction\u00a0?",
+      "normalised_version": "Just as a matter of interest, why is a science fiction book better?"
+    },
+    "22": {
+      "language": "english",
+      "original_text": "I find many of then just too far fetched to be believable.",
+      "preprocessed_text": "just as a matter of interest ; why is a science fiction book better ? <CONCAT> I find many of then just too far fetched to be believable .",
+      "translated_text": "en tant que question d&apos; int\u00e9r\u00eat , pourquoi un livre de science @-@ fiction est meilleur ? <CONCAT> j&apos; en trouve beaucoup , juste trop loin pour \u00eatre cr\u00e9dible .",
+      "postprocessed_text": "J'en trouve beaucoup, juste trop loin pour \u00eatre cr\u00e9dible.",
+      "composition_time": "2018-05-12T19:27:30.461115",
+      "preprocessing_begin": "2018-05-12T19:27:30.523401",
+      "preprocessing_end": "2018-05-12T19:27:33.121190",
+      "translation_begin": "2018-05-12T19:27:33.121324",
+      "translation_end": "2018-05-12T19:27:42.661719",
+      "postprocessing_begin": "2018-05-12T19:27:42.662155",
+      "postprocessing_end": "2018-05-12T19:27:42.712161",
+      "sent_time": "2018-05-12T19:27:42.718012",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:30:14.179156"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:30:15.705607",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je trouve que beaucoup d\u2019entre eux sont trop tir\u00e9s par les cheveux pour \u00eatre cr\u00e9dibles.",
+      "normalised_version": "I find many of then just too far-fetched to be believable."
+    },
+    "23": {
+      "language": "english",
+      "original_text": "I suppose it takes all sorts to make the world!",
+      "preprocessed_text": "I find many of then just too far fetched to be believable . <CONCAT> I suppose it takes all sorts to make the world !",
+      "translated_text": "j&apos; en trouve beaucoup trop loin pour \u00eatre cr\u00e9dible . <CONCAT> je suppose qu&apos; il faut de toutes sortes pour faire le monde !",
+      "postprocessed_text": "Je suppose qu'il faut de toutes sortes pour faire le monde !",
+      "composition_time": "2018-05-12T19:27:30.461115",
+      "preprocessing_begin": "2018-05-12T19:27:30.523401",
+      "preprocessing_end": "2018-05-12T19:27:33.121190",
+      "translation_begin": "2018-05-12T19:27:33.121324",
+      "translation_end": "2018-05-12T19:27:42.661719",
+      "postprocessing_begin": "2018-05-12T19:27:42.662155",
+      "postprocessing_end": "2018-05-12T19:27:42.712161",
+      "sent_time": "2018-05-12T19:27:42.719012",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:30:20.267168"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:30:22.308037",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "J\u2019imagine qu\u2019il faut de tout pour faire un monde\u00a0!",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Parce que l'histoire des premiers hommes qui d\u00e9barquent sur Mars et d\u00e9couvre des traces d'une tr\u00e8s vieille civilisation, c'est nettement plus int\u00e9ressant que ton histoire de g\u00e9n\u00e9alogiste et de tr\u00e9sors !",
+      "preprocessed_text": "je suppose qu&apos; il faut de toutes sortes pour faire le monde ! <CONCAT> parce que l&apos; histoire des premiers hommes qui d\u00e9barquent sur Mars et d\u00e9couvre des traces d&apos; une tr\u00e8s vieille civilisation , c&apos; est nettement plus int\u00e9ressant que ton histoire de g\u00e9n\u00e9alo@@ g@@ iste et de tr\u00e9sors !",
+      "translated_text": "I suppose it takes all kinds to make the world ! <CONCAT> because the history of the first men who come to Mars and find traces of a very old civilisation , it &apos;s much more interesting than your history of genealo@@ g@@ ist and treasure !",
+      "postprocessed_text": "Because the history of the first men who come to Mars and find traces of a very old civilisation, it's much more interesting than your history of genealogist and treasure!",
+      "composition_time": "2018-05-12T19:29:43.880124",
+      "preprocessing_begin": "2018-05-12T19:29:43.947899",
+      "preprocessing_end": "2018-05-12T19:29:46.256831",
+      "translation_begin": "2018-05-12T19:29:46.257037",
+      "translation_end": "2018-05-12T19:29:50.669398",
+      "postprocessing_begin": "2018-05-12T19:29:50.669807",
+      "postprocessing_end": "2018-05-12T19:29:50.714594",
+      "sent_time": "2018-05-12T19:29:50.716004",
+      "eval": {
+        "problems": [
+          "grammar",
+          "style",
+          "coherence"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:36:36.168369"
+          ]
+        ],
+        "verbatim": "It needs to read something like \"Because it describes the history ...\" otherwise the sentence doesn't really make sense.",
+        "verbatim_history": [
+          [
+            "It needs to read something like \"Because it describes the history ...\" otherwise the sentence doesn't really make sense.",
+            "2018-05-12T19:38:45.154095",
+            "2018-05-12T19:38:45.154095"
+          ]
+        ],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-12T19:36:38.047819",
+            true
+          ],
+          [
+            "style",
+            "2018-05-12T19:36:45.591757",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-12T19:37:45.799476",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Because the story of the first men who arrive on Mars and discover traces of an ancient civilisation is far more interesting than your story about genealogists and treasure!",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "As I said; it takes all sorts.",
+      "preprocessed_text": "because the history of the first men who come to Mars and find traces of a very old civilisation , it &apos;s much more interesting than your history of genealo@@ g@@ ist and treasure ! <CONCAT> as I said ; it takes all sorts .",
+      "translated_text": "parce que l&apos; histoire des premiers hommes qui viennent sur Mars et trouve des traces d&apos; une vieille civilisation , c&apos; est bien plus int\u00e9ressant que votre histoire de g\u00e9n\u00e9alo@@ g@@ iste et de tr\u00e9sor ! <CONCAT> comme je l&apos; ai dit , \u00e7a prend de tout .",
+      "postprocessed_text": "Comme je l'ai dit, \u00e7a prend de tout.",
+      "composition_time": "2018-05-12T19:36:06.971586",
+      "preprocessing_begin": "2018-05-12T19:36:07.044139",
+      "preprocessing_end": "2018-05-12T19:36:09.616824",
+      "translation_begin": "2018-05-12T19:36:09.616948",
+      "translation_end": "2018-05-12T19:36:24.152354",
+      "postprocessing_begin": "2018-05-12T19:36:24.152847",
+      "postprocessing_end": "2018-05-12T19:36:24.196385",
+      "sent_time": "2018-05-12T19:36:24.197862",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:39:00.075471"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Comme je l\u2019ai dit, il faut de tout.",
+      "normalised_version": "As I said, it takes all sorts."
+    },
+    "26": {
+      "language": "english",
+      "original_text": "My book is partly based on fact.",
+      "preprocessed_text": "as I said ; it takes all sorts . <CONCAT> my book is partly based on fact .",
+      "translated_text": "comme je l&apos; ai dit , \u00e7a prend toutes sortes . <CONCAT> mon livre est en partie bas\u00e9 sur les faits .",
+      "postprocessed_text": "Mon livre est en partie bas\u00e9 sur les faits.",
+      "composition_time": "2018-05-12T19:36:06.971586",
+      "preprocessing_begin": "2018-05-12T19:36:07.044139",
+      "preprocessing_end": "2018-05-12T19:36:09.616824",
+      "translation_begin": "2018-05-12T19:36:09.616948",
+      "translation_end": "2018-05-12T19:36:24.152354",
+      "postprocessing_begin": "2018-05-12T19:36:24.152847",
+      "postprocessing_end": "2018-05-12T19:36:24.196385",
+      "sent_time": "2018-05-12T19:36:24.198828",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:39:00.079555"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Mon livre repose en partie sur la r\u00e9alit\u00e9.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "It imagines things that might have happened to a real smuggling gang and incorporates some recent discoveries of a couple of walled-up skeletons.",
+      "preprocessed_text": "my book is partly based on fact . <CONCAT> it imagines things that might have happened to a real smuggling gang and incorpor@@ ates some recent discoveries of a couple of walled @-@ up skeletons .",
+      "translated_text": "mon livre est en partie bas\u00e9 sur des faits . <CONCAT> il imagine des choses qui auraient pu arriver \u00e0 un vrai gang de contrebande et in@@ cor@@ pore quelques d\u00e9couvertes r\u00e9centes de quelques cadavres em@@ mur@@ \u00e9s .",
+      "postprocessed_text": "Il imagine des choses qui auraient pu arriver \u00e0 un vrai gang de contrebande et incorpore quelques d\u00e9couvertes r\u00e9centes de quelques cadavres emmur\u00e9s.",
+      "composition_time": "2018-05-12T19:36:06.971586",
+      "preprocessing_begin": "2018-05-12T19:36:07.044139",
+      "preprocessing_end": "2018-05-12T19:36:09.616824",
+      "translation_begin": "2018-05-12T19:36:09.616948",
+      "translation_end": "2018-05-12T19:36:24.152354",
+      "postprocessing_begin": "2018-05-12T19:36:24.152847",
+      "postprocessing_end": "2018-05-12T19:36:24.196385",
+      "sent_time": "2018-05-12T19:36:24.199812",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:39:04.593925"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:39:08.711878",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Il imagine des choses qui auraient pu arriver \u00e0 une vraie bande de contrebandiers et incorpore quelques d\u00e9couvertes r\u00e9centes de squelettes emmur\u00e9s.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "As far as I understand it, there is very little likelihood of an old civilisation occurring on Mars - at least not a form of life we'd recognise - there's a poor atmosphere and little water.",
+      "preprocessed_text": "it imagines things that might have happened to a real smuggling gang and incorpor@@ ates some recent discoveries of a couple of walled @-@ up skeletons . <CONCAT> as far as I understand it , there is very little likelihood of an old civilisation occurring on Mars - at least not a form of life we &apos;d recognise - there &apos;s a poor atmosphere and little water .",
+      "translated_text": "il imagine des choses qui auraient pu arriver \u00e0 un vrai gang de contrebande et in@@ cor@@ pore quelques d\u00e9couvertes r\u00e9centes de quelques cadavres em@@ mur@@ \u00e9s . <CONCAT> d&apos; apr\u00e8s ce que j&apos; ai compris , il y a tr\u00e8s peu de chances d&apos; une ancienne civilisation sur Mars - du moins pas une forme de vie que nous reconna\u00ee@@ trons - il y a une mauvaise atmosph\u00e8re et de la petite eau .",
+      "postprocessed_text": "D'apr\u00e8s ce que j'ai compris, il y a tr\u00e8s peu de chances d'une ancienne civilisation sur Mars - du moins pas une forme de vie que nous reconna\u00eetrons - il y a une mauvaise atmosph\u00e8re et de la petite eau.",
+      "composition_time": "2018-05-12T19:36:06.971586",
+      "preprocessing_begin": "2018-05-12T19:36:07.044139",
+      "preprocessing_end": "2018-05-12T19:36:09.616824",
+      "translation_begin": "2018-05-12T19:36:09.616948",
+      "translation_end": "2018-05-12T19:36:24.152354",
+      "postprocessing_begin": "2018-05-12T19:36:24.152847",
+      "postprocessing_end": "2018-05-12T19:36:24.196385",
+      "sent_time": "2018-05-12T19:36:24.200783",
+      "eval": {
+        "problems": [
+          "word choice",
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:39:16.510747"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:39:19.005666",
+            true
+          ],
+          [
+            "style",
+            "2018-05-12T19:39:22.218889",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "D\u2019apr\u00e8s ce que j\u2019en sais, il y a tr\u00e8s peu de chance qu\u2019une civilisation ancienne ait exist\u00e9 sur Mars \u2013 en tout cas pas une forme de vie qu\u2019on reconna\u00eetrait \u2013 l\u2019atmosph\u00e8re est pauvre et il y a peu d\u2019eau.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "La probabilit\u00e9 de trouver des ruines sur Mars est effectivement petite.",
+      "preprocessed_text": "d&apos; apr\u00e8s ce que j&apos; ai compris , il y a tr\u00e8s peu de chances d&apos; une ancienne civilisation sur Mars - du moins pas une forme de vie que nous reconna\u00ee@@ trons - il y a une mauvaise atmosph\u00e8re et de la petite eau . <CONCAT> la probabilit\u00e9 de trouver des ruines sur Mars est effectivement petite .",
+      "translated_text": "from what I understand , there is very little chance of an old civilisation on Mars - at least not a life form that we recognize - there is a bad atmosphere and water . <CONCAT> the probability of finding ruins on Mars is indeed small .",
+      "postprocessed_text": "The probability of finding ruins on Mars is indeed small.",
+      "composition_time": "2018-05-12T19:38:48.756814",
+      "preprocessing_begin": "2018-05-12T19:38:48.826937",
+      "preprocessing_end": "2018-05-12T19:38:51.661135",
+      "translation_begin": "2018-05-12T19:38:51.661259",
+      "translation_end": "2018-05-12T19:39:00.030111",
+      "postprocessing_begin": "2018-05-12T19:39:00.030577",
+      "postprocessing_end": "2018-05-12T19:39:00.063688",
+      "sent_time": "2018-05-12T19:39:00.064713",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:41:25.511861"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "The probability of finding ruins on Mars is small, yes.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Je te l'accorde.",
+      "preprocessed_text": "la probabilit\u00e9 de trouver des ruines sur Mars est effectivement petite . <CONCAT> je te l&apos; accorde .",
+      "translated_text": "the probability of finding ruins on Mars is actually small . <CONCAT> I &apos;ll give you that .",
+      "postprocessed_text": "I'll give you that.",
+      "composition_time": "2018-05-12T19:38:48.756814",
+      "preprocessing_begin": "2018-05-12T19:38:48.826937",
+      "preprocessing_end": "2018-05-12T19:38:51.661135",
+      "translation_begin": "2018-05-12T19:38:51.661259",
+      "translation_end": "2018-05-12T19:39:00.030111",
+      "postprocessing_begin": "2018-05-12T19:39:00.030577",
+      "postprocessing_end": "2018-05-12T19:39:00.063688",
+      "sent_time": "2018-05-12T19:39:00.065159",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:41:25.520281"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "I agree with you there.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Ceci dit je ne d\u00e9teste pas les romans policiers.",
+      "preprocessed_text": "je te l&apos; accorde . <CONCAT> ceci dit je ne d\u00e9teste pas les romans policiers .",
+      "translated_text": "I &apos;ll give you that . <CONCAT> that says I don &apos;t hate crime novels .",
+      "postprocessed_text": "That says I don't hate crime novels.",
+      "composition_time": "2018-05-12T19:38:48.756814",
+      "preprocessing_begin": "2018-05-12T19:38:48.826937",
+      "preprocessing_end": "2018-05-12T19:38:51.661135",
+      "translation_begin": "2018-05-12T19:38:51.661259",
+      "translation_end": "2018-05-12T19:39:00.030111",
+      "postprocessing_begin": "2018-05-12T19:39:00.030577",
+      "postprocessing_end": "2018-05-12T19:39:00.063688",
+      "sent_time": "2018-05-12T19:39:00.065776",
+      "eval": {
+        "problems": [
+          "grammar",
+          "coherence"
+        ],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-12T19:41:27.294419"
+          ]
+        ],
+        "verbatim": "Non sequitur.",
+        "verbatim_history": [
+          [
+            "Non sequitur.",
+            "2018-05-12T19:41:51.156911",
+            "2018-05-12T19:41:51.156911"
+          ]
+        ],
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-12T19:41:31.382584",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-12T19:41:33.822703",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "That said, I don\u2019t hate detective novels.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Ceux d'Agatha Christie par exemple.",
+      "preprocessed_text": "ceci dit je ne d\u00e9teste pas les romans policiers . <CONCAT> ceux d&apos; Agatha Christie par exemple .",
+      "translated_text": "that says I don &apos;t hate crime novels . <CONCAT> Agatha Christie &apos;s for example .",
+      "postprocessed_text": "Agatha Christie's for example.",
+      "composition_time": "2018-05-12T19:38:48.756814",
+      "preprocessing_begin": "2018-05-12T19:38:48.826937",
+      "preprocessing_end": "2018-05-12T19:38:51.661135",
+      "translation_begin": "2018-05-12T19:38:51.661259",
+      "translation_end": "2018-05-12T19:39:00.030111",
+      "postprocessing_begin": "2018-05-12T19:39:00.030577",
+      "postprocessing_end": "2018-05-12T19:39:00.063688",
+      "sent_time": "2018-05-12T19:39:00.066199",
+      "eval": {
+        "problems": [
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:41:51.150134"
+          ]
+        ],
+        "verbatim": "presumably not written as a sentence?",
+        "verbatim_history": [
+          [
+            "presumably not written as a sentence?",
+            "2018-05-12T19:42:14.847150",
+            "2018-05-12T19:42:14.847150"
+          ]
+        ],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-12T19:41:53.374899",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Agatha Christie novels for example.",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Tu en as lu ?",
+      "preprocessed_text": "ceux d&apos; Agatha Christie par exemple . <CONCAT> tu en as lu ?",
+      "translated_text": "Agatha Christie &apos;s for example . <CONCAT> have you read it ?",
+      "postprocessed_text": "Have you read it?",
+      "composition_time": "2018-05-12T19:38:48.756814",
+      "preprocessing_begin": "2018-05-12T19:38:48.826937",
+      "preprocessing_end": "2018-05-12T19:38:51.661135",
+      "translation_begin": "2018-05-12T19:38:51.661259",
+      "translation_end": "2018-05-12T19:39:00.030111",
+      "postprocessing_begin": "2018-05-12T19:39:00.030577",
+      "postprocessing_end": "2018-05-12T19:39:00.063688",
+      "sent_time": "2018-05-12T19:39:00.066609",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:42:14.838761"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Have you read them?",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "english",
+      "original_text": "I have read some of Agatha Christie's novels.",
+      "preprocessed_text": "have you read it ? <CONCAT> I have read some of Agatha Christie &apos;s novels .",
+      "translated_text": "vous l&apos; avez lu ? <CONCAT> j&apos; ai lu les romans d&apos; Agatha Christie .",
+      "postprocessed_text": "J'ai lu les romans d'Agatha Christie.",
+      "composition_time": "2018-05-12T19:41:16.266595",
+      "preprocessing_begin": "2018-05-12T19:41:16.339425",
+      "preprocessing_end": "2018-05-12T19:41:18.540830",
+      "translation_begin": "2018-05-12T19:41:18.541013",
+      "translation_end": "2018-05-12T19:41:25.460853",
+      "postprocessing_begin": "2018-05-12T19:41:25.461416",
+      "postprocessing_end": "2018-05-12T19:41:25.493677",
+      "sent_time": "2018-05-12T19:41:25.495032",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:41:31.242980"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "J\u2019ai lu quelques romans d\u2019Agatha Christie.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "I'm not a great fan because they are rather formulaic.",
+      "preprocessed_text": "I have read some of Agatha Christie &apos;s novels . <CONCAT> I &apos;m not a great fan because they are rather formul@@ aic .",
+      "translated_text": "j&apos; ai lu les romans d&apos; Agatha Christie . <CONCAT> je ne suis pas un grand fan parce qu&apos; ils sont plut\u00f4t malins .",
+      "postprocessed_text": "Je ne suis pas un grand fan parce qu'ils sont plut\u00f4t malins.",
+      "composition_time": "2018-05-12T19:41:16.266595",
+      "preprocessing_begin": "2018-05-12T19:41:16.339425",
+      "preprocessing_end": "2018-05-12T19:41:18.540830",
+      "translation_begin": "2018-05-12T19:41:18.541013",
+      "translation_end": "2018-05-12T19:41:25.460853",
+      "postprocessing_begin": "2018-05-12T19:41:25.461416",
+      "postprocessing_end": "2018-05-12T19:41:25.493677",
+      "sent_time": "2018-05-12T19:41:25.495995",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:41:33.412884"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:41:35.289324",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je ne suis pas un grand fan car ils sont pleins de st\u00e9r\u00e9otypes.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "english",
+      "original_text": "What I do find fascinating about her is the question of what she did when she disappeared and some people thought that she had committed suicide.",
+      "preprocessed_text": "I &apos;m not a great fan because they are rather formul@@ aic . <CONCAT> what I do find fascinating about her is the question of what she did when she disappeared and some people thought that she had committed suicide .",
+      "translated_text": "je ne suis pas un grand fan parce qu&apos; ils sont plut\u00f4t malins . <CONCAT> ce que je trouve fascinant sur elle est la question de ce qu&apos; elle a fait quand elle a disparu et que certaines personnes pensaient qu&apos; elle s&apos; \u00e9tait suicid\u00e9e .",
+      "postprocessed_text": "Ce que je trouve fascinant sur elle est la question de ce qu'elle a fait quand elle a disparu et que certaines personnes pensaient qu'elle s'\u00e9tait suicid\u00e9e.",
+      "composition_time": "2018-05-12T19:41:16.266595",
+      "preprocessing_begin": "2018-05-12T19:41:16.339425",
+      "preprocessing_end": "2018-05-12T19:41:18.540830",
+      "translation_begin": "2018-05-12T19:41:18.541013",
+      "translation_end": "2018-05-12T19:41:25.460853",
+      "postprocessing_begin": "2018-05-12T19:41:25.461416",
+      "postprocessing_end": "2018-05-12T19:41:25.493677",
+      "sent_time": "2018-05-12T19:41:25.496961",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-12T19:41:54.395844"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-12T19:42:01.535230",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Ce que je trouve fascinant \u00e0 son sujet c\u2019est la question de savoir ce qu\u2019elle a fait quand elle a disparu et que certaines personnes ont pens\u00e9 qu\u2019elle s\u2019\u00e9tait suicid\u00e9e.",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Bon, eh bien je te laisse encore 15 minutes avec ton g\u00e9n\u00e9alogiste.",
+      "preprocessed_text": "ce que je trouve fascinant sur elle est la question de ce qu&apos; elle a fait quand elle a disparu et que certaines personnes pensaient qu&apos; elle s&apos; \u00e9tait suicid\u00e9e . <CONCAT> bon , eh bien je te laisse encore 15 minutes avec ton g\u00e9n\u00e9alo@@ g@@ iste .",
+      "translated_text": "what I find fascinating about her is what she did when she disappeared and some people thought she killed herself . <CONCAT> well , I &apos;ll give you 15 more minutes with your genealo@@ gist .",
+      "postprocessed_text": "Well, I'll give you 15 more minutes with your genealogist.",
+      "composition_time": "2018-05-12T19:42:50.498094",
+      "preprocessing_begin": "2018-05-12T19:42:50.561334",
+      "preprocessing_end": "2018-05-12T19:42:52.993850",
+      "translation_begin": "2018-05-12T19:42:52.994008",
+      "translation_end": "2018-05-12T19:42:58.792809",
+      "postprocessing_begin": "2018-05-12T19:42:58.793167",
+      "postprocessing_end": "2018-05-12T19:42:58.844238",
+      "sent_time": "2018-05-12T19:42:58.845818",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:43:52.047017"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Ok, well I\u2019ll leave you be for another 15 minutes with your genealogist.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "Ensuite nous irons d\u00e9jeuner",
+      "preprocessed_text": "bon , eh bien je te laisse encore 15 minutes avec ton g\u00e9n\u00e9alo@@ g@@ iste . <CONCAT> ensuite nous irons d\u00e9jeuner",
+      "translated_text": "well , I &apos;ll give you 15 more minutes with your genealo@@ gist . <CONCAT> then we &apos;ll go to lunch .",
+      "postprocessed_text": "Then we'll go to lunch.",
+      "composition_time": "2018-05-12T19:42:50.498094",
+      "preprocessing_begin": "2018-05-12T19:42:50.561334",
+      "preprocessing_end": "2018-05-12T19:42:52.993850",
+      "translation_begin": "2018-05-12T19:42:52.994008",
+      "translation_end": "2018-05-12T19:42:58.792809",
+      "postprocessing_begin": "2018-05-12T19:42:58.793167",
+      "postprocessing_end": "2018-05-12T19:42:58.844238",
+      "sent_time": "2018-05-12T19:42:58.846562",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-12T19:43:52.846130"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Then we can go have some lunch.",
+      "normalised_version": "Ensuite nous irons d\u00e9jeuner."
+    }
+  },
+  "final_evaluation_user1": {
+    "verbatim_quality": "",
+    "timestamp": "2018-05-12T19:43:27.674779",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "grammaticality": "excellent",
+    "coherence": "good",
+    "particular_problems": "",
+    "interface": "",
+    "would_use": true,
+    "style": "good",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "verbatim_quality": "generally pretty good. even where the grammar of coherence was not good, the meaning was there so communication without too much risk of misinterpretation was possible.",
+    "timestamp": "2018-05-12T19:46:43.610023",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "grammaticality": "good",
+    "coherence": "good",
+    "particular_problems": "best just to check back to my specific comments.",
+    "interface": "none",
+    "would_use": true,
+    "style": "average",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}
