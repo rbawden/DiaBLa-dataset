@@ -1,0 +1,1482 @@
+{
+  "start_time": "2018-05-03T19:01:39.713903",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a bar.",
+      "Vous \u00eates dans un bar."
+    ],
+    [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": true,
+    "role_num": 2,
+    "role": [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:59.0) Gecko/20100101 Firefox/59.0"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 1
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "So what can I get you?",
+      "preprocessed_text": "so what can I get you ?",
+      "translated_text": "qu&apos; est @-@ ce que je vous sers ?",
+      "postprocessed_text": "Qu'est-ce que je vous sers ?",
+      "composition_time": "2018-05-03T19:02:06.546640",
+      "preprocessing_begin": "2018-05-03T19:02:06.587669",
+      "preprocessing_end": "2018-05-03T19:02:08.891881",
+      "translation_begin": "2018-05-03T19:02:08.891992",
+      "translation_end": "2018-05-03T19:02:09.828192",
+      "postprocessing_begin": "2018-05-03T19:02:09.828437",
+      "postprocessing_end": "2018-05-03T19:02:09.867151",
+      "sent_time": "2018-05-03T19:02:09.868481",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:02:40.978405"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Qu'est-ce que je vous sers\u00a0?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "french",
+      "original_text": "je vais vous prendre un caf\u00e9 s'il vous plait !",
+      "preprocessed_text": "je vais vous prendre un caf\u00e9 s&apos; il vous plait !",
+      "translated_text": "I &apos;ll get you a coffee , please !",
+      "postprocessed_text": "I'll get you a coffee, please!",
+      "composition_time": "2018-05-03T19:02:33.873278",
+      "preprocessing_begin": "2018-05-03T19:02:33.923217",
+      "preprocessing_end": "2018-05-03T19:02:36.258650",
+      "translation_begin": "2018-05-03T19:02:36.258720",
+      "translation_end": "2018-05-03T19:02:37.115955",
+      "postprocessing_begin": "2018-05-03T19:02:37.116262",
+      "postprocessing_end": "2018-05-03T19:02:37.147584",
+      "sent_time": "2018-05-03T19:02:37.148554",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-03T19:03:55.920677",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-03T19:03:57.828695",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:03:55.315342"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning",
+          "coherence"
+        ]
+      },
+      "reference_translation": "I\u2019ll have a coffee please!",
+      "normalised_version": "Je vais vous prendre un caf\u00e9 s'il vous pla\u00eet !"
+    },
+    "2": {
+      "language": "english",
+      "original_text": "I've got a drink here thanks.",
+      "preprocessed_text": "I &apos;ve got a drink here thanks .",
+      "translated_text": "j&apos; ai un verre ici , merci .",
+      "postprocessed_text": "J'ai un verre ici, merci.",
+      "composition_time": "2018-05-03T19:03:51.578892",
+      "preprocessing_begin": "2018-05-03T19:03:51.629278",
+      "preprocessing_end": "2018-05-03T19:03:53.795395",
+      "translation_begin": "2018-05-03T19:03:53.795517",
+      "translation_end": "2018-05-03T19:03:55.275262",
+      "postprocessing_begin": "2018-05-03T19:03:55.275610",
+      "postprocessing_end": "2018-05-03T19:03:55.308744",
+      "sent_time": "2018-05-03T19:03:55.310261",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-03T19:05:07.788120",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\u00e9trange au vu de ce que j'avais \u00e9crit",
+            "2018-05-03T19:07:06.325221",
+            "2018-05-03T19:07:06.325221"
+          ]
+        ],
+        "verbatim": "\u00e9trange au vu de ce que j'avais \u00e9crit",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:05:04.136170"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "J'ai d\u00e9j\u00e0 une boisson, merci.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "english",
+      "original_text": "Or do you mean for you?",
+      "preprocessed_text": "or do you mean for you ?",
+      "translated_text": "ou est @-@ ce que tu veux dire pour toi ?",
+      "postprocessed_text": "Ou est-ce que tu veux dire pour toi ?",
+      "composition_time": "2018-05-03T19:03:51.578892",
+      "preprocessing_begin": "2018-05-03T19:03:51.629278",
+      "preprocessing_end": "2018-05-03T19:03:53.795395",
+      "translation_begin": "2018-05-03T19:03:53.795517",
+      "translation_end": "2018-05-03T19:03:55.275262",
+      "postprocessing_begin": "2018-05-03T19:03:55.275610",
+      "postprocessing_end": "2018-05-03T19:03:55.308744",
+      "sent_time": "2018-05-03T19:03:55.311220",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:05:12.359293",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-03T19:08:08.105482",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-03T19:08:08.750848",
+            false
+          ],
+          [
+            "grammar",
+            "2018-05-03T19:08:10.340459",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "phrase interrogative, et formulation avec choix \u00e9tonnant \"dire pour toi\"",
+            "2018-05-03T19:08:24.058191",
+            "2018-05-03T19:08:24.058191"
+          ]
+        ],
+        "verbatim": "phrase interrogative, et formulation avec choix \u00e9tonnant \"dire pour toi\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:05:09.987863"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Ou vous voulez dire pour vous\u00a0?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "un caf\u00e9 allong\u00e9, ce serait parfait !",
+      "preprocessed_text": "un caf\u00e9 allong\u00e9 , ce serait parfait !",
+      "translated_text": "a coffee lying there , that would be perfect .",
+      "postprocessed_text": "A coffee lying there, that would be perfect.",
+      "composition_time": "2018-05-03T19:04:36.158170",
+      "preprocessing_begin": "2018-05-03T19:04:36.196311",
+      "preprocessing_end": "2018-05-03T19:04:38.552629",
+      "translation_begin": "2018-05-03T19:04:38.552745",
+      "translation_end": "2018-05-03T19:04:39.329905",
+      "postprocessing_begin": "2018-05-03T19:04:39.330153",
+      "postprocessing_end": "2018-05-03T19:04:39.375824",
+      "sent_time": "2018-05-03T19:04:39.376843",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-03T19:04:49.106956",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:04:47.155820"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "An Americano would be perfect!",
+      "normalised_version": "Un caf\u00e9 allong\u00e9, ce serait parfait !"
+    },
+    "5": {
+      "language": "french",
+      "original_text": "avec un petit verre d'eau \u00e0 c\u00f4t\u00e9 en effet",
+      "preprocessed_text": "avec un petit verre d&apos; eau \u00e0 c\u00f4t\u00e9 en effet",
+      "translated_text": "with a little glass of water next to it .",
+      "postprocessed_text": "With a little glass of water next to it.",
+      "composition_time": "2018-05-03T19:04:44.375069",
+      "preprocessing_begin": "2018-05-03T19:04:44.409813",
+      "preprocessing_end": "2018-05-03T19:04:46.729975",
+      "translation_begin": "2018-05-03T19:04:46.730038",
+      "translation_end": "2018-05-03T19:04:47.750059",
+      "postprocessing_begin": "2018-05-03T19:04:47.750345",
+      "postprocessing_end": "2018-05-03T19:04:47.785244",
+      "sent_time": "2018-05-03T19:04:47.786895",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:04:50.823551"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "With a little glass of water on the side.",
+      "normalised_version": "Avec un petit verre d'eau \u00e0 c\u00f4t\u00e9 en effet."
+    },
+    "6": {
+      "language": "english",
+      "original_text": "Ok!",
+      "preprocessed_text": "OK !",
+      "translated_text": "ok !",
+      "postprocessed_text": "Ok !",
+      "composition_time": "2018-05-03T19:05:08.298718",
+      "preprocessing_begin": "2018-05-03T19:05:08.331844",
+      "preprocessing_end": "2018-05-03T19:05:10.431200",
+      "translation_begin": "2018-05-03T19:05:10.431262",
+      "translation_end": "2018-05-03T19:05:11.439011",
+      "postprocessing_begin": "2018-05-03T19:05:11.439333",
+      "postprocessing_end": "2018-05-03T19:05:11.470155",
+      "sent_time": "2018-05-03T19:05:11.471438",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:05:17.169458"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "OK\u00a0!",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "With milk?",
+      "preprocessed_text": "with milk ?",
+      "translated_text": "avec du lait ?",
+      "postprocessed_text": "Avec du lait ?",
+      "composition_time": "2018-05-03T19:05:08.298718",
+      "preprocessing_begin": "2018-05-03T19:05:08.331844",
+      "preprocessing_end": "2018-05-03T19:05:10.431200",
+      "translation_begin": "2018-05-03T19:05:10.431262",
+      "translation_end": "2018-05-03T19:05:11.439011",
+      "postprocessing_begin": "2018-05-03T19:05:11.439333",
+      "postprocessing_end": "2018-05-03T19:05:11.470155",
+      "sent_time": "2018-05-03T19:05:11.472418",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:05:18.647604"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Avec du lait\u00a0?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "Long or short?",
+      "preprocessed_text": "long or short ?",
+      "translated_text": "longue ou courte ?",
+      "postprocessed_text": "Longue ou courte ?",
+      "composition_time": "2018-05-03T19:05:08.298718",
+      "preprocessing_begin": "2018-05-03T19:05:08.331844",
+      "preprocessing_end": "2018-05-03T19:05:10.431200",
+      "translation_begin": "2018-05-03T19:05:10.431262",
+      "translation_end": "2018-05-03T19:05:11.439011",
+      "postprocessing_begin": "2018-05-03T19:05:11.439333",
+      "postprocessing_end": "2018-05-03T19:05:11.470155",
+      "sent_time": "2018-05-03T19:05:11.473302",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:05:22.677875",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "accord",
+            "2018-05-03T19:08:34.959362",
+            "2018-05-03T19:08:34.959362"
+          ]
+        ],
+        "verbatim": "accord",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:05:19.912142"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Long ou court\u00a0?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "Are you sure you don't fancy one of our new cocktails?",
+      "preprocessed_text": "are you sure you don &apos;t fancy one of our new cocktails ?",
+      "translated_text": "t&apos; es s\u00fbr que tu n&apos; as pas envie d&apos; un de nos nouveaux cocktails ?",
+      "postprocessed_text": "T'es s\u00fbr que tu n'as pas envie d'un de nos nouveaux cocktails ?",
+      "composition_time": "2018-05-03T19:05:28.998054",
+      "preprocessing_begin": "2018-05-03T19:05:29.032839",
+      "preprocessing_end": "2018-05-03T19:05:31.320174",
+      "translation_begin": "2018-05-03T19:05:31.320267",
+      "translation_end": "2018-05-03T19:05:33.072413",
+      "postprocessing_begin": "2018-05-03T19:05:33.072674",
+      "postprocessing_end": "2018-05-03T19:05:33.108262",
+      "sent_time": "2018-05-03T19:05:33.109270",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T19:06:39.904722",
+            true
+          ],
+          [
+            "style",
+            "2018-05-03T19:06:40.001516",
+            false
+          ],
+          [
+            "style",
+            "2018-05-03T19:06:41.111664",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-03T19:06:41.897944",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "trop familier + accord",
+            "2018-05-03T19:08:43.055112",
+            "2018-05-03T19:08:43.055112"
+          ]
+        ],
+        "verbatim": "trop familier + accord",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:06:37.698089"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Vous \u00eates s\u00fbre\u00a0?",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "It's happy hour right now!",
+      "preprocessed_text": "it &apos;s happy hour right now !",
+      "translated_text": "c&apos; est l&apos; happy hour !",
+      "postprocessed_text": "C'est l'happy hour !",
+      "composition_time": "2018-05-03T19:05:28.998054",
+      "preprocessing_begin": "2018-05-03T19:05:29.032839",
+      "preprocessing_end": "2018-05-03T19:05:31.320174",
+      "translation_begin": "2018-05-03T19:05:31.320267",
+      "translation_end": "2018-05-03T19:05:33.072413",
+      "postprocessing_begin": "2018-05-03T19:05:33.072674",
+      "postprocessing_end": "2018-05-03T19:05:33.108262",
+      "sent_time": "2018-05-03T19:05:33.109792",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:06:46.751976"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C'est l'happy hour en ce moment\u00a0!",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Sans lait merci !",
+      "preprocessed_text": "sans lait merci !",
+      "translated_text": "without milk !",
+      "postprocessed_text": "Without milk!",
+      "composition_time": "2018-05-03T19:05:43.697871",
+      "preprocessing_begin": "2018-05-03T19:05:43.741138",
+      "preprocessing_end": "2018-05-03T19:05:46.040043",
+      "translation_begin": "2018-05-03T19:05:46.040130",
+      "translation_end": "2018-05-03T19:05:46.491599",
+      "postprocessing_begin": "2018-05-03T19:05:46.491831",
+      "postprocessing_end": "2018-05-03T19:05:46.522165",
+      "sent_time": "2018-05-03T19:05:46.523220",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:06:27.457038"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "No milk thank you.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "c'est d\u00e9j\u00e0 l'happy hour ?",
+      "preprocessed_text": "c&apos; est d\u00e9j\u00e0 l&apos; happy hour ?",
+      "translated_text": "is it happy hour already ?",
+      "postprocessed_text": "Is it happy hour already?",
+      "composition_time": "2018-05-03T19:06:02.581194",
+      "preprocessing_begin": "2018-05-03T19:06:02.615615",
+      "preprocessing_end": "2018-05-03T19:06:04.722053",
+      "translation_begin": "2018-05-03T19:06:04.722127",
+      "translation_end": "2018-05-03T19:06:05.253507",
+      "postprocessing_begin": "2018-05-03T19:06:05.253846",
+      "postprocessing_end": "2018-05-03T19:06:05.284510",
+      "sent_time": "2018-05-03T19:06:05.286001",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:06:28.451402"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Is it Happy Hour already?",
+      "normalised_version": "C\u2019est d\u00e9j\u00e0 l'happy hour ?"
+    },
+    "13": {
+      "language": "french",
+      "original_text": "dans ce cas, je prendrais bien un petit mojito....",
+      "preprocessed_text": "dans ce cas , je prendrais bien un petit mojito ....",
+      "translated_text": "in that case , I &apos;d like a little mojito ...",
+      "postprocessed_text": "In that case, I'd like a little mojito...",
+      "composition_time": "2018-05-03T19:06:16.140654",
+      "preprocessing_begin": "2018-05-03T19:06:16.180079",
+      "preprocessing_end": "2018-05-03T19:06:18.385439",
+      "translation_begin": "2018-05-03T19:06:18.385521",
+      "translation_end": "2018-05-03T19:06:19.342780",
+      "postprocessing_begin": "2018-05-03T19:06:19.343012",
+      "postprocessing_end": "2018-05-03T19:06:19.379656",
+      "sent_time": "2018-05-03T19:06:19.380652",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:06:30.273570"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "In that case, I\u2019ll have a little mojito\u2026",
+      "normalised_version": "Dans ce cas, je prendrais bien un petit mojito...."
+    },
+    "14": {
+      "language": "english",
+      "original_text": "That's a good mix!",
+      "preprocessed_text": "that &apos;s a good mix !",
+      "translated_text": "c&apos; est un bon m\u00e9lange !",
+      "postprocessed_text": "C'est un bon m\u00e9lange !",
+      "composition_time": "2018-05-03T19:07:01.531892",
+      "preprocessing_begin": "2018-05-03T19:07:01.569108",
+      "preprocessing_end": "2018-05-03T19:07:03.811110",
+      "translation_begin": "2018-05-03T19:07:03.811223",
+      "translation_end": "2018-05-03T19:07:05.116362",
+      "postprocessing_begin": "2018-05-03T19:07:05.116721",
+      "postprocessing_end": "2018-05-03T19:07:05.155593",
+      "sent_time": "2018-05-03T19:07:05.156927",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:08:45.925659"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C'est une bonne association\u00a0!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "A coffee, some water and a mojito!",
+      "preprocessed_text": "a coffee , some water and a mojito !",
+      "translated_text": "un caf\u00e9 , de l&apos; eau et un mojito !",
+      "postprocessed_text": "Un caf\u00e9, de l'eau et un mojito !",
+      "composition_time": "2018-05-03T19:07:01.531892",
+      "preprocessing_begin": "2018-05-03T19:07:01.569108",
+      "preprocessing_end": "2018-05-03T19:07:03.811110",
+      "translation_begin": "2018-05-03T19:07:03.811223",
+      "translation_end": "2018-05-03T19:07:05.116362",
+      "postprocessing_begin": "2018-05-03T19:07:05.116721",
+      "postprocessing_end": "2018-05-03T19:07:05.155593",
+      "sent_time": "2018-05-03T19:07:05.157767",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:08:47.107013"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Un caf\u00e9, de l'eau et un mojito\u00a0!",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "Have you had a good day at work?",
+      "preprocessed_text": "have you had a good day at work ?",
+      "translated_text": "tu as pass\u00e9 une bonne journ\u00e9e au travail ?",
+      "postprocessed_text": "Tu as pass\u00e9 une bonne journ\u00e9e au travail ?",
+      "composition_time": "2018-05-03T19:07:13.099543",
+      "preprocessing_begin": "2018-05-03T19:07:13.133734",
+      "preprocessing_end": "2018-05-03T19:07:15.366775",
+      "translation_begin": "2018-05-03T19:07:15.366849",
+      "translation_end": "2018-05-03T19:07:16.127295",
+      "postprocessing_begin": "2018-05-03T19:07:16.127662",
+      "postprocessing_end": "2018-05-03T19:07:16.163737",
+      "sent_time": "2018-05-03T19:07:16.165135",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:08:52.677229"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Vous avez pass\u00e9 une bonne journ\u00e9e au travail\u00a0?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "une grosse journ\u00e9e....",
+      "preprocessed_text": "une grosse journ\u00e9e ....",
+      "translated_text": "a big day ...",
+      "postprocessed_text": "A big day...",
+      "composition_time": "2018-05-03T19:07:30.723220",
+      "preprocessing_begin": "2018-05-03T19:07:30.758149",
+      "preprocessing_end": "2018-05-03T19:07:33.061210",
+      "translation_begin": "2018-05-03T19:07:33.061288",
+      "translation_end": "2018-05-03T19:07:33.565629",
+      "postprocessing_begin": "2018-05-03T19:07:33.566016",
+      "postprocessing_end": "2018-05-03T19:07:33.606291",
+      "sent_time": "2018-05-03T19:07:33.607360",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T19:08:13.514393",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:08:06.825070"
+          ],
+          [
+            "medium",
+            "2018-05-03T19:08:12.350542"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "A long day\u2026",
+      "normalised_version": "Une grosse journ\u00e9e...."
+    },
+    "18": {
+      "language": "french",
+      "original_text": "d'o\u00f9 la necessit\u00e9 du caf\u00e9, et du mojito....",
+      "preprocessed_text": "d&apos; o\u00f9 la necess@@ it\u00e9 du caf\u00e9 , et du mojito ....",
+      "translated_text": "hence the necessary coffee , and a mojito ...",
+      "postprocessed_text": "Hence the necessary coffee, and a mojito...",
+      "composition_time": "2018-05-03T19:07:46.599472",
+      "preprocessing_begin": "2018-05-03T19:07:46.634802",
+      "preprocessing_end": "2018-05-03T19:07:48.867561",
+      "translation_begin": "2018-05-03T19:07:48.867642",
+      "translation_end": "2018-05-03T19:07:49.633204",
+      "postprocessing_begin": "2018-05-03T19:07:49.633768",
+      "postprocessing_end": "2018-05-03T19:07:49.670116",
+      "sent_time": "2018-05-03T19:07:49.671665",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T19:07:56.124441",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"necessary\"",
+            "2018-05-03T19:08:05.148326",
+            "2018-05-03T19:08:05.148326"
+          ]
+        ],
+        "verbatim": "\"necessary\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:07:53.730764"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Hence the coffee and the mojito\u2026",
+      "normalised_version": "D'o\u00f9 la n\u00e9cessit\u00e9 du caf\u00e9, et du mojito...."
+    },
+    "19": {
+      "language": "english",
+      "original_text": "And all alone too!",
+      "preprocessed_text": "and all alone too !",
+      "translated_text": "et tout seul aussi !",
+      "postprocessed_text": "Et tout seul aussi !",
+      "composition_time": "2018-05-03T19:08:55.606868",
+      "preprocessing_begin": "2018-05-03T19:08:55.644028",
+      "preprocessing_end": "2018-05-03T19:08:57.873666",
+      "translation_begin": "2018-05-03T19:08:57.873760",
+      "translation_end": "2018-05-03T19:08:59.297240",
+      "postprocessing_begin": "2018-05-03T19:08:59.297570",
+      "postprocessing_end": "2018-05-03T19:08:59.327407",
+      "sent_time": "2018-05-03T19:08:59.328617",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:10:19.249689",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "mais je ne vois pas comment il peut deviner que je suis une femme",
+            "2018-05-03T19:10:29.324489",
+            "2018-05-03T19:10:29.324489"
+          ]
+        ],
+        "verbatim": "mais je ne vois pas comment il peut deviner que je suis une femme",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:10:14.638822"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Et toute seule, en plus\u00a0!",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "Aren't any of your colleagues going to join you?",
+      "preprocessed_text": "aren &apos;t any of your colleagues going to join you ?",
+      "translated_text": "est @-@ ce qu&apos; un de tes coll\u00e8gues va te rejoindre ?",
+      "postprocessed_text": "Est-ce qu'un de tes coll\u00e8gues va te rejoindre ?",
+      "composition_time": "2018-05-03T19:08:55.606868",
+      "preprocessing_begin": "2018-05-03T19:08:55.644028",
+      "preprocessing_end": "2018-05-03T19:08:57.873666",
+      "translation_begin": "2018-05-03T19:08:57.873760",
+      "translation_end": "2018-05-03T19:08:59.297240",
+      "postprocessing_begin": "2018-05-03T19:08:59.297570",
+      "postprocessing_end": "2018-05-03T19:08:59.327407",
+      "sent_time": "2018-05-03T19:08:59.329249",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:10:31.975728"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Aucun de vos coll\u00e8gues ne va vous rejoindre\u00a0?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "I could get you some drinks for them in the meantime, if they're coming of course.",
+      "preprocessed_text": "I could get you some drinks for them in the meantime , if they &apos;re coming of course .",
+      "translated_text": "je pourrais t&apos; apporter \u00e0 boire pour eux en attendant , s&apos; ils viennent , bien s\u00fbr .",
+      "postprocessed_text": "Je pourrais t'apporter \u00e0 boire pour eux en attendant, s'ils viennent, bien s\u00fbr.",
+      "composition_time": "2018-05-03T19:09:18.826347",
+      "preprocessing_begin": "2018-05-03T19:09:18.861044",
+      "preprocessing_end": "2018-05-03T19:09:20.950449",
+      "translation_begin": "2018-05-03T19:09:20.950512",
+      "translation_end": "2018-05-03T19:09:22.278105",
+      "postprocessing_begin": "2018-05-03T19:09:22.278483",
+      "postprocessing_end": "2018-05-03T19:09:22.316977",
+      "sent_time": "2018-05-03T19:09:22.318262",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:10:36.009263"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je peux leur apporter des boissons le temps qu'ils arrivent, s'ils viennent bien s\u00fbr.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Mon copain doit venir me rejoindre",
+      "preprocessed_text": "mon copain doit venir me rejoindre",
+      "translated_text": "my boyfriend &apos;s coming to join me .",
+      "postprocessed_text": "My boyfriend's coming to join me.",
+      "composition_time": "2018-05-03T19:09:41.208645",
+      "preprocessing_begin": "2018-05-03T19:09:41.244773",
+      "preprocessing_end": "2018-05-03T19:09:43.525866",
+      "translation_begin": "2018-05-03T19:09:43.525953",
+      "translation_end": "2018-05-03T19:09:44.138950",
+      "postprocessing_begin": "2018-05-03T19:09:44.139350",
+      "postprocessing_end": "2018-05-03T19:09:44.171542",
+      "sent_time": "2018-05-03T19:09:44.172531",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:10:02.230295"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "My boyfriend will be joining me.",
+      "normalised_version": "Mon copain doit venir me rejoindre."
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Je pense qu'il prendra aussi un mojito",
+      "preprocessed_text": "je pense qu&apos; il prendra aussi un mojito",
+      "translated_text": "I think he &apos;ll have a mojito , too .",
+      "postprocessed_text": "I think he'll have a mojito, too.",
+      "composition_time": "2018-05-03T19:09:50.566649",
+      "preprocessing_begin": "2018-05-03T19:09:50.602106",
+      "preprocessing_end": "2018-05-03T19:09:52.844540",
+      "translation_begin": "2018-05-03T19:09:52.844620",
+      "translation_end": "2018-05-03T19:09:53.626115",
+      "postprocessing_begin": "2018-05-03T19:09:53.626390",
+      "postprocessing_end": "2018-05-03T19:09:53.659131",
+      "sent_time": "2018-05-03T19:09:53.660124",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:10:03.292850"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I thin he\u2019ll have a mojito too.",
+      "normalised_version": "Je pense qu'il prendra aussi un mojito."
+    },
+    "24": {
+      "language": "english",
+      "original_text": "Great!",
+      "preprocessed_text": "great !",
+      "translated_text": "super !",
+      "postprocessed_text": "Super !",
+      "composition_time": "2018-05-03T19:10:59.818537",
+      "preprocessing_begin": "2018-05-03T19:10:59.858903",
+      "preprocessing_end": "2018-05-03T19:11:02.225731",
+      "translation_begin": "2018-05-03T19:11:02.225819",
+      "translation_end": "2018-05-03T19:11:04.088463",
+      "postprocessing_begin": "2018-05-03T19:11:04.088816",
+      "postprocessing_end": "2018-05-03T19:11:04.119882",
+      "sent_time": "2018-05-03T19:11:04.121192",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:11:41.269763"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "G\u00e9nial\u00a0!",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "It's going to be a big night in here tonight.",
+      "preprocessed_text": "it &apos;s going to be a big night in here tonight .",
+      "translated_text": "ce sera une grande soir\u00e9e , ce soir .",
+      "postprocessed_text": "Ce sera une grande soir\u00e9e, ce soir.",
+      "composition_time": "2018-05-03T19:10:59.818537",
+      "preprocessing_begin": "2018-05-03T19:10:59.858903",
+      "preprocessing_end": "2018-05-03T19:11:02.225731",
+      "translation_begin": "2018-05-03T19:11:02.225819",
+      "translation_end": "2018-05-03T19:11:04.088463",
+      "postprocessing_begin": "2018-05-03T19:11:04.088816",
+      "postprocessing_end": "2018-05-03T19:11:04.119882",
+      "sent_time": "2018-05-03T19:11:04.121977",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:11:41.838667"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "\u00c7a va \u00eatre une grosse soir\u00e9e ici ce soir.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "We've got two stag dos in tonight!",
+      "preprocessed_text": "we &apos;ve got two stag dos in tonight !",
+      "translated_text": "on a deux hommes pour ce soir !",
+      "postprocessed_text": "On a deux hommes pour ce soir !",
+      "composition_time": "2018-05-03T19:10:59.818537",
+      "preprocessing_begin": "2018-05-03T19:10:59.858903",
+      "preprocessing_end": "2018-05-03T19:11:02.225731",
+      "translation_begin": "2018-05-03T19:11:02.225819",
+      "translation_end": "2018-05-03T19:11:04.088463",
+      "postprocessing_begin": "2018-05-03T19:11:04.088816",
+      "postprocessing_end": "2018-05-03T19:11:04.119882",
+      "sent_time": "2018-05-03T19:11:04.122713",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:11:45.161755",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "En m\u00eame temps, je ne vois tjs pas comment le logiciel peut savoir que je suis une femme...",
+            "2018-05-03T19:15:05.175126",
+            "2018-05-03T19:15:05.175126"
+          ]
+        ],
+        "verbatim": "En m\u00eame temps, je ne vois tjs pas comment le logiciel peut savoir que je suis une femme...",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:11:42.786873"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "On a deux enterrements de vie de gar\u00e7on ce soir\u00a0!",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "french",
+      "original_text": "Mais non...., je suis une femme....!",
+      "preprocessed_text": "mais non .... , je suis une femme .... !",
+      "translated_text": "no , I &apos;m a woman ... !",
+      "postprocessed_text": "No, I'm a woman...!",
+      "composition_time": "2018-05-03T19:12:21.498518",
+      "preprocessing_begin": "2018-05-03T19:12:21.537939",
+      "preprocessing_end": "2018-05-03T19:12:23.909908",
+      "translation_begin": "2018-05-03T19:12:23.909996",
+      "translation_end": "2018-05-03T19:12:24.458407",
+      "postprocessing_begin": "2018-05-03T19:12:24.458746",
+      "postprocessing_end": "2018-05-03T19:12:24.493915",
+      "sent_time": "2018-05-03T19:12:24.495394",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:13:11.194425"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "What?  No\u2026. I\u2019m a woman\u2026!",
+      "normalised_version": "Mais non... je suis une femme...!"
+    },
+    "28": {
+      "language": "french",
+      "original_text": "C'est vrai que ma tenue de chantier et mes cheveux courts peuvent en faire douter.....",
+      "preprocessed_text": "c&apos; est vrai que ma tenue de chantier et mes cheveux courts peuvent en faire douter .....",
+      "translated_text": "it &apos;s true that my construction outfit and short hair can make you doubt ...",
+      "postprocessed_text": "It's true that my construction outfit and short hair can make you doubt...",
+      "composition_time": "2018-05-03T19:13:33.230940",
+      "preprocessing_begin": "2018-05-03T19:13:33.267716",
+      "preprocessing_end": "2018-05-03T19:13:35.561926",
+      "translation_begin": "2018-05-03T19:13:35.562025",
+      "translation_end": "2018-05-03T19:13:36.860284",
+      "postprocessing_begin": "2018-05-03T19:13:36.860586",
+      "postprocessing_end": "2018-05-03T19:13:36.900001",
+      "sent_time": "2018-05-03T19:13:36.901545",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T19:14:21.298921",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"can\"",
+            "2018-05-03T19:14:24.861495",
+            "2018-05-03T19:14:24.861495"
+          ]
+        ],
+        "verbatim": "\"can\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:14:18.422723"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "My work clothes and my short hair may give cause for doubt\u2026",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Mais je travaille actuellement comme ing\u00e9nieur sur un grand chantier, et je n'ai pas eu le temps de passer me changer, ni de prendre une douche apr\u00e8s une journ\u00e9e sur le terrain...",
+      "preprocessed_text": "mais je travaille actuellement comme ing\u00e9nieur sur un grand chantier , et je n&apos; ai pas eu le temps de passer me changer , ni de prendre une douche apr\u00e8s une journ\u00e9e sur le terrain ...",
+      "translated_text": "but I &apos;m working as an engineer on a big site , and I didn &apos;t have time to change , or take a shower after a day in the field ...",
+      "postprocessed_text": "But I'm working as an engineer on a big site, and I didn't have time to change, or take a shower after a day in the field...",
+      "composition_time": "2018-05-03T19:14:17.892510",
+      "preprocessing_begin": "2018-05-03T19:14:17.926799",
+      "preprocessing_end": "2018-05-03T19:14:20.117424",
+      "translation_begin": "2018-05-03T19:14:20.117549",
+      "translation_end": "2018-05-03T19:14:22.851830",
+      "postprocessing_begin": "2018-05-03T19:14:22.852277",
+      "postprocessing_end": "2018-05-03T19:14:22.885247",
+      "sent_time": "2018-05-03T19:14:22.886286",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:16:13.512451"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But I\u2019m currently working as an engineer on a big worksite and I didn\u2019t have the time to go home and get changed or to take a shower after a day on-site\u2026",
+      "normalised_version": "Mais je travaille actuellement comme ing\u00e9nieure sur un grand chantier, et je n'ai pas eu le temps de passer me changer, ni de prendre une douche apr\u00e8s une journ\u00e9e sur le terrain..."
+    },
+    "30": {
+      "language": "english",
+      "original_text": "Oh no, not at all!",
+      "preprocessed_text": "oh no , not at all !",
+      "translated_text": "oh non , pas du tout !",
+      "postprocessed_text": "Oh non, pas du tout !",
+      "composition_time": "2018-05-03T19:15:11.977774",
+      "preprocessing_begin": "2018-05-03T19:15:12.012411",
+      "preprocessing_end": "2018-05-03T19:15:14.074544",
+      "translation_begin": "2018-05-03T19:15:14.074629",
+      "translation_end": "2018-05-03T19:15:17.434471",
+      "postprocessing_begin": "2018-05-03T19:15:17.434741",
+      "postprocessing_end": "2018-05-03T19:15:17.477196",
+      "sent_time": "2018-05-03T19:15:17.478314",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:15:42.417461"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oh non, pas du tout\u00a0!",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "I think you misunderstood me.",
+      "preprocessed_text": "I think you misunderstood me .",
+      "translated_text": "je crois que vous m&apos; avez mal compris .",
+      "postprocessed_text": "Je crois que vous m'avez mal compris.",
+      "composition_time": "2018-05-03T19:15:11.977774",
+      "preprocessing_begin": "2018-05-03T19:15:12.012411",
+      "preprocessing_end": "2018-05-03T19:15:14.074544",
+      "translation_begin": "2018-05-03T19:15:14.074629",
+      "translation_end": "2018-05-03T19:15:17.434471",
+      "postprocessing_begin": "2018-05-03T19:15:17.434741",
+      "postprocessing_end": "2018-05-03T19:15:17.477196",
+      "sent_time": "2018-05-03T19:15:17.478759",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:15:47.236776"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je pense que vous m'avez mal compris.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "All I said was that it's going to be busy tonight because we have two groups of lads coming in to celebrate.",
+      "preprocessed_text": "all I said was that it &apos;s going to be busy tonight because we have two groups of lads coming in to celebrate .",
+      "translated_text": "tout ce que j&apos; ai dit c&apos; est que \u00e7a va \u00eatre occup\u00e9 ce soir parce qu&apos; on a deux groupes de gars qui viennent f\u00eater \u00e7a .",
+      "postprocessed_text": "Tout ce que j'ai dit c'est que \u00e7a va \u00eatre occup\u00e9 ce soir parce qu'on a deux groupes de gars qui viennent f\u00eater \u00e7a.",
+      "composition_time": "2018-05-03T19:15:11.977774",
+      "preprocessing_begin": "2018-05-03T19:15:12.012411",
+      "preprocessing_end": "2018-05-03T19:15:14.074544",
+      "translation_begin": "2018-05-03T19:15:14.074629",
+      "translation_end": "2018-05-03T19:15:17.434471",
+      "postprocessing_begin": "2018-05-03T19:15:17.434741",
+      "postprocessing_end": "2018-05-03T19:15:17.477196",
+      "sent_time": "2018-05-03T19:15:17.479196",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T19:17:16.449938",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "au passage, j'ai lu un peu vite, et ai mal not\u00e9 les \"deux ",
+            "2018-05-03T19:19:01.485376",
+            "2018-05-03T19:19:01.485376"
+          ],
+          [
+            "",
+            "2018-05-03T19:19:14.920144",
+            "2018-05-03T19:19:14.920144"
+          ]
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:17:13.022595"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je disais juste que \u00e7a allait \u00eatre tr\u00e8s plein ce soir parce qu'on a deux groupes de gar\u00e7ons qui viennent faire la f\u00eate.",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "english",
+      "original_text": "Hence the \"stag do\".",
+      "preprocessed_text": "hence the &quot; stag do . &quot;",
+      "translated_text": "d&apos; o\u00f9 le &quot; enterrement de vie de gar\u00e7on &quot; .",
+      "postprocessed_text": "D'o\u00f9 le \"enterrement de vie de gar\u00e7on\".",
+      "composition_time": "2018-05-03T19:15:22.980196",
+      "preprocessing_begin": "2018-05-03T19:15:23.014084",
+      "preprocessing_end": "2018-05-03T19:15:25.608625",
+      "translation_begin": "2018-05-03T19:15:25.608697",
+      "translation_end": "2018-05-03T19:15:26.404655",
+      "postprocessing_begin": "2018-05-03T19:15:26.404926",
+      "postprocessing_end": "2018-05-03T19:15:26.445379",
+      "sent_time": "2018-05-03T19:15:26.446541",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "m'a permis de comprendre : je pense que les guillemets ont permis \u00e0 la traduction de se faire !",
+            "2018-05-03T19:18:22.853485",
+            "2018-05-03T19:18:22.853485"
+          ],
+          [
+            "m'a permis de comprendre : je pense que les guillemets ont permis \u00e0 la traduction de se faire ! Par contre, doute sur 2 groupes et 2 gar\u00e7ons pour 2 \u00e9v\u00e8nements, ou 2 groupes de gar\u00e7ons pour un unique \u00e9v\u00e8nement. C'\u00e9tait en fait la premi\u00e8re option, confirm\u00e9e apr\u00e8s que j'ai propos\u00e9e l'autre....",
+            "2018-05-03T19:20:30.152116",
+            "2018-05-03T19:20:30.152116"
+          ]
+        ],
+        "verbatim": "m'a permis de comprendre : je pense que les guillemets ont permis \u00e0 la traduction de se faire ! Par contre, doute sur 2 groupes et 2 gar\u00e7ons pour 2 \u00e9v\u00e8nements, ou 2 groupes de gar\u00e7ons pour un unique \u00e9v\u00e8nement. C'\u00e9tait en fait la premi\u00e8re option, confirm\u00e9e apr\u00e8s que j'ai propos\u00e9e l'autre....",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T19:17:47.595337"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "D'o\u00f9 l'\u00ab\u00a0enterrement de vie de gar\u00e7on\u00a0\u00bb",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Je comprends mieux !",
+      "preprocessed_text": "je comprends mieux !",
+      "translated_text": "I understand .",
+      "postprocessed_text": "I understand.",
+      "composition_time": "2018-05-03T19:16:02.929099",
+      "preprocessing_begin": "2018-05-03T19:16:02.966141",
+      "preprocessing_end": "2018-05-03T19:16:05.446030",
+      "translation_begin": "2018-05-03T19:16:05.446173",
+      "translation_end": "2018-05-03T19:16:05.921935",
+      "postprocessing_begin": "2018-05-03T19:16:05.922209",
+      "postprocessing_end": "2018-05-03T19:16:05.954612",
+      "sent_time": "2018-05-03T19:16:05.956181",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:16:09.227428"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I understand better now!",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Il va y avoir un enterrement de vie de gar\u00e7on dans le bar ce soir ?",
+      "preprocessed_text": "il va y avoir un enterrement de vie de gar\u00e7on dans le bar ce soir ?",
+      "translated_text": "is there going to be a bachelor party in the bar tonight ?",
+      "postprocessed_text": "Is there going to be a bachelor party in the bar tonight?",
+      "composition_time": "2018-05-03T19:16:25.866791",
+      "preprocessing_begin": "2018-05-03T19:16:25.902744",
+      "preprocessing_end": "2018-05-03T19:16:28.199716",
+      "translation_begin": "2018-05-03T19:16:28.199776",
+      "translation_end": "2018-05-03T19:16:29.307052",
+      "postprocessing_begin": "2018-05-03T19:16:29.307306",
+      "postprocessing_end": "2018-05-03T19:16:29.340075",
+      "sent_time": "2018-05-03T19:16:29.341225",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:16:43.664768"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "So there\u2019s going to be a stag do in the bar tonight?",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "cela risque d'\u00eatre bien anim\u00e9 !",
+      "preprocessed_text": "cela risque d&apos; \u00eatre bien anim\u00e9 !",
+      "translated_text": "it &apos;s going to be very lively .",
+      "postprocessed_text": "It's going to be very lively.",
+      "composition_time": "2018-05-03T19:16:33.903815",
+      "preprocessing_begin": "2018-05-03T19:16:33.938480",
+      "preprocessing_end": "2018-05-03T19:16:36.287552",
+      "translation_begin": "2018-05-03T19:16:36.287710",
+      "translation_end": "2018-05-03T19:16:36.949648",
+      "postprocessing_begin": "2018-05-03T19:16:36.949868",
+      "postprocessing_end": "2018-05-03T19:16:36.983548",
+      "sent_time": "2018-05-03T19:16:36.984552",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:16:44.304725"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That could get lively!",
+      "normalised_version": "Cela risque d'\u00eatre bien anim\u00e9 !"
+    },
+    "37": {
+      "language": "english",
+      "original_text": "Yes, there are going to be two of them!",
+      "preprocessed_text": "yes , there are going to be two of them !",
+      "translated_text": "oui , il y en aura deux !",
+      "postprocessed_text": "Oui, il y en aura deux !",
+      "composition_time": "2018-05-03T19:17:14.459509",
+      "preprocessing_begin": "2018-05-03T19:17:14.493917",
+      "preprocessing_end": "2018-05-03T19:17:16.575175",
+      "translation_begin": "2018-05-03T19:17:16.575285",
+      "translation_end": "2018-05-03T19:17:18.707106",
+      "postprocessing_begin": "2018-05-03T19:17:18.707484",
+      "postprocessing_end": "2018-05-03T19:17:18.742110",
+      "sent_time": "2018-05-03T19:17:18.743753",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:17:36.184053"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oui, il va y en avoir deux\u00a0!",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "english",
+      "original_text": "And don't worry about the clothes.",
+      "preprocessed_text": "and don &apos;t worry about the clothes .",
+      "translated_text": "et ne t&apos; inqui\u00e8te pas pour les v\u00eatements .",
+      "postprocessed_text": "Et ne t'inqui\u00e8te pas pour les v\u00eatements.",
+      "composition_time": "2018-05-03T19:17:14.459509",
+      "preprocessing_begin": "2018-05-03T19:17:14.493917",
+      "preprocessing_end": "2018-05-03T19:17:16.575175",
+      "translation_begin": "2018-05-03T19:17:16.575285",
+      "translation_end": "2018-05-03T19:17:18.707106",
+      "postprocessing_begin": "2018-05-03T19:17:18.707484",
+      "postprocessing_end": "2018-05-03T19:17:18.742110",
+      "sent_time": "2018-05-03T19:17:18.744920",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:17:38.855312"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Et ne vous inqui\u00e9tez pas pour vos v\u00eatements.",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "english",
+      "original_text": "I'm wearing something very similar myself!",
+      "preprocessed_text": "I &apos;m wearing something very similar myself !",
+      "translated_text": "je porte quelque chose de tr\u00e8s semblable moi @-@ m\u00eame !",
+      "postprocessed_text": "Je porte quelque chose de tr\u00e8s semblable moi-m\u00eame !",
+      "composition_time": "2018-05-03T19:17:14.459509",
+      "preprocessing_begin": "2018-05-03T19:17:14.493917",
+      "preprocessing_end": "2018-05-03T19:17:16.575175",
+      "translation_begin": "2018-05-03T19:17:16.575285",
+      "translation_end": "2018-05-03T19:17:18.707106",
+      "postprocessing_begin": "2018-05-03T19:17:18.707484",
+      "postprocessing_end": "2018-05-03T19:17:18.742110",
+      "sent_time": "2018-05-03T19:17:18.746042",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T19:17:40.610084"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Moi aussi je suis habill\u00e9e un peu comme \u00e7a.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "pas de soucis.",
+    "meaning": "average",
+    "coherence": "good",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "un groupe de mots \"enterrement de vie de gar\u00e7on\" n'a \u00e9t\u00e9 traduit correctement qu'entre guillemets... et ce groupe de mots a donc g\u00e9n\u00e9r\u00e9 une confusion. ma premi\u00e8re phrase demandant un caf\u00e9 a g\u00e9n\u00e9r\u00e9 une r\u00e9ponse inattendue,  je me suis demand\u00e9e dans quelle mesure le mot caf\u00e9 (le caf\u00e9 qui se boit) avait pu \u00eatre traduit en autre chose (caf\u00e9 le lieu/autre).",
+    "timestamp": "2018-05-03T19:24:42.607842",
+    "verbatim_quality": "dialogue fluctuant en qualit\u00e9 selon les sujets.\r\nmais, en poursuivant le dialogue et expliquant les points de non compr\u00e9hension, on s'en sort toujours, donc pour moi, pas de prb pour l'utiliser pour communiquer avec qq d'une autre langue.",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "average",
+    "coherence": "good",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "near the beginning, some word choice errors made the conversation a bit strange.",
+    "timestamp": "2018-05-03T19:18:47.891541",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

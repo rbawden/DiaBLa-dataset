@@ -1,0 +1,2054 @@
+{
+  "start_time": "2018-05-09T18:27:37.658753",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in an aeroplane.",
+      "Vous \u00eates dans un avion."
+    ],
+    [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    [
+      "You are speaking to the person next to you, who is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ]
+  ],
+  "user1": {
+    "turn_number": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "role_num": 1,
+    "role": [
+      "You are scared and are speaking to the person sitting next to you.",
+      "Vous avez peur de l'avion et parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous."
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+  },
+  "user2": {
+    "turn_number": 2,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "useragent": "Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Mobile/14G60 Safari/602.1",
+    "role": [
+      "You are speaking to the person next to you, who is scared.",
+      "Vous parlez \u00e0 la personne \u00e0 c\u00f4t\u00e9 de vous, qui a peur de l'avion."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 2
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Excusez-moi, vous entendez ce bruit?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> excusez @-@ moi , vous entendez ce bruit ?",
+      "translated_text": "poems <CONCAT> excuse me , do you hear that noise ?",
+      "postprocessed_text": "Excuse me, do you hear that noise?",
+      "composition_time": "2018-05-09T18:27:58.488635",
+      "preprocessing_begin": "2018-05-09T18:27:58.593022",
+      "preprocessing_end": "2018-05-09T18:28:01.155050",
+      "translation_begin": "2018-05-09T18:28:01.155233",
+      "translation_end": "2018-05-09T18:28:03.407591",
+      "postprocessing_begin": "2018-05-09T18:28:03.407854",
+      "postprocessing_end": "2018-05-09T18:28:03.466878",
+      "sent_time": "2018-05-09T18:28:03.468616",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-09T18:30:24.050199",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-09T18:30:24.882237",
+            false
+          ],
+          [
+            "word choice",
+            "2018-05-09T18:30:25.274706",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:30:13.055651"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Excuse me, can you hear that noise?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "french",
+      "original_text": "C'est bizarre, non?",
+      "preprocessed_text": "excusez @-@ moi , vous entendez ce bruit ? <CONCAT> c&apos; est bizarre , non ?",
+      "translated_text": "excuse me , can you hear that noise ? <CONCAT> it &apos;s weird , isn &apos;t it ?",
+      "postprocessed_text": "It's weird, isn't it?",
+      "composition_time": "2018-05-09T18:27:58.488635",
+      "preprocessing_begin": "2018-05-09T18:27:58.593022",
+      "preprocessing_end": "2018-05-09T18:28:01.155050",
+      "translation_begin": "2018-05-09T18:28:01.155233",
+      "translation_end": "2018-05-09T18:28:03.407591",
+      "postprocessing_begin": "2018-05-09T18:28:03.407854",
+      "postprocessing_end": "2018-05-09T18:28:03.466878",
+      "sent_time": "2018-05-09T18:28:03.469501",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:30:41.540360"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s strange, isn\u2019t it?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "Yes, it is weird, it sounds like the engine is failing, I can also hear a lady screaming for help",
+      "preprocessed_text": "it &apos;s weird , isn &apos;t it ? <CONCAT> yes , it is weird , it sounds like the engine is failing , I can also hear a lady screaming for help",
+      "translated_text": "c&apos; est bizarre , n&apos; est @-@ ce pas ? <CONCAT> oui , c&apos; est bizarre , on dirait que le moteur est d\u00e9faillant , je peux aussi entendre une dame crier \u00e0 l&apos; aide",
+      "postprocessed_text": "Oui, c'est bizarre, on dirait que le moteur est d\u00e9faillant, je peux aussi entendre une dame crier \u00e0 l'aide",
+      "composition_time": "2018-05-09T18:29:26.235120",
+      "preprocessing_begin": "2018-05-09T18:29:26.318240",
+      "preprocessing_end": "2018-05-09T18:29:28.821131",
+      "translation_begin": "2018-05-09T18:29:28.821234",
+      "translation_end": "2018-05-09T18:29:31.521984",
+      "postprocessing_begin": "2018-05-09T18:29:31.522395",
+      "postprocessing_end": "2018-05-09T18:29:31.562299",
+      "sent_time": "2018-05-09T18:29:31.563820",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T18:30:10.265083",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:30:08.193714"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:30:08.930847"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "Oui, c'est bizarre, on dirait que le moteur est en panne, j'entends aussi une femme crier \u00e0 l'aide.",
+      "normalised_version": "Yes, it is weird, it sounds like the engine is failing, I can also hear a lady screaming for help."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Le moteur?",
+      "preprocessed_text": "oui , c&apos; est bizarre , on dirait que le moteur est d\u00e9faillant , je peux aussi entendre une dame crier \u00e0 l&apos; aide <CONCAT> le moteur ?",
+      "translated_text": "yeah , it &apos;s weird , it looks like the engine is failing , so I can hear a lady screaming for help . <CONCAT> the engine ?",
+      "postprocessed_text": "The engine?",
+      "composition_time": "2018-05-09T18:30:20.161957",
+      "preprocessing_begin": "2018-05-09T18:30:20.248186",
+      "preprocessing_end": "2018-05-09T18:30:22.528254",
+      "translation_begin": "2018-05-09T18:30:22.528351",
+      "translation_end": "2018-05-09T18:30:25.587958",
+      "postprocessing_begin": "2018-05-09T18:30:25.588355",
+      "postprocessing_end": "2018-05-09T18:30:25.633449",
+      "sent_time": "2018-05-09T18:30:25.634828",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:32:15.470846"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "The engine?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Mais il y en a plusieurs, non?",
+      "preprocessed_text": "le moteur ? <CONCAT> mais il y en a plusieurs , non ?",
+      "translated_text": "the engine ? <CONCAT> but there &apos;s more than one , right ?",
+      "postprocessed_text": "But there's more than one, right?",
+      "composition_time": "2018-05-09T18:30:20.161957",
+      "preprocessing_begin": "2018-05-09T18:30:20.248186",
+      "preprocessing_end": "2018-05-09T18:30:22.528254",
+      "translation_begin": "2018-05-09T18:30:22.528351",
+      "translation_end": "2018-05-09T18:30:25.587958",
+      "postprocessing_begin": "2018-05-09T18:30:25.588355",
+      "postprocessing_end": "2018-05-09T18:30:25.633449",
+      "sent_time": "2018-05-09T18:30:25.635671",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:32:18.192877"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "There are several, aren\u2019t there?",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "french",
+      "original_text": "Je n'y connais rien aux avions, mais je suis terrifi\u00e9 \u00e0 chaque fois que je prend l'avion.",
+      "preprocessed_text": "mais il y en a plusieurs , non ? <CONCAT> je n&apos; y connais rien aux avions , mais je suis terrifi\u00e9 \u00e0 chaque fois que je prend l&apos; avion .",
+      "translated_text": "but there are many , right ? <CONCAT> I don &apos;t know anything about airplanes , but I &apos;m terrified every time I fly .",
+      "postprocessed_text": "I don't know anything about airplanes, but I'm terrified every time I fly.",
+      "composition_time": "2018-05-09T18:30:31.834960",
+      "preprocessing_begin": "2018-05-09T18:30:31.915742",
+      "preprocessing_end": "2018-05-09T18:30:34.079386",
+      "translation_begin": "2018-05-09T18:30:34.079448",
+      "translation_end": "2018-05-09T18:30:36.173396",
+      "postprocessing_begin": "2018-05-09T18:30:36.173807",
+      "postprocessing_end": "2018-05-09T18:30:36.214218",
+      "sent_time": "2018-05-09T18:30:36.215738",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:32:21.969117"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "i don\u2019t know anything about planes, but I\u2019m terrified whenever I fly.",
+      "normalised_version": "Je n'y connais rien aux avions, mais je suis terrifi\u00e9 \u00e0 chaque fois que je prends l'avion."
+    },
+    "6": {
+      "language": "french",
+      "original_text": "Je suis d\u00e9sol\u00e9 de vous emb\u00eater avec \u00e7a, mais j'ai vraiment peur",
+      "preprocessed_text": "je n&apos; y connais rien aux avions , mais je suis terrifi\u00e9 \u00e0 chaque fois que je prend l&apos; avion . <CONCAT> je suis d\u00e9sol\u00e9 de vous emb\u00eater avec \u00e7a , mais j&apos; ai vraiment peur",
+      "translated_text": "I don &apos;t know anything about airplanes , but I &apos;m terrified every time I fly . <CONCAT> I &apos;m sorry to bother you with this , but I &apos;m really scared .",
+      "postprocessed_text": "I'm sorry to bother you with this, but I'm really scared.",
+      "composition_time": "2018-05-09T18:30:40.428959",
+      "preprocessing_begin": "2018-05-09T18:30:40.510823",
+      "preprocessing_end": "2018-05-09T18:30:42.672537",
+      "translation_begin": "2018-05-09T18:30:42.672636",
+      "translation_end": "2018-05-09T18:30:45.730973",
+      "postprocessing_begin": "2018-05-09T18:30:45.731370",
+      "postprocessing_end": "2018-05-09T18:30:45.794318",
+      "sent_time": "2018-05-09T18:30:45.795937",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:32:23.716961"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I\u2019m sorry to bother you like this, but I\u2019m really scared.",
+      "normalised_version": "Je suis d\u00e9sol\u00e9 de vous emb\u00eater avec \u00e7a, mais j'ai vraiment peur."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "There is another engine, but I think that I can hear that failing now as well",
+      "preprocessed_text": "I &apos;m sorry to bother you with this , but I &apos;m really scared . <CONCAT> there is another engine , but I think that I can hear that failing now as well",
+      "translated_text": "je suis d\u00e9sol\u00e9 de vous d\u00e9ranger avec \u00e7a , mais j&apos; ai vraiment peur . <CONCAT> il y a un autre moteur , mais je pense que j&apos; entends aussi l&apos; \u00e9chec .",
+      "postprocessed_text": "Il y a un autre moteur, mais je pense que j'entends aussi l'\u00e9chec.",
+      "composition_time": "2018-05-09T18:31:25.642600",
+      "preprocessing_begin": "2018-05-09T18:31:25.725894",
+      "preprocessing_end": "2018-05-09T18:31:28.405580",
+      "translation_begin": "2018-05-09T18:31:28.405713",
+      "translation_end": "2018-05-09T18:31:31.110435",
+      "postprocessing_begin": "2018-05-09T18:31:31.110766",
+      "postprocessing_end": "2018-05-09T18:31:31.165932",
+      "sent_time": "2018-05-09T18:31:31.167974",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T18:32:23.871520",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-09T18:32:24.753651",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:32:21.135295"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning",
+          "word choice"
+        ]
+      },
+      "reference_translation": "Il y a un autre moteur, mais je crois que je l\u2019entends tomber en panne lui aussi maintenant.",
+      "normalised_version": "There is another engine, but I think that I can hear that failing now as well."
+    },
+    "8": {
+      "language": "english",
+      "original_text": "I don't want to scare you but I think we may be about to plummet to our death",
+      "preprocessed_text": "there is another engine , but I think that I can hear that failing now as well <CONCAT> I don &apos;t want to scare you but I think we may be about to plum@@ met to our death",
+      "translated_text": "il y a un autre moteur , mais je pense que je peux l&apos; entendre aussi . <CONCAT> je ne veux pas vous faire peur , mais je crois qu&apos; on est sur le point de s&apos; effondrer \u00e0 notre mort .",
+      "postprocessed_text": "Je ne veux pas vous faire peur, mais je crois qu'on est sur le point de s'effondrer \u00e0 notre mort.",
+      "composition_time": "2018-05-09T18:32:09.372113",
+      "preprocessing_begin": "2018-05-09T18:32:09.471160",
+      "preprocessing_end": "2018-05-09T18:32:12.003726",
+      "translation_begin": "2018-05-09T18:32:12.003850",
+      "translation_end": "2018-05-09T18:32:15.416300",
+      "postprocessing_begin": "2018-05-09T18:32:15.416761",
+      "postprocessing_end": "2018-05-09T18:32:15.463041",
+      "sent_time": "2018-05-09T18:32:15.464680",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:32:37.296555",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:32:30.066092"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je ne veux pas vous effrayer mais je pense qu\u2019on va s\u2019\u00e9craser et qu\u2019on va mourir.",
+      "normalised_version": "I don't want to scare you but I think we may be about to plummet to our death."
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Mon Dieu, mais c'est horrible ce que vous dites.",
+      "preprocessed_text": "je ne veux pas vous faire peur , mais je crois qu&apos; on est sur le point de s&apos; effondrer \u00e0 notre mort . <CONCAT> mon Dieu , mais c&apos; est horrible ce que vous dites .",
+      "translated_text": "I don &apos;t want to scare you , but I think we &apos;re about to fall apart when we &apos;re dead . <CONCAT> oh , my God , that &apos;s horrible what you &apos;re talking about .",
+      "postprocessed_text": "Oh, my God, that's horrible what you're talking about.",
+      "composition_time": "2018-05-09T18:32:55.114541",
+      "preprocessing_begin": "2018-05-09T18:32:55.199839",
+      "preprocessing_end": "2018-05-09T18:32:57.866014",
+      "translation_begin": "2018-05-09T18:32:57.866167",
+      "translation_end": "2018-05-09T18:33:04.030971",
+      "postprocessing_begin": "2018-05-09T18:33:04.031460",
+      "postprocessing_end": "2018-05-09T18:33:04.070593",
+      "sent_time": "2018-05-09T18:33:04.072088",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:33:25.413706"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Oh my god, but that\u2019s a dreadful thing to say.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Vous croyez vraiment?",
+      "preprocessed_text": "mon Dieu , mais c&apos; est horrible ce que vous dites . <CONCAT> vous croyez vraiment ?",
+      "translated_text": "my God , it &apos;s horrible what you &apos;re talking about . <CONCAT> you really think so ?",
+      "postprocessed_text": "You really think so?",
+      "composition_time": "2018-05-09T18:32:55.114541",
+      "preprocessing_begin": "2018-05-09T18:32:55.199839",
+      "preprocessing_end": "2018-05-09T18:32:57.866014",
+      "translation_begin": "2018-05-09T18:32:57.866167",
+      "translation_end": "2018-05-09T18:33:04.030971",
+      "postprocessing_begin": "2018-05-09T18:33:04.031460",
+      "postprocessing_end": "2018-05-09T18:33:04.070593",
+      "sent_time": "2018-05-09T18:33:04.073004",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:34:38.964601"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Do you really think so?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Ou vous dites \u00e7a pour vous moquer de moi?",
+      "preprocessed_text": "vous croyez vraiment ? <CONCAT> ou vous dites \u00e7a pour vous moquer de moi ?",
+      "translated_text": "you really think so ? <CONCAT> or are you just saying that to make fun of me ?",
+      "postprocessed_text": "Or are you just saying that to make fun of me?",
+      "composition_time": "2018-05-09T18:32:55.114541",
+      "preprocessing_begin": "2018-05-09T18:32:55.199839",
+      "preprocessing_end": "2018-05-09T18:32:57.866014",
+      "translation_begin": "2018-05-09T18:32:57.866167",
+      "translation_end": "2018-05-09T18:33:04.030971",
+      "postprocessing_begin": "2018-05-09T18:33:04.031460",
+      "postprocessing_end": "2018-05-09T18:33:04.070593",
+      "sent_time": "2018-05-09T18:33:04.075105",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:34:59.590266"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Or are you saying that to make fun of me?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "Je vais rallumer mon t\u00e9l\u00e9phone pour envoyer des messages \u00e0 toute ma famille, leur dire que je les aime, et que je suis sur le point de mourir.",
+      "preprocessed_text": "ou vous dites \u00e7a pour vous moquer de moi ? <CONCAT> je vais rallumer mon t\u00e9l\u00e9phone pour envoyer des messages \u00e0 toute ma famille , leur dire que je les aime , et que je suis sur le point de mourir .",
+      "translated_text": "or are you just saying that to make fun of me ? <CONCAT> I &apos;m gonna turn my phone back on to send messages to my whole family , tell them I love them , and I &apos;m about to die .",
+      "postprocessed_text": "I'm gonna turn my phone back on to send messages to my whole family, tell them I love them, and I'm about to die.",
+      "composition_time": "2018-05-09T18:33:28.548523",
+      "preprocessing_begin": "2018-05-09T18:33:28.633120",
+      "preprocessing_end": "2018-05-09T18:33:30.841379",
+      "translation_begin": "2018-05-09T18:33:30.841489",
+      "translation_end": "2018-05-09T18:33:33.924870",
+      "postprocessing_begin": "2018-05-09T18:33:33.925227",
+      "postprocessing_end": "2018-05-09T18:33:33.965292",
+      "sent_time": "2018-05-09T18:33:33.966890",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:34:31.960388",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:34:30.442274"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "I\u2019m going to turn on my telephone to send messages to all my family, tell them I love them and that I\u2019m about to die.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Au moins, \u00e7a sera probablement instantan\u00e9, sans douleur, non?",
+      "preprocessed_text": "je vais rallumer mon t\u00e9l\u00e9phone pour envoyer des messages \u00e0 toute ma famille , leur dire que je les aime , et que je suis sur le point de mourir . <CONCAT> au moins , \u00e7a sera probablement instantan\u00e9 , sans douleur , non ?",
+      "translated_text": "I &apos;m gonna turn my phone back on to send messages to my whole family , tell them I love them , and I &apos;m about to die . <CONCAT> at least it &apos;ll probably be instant , no pain , right ?",
+      "postprocessed_text": "At least it'll probably be instant, no pain, right?",
+      "composition_time": "2018-05-09T18:33:39.715803",
+      "preprocessing_begin": "2018-05-09T18:33:39.796778",
+      "preprocessing_end": "2018-05-09T18:33:42.080441",
+      "translation_begin": "2018-05-09T18:33:42.080578",
+      "translation_end": "2018-05-09T18:33:45.406187",
+      "postprocessing_begin": "2018-05-09T18:33:45.406592",
+      "postprocessing_end": "2018-05-09T18:33:45.444983",
+      "sent_time": "2018-05-09T18:33:45.446586",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:34:56.365710"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "At least it\u2019ll probably be instantaneous and painless, right?",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "english",
+      "original_text": "Do you believe in god?",
+      "preprocessed_text": "at least it &apos;ll probably be instant , no pain , right ? <CONCAT> do you believe in god ?",
+      "translated_text": "au moins , ce sera sans doute instantan\u00e9 , sans douleur , n&apos; est @-@ ce pas ? <CONCAT> tu crois en Dieu ?",
+      "postprocessed_text": "Tu crois en Dieu ?",
+      "composition_time": "2018-05-09T18:34:00.861051",
+      "preprocessing_begin": "2018-05-09T18:34:00.953583",
+      "preprocessing_end": "2018-05-09T18:34:03.225765",
+      "translation_begin": "2018-05-09T18:34:03.225966",
+      "translation_end": "2018-05-09T18:34:05.383355",
+      "postprocessing_begin": "2018-05-09T18:34:05.384053",
+      "postprocessing_end": "2018-05-09T18:34:05.461209",
+      "sent_time": "2018-05-09T18:34:05.462742",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-09T18:34:40.428577",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-09T18:34:41.782105",
+            "2018-05-09T18:34:41.782105"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:34:35.966568"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Croyez-vous en Dieu\u00a0?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "Shall we pray together or have a large drink?",
+      "preprocessed_text": "do you believe in god ? <CONCAT> shall we pray together or have a large drink ?",
+      "translated_text": "croyez @-@ vous en Dieu ? <CONCAT> devons @-@ nous prier ensemble ou boire un grand verre ?",
+      "postprocessed_text": "Devons-nous prier ensemble ou boire un grand verre ?",
+      "composition_time": "2018-05-09T18:34:24.655969",
+      "preprocessing_begin": "2018-05-09T18:34:24.759431",
+      "preprocessing_end": "2018-05-09T18:34:27.034474",
+      "translation_begin": "2018-05-09T18:34:27.034626",
+      "translation_end": "2018-05-09T18:34:28.802176",
+      "postprocessing_begin": "2018-05-09T18:34:28.802775",
+      "postprocessing_end": "2018-05-09T18:34:28.875776",
+      "sent_time": "2018-05-09T18:34:28.877211",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:34:42.514748"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "On prie ensemble ou on prend un bon verre ?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Je suis comme la plupart des gens: je ne crois pas en Dieu sauf \u00e0 5 minutes de la fin.",
+      "preprocessed_text": "devons @-@ nous prier ensemble ou boire un grand verre ? <CONCAT> je suis comme la plupart des gens : je ne crois pas en Dieu sauf \u00e0 5 minutes de la fin .",
+      "translated_text": "do we have to pray together or have a big drink ? <CONCAT> I &apos;m like most people , I don &apos;t believe in God except five minutes from the end .",
+      "postprocessed_text": "I'm like most people, I don't believe in God except five minutes from the end.",
+      "composition_time": "2018-05-09T18:34:58.982728",
+      "preprocessing_begin": "2018-05-09T18:34:59.071790",
+      "preprocessing_end": "2018-05-09T18:35:01.379577",
+      "translation_begin": "2018-05-09T18:35:01.379685",
+      "translation_end": "2018-05-09T18:35:04.231751",
+      "postprocessing_begin": "2018-05-09T18:35:04.232295",
+      "postprocessing_end": "2018-05-09T18:35:04.289457",
+      "sent_time": "2018-05-09T18:35:04.291742",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:38:02.378147"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "I\u2019m like most people: I don\u2019t believe in God until 5 minutes before the end.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Mais boire un verre est certainement une bonne id\u00e9e.",
+      "preprocessed_text": "je suis comme la plupart des gens : je ne crois pas en Dieu sauf \u00e0 5 minutes de la fin . <CONCAT> mais boire un verre est certainement une bonne id\u00e9e .",
+      "translated_text": "I &apos;m like most people , I don &apos;t believe in God except five minutes from the end . <CONCAT> but drinking is probably a good idea .",
+      "postprocessed_text": "But drinking is probably a good idea.",
+      "composition_time": "2018-05-09T18:35:15.837869",
+      "preprocessing_begin": "2018-05-09T18:35:15.925807",
+      "preprocessing_end": "2018-05-09T18:35:18.162131",
+      "translation_begin": "2018-05-09T18:35:18.162250",
+      "translation_end": "2018-05-09T18:35:20.463995",
+      "postprocessing_begin": "2018-05-09T18:35:20.464301",
+      "postprocessing_end": "2018-05-09T18:35:20.522706",
+      "sent_time": "2018-05-09T18:35:20.523767",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:38:05.545709"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But having a drink is surely a good idea.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Mais personne ne va nous servir si nous sommes en train de nous \u00e9craser.",
+      "preprocessed_text": "mais boire un verre est certainement une bonne id\u00e9e . <CONCAT> mais personne ne va nous servir si nous sommes en train de nous \u00e9craser .",
+      "translated_text": "but drinking is probably a good idea . <CONCAT> but no one &apos;s gonna serve us if we &apos;re crashing .",
+      "postprocessed_text": "But no one's gonna serve us if we're crashing.",
+      "composition_time": "2018-05-09T18:35:24.590834",
+      "preprocessing_begin": "2018-05-09T18:35:24.681760",
+      "preprocessing_end": "2018-05-09T18:35:27.267177",
+      "translation_begin": "2018-05-09T18:35:27.267300",
+      "translation_end": "2018-05-09T18:35:29.154502",
+      "postprocessing_begin": "2018-05-09T18:35:29.154922",
+      "postprocessing_end": "2018-05-09T18:35:29.217587",
+      "sent_time": "2018-05-09T18:35:29.219589",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:38:11.086848",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:38:09.594537"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "But nobody will serve us if we\u2019re about to crash.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "Let's help ourselves to the alcohol tray, would you care for some red wine?",
+      "preprocessed_text": "but no one &apos;s gonna serve us if we &apos;re crashing . <CONCAT> let &apos;s help ourselves to the alcohol tray , would you care for some red wine ?",
+      "translated_text": "mais personne ne va nous servir si on s&apos; \u00e9crase . <CONCAT> aidons @-@ nous pour le bac \u00e0 alcool , tu veux du vin rouge ?",
+      "postprocessed_text": "Aidons-nous pour le bac \u00e0 alcool, tu veux du vin rouge ?",
+      "composition_time": "2018-05-09T18:36:46.183990",
+      "preprocessing_begin": "2018-05-09T18:36:46.290419",
+      "preprocessing_end": "2018-05-09T18:36:48.836385",
+      "translation_begin": "2018-05-09T18:36:48.836496",
+      "translation_end": "2018-05-09T18:36:53.531394",
+      "postprocessing_begin": "2018-05-09T18:36:53.531773",
+      "postprocessing_end": "2018-05-09T18:36:53.590319",
+      "sent_time": "2018-05-09T18:36:53.592131",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "Idiomes et termes traduits mot \u00e0 mot",
+            "2018-05-09T18:37:43.128934",
+            "2018-05-09T18:37:43.128934"
+          ]
+        ],
+        "verbatim": "Idiomes et termes traduits mot \u00e0 mot",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-09T18:37:29.218771"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:37:31.110246"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Servons-nous sur le chariot \u00e0 alcools. Voulez-vous un peu de vin rouge\u00a0?",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "If we are going to die we may as we",
+      "preprocessed_text": "let &apos;s help ourselves to the alcohol tray , would you care for some red wine ? <CONCAT> if we are going to die we may as we",
+      "translated_text": "allons @-@ nous @-@ en au bac \u00e0 alcool , voulez @-@ vous du vin rouge ? <CONCAT> si nous voulons mourir , nous pourrions ...",
+      "postprocessed_text": "Si nous voulons mourir, nous pourrions...",
+      "composition_time": "2018-05-09T18:36:46.183990",
+      "preprocessing_begin": "2018-05-09T18:36:46.290419",
+      "preprocessing_end": "2018-05-09T18:36:48.836385",
+      "translation_begin": "2018-05-09T18:36:48.836496",
+      "translation_end": "2018-05-09T18:36:53.531394",
+      "postprocessing_begin": "2018-05-09T18:36:53.531773",
+      "postprocessing_end": "2018-05-09T18:36:53.590319",
+      "sent_time": "2018-05-09T18:36:53.593025",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:37:59.312811",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"voulons\"?",
+            "2018-05-09T18:38:00.034761",
+            "2018-05-09T18:38:00.034761"
+          ]
+        ],
+        "verbatim": "\"voulons\"?",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:37:49.822296"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:37:54.527920"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Si nous devons mourir, nous pourrions aussi bi",
+      "normalised_version": "If we are going to die we may as well"
+    },
+    "21": {
+      "language": "english",
+      "original_text": "ll",
+      "preprocessed_text": "if we are going to die we may as we <CONCAT> ll",
+      "translated_text": "si nous voulons mourir , nous serons peut @-@ \u00eatre <CONCAT> si nous voulons mourir",
+      "postprocessed_text": "Si nous voulons mourir",
+      "composition_time": "2018-05-09T18:37:18.197827",
+      "preprocessing_begin": "2018-05-09T18:37:18.285470",
+      "preprocessing_end": "2018-05-09T18:37:20.432901",
+      "translation_begin": "2018-05-09T18:37:20.433008",
+      "translation_end": "2018-05-09T18:37:21.777629",
+      "postprocessing_begin": "2018-05-09T18:37:21.778006",
+      "postprocessing_end": "2018-05-09T18:37:21.818924",
+      "sent_time": "2018-05-09T18:37:21.820046",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:38:01.617592",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"voulons\"?",
+            "2018-05-09T18:38:02.338849",
+            "2018-05-09T18:38:02.338849"
+          ]
+        ],
+        "verbatim": "\"voulons\"?",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:37:48.842326"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:37:52.325286"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Sl",
+      "normalised_version": "well"
+    },
+    "22": {
+      "language": "english",
+      "original_text": "If we survive I'm going to make a complaint to the airline",
+      "preprocessed_text": "ll <CONCAT> if we survive I &apos;m going to make a complaint to the airline",
+      "translated_text": "il y a un probl\u00e8me . <CONCAT> si nous surviv@@ ons , je vais porter plainte \u00e0 la compagnie a\u00e9rienne .",
+      "postprocessed_text": "Si nous survivons, je vais porter plainte \u00e0 la compagnie a\u00e9rienne.",
+      "composition_time": "2018-05-09T18:37:40.246473",
+      "preprocessing_begin": "2018-05-09T18:37:40.329301",
+      "preprocessing_end": "2018-05-09T18:37:42.405121",
+      "translation_begin": "2018-05-09T18:37:42.405282",
+      "translation_end": "2018-05-09T18:37:43.955573",
+      "postprocessing_begin": "2018-05-09T18:37:43.955843",
+      "postprocessing_end": "2018-05-09T18:37:44.013525",
+      "sent_time": "2018-05-09T18:37:44.014911",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:38:05.282746",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-09T18:38:07.189942",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "porter plainte \"contre\", pas \"\u00e0\"",
+            "2018-05-09T18:38:15.953937",
+            "2018-05-09T18:38:15.953937"
+          ]
+        ],
+        "verbatim": "porter plainte \"contre\", pas \"\u00e0\"",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:37:50.941574"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:38:03.675912"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Si nous survivons, je d\u00e9poserai plainte contre la compagnie a\u00e9rienne.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Mais vous savez qu'on n'a aucune chance, n'est-ce pas?",
+      "preprocessed_text": "si nous surviv@@ ons , je vais porter plainte \u00e0 la compagnie a\u00e9rienne . <CONCAT> mais vous savez qu&apos; on n&apos; a aucune chance , n&apos; est @-@ ce pas ?",
+      "translated_text": "if we survive , I &apos;ll report to the airline . <CONCAT> but you know we don &apos;t have a chance , right ?",
+      "postprocessed_text": "But you know we don't have a chance, right?",
+      "composition_time": "2018-05-09T18:38:29.942313",
+      "preprocessing_begin": "2018-05-09T18:38:30.027666",
+      "preprocessing_end": "2018-05-09T18:38:32.317224",
+      "translation_begin": "2018-05-09T18:38:32.317384",
+      "translation_end": "2018-05-09T18:38:34.825733",
+      "postprocessing_begin": "2018-05-09T18:38:34.826154",
+      "postprocessing_end": "2018-05-09T18:38:34.867747",
+      "sent_time": "2018-05-09T18:38:34.870471",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:39:47.186865"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But you know we have no chance, don\u2019t you?",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "On va s'\u00e9craser lamentablement en plein milieu de l'oc\u00e9an.",
+      "preprocessed_text": "mais vous savez qu&apos; on n&apos; a aucune chance , n&apos; est @-@ ce pas ? <CONCAT> on va s&apos; \u00e9craser lament@@ ablement en plein milieu de l&apos; oc\u00e9an .",
+      "translated_text": "but you know we don &apos;t have a chance , right ? <CONCAT> we &apos;re gonna crash in the middle of the ocean .",
+      "postprocessed_text": "We're gonna crash in the middle of the ocean.",
+      "composition_time": "2018-05-09T18:38:45.457311",
+      "preprocessing_begin": "2018-05-09T18:38:45.546350",
+      "preprocessing_end": "2018-05-09T18:38:48.055350",
+      "translation_begin": "2018-05-09T18:38:48.055476",
+      "translation_end": "2018-05-09T18:38:50.409474",
+      "postprocessing_begin": "2018-05-09T18:38:50.409876",
+      "postprocessing_end": "2018-05-09T18:38:50.466550",
+      "sent_time": "2018-05-09T18:38:50.468669",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:39:39.439056"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "We\u2019re going to crash miserably in the middle of the ocean. ",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "On sera r\u00e9duits en miettes, \u00e0 plusieurs kilom\u00e8tres sous l'eau.",
+      "preprocessed_text": "on va s&apos; \u00e9craser lament@@ ablement en plein milieu de l&apos; oc\u00e9an . <CONCAT> on sera r\u00e9duits en miettes , \u00e0 plusieurs kilom\u00e8tres sous l&apos; eau .",
+      "translated_text": "we &apos;re gonna crash in the middle of the ocean . <CONCAT> we &apos;ll be blown to smi@@ there@@ ens , several miles underwater .",
+      "postprocessed_text": "We'll be blown to smithereens, several miles underwater.",
+      "composition_time": "2018-05-09T18:39:01.630546",
+      "preprocessing_begin": "2018-05-09T18:39:01.729478",
+      "preprocessing_end": "2018-05-09T18:39:04.661862",
+      "translation_begin": "2018-05-09T18:39:04.661990",
+      "translation_end": "2018-05-09T18:39:06.885037",
+      "postprocessing_begin": "2018-05-09T18:39:06.885506",
+      "postprocessing_end": "2018-05-09T18:39:06.928700",
+      "sent_time": "2018-05-09T18:39:06.930461",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T18:40:55.356172",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:39:43.770456"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:40:50.846719"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "We\u2019ll be ripped to shreds, several kilometres underwater.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "On parlera de notre crash dans les journaux.",
+      "preprocessed_text": "on sera r\u00e9duits en miettes , \u00e0 plusieurs kilom\u00e8tres sous l&apos; eau . <CONCAT> on parlera de notre crash dans les journaux .",
+      "translated_text": "we &apos;ll be blown to smi@@ there@@ ens , several miles underwater . <CONCAT> we &apos;ll talk about our crash in the newspapers .",
+      "postprocessed_text": "We'll talk about our crash in the newspapers.",
+      "composition_time": "2018-05-09T18:39:19.827664",
+      "preprocessing_begin": "2018-05-09T18:39:19.906175",
+      "preprocessing_end": "2018-05-09T18:39:22.292670",
+      "translation_begin": "2018-05-09T18:39:22.292745",
+      "translation_end": "2018-05-09T18:39:24.186672",
+      "postprocessing_begin": "2018-05-09T18:39:24.187166",
+      "postprocessing_end": "2018-05-09T18:39:24.250741",
+      "sent_time": "2018-05-09T18:39:24.252632",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:39:48.038058"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "They\u2019ll mention our crash in the newspaper.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "There is no ocean below us, only Pakistan",
+      "preprocessed_text": "we &apos;ll be blown to smi@@ there@@ ens , several miles underwater . <CONCAT> there is no ocean below us , only Pakistan",
+      "translated_text": "nous serons r\u00e9duits en miettes , \u00e0 plusieurs kilom\u00e8tres sous l&apos; eau . <CONCAT> il n&apos; y a pas d&apos; oc\u00e9an en dessous de nous , seulement le Pakistan .",
+      "postprocessed_text": "Il n'y a pas d'oc\u00e9an en dessous de nous, seulement le Pakistan.",
+      "composition_time": "2018-05-09T18:39:21.119387",
+      "preprocessing_begin": "2018-05-09T18:39:21.171127",
+      "preprocessing_end": "2018-05-09T18:39:23.531591",
+      "translation_begin": "2018-05-09T18:39:23.531646",
+      "translation_end": "2018-05-09T18:39:26.393129",
+      "postprocessing_begin": "2018-05-09T18:39:26.393705",
+      "postprocessing_end": "2018-05-09T18:39:26.461950",
+      "sent_time": "2018-05-09T18:39:26.464365",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:39:32.191449"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Il n\u2019y a pas d\u2019oc\u00e9an en dessous, seulement le Pakistan.",
+      "normalised_version": "There is no ocean below us, only Pakistan."
+    },
+    "28": {
+      "language": "french",
+      "original_text": "Vous savez, depuis l\u00e0 o\u00f9 nous tombons, \u00e7a ne fait pas une grande diff\u00e9rence.",
+      "preprocessed_text": "il n&apos; y a pas d&apos; oc\u00e9an en dessous de nous , seulement le Pakistan . <CONCAT> vous savez , depuis l\u00e0 o\u00f9 nous tombons , \u00e7a ne fait pas une grande diff\u00e9rence .",
+      "translated_text": "there is no ocean below us , only Pakistan . <CONCAT> you know , from where we fall , it doesn &apos;t make much difference .",
+      "postprocessed_text": "You know, from where we fall, it doesn't make much difference.",
+      "composition_time": "2018-05-09T18:39:47.823986",
+      "preprocessing_begin": "2018-05-09T18:39:47.918969",
+      "preprocessing_end": "2018-05-09T18:39:50.570583",
+      "translation_begin": "2018-05-09T18:39:50.570684",
+      "translation_end": "2018-05-09T18:39:52.788322",
+      "postprocessing_begin": "2018-05-09T18:39:52.788610",
+      "postprocessing_end": "2018-05-09T18:39:52.859832",
+      "sent_time": "2018-05-09T18:39:52.861456",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:42:26.927784"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "You know, given where we\u2019re falling from, it doesn\u2019t make that much of a difference.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "english",
+      "original_text": "We did have a chance if we crashed into the ocean, oh what is this, I think I have a parachute in my rucksack",
+      "preprocessed_text": "you know , from where we fall , it doesn &apos;t make much difference . <CONCAT> we did have a chance if we crashed into the ocean , oh what is this , I think I have a parachute in my ruck@@ sack",
+      "translated_text": "tu sais , d&apos; o\u00f9 on tombe , \u00e7a ne fait pas beaucoup de diff\u00e9rence . <CONCAT> on a eu une chance si on s&apos; est \u00e9cras\u00e9 dans l&apos; oc\u00e9an , oh qu&apos; est @-@ ce que c&apos; est , je pense que j&apos; ai un parachute dans mon sac \u00e0 dos",
+      "postprocessed_text": "On a eu une chance si on s'est \u00e9cras\u00e9 dans l'oc\u00e9an, oh qu'est-ce que c'est, je pense que j'ai un parachute dans mon sac \u00e0 dos",
+      "composition_time": "2018-05-09T18:42:00.140209",
+      "preprocessing_begin": "2018-05-09T18:42:00.255013",
+      "preprocessing_end": "2018-05-09T18:42:02.947622",
+      "translation_begin": "2018-05-09T18:42:02.947823",
+      "translation_end": "2018-05-09T18:42:07.909560",
+      "postprocessing_begin": "2018-05-09T18:42:07.909912",
+      "postprocessing_end": "2018-05-09T18:42:07.974998",
+      "sent_time": "2018-05-09T18:42:07.976653",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:42:16.013128"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "On a une chance si on s\u2019\u00e9crase dans l\u2019oc\u00e9an. Oh qu\u2019est-ce que c\u2019est\u00a0? Je crois que j\u2019ai un parachute dans mon sac \u00e0 dos.",
+      "normalised_version": "We did have a chance if we crashed into the ocean. Oh what is this? I think I have a parachute in my rucksack."
+    },
+    "30": {
+      "language": "english",
+      "original_text": "Hug me close and we can land safely together",
+      "preprocessed_text": "we did have a chance if we crashed into the ocean , oh what is this , I think I have a parachute in my ruck@@ sack <CONCAT> hug me close and we can land safely together",
+      "translated_text": "on a eu une chance si on allait dans l&apos; oc\u00e9an , oh qu&apos; est @-@ ce que c&apos; est , je crois que j&apos; ai un parachute dans mon sac \u00e0 dos . <CONCAT> serre @-@ moi fort et on pourra atterrir en s\u00e9curit\u00e9 .",
+      "postprocessed_text": "Serre-moi fort et on pourra atterrir en s\u00e9curit\u00e9.",
+      "composition_time": "2018-05-09T18:42:14.981825",
+      "preprocessing_begin": "2018-05-09T18:42:15.062166",
+      "preprocessing_end": "2018-05-09T18:42:17.321082",
+      "translation_begin": "2018-05-09T18:42:17.321173",
+      "translation_end": "2018-05-09T18:42:21.469420",
+      "postprocessing_begin": "2018-05-09T18:42:21.469693",
+      "postprocessing_end": "2018-05-09T18:42:21.521209",
+      "sent_time": "2018-05-09T18:42:21.522972",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:42:32.149506",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-09T18:42:34.213441",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-09T18:42:36.042561",
+            false
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-09T18:42:40.261980",
+            "2018-05-09T18:42:40.261980"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:42:29.380411"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:42:30.839615"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Serrez-moi dans vos bras et on pourra atterrir ensemble en toute s\u00e9curit\u00e9.",
+      "normalised_version": "Hug me close and we can land safely together."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Un parachute?",
+      "preprocessed_text": "serre @-@ moi fort et on pourra atterrir en s\u00e9curit\u00e9 . <CONCAT> un parachute ?",
+      "translated_text": "hold me tight and we &apos;ll be able to land safely . <CONCAT> a parachute ?",
+      "postprocessed_text": "A parachute?",
+      "composition_time": "2018-05-09T18:42:41.772294",
+      "preprocessing_begin": "2018-05-09T18:42:41.851619",
+      "preprocessing_end": "2018-05-09T18:42:44.024603",
+      "translation_begin": "2018-05-09T18:42:44.024746",
+      "translation_end": "2018-05-09T18:42:46.524362",
+      "postprocessing_begin": "2018-05-09T18:42:46.524698",
+      "postprocessing_end": "2018-05-09T18:42:46.566675",
+      "sent_time": "2018-05-09T18:42:46.568870",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:23.366079"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "A parachute?",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Mais pourquoi est-ce que vous vous promenez avec un parachute sur vous?",
+      "preprocessed_text": "un parachute ? <CONCAT> mais pourquoi est @-@ ce que vous vous promenez avec un parachute sur vous ?",
+      "translated_text": "a parachute ? <CONCAT> but why are you walking around with a parachute on you ?",
+      "postprocessed_text": "But why are you walking around with a parachute on you?",
+      "composition_time": "2018-05-09T18:42:41.772294",
+      "preprocessing_begin": "2018-05-09T18:42:41.851619",
+      "preprocessing_end": "2018-05-09T18:42:44.024603",
+      "translation_begin": "2018-05-09T18:42:44.024746",
+      "translation_end": "2018-05-09T18:42:46.524362",
+      "postprocessing_begin": "2018-05-09T18:42:46.524698",
+      "postprocessing_end": "2018-05-09T18:42:46.566675",
+      "sent_time": "2018-05-09T18:42:46.570204",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:44:29.488846",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:44:28.167133"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "But why do you go carry a parachute around with you?",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Vous \u00eates s\u00fbr?",
+      "preprocessed_text": "mais pourquoi est @-@ ce que vous vous promenez avec un parachute sur vous ? <CONCAT> vous \u00eates s\u00fbr ?",
+      "translated_text": "but why are you walking around with a parachute on you ? <CONCAT> are you sure ?",
+      "postprocessed_text": "Are you sure?",
+      "composition_time": "2018-05-09T18:42:52.291825",
+      "preprocessing_begin": "2018-05-09T18:42:52.380480",
+      "preprocessing_end": "2018-05-09T18:42:54.816637",
+      "translation_begin": "2018-05-09T18:42:54.816745",
+      "translation_end": "2018-05-09T18:42:56.918913",
+      "postprocessing_begin": "2018-05-09T18:42:56.919214",
+      "postprocessing_end": "2018-05-09T18:42:56.967106",
+      "sent_time": "2018-05-09T18:42:56.968496",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:31.750610"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Are you sure?",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "\u00c7a peut porter deux personnes?",
+      "preprocessed_text": "vous \u00eates s\u00fbr ? <CONCAT> \u00e7a peut porter deux personnes ?",
+      "translated_text": "are you sure ? <CONCAT> can it carry two people ?",
+      "postprocessed_text": "Can it carry two people?",
+      "composition_time": "2018-05-09T18:42:52.291825",
+      "preprocessing_begin": "2018-05-09T18:42:52.380480",
+      "preprocessing_end": "2018-05-09T18:42:54.816637",
+      "translation_begin": "2018-05-09T18:42:54.816745",
+      "translation_end": "2018-05-09T18:42:56.918913",
+      "postprocessing_begin": "2018-05-09T18:42:56.919214",
+      "postprocessing_end": "2018-05-09T18:42:56.967106",
+      "sent_time": "2018-05-09T18:42:56.969262",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:34.202822"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Can it carry two people?",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Mais, attendez!",
+      "preprocessed_text": "\u00e7a peut porter deux personnes ? <CONCAT> mais , attendez !",
+      "translated_text": "can it carry two people ? <CONCAT> but , wait !",
+      "postprocessed_text": "But, wait!",
+      "composition_time": "2018-05-09T18:42:56.997195",
+      "preprocessing_begin": "2018-05-09T18:42:57.045410",
+      "preprocessing_end": "2018-05-09T18:42:59.631362",
+      "translation_begin": "2018-05-09T18:42:59.631456",
+      "translation_end": "2018-05-09T18:43:00.459464",
+      "postprocessing_begin": "2018-05-09T18:43:00.459734",
+      "postprocessing_end": "2018-05-09T18:43:00.511146",
+      "sent_time": "2018-05-09T18:43:00.512448",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:36.037080"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But, wait!",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "On va atterrir en plein Pakistan, au milieu des zones tribales remplies de terroristes!!!",
+      "preprocessed_text": "mais , attendez ! <CONCAT> on va atterrir en plein Pakistan , au milieu des zones tri@@ bales remplies de terroristes ! ! !",
+      "translated_text": "but , wait ! <CONCAT> we &apos;re gonna land in Pakistan in the middle of tribal areas full of terrorists !",
+      "postprocessed_text": "We're gonna land in Pakistan in the middle of tribal areas full of terrorists!",
+      "composition_time": "2018-05-09T18:43:15.673421",
+      "preprocessing_begin": "2018-05-09T18:43:15.763069",
+      "preprocessing_end": "2018-05-09T18:43:17.992537",
+      "translation_begin": "2018-05-09T18:43:17.992647",
+      "translation_end": "2018-05-09T18:43:19.785101",
+      "postprocessing_begin": "2018-05-09T18:43:19.785367",
+      "postprocessing_end": "2018-05-09T18:43:19.833571",
+      "sent_time": "2018-05-09T18:43:19.834782",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:41.463777"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "We\u2019re going to land in the heart of Pakistan, right in the middle of tribal zones full of terrorists!!!",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "english",
+      "original_text": "Now isn't the time for such questions, would you like to avoid a horrible death or not?",
+      "preprocessed_text": "we &apos;re gonna land in Pakistan in the middle of tribal areas full of terrorists ! <CONCAT> now isn &apos;t the time for such questions , would you like to avoid a horrible death or not ?",
+      "translated_text": "nous allons atterrir au Pakistan au milieu des zones tri@@ bales pleines de terroristes ! <CONCAT> n&apos; est @-@ ce pas le moment pour ces questions , voulez @-@ vous \u00e9viter une mort horrible ou non ?",
+      "postprocessed_text": "N'est-ce pas le moment pour ces questions, voulez-vous \u00e9viter une mort horrible ou non ?",
+      "composition_time": "2018-05-09T18:43:22.997096",
+      "preprocessing_begin": "2018-05-09T18:43:23.079822",
+      "preprocessing_end": "2018-05-09T18:43:25.636061",
+      "translation_begin": "2018-05-09T18:43:25.636214",
+      "translation_end": "2018-05-09T18:43:28.721018",
+      "postprocessing_begin": "2018-05-09T18:43:28.721547",
+      "postprocessing_end": "2018-05-09T18:43:28.804562",
+      "sent_time": "2018-05-09T18:43:28.805978",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:43:46.699081"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Ce n\u2019est pas le bon moment pour de telles questions, voulez-vous oui ou non \u00e9viter une mort terrible\u00a0?",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "Et puis franchement, vous pensez qu'ils vont nous ouvrir les portes de l'avion pour nous laisser sauter sans nous voler votre parachute?",
+      "preprocessed_text": "n&apos; est @-@ ce pas le moment pour ces questions , voulez @-@ vous \u00e9viter une mort horrible ou non ? <CONCAT> et puis franchement , vous pensez qu&apos; ils vont nous ouvrir les portes de l&apos; avion pour nous laisser sauter sans nous voler votre parachute ?",
+      "translated_text": "isn &apos;t this the time for questions , do you want to avoid a horrible death or not ? <CONCAT> and frankly , do you think they &apos;ll open the plane doors and let us jump without stealing your chute ?",
+      "postprocessed_text": "And frankly, do you think they'll open the plane doors and let us jump without stealing your chute?",
+      "composition_time": "2018-05-09T18:43:40.790119",
+      "preprocessing_begin": "2018-05-09T18:43:40.869506",
+      "preprocessing_end": "2018-05-09T18:43:43.415936",
+      "translation_begin": "2018-05-09T18:43:43.416078",
+      "translation_end": "2018-05-09T18:43:46.634530",
+      "postprocessing_begin": "2018-05-09T18:43:46.634793",
+      "postprocessing_end": "2018-05-09T18:43:46.688827",
+      "sent_time": "2018-05-09T18:43:46.690477",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:47.175402"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "And to be honest, do you really think they\u2019re going to open the door to let us jump out without stealing our parachute?",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "english",
+      "original_text": "Let me check the parachute to see if it is capable to hold two people",
+      "preprocessed_text": "and frankly , do you think they &apos;ll open the plane doors and let us jump without stealing your chute ? <CONCAT> let me check the parachute to see if it is capable to hold two people",
+      "translated_text": "et franchement , pensez @-@ vous qu&apos; ils vont ouvrir les portes d&apos; avion et nous laisser sauter sans voler votre parachute ? <CONCAT> laissez @-@ moi v\u00e9rifier le parachute pour voir si c&apos; est capable de tenir deux personnes .",
+      "postprocessed_text": "Laissez-moi v\u00e9rifier le parachute pour voir si c'est capable de tenir deux personnes.",
+      "composition_time": "2018-05-09T18:43:52.891292",
+      "preprocessing_begin": "2018-05-09T18:43:52.989719",
+      "preprocessing_end": "2018-05-09T18:43:55.480475",
+      "translation_begin": "2018-05-09T18:43:55.480563",
+      "translation_end": "2018-05-09T18:43:59.218805",
+      "postprocessing_begin": "2018-05-09T18:43:59.219343",
+      "postprocessing_end": "2018-05-09T18:43:59.280081",
+      "sent_time": "2018-05-09T18:43:59.281799",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:44:09.963821",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"c'\" > \"il\"; \"tenir\" > \"porter\"",
+            "2018-05-09T18:44:22.992560",
+            "2018-05-09T18:44:22.992560"
+          ]
+        ],
+        "verbatim": "\"c'\" > \"il\"; \"tenir\" > \"porter\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:44:08.575773"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Laissez-moi v\u00e9rifier le parachute pour voir s\u2019il est capable de supporter deux personnes.",
+      "normalised_version": "Let me check the parachute to see if it is capable to hold two people."
+    },
+    "40": {
+      "language": "french",
+      "original_text": "En plus, je suis s\u00fbr qu'il y a des personnes qui m\u00e9ritent plus que moi de ne pas mourir.",
+      "preprocessed_text": "laissez @-@ moi v\u00e9rifier le parachute pour voir si c&apos; est capable de tenir deux personnes . <CONCAT> en plus , je suis s\u00fbr qu&apos; il y a des personnes qui m\u00e9ritent plus que moi de ne pas mourir .",
+      "translated_text": "let me check the chute to see if it &apos;s capable of holding two people . <CONCAT> besides , I &apos;m sure there are people who deserve more than me not to die .",
+      "postprocessed_text": "Besides, I'm sure there are people who deserve more than me not to die.",
+      "composition_time": "2018-05-09T18:44:00.417384",
+      "preprocessing_begin": "2018-05-09T18:44:00.508102",
+      "preprocessing_end": "2018-05-09T18:44:03.068794",
+      "translation_begin": "2018-05-09T18:44:03.068876",
+      "translation_end": "2018-05-09T18:44:05.998671",
+      "postprocessing_begin": "2018-05-09T18:44:05.998980",
+      "postprocessing_end": "2018-05-09T18:44:06.046433",
+      "sent_time": "2018-05-09T18:44:06.051848",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:49.949449"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "And I\u2019m sure that there are people who deserve not to die more than me.",
+      "normalised_version": ""
+    },
+    "41": {
+      "language": "english",
+      "original_text": "Can you feel that?",
+      "preprocessed_text": "besides , I &apos;m sure there are people who deserve more than me not to die . <CONCAT> can you feel that ?",
+      "translated_text": "d&apos; ailleurs , je suis s\u00fbr qu&apos; il y a des gens qui m\u00e9ritent mieux que moi de ne pas mourir . <CONCAT> tu sens \u00e7a ?",
+      "postprocessed_text": "Tu sens \u00e7a ?",
+      "composition_time": "2018-05-09T18:44:16.225195",
+      "preprocessing_begin": "2018-05-09T18:44:16.317800",
+      "preprocessing_end": "2018-05-09T18:44:18.841797",
+      "translation_begin": "2018-05-09T18:44:18.841932",
+      "translation_end": "2018-05-09T18:44:20.864112",
+      "postprocessing_begin": "2018-05-09T18:44:20.864349",
+      "postprocessing_end": "2018-05-09T18:44:20.930495",
+      "sent_time": "2018-05-09T18:44:20.933468",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-09T18:44:25.181068",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-09T18:44:27.643833",
+            "2018-05-09T18:44:27.643833"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:44:24.061805"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Vous sentez \u00e7a\u00a0?",
+      "normalised_version": ""
+    },
+    "42": {
+      "language": "french",
+      "original_text": "Quoi?",
+      "preprocessed_text": "tu sens \u00e7a ? <CONCAT> quoi ?",
+      "translated_text": "you smell that ? <CONCAT> what ?",
+      "postprocessed_text": "What?",
+      "composition_time": "2018-05-09T18:44:31.571228",
+      "preprocessing_begin": "2018-05-09T18:44:31.665244",
+      "preprocessing_end": "2018-05-09T18:44:34.075209",
+      "translation_begin": "2018-05-09T18:44:34.075279",
+      "translation_end": "2018-05-09T18:44:34.909733",
+      "postprocessing_begin": "2018-05-09T18:44:34.910104",
+      "postprocessing_end": "2018-05-09T18:44:34.977230",
+      "sent_time": "2018-05-09T18:44:34.979006",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:44:51.266303"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "What?",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "english",
+      "original_text": "The strong vibrations",
+      "preprocessed_text": "what ? <CONCAT> the strong vibrations",
+      "translated_text": "quoi ? <CONCAT> les vibrations fortes .",
+      "postprocessed_text": "Les vibrations fortes.",
+      "composition_time": "2018-05-09T18:45:06.567346",
+      "preprocessing_begin": "2018-05-09T18:45:06.660129",
+      "preprocessing_end": "2018-05-09T18:45:09.134069",
+      "translation_begin": "2018-05-09T18:45:09.134153",
+      "translation_end": "2018-05-09T18:45:09.744638",
+      "postprocessing_begin": "2018-05-09T18:45:09.745057",
+      "postprocessing_end": "2018-05-09T18:45:09.808485",
+      "sent_time": "2018-05-09T18:45:09.810288",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:45:23.011545"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Les vibrations fortes.",
+      "normalised_version": ""
+    },
+    "44": {
+      "language": "french",
+      "original_text": "Oui je les sens tr\u00e8s bien...",
+      "preprocessed_text": "les vibrations fortes . <CONCAT> oui je les sens tr\u00e8s bien ...",
+      "translated_text": "the strong vibrations . <CONCAT> yes , I feel very good .",
+      "postprocessed_text": "Yes, I feel very good.",
+      "composition_time": "2018-05-09T18:45:28.625959",
+      "preprocessing_begin": "2018-05-09T18:45:28.735072",
+      "preprocessing_end": "2018-05-09T18:45:31.365491",
+      "translation_begin": "2018-05-09T18:45:31.365658",
+      "translation_end": "2018-05-09T18:45:32.618738",
+      "postprocessing_begin": "2018-05-09T18:45:32.619103",
+      "postprocessing_end": "2018-05-09T18:45:32.685582",
+      "sent_time": "2018-05-09T18:45:32.687499",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:46:26.868476",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:46:21.474493"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:46:24.771281"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Yes I can feel them very strongly\u2026",
+      "normalised_version": ""
+    },
+    "45": {
+      "language": "french",
+      "original_text": "C'est terrifiant.",
+      "preprocessed_text": "oui je les sens tr\u00e8s bien ... <CONCAT> c&apos; est terrifiant .",
+      "translated_text": "yes , I feel very good . <CONCAT> it &apos;s terrifying .",
+      "postprocessed_text": "It's terrifying.",
+      "composition_time": "2018-05-09T18:45:32.728314",
+      "preprocessing_begin": "2018-05-09T18:45:32.810227",
+      "preprocessing_end": "2018-05-09T18:45:35.295262",
+      "translation_begin": "2018-05-09T18:45:35.295362",
+      "translation_end": "2018-05-09T18:45:36.251563",
+      "postprocessing_begin": "2018-05-09T18:45:36.251815",
+      "postprocessing_end": "2018-05-09T18:45:36.314193",
+      "sent_time": "2018-05-09T18:45:36.315184",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:46:29.006243"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s terrifying.",
+      "normalised_version": ""
+    },
+    "46": {
+      "language": "english",
+      "original_text": "Oh dear the emergency exits have blown off",
+      "preprocessed_text": "it &apos;s terrifying . <CONCAT> oh dear the emergency exits have blown off",
+      "translated_text": "c&apos; est terrifiant . <CONCAT> oh , les issues de secours ont explos\u00e9 .",
+      "postprocessed_text": "Oh, les issues de secours ont explos\u00e9.",
+      "composition_time": "2018-05-09T18:46:17.319394",
+      "preprocessing_begin": "2018-05-09T18:46:17.412957",
+      "preprocessing_end": "2018-05-09T18:46:19.976487",
+      "translation_begin": "2018-05-09T18:46:19.976702",
+      "translation_end": "2018-05-09T18:46:21.399121",
+      "postprocessing_begin": "2018-05-09T18:46:21.399578",
+      "postprocessing_end": "2018-05-09T18:46:21.457826",
+      "sent_time": "2018-05-09T18:46:21.460044",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:46:25.043070"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oh mon Dieu, les sorties de secours ont explos\u00e9.",
+      "normalised_version": "Oh dear the emergency exits have blown off."
+    },
+    "47": {
+      "language": "french",
+      "original_text": "Partez, prenez deux jeunes enfants avec vous, sautez, je reste ici.",
+      "preprocessed_text": "oh , les issues de secours ont explos\u00e9 . <CONCAT> partez , prenez deux jeunes enfants avec vous , sautez , je reste ici .",
+      "translated_text": "oh , the emergency exits have exploded . <CONCAT> go , take two young children with you , jump , I stay here .",
+      "postprocessed_text": "Go, take two young children with you, jump, I stay here.",
+      "composition_time": "2018-05-09T18:46:45.575694",
+      "preprocessing_begin": "2018-05-09T18:46:45.657920",
+      "preprocessing_end": "2018-05-09T18:46:48.026212",
+      "translation_begin": "2018-05-09T18:46:48.026336",
+      "translation_end": "2018-05-09T18:46:50.515018",
+      "postprocessing_begin": "2018-05-09T18:46:50.515438",
+      "postprocessing_end": "2018-05-09T18:46:50.575055",
+      "sent_time": "2018-05-09T18:46:50.577319",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T18:49:44.778447",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-09T18:49:45.608602",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:49:43.065065"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Go! Take two young children with you! Jump! I\u2019m staying here.",
+      "normalised_version": ""
+    },
+    "48": {
+      "language": "french",
+      "original_text": "La seule chose que je vous demande, c'est de pouvoir garder la bouteille de rouge.",
+      "preprocessed_text": "partez , prenez deux jeunes enfants avec vous , sautez , je reste ici . <CONCAT> la seule chose que je vous demande , c&apos; est de pouvoir garder la bouteille de rouge .",
+      "translated_text": "go away , take two young children with you , jump , I &apos;m staying here . <CONCAT> the only thing I &apos;m asking you to do is keep the bottle of red .",
+      "postprocessed_text": "The only thing I'm asking you to do is keep the bottle of red.",
+      "composition_time": "2018-05-09T18:47:14.283243",
+      "preprocessing_begin": "2018-05-09T18:47:14.383983",
+      "preprocessing_end": "2018-05-09T18:47:16.939333",
+      "translation_begin": "2018-05-09T18:47:16.939441",
+      "translation_end": "2018-05-09T18:47:19.523185",
+      "postprocessing_begin": "2018-05-09T18:47:19.523613",
+      "postprocessing_end": "2018-05-09T18:47:19.571885",
+      "sent_time": "2018-05-09T18:47:19.573463",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T18:49:58.859407",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:49:55.722266"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "All I ask is to be able to keep the bottle of red wine.",
+      "normalised_version": ""
+    },
+    "49": {
+      "language": "english",
+      "original_text": "Quickly Tristan take hold of my arm, I will assemble my parachute",
+      "preprocessed_text": "the only thing I &apos;m asking you to do is keep the bottle of red . <CONCAT> quickly Tristan take hold of my arm , I will assemble my parachute",
+      "translated_text": "la seule chose que je te demande c&apos; est de garder la bouteille de rouge . <CONCAT> rapidement Tristan prend mon bras , je vais assembler mon parachute",
+      "postprocessed_text": "Rapidement Tristan prend mon bras, je vais assembler mon parachute",
+      "composition_time": "2018-05-09T18:47:26.277917",
+      "preprocessing_begin": "2018-05-09T18:47:26.346953",
+      "preprocessing_end": "2018-05-09T18:47:28.968501",
+      "translation_begin": "2018-05-09T18:47:28.968700",
+      "translation_end": "2018-05-09T18:47:31.498194",
+      "postprocessing_begin": "2018-05-09T18:47:31.498974",
+      "postprocessing_end": "2018-05-09T18:47:31.569760",
+      "sent_time": "2018-05-09T18:47:31.572634",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-09T18:48:12.672415",
+            "2018-05-09T18:48:12.672415"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:48:09.151311"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Vite Tristan, accrochez-vous \u00e0 mon bras, je vais pr\u00e9parer mon parachute.",
+      "normalised_version": "Quickly Tristan take hold of my arm, I will assemble my parachute."
+    },
+    "50": {
+      "language": "english",
+      "original_text": "Forget about the children it is too late for them",
+      "preprocessed_text": "quickly Tristan take hold of my arm , I will assemble my parachute <CONCAT> forget about the children it is too late for them",
+      "translated_text": "si Tristan on prend possession de mon bras , je vais assembler mon parachute . <CONCAT> oublie les enfants , il est trop tard pour eux .",
+      "postprocessed_text": "Oublie les enfants, il est trop tard pour eux.",
+      "composition_time": "2018-05-09T18:47:47.694892",
+      "preprocessing_begin": "2018-05-09T18:47:47.793301",
+      "preprocessing_end": "2018-05-09T18:47:50.122073",
+      "translation_begin": "2018-05-09T18:47:50.122236",
+      "translation_end": "2018-05-09T18:47:52.143608",
+      "postprocessing_begin": "2018-05-09T18:47:52.144010",
+      "postprocessing_end": "2018-05-09T18:47:52.200059",
+      "sent_time": "2018-05-09T18:47:52.201480",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T18:48:02.078306",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-09T18:48:05.626377",
+            "2018-05-09T18:48:05.626377"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:48:00.017805"
+          ],
+          [
+            "medium",
+            "2018-05-09T18:48:00.709938"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Oubliez les enfants, il est trop tard pour eux.",
+      "normalised_version": "Forget about the children. It is too late for them."
+    },
+    "51": {
+      "language": "english",
+      "original_text": "Grab the bottle of red in your other hand",
+      "preprocessed_text": "forget about the children it is too late for them <CONCAT> grab the bottle of red in your other hand",
+      "translated_text": "oublie les enfants , il est trop tard pour eux . <CONCAT> prends la bouteille de rouge dans l&apos; autre main .",
+      "postprocessed_text": "Prends la bouteille de rouge dans l'autre main.",
+      "composition_time": "2018-05-09T18:48:04.886585",
+      "preprocessing_begin": "2018-05-09T18:48:04.978726",
+      "preprocessing_end": "2018-05-09T18:48:07.516576",
+      "translation_begin": "2018-05-09T18:48:07.516671",
+      "translation_end": "2018-05-09T18:48:09.233326",
+      "postprocessing_begin": "2018-05-09T18:48:09.233626",
+      "postprocessing_end": "2018-05-09T18:48:09.274312",
+      "sent_time": "2018-05-09T18:48:09.275394",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:48:14.586804"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Prenez la bouteille de vin rouge dans votre autre main.",
+      "normalised_version": "Grab the bottle of red in your other hand."
+    },
+    "52": {
+      "language": "french",
+      "original_text": "D'accord, tu m'as convaincu.",
+      "preprocessed_text": "prends la bouteille de rouge dans l&apos; autre main . <CONCAT> d&apos; accord , tu m&apos; as convaincu .",
+      "translated_text": "take the red bottle in the other hand . <CONCAT> okay , you convinced me .",
+      "postprocessed_text": "Okay, you convinced me.",
+      "composition_time": "2018-05-09T18:48:23.949289",
+      "preprocessing_begin": "2018-05-09T18:48:24.033665",
+      "preprocessing_end": "2018-05-09T18:48:26.642022",
+      "translation_begin": "2018-05-09T18:48:26.642130",
+      "translation_end": "2018-05-09T18:48:28.208872",
+      "postprocessing_begin": "2018-05-09T18:48:28.209234",
+      "postprocessing_end": "2018-05-09T18:48:28.248200",
+      "sent_time": "2018-05-09T18:48:28.249462",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:49:25.157528"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Ok, you\u2019ve talked me round.",
+      "normalised_version": ""
+    },
+    "53": {
+      "language": "english",
+      "original_text": "If we survive maybe we can for a curry in Islamabad",
+      "preprocessed_text": "grab the bottle of red in your other hand <CONCAT> if we survive maybe we can for a curry in Islamabad",
+      "translated_text": "prends la bouteille de rouge dans l&apos; autre main . <CONCAT> si on survit , on pourra peut @-@ \u00eatre faire un curry \u00e0 Islamabad .",
+      "postprocessed_text": "Si on survit, on pourra peut-\u00eatre faire un curry \u00e0 Islamabad.",
+      "composition_time": "2018-05-09T18:48:27.526831",
+      "preprocessing_begin": "2018-05-09T18:48:27.581626",
+      "preprocessing_end": "2018-05-09T18:48:30.067716",
+      "translation_begin": "2018-05-09T18:48:30.067838",
+      "translation_end": "2018-05-09T18:48:32.028937",
+      "postprocessing_begin": "2018-05-09T18:48:32.029227",
+      "postprocessing_end": "2018-05-09T18:48:32.082905",
+      "sent_time": "2018-05-09T18:48:32.084090",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:49:03.006277"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Si on survit, on pourra peut-\u00eatre manger un curry \u00e0 Islamabad.",
+      "normalised_version": "If we survive maybe we can for a curry in Islamabad."
+    },
+    "54": {
+      "language": "french",
+      "original_text": "Allez, sautons, et f\u00eatons notre survie avec ce merveilleux Bordeaux, bien au chaud dans la grotte de Tora Bora!",
+      "preprocessed_text": "si on survit , on pourra peut @-@ \u00eatre faire un curry \u00e0 Islamabad . <CONCAT> allez , sautons , et f\u00eatons notre survie avec ce merveilleux Bordeaux , bien au chaud dans la grotte de Tor@@ a Bora !",
+      "translated_text": "if we survive , maybe we can do a curry in Islamabad . <CONCAT> come on , let &apos;s jump , and celebrate our survival with this wonderful Bordeaux , nice and warm in Tor@@ a Bora &apos;s cave !",
+      "postprocessed_text": "Come on, let's jump, and celebrate our survival with this wonderful Bordeaux, nice and warm in Tora Bora's cave!",
+      "composition_time": "2018-05-09T18:48:56.651358",
+      "preprocessing_begin": "2018-05-09T18:48:56.735522",
+      "preprocessing_end": "2018-05-09T18:48:58.983389",
+      "translation_begin": "2018-05-09T18:48:58.983513",
+      "translation_end": "2018-05-09T18:49:02.920962",
+      "postprocessing_begin": "2018-05-09T18:49:02.921607",
+      "postprocessing_end": "2018-05-09T18:49:02.987854",
+      "sent_time": "2018-05-09T18:49:02.990387",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T18:50:07.252020",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T18:50:06.247687"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "Right, let\u2019s jump, and celebrate our survival with this wonderful Bordeaux, warm and dry in the Tora Bora caves!",
+      "normalised_version": ""
+    },
+    "55": {
+      "language": "french",
+      "original_text": "Tout \u00e0 fait, j'adore le curry!",
+      "preprocessed_text": "allez , sautons , et f\u00eatons notre survie avec ce merveilleux Bordeaux , bien au chaud dans la grotte de Tor@@ a Bora ! <CONCAT> tout \u00e0 fait , j&apos; adore le curry !",
+      "translated_text": "come on , let &apos;s jump , and celebrate our survival with this wonderful Bordeaux , safe in Tor@@ a Bora &apos;s cave ! <CONCAT> absolutely , I love curry !",
+      "postprocessed_text": "Absolutely, I love curry!",
+      "composition_time": "2018-05-09T18:49:11.403986",
+      "preprocessing_begin": "2018-05-09T18:49:11.484101",
+      "preprocessing_end": "2018-05-09T18:49:13.938558",
+      "translation_begin": "2018-05-09T18:49:13.938694",
+      "translation_end": "2018-05-09T18:49:16.807554",
+      "postprocessing_begin": "2018-05-09T18:49:16.808198",
+      "postprocessing_end": "2018-05-09T18:49:16.860373",
+      "sent_time": "2018-05-09T18:49:16.862646",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T18:49:22.892854"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Absolutely! I love curry!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "average",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "",
+    "timestamp": "2018-05-09T18:49:43.846525",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "excellent",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "",
+    "timestamp": "2018-05-09T18:51:33.144788",
+    "verbatim_quality": "very imaginative",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

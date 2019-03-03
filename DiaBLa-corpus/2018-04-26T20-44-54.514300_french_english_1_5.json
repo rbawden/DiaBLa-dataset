@@ -1,0 +1,1785 @@
+{
+  "start_time": "2018-04-26T20:44:54.514300",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are feeding the ducks by the pond.",
+      "Vous nourrissez les canards au bord d'un \u00e9tang."
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "user1": {
+    "lang": "french",
+    "initiated_dialogue": true,
+    "eval-stage": true,
+    "role": [
+      "",
+      ""
+    ],
+    "role_num": 2,
+    "turn_number": 2
+  },
+  "user2": {
+    "rolenum": 1,
+    "lang": "english",
+    "initiated_dialogue": false,
+    "eval-stage": false,
+    "role": [
+      "",
+      ""
+    ],
+    "turn_number": 1
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Let's see if they prefer white or brown bread.",
+      "preprocessed_text": "let &apos;s see if they prefer white or brown bread .",
+      "translated_text": "voyons s&apos; ils pr\u00e9f\u00e8rent le pain blanc ou brun .",
+      "postprocessed_text": "Voyons s'ils pr\u00e9f\u00e8rent le pain blanc ou brun.",
+      "composition_time": "2018-04-26T20:45:38.116397",
+      "preprocessing_begin": "2018-04-26T20:45:38.154306",
+      "preprocessing_end": "2018-04-26T20:45:40.165454",
+      "translation_begin": "2018-04-26T20:45:40.165521",
+      "translation_end": "2018-04-26T20:45:41.076636",
+      "postprocessing_begin": "2018-04-26T20:45:41.077397",
+      "postprocessing_end": "2018-04-26T20:45:41.118032",
+      "sent_time": "2018-04-26T20:45:41.119388",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T20:47:18.492675",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:47:16.884074"
+          ]
+        ]
+      },
+      "reference_translation": "On va voir s'ils pr\u00e9f\u00e8rent le pain blanc ou le pain complet.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "french",
+      "original_text": "Oh tu as pris les deux ?",
+      "preprocessed_text": "oh tu as pris les deux ?",
+      "translated_text": "oh you took both ?",
+      "postprocessed_text": "Oh you took both?",
+      "composition_time": "2018-04-26T20:45:54.430755",
+      "preprocessing_begin": "2018-04-26T20:45:54.465598",
+      "preprocessing_end": "2018-04-26T20:45:56.764220",
+      "translation_begin": "2018-04-26T20:45:56.764271",
+      "translation_end": "2018-04-26T20:45:57.491160",
+      "postprocessing_begin": "2018-04-26T20:45:57.491347",
+      "postprocessing_end": "2018-04-26T20:45:57.530534",
+      "sent_time": "2018-04-26T20:45:57.531585",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-26T20:48:34.374953"
+          ],
+          [
+            "perfect",
+            "2018-04-26T20:48:41.584730"
+          ]
+        ]
+      },
+      "reference_translation": "Oh, did you bring both?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Super!",
+      "preprocessed_text": "super !",
+      "translated_text": "great .",
+      "postprocessed_text": "Great.",
+      "composition_time": "2018-04-26T20:45:54.430755",
+      "preprocessing_begin": "2018-04-26T20:45:54.465598",
+      "preprocessing_end": "2018-04-26T20:45:56.764220",
+      "translation_begin": "2018-04-26T20:45:56.764271",
+      "translation_end": "2018-04-26T20:45:57.491160",
+      "postprocessing_begin": "2018-04-26T20:45:57.491347",
+      "postprocessing_end": "2018-04-26T20:45:57.530534",
+      "sent_time": "2018-04-26T20:45:57.532208",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Great!",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Je propose de donner du blanc \u00e0 ce groupe l\u00e0, et du brun \u00e0 cet autre groupe.",
+      "preprocessed_text": "je propose de donner du blanc \u00e0 ce groupe l\u00e0 , et du brun \u00e0 cet autre groupe .",
+      "translated_text": "I suggest we give this group some white , and brown to this other group .",
+      "postprocessed_text": "I suggest we give this group some white, and brown to this other group.",
+      "composition_time": "2018-04-26T20:46:34.468829",
+      "preprocessing_begin": "2018-04-26T20:46:34.512904",
+      "preprocessing_end": "2018-04-26T20:46:36.613925",
+      "translation_begin": "2018-04-26T20:46:36.613982",
+      "translation_end": "2018-04-26T20:46:38.094202",
+      "postprocessing_begin": "2018-04-26T20:46:38.094426",
+      "postprocessing_end": "2018-04-26T20:46:38.134715",
+      "sent_time": "2018-04-26T20:46:38.135911",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "I suggest we give the white bread to that group and the brown bread to that other group.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "J'ai entendu dire que le pain \u00e9tait nocif pour les canards.",
+      "preprocessed_text": "j&apos; ai entendu dire que le pain \u00e9tait noci@@ f pour les canards .",
+      "translated_text": "I heard that the bread was bad for the ducks .",
+      "postprocessed_text": "I heard that the bread was bad for the ducks.",
+      "composition_time": "2018-04-26T20:46:44.437083",
+      "preprocessing_begin": "2018-04-26T20:46:44.476097",
+      "preprocessing_end": "2018-04-26T20:46:46.695003",
+      "translation_begin": "2018-04-26T20:46:46.695079",
+      "translation_end": "2018-04-26T20:46:47.532650",
+      "postprocessing_begin": "2018-04-26T20:46:47.532955",
+      "postprocessing_end": "2018-04-26T20:46:47.566516",
+      "sent_time": "2018-04-26T20:46:47.567789",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [
+          [
+            "extra 'the'",
+            "2018-04-26T20:48:18.300630",
+            "2018-04-26T20:48:18.300630"
+          ]
+        ],
+        "verbatim": "extra 'the'",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:48:03.965238"
+          ]
+        ]
+      },
+      "reference_translation": "I heard that bread was harmful to ducks.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "french",
+      "original_text": "On va pouvoir comparer l'efficacit\u00e9 du pain blanc et celle du pain noir sur ces canards.",
+      "preprocessed_text": "on va pouvoir comparer l&apos; efficacit\u00e9 du pain blanc et celle du pain noir sur ces canards .",
+      "translated_text": "now we can compare the efficiency of white bread and the black bread on these ducks .",
+      "postprocessed_text": "Now we can compare the efficiency of white bread and the black bread on these ducks.",
+      "composition_time": "2018-04-26T20:47:06.998363",
+      "preprocessing_begin": "2018-04-26T20:47:07.045648",
+      "preprocessing_end": "2018-04-26T20:47:09.193570",
+      "translation_begin": "2018-04-26T20:47:09.193627",
+      "translation_end": "2018-04-26T20:47:10.472823",
+      "postprocessing_begin": "2018-04-26T20:47:10.473023",
+      "postprocessing_end": "2018-04-26T20:47:10.502610",
+      "sent_time": "2018-04-26T20:47:10.503449",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "We\u2019ll be able to compare the efficiency of white bread and brown bread on these ducks.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "french",
+      "original_text": "\u00c7a va \u00eatre int\u00e9ressant",
+      "preprocessed_text": "\u00e7a va \u00eatre int\u00e9ressant",
+      "translated_text": "this is gonna be interesting .",
+      "postprocessed_text": "This is gonna be interesting.",
+      "composition_time": "2018-04-26T20:47:11.322430",
+      "preprocessing_begin": "2018-04-26T20:47:11.357666",
+      "preprocessing_end": "2018-04-26T20:47:13.695724",
+      "translation_begin": "2018-04-26T20:47:13.695784",
+      "translation_end": "2018-04-26T20:47:14.162428",
+      "postprocessing_begin": "2018-04-26T20:47:14.162620",
+      "postprocessing_end": "2018-04-26T20:47:14.204029",
+      "sent_time": "2018-04-26T20:47:14.204865",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "It\u2019ll be interesting.",
+      "normalised_version": "\u00c7a va \u00eatre int\u00e9ressant."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "Yes, that is a conspiracy spread by firms that produce crackers and biscuits.",
+      "preprocessed_text": "yes , that is a conspiracy spread by firms that produce crackers and biscuits .",
+      "translated_text": "oui , c&apos; est une conspiration qui se r\u00e9pand par des fir@@ mes qui produisent des crackers et des biscuits .",
+      "postprocessed_text": "Oui, c'est une conspiration qui se r\u00e9pand par des firmes qui produisent des crackers et des biscuits.",
+      "composition_time": "2018-04-26T20:47:55.140202",
+      "preprocessing_begin": "2018-04-26T20:47:55.176961",
+      "preprocessing_end": "2018-04-26T20:47:57.339972",
+      "translation_begin": "2018-04-26T20:47:57.340028",
+      "translation_end": "2018-04-26T20:47:58.936292",
+      "postprocessing_begin": "2018-04-26T20:47:58.936720",
+      "postprocessing_end": "2018-04-26T20:47:58.979665",
+      "sent_time": "2018-04-26T20:47:58.980563",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T20:49:47.811617",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-26T20:49:50.008607",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:49:46.520717"
+          ]
+        ]
+      },
+      "reference_translation": "Oui, c'est un complot r\u00e9pandu par les entreprises qui produisent des crackers et des biscuits.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Ils veulent que l'on nourrisse les canards avec des crackers et des biscuits?",
+      "preprocessed_text": "ils veulent que l&apos; on nourris@@ se les canards avec des crackers et des biscuits ?",
+      "translated_text": "they want to feed the ducks with crackers and cookies ?",
+      "postprocessed_text": "They want to feed the ducks with crackers and cookies?",
+      "composition_time": "2018-04-26T20:48:54.658305",
+      "preprocessing_begin": "2018-04-26T20:48:54.693542",
+      "preprocessing_end": "2018-04-26T20:48:56.741622",
+      "translation_begin": "2018-04-26T20:48:56.741675",
+      "translation_end": "2018-04-26T20:48:57.792347",
+      "postprocessing_begin": "2018-04-26T20:48:57.792566",
+      "postprocessing_end": "2018-04-26T20:48:57.831088",
+      "sent_time": "2018-04-26T20:48:57.831964",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "They want us to feed ducks with crackers and biscuits?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "C'est stupide, c'est trop gras et trop sal\u00e9.",
+      "preprocessed_text": "c&apos; est stupide , c&apos; est trop gras et trop sal\u00e9 .",
+      "translated_text": "it &apos;s stupid , it &apos;s too fat and too salty .",
+      "postprocessed_text": "It's stupid, it's too fat and too salty.",
+      "composition_time": "2018-04-26T20:49:01.900840",
+      "preprocessing_begin": "2018-04-26T20:49:01.935380",
+      "preprocessing_end": "2018-04-26T20:49:04.405198",
+      "translation_begin": "2018-04-26T20:49:04.405272",
+      "translation_end": "2018-04-26T20:49:05.252432",
+      "postprocessing_begin": "2018-04-26T20:49:05.300726",
+      "postprocessing_end": "2018-04-26T20:49:05.340497",
+      "sent_time": "2018-04-26T20:49:05.341768",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "That\u2019s stupid - they\u2019re too fatty and too salty.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Et plein de conservateurs.",
+      "preprocessed_text": "et plein de conservateurs .",
+      "translated_text": "and a lot of conserv@@ atives .",
+      "postprocessed_text": "And a lot of conservatives.",
+      "composition_time": "2018-04-26T20:49:05.525475",
+      "preprocessing_begin": "2018-04-26T20:49:05.585386",
+      "preprocessing_end": "2018-04-26T20:49:07.833207",
+      "translation_begin": "2018-04-26T20:49:07.833260",
+      "translation_end": "2018-04-26T20:49:08.320447",
+      "postprocessing_begin": "2018-04-26T20:49:08.320645",
+      "postprocessing_end": "2018-04-26T20:49:08.367882",
+      "sent_time": "2018-04-26T20:49:08.368658",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T20:49:31.417538",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "preservatives",
+            "2018-04-26T20:49:38.583045",
+            "2018-04-26T20:49:38.583045"
+          ]
+        ],
+        "verbatim": "preservatives",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:49:29.088282"
+          ]
+        ]
+      },
+      "reference_translation": "And full of preservatives.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Au moins, le pain, c'est sain!",
+      "preprocessed_text": "au moins , le pain , c&apos; est sain !",
+      "translated_text": "at least the bread is healthy !",
+      "postprocessed_text": "At least the bread is healthy!",
+      "composition_time": "2018-04-26T20:49:09.809927",
+      "preprocessing_begin": "2018-04-26T20:49:09.843244",
+      "preprocessing_end": "2018-04-26T20:49:11.957716",
+      "translation_begin": "2018-04-26T20:49:11.957782",
+      "translation_end": "2018-04-26T20:49:12.547664",
+      "postprocessing_begin": "2018-04-26T20:49:12.547868",
+      "postprocessing_end": "2018-04-26T20:49:12.581040",
+      "sent_time": "2018-04-26T20:49:12.582037",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "At least bread is healthy!",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "It is empty calories, which makes the ducks fat and more likely to sink.",
+      "preprocessed_text": "it is empty calories , which makes the ducks fat and more likely to sink .",
+      "translated_text": "c&apos; est des calories vides , ce qui rend les canards gras et plus probablement pour couler .",
+      "postprocessed_text": "C'est des calories vides, ce qui rend les canards gras et plus probablement pour couler.",
+      "composition_time": "2018-04-26T20:50:39.121863",
+      "preprocessing_begin": "2018-04-26T20:50:39.171110",
+      "preprocessing_end": "2018-04-26T20:50:41.157255",
+      "translation_begin": "2018-04-26T20:50:41.157338",
+      "translation_end": "2018-04-26T20:50:42.718117",
+      "postprocessing_begin": "2018-04-26T20:50:42.718471",
+      "postprocessing_end": "2018-04-26T20:50:42.747367",
+      "sent_time": "2018-04-26T20:50:42.748200",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T20:50:53.186200",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-26T20:50:56.270017",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-26T20:50:58.167356",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "word choice",
+          "meaning"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:50:51.875515"
+          ]
+        ]
+      },
+      "reference_translation": "C'est trop calorique, \u00e7a fait grossir les canards et ils risquent de couler.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "\u00c7a pourrait fabriquer du fois gras, ceci dit.",
+      "preprocessed_text": "\u00e7a pourrait fabriquer du fois gras , ceci dit .",
+      "translated_text": "it could make a lot of fat , though .",
+      "postprocessed_text": "It could make a lot of fat, though.",
+      "composition_time": "2018-04-26T20:51:23.991496",
+      "preprocessing_begin": "2018-04-26T20:51:24.028494",
+      "preprocessing_end": "2018-04-26T20:51:26.209470",
+      "translation_begin": "2018-04-26T20:51:26.209532",
+      "translation_end": "2018-04-26T20:51:27.170966",
+      "postprocessing_begin": "2018-04-26T20:51:27.171431",
+      "postprocessing_end": "2018-04-26T20:51:27.217749",
+      "sent_time": "2018-04-26T20:51:27.218862",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T20:52:18.441106",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "make",
+            "2018-04-26T20:52:21.524327",
+            "2018-04-26T20:52:21.524327"
+          ]
+        ],
+        "verbatim": "make",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:52:12.018605"
+          ]
+        ]
+      },
+      "reference_translation": "On the other hand, it could make foie gras.",
+      "normalised_version": "\u00c7a pourrait fabriquer du foie gras, ceci dit."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "En tout cas, ils ont l'air d'aimer autant les deux types de pain!",
+      "preprocessed_text": "en tout cas , ils ont l&apos; air d&apos; aimer autant les deux types de pain !",
+      "translated_text": "anyway , they seem to like two types of bread .",
+      "postprocessed_text": "Anyway, they seem to like two types of bread.",
+      "composition_time": "2018-04-26T20:51:40.656198",
+      "preprocessing_begin": "2018-04-26T20:51:40.689775",
+      "preprocessing_end": "2018-04-26T20:51:43.084490",
+      "translation_begin": "2018-04-26T20:51:43.084549",
+      "translation_end": "2018-04-26T20:51:44.033824",
+      "postprocessing_begin": "2018-04-26T20:51:44.034088",
+      "postprocessing_end": "2018-04-26T20:51:44.074589",
+      "sent_time": "2018-04-26T20:51:44.075614",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "In any case, they seem to like both types just as much!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "Yes maybe some kale and broccoli would be better for them.",
+      "preprocessed_text": "yes maybe some kale and broccoli would be better for them .",
+      "translated_text": "oui , peut @-@ \u00eatre qu&apos; un peu de chou et des brocolis seraient mieux pour eux .",
+      "postprocessed_text": "Oui, peut-\u00eatre qu'un peu de chou et des brocolis seraient mieux pour eux.",
+      "composition_time": "2018-04-26T20:52:00.448186",
+      "preprocessing_begin": "2018-04-26T20:52:00.482745",
+      "preprocessing_end": "2018-04-26T20:52:02.727359",
+      "translation_begin": "2018-04-26T20:52:02.727449",
+      "translation_end": "2018-04-26T20:52:03.985353",
+      "postprocessing_begin": "2018-04-26T20:52:03.985651",
+      "postprocessing_end": "2018-04-26T20:52:04.017096",
+      "sent_time": "2018-04-26T20:52:04.018144",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T20:53:36.524381",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:53:33.693683"
+          ]
+        ]
+      },
+      "reference_translation": "Oui, peut-\u00eatre que du chou kale et du brocoli leur feraient plus de bien.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Tiens, les petits canetons arrivent en file indienne!",
+      "preprocessed_text": "tiens , les petits can@@ etons arrivent en file indienne !",
+      "translated_text": "here , the little duck@@ lings are coming in single file !",
+      "postprocessed_text": "Here, the little ducklings are coming in single file!",
+      "composition_time": "2018-04-26T20:52:33.601509",
+      "preprocessing_begin": "2018-04-26T20:52:33.636338",
+      "preprocessing_end": "2018-04-26T20:52:36.048076",
+      "translation_begin": "2018-04-26T20:52:36.048139",
+      "translation_end": "2018-04-26T20:52:36.745092",
+      "postprocessing_begin": "2018-04-26T20:52:36.745538",
+      "postprocessing_end": "2018-04-26T20:52:36.779044",
+      "sent_time": "2018-04-26T20:52:36.780116",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Look, the little ducklings are coming in single file!",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Je ne suis m\u00eame pas s\u00fbr de savoir vraiment ce que mangent les canards dans la nature.",
+      "preprocessed_text": "je ne suis m\u00eame pas s\u00fbr de savoir vraiment ce que mangent les canards dans la nature .",
+      "translated_text": "I &apos;m not even sure I know what the ducks are eating .",
+      "postprocessed_text": "I'm not even sure I know what the ducks are eating.",
+      "composition_time": "2018-04-26T20:52:57.309883",
+      "preprocessing_begin": "2018-04-26T20:52:57.345057",
+      "preprocessing_end": "2018-04-26T20:52:59.387736",
+      "translation_begin": "2018-04-26T20:52:59.387794",
+      "translation_end": "2018-04-26T20:53:00.468057",
+      "postprocessing_begin": "2018-04-26T20:53:00.468241",
+      "postprocessing_end": "2018-04-26T20:53:00.498713",
+      "sent_time": "2018-04-26T20:53:00.499662",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "I don\u2019t even think I really know what ducks eat in the wild.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Early in the season all of the mating pairs still have lots of ducklings.",
+      "preprocessed_text": "early in the season all of the mating pairs still have lots of duck@@ lings .",
+      "translated_text": "t\u00f4t dans la saison , toutes les paires d&apos; accouplement ont encore beaucoup de can@@ etons .",
+      "postprocessed_text": "T\u00f4t dans la saison, toutes les paires d'accouplement ont encore beaucoup de canetons.",
+      "composition_time": "2018-04-26T20:53:21.388412",
+      "preprocessing_begin": "2018-04-26T20:53:21.423571",
+      "preprocessing_end": "2018-04-26T20:53:23.560289",
+      "translation_begin": "2018-04-26T20:53:23.560351",
+      "translation_end": "2018-04-26T20:53:25.030985",
+      "postprocessing_begin": "2018-04-26T20:53:25.031428",
+      "postprocessing_end": "2018-04-26T20:53:25.067190",
+      "sent_time": "2018-04-26T20:53:25.068267",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T20:53:42.743325",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:53:41.245919"
+          ]
+        ]
+      },
+      "reference_translation": "En d\u00e9but de saison, tous les couples ont encore plein de canetons.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Oui, c'est assez mignon.",
+      "preprocessed_text": "oui , c&apos; est assez mignon .",
+      "translated_text": "yeah , it &apos;s kind of cute .",
+      "postprocessed_text": "Yeah, it's kind of cute.",
+      "composition_time": "2018-04-26T20:54:03.344400",
+      "preprocessing_begin": "2018-04-26T20:54:03.378122",
+      "preprocessing_end": "2018-04-26T20:54:05.406495",
+      "translation_begin": "2018-04-26T20:54:05.406565",
+      "translation_end": "2018-04-26T20:54:05.911475",
+      "postprocessing_begin": "2018-04-26T20:54:05.911759",
+      "postprocessing_end": "2018-04-26T20:54:05.942582",
+      "sent_time": "2018-04-26T20:54:05.943536",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Yes, it\u2019s quite cute.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Je suis un peu d\u00e9\u00e7u, pour l'instant ils ont l'air de dig\u00e9rer parfaitement le pain.",
+      "preprocessed_text": "je suis un peu d\u00e9\u00e7u , pour l&apos; instant ils ont l&apos; air de dig\u00e9rer parfaitement le pain .",
+      "translated_text": "I &apos;m a little disappointed , at the moment they seem to digest the bread perfectly .",
+      "postprocessed_text": "I'm a little disappointed, at the moment they seem to digest the bread perfectly.",
+      "composition_time": "2018-04-26T20:54:14.953088",
+      "preprocessing_begin": "2018-04-26T20:54:14.987480",
+      "preprocessing_end": "2018-04-26T20:54:17.048636",
+      "translation_begin": "2018-04-26T20:54:17.048692",
+      "translation_end": "2018-04-26T20:54:18.703388",
+      "postprocessing_begin": "2018-04-26T20:54:18.703653",
+      "postprocessing_end": "2018-04-26T20:54:18.746062",
+      "sent_time": "2018-04-26T20:54:18.746970",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [
+          [
+            "digest",
+            "2018-04-26T20:54:34.514420",
+            "2018-04-26T20:54:34.514420"
+          ]
+        ],
+        "verbatim": "digest",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:54:29.522285"
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019m a bit disappointed - they seem to be digesting the bread fine for now.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "The main challenge in feeding ducks lies in throwing the bread to different places so that even the smaller ducks get some too.",
+      "preprocessed_text": "the main challenge in feeding ducks lies in throwing the bread to different places so that even the smaller ducks get some too .",
+      "translated_text": "le d\u00e9fi principal dans l&apos; alimentation des canards est de jeter le pain \u00e0 des endroits diff\u00e9rents pour que m\u00eame les plus petits canards en ont aussi .",
+      "postprocessed_text": "Le d\u00e9fi principal dans l'alimentation des canards est de jeter le pain \u00e0 des endroits diff\u00e9rents pour que m\u00eame les plus petits canards en ont aussi.",
+      "composition_time": "2018-04-26T20:55:42.530651",
+      "preprocessing_begin": "2018-04-26T20:55:42.566728",
+      "preprocessing_end": "2018-04-26T20:55:44.522711",
+      "translation_begin": "2018-04-26T20:55:44.522805",
+      "translation_end": "2018-04-26T20:55:46.673623",
+      "postprocessing_begin": "2018-04-26T20:55:46.674309",
+      "postprocessing_end": "2018-04-26T20:55:46.715045",
+      "sent_time": "2018-04-26T20:55:46.715964",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T20:57:50.823968",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "\"en ont\" -> \"en aient\"",
+            "2018-04-26T20:58:01.328861",
+            "2018-04-26T20:58:01.328861"
+          ]
+        ],
+        "verbatim": "\"en ont\" -> \"en aient\"",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:57:49.423847"
+          ]
+        ]
+      },
+      "reference_translation": "Ce qui est difficile quand on nourrit les canards, c'est de lancer du pain un peu partout, pour que m\u00eame les plus petits puissent en attraper.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Absolument.",
+      "preprocessed_text": "absolument .",
+      "translated_text": "absolutely .",
+      "postprocessed_text": "Absolutely.",
+      "composition_time": "2018-04-26T20:56:14.927925",
+      "preprocessing_begin": "2018-04-26T20:56:14.963393",
+      "preprocessing_end": "2018-04-26T20:56:17.213815",
+      "translation_begin": "2018-04-26T20:56:17.213896",
+      "translation_end": "2018-04-26T20:56:18.540327",
+      "postprocessing_begin": "2018-04-26T20:56:18.540640",
+      "postprocessing_end": "2018-04-26T20:56:18.577930",
+      "sent_time": "2018-04-26T20:56:18.578919",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Absolutely.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Mais m\u00eame parmi les adultes il semble y avoir des dominants et des domin\u00e9s.",
+      "preprocessed_text": "mais m\u00eame parmi les adultes il semble y avoir des domin@@ ants et des domin@@ \u00e9s .",
+      "translated_text": "but even among adults there seems to be dominant and dominant .",
+      "postprocessed_text": "But even among adults there seems to be dominant and dominant.",
+      "composition_time": "2018-04-26T20:56:14.927925",
+      "preprocessing_begin": "2018-04-26T20:56:14.963393",
+      "preprocessing_end": "2018-04-26T20:56:17.213815",
+      "translation_begin": "2018-04-26T20:56:17.213896",
+      "translation_end": "2018-04-26T20:56:18.540327",
+      "postprocessing_begin": "2018-04-26T20:56:18.540640",
+      "postprocessing_end": "2018-04-26T20:56:18.577930",
+      "sent_time": "2018-04-26T20:56:18.579536",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-26T20:56:34.081914",
+            true
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim_history": [
+          [
+            "dominant and dominant",
+            "2018-04-26T20:56:45.569074",
+            "2018-04-26T20:56:45.569074"
+          ]
+        ],
+        "verbatim": "dominant and dominant",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:56:30.951853"
+          ]
+        ]
+      },
+      "reference_translation": "But even among the adults there seem to be dominant ones and weak ones.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Regarde celui-l\u00e0, \u00e0 chaque fois il fonce vers le bout de pain pour le voler \u00e0 son destinataire l\u00e9gitime.",
+      "preprocessed_text": "regarde celui @-@ l\u00e0 , \u00e0 chaque fois il fonce vers le bout de pain pour le voler \u00e0 son destinataire l\u00e9gitime .",
+      "translated_text": "look at this one , every time he goes for the piece of bread to steal from his rightful recipient .",
+      "postprocessed_text": "Look at this one, every time he goes for the piece of bread to steal from his rightful recipient.",
+      "composition_time": "2018-04-26T20:56:33.801358",
+      "preprocessing_begin": "2018-04-26T20:56:33.836007",
+      "preprocessing_end": "2018-04-26T20:56:35.999292",
+      "translation_begin": "2018-04-26T20:56:35.999379",
+      "translation_end": "2018-04-26T20:56:37.614410",
+      "postprocessing_begin": "2018-04-26T20:56:37.614682",
+      "postprocessing_end": "2018-04-26T20:56:37.651933",
+      "sent_time": "2018-04-26T20:56:37.652811",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T20:57:02.733594",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "his rightful = the intended",
+            "2018-04-26T20:57:04.234521",
+            "2018-04-26T20:57:04.234521"
+          ]
+        ],
+        "verbatim": "his rightful = the intended",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:56:51.009135"
+          ]
+        ]
+      },
+      "reference_translation": "Look at that one there. Each time, it rushes towards the piece of bread to steal it from its rightful recipient.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "On a le droit de p\u00eacher ici?",
+      "preprocessed_text": "on a le droit de p\u00eacher ici ?",
+      "translated_text": "are we allowed to fish here ?",
+      "postprocessed_text": "Are we allowed to fish here?",
+      "composition_time": "2018-04-26T20:57:08.271914",
+      "preprocessing_begin": "2018-04-26T20:57:08.305490",
+      "preprocessing_end": "2018-04-26T20:57:10.755800",
+      "translation_begin": "2018-04-26T20:57:10.755860",
+      "translation_end": "2018-04-26T20:57:11.851134",
+      "postprocessing_begin": "2018-04-26T20:57:11.851443",
+      "postprocessing_end": "2018-04-26T20:57:11.884766",
+      "sent_time": "2018-04-26T20:57:11.885662",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Can we fish here?",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "Il y a un p\u00eacheur, l\u00e0-bas.",
+      "preprocessed_text": "il y a un p\u00eacheur , l\u00e0 @-@ bas .",
+      "translated_text": "there &apos;s a fisherman there .",
+      "postprocessed_text": "There's a fisherman there.",
+      "composition_time": "2018-04-26T20:57:08.271914",
+      "preprocessing_begin": "2018-04-26T20:57:08.305490",
+      "preprocessing_end": "2018-04-26T20:57:10.755800",
+      "translation_begin": "2018-04-26T20:57:10.755860",
+      "translation_end": "2018-04-26T20:57:11.851134",
+      "postprocessing_begin": "2018-04-26T20:57:11.851443",
+      "postprocessing_end": "2018-04-26T20:57:11.884766",
+      "sent_time": "2018-04-26T20:57:11.886120",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "There\u2019s a fisherman over there.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Yes, the more aggressive ducks get more food and are better able to dominate the others.",
+      "preprocessed_text": "yes , the more aggressive ducks get more food and are better able to dominate the others .",
+      "translated_text": "oui , plus les canards agressifs prennent plus de nourriture et sont mieux capables de dominer les autres .",
+      "postprocessed_text": "Oui, plus les canards agressifs prennent plus de nourriture et sont mieux capables de dominer les autres.",
+      "composition_time": "2018-04-26T20:58:01.182812",
+      "preprocessing_begin": "2018-04-26T20:58:01.229229",
+      "preprocessing_end": "2018-04-26T20:58:03.363381",
+      "translation_begin": "2018-04-26T20:58:03.363502",
+      "translation_end": "2018-04-26T20:58:04.960973",
+      "postprocessing_begin": "2018-04-26T20:58:04.961631",
+      "postprocessing_end": "2018-04-26T20:58:05.002017",
+      "sent_time": "2018-04-26T20:58:05.003193",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T20:58:17.193907",
+            true
+          ],
+          [
+            "style",
+            "2018-04-26T20:58:19.279861",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-26T20:58:26.246624",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "style",
+          "meaning"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:58:15.931448"
+          ]
+        ]
+      },
+      "reference_translation": "Oui, les canards les plus agressifs attrapent plus de nourriture et sont mieux plac\u00e9s pour dominer les autres.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "There are fishermen wading in the river as well but they need to watch out for snapping turtles.",
+      "preprocessed_text": "there are fishermen w@@ ading in the river as well but they need to watch out for snapping turtles .",
+      "translated_text": "il y a des p\u00eacheurs dans la rivi\u00e8re , mais ils ont besoin de faire attention aux tortues .",
+      "postprocessed_text": "Il y a des p\u00eacheurs dans la rivi\u00e8re, mais ils ont besoin de faire attention aux tortues.",
+      "composition_time": "2018-04-26T20:58:36.596907",
+      "preprocessing_begin": "2018-04-26T20:58:36.632957",
+      "preprocessing_end": "2018-04-26T20:58:38.684712",
+      "translation_begin": "2018-04-26T20:58:38.684770",
+      "translation_end": "2018-04-26T20:58:40.150637",
+      "postprocessing_begin": "2018-04-26T20:58:40.151029",
+      "postprocessing_end": "2018-04-26T20:58:40.180905",
+      "sent_time": "2018-04-26T20:58:40.181661",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-04-26T20:58:54.582758",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-26T20:59:30.162009",
+            true
+          ],
+          [
+            "style",
+            "2018-04-26T20:59:32.311827",
+            false
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T20:58:53.274365"
+          ]
+        ]
+      },
+      "reference_translation": "Il y a aussi des p\u00eacheurs qui pataugent dans la rivi\u00e8re, mais ils doivent faire attention aux tortues serpentines.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Il y a des tortues?",
+      "preprocessed_text": "il y a des tortues ?",
+      "translated_text": "are there turtles ?",
+      "postprocessed_text": "Are there turtles?",
+      "composition_time": "2018-04-26T20:58:58.855191",
+      "preprocessing_begin": "2018-04-26T20:58:58.890837",
+      "preprocessing_end": "2018-04-26T20:59:00.870051",
+      "translation_begin": "2018-04-26T20:59:00.870112",
+      "translation_end": "2018-04-26T20:59:01.388011",
+      "postprocessing_begin": "2018-04-26T20:59:01.388270",
+      "postprocessing_end": "2018-04-26T20:59:01.426224",
+      "sent_time": "2018-04-26T20:59:01.427770",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "There are turtles?",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "J'aime beaucoup les tortues!",
+      "preprocessed_text": "j&apos; aime beaucoup les tortues !",
+      "translated_text": "I like turtles a lot !",
+      "postprocessed_text": "I like turtles a lot!",
+      "composition_time": "2018-04-26T20:59:02.904174",
+      "preprocessing_begin": "2018-04-26T20:59:02.943756",
+      "preprocessing_end": "2018-04-26T20:59:05.059641",
+      "translation_begin": "2018-04-26T20:59:05.059764",
+      "translation_end": "2018-04-26T20:59:05.532983",
+      "postprocessing_begin": "2018-04-26T20:59:05.533326",
+      "postprocessing_end": "2018-04-26T20:59:05.576161",
+      "sent_time": "2018-04-26T20:59:05.577503",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "I like turtles a lot!",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "And swans are very aggressive this time of year.",
+      "preprocessed_text": "and swans are very aggressive this time of year .",
+      "translated_text": "et les cygnes sont tr\u00e8s agressifs \u00e0 cette p\u00e9riode de l&apos; ann\u00e9e .",
+      "postprocessed_text": "Et les cygnes sont tr\u00e8s agressifs \u00e0 cette p\u00e9riode de l'ann\u00e9e.",
+      "composition_time": "2018-04-26T20:59:07.329827",
+      "preprocessing_begin": "2018-04-26T20:59:07.366407",
+      "preprocessing_end": "2018-04-26T20:59:09.768551",
+      "translation_begin": "2018-04-26T20:59:09.768606",
+      "translation_end": "2018-04-26T20:59:10.651643",
+      "postprocessing_begin": "2018-04-26T20:59:10.681944",
+      "postprocessing_end": "2018-04-26T20:59:10.726122",
+      "sent_time": "2018-04-26T20:59:10.727423",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Tous les cygnes sont agressifs, \u00e0 cette \u00e9poque de l'ann\u00e9e.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "Everyone likes turtles!",
+      "preprocessed_text": "everyone likes turtles !",
+      "translated_text": "tout le monde aime les tortues !",
+      "postprocessed_text": "Tout le monde aime les tortues !",
+      "composition_time": "2018-04-26T20:59:31.518423",
+      "preprocessing_begin": "2018-04-26T20:59:31.555674",
+      "preprocessing_end": "2018-04-26T20:59:33.685368",
+      "translation_begin": "2018-04-26T20:59:33.685427",
+      "translation_end": "2018-04-26T20:59:34.203293",
+      "postprocessing_begin": "2018-04-26T20:59:34.203697",
+      "postprocessing_end": "2018-04-26T20:59:34.240816",
+      "sent_time": "2018-04-26T20:59:34.241614",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Tout le monde aime les tortues\u00a0!",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "J'esp\u00e8re!",
+      "preprocessed_text": "j&apos; esp\u00e8re !",
+      "translated_text": "I hope so .",
+      "postprocessed_text": "I hope so.",
+      "composition_time": "2018-04-26T21:00:02.290664",
+      "preprocessing_begin": "2018-04-26T21:00:02.325417",
+      "preprocessing_end": "2018-04-26T21:00:04.378107",
+      "translation_begin": "2018-04-26T21:00:04.378164",
+      "translation_end": "2018-04-26T21:00:05.914683",
+      "postprocessing_begin": "2018-04-26T21:00:05.914909",
+      "postprocessing_end": "2018-04-26T21:00:05.946162",
+      "sent_time": "2018-04-26T21:00:05.947351",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "I should think so!",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "J'aime bien leurs petites t\u00eates d'aliens et leur peau toute frip\u00e9e de vieillards!",
+      "preprocessed_text": "j&apos; aime bien leurs petites t\u00eates d&apos; aliens et leur peau toute fri@@ p\u00e9e de vieillards !",
+      "translated_text": "I like their little alien heads and their wet skin of old men !",
+      "postprocessed_text": "I like their little alien heads and their wet skin of old men!",
+      "composition_time": "2018-04-26T21:00:02.290664",
+      "preprocessing_begin": "2018-04-26T21:00:02.325417",
+      "preprocessing_end": "2018-04-26T21:00:04.378107",
+      "translation_begin": "2018-04-26T21:00:04.378164",
+      "translation_end": "2018-04-26T21:00:05.914683",
+      "postprocessing_begin": "2018-04-26T21:00:05.914909",
+      "postprocessing_end": "2018-04-26T21:00:05.946162",
+      "sent_time": "2018-04-26T21:00:05.948220",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T21:00:47.437123",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "wet skin of old men",
+            "2018-04-26T21:01:03.004406",
+            "2018-04-26T21:01:03.004406"
+          ]
+        ],
+        "verbatim": "wet skin of old men",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:00:40.086695"
+          ]
+        ]
+      },
+      "reference_translation": "I love their little alien heads and their old-man wrinkly skin!",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "The pigeons also come later and eat the bread crumbs that are dropped on the river bank.",
+      "preprocessed_text": "the pigeons also come later and eat the bread crumbs that are dropped on the river bank .",
+      "translated_text": "les pigeons viennent aussi plus tard et mangent les miettes de pain qui sont tomb\u00e9s sur la rive de la rivi\u00e8re .",
+      "postprocessed_text": "Les pigeons viennent aussi plus tard et mangent les miettes de pain qui sont tomb\u00e9s sur la rive de la rivi\u00e8re.",
+      "composition_time": "2018-04-26T21:00:30.832146",
+      "preprocessing_begin": "2018-04-26T21:00:30.866770",
+      "preprocessing_end": "2018-04-26T21:00:32.890362",
+      "translation_begin": "2018-04-26T21:00:32.890418",
+      "translation_end": "2018-04-26T21:00:34.612388",
+      "postprocessing_begin": "2018-04-26T21:00:34.612605",
+      "postprocessing_end": "2018-04-26T21:00:34.647119",
+      "sent_time": "2018-04-26T21:00:34.647976",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T21:01:26.403282",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-26T21:01:31.701522",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"tomb\u00e9s\" -> \"tomb\u00e9es\"; \"rive\" -> \"bord\"",
+            "2018-04-26T21:02:30.583831",
+            "2018-04-26T21:02:30.583831"
+          ]
+        ],
+        "verbatim": "\"tomb\u00e9s\" -> \"tomb\u00e9es\"; \"rive\" -> \"bord\"",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:01:24.375761"
+          ]
+        ]
+      },
+      "reference_translation": "Ensuite les pigeons arrivent et mangent les miettes de pain qui sont tomb\u00e9es sur la rive.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "Quand j'\u00e9tais petit, je d\u00e9testais ma cousine, \u00e0 la campagne, qui parfois mettait les tortues sur le dos.",
+      "preprocessed_text": "quand j&apos; \u00e9tais petit , je d\u00e9testais ma cousine , \u00e0 la campagne , qui parfois mettait les tortues sur le dos .",
+      "translated_text": "when I was little , I hated my cousin , in the country , who sometimes put turtles on her back .",
+      "postprocessed_text": "When I was little, I hated my cousin, in the country, who sometimes put turtles on her back.",
+      "composition_time": "2018-04-26T21:00:39.508712",
+      "preprocessing_begin": "2018-04-26T21:00:39.545421",
+      "preprocessing_end": "2018-04-26T21:00:42.124033",
+      "translation_begin": "2018-04-26T21:00:42.124096",
+      "translation_end": "2018-04-26T21:00:44.003741",
+      "postprocessing_begin": "2018-04-26T21:00:44.004004",
+      "postprocessing_end": "2018-04-26T21:00:44.043786",
+      "sent_time": "2018-04-26T21:00:44.044889",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T21:03:15.181099",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "her",
+            "2018-04-26T21:03:19.339869",
+            "2018-04-26T21:03:19.339869"
+          ]
+        ],
+        "verbatim": "her",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:03:08.658411"
+          ]
+        ]
+      },
+      "reference_translation": "When I was little, I hated my cousin, in the countryside, who used to turn tortoises onto their backs.",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Je trouvais \u00e7a totalement m\u00e9chant et gratuit.",
+      "preprocessed_text": "je trouvais \u00e7a totalement m\u00e9chant et gratuit .",
+      "translated_text": "I thought it was totally mean and free .",
+      "postprocessed_text": "I thought it was totally mean and free.",
+      "composition_time": "2018-04-26T21:00:52.893178",
+      "preprocessing_begin": "2018-04-26T21:00:52.939541",
+      "preprocessing_end": "2018-04-26T21:00:55.250516",
+      "translation_begin": "2018-04-26T21:00:55.250573",
+      "translation_end": "2018-04-26T21:00:56.008178",
+      "postprocessing_begin": "2018-04-26T21:00:56.008447",
+      "postprocessing_end": "2018-04-26T21:00:56.049251",
+      "sent_time": "2018-04-26T21:00:56.051454",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T21:02:47.190021",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "free",
+            "2018-04-26T21:02:50.085385",
+            "2018-04-26T21:02:50.085385"
+          ]
+        ],
+        "verbatim": "free",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:02:42.997779"
+          ]
+        ]
+      },
+      "reference_translation": "I found it totally mean and unjustified.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "Et je les remettais d\u00e9licatement sur leurs pattes \u00e0 chaque fois.",
+      "preprocessed_text": "et je les remettais d\u00e9licatement sur leurs pattes \u00e0 chaque fois .",
+      "translated_text": "and I put them on their feet each time .",
+      "postprocessed_text": "And I put them on their feet each time.",
+      "composition_time": "2018-04-26T21:01:10.817484",
+      "preprocessing_begin": "2018-04-26T21:01:10.850665",
+      "preprocessing_end": "2018-04-26T21:01:13.148613",
+      "translation_begin": "2018-04-26T21:01:13.148670",
+      "translation_end": "2018-04-26T21:01:13.942645",
+      "postprocessing_begin": "2018-04-26T21:01:13.942885",
+      "postprocessing_end": "2018-04-26T21:01:13.982824",
+      "sent_time": "2018-04-26T21:01:13.983788",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T21:02:39.661382",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "turned them over",
+            "2018-04-26T21:02:40.556446",
+            "2018-04-26T21:02:40.556446"
+          ]
+        ],
+        "verbatim": "turned them over",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:02:31.609644"
+          ]
+        ]
+      },
+      "reference_translation": "And I used to delicately turn them back onto their feet each time.",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "english",
+      "original_text": "And of course the hawks come for the pigeons.",
+      "preprocessed_text": "and of course the hawks come for the pigeons .",
+      "translated_text": "et bien s\u00fbr , les faucons viennent chercher les pigeons .",
+      "postprocessed_text": "Et bien s\u00fbr, les faucons viennent chercher les pigeons.",
+      "composition_time": "2018-04-26T21:01:26.770460",
+      "preprocessing_begin": "2018-04-26T21:01:26.804168",
+      "preprocessing_end": "2018-04-26T21:01:29.133627",
+      "translation_begin": "2018-04-26T21:01:29.133709",
+      "translation_end": "2018-04-26T21:01:30.037407",
+      "postprocessing_begin": "2018-04-26T21:01:30.037785",
+      "postprocessing_end": "2018-04-26T21:01:30.069620",
+      "sent_time": "2018-04-26T21:01:30.071079",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T21:01:58.857219",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"viennent chercher\" est mal choisi",
+            "2018-04-26T21:02:08.458578",
+            "2018-04-26T21:02:08.458578"
+          ]
+        ],
+        "verbatim": "\"viennent chercher\" est mal choisi",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:01:57.344239"
+          ]
+        ]
+      },
+      "reference_translation": "Et bien s\u00fbr, les faucons arrivent pour chasser les pigeons.",
+      "normalised_version": ""
+    },
+    "40": {
+      "language": "french",
+      "original_text": "Oui, c'est la cha\u00eene alimentaire.",
+      "preprocessed_text": "oui , c&apos; est la cha\u00eene alimentaire .",
+      "translated_text": "yeah , it &apos;s the food chain .",
+      "postprocessed_text": "Yeah, it's the food chain.",
+      "composition_time": "2018-04-26T21:01:42.070623",
+      "preprocessing_begin": "2018-04-26T21:01:42.104279",
+      "preprocessing_end": "2018-04-26T21:01:44.231216",
+      "translation_begin": "2018-04-26T21:01:44.231273",
+      "translation_end": "2018-04-26T21:01:44.932074",
+      "postprocessing_begin": "2018-04-26T21:01:44.932346",
+      "postprocessing_end": "2018-04-26T21:01:44.972105",
+      "sent_time": "2018-04-26T21:01:44.973107",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Yes, it\u2019s the food chain.",
+      "normalised_version": ""
+    },
+    "41": {
+      "language": "french",
+      "original_text": "Ceci dit, je doute que les faucons s'int\u00e9ressent aux tortues.",
+      "preprocessed_text": "ceci dit , je doute que les faucons s&apos; int\u00e9ressent aux tortues .",
+      "translated_text": "however , I doubt that the hawks are interested in turtles .",
+      "postprocessed_text": "However, I doubt that the hawks are interested in turtles.",
+      "composition_time": "2018-04-26T21:01:52.925277",
+      "preprocessing_begin": "2018-04-26T21:01:52.960707",
+      "preprocessing_end": "2018-04-26T21:01:55.126356",
+      "translation_begin": "2018-04-26T21:01:55.126416",
+      "translation_end": "2018-04-26T21:01:56.077057",
+      "postprocessing_begin": "2018-04-26T21:01:56.077244",
+      "postprocessing_end": "2018-04-26T21:01:56.112380",
+      "sent_time": "2018-04-26T21:01:56.113132",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "That being said, I doubt that falcons are interested in turtles.",
+      "normalised_version": ""
+    },
+    "42": {
+      "language": "english",
+      "original_text": "Sometimes they are lucky and get a small dog or cat instead.",
+      "preprocessed_text": "sometimes they are lucky and get a small dog or cat instead .",
+      "translated_text": "parfois , ils ont de la chance d&apos; avoir un petit chien ou un chat .",
+      "postprocessed_text": "Parfois, ils ont de la chance d'avoir un petit chien ou un chat.",
+      "composition_time": "2018-04-26T21:02:08.931768",
+      "preprocessing_begin": "2018-04-26T21:02:08.965587",
+      "preprocessing_end": "2018-04-26T21:02:11.047390",
+      "translation_begin": "2018-04-26T21:02:11.047510",
+      "translation_end": "2018-04-26T21:02:12.733302",
+      "postprocessing_begin": "2018-04-26T21:02:12.733568",
+      "postprocessing_end": "2018-04-26T21:02:12.773390",
+      "sent_time": "2018-04-26T21:02:12.774422",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T21:02:54.627235",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-26T21:03:05.139731",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar",
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"ont de la chance\" -> \"ont la chance\"; \"avoir\" mal choisi",
+            "2018-04-26T21:03:05.721348",
+            "2018-04-26T21:03:05.721348"
+          ]
+        ],
+        "verbatim": "\"ont de la chance\" -> \"ont la chance\"; \"avoir\" mal choisi",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:02:52.816669"
+          ]
+        ]
+      },
+      "reference_translation": "Parfois ils ont de la chance et attrapent \u00e0 la place un petit chien ou un chat.",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "french",
+      "original_text": "\u00c7a c'est pour les jours de f\u00eate!",
+      "preprocessed_text": "\u00e7a c&apos; est pour les jours de f\u00eate !",
+      "translated_text": "that &apos;s for the day of the party !",
+      "postprocessed_text": "That's for the day of the party!",
+      "composition_time": "2018-04-26T21:02:48.782487",
+      "preprocessing_begin": "2018-04-26T21:02:48.830258",
+      "preprocessing_end": "2018-04-26T21:02:50.993116",
+      "translation_begin": "2018-04-26T21:02:50.993174",
+      "translation_end": "2018-04-26T21:02:51.620069",
+      "postprocessing_begin": "2018-04-26T21:02:51.620332",
+      "postprocessing_end": "2018-04-26T21:02:51.650972",
+      "sent_time": "2018-04-26T21:02:51.651994",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "That\u2019s for special occasions!",
+      "normalised_version": ""
+    },
+    "44": {
+      "language": "french",
+      "original_text": "Bon, les canards sont toujours l\u00e0.",
+      "preprocessed_text": "bon , les canards sont toujours l\u00e0 .",
+      "translated_text": "well , the ducks are still here .",
+      "postprocessed_text": "Well, the ducks are still here.",
+      "composition_time": "2018-04-26T21:03:20.790731",
+      "preprocessing_begin": "2018-04-26T21:03:20.827552",
+      "preprocessing_end": "2018-04-26T21:03:23.373648",
+      "translation_begin": "2018-04-26T21:03:23.373730",
+      "translation_end": "2018-04-26T21:03:23.968422",
+      "postprocessing_begin": "2018-04-26T21:03:23.968753",
+      "postprocessing_end": "2018-04-26T21:03:24.010154",
+      "sent_time": "2018-04-26T21:03:24.011311",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Right, the ducks are still here.",
+      "normalised_version": ""
+    },
+    "45": {
+      "language": "french",
+      "original_text": "Ils reveulent du pain.",
+      "preprocessed_text": "ils re@@ veulent du pain .",
+      "translated_text": "they want more bread .",
+      "postprocessed_text": "They want more bread.",
+      "composition_time": "2018-04-26T21:03:28.070346",
+      "preprocessing_begin": "2018-04-26T21:03:28.105127",
+      "preprocessing_end": "2018-04-26T21:03:30.247729",
+      "translation_begin": "2018-04-26T21:03:30.247801",
+      "translation_end": "2018-04-26T21:03:30.681946",
+      "postprocessing_begin": "2018-04-26T21:03:30.682130",
+      "postprocessing_end": "2018-04-26T21:03:30.712380",
+      "sent_time": "2018-04-26T21:03:30.713202",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "They want more bread.",
+      "normalised_version": ""
+    },
+    "46": {
+      "language": "french",
+      "original_text": "Il en reste?",
+      "preprocessed_text": "il en reste ?",
+      "translated_text": "is there any left ?",
+      "postprocessed_text": "Is there any left?",
+      "composition_time": "2018-04-26T21:03:30.729099",
+      "preprocessing_begin": "2018-04-26T21:03:30.761706",
+      "preprocessing_end": "2018-04-26T21:03:33.006503",
+      "translation_begin": "2018-04-26T21:03:33.006563",
+      "translation_end": "2018-04-26T21:03:33.346591",
+      "postprocessing_begin": "2018-04-26T21:03:33.346803",
+      "postprocessing_end": "2018-04-26T21:03:33.378906",
+      "sent_time": "2018-04-26T21:03:33.379761",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Is there any left?",
+      "normalised_version": ""
+    },
+    "47": {
+      "language": "english",
+      "original_text": "Ducks are very patient creatures.",
+      "preprocessed_text": "ducks are very patient creatures .",
+      "translated_text": "les canards sont des cr\u00e9atures tr\u00e8s patiente .",
+      "postprocessed_text": "Les canards sont des cr\u00e9atures tr\u00e8s patiente.",
+      "composition_time": "2018-04-26T21:03:43.071688",
+      "preprocessing_begin": "2018-04-26T21:03:43.119186",
+      "preprocessing_end": "2018-04-26T21:03:45.253671",
+      "translation_begin": "2018-04-26T21:03:45.253728",
+      "translation_end": "2018-04-26T21:03:45.930241",
+      "postprocessing_begin": "2018-04-26T21:03:45.930580",
+      "postprocessing_end": "2018-04-26T21:03:45.960703",
+      "sent_time": "2018-04-26T21:03:45.961593",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-26T21:03:50.567932",
+            true
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "\"patiente\" -> \"patientes\"",
+            "2018-04-26T21:03:55.642899",
+            "2018-04-26T21:03:55.642899"
+          ]
+        ],
+        "verbatim": "\"patiente\" -> \"patientes\"",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:03:49.594811"
+          ]
+        ]
+      },
+      "reference_translation": "Les canards sont des animaux tr\u00e8s patients.",
+      "normalised_version": ""
+    },
+    "48": {
+      "language": "french",
+      "original_text": "Certes",
+      "preprocessed_text": "certes",
+      "translated_text": "of course",
+      "postprocessed_text": "Of course",
+      "composition_time": "2018-04-26T21:03:59.249329",
+      "preprocessing_begin": "2018-04-26T21:03:59.288048",
+      "preprocessing_end": "2018-04-26T21:04:01.333286",
+      "translation_begin": "2018-04-26T21:04:01.333368",
+      "translation_end": "2018-04-26T21:04:01.595606",
+      "postprocessing_begin": "2018-04-26T21:04:01.595879",
+      "postprocessing_end": "2018-04-26T21:04:01.635216",
+      "sent_time": "2018-04-26T21:04:01.636408",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment": "perfect",
+        "judgment_history": []
+      },
+      "reference_translation": "Yes, they are.",
+      "normalised_version": "Certes."
+    },
+    "49": {
+      "language": "french",
+      "original_text": "On leur lance tout ce qui reste?",
+      "preprocessed_text": "on leur lance tout ce qui reste ?",
+      "translated_text": "we throw them all that &apos;s left ?",
+      "postprocessed_text": "We throw them all that's left?",
+      "composition_time": "2018-04-26T21:04:04.673013",
+      "preprocessing_begin": "2018-04-26T21:04:04.707460",
+      "preprocessing_end": "2018-04-26T21:04:06.865126",
+      "translation_begin": "2018-04-26T21:04:06.865190",
+      "translation_end": "2018-04-26T21:04:07.460380",
+      "postprocessing_begin": "2018-04-26T21:04:07.460613",
+      "postprocessing_end": "2018-04-26T21:04:07.500907",
+      "sent_time": "2018-04-26T21:04:07.501828",
+      "eval": {
+        "problem_history": [],
+        "problems": [],
+        "verbatim_history": [
+          [
+            "We will",
+            "2018-04-26T21:04:38.123253",
+            "2018-04-26T21:04:38.123253"
+          ]
+        ],
+        "verbatim": "We will",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:04:33.154444"
+          ]
+        ]
+      },
+      "reference_translation": "Shall we chuck them what\u2019s left?",
+      "normalised_version": ""
+    },
+    "50": {
+      "language": "english",
+      "original_text": "There are always some crumbs at the bottom of the bag.",
+      "preprocessed_text": "there are always some crumbs at the bottom of the bag .",
+      "translated_text": "il y a toujours des miettes au fond du sac .",
+      "postprocessed_text": "Il y a toujours des miettes au fond du sac.",
+      "composition_time": "2018-04-26T21:04:15.590499",
+      "preprocessing_begin": "2018-04-26T21:04:15.626356",
+      "preprocessing_end": "2018-04-26T21:04:17.773380",
+      "translation_begin": "2018-04-26T21:04:17.773438",
+      "translation_end": "2018-04-26T21:04:18.614821",
+      "postprocessing_begin": "2018-04-26T21:04:18.615148",
+      "postprocessing_end": "2018-04-26T21:04:18.647638",
+      "sent_time": "2018-04-26T21:04:18.648393",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-26T21:04:38.177518",
+            true
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"toujours\" -> \"encore\"",
+            "2018-04-26T21:04:44.159937",
+            "2018-04-26T21:04:44.159937"
+          ]
+        ],
+        "verbatim": "\"toujours\" -> \"encore\"",
+        "judgment": "medium",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-26T21:04:36.426565"
+          ]
+        ]
+      },
+      "reference_translation": "Il reste toujours des miettes au fond du sac.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "timestamp": "2018-04-26T21:05:27.730334",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "meaning": "good",
+    "interface": "",
+    "particular_problems": "",
+    "coherence": "excellent",
+    "verbatim_quality": "",
+    "would_use": true,
+    "grammaticality": "average",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {},
+  "fr_transl": true
+}

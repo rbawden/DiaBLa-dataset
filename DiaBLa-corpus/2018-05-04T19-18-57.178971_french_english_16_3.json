@@ -1,0 +1,639 @@
+{
+  "start_time": "2018-05-04T19:18:57.178971",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are at home in the evening.",
+      "Vous \u00eates \u00e0 la maison le soir."
+    ],
+    [
+      "You are telling your spouse about the awful day you had.",
+      "Vous racontez \u00e0 votre partenaire la journ\u00e9e difficile que vous venez de passer."
+    ],
+    [
+      "You are listening to your spouse telling you about the awful day they had.",
+      "Vous \u00e9coutez votre partenaire qui vous raconte la journ\u00e9e difficile qu'il/elle vient de passer."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": true,
+    "role_num": 1,
+    "role": [
+      "You are telling your spouse about the awful day you had.",
+      "Vous racontez \u00e0 votre partenaire la journ\u00e9e difficile que vous venez de passer."
+    ],
+    "lang": "french",
+    "eval-stage": false,
+    "useragent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "You are listening to your spouse telling you about the awful day they had.",
+      "Vous \u00e9coutez votre partenaire qui vous raconte la journ\u00e9e difficile qu'il/elle vient de passer."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 2
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Shall I make you a hot chocolate?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> shall I make you a hot chocolate ?",
+      "translated_text": "sant\u00e9 <CONCAT> je te pr\u00e9pare un chocolat chaud ?",
+      "postprocessed_text": "Je te pr\u00e9pare un chocolat chaud ?",
+      "composition_time": "2018-05-04T19:19:49.406087",
+      "preprocessing_begin": "2018-05-04T19:19:49.453604",
+      "preprocessing_end": "2018-05-04T19:19:51.636673",
+      "translation_begin": "2018-05-04T19:19:51.636858",
+      "translation_end": "2018-05-04T19:19:53.775051",
+      "postprocessing_begin": "2018-05-04T19:19:53.775411",
+      "postprocessing_end": "2018-05-04T19:19:53.826053",
+      "sent_time": "2018-05-04T19:19:53.826980",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:22:24.637998"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je te fais un chocolat chaud\u00a0?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Everything will seem better after a nice warm drink.",
+      "preprocessed_text": "shall I make you a hot chocolate ? <CONCAT> everything will seem better after a nice warm drink .",
+      "translated_text": "je te pr\u00e9pare un chocolat chaud ? <CONCAT> tout ira mieux apr\u00e8s une bonne boisson chaude .",
+      "postprocessed_text": "Tout ira mieux apr\u00e8s une bonne boisson chaude.",
+      "composition_time": "2018-05-04T19:19:49.406087",
+      "preprocessing_begin": "2018-05-04T19:19:49.453604",
+      "preprocessing_end": "2018-05-04T19:19:51.636673",
+      "translation_begin": "2018-05-04T19:19:51.636858",
+      "translation_end": "2018-05-04T19:19:53.775051",
+      "postprocessing_begin": "2018-05-04T19:19:53.775411",
+      "postprocessing_end": "2018-05-04T19:19:53.826053",
+      "sent_time": "2018-05-04T19:19:53.827399",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:22:26.115590"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tout ira mieux apr\u00e8s une bonne boisson chaude.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "C'est gentil mais je pr\u00e9f\u00e8re un caf\u00e9.",
+      "preprocessed_text": "tout ira mieux apr\u00e8s une bonne boisson chaude . <CONCAT> c&apos; est gentil mais je pr\u00e9f\u00e8re un caf\u00e9 .",
+      "translated_text": "everything will be fine after a nice warm drink . <CONCAT> that &apos;s sweet , but I prefer coffee .",
+      "postprocessed_text": "That's sweet, but I prefer coffee.",
+      "composition_time": "2018-05-04T19:22:18.437332",
+      "preprocessing_begin": "2018-05-04T19:22:18.485351",
+      "preprocessing_end": "2018-05-04T19:22:20.876450",
+      "translation_begin": "2018-05-04T19:22:20.876608",
+      "translation_end": "2018-05-04T19:22:24.595425",
+      "postprocessing_begin": "2018-05-04T19:22:24.595873",
+      "postprocessing_end": "2018-05-04T19:22:24.629989",
+      "sent_time": "2018-05-04T19:22:24.631592",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:22:32.609460"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That\u2019s nice of you but I\u2019d prefer a coffee.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Avec du sucre Mais l'id\u00e9al serait une caipirinha...!",
+      "preprocessed_text": "c&apos; est gentil mais je pr\u00e9f\u00e8re un caf\u00e9 . <CONCAT> avec du sucre Mais l&apos; id\u00e9al serait une c@@ ai@@ pir@@ inha ... !",
+      "translated_text": "that &apos;s sweet , but I prefer coffee . <CONCAT> with sugar but the ideal would be a c@@ ai@@ pir@@ inha ... !",
+      "postprocessed_text": "With sugar but the ideal would be a caipirinha...!",
+      "composition_time": "2018-05-04T19:22:18.437332",
+      "preprocessing_begin": "2018-05-04T19:22:18.485351",
+      "preprocessing_end": "2018-05-04T19:22:20.876450",
+      "translation_begin": "2018-05-04T19:22:20.876608",
+      "translation_end": "2018-05-04T19:22:24.595425",
+      "postprocessing_begin": "2018-05-04T19:22:24.595873",
+      "postprocessing_end": "2018-05-04T19:22:24.629989",
+      "sent_time": "2018-05-04T19:22:24.632414",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:22:33.176155"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "With sugar. But ideally I\u2019d like a caipirinha!",
+      "normalised_version": "Avec du sucre. Mais l'id\u00e9al serait une caipirinha!"
+    },
+    "4": {
+      "language": "english",
+      "original_text": "Oh dear!",
+      "preprocessed_text": "with sugar but the ideal would be a c@@ ai@@ pir@@ inha ... ! <CONCAT> oh dear !",
+      "translated_text": "avec du sucre , mais l&apos; id\u00e9al serait un c@@ ai@@ pir@@ inha ... ! <CONCAT> oh mon Dieu !",
+      "postprocessed_text": "Oh mon Dieu !",
+      "composition_time": "2018-05-04T19:23:27.922018",
+      "preprocessing_begin": "2018-05-04T19:23:27.964710",
+      "preprocessing_end": "2018-05-04T19:23:30.060576",
+      "translation_begin": "2018-05-04T19:23:30.060665",
+      "translation_end": "2018-05-04T19:23:36.916796",
+      "postprocessing_begin": "2018-05-04T19:23:36.917195",
+      "postprocessing_end": "2018-05-04T19:23:36.962475",
+      "sent_time": "2018-05-04T19:23:36.963323",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:23:53.947444"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Mon Dieu\u00a0!",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "It must have been a really tough day.",
+      "preprocessed_text": "oh dear ! <CONCAT> it must have been a really tough day .",
+      "translated_text": "oh mon Dieu ! <CONCAT> \u00e7a a d\u00fb \u00eatre une dure journ\u00e9e .",
+      "postprocessed_text": "\u00c7a a d\u00fb \u00eatre une dure journ\u00e9e.",
+      "composition_time": "2018-05-04T19:23:27.922018",
+      "preprocessing_begin": "2018-05-04T19:23:27.964710",
+      "preprocessing_end": "2018-05-04T19:23:30.060576",
+      "translation_begin": "2018-05-04T19:23:30.060665",
+      "translation_end": "2018-05-04T19:23:36.916796",
+      "postprocessing_begin": "2018-05-04T19:23:36.917195",
+      "postprocessing_end": "2018-05-04T19:23:36.962475",
+      "sent_time": "2018-05-04T19:23:36.963709",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:23:55.495529"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu as d\u00fb passer une journ\u00e9e bien difficile.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "Would you like to talk about it?",
+      "preprocessed_text": "it must have been a really tough day . <CONCAT> would you like to talk about it ?",
+      "translated_text": "\u00e7a a d\u00fb \u00eatre une dure journ\u00e9e . <CONCAT> tu veux en parler ?",
+      "postprocessed_text": "Tu veux en parler ?",
+      "composition_time": "2018-05-04T19:23:27.922018",
+      "preprocessing_begin": "2018-05-04T19:23:27.964710",
+      "preprocessing_end": "2018-05-04T19:23:30.060576",
+      "translation_begin": "2018-05-04T19:23:30.060665",
+      "translation_end": "2018-05-04T19:23:36.916796",
+      "postprocessing_begin": "2018-05-04T19:23:36.917195",
+      "postprocessing_end": "2018-05-04T19:23:36.962475",
+      "sent_time": "2018-05-04T19:23:36.964120",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:23:57.993710"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu veux en discuter\u00a0?",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "What went on at work in the end?",
+      "preprocessed_text": "would you like to talk about it ? <CONCAT> what went on at work in the end ?",
+      "translated_text": "vous voulez en parler ? <CONCAT> qu&apos; est @-@ ce qui s&apos; est pass\u00e9 \u00e0 la fin ?",
+      "postprocessed_text": "Qu'est-ce qui s'est pass\u00e9 \u00e0 la fin ?",
+      "composition_time": "2018-05-04T19:23:27.922018",
+      "preprocessing_begin": "2018-05-04T19:23:27.964710",
+      "preprocessing_end": "2018-05-04T19:23:30.060576",
+      "translation_begin": "2018-05-04T19:23:30.060665",
+      "translation_end": "2018-05-04T19:23:36.916796",
+      "postprocessing_begin": "2018-05-04T19:23:36.917195",
+      "postprocessing_end": "2018-05-04T19:23:36.962475",
+      "sent_time": "2018-05-04T19:23:36.964498",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:24:00.034450"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Qu'est-ce qui s'est pass\u00e9 au travail finalement\u00a0?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "Did you manage to meet the deadline?",
+      "preprocessed_text": "what went on at work in the end ? <CONCAT> did you manage to meet the deadline ?",
+      "translated_text": "qu&apos; est @-@ ce qui s&apos; est pass\u00e9 au travail \u00e0 la fin ? <CONCAT> as @-@ tu r\u00e9ussi \u00e0 rencontrer la date limite ?",
+      "postprocessed_text": "As-tu r\u00e9ussi \u00e0 rencontrer la date limite ?",
+      "composition_time": "2018-05-04T19:23:27.922018",
+      "preprocessing_begin": "2018-05-04T19:23:27.964710",
+      "preprocessing_end": "2018-05-04T19:23:30.060576",
+      "translation_begin": "2018-05-04T19:23:30.060665",
+      "translation_end": "2018-05-04T19:23:36.916796",
+      "postprocessing_begin": "2018-05-04T19:23:36.917195",
+      "postprocessing_end": "2018-05-04T19:23:36.962475",
+      "sent_time": "2018-05-04T19:23:36.964946",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-04T19:24:06.367525",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-04T19:25:33.683207",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T19:24:03.784984"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning",
+          "coherence"
+        ]
+      },
+      "reference_translation": "Tu as r\u00e9ussi \u00e0 finir avant l'heure limite\u00a0?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Oui, tr\u00e8s dure journ\u00e9e.",
+      "preprocessed_text": "as @-@ tu r\u00e9ussi \u00e0 rencontrer la date limite ? <CONCAT> oui , tr\u00e8s dure journ\u00e9e .",
+      "translated_text": "did you manage to meet the deadline ? <CONCAT> yes , very hard day .",
+      "postprocessed_text": "Yes, very hard day.",
+      "composition_time": "2018-05-04T19:25:39.308101",
+      "preprocessing_begin": "2018-05-04T19:25:39.350163",
+      "preprocessing_end": "2018-05-04T19:25:41.483448",
+      "translation_begin": "2018-05-04T19:25:41.483554",
+      "translation_end": "2018-05-04T19:25:44.591133",
+      "postprocessing_begin": "2018-05-04T19:25:44.591720",
+      "postprocessing_end": "2018-05-04T19:25:44.628627",
+      "sent_time": "2018-05-04T19:25:44.630707",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:25:58.546768"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, a very tough day.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Nous avons perdu un contrat important et nous ne comprenons pas pourquoi.",
+      "preprocessed_text": "oui , tr\u00e8s dure journ\u00e9e . <CONCAT> nous avons perdu un contrat important et nous ne comprenons pas pourquoi .",
+      "translated_text": "yes , very hard day . <CONCAT> we have lost an important contract and we don &apos;t understand why .",
+      "postprocessed_text": "We have lost an important contract and we don't understand why.",
+      "composition_time": "2018-05-04T19:25:39.308101",
+      "preprocessing_begin": "2018-05-04T19:25:39.350163",
+      "preprocessing_end": "2018-05-04T19:25:41.483448",
+      "translation_begin": "2018-05-04T19:25:41.483554",
+      "translation_end": "2018-05-04T19:25:44.591133",
+      "postprocessing_begin": "2018-05-04T19:25:44.591720",
+      "postprocessing_end": "2018-05-04T19:25:44.628627",
+      "sent_time": "2018-05-04T19:25:44.632111",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:26:16.624537"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "We lost an important contract and we don\u2019t know why.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "english",
+      "original_text": "Did they not explain why?",
+      "preprocessed_text": "we have lost an important contract and we don &apos;t understand why . <CONCAT> did they not explain why ?",
+      "translated_text": "nous avons perdu un contrat important et nous ne comprenons pas pourquoi . <CONCAT> ne vous ont @-@ ils pas expliqu\u00e9 pourquoi ?",
+      "postprocessed_text": "Ne vous ont-ils pas expliqu\u00e9 pourquoi ?",
+      "composition_time": "2018-05-04T19:26:11.608082",
+      "preprocessing_begin": "2018-05-04T19:26:11.648443",
+      "preprocessing_end": "2018-05-04T19:26:13.795119",
+      "translation_begin": "2018-05-04T19:26:13.795172",
+      "translation_end": "2018-05-04T19:26:16.581810",
+      "postprocessing_begin": "2018-05-04T19:26:16.582195",
+      "postprocessing_end": "2018-05-04T19:26:16.616627",
+      "sent_time": "2018-05-04T19:26:16.618048",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:26:32.673887"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Ils n'ont pas expliqu\u00e9 pourquoi\u00a0?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "No explanations at all?",
+      "preprocessed_text": "did they not explain why ? <CONCAT> no explanations at all ?",
+      "translated_text": "n&apos; ont @-@ ils pas expliqu\u00e9 pourquoi ? <CONCAT> pas d&apos; explications ?",
+      "postprocessed_text": "Pas d'explications ?",
+      "composition_time": "2018-05-04T19:26:11.608082",
+      "preprocessing_begin": "2018-05-04T19:26:11.648443",
+      "preprocessing_end": "2018-05-04T19:26:13.795119",
+      "translation_begin": "2018-05-04T19:26:13.795172",
+      "translation_end": "2018-05-04T19:26:16.581810",
+      "postprocessing_begin": "2018-05-04T19:26:16.582195",
+      "postprocessing_end": "2018-05-04T19:26:16.616627",
+      "sent_time": "2018-05-04T19:26:16.619023",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:26:34.138424"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Aucune explication\u00a0?",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Oui, bien s\u00fbr nous avons eu quelques explications .",
+      "preprocessed_text": "pas d&apos; explications ? <CONCAT> oui , bien s\u00fbr nous avons eu quelques explications .",
+      "translated_text": "no explanation ? <CONCAT> yes , of course we had some explaining to do .",
+      "postprocessed_text": "Yes, of course we had some explaining to do.",
+      "composition_time": "2018-05-04T19:28:03.599613",
+      "preprocessing_begin": "2018-05-04T19:28:03.648276",
+      "preprocessing_end": "2018-05-04T19:28:06.243185",
+      "translation_begin": "2018-05-04T19:28:06.243265",
+      "translation_end": "2018-05-04T19:28:10.937404",
+      "postprocessing_begin": "2018-05-04T19:28:10.937799",
+      "postprocessing_end": "2018-05-04T19:28:10.973266",
+      "sent_time": "2018-05-04T19:28:10.974833",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-04T19:28:24.101640",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "who was doing the explaining?",
+            "2018-05-04T19:28:31.842302",
+            "2018-05-04T19:28:31.842302"
+          ]
+        ],
+        "verbatim": "who was doing the explaining?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T19:28:23.009517"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Yes, of course we got some explanations.",
+      "normalised_version": "Oui, bien s\u00fbr nous avons eu quelques explications."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Nous n'avons pas, selon eux, r\u00e9pondu \u00e0 toutes leurs exigences techniques.",
+      "preprocessed_text": "oui , bien s\u00fbr nous avons eu quelques explications . <CONCAT> nous n&apos; avons pas , selon eux , r\u00e9pondu \u00e0 toutes leurs exigences techniques .",
+      "translated_text": "yes , of course we &apos;ve had some explaining . <CONCAT> we don &apos;t , according to them , responded to all their technical requirements .",
+      "postprocessed_text": "We don't, according to them, responded to all their technical requirements.",
+      "composition_time": "2018-05-04T19:28:03.599613",
+      "preprocessing_begin": "2018-05-04T19:28:03.648276",
+      "preprocessing_end": "2018-05-04T19:28:06.243185",
+      "translation_begin": "2018-05-04T19:28:06.243265",
+      "translation_end": "2018-05-04T19:28:10.937404",
+      "postprocessing_begin": "2018-05-04T19:28:10.937799",
+      "postprocessing_end": "2018-05-04T19:28:10.973266",
+      "sent_time": "2018-05-04T19:28:10.975833",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-04T19:28:34.962245",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-04T19:29:34.213746",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "don't... responded. \"responded\" should be \"meet\"",
+            "2018-05-04T19:29:44.638743",
+            "2018-05-04T19:29:44.638743"
+          ]
+        ],
+        "verbatim": "don't... responded. \"responded\" should be \"meet\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-04T19:28:33.994763"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar",
+          "word choice"
+        ]
+      },
+      "reference_translation": "According to them, we didn\u2019t meet all their technical demands.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "de plus, nous \u00e9tions trop cher",
+      "preprocessed_text": "nous n&apos; avons pas , selon eux , r\u00e9pondu \u00e0 toutes leurs exigences techniques . <CONCAT> de plus , nous \u00e9tions trop cher",
+      "translated_text": "we don &apos;t , according to them , responded to all their technical requirements . <CONCAT> besides , we were too expensive .",
+      "postprocessed_text": "Besides, we were too expensive.",
+      "composition_time": "2018-05-04T19:28:03.599613",
+      "preprocessing_begin": "2018-05-04T19:28:03.648276",
+      "preprocessing_end": "2018-05-04T19:28:06.243185",
+      "translation_begin": "2018-05-04T19:28:06.243265",
+      "translation_end": "2018-05-04T19:28:10.937404",
+      "postprocessing_begin": "2018-05-04T19:28:10.937799",
+      "postprocessing_end": "2018-05-04T19:28:10.973266",
+      "sent_time": "2018-05-04T19:28:10.976789",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-04T19:29:20.562276"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "And we were too expensive.",
+      "normalised_version": "De plus, nous \u00e9tions trop chers."
+    },
+    "16": {
+      "language": "english",
+      "original_text": "Whose job was it to negotiate the contract?",
+      "preprocessed_text": "besides , we were too expensive . <CONCAT> whose job was it to negotiate the contract ?",
+      "translated_text": "en plus , on \u00e9tait trop chers . <CONCAT> c&apos; \u00e9tait \u00e0 qui de n\u00e9gocier le contrat ?",
+      "postprocessed_text": "C'\u00e9tait \u00e0 qui de n\u00e9gocier le contrat ?",
+      "composition_time": "2018-05-04T19:29:14.970831",
+      "preprocessing_begin": "2018-05-04T19:29:15.014455",
+      "preprocessing_end": "2018-05-04T19:29:17.095713",
+      "translation_begin": "2018-05-04T19:29:17.095793",
+      "translation_end": "2018-05-04T19:29:20.505328",
+      "postprocessing_begin": "2018-05-04T19:29:20.505780",
+      "postprocessing_end": "2018-05-04T19:29:20.552772",
+      "sent_time": "2018-05-04T19:29:20.554474",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "judgment": null,
+        "problems": []
+      },
+      "reference_translation": "C'\u00e9tait le travail de qui de n\u00e9gocier le contrat\u00a0?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "english",
+      "original_text": "Surely there's some leeway to lower the prices a bit?",
+      "preprocessed_text": "whose job was it to negotiate the contract ? <CONCAT> surely there &apos;s some leeway to lower the prices a bit ?",
+      "translated_text": "quel travail \u00e9tait @-@ ce pour n\u00e9gocier le contrat ? <CONCAT> il y a s\u00fbrement un peu de marge pour baisser un peu les prix ?",
+      "postprocessed_text": "Il y a s\u00fbrement un peu de marge pour baisser un peu les prix ?",
+      "composition_time": "2018-05-04T19:29:14.970831",
+      "preprocessing_begin": "2018-05-04T19:29:15.014455",
+      "preprocessing_end": "2018-05-04T19:29:17.095713",
+      "translation_begin": "2018-05-04T19:29:17.095793",
+      "translation_end": "2018-05-04T19:29:20.505328",
+      "postprocessing_begin": "2018-05-04T19:29:20.505780",
+      "postprocessing_end": "2018-05-04T19:29:20.552772",
+      "sent_time": "2018-05-04T19:29:20.555580",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "judgment": null,
+        "problems": []
+      },
+      "reference_translation": "Il y avait s\u00fbrement une petite marge de man\u0153uvre pour baisser un peu les prix.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {},
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "good",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "a wrong word choice and grammatical mistake with \"responded\"",
+    "timestamp": "2018-05-04T19:33:56.982300",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

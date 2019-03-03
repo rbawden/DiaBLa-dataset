@@ -1,0 +1,1442 @@
+{
+  "start_time": "2018-05-09T19:59:26.554123",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a psychiatrist's consulting room.",
+      "Vous \u00eates dans le cabinet d'un psychiatre."
+    ],
+    [
+      "You are the psychiatrist and are with your patient.",
+      "Vous \u00eates le psychiatre et parlez avec l'un(e) de vos patients"
+    ],
+    [
+      "You are a patient and you are talking to your psychiatrist",
+      "Vous \u00eates le ou la patient(e) et parlez avec votre psychiatre."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": true,
+    "role_num": 1,
+    "role": [
+      "You are the psychiatrist and are with your patient.",
+      "Vous \u00eates le psychiatre et parlez avec l'un(e) de vos patients"
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:59.0) Gecko/20100101 Firefox/59.0"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "You are a patient and you are talking to your psychiatrist",
+      "Vous \u00eates le ou la patient(e) et parlez avec votre psychiatre."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 2
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "I haven't been coping very well this week.",
+      "preprocessed_text": "I haven &apos;t been coping very well this week .",
+      "translated_text": "je ne m&apos; en suis pas tr\u00e8s bien sortie cette semaine .",
+      "postprocessed_text": "Je ne m'en suis pas tr\u00e8s bien sortie cette semaine.",
+      "composition_time": "2018-05-09T20:01:13.186575",
+      "preprocessing_begin": "2018-05-09T20:01:13.240458",
+      "preprocessing_end": "2018-05-09T20:01:15.355975",
+      "translation_begin": "2018-05-09T20:01:15.356090",
+      "translation_end": "2018-05-09T20:01:18.225834",
+      "postprocessing_begin": "2018-05-09T20:01:18.226217",
+      "postprocessing_end": "2018-05-09T20:01:18.280780",
+      "sent_time": "2018-05-09T20:01:18.282729",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:03:04.681099"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je n\u2019ai pas tr\u00e8s bien g\u00e9r\u00e9, cette semaine.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Whatever I do, I can't stop thinking about ice-cream. Wherever I go!",
+      "preprocessed_text": "whatever I do , I can &apos;t stop thinking about ice @-@ cream . wherever I go !",
+      "translated_text": "quoi que je fasse , je ne peux pas m&apos; emp\u00eacher de penser \u00e0 une glace .",
+      "postprocessed_text": "Quoi que je fasse, je ne peux pas m'emp\u00eacher de penser \u00e0 une glace.",
+      "composition_time": "2018-05-09T20:01:13.186575",
+      "preprocessing_begin": "2018-05-09T20:01:13.240458",
+      "preprocessing_end": "2018-05-09T20:01:15.355975",
+      "translation_begin": "2018-05-09T20:01:15.356090",
+      "translation_end": "2018-05-09T20:01:18.225834",
+      "postprocessing_begin": "2018-05-09T20:01:18.226217",
+      "postprocessing_end": "2018-05-09T20:01:18.280780",
+      "sent_time": "2018-05-09T20:01:18.284058",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:03:18.219469",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:03:05.678682"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Quoique je fasse, je ne peux pas arr\u00eater de penser \u00e0 de la glace. O\u00f9 que j\u2019aille\u00a0!",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "What can I do?",
+      "preprocessed_text": "what can I do ?",
+      "translated_text": "que puis @-@ je faire ?",
+      "postprocessed_text": "Que puis-je faire ?",
+      "composition_time": "2018-05-09T20:01:13.186575",
+      "preprocessing_begin": "2018-05-09T20:01:13.240458",
+      "preprocessing_end": "2018-05-09T20:01:15.355975",
+      "translation_begin": "2018-05-09T20:01:15.356090",
+      "translation_end": "2018-05-09T20:01:18.225834",
+      "postprocessing_begin": "2018-05-09T20:01:18.226217",
+      "postprocessing_end": "2018-05-09T20:01:18.280780",
+      "sent_time": "2018-05-09T20:01:18.285387",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:03:02.223331"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Que puis-je faire\u00a0?",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Pr\u00e9cisons ensemble votre difficult\u00e9",
+      "preprocessed_text": "pr\u00e9cis@@ ons ensemble votre difficult\u00e9",
+      "translated_text": "let &apos;s say together with your difficulty .",
+      "postprocessed_text": "Let's say together with your difficulty.",
+      "composition_time": "2018-05-09T20:01:40.371839",
+      "preprocessing_begin": "2018-05-09T20:01:40.473591",
+      "preprocessing_end": "2018-05-09T20:01:43.263796",
+      "translation_begin": "2018-05-09T20:01:43.263905",
+      "translation_end": "2018-05-09T20:01:43.962317",
+      "postprocessing_begin": "2018-05-09T20:01:43.962852",
+      "postprocessing_end": "2018-05-09T20:01:44.031436",
+      "sent_time": "2018-05-09T20:01:44.033792",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-09T20:02:00.249144",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-09T20:01:58.968334"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "Let\u2019s clarify your difficult together.",
+      "normalised_version": "Pr\u00e9cisons ensemble votre difficult\u00e9."
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Pensez vous en permanence \u00e0 la glace qui se mange ?",
+      "preprocessed_text": "pensez vous en permanence \u00e0 la glace qui se mange ?",
+      "translated_text": "do you always think of the ice cream eating ?",
+      "postprocessed_text": "Do you always think of the ice cream eating?",
+      "composition_time": "2018-05-09T20:01:50.400765",
+      "preprocessing_begin": "2018-05-09T20:01:50.497292",
+      "preprocessing_end": "2018-05-09T20:01:53.047019",
+      "translation_begin": "2018-05-09T20:01:53.047159",
+      "translation_end": "2018-05-09T20:01:54.170716",
+      "postprocessing_begin": "2018-05-09T20:01:54.171253",
+      "postprocessing_end": "2018-05-09T20:01:54.230284",
+      "sent_time": "2018-05-09T20:01:54.231596",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-09T20:02:05.413575",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"ice cream eating\"",
+            "2018-05-09T20:02:10.750342",
+            "2018-05-09T20:02:10.750342"
+          ]
+        ],
+        "verbatim": "\"ice cream eating\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:02:04.167918"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Do you constantly think about the ice-cream that\u2019s eaten?",
+      "normalised_version": "Pensez-vous en permanence \u00e0 la glace qui se mange ?"
+    },
+    "5": {
+      "language": "french",
+      "original_text": "ou bien \u00e0 une glace pour se regarder ?",
+      "preprocessed_text": "ou bien \u00e0 une glace pour se regarder ?",
+      "translated_text": "or a mirror to look at ?",
+      "postprocessed_text": "Or a mirror to look at?",
+      "composition_time": "2018-05-09T20:02:01.466250",
+      "preprocessing_begin": "2018-05-09T20:02:01.556378",
+      "preprocessing_end": "2018-05-09T20:02:03.765874",
+      "translation_begin": "2018-05-09T20:02:03.766032",
+      "translation_end": "2018-05-09T20:02:04.523065",
+      "postprocessing_begin": "2018-05-09T20:02:04.523494",
+      "postprocessing_end": "2018-05-09T20:02:04.574168",
+      "sent_time": "2018-05-09T20:02:04.575949",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-09T20:02:37.263762",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-09T20:02:36.004006"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Or a mirror to look into?",
+      "normalised_version": "Ou bien \u00e0 une glace pour se regarder ?"
+    },
+    "6": {
+      "language": "english",
+      "original_text": "I don't think a mirror will help.",
+      "preprocessed_text": "I don &apos;t think a mirror will help .",
+      "translated_text": "je ne pense pas qu&apos; un miroir aidera .",
+      "postprocessed_text": "Je ne pense pas qu'un miroir aidera.",
+      "composition_time": "2018-05-09T20:03:40.543467",
+      "preprocessing_begin": "2018-05-09T20:03:40.653544",
+      "preprocessing_end": "2018-05-09T20:03:43.019642",
+      "translation_begin": "2018-05-09T20:03:43.019865",
+      "translation_end": "2018-05-09T20:03:47.264313",
+      "postprocessing_begin": "2018-05-09T20:03:47.265105",
+      "postprocessing_end": "2018-05-09T20:03:47.331383",
+      "sent_time": "2018-05-09T20:03:47.334162",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:08:38.439276",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:08:14.514264"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je ne pense pas qu\u2019un miroir va m\u2019aider.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "It will just remind me of my inability to resist - I constantly have ice-cream round my mouth.",
+      "preprocessed_text": "it will just remind me of my inability to resist - I constantly have ice @-@ cream round my mouth .",
+      "translated_text": "\u00e7a me rappellera mon incapacit\u00e9 \u00e0 r\u00e9sister - j&apos; ai constamment de la glace autour de ma bouche .",
+      "postprocessed_text": "\u00c7a me rappellera mon incapacit\u00e9 \u00e0 r\u00e9sister - j'ai constamment de la glace autour de ma bouche.",
+      "composition_time": "2018-05-09T20:03:40.543467",
+      "preprocessing_begin": "2018-05-09T20:03:40.653544",
+      "preprocessing_end": "2018-05-09T20:03:43.019642",
+      "translation_begin": "2018-05-09T20:03:43.019865",
+      "translation_end": "2018-05-09T20:03:47.264313",
+      "postprocessing_begin": "2018-05-09T20:03:47.265105",
+      "postprocessing_end": "2018-05-09T20:03:47.331383",
+      "sent_time": "2018-05-09T20:03:47.335982",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-09T20:15:16.738786",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:08:47.483005"
+          ],
+          [
+            "medium",
+            "2018-05-09T20:15:13.393092"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Cela me rappellera seulement mon incapacit\u00e9 \u00e0 r\u00e9sister \u2013 j\u2019ai en permanence de la glace autour de la bouche. ",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "You see, I can't even pretend it's not happening!",
+      "preprocessed_text": "you see , I can &apos;t even pretend it &apos;s not happening !",
+      "translated_text": "tu vois , je ne peux m\u00eame pas pr\u00e9tendre que \u00e7a n&apos; arrive pas !",
+      "postprocessed_text": "Tu vois, je ne peux m\u00eame pas pr\u00e9tendre que \u00e7a n'arrive pas !",
+      "composition_time": "2018-05-09T20:03:40.543467",
+      "preprocessing_begin": "2018-05-09T20:03:40.653544",
+      "preprocessing_end": "2018-05-09T20:03:43.019642",
+      "translation_begin": "2018-05-09T20:03:43.019865",
+      "translation_end": "2018-05-09T20:03:47.264313",
+      "postprocessing_begin": "2018-05-09T20:03:47.265105",
+      "postprocessing_end": "2018-05-09T20:03:47.331383",
+      "sent_time": "2018-05-09T20:03:47.337902",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:08:50.871738",
+            true
+          ],
+          [
+            "style",
+            "2018-05-09T20:08:51.978819",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-09T20:08:55.930926",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:08:48.714265"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice",
+          "style",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Vous voyez, je ne peux m\u00eame pas faire comme si rien ne se passait.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Vous avez donc une envie irr\u00e9pressible de manger des glaces.",
+      "preprocessed_text": "vous avez donc une envie irr\u00e9@@ pres@@ sible de manger des glaces .",
+      "translated_text": "so you have an ir@@ repres@@ sible urge to eat ice cream .",
+      "postprocessed_text": "So you have an irrepressible urge to eat ice cream.",
+      "composition_time": "2018-05-09T20:04:40.254073",
+      "preprocessing_begin": "2018-05-09T20:04:40.363037",
+      "preprocessing_end": "2018-05-09T20:04:42.933625",
+      "translation_begin": "2018-05-09T20:04:42.933697",
+      "translation_end": "2018-05-09T20:04:44.061942",
+      "postprocessing_begin": "2018-05-09T20:04:44.062225",
+      "postprocessing_end": "2018-05-09T20:04:44.102666",
+      "sent_time": "2018-05-09T20:04:44.103785",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:07:04.559626"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "So you have an irrepressible desire to eat ice-cream.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Y a t'il des circonstances particuli\u00e8res dans lesquelles cette envie se manifeste de fa\u00e7on plus intense ?",
+      "preprocessed_text": "y a t&apos; il des circonstances particuli\u00e8res dans lesquelles cette envie se manifeste de fa\u00e7on plus intense ?",
+      "translated_text": "are there any special circumstances in which this desire to manifest itself in a more intense way ?",
+      "postprocessed_text": "Are there any special circumstances in which this desire to manifest itself in a more intense way?",
+      "composition_time": "2018-05-09T20:05:23.014517",
+      "preprocessing_begin": "2018-05-09T20:05:23.099916",
+      "preprocessing_end": "2018-05-09T20:05:25.763551",
+      "translation_begin": "2018-05-09T20:05:25.763707",
+      "translation_end": "2018-05-09T20:05:27.234855",
+      "postprocessing_begin": "2018-05-09T20:05:27.235113",
+      "postprocessing_end": "2018-05-09T20:05:27.284290",
+      "sent_time": "2018-05-09T20:05:27.285596",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-09T20:07:11.332446",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "missing verb",
+            "2018-05-09T20:07:20.132691",
+            "2018-05-09T20:07:20.132691"
+          ]
+        ],
+        "verbatim": "missing verb",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:07:10.223136"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Are there particular circumstances in which the desire is stronger?",
+      "normalised_version": "Y a-t-il des circonstances particuli\u00e8res dans lesquelles cette envie se manifeste de fa\u00e7on plus intense ?"
+    },
+    "11": {
+      "language": "english",
+      "original_text": "It's especially at night.",
+      "preprocessed_text": "it &apos;s especially at night .",
+      "translated_text": "c&apos; est surtout la nuit .",
+      "postprocessed_text": "C'est surtout la nuit.",
+      "composition_time": "2018-05-09T20:06:43.426448",
+      "preprocessing_begin": "2018-05-09T20:06:43.523607",
+      "preprocessing_end": "2018-05-09T20:06:46.070614",
+      "translation_begin": "2018-05-09T20:06:46.070815",
+      "translation_end": "2018-05-09T20:06:48.097982",
+      "postprocessing_begin": "2018-05-09T20:06:48.098276",
+      "postprocessing_end": "2018-05-09T20:06:48.146474",
+      "sent_time": "2018-05-09T20:06:48.147688",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:09:03.277275"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C\u2019est surtout la nuit.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "My bedsheets are covered in ice-cream. It's awful - especially when the cat gets covered in it too!",
+      "preprocessed_text": "my bed@@ sheets are covered in ice @-@ cream . it &apos;s awful - especially when the cat gets covered in it too !",
+      "translated_text": "mes draps sont couverts de glace .",
+      "postprocessed_text": "Mes draps sont couverts de glace.",
+      "composition_time": "2018-05-09T20:06:43.426448",
+      "preprocessing_begin": "2018-05-09T20:06:43.523607",
+      "preprocessing_end": "2018-05-09T20:06:46.070614",
+      "translation_begin": "2018-05-09T20:06:46.070815",
+      "translation_end": "2018-05-09T20:06:48.097982",
+      "postprocessing_begin": "2018-05-09T20:06:48.098276",
+      "postprocessing_end": "2018-05-09T20:06:48.146474",
+      "sent_time": "2018-05-09T20:06:48.148316",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:09:04.892804"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Mes draps sont couverts de glace. C'est affreux - surtout quand le chat s'en recouvre aussi !",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "And then trails ice-cream all round the house!",
+      "preprocessed_text": "and then trails ice @-@ cream all round the house !",
+      "translated_text": "et ensuite , il y a de la glace autour de la maison !",
+      "postprocessed_text": "Et ensuite, il y a de la glace autour de la maison !",
+      "composition_time": "2018-05-09T20:07:01.210996",
+      "preprocessing_begin": "2018-05-09T20:07:01.288010",
+      "preprocessing_end": "2018-05-09T20:07:03.411878",
+      "translation_begin": "2018-05-09T20:07:03.411978",
+      "translation_end": "2018-05-09T20:07:04.506858",
+      "postprocessing_begin": "2018-05-09T20:07:04.507228",
+      "postprocessing_end": "2018-05-09T20:07:04.552786",
+      "sent_time": "2018-05-09T20:07:04.554021",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-09T20:09:07.402692",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:09:05.666014"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Et fait des train\u00e9es de glace partout dans la maison\u00a0!",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Surtout la nuit ?",
+      "preprocessed_text": "surtout la nuit ?",
+      "translated_text": "especially at night ?",
+      "postprocessed_text": "Especially at night?",
+      "composition_time": "2018-05-09T20:07:28.347535",
+      "preprocessing_begin": "2018-05-09T20:07:28.430630",
+      "preprocessing_end": "2018-05-09T20:07:30.752613",
+      "translation_begin": "2018-05-09T20:07:30.752677",
+      "translation_end": "2018-05-09T20:07:31.205426",
+      "postprocessing_begin": "2018-05-09T20:07:31.205829",
+      "postprocessing_end": "2018-05-09T20:07:31.253132",
+      "sent_time": "2018-05-09T20:07:31.254205",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:07:56.031514"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Especially at night?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Cela est tr\u00e8s int\u00e9ressant.....",
+      "preprocessed_text": "cela est tr\u00e8s int\u00e9ressant .....",
+      "translated_text": "that &apos;s very interesting .",
+      "postprocessed_text": "That's very interesting.",
+      "composition_time": "2018-05-09T20:07:39.370948",
+      "preprocessing_begin": "2018-05-09T20:07:39.451477",
+      "preprocessing_end": "2018-05-09T20:07:42.044344",
+      "translation_begin": "2018-05-09T20:07:42.044418",
+      "translation_end": "2018-05-09T20:07:42.653497",
+      "postprocessing_begin": "2018-05-09T20:07:42.653898",
+      "postprocessing_end": "2018-05-09T20:07:42.710354",
+      "sent_time": "2018-05-09T20:07:42.711884",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:07:56.779167"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That\u2019s very interesting\u2026",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "R\u00eavez vous que vous mangez des glaces pendant la nuit avant de vous r\u00e9veiller et d'en manger ?",
+      "preprocessed_text": "r\u00eavez vous que vous mangez des glaces pendant la nuit avant de vous r\u00e9veiller et d&apos; en manger ?",
+      "translated_text": "do you dream that you eat ice cream for the night before you wake up and eat them ?",
+      "postprocessed_text": "Do you dream that you eat ice cream for the night before you wake up and eat them?",
+      "composition_time": "2018-05-09T20:07:56.423806",
+      "preprocessing_begin": "2018-05-09T20:07:56.481205",
+      "preprocessing_end": "2018-05-09T20:07:58.992098",
+      "translation_begin": "2018-05-09T20:07:58.992199",
+      "translation_end": "2018-05-09T20:08:00.551219",
+      "postprocessing_begin": "2018-05-09T20:08:00.551585",
+      "postprocessing_end": "2018-05-09T20:08:00.606595",
+      "sent_time": "2018-05-09T20:08:00.608075",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:08:10.868713"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Do you dream that you\u2019re eating ice-cream during the night before waking up and eating it?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "english",
+      "original_text": "I usually raid the freezer, even when I'm asleep.",
+      "preprocessed_text": "I usually raid the freezer , even when I &apos;m asleep .",
+      "translated_text": "d&apos; habitude , j&apos; attaque le cong\u00e9lateur , m\u00eame quand je dors .",
+      "postprocessed_text": "D'habitude, j'attaque le cong\u00e9lateur, m\u00eame quand je dors.",
+      "composition_time": "2018-05-09T20:09:19.152890",
+      "preprocessing_begin": "2018-05-09T20:09:19.216076",
+      "preprocessing_end": "2018-05-09T20:09:21.838182",
+      "translation_begin": "2018-05-09T20:09:21.838283",
+      "translation_end": "2018-05-09T20:09:25.326337",
+      "postprocessing_begin": "2018-05-09T20:09:25.326627",
+      "postprocessing_end": "2018-05-09T20:09:25.369731",
+      "sent_time": "2018-05-09T20:09:25.370795",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:11:43.488370",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:11:41.707145"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "J\u2019ai l\u2019habitude de faire une descente dans le cong\u00e9lateur m\u00eame lorsque je dors.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Once I even forgot to close the door and the whole thing defrosted over the kitchen floor.",
+      "preprocessed_text": "once I even forgot to close the door and the whole thing defro@@ sted over the kitchen floor .",
+      "translated_text": "une fois j&apos; ai oubli\u00e9 de fermer la porte et tout le truc d\u00e9con@@ gel\u00e9 par le sol de la cuisine .",
+      "postprocessed_text": "Une fois j'ai oubli\u00e9 de fermer la porte et tout le truc d\u00e9congel\u00e9 par le sol de la cuisine.",
+      "composition_time": "2018-05-09T20:09:19.152890",
+      "preprocessing_begin": "2018-05-09T20:09:19.216076",
+      "preprocessing_end": "2018-05-09T20:09:21.838182",
+      "translation_begin": "2018-05-09T20:09:21.838283",
+      "translation_end": "2018-05-09T20:09:25.326337",
+      "postprocessing_begin": "2018-05-09T20:09:25.326627",
+      "postprocessing_end": "2018-05-09T20:09:25.369731",
+      "sent_time": "2018-05-09T20:09:25.371286",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-09T20:11:48.135074",
+            true
+          ],
+          [
+            "style",
+            "2018-05-09T20:11:51.512806",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-09T20:11:52.265246",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-09T20:11:52.887064",
+            false
+          ],
+          [
+            "coherence",
+            "2018-05-09T20:16:37.989587",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:11:46.572720"
+          ],
+          [
+            "poor",
+            "2018-05-09T20:16:32.078957"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "grammar",
+          "style",
+          "coherence"
+        ]
+      },
+      "reference_translation": "Une fois j\u2019ai m\u00eame oubli\u00e9 de fermer la porte et tout a d\u00e9congel\u00e9 par terre sur le sol de cuisine.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "And then there was no more ice-cream to eat at all!",
+      "preprocessed_text": "and then there was no more ice @-@ cream to eat at all !",
+      "translated_text": "et il n&apos; y avait plus de glace \u00e0 manger !",
+      "postprocessed_text": "Et il n'y avait plus de glace \u00e0 manger !",
+      "composition_time": "2018-05-09T20:09:32.037578",
+      "preprocessing_begin": "2018-05-09T20:09:32.132179",
+      "preprocessing_end": "2018-05-09T20:09:34.493001",
+      "translation_begin": "2018-05-09T20:09:34.493210",
+      "translation_end": "2018-05-09T20:09:35.662164",
+      "postprocessing_begin": "2018-05-09T20:09:35.662523",
+      "postprocessing_end": "2018-05-09T20:09:35.713592",
+      "sent_time": "2018-05-09T20:09:35.715279",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:11:56.242033"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Et ensuite il n\u2019y avait plus du tout de glace \u00e0 manger.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Vous mangez donc des glaces pendant votre sommeil ?",
+      "preprocessed_text": "vous mangez donc des glaces pendant votre sommeil ?",
+      "translated_text": "so you eat ice cream while you sleep ?",
+      "postprocessed_text": "So you eat ice cream while you sleep?",
+      "composition_time": "2018-05-09T20:10:12.255657",
+      "preprocessing_begin": "2018-05-09T20:10:12.346987",
+      "preprocessing_end": "2018-05-09T20:10:14.704885",
+      "translation_begin": "2018-05-09T20:10:14.704984",
+      "translation_end": "2018-05-09T20:10:15.700504",
+      "postprocessing_begin": "2018-05-09T20:10:15.701001",
+      "postprocessing_end": "2018-05-09T20:10:15.775639",
+      "sent_time": "2018-05-09T20:10:15.776462",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:10:32.621642"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "So you eat ice-cream in your sleep?",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Parlez moi de votre enfance.",
+      "preprocessed_text": "parlez moi de votre enfance .",
+      "translated_text": "tell me about your childhood .",
+      "postprocessed_text": "Tell me about your childhood.",
+      "composition_time": "2018-05-09T20:10:38.737334",
+      "preprocessing_begin": "2018-05-09T20:10:38.799696",
+      "preprocessing_end": "2018-05-09T20:10:41.402651",
+      "translation_begin": "2018-05-09T20:10:41.402739",
+      "translation_end": "2018-05-09T20:10:42.040312",
+      "postprocessing_begin": "2018-05-09T20:10:42.040693",
+      "postprocessing_end": "2018-05-09T20:10:42.095738",
+      "sent_time": "2018-05-09T20:10:42.097149",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:11:05.507879"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tell me about your childhood.",
+      "normalised_version": "Parlez-moi de votre enfance."
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Avez vous v\u00e9cu une exp\u00e9rience malheureuse avec des glaces ?",
+      "preprocessed_text": "avez vous v\u00e9cu une exp\u00e9rience malheureuse avec des glaces ?",
+      "translated_text": "have you experienced an unhappy experience with ice cream ?",
+      "postprocessed_text": "Have you experienced an unhappy experience with ice cream?",
+      "composition_time": "2018-05-09T20:10:48.772239",
+      "preprocessing_begin": "2018-05-09T20:10:48.869456",
+      "preprocessing_end": "2018-05-09T20:10:51.270075",
+      "translation_begin": "2018-05-09T20:10:51.270197",
+      "translation_end": "2018-05-09T20:10:52.196633",
+      "postprocessing_begin": "2018-05-09T20:10:52.197006",
+      "postprocessing_end": "2018-05-09T20:10:52.255905",
+      "sent_time": "2018-05-09T20:10:52.257248",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:11:06.147664"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Have you had a bad experience with ice-cream?",
+      "normalised_version": "Avez-vous v\u00e9cu une exp\u00e9rience malheureuse avec des glaces ?"
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Un traumatisme refoul\u00e9 peut \u00eatre ?",
+      "preprocessed_text": "un traumatisme refoul\u00e9 peut \u00eatre ?",
+      "translated_text": "repressed trauma maybe ?",
+      "postprocessed_text": "Repressed trauma maybe?",
+      "composition_time": "2018-05-09T20:10:55.464309",
+      "preprocessing_begin": "2018-05-09T20:10:55.555798",
+      "preprocessing_end": "2018-05-09T20:10:57.993056",
+      "translation_begin": "2018-05-09T20:10:57.993147",
+      "translation_end": "2018-05-09T20:10:58.533771",
+      "postprocessing_begin": "2018-05-09T20:10:58.534098",
+      "postprocessing_end": "2018-05-09T20:10:58.582147",
+      "sent_time": "2018-05-09T20:10:58.583523",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:11:06.734221"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "A hidden trauma perhaps?",
+      "normalised_version": "Un traumatisme refoul\u00e9 peut-\u00eatre ?"
+    },
+    "24": {
+      "language": "english",
+      "original_text": "Well, there was this one time when we got snowed in.",
+      "preprocessed_text": "well , there was this one time when we got snowed in .",
+      "translated_text": "il y a eu cette fois o\u00f9 on s&apos; est fait avoir .",
+      "postprocessed_text": "Il y a eu cette fois o\u00f9 on s'est fait avoir.",
+      "composition_time": "2018-05-09T20:13:10.759276",
+      "preprocessing_begin": "2018-05-09T20:13:10.864691",
+      "preprocessing_end": "2018-05-09T20:13:13.308118",
+      "translation_begin": "2018-05-09T20:13:13.308223",
+      "translation_end": "2018-05-09T20:13:19.168988",
+      "postprocessing_begin": "2018-05-09T20:13:19.169472",
+      "postprocessing_end": "2018-05-09T20:13:19.239280",
+      "sent_time": "2018-05-09T20:13:19.242264",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:14:38.993623",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:14:37.250417"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Il y a eu cette fois o\u00f9 nous avons \u00e9t\u00e9 couverts de neige.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "It was a really cold winter and it snowed for four days straight.",
+      "preprocessed_text": "it was a really cold winter and it snowed for four days straight .",
+      "translated_text": "c&apos; \u00e9tait un hiver tr\u00e8s froid et il a neig\u00e9 pendant quatre jours .",
+      "postprocessed_text": "C'\u00e9tait un hiver tr\u00e8s froid et il a neig\u00e9 pendant quatre jours.",
+      "composition_time": "2018-05-09T20:13:10.759276",
+      "preprocessing_begin": "2018-05-09T20:13:10.864691",
+      "preprocessing_end": "2018-05-09T20:13:13.308118",
+      "translation_begin": "2018-05-09T20:13:13.308223",
+      "translation_end": "2018-05-09T20:13:19.168988",
+      "postprocessing_begin": "2018-05-09T20:13:19.169472",
+      "postprocessing_end": "2018-05-09T20:13:19.239280",
+      "sent_time": "2018-05-09T20:13:19.244308",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:14:43.730905"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C\u2019\u00e9tait un hiver vraiment froid et il avait neig\u00e9 quatre jours de suite.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "And my parents made me tunnel out of the house to get free.",
+      "preprocessed_text": "and my parents made me tunnel out of the house to get free .",
+      "translated_text": "et mes parents m&apos; ont fait faire le tunnel pour \u00eatre libre .",
+      "postprocessed_text": "Et mes parents m'ont fait faire le tunnel pour \u00eatre libre.",
+      "composition_time": "2018-05-09T20:13:10.759276",
+      "preprocessing_begin": "2018-05-09T20:13:10.864691",
+      "preprocessing_end": "2018-05-09T20:13:13.308118",
+      "translation_begin": "2018-05-09T20:13:13.308223",
+      "translation_end": "2018-05-09T20:13:19.168988",
+      "postprocessing_begin": "2018-05-09T20:13:19.169472",
+      "postprocessing_end": "2018-05-09T20:13:19.239280",
+      "sent_time": "2018-05-09T20:13:19.246335",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:14:47.319971",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-09T20:17:06.163760",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-09T20:17:23.881584",
+            false
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:14:45.892948"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Et mes parents m\u2019ont fait creuser un tunnel hors de la maison pour nous lib\u00e9rer.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Do you think that could play a part in all this?",
+      "preprocessed_text": "do you think that could play a part in all this ?",
+      "translated_text": "tu penses que \u00e7a pourrait jouer un r\u00f4le dans tout \u00e7a ?",
+      "postprocessed_text": "Tu penses que \u00e7a pourrait jouer un r\u00f4le dans tout \u00e7a ?",
+      "composition_time": "2018-05-09T20:13:10.759276",
+      "preprocessing_begin": "2018-05-09T20:13:10.864691",
+      "preprocessing_end": "2018-05-09T20:13:13.308118",
+      "translation_begin": "2018-05-09T20:13:13.308223",
+      "translation_end": "2018-05-09T20:13:19.168988",
+      "postprocessing_begin": "2018-05-09T20:13:19.169472",
+      "postprocessing_end": "2018-05-09T20:13:19.239280",
+      "sent_time": "2018-05-09T20:13:19.248267",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-09T20:14:54.503946",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:14:50.578230"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Pensez-vous que cela joue un r\u00f4le dans tout ceci\u00a0?",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "Snow, ice-cream...",
+      "preprocessed_text": "snow , ice @-@ cream ...",
+      "translated_text": "de la neige , de la glace ...",
+      "postprocessed_text": "De la neige, de la glace...",
+      "composition_time": "2018-05-09T20:13:10.759276",
+      "preprocessing_begin": "2018-05-09T20:13:10.864691",
+      "preprocessing_end": "2018-05-09T20:13:13.308118",
+      "translation_begin": "2018-05-09T20:13:13.308223",
+      "translation_end": "2018-05-09T20:13:19.168988",
+      "postprocessing_begin": "2018-05-09T20:13:19.169472",
+      "postprocessing_end": "2018-05-09T20:13:19.239280",
+      "sent_time": "2018-05-09T20:13:19.250213",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:15:00.471079"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Neige, glace\u2026",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Cette histoire est tr\u00e8s int\u00e9ressante.",
+      "preprocessed_text": "cette histoire est tr\u00e8s int\u00e9ressante .",
+      "translated_text": "it &apos;s a very interesting story .",
+      "postprocessed_text": "It's a very interesting story.",
+      "composition_time": "2018-05-09T20:13:43.263398",
+      "preprocessing_begin": "2018-05-09T20:13:43.356744",
+      "preprocessing_end": "2018-05-09T20:13:45.929790",
+      "translation_begin": "2018-05-09T20:13:45.929910",
+      "translation_end": "2018-05-09T20:13:46.546508",
+      "postprocessing_begin": "2018-05-09T20:13:46.546961",
+      "postprocessing_end": "2018-05-09T20:13:46.601693",
+      "sent_time": "2018-05-09T20:13:46.604263",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:13:49.280539"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "The story\u2019s very interesting.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Car cela pourrait \u00eatre en effet le point de d\u00e9part de votre traumatisme",
+      "preprocessed_text": "car cela pourrait \u00eatre en effet le point de d\u00e9part de votre traumatisme",
+      "translated_text": "because it could indeed be the point of departure from your trauma .",
+      "postprocessed_text": "Because it could indeed be the point of departure from your trauma.",
+      "composition_time": "2018-05-09T20:13:55.008263",
+      "preprocessing_begin": "2018-05-09T20:13:55.103938",
+      "preprocessing_end": "2018-05-09T20:13:57.684740",
+      "translation_begin": "2018-05-09T20:13:57.684858",
+      "translation_end": "2018-05-09T20:13:58.880651",
+      "postprocessing_begin": "2018-05-09T20:13:58.881321",
+      "postprocessing_end": "2018-05-09T20:13:58.944263",
+      "sent_time": "2018-05-09T20:13:58.945882",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:14:29.337661",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:14:28.115191"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Because it could indeed be the starting point of your trauma.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Est ce que, par hasard, vous consommez surtout des glaces de couleur blanche, ou beige qui pourraient faire penser \u00e0 de la neige",
+      "preprocessed_text": "est ce que , par hasard , vous consom@@ mez surtout des glaces de couleur blanche , ou beige qui pourraient faire penser \u00e0 de la neige",
+      "translated_text": "do you , by any chance , consume white ice cream , or beige ones that might make snow think",
+      "postprocessed_text": "Do you, by any chance, consume white ice cream, or beige ones that might make snow think",
+      "composition_time": "2018-05-09T20:14:16.907353",
+      "preprocessing_begin": "2018-05-09T20:14:16.991333",
+      "preprocessing_end": "2018-05-09T20:14:19.329936",
+      "translation_begin": "2018-05-09T20:14:19.330056",
+      "translation_end": "2018-05-09T20:14:21.289113",
+      "postprocessing_begin": "2018-05-09T20:14:21.289665",
+      "postprocessing_end": "2018-05-09T20:14:21.331858",
+      "sent_time": "2018-05-09T20:14:21.334401",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-09T20:14:38.588105",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-09T20:14:39.803559",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "missing verb?",
+            "2018-05-09T20:14:44.783178",
+            "2018-05-09T20:14:44.783178"
+          ]
+        ],
+        "verbatim": "missing verb?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:14:36.902413"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar",
+          "meaning"
+        ]
+      },
+      "reference_translation": "Do you happen to eat mostly white or beige-coloured ice-cream, which could be suggestive of snow?",
+      "normalised_version": "Est-ce que, par hasard, vous consommez surtout des glaces de couleur blanche, ou beige qui pourraient faire penser \u00e0 de la neige ?"
+    },
+    "32": {
+      "language": "english",
+      "original_text": "I do!",
+      "preprocessed_text": "I do !",
+      "translated_text": "oui !",
+      "postprocessed_text": "Oui !",
+      "composition_time": "2018-05-09T20:15:26.181291",
+      "preprocessing_begin": "2018-05-09T20:15:26.268502",
+      "preprocessing_end": "2018-05-09T20:15:28.751089",
+      "translation_begin": "2018-05-09T20:15:28.751187",
+      "translation_end": "2018-05-09T20:15:32.262847",
+      "postprocessing_begin": "2018-05-09T20:15:32.263399",
+      "postprocessing_end": "2018-05-09T20:15:32.328544",
+      "sent_time": "2018-05-09T20:15:32.331142",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-09T20:17:32.503454"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oui\u00a0!",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "english",
+      "original_text": "My favourite is vanilla, followed by coconut, followed by almond-flavoured... But I'll eat any flavour you give me.",
+      "preprocessed_text": "my favourite is vanilla , followed by coconut , followed by almond @-@ fl@@ avou@@ red ... But I &apos;ll eat any flavour you give me .",
+      "translated_text": "mon pr\u00e9f\u00e9r\u00e9 , c&apos; est de la vanille , suivi par une noix de coco , suivi d&apos; une saveur d&apos; amande ... mais je mangerai n&apos; importe quel go\u00fbt que tu me donnes .",
+      "postprocessed_text": "Mon pr\u00e9f\u00e9r\u00e9, c'est de la vanille, suivi par une noix de coco, suivi d'une saveur d'amande... mais je mangerai n'importe quel go\u00fbt que tu me donnes.",
+      "composition_time": "2018-05-09T20:15:26.181291",
+      "preprocessing_begin": "2018-05-09T20:15:26.268502",
+      "preprocessing_end": "2018-05-09T20:15:28.751089",
+      "translation_begin": "2018-05-09T20:15:28.751187",
+      "translation_end": "2018-05-09T20:15:32.262847",
+      "postprocessing_begin": "2018-05-09T20:15:32.263399",
+      "postprocessing_end": "2018-05-09T20:15:32.328544",
+      "sent_time": "2018-05-09T20:15:32.332917",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-09T20:17:40.258189",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-09T20:17:45.530861",
+            true
+          ],
+          [
+            "style",
+            "2018-05-09T20:17:49.946067",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:17:36.458006"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar",
+          "word choice",
+          "style"
+        ]
+      },
+      "reference_translation": "Ma pr\u00e9f\u00e9r\u00e9e c\u2019est parfum vanille, ensuite noix de coco, puis amande\u2026 Mais je mangerais n\u2019importe quel parfum que vous me donneriez.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Bien, bien, nous avan\u00e7ons.... Je vous propose de m'en reparler \u00e0 la prochaine s\u00e9ance....",
+      "preprocessed_text": "bien , bien , nous avan\u00e7ons .... Je vous propose de m&apos; en reparler \u00e0 la prochaine s\u00e9ance ....",
+      "translated_text": "well , well , we &apos;re moving on .",
+      "postprocessed_text": "Well, well, we're moving on.",
+      "composition_time": "2018-05-09T20:16:07.793720",
+      "preprocessing_begin": "2018-05-09T20:16:07.892051",
+      "preprocessing_end": "2018-05-09T20:16:10.427741",
+      "translation_begin": "2018-05-09T20:16:10.427844",
+      "translation_end": "2018-05-09T20:16:12.134201",
+      "postprocessing_begin": "2018-05-09T20:16:12.134750",
+      "postprocessing_end": "2018-05-09T20:16:12.205489",
+      "sent_time": "2018-05-09T20:16:12.206491",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-09T20:16:22.169847",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:16:21.192815"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Well, well, we\u2019re making progress\u2026 I suggest that you tell me more at our next session.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "I was meaning to ask - would you like some icecream?",
+      "preprocessed_text": "I was meaning to ask - would you like some ic@@ ec@@ ream ?",
+      "translated_text": "je voulais te demander un peu de glace .",
+      "postprocessed_text": "Je voulais te demander un peu de glace.",
+      "composition_time": "2018-05-09T20:17:02.117647",
+      "preprocessing_begin": "2018-05-09T20:17:02.218165",
+      "preprocessing_end": "2018-05-09T20:17:04.816053",
+      "translation_begin": "2018-05-09T20:17:04.816271",
+      "translation_end": "2018-05-09T20:17:07.934081",
+      "postprocessing_begin": "2018-05-09T20:17:07.934511",
+      "postprocessing_end": "2018-05-09T20:17:07.991155",
+      "sent_time": "2018-05-09T20:17:07.992658",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-09T20:17:54.110698",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-09T20:17:53.012512"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Je voulais vous demander \u2013 voulez-vous un peu de glace\u00a0?",
+      "normalised_version": "I was meaning to ask - would you like some ice-cream?"
+    },
+    "36": {
+      "language": "english",
+      "original_text": "It's currently melting in my bag and I think we should save it before it does.",
+      "preprocessed_text": "it &apos;s currently melting in my bag and I think we should save it before it does .",
+      "translated_text": "il est en train de fondre dans mon sac et je pense que nous devrions le sauver avant que \u00e7a ne le fasse .",
+      "postprocessed_text": "Il est en train de fondre dans mon sac et je pense que nous devrions le sauver avant que \u00e7a ne le fasse.",
+      "composition_time": "2018-05-09T20:17:02.117647",
+      "preprocessing_begin": "2018-05-09T20:17:02.218165",
+      "preprocessing_end": "2018-05-09T20:17:04.816053",
+      "translation_begin": "2018-05-09T20:17:04.816271",
+      "translation_end": "2018-05-09T20:17:07.934081",
+      "postprocessing_begin": "2018-05-09T20:17:07.934511",
+      "postprocessing_end": "2018-05-09T20:17:07.991155",
+      "sent_time": "2018-05-09T20:17:07.993581",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-09T20:18:04.603423",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-09T20:18:05.364047",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-09T20:17:58.771404"
+          ],
+          [
+            "medium",
+            "2018-05-09T20:18:03.037861"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence",
+          "word choice"
+        ]
+      },
+      "reference_translation": "Elle est en train de fondre dans mon sac et je pense que nous devrions la manger avant qu\u2019elle n\u2019ait fondu.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "average",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "poor",
+    "particular_problems": "",
+    "timestamp": "2018-05-09T20:19:33.444132",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "average",
+    "coherence": "good",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "some grammatical problems, with missing verbs. there was a problem with the use of the word \"mirror\", probably as a poor translation of \"glace\", which should have been ice-cream.",
+    "timestamp": "2018-05-09T20:19:57.797908",
+    "verbatim_quality": "generally ok, but there were a couple of problematic sentences, especially concerning the sentence with \"dreaming\", which was not understandable.",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

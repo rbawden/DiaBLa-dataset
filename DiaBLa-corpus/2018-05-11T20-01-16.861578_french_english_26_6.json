@@ -1,0 +1,1212 @@
+{
+  "start_time": "2018-05-11T20:01:16.861578",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a classroom.",
+      "Vous \u00eates dans une salle de classe."
+    ],
+    [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ]
+  ],
+  "user1": {
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "eval-stage": true,
+    "role_num": 1,
+    "role": [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    "lang": "french",
+    "initiated_dialogue": true,
+    "turn_number": 2
+  },
+  "user2": {
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36",
+    "rolenum": 2,
+    "eval-stage": true,
+    "lang": "english",
+    "role": [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ],
+    "initiated_dialogue": false,
+    "turn_number": 1
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Hi Miss Smith, can you explain how I do this piece of work please?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> hi Miss Smith , can you explain how I do this piece of work please ?",
+      "translated_text": "bonjour <CONCAT> Mlle Smith , pouvez @-@ vous m&apos; expliquer comment je fais ce travail , s&apos; il vous pla\u00eet ?",
+      "postprocessed_text": "Mlle Smith, pouvez-vous m'expliquer comment je fais ce travail, s'il vous pla\u00eet ?",
+      "composition_time": "2018-05-11T20:03:10.736400",
+      "preprocessing_begin": "2018-05-11T20:03:10.769496",
+      "preprocessing_end": "2018-05-11T20:03:12.950107",
+      "translation_begin": "2018-05-11T20:03:12.950180",
+      "translation_end": "2018-05-11T20:03:16.636048",
+      "postprocessing_begin": "2018-05-11T20:03:16.636266",
+      "postprocessing_end": "2018-05-11T20:03:16.684337",
+      "sent_time": "2018-05-11T20:03:16.685385",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:05:48.895166"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:05:51.556887",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Bonjour Madame Smith, pouvez-vous m\u2019expliquer comment je fais cet exercice\u00a0?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "I don't really understand what it is I have to do.",
+      "preprocessed_text": "hi Miss Smith , can you explain how I do this piece of work please ? <CONCAT> I don &apos;t really understand what it is I have to do .",
+      "translated_text": "Mlle Smith , pouvez @-@ vous m&apos; expliquer comment je fais ce travail ? <CONCAT> je ne comprends pas ce que je dois faire .",
+      "postprocessed_text": "Je ne comprends pas ce que je dois faire.",
+      "composition_time": "2018-05-11T20:03:10.736400",
+      "preprocessing_begin": "2018-05-11T20:03:10.769496",
+      "preprocessing_end": "2018-05-11T20:03:12.950107",
+      "translation_begin": "2018-05-11T20:03:12.950180",
+      "translation_end": "2018-05-11T20:03:16.636048",
+      "postprocessing_begin": "2018-05-11T20:03:16.636266",
+      "postprocessing_end": "2018-05-11T20:03:16.684337",
+      "sent_time": "2018-05-11T20:03:16.685820",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:05:54.952566"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Je ne comprends pas ce que je dois faire.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "ce que je vous demande, c'est un travail d'\u00e9quipe, avec d'autres \u00e9l\u00e8ves.",
+      "preprocessed_text": "je ne comprends pas ce que je dois faire . <CONCAT> ce que je vous demande , c&apos; est un travail d&apos; \u00e9quipe , avec d&apos; autres \u00e9l\u00e8ves .",
+      "translated_text": "I don &apos;t understand what I have to do . <CONCAT> what I &apos;m asking you , it &apos;s a team effort , with other students .",
+      "postprocessed_text": "What I'm asking you, it's a team effort, with other students.",
+      "composition_time": "2018-05-11T20:04:32.826972",
+      "preprocessing_begin": "2018-05-11T20:04:32.860307",
+      "preprocessing_end": "2018-05-11T20:04:35.066838",
+      "translation_begin": "2018-05-11T20:04:35.066908",
+      "translation_end": "2018-05-11T20:04:37.231564",
+      "postprocessing_begin": "2018-05-11T20:04:37.231807",
+      "postprocessing_end": "2018-05-11T20:04:37.264903",
+      "sent_time": "2018-05-11T20:04:37.265807",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:13:28.619937"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "What I\u2019m asking you to do is a team project, with other students.",
+      "normalised_version": "Ce que je vous demande, c'est un travail d'\u00e9quipe, avec d'autres \u00e9l\u00e8ves."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Vous devez constituer des groupes de trois \u00e9l\u00e8ves",
+      "preprocessed_text": "ce que je vous demande , c&apos; est un travail d&apos; \u00e9quipe , avec d&apos; autres \u00e9l\u00e8ves . <CONCAT> vous devez constituer des groupes de trois \u00e9l\u00e8ves",
+      "translated_text": "what I &apos;m asking you , it &apos;s a team effort , with other students . <CONCAT> you have to assemble groups of three students .",
+      "postprocessed_text": "You have to assemble groups of three students.",
+      "composition_time": "2018-05-11T20:04:44.631841",
+      "preprocessing_begin": "2018-05-11T20:04:44.667474",
+      "preprocessing_end": "2018-05-11T20:04:46.888666",
+      "translation_begin": "2018-05-11T20:04:46.888750",
+      "translation_end": "2018-05-11T20:04:48.843601",
+      "postprocessing_begin": "2018-05-11T20:04:48.843818",
+      "postprocessing_end": "2018-05-11T20:04:48.875927",
+      "sent_time": "2018-05-11T20:04:48.876819",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:13:32.454245"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "You must form groups of three students.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "et pr\u00e9parer ensemble une exp\u00e9rience de chimie \u00e0 pr\u00e9senter par oral aux autres \u00e9l\u00e8ves",
+      "preprocessed_text": "vous devez constituer des groupes de trois \u00e9l\u00e8ves <CONCAT> et pr\u00e9parer ensemble une exp\u00e9rience de chimie \u00e0 pr\u00e9senter par oral aux autres \u00e9l\u00e8ves",
+      "translated_text": "you have to assemble groups of three students <CONCAT> and prepare a chemistry experiment to present by oral to other students",
+      "postprocessed_text": "And prepare a chemistry experiment to present by oral to other students",
+      "composition_time": "2018-05-11T20:05:40.582949",
+      "preprocessing_begin": "2018-05-11T20:05:40.640434",
+      "preprocessing_end": "2018-05-11T20:05:42.975975",
+      "translation_begin": "2018-05-11T20:05:42.976042",
+      "translation_end": "2018-05-11T20:05:44.535460",
+      "postprocessing_begin": "2018-05-11T20:05:44.535661",
+      "postprocessing_end": "2018-05-11T20:05:44.582184",
+      "sent_time": "2018-05-11T20:05:44.583325",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:13:37.342613"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:13:41.425525",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "And together prepare a chemistry experiment to present orally to the other students.",
+      "normalised_version": "Et pr\u00e9parer ensemble une exp\u00e9rience de chimie \u00e0 pr\u00e9senter par oral aux autres \u00e9l\u00e8ves."
+    },
+    "5": {
+      "language": "english",
+      "original_text": "To be honest, I don't like working in a team as I end up doing all the work and the rest of the team take the credit.",
+      "preprocessed_text": "and prepare a chemistry experiment to present by oral to other students <CONCAT> to be honest , I don &apos;t like working in a team as I end up doing all the work and the rest of the team take the credit .",
+      "translated_text": "et pr\u00e9parer une exp\u00e9rience de chimie \u00e0 pr\u00e9senter en oral aux autres \u00e9l\u00e8ves . <CONCAT> pour \u00eatre honn\u00eate , je n&apos; aime pas travailler dans une \u00e9quipe alors que je fais tout le travail et le reste de l&apos; \u00e9quipe en prend le m\u00e9rite .",
+      "postprocessed_text": "Pour \u00eatre honn\u00eate, je n'aime pas travailler dans une \u00e9quipe alors que je fais tout le travail et le reste de l'\u00e9quipe en prend le m\u00e9rite.",
+      "composition_time": "2018-05-11T20:05:51.068951",
+      "preprocessing_begin": "2018-05-11T20:05:51.103031",
+      "preprocessing_end": "2018-05-11T20:05:53.211528",
+      "translation_begin": "2018-05-11T20:05:53.211625",
+      "translation_end": "2018-05-11T20:05:56.549209",
+      "postprocessing_begin": "2018-05-11T20:05:56.549471",
+      "postprocessing_end": "2018-05-11T20:05:56.587514",
+      "sent_time": "2018-05-11T20:05:56.588540",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:06:51.001062"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:07:06.732503",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Pour \u00eatre honn\u00eate, je n\u2019aime pas travailler en groupe car je finis toujours par tout faire et le reste du groupe s\u2019en attribue le m\u00e9rite.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "french",
+      "original_text": "La r\u00e9partition \u00e9quitable des taches fait partie des \u00e9l\u00e9ments que je vais \u00e9valuer.",
+      "preprocessed_text": "pour \u00eatre honn\u00eate , je n&apos; aime pas travailler dans une \u00e9quipe alors que je fais tout le travail et le reste de l&apos; \u00e9quipe en prend le m\u00e9rite . <CONCAT> la r\u00e9partition \u00e9quitable des taches fait partie des \u00e9l\u00e9ments que je vais \u00e9valuer .",
+      "translated_text": "to be honest , I don &apos;t like working on a team when I do all the work and the rest of the team takes credit . <CONCAT> the e@@ quit@@ able distribution of the stains is part of the elements that I &apos;m going to evaluate .",
+      "postprocessed_text": "The equitable distribution of the stains is part of the elements that I'm going to evaluate.",
+      "composition_time": "2018-05-11T20:06:43.789748",
+      "preprocessing_begin": "2018-05-11T20:06:43.825793",
+      "preprocessing_end": "2018-05-11T20:06:46.265823",
+      "translation_begin": "2018-05-11T20:06:46.265916",
+      "translation_end": "2018-05-11T20:06:49.821176",
+      "postprocessing_begin": "2018-05-11T20:06:49.821412",
+      "postprocessing_end": "2018-05-11T20:06:49.859132",
+      "sent_time": "2018-05-11T20:06:49.860177",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:14:10.644467"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:14:13.463758",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "The equal distribution of tasks is one of the elements I will be evaluating.",
+      "normalised_version": "La r\u00e9partition \u00e9quitable des t\u00e2ches fait partie des \u00e9l\u00e9ments que je vais \u00e9valuer."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "OK.",
+      "preprocessed_text": "the e@@ quit@@ able distribution of the stains is part of the elements that I &apos;m going to evaluate . <CONCAT> OK .",
+      "translated_text": "la distribution \u00e9quitable des taches fait partie des \u00e9l\u00e9ments que je vais \u00e9valuer . <CONCAT> ok .",
+      "postprocessed_text": "Ok.",
+      "composition_time": "2018-05-11T20:07:14.158338",
+      "preprocessing_begin": "2018-05-11T20:07:14.192092",
+      "preprocessing_end": "2018-05-11T20:07:16.267592",
+      "translation_begin": "2018-05-11T20:07:16.267676",
+      "translation_end": "2018-05-11T20:07:18.284146",
+      "postprocessing_begin": "2018-05-11T20:07:18.284367",
+      "postprocessing_end": "2018-05-11T20:07:18.316342",
+      "sent_time": "2018-05-11T20:07:18.317290",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:09:05.831056"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "OK.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "That's fair.",
+      "preprocessed_text": "OK . <CONCAT> that &apos;s fair .",
+      "translated_text": "ok . <CONCAT> c&apos; est juste .",
+      "postprocessed_text": "C'est juste.",
+      "composition_time": "2018-05-11T20:07:14.158338",
+      "preprocessing_begin": "2018-05-11T20:07:14.192092",
+      "preprocessing_end": "2018-05-11T20:07:16.267592",
+      "translation_begin": "2018-05-11T20:07:16.267676",
+      "translation_end": "2018-05-11T20:07:18.284146",
+      "postprocessing_begin": "2018-05-11T20:07:18.284367",
+      "postprocessing_end": "2018-05-11T20:07:18.316342",
+      "sent_time": "2018-05-11T20:07:18.317769",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:15:03.346133"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:15:04.603910",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "C\u2019est juste.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "I'll chose some people I don't normally work with.",
+      "preprocessed_text": "that &apos;s fair . <CONCAT> I &apos;ll chose some people I don &apos;t normally work with .",
+      "translated_text": "c&apos; est juste . <CONCAT> j&apos; ai choisi des gens avec qui je ne travaille pas .",
+      "postprocessed_text": "J'ai choisi des gens avec qui je ne travaille pas.",
+      "composition_time": "2018-05-11T20:08:05.482731",
+      "preprocessing_begin": "2018-05-11T20:08:05.519894",
+      "preprocessing_end": "2018-05-11T20:08:07.574409",
+      "translation_begin": "2018-05-11T20:08:07.574525",
+      "translation_end": "2018-05-11T20:08:08.959731",
+      "postprocessing_begin": "2018-05-11T20:08:08.959940",
+      "postprocessing_end": "2018-05-11T20:08:09.000136",
+      "sent_time": "2018-05-11T20:08:09.000994",
+      "eval": {
+        "problems": [
+          "coherence",
+          "meaning"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:15:07.160944"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-11T20:15:08.510642",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-11T20:15:14.448886",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Je vais choisir des gens avec qui je ne travaille pas d\u2019habitude.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "How long do we have to prepare the experiment?",
+      "preprocessed_text": "I &apos;ll chose some people I don &apos;t normally work with . <CONCAT> how long do we have to prepare the experiment ?",
+      "translated_text": "j&apos; ai choisi des gens avec qui je ne travaille pas . <CONCAT> combien de temps faut @-@ il pour pr\u00e9parer l&apos; exp\u00e9rience ?",
+      "postprocessed_text": "Combien de temps faut-il pour pr\u00e9parer l'exp\u00e9rience ?",
+      "composition_time": "2018-05-11T20:08:28.803464",
+      "preprocessing_begin": "2018-05-11T20:08:28.839963",
+      "preprocessing_end": "2018-05-11T20:08:30.950699",
+      "translation_begin": "2018-05-11T20:08:30.950781",
+      "translation_end": "2018-05-11T20:08:32.762563",
+      "postprocessing_begin": "2018-05-11T20:08:32.762798",
+      "postprocessing_end": "2018-05-11T20:08:32.792170",
+      "sent_time": "2018-05-11T20:08:32.793151",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:15:17.807570"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:15:19.155334",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Combien de temps avons-nous pour pr\u00e9parer l\u2019exp\u00e9rience\u00a0?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "english",
+      "original_text": "How long is the oral presentation?",
+      "preprocessed_text": "how long do we have to prepare the experiment ? <CONCAT> how long is the oral presentation ?",
+      "translated_text": "combien de temps faut @-@ il pour pr\u00e9parer l&apos; exp\u00e9rience ? <CONCAT> combien de temps dure l&apos; oral ?",
+      "postprocessed_text": "Combien de temps dure l'oral ?",
+      "composition_time": "2018-05-11T20:08:57.648813",
+      "preprocessing_begin": "2018-05-11T20:08:57.682779",
+      "preprocessing_end": "2018-05-11T20:08:59.863835",
+      "translation_begin": "2018-05-11T20:08:59.863934",
+      "translation_end": "2018-05-11T20:09:01.268865",
+      "postprocessing_begin": "2018-05-11T20:09:01.269112",
+      "postprocessing_end": "2018-05-11T20:09:01.301754",
+      "sent_time": "2018-05-11T20:09:01.302707",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:15:21.807712"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Combien de temps dure la pr\u00e9sentation orale\u00a0?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "Vous avez quinze jours avant la date de pr\u00e9sentation pour pr\u00e9parer le travail.",
+      "preprocessed_text": "combien de temps dure l&apos; oral ? <CONCAT> vous avez quinze jours avant la date de pr\u00e9sentation pour pr\u00e9parer le travail .",
+      "translated_text": "how long is the oral ? <CONCAT> you &apos;ve got 15 days before the presentation date to get the job done .",
+      "postprocessed_text": "You've got 15 days before the presentation date to get the job done.",
+      "composition_time": "2018-05-11T20:09:35.986121",
+      "preprocessing_begin": "2018-05-11T20:09:36.021022",
+      "preprocessing_end": "2018-05-11T20:09:38.171068",
+      "translation_begin": "2018-05-11T20:09:38.171151",
+      "translation_end": "2018-05-11T20:09:39.823058",
+      "postprocessing_begin": "2018-05-11T20:09:39.823268",
+      "postprocessing_end": "2018-05-11T20:09:39.854174",
+      "sent_time": "2018-05-11T20:09:39.855225",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:19:58.498220"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "You have fifteen days to prepare the work before the presentation date.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "et le jour de l'exp\u00e9rimentation, dix minutes d'exp\u00e9rience, et dix minutes de pr\u00e9sentation orale avec des diapositives.",
+      "preprocessed_text": "vous avez quinze jours avant la date de pr\u00e9sentation pour pr\u00e9parer le travail . <CONCAT> et le jour de l&apos; exp\u00e9rimentation , dix minutes d&apos; exp\u00e9rience , et dix minutes de pr\u00e9sentation orale avec des di@@ apos@@ i@@ tives .",
+      "translated_text": "you have 15 days before the presentation date to prepare the work . <CONCAT> and the day of experimentation , ten minutes of experience , and ten minutes of oral presentation with slides .",
+      "postprocessed_text": "And the day of experimentation, ten minutes of experience, and ten minutes of oral presentation with slides.",
+      "composition_time": "2018-05-11T20:10:02.481892",
+      "preprocessing_begin": "2018-05-11T20:10:02.514244",
+      "preprocessing_end": "2018-05-11T20:10:05.032998",
+      "translation_begin": "2018-05-11T20:10:05.033072",
+      "translation_end": "2018-05-11T20:10:07.735459",
+      "postprocessing_begin": "2018-05-11T20:10:07.735712",
+      "postprocessing_end": "2018-05-11T20:10:07.767801",
+      "sent_time": "2018-05-11T20:10:07.768755",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:20:05.620272"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "And on the day of the experiment, ten minutes of experimentation and ten minutes for your oral presentation with slides.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "english",
+      "original_text": "I have a lot of deadlines from other teachers and I've got a hockey trip for some of this time.",
+      "preprocessed_text": "and the day of experimentation , ten minutes of experience , and ten minutes of oral presentation with slides . <CONCAT> I have a lot of deadlines from other teachers and I &apos;ve got a hockey trip for some of this time .",
+      "translated_text": "et le jour des exp\u00e9riences , dix minutes d&apos; exp\u00e9rience , et dix minutes de pr\u00e9sentation orale avec des di@@ apos@@ i@@ tives . <CONCAT> j&apos; ai beaucoup de d\u00e9lais \u00e0 respecter d&apos; autres professeurs et j&apos; ai un voyage de hockey pour certains de ces temps .",
+      "postprocessed_text": "J'ai beaucoup de d\u00e9lais \u00e0 respecter d'autres professeurs et j'ai un voyage de hockey pour certains de ces temps.",
+      "composition_time": "2018-05-11T20:12:17.872029",
+      "preprocessing_begin": "2018-05-11T20:12:17.908118",
+      "preprocessing_end": "2018-05-11T20:12:19.993254",
+      "translation_begin": "2018-05-11T20:12:19.993315",
+      "translation_end": "2018-05-11T20:12:26.210775",
+      "postprocessing_begin": "2018-05-11T20:12:26.211056",
+      "postprocessing_end": "2018-05-11T20:12:26.241617",
+      "sent_time": "2018-05-11T20:12:26.242567",
+      "eval": {
+        "problems": [
+          "word choice",
+          "style",
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:20:26.285728"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:20:27.805949",
+            true
+          ],
+          [
+            "style",
+            "2018-05-11T20:20:29.066021",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-11T20:20:30.172439",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "J\u2019ai beaucoup de devoirs donn\u00e9s par d\u2019autres professeurs et j\u2019ai aussi un voyage de hockey sur cette p\u00e9riode.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "english",
+      "original_text": "Is it possible to get an extension?",
+      "preprocessed_text": "I have a lot of deadlines from other teachers and I &apos;ve got a hockey trip for some of this time . <CONCAT> is it possible to get an extension ?",
+      "translated_text": "j&apos; ai beaucoup de d\u00e9lais \u00e0 respecter d&apos; autres professeurs et j&apos; ai un voyage de hockey pour certains de ces temps . <CONCAT> est @-@ il possible d&apos; avoir une extension ?",
+      "postprocessed_text": "Est-il possible d'avoir une extension ?",
+      "composition_time": "2018-05-11T20:12:17.872029",
+      "preprocessing_begin": "2018-05-11T20:12:17.908118",
+      "preprocessing_end": "2018-05-11T20:12:19.993254",
+      "translation_begin": "2018-05-11T20:12:19.993315",
+      "translation_end": "2018-05-11T20:12:26.210775",
+      "postprocessing_begin": "2018-05-11T20:12:26.211056",
+      "postprocessing_end": "2018-05-11T20:12:26.241617",
+      "sent_time": "2018-05-11T20:12:26.242990",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:14:57.266131"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:14:58.632164",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Est-ce que c\u2019est possible d\u2019avoir un d\u00e9lai suppl\u00e9mentaire\u00a0?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Cela me semble un peu difficile, car cela ne serait pas \u00e9quitable vis \u00e0 vis des autres \u00e9l\u00e8ves.",
+      "preprocessed_text": "est @-@ il possible d&apos; avoir une extension ? <CONCAT> cela me semble un peu difficile , car cela ne serait pas \u00e9quitable vis \u00e0 vis des autres \u00e9l\u00e8ves .",
+      "translated_text": "is it possible to have an extension ? <CONCAT> it seems a little difficult , because it wouldn &apos;t be fair to the other students .",
+      "postprocessed_text": "It seems a little difficult, because it wouldn't be fair to the other students.",
+      "composition_time": "2018-05-11T20:13:41.383883",
+      "preprocessing_begin": "2018-05-11T20:13:41.419725",
+      "preprocessing_end": "2018-05-11T20:13:43.597808",
+      "translation_begin": "2018-05-11T20:13:43.597869",
+      "translation_end": "2018-05-11T20:13:45.568569",
+      "postprocessing_begin": "2018-05-11T20:13:45.568771",
+      "postprocessing_end": "2018-05-11T20:13:45.598473",
+      "sent_time": "2018-05-11T20:13:45.599443",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:20:12.504179"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "I don\u2019t think that will be possible, as it wouldn\u2019t be very fair with respect to the other students.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Pensez \u00e0 une exp\u00e9rience tr\u00e8s simple !",
+      "preprocessed_text": "cela me semble un peu difficile , car cela ne serait pas \u00e9quitable vis \u00e0 vis des autres \u00e9l\u00e8ves . <CONCAT> pensez \u00e0 une exp\u00e9rience tr\u00e8s simple !",
+      "translated_text": "that seems a bit difficult , because it wouldn &apos;t be fair to the other students . <CONCAT> think of a very simple experience !",
+      "postprocessed_text": "Think of a very simple experience!",
+      "composition_time": "2018-05-11T20:13:56.461171",
+      "preprocessing_begin": "2018-05-11T20:13:56.496254",
+      "preprocessing_end": "2018-05-11T20:13:58.713204",
+      "translation_begin": "2018-05-11T20:13:58.713270",
+      "translation_end": "2018-05-11T20:14:00.560445",
+      "postprocessing_begin": "2018-05-11T20:14:00.560665",
+      "postprocessing_end": "2018-05-11T20:14:00.600993",
+      "sent_time": "2018-05-11T20:14:00.601930",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:20:15.102272"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Think of a very simple experiment!",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Le but est surtout de vous apprendre \u00e0 travailler en \u00e9quipe, et de vous donner une exp\u00e9rience de pr\u00e9sentation orale.",
+      "preprocessed_text": "pensez \u00e0 une exp\u00e9rience tr\u00e8s simple ! <CONCAT> le but est surtout de vous apprendre \u00e0 travailler en \u00e9quipe , et de vous donner une exp\u00e9rience de pr\u00e9sentation orale .",
+      "translated_text": "think of a very simple experience ! <CONCAT> the goal is to teach you to work as a team and give yourself an oral experience .",
+      "postprocessed_text": "The goal is to teach you to work as a team and give yourself an oral experience.",
+      "composition_time": "2018-05-11T20:14:15.728174",
+      "preprocessing_begin": "2018-05-11T20:14:15.760492",
+      "preprocessing_end": "2018-05-11T20:14:17.960983",
+      "translation_begin": "2018-05-11T20:14:17.961041",
+      "translation_end": "2018-05-11T20:14:19.937192",
+      "postprocessing_begin": "2018-05-11T20:14:19.937442",
+      "postprocessing_end": "2018-05-11T20:14:19.972915",
+      "sent_time": "2018-05-11T20:14:19.973939",
+      "eval": {
+        "problems": [
+          "meaning"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:20:25.173689"
+          ]
+        ],
+        "verbatim": "Sounds a bit dodgy!",
+        "verbatim_history": [
+          [
+            "Sounds a bit dodgy!",
+            "2018-05-11T20:20:36.384599",
+            "2018-05-11T20:20:36.384599"
+          ]
+        ],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-11T20:20:29.676289",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "The aim is above all to learn to work in a team and to give you an experience of presenting orally.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "How many marks is there and what is the distribution of the marks for each element?",
+      "preprocessed_text": "the goal is to teach you to work as a team and give yourself an oral experience . <CONCAT> how many marks is there and what is the distribution of the marks for each element ?",
+      "translated_text": "le but est de vous apprendre \u00e0 travailler en \u00e9quipe et de vous donner une exp\u00e9rience orale . <CONCAT> combien de marques y a @-@ t @-@ il et quelle est la distribution des marques pour chaque \u00e9l\u00e9ment ?",
+      "postprocessed_text": "Combien de marques y a-t-il et quelle est la distribution des marques pour chaque \u00e9l\u00e9ment ?",
+      "composition_time": "2018-05-11T20:15:45.452378",
+      "preprocessing_begin": "2018-05-11T20:15:45.485775",
+      "preprocessing_end": "2018-05-11T20:15:47.963651",
+      "translation_begin": "2018-05-11T20:15:47.963738",
+      "translation_end": "2018-05-11T20:15:51.440050",
+      "postprocessing_begin": "2018-05-11T20:15:51.440219",
+      "postprocessing_end": "2018-05-11T20:15:51.481108",
+      "sent_time": "2018-05-11T20:15:51.482112",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:17:26.119098"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:17:27.293699",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "C\u2019est sur combien de points ? Et quel est le bar\u00e8me pour chaque partie\u00a0?",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Alors, la note est sur trente points.",
+      "preprocessed_text": "combien de marques y a @-@ t @-@ il et quelle est la distribution des marques pour chaque \u00e9l\u00e9ment ? <CONCAT> alors , la note est sur trente points .",
+      "translated_text": "how many brands are there and what is the distribution of the marks for every element ? <CONCAT> then the note is 30 points .",
+      "postprocessed_text": "Then the note is 30 points.",
+      "composition_time": "2018-05-11T20:16:30.209721",
+      "preprocessing_begin": "2018-05-11T20:16:30.261424",
+      "preprocessing_end": "2018-05-11T20:16:32.500398",
+      "translation_begin": "2018-05-11T20:16:32.500459",
+      "translation_end": "2018-05-11T20:16:34.566913",
+      "postprocessing_begin": "2018-05-11T20:16:34.567124",
+      "postprocessing_end": "2018-05-11T20:16:34.596743",
+      "sent_time": "2018-05-11T20:16:34.597810",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:20:46.367565"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": []
+      },
+      "reference_translation": "So, the mark is out of thirty points.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Dix points pour l'exp\u00e9rience elle m\u00eame.",
+      "preprocessed_text": "alors , la note est sur trente points . <CONCAT> dix points pour l&apos; exp\u00e9rience elle m\u00eame .",
+      "translated_text": "so , the bill is 30 points . <CONCAT> ten points for experience herself .",
+      "postprocessed_text": "Ten points for experience herself.",
+      "composition_time": "2018-05-11T20:16:38.707361",
+      "preprocessing_begin": "2018-05-11T20:16:38.744704",
+      "preprocessing_end": "2018-05-11T20:16:41.122816",
+      "translation_begin": "2018-05-11T20:16:41.122876",
+      "translation_end": "2018-05-11T20:16:42.241913",
+      "postprocessing_begin": "2018-05-11T20:16:42.242135",
+      "postprocessing_end": "2018-05-11T20:16:42.303143",
+      "sent_time": "2018-05-11T20:16:42.304217",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:20:47.445855"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": []
+      },
+      "reference_translation": "Ten points for the experiment itself.",
+      "normalised_version": "Dix points pour l'exp\u00e9rience elle-m\u00eame."
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Dix points pour l'expos\u00e9 oral qui suit.",
+      "preprocessed_text": "dix points pour l&apos; exp\u00e9rience elle m\u00eame . <CONCAT> dix points pour l&apos; expos\u00e9 oral qui suit .",
+      "translated_text": "ten points for experience herself . <CONCAT> ten points for the oral speech following .",
+      "postprocessed_text": "Ten points for the oral speech following.",
+      "composition_time": "2018-05-11T20:16:45.029570",
+      "preprocessing_begin": "2018-05-11T20:16:45.086066",
+      "preprocessing_end": "2018-05-11T20:16:47.403175",
+      "translation_begin": "2018-05-11T20:16:47.403238",
+      "translation_end": "2018-05-11T20:16:48.762854",
+      "postprocessing_begin": "2018-05-11T20:16:48.763155",
+      "postprocessing_end": "2018-05-11T20:16:48.799333",
+      "sent_time": "2018-05-11T20:16:48.800617",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:20:51.570815"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Ten points for the oral presentation that follows.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Et dix points sur la capacit\u00e9 \u00e0 avoir travaill\u00e9 en \u00e9quipe.",
+      "preprocessed_text": "dix points pour l&apos; expos\u00e9 oral qui suit . <CONCAT> et dix points sur la capacit\u00e9 \u00e0 avoir travaill\u00e9 en \u00e9quipe .",
+      "translated_text": "ten points for the oral exam that follows . <CONCAT> and ten points on the ability to work as a team .",
+      "postprocessed_text": "And ten points on the ability to work as a team.",
+      "composition_time": "2018-05-11T20:16:56.948372",
+      "preprocessing_begin": "2018-05-11T20:16:57.002701",
+      "preprocessing_end": "2018-05-11T20:16:59.137116",
+      "translation_begin": "2018-05-11T20:16:59.137178",
+      "translation_end": "2018-05-11T20:17:00.708818",
+      "postprocessing_begin": "2018-05-11T20:17:00.709027",
+      "postprocessing_end": "2018-05-11T20:17:00.739528",
+      "sent_time": "2018-05-11T20:17:00.740545",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:20:54.680365"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "And ten points for your ability to work as a team.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "OK.",
+      "preprocessed_text": "and ten points on the ability to work as a team . <CONCAT> OK .",
+      "translated_text": "et dix points sur la capacit\u00e9 de travailler en \u00e9quipe . <CONCAT> ok .",
+      "postprocessed_text": "Ok.",
+      "composition_time": "2018-05-11T20:17:14.768893",
+      "preprocessing_begin": "2018-05-11T20:17:14.803847",
+      "preprocessing_end": "2018-05-11T20:17:16.793854",
+      "translation_begin": "2018-05-11T20:17:16.793913",
+      "translation_end": "2018-05-11T20:17:18.650037",
+      "postprocessing_begin": "2018-05-11T20:17:18.650296",
+      "postprocessing_end": "2018-05-11T20:17:18.686695",
+      "sent_time": "2018-05-11T20:17:18.687805",
+      "eval": {
+        "problems": [
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:17:30.236335"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-11T20:17:32.155567",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "OK.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "I'd better get working.",
+      "preprocessed_text": "OK . <CONCAT> I &apos;d better get working .",
+      "translated_text": "ok . <CONCAT> je ferais mieux de travailler .",
+      "postprocessed_text": "Je ferais mieux de travailler.",
+      "composition_time": "2018-05-11T20:17:14.768893",
+      "preprocessing_begin": "2018-05-11T20:17:14.803847",
+      "preprocessing_end": "2018-05-11T20:17:16.793854",
+      "translation_begin": "2018-05-11T20:17:16.793913",
+      "translation_end": "2018-05-11T20:17:18.650037",
+      "postprocessing_begin": "2018-05-11T20:17:18.650296",
+      "postprocessing_end": "2018-05-11T20:17:18.686695",
+      "sent_time": "2018-05-11T20:17:18.688334",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:17:39.888813"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "J\u2019ai int\u00e9r\u00eat \u00e0 m\u2019y mettre.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Mis, I think the fire alarm has just gone off.",
+      "preprocessed_text": "I &apos;d better get working . <CONCAT> mis , I think the fire alarm has just gone off .",
+      "translated_text": "je ferais mieux de travailler . <CONCAT> mis , je pense que l&apos; alarme s&apos; est d\u00e9clench\u00e9e .",
+      "postprocessed_text": "Mis, je pense que l'alarme s'est d\u00e9clench\u00e9e.",
+      "composition_time": "2018-05-11T20:17:29.482242",
+      "preprocessing_begin": "2018-05-11T20:17:29.517751",
+      "preprocessing_end": "2018-05-11T20:17:31.786011",
+      "translation_begin": "2018-05-11T20:17:31.786083",
+      "translation_end": "2018-05-11T20:17:33.337384",
+      "postprocessing_begin": "2018-05-11T20:17:33.337756",
+      "postprocessing_end": "2018-05-11T20:17:33.372706",
+      "sent_time": "2018-05-11T20:17:33.373705",
+      "eval": {
+        "problems": [
+          "word choice"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:19:48.988127"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-11T20:19:51.384212",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Madame, je crois que l\u2019alarme incendie vient de se d\u00e9clencher.",
+      "normalised_version": "Miss, I think the fire alarm has just gone off."
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Do we need to evacuate?",
+      "preprocessed_text": "mis , I think the fire alarm has just gone off . <CONCAT> do we need to evacuate ?",
+      "translated_text": "je crois que l&apos; alarme s&apos; est d\u00e9clench\u00e9e . <CONCAT> doit @-@ on \u00e9vacuer ?",
+      "postprocessed_text": "Doit-on \u00e9vacuer ?",
+      "composition_time": "2018-05-11T20:17:37.215138",
+      "preprocessing_begin": "2018-05-11T20:17:37.271804",
+      "preprocessing_end": "2018-05-11T20:17:39.645729",
+      "translation_begin": "2018-05-11T20:17:39.645793",
+      "translation_end": "2018-05-11T20:17:40.769127",
+      "postprocessing_begin": "2018-05-11T20:17:40.769547",
+      "postprocessing_end": "2018-05-11T20:17:40.808823",
+      "sent_time": "2018-05-11T20:17:40.809821",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:19:52.440259"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Est-ce qu\u2019on doit \u00e9vacuer\u00a0?",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "It could be a fire!",
+      "preprocessed_text": "do we need to evacuate ? <CONCAT> it could be a fire !",
+      "translated_text": "devons @-@ nous \u00e9vacuer ? <CONCAT> \u00e7a pourrait \u00eatre un feu !",
+      "postprocessed_text": "\u00c7a pourrait \u00eatre un feu !",
+      "composition_time": "2018-05-11T20:18:15.189948",
+      "preprocessing_begin": "2018-05-11T20:18:15.245712",
+      "preprocessing_end": "2018-05-11T20:18:17.319480",
+      "translation_begin": "2018-05-11T20:18:17.319561",
+      "translation_end": "2018-05-11T20:18:18.386143",
+      "postprocessing_begin": "2018-05-11T20:18:18.386421",
+      "postprocessing_end": "2018-05-11T20:18:18.422082",
+      "sent_time": "2018-05-11T20:18:18.422734",
+      "eval": {
+        "problems": [
+          "grammar"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:19:54.545031"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-11T20:19:57.034138",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "\u00c7a pourrait \u00eatre un incendie\u00a0!",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Sortons vite de la pi\u00e8ce !",
+      "preprocessed_text": "\u00e7a pourrait \u00eatre un feu ! <CONCAT> sortons vite de la pi\u00e8ce !",
+      "translated_text": "it could be a fire ! <CONCAT> let &apos;s get out of the room quickly !",
+      "postprocessed_text": "Let's get out of the room quickly!",
+      "composition_time": "2018-05-11T20:18:39.833229",
+      "preprocessing_begin": "2018-05-11T20:18:39.869891",
+      "preprocessing_end": "2018-05-11T20:18:42.006246",
+      "translation_begin": "2018-05-11T20:18:42.006290",
+      "translation_end": "2018-05-11T20:18:43.219326",
+      "postprocessing_begin": "2018-05-11T20:18:43.219584",
+      "postprocessing_end": "2018-05-11T20:18:43.256155",
+      "sent_time": "2018-05-11T20:18:43.256959",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-11T20:21:04.575269"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "Let\u2019s get out of the room quickly!",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "je vais voir en face, mais je crains que ce ne soit monsieur Dupont, l'autre professeur de Chimie...",
+      "preprocessed_text": "sortons vite de la pi\u00e8ce ! <CONCAT> je vais voir en face , mais je crains que ce ne soit monsieur Dupont , l&apos; autre professeur de Chi@@ mie ...",
+      "translated_text": "let &apos;s get out of the room quickly ! <CONCAT> I &apos;ll see to my face , but I &apos;m afraid it &apos;s Mr. Dupont , the other professor of Chem@@ istry ...",
+      "postprocessed_text": "I'll see to my face, but I'm afraid it's Mr. Dupont, the other professor of Chemistry...",
+      "composition_time": "2018-05-11T20:18:57.186989",
+      "preprocessing_begin": "2018-05-11T20:18:57.231886",
+      "preprocessing_end": "2018-05-11T20:18:59.356118",
+      "translation_begin": "2018-05-11T20:18:59.356183",
+      "translation_end": "2018-05-11T20:19:01.695007",
+      "postprocessing_begin": "2018-05-11T20:19:01.695228",
+      "postprocessing_end": "2018-05-11T20:19:01.734535",
+      "sent_time": "2018-05-11T20:19:01.735407",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-11T20:21:21.324749"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "poor",
+        "problem_history": []
+      },
+      "reference_translation": "I\u2019m going to have a look across the corridor, but I fear it might be Mr. Dupont, the other chemistry teacher\u2026",
+      "normalised_version": "Je vais voir en face, mais je crains que ce ne soit monsieur Dupont, l'autre professeur de Chimie..."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Il fait souvent de nouvelles exp\u00e9riences, mais il a d\u00e9j\u00e0 d\u00e9clanch\u00e9 deux fois l'alarme incendie....",
+      "preprocessed_text": "je vais voir en face , mais je crains que ce ne soit monsieur Dupont , l&apos; autre professeur de Chi@@ mie ... <CONCAT> il fait souvent de nouvelles exp\u00e9riences , mais il a d\u00e9j\u00e0 d\u00e9cl@@ an@@ ch\u00e9 deux fois l&apos; alarme incendie ....",
+      "translated_text": "I &apos;ll look to the front , but I &apos;m afraid it &apos;s Mr. Dupont , the other professor of Chem@@ istry ... <CONCAT> he does a lot of new experiments , but he &apos;s already turned the fire alarm off ...",
+      "postprocessed_text": "He does a lot of new experiments, but he's already turned the fire alarm off...",
+      "composition_time": "2018-05-11T20:19:23.880498",
+      "preprocessing_begin": "2018-05-11T20:19:23.918181",
+      "preprocessing_end": "2018-05-11T20:19:26.000830",
+      "translation_begin": "2018-05-11T20:19:26.000879",
+      "translation_end": "2018-05-11T20:19:28.941874",
+      "postprocessing_begin": "2018-05-11T20:19:28.942118",
+      "postprocessing_end": "2018-05-11T20:19:28.975413",
+      "sent_time": "2018-05-11T20:19:28.976005",
+      "eval": {
+        "problems": [],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-11T20:21:10.581476"
+          ],
+          [
+            "perfect",
+            "2018-05-11T20:21:20.143683"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "perfect",
+        "problem_history": []
+      },
+      "reference_translation": "He often does new experiments, but he\u2019s already set the fire alarm off twice\u2026",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "Maybe he'll be fired!",
+      "preprocessed_text": "I &apos;ll see to my face , but I &apos;m afraid it &apos;s Mr. Dupont , the other professor of Chem@@ istry ... <CONCAT> maybe he &apos;ll be fired !",
+      "translated_text": "je veillerai sur mon visage , mais j&apos; ai peur que ce soit M. Dupont , l&apos; autre professeur de chimie ... <CONCAT> peut @-@ \u00eatre qu&apos; il sera vir\u00e9 !",
+      "postprocessed_text": "Peut-\u00eatre qu'il sera vir\u00e9 !",
+      "composition_time": "2018-05-11T20:19:28.697730",
+      "preprocessing_begin": "2018-05-11T20:19:28.732547",
+      "preprocessing_end": "2018-05-11T20:19:30.811545",
+      "translation_begin": "2018-05-11T20:19:30.811615",
+      "translation_end": "2018-05-11T20:19:33.253619",
+      "postprocessing_begin": "2018-05-11T20:19:33.253824",
+      "postprocessing_end": "2018-05-11T20:19:33.287438",
+      "sent_time": "2018-05-11T20:19:33.288449",
+      "eval": {
+        "problems": [
+          "style"
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-11T20:19:59.082995"
+          ]
+        ],
+        "verbatim": "",
+        "verbatim_history": [],
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-11T20:20:00.548048",
+            true
+          ]
+        ]
+      },
+      "reference_translation": "Il va peut-\u00eatre se faire virer\u00a0!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "verbatim_quality": "",
+    "timestamp": "2018-05-11T20:21:48.662692",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "grammaticality": "average",
+    "coherence": "good",
+    "particular_problems": "",
+    "interface": "",
+    "would_use": true,
+    "style": "good",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "verbatim_quality": "",
+    "timestamp": "2018-05-11T20:21:47.210533",
+    "meaning": "good",
+    "tech": "There were no technical problems",
+    "grammaticality": "good",
+    "coherence": "excellent",
+    "particular_problems": "",
+    "interface": "",
+    "would_use": true,
+    "style": "excellent",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

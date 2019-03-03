@@ -1,0 +1,1943 @@
+{
+  "start_time": "2018-04-28T19:58:17.773486",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a psychiatrist's consulting room.",
+      "Vous \u00eates dans le cabinet d'un psychiatre."
+    ],
+    [
+      "You are the psychiatrist and are with your patient.",
+      "Vous \u00eates le psychiatre et parlez avec l'un(e) de vos patients"
+    ],
+    [
+      "You are a patient and you are talking to your psychiatrist",
+      "Vous \u00eates le ou la patient(e) et parlez avec votre psychiatre."
+    ]
+  ],
+  "user1": {
+    "role": [
+      "You are a patient and you are talking to your psychiatrist",
+      "Vous \u00eates le ou la patient(e) et parlez avec votre psychiatre."
+    ],
+    "initiated_dialogue": true,
+    "turn_number": 1,
+    "role_num": 2,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6",
+    "lang": "french",
+    "eval-stage": true
+  },
+  "user2": {
+    "role": [
+      "You are the psychiatrist and are with your patient.",
+      "Vous \u00eates le psychiatre et parlez avec l'un(e) de vos patients"
+    ],
+    "rolenum": 1,
+    "turn_number": 2,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "lang": "english",
+    "eval-stage": true
+  },
+  "translation_model": "baseline",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Bonjour Docteur",
+      "preprocessed_text": "bonjour Docteur",
+      "translated_text": "good morning , Doctor .",
+      "postprocessed_text": "Good morning, Doctor.",
+      "composition_time": "2018-04-28T19:58:31.880254",
+      "preprocessing_begin": "2018-04-28T19:58:31.921385",
+      "preprocessing_end": "2018-04-28T19:58:34.156051",
+      "translation_begin": "2018-04-28T19:58:34.156145",
+      "translation_end": "2018-04-28T19:58:34.490121",
+      "postprocessing_begin": "2018-04-28T19:58:34.490452",
+      "postprocessing_end": "2018-04-28T19:58:34.524622",
+      "sent_time": "2018-04-28T19:58:34.525821",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Hello Doctor.",
+      "normalised_version": "Bonjour Docteur."
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Good morning.",
+      "preprocessed_text": "good morning .",
+      "translated_text": "bonjour .",
+      "postprocessed_text": "Bonjour.",
+      "composition_time": "2018-04-28T19:58:57.609902",
+      "preprocessing_begin": "2018-04-28T19:58:57.649212",
+      "preprocessing_end": "2018-04-28T19:58:59.634202",
+      "translation_begin": "2018-04-28T19:58:59.634266",
+      "translation_end": "2018-04-28T19:59:01.550443",
+      "postprocessing_begin": "2018-04-28T19:59:01.550883",
+      "postprocessing_end": "2018-04-28T19:59:01.583222",
+      "sent_time": "2018-04-28T19:59:01.584648",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Bonjour.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "Now, tell me.",
+      "preprocessed_text": "now , tell me .",
+      "translated_text": "dis @-@ moi .",
+      "postprocessed_text": "Dis-moi.",
+      "composition_time": "2018-04-28T19:58:57.609902",
+      "preprocessing_begin": "2018-04-28T19:58:57.649212",
+      "preprocessing_end": "2018-04-28T19:58:59.634202",
+      "translation_begin": "2018-04-28T19:58:59.634266",
+      "translation_end": "2018-04-28T19:59:01.550443",
+      "postprocessing_begin": "2018-04-28T19:59:01.550883",
+      "postprocessing_end": "2018-04-28T19:59:01.583222",
+      "sent_time": "2018-04-28T19:59:01.585505",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T19:59:06.986505",
+            true
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T19:59:05.514044"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-04-28T20:04:56.553666",
+            "2018-04-28T20:04:56.553666"
+          ]
+        ]
+      },
+      "reference_translation": "Alors, dites-moi.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "english",
+      "original_text": "What's been going on?",
+      "preprocessed_text": "what &apos;s been going on ?",
+      "translated_text": "qu&apos; est @-@ ce qui se passe ?",
+      "postprocessed_text": "Qu'est-ce qui se passe ?",
+      "composition_time": "2018-04-28T19:58:57.609902",
+      "preprocessing_begin": "2018-04-28T19:58:57.649212",
+      "preprocessing_end": "2018-04-28T19:58:59.634202",
+      "translation_begin": "2018-04-28T19:58:59.634266",
+      "translation_end": "2018-04-28T19:59:01.550443",
+      "postprocessing_begin": "2018-04-28T19:59:01.550883",
+      "postprocessing_end": "2018-04-28T19:59:01.583222",
+      "sent_time": "2018-04-28T19:59:01.586303",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-04-28T19:59:10.069515",
+            true
+          ]
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T19:59:08.400076"
+          ]
+        ],
+        "problems": [
+          "style"
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Que se passe-t-il\u00a0?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "Il faut absolument que je vous parle.",
+      "preprocessed_text": "il faut absolument que je vous parle .",
+      "translated_text": "I need to talk to you .",
+      "postprocessed_text": "I need to talk to you.",
+      "composition_time": "2018-04-28T19:59:19.677986",
+      "preprocessing_begin": "2018-04-28T19:59:19.716758",
+      "preprocessing_end": "2018-04-28T19:59:21.674828",
+      "translation_begin": "2018-04-28T19:59:21.674996",
+      "translation_end": "2018-04-28T19:59:22.223646",
+      "postprocessing_begin": "2018-04-28T19:59:22.223935",
+      "postprocessing_end": "2018-04-28T19:59:22.255724",
+      "sent_time": "2018-04-28T19:59:22.256798",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I really need to talk to you.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "french",
+      "original_text": "Est-ce que je peux m'asseoir sur cette chaise?",
+      "preprocessed_text": "est @-@ ce que je peux m&apos; asseoir sur cette chaise ?",
+      "translated_text": "can I sit in this chair ?",
+      "postprocessed_text": "Can I sit in this chair?",
+      "composition_time": "2018-04-28T19:59:27.267548",
+      "preprocessing_begin": "2018-04-28T19:59:27.302038",
+      "preprocessing_end": "2018-04-28T19:59:29.424082",
+      "translation_begin": "2018-04-28T19:59:29.424147",
+      "translation_end": "2018-04-28T19:59:30.068869",
+      "postprocessing_begin": "2018-04-28T19:59:30.069200",
+      "postprocessing_end": "2018-04-28T19:59:30.110843",
+      "sent_time": "2018-04-28T19:59:30.112037",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Can I sit on this chair?",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "No, that's mine.",
+      "preprocessed_text": "no , that &apos;s mine .",
+      "translated_text": "non , c&apos; est \u00e0 moi .",
+      "postprocessed_text": "Non, c'est \u00e0 moi.",
+      "composition_time": "2018-04-28T19:59:58.299624",
+      "preprocessing_begin": "2018-04-28T19:59:58.335123",
+      "preprocessing_end": "2018-04-28T20:00:00.482139",
+      "translation_begin": "2018-04-28T20:00:00.482209",
+      "translation_end": "2018-04-28T20:00:02.998522",
+      "postprocessing_begin": "2018-04-28T20:00:02.998877",
+      "postprocessing_end": "2018-04-28T20:00:03.028569",
+      "sent_time": "2018-04-28T20:00:03.029287",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-04-28T20:00:11.600508",
+            true
+          ]
+        ],
+        "verbatim": "\"\u00e0 moi\" -> \"la mienne\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:00:08.900932"
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "\"\u00e0 moi\" -> \"la mienne\"",
+            "2018-04-28T20:04:47.888665",
+            "2018-04-28T20:04:47.888665"
+          ]
+        ]
+      },
+      "reference_translation": "Non, elle est \u00e0 moi.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "But you can sit anywhere else.",
+      "preprocessed_text": "but you can sit anywhere else .",
+      "translated_text": "mais tu peux t&apos; asseoir ailleurs .",
+      "postprocessed_text": "Mais tu peux t'asseoir ailleurs.",
+      "composition_time": "2018-04-28T19:59:58.299624",
+      "preprocessing_begin": "2018-04-28T19:59:58.335123",
+      "preprocessing_end": "2018-04-28T20:00:00.482139",
+      "translation_begin": "2018-04-28T20:00:00.482209",
+      "translation_end": "2018-04-28T20:00:02.998522",
+      "postprocessing_begin": "2018-04-28T20:00:02.998877",
+      "postprocessing_end": "2018-04-28T20:00:03.028569",
+      "sent_time": "2018-04-28T20:00:03.029646",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:00:16.732978",
+            true
+          ],
+          [
+            "coherence",
+            "2018-04-28T20:00:18.386631",
+            true
+          ],
+          [
+            "word choice",
+            "2018-04-28T20:00:19.048878",
+            false
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:00:14.156595"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-04-28T20:04:50.758994",
+            "2018-04-28T20:04:50.758994"
+          ]
+        ]
+      },
+      "reference_translation": "Mais vous pouvez vous asseoir n'importe o\u00f9 d'autre.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "Or if you prefer, you can lie down there.",
+      "preprocessed_text": "or if you prefer , you can lie down there .",
+      "translated_text": "ou si vous pr\u00e9f\u00e9rez , vous pouvez vous allonger l\u00e0 .",
+      "postprocessed_text": "Ou si vous pr\u00e9f\u00e9rez, vous pouvez vous allonger l\u00e0.",
+      "composition_time": "2018-04-28T19:59:58.299624",
+      "preprocessing_begin": "2018-04-28T19:59:58.335123",
+      "preprocessing_end": "2018-04-28T20:00:00.482139",
+      "translation_begin": "2018-04-28T20:00:00.482209",
+      "translation_end": "2018-04-28T20:00:02.998522",
+      "postprocessing_begin": "2018-04-28T20:00:02.998877",
+      "postprocessing_end": "2018-04-28T20:00:03.028569",
+      "sent_time": "2018-04-28T20:00:03.030065",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Ou si vous pr\u00e9f\u00e9rez, vous pouvez vous allonger ici.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "Some people prefer that.",
+      "preprocessed_text": "some people prefer that .",
+      "translated_text": "certains pr\u00e9f\u00e8rent \u00e7a .",
+      "postprocessed_text": "Certains pr\u00e9f\u00e8rent \u00e7a.",
+      "composition_time": "2018-04-28T19:59:58.299624",
+      "preprocessing_begin": "2018-04-28T19:59:58.335123",
+      "preprocessing_end": "2018-04-28T20:00:00.482139",
+      "translation_begin": "2018-04-28T20:00:00.482209",
+      "translation_end": "2018-04-28T20:00:02.998522",
+      "postprocessing_begin": "2018-04-28T20:00:02.998877",
+      "postprocessing_end": "2018-04-28T20:00:03.028569",
+      "sent_time": "2018-04-28T20:00:03.030377",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Certaines personnes pr\u00e9f\u00e8rent.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Je peux m'allonger sur ce canap\u00e9?",
+      "preprocessed_text": "je peux m&apos; allonger sur ce canap\u00e9 ?",
+      "translated_text": "can I lie on this couch ?",
+      "postprocessed_text": "Can I lie on this couch?",
+      "composition_time": "2018-04-28T20:00:49.012542",
+      "preprocessing_begin": "2018-04-28T20:00:49.048558",
+      "preprocessing_end": "2018-04-28T20:00:51.079790",
+      "translation_begin": "2018-04-28T20:00:51.079954",
+      "translation_end": "2018-04-28T20:00:53.741694",
+      "postprocessing_begin": "2018-04-28T20:00:53.742009",
+      "postprocessing_end": "2018-04-28T20:00:53.771755",
+      "sent_time": "2018-04-28T20:00:53.772862",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Can I really lie down on the sofa?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Vous \u00eates s\u00fbre?",
+      "preprocessed_text": "vous \u00eates s\u00fbre ?",
+      "translated_text": "are you sure ?",
+      "postprocessed_text": "Are you sure?",
+      "composition_time": "2018-04-28T20:00:49.012542",
+      "preprocessing_begin": "2018-04-28T20:00:49.048558",
+      "preprocessing_end": "2018-04-28T20:00:51.079790",
+      "translation_begin": "2018-04-28T20:00:51.079954",
+      "translation_end": "2018-04-28T20:00:53.741694",
+      "postprocessing_begin": "2018-04-28T20:00:53.742009",
+      "postprocessing_end": "2018-04-28T20:00:53.771755",
+      "sent_time": "2018-04-28T20:00:53.773571",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Are you sure?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "Je ne veux pas d\u00e9ranger, il a l'air propre et neuf, \u00e7a m'inqui\u00e8te un peu de m'asseoir dessus.",
+      "preprocessed_text": "je ne veux pas d\u00e9ranger , il a l&apos; air propre et neuf , \u00e7a m&apos; inqui\u00e8te un peu de m&apos; asseoir dessus .",
+      "translated_text": "I don &apos;t want to bother , he looks clean and new , I &apos;m kind of worried about sitting on it .",
+      "postprocessed_text": "I don't want to bother, he looks clean and new, I'm kind of worried about sitting on it.",
+      "composition_time": "2018-04-28T20:00:49.012542",
+      "preprocessing_begin": "2018-04-28T20:00:49.048558",
+      "preprocessing_end": "2018-04-28T20:00:51.079790",
+      "translation_begin": "2018-04-28T20:00:51.079954",
+      "translation_end": "2018-04-28T20:00:53.741694",
+      "postprocessing_begin": "2018-04-28T20:00:53.742009",
+      "postprocessing_end": "2018-04-28T20:00:53.771755",
+      "sent_time": "2018-04-28T20:00:53.774327",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:01:04.122427",
+            true
+          ]
+        ],
+        "verbatim": "\"he\" referring to a couch",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:01:00.657697"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "\"he\" referring to a couch",
+            "2018-04-28T20:01:13.962773",
+            "2018-04-28T20:01:13.962773"
+          ]
+        ]
+      },
+      "reference_translation": "I don\u2019t want to be any bother. It looks clean and new - I\u2019m a bit worried about sitting on it.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Je ne veux pas l'ab\u00eemer.",
+      "preprocessed_text": "je ne veux pas l&apos; ab\u00eemer .",
+      "translated_text": "I don &apos;t want to ruin it .",
+      "postprocessed_text": "I don't want to ruin it.",
+      "composition_time": "2018-04-28T20:01:01.260472",
+      "preprocessing_begin": "2018-04-28T20:01:01.300708",
+      "preprocessing_end": "2018-04-28T20:01:03.344259",
+      "translation_begin": "2018-04-28T20:01:04.121034",
+      "translation_end": "2018-04-28T20:01:04.715341",
+      "postprocessing_begin": "2018-04-28T20:01:04.715681",
+      "postprocessing_end": "2018-04-28T20:01:04.750093",
+      "sent_time": "2018-04-28T20:01:04.751234",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I don\u2019t want to ruin it.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Je crois que \u00e7a me rassurerait de rester debout.",
+      "preprocessed_text": "je crois que \u00e7a me rassur@@ erait de rester debout .",
+      "translated_text": "I think it would make me feel better to stand .",
+      "postprocessed_text": "I think it would make me feel better to stand.",
+      "composition_time": "2018-04-28T20:01:10.993023",
+      "preprocessing_begin": "2018-04-28T20:01:11.029715",
+      "preprocessing_end": "2018-04-28T20:01:13.951430",
+      "translation_begin": "2018-04-28T20:01:13.951558",
+      "translation_end": "2018-04-28T20:01:14.817835",
+      "postprocessing_begin": "2018-04-28T20:01:14.818158",
+      "postprocessing_end": "2018-04-28T20:01:14.856879",
+      "sent_time": "2018-04-28T20:01:14.857726",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I think I would feel more comfortable standing up.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Est-ce que vous pr\u00e9f\u00e9rez que j'enl\u00e8ve mes chaussures?",
+      "preprocessed_text": "est @-@ ce que vous pr\u00e9f\u00e9rez que j&apos; enl\u00e8ve mes chaussures ?",
+      "translated_text": "would you like me to take my shoes off ?",
+      "postprocessed_text": "Would you like me to take my shoes off?",
+      "composition_time": "2018-04-28T20:01:19.283564",
+      "preprocessing_begin": "2018-04-28T20:01:19.318254",
+      "preprocessing_end": "2018-04-28T20:01:21.373426",
+      "translation_begin": "2018-04-28T20:01:21.373501",
+      "translation_end": "2018-04-28T20:01:22.091843",
+      "postprocessing_begin": "2018-04-28T20:01:22.092212",
+      "postprocessing_end": "2018-04-28T20:01:22.133671",
+      "sent_time": "2018-04-28T20:01:22.134964",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Would you prefer it if I took off my shoes?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Remarquez mes pieds sentent peut-\u00eatre mauvais, je ne sais pas trop ce qui serait le mieux.",
+      "preprocessed_text": "remarquez mes pieds sentent peut @-@ \u00eatre mauvais , je ne sais pas trop ce qui serait le mieux .",
+      "translated_text": "notice how bad my feet feel , I don &apos;t know too much what would be best .",
+      "postprocessed_text": "Notice how bad my feet feel, I don't know too much what would be best.",
+      "composition_time": "2018-04-28T20:01:36.558906",
+      "preprocessing_begin": "2018-04-28T20:01:36.594514",
+      "preprocessing_end": "2018-04-28T20:01:38.642946",
+      "translation_begin": "2018-04-28T20:01:38.642998",
+      "translation_end": "2018-04-28T20:01:39.869938",
+      "postprocessing_begin": "2018-04-28T20:01:39.870236",
+      "postprocessing_end": "2018-04-28T20:01:39.907675",
+      "sent_time": "2018-04-28T20:01:39.908547",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:02:35.902933",
+            true
+          ]
+        ],
+        "verbatim": "\"too much\" is strange",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:02:34.599276"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"too much\" is strange",
+            "2018-04-28T20:02:42.452047",
+            "2018-04-28T20:02:42.452047"
+          ]
+        ]
+      },
+      "reference_translation": "Then again my feet might smell bad\u2026 I don\u2019t quite know what would be better.",
+      "normalised_version": "Remarquez, mes pieds sentent peut-\u00eatre mauvais, je ne sais pas trop ce qui serait le mieux."
+    },
+    "17": {
+      "language": "english",
+      "original_text": "Calm down, please.",
+      "preprocessed_text": "calm down , please .",
+      "translated_text": "calme @-@ toi , s&apos; il te pla\u00eet .",
+      "postprocessed_text": "Calme-toi, s'il te pla\u00eet.",
+      "composition_time": "2018-04-28T20:01:42.058997",
+      "preprocessing_begin": "2018-04-28T20:01:42.095564",
+      "preprocessing_end": "2018-04-28T20:01:44.142350",
+      "translation_begin": "2018-04-28T20:01:44.142410",
+      "translation_end": "2018-04-28T20:01:45.516153",
+      "postprocessing_begin": "2018-04-28T20:01:45.516587",
+      "postprocessing_end": "2018-04-28T20:01:45.551182",
+      "sent_time": "2018-04-28T20:01:45.552432",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:01:57.644607",
+            true
+          ]
+        ],
+        "verbatim": "te/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:01:54.217636"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "te/vous",
+            "2018-04-28T20:04:34.506134",
+            "2018-04-28T20:04:34.506134"
+          ]
+        ]
+      },
+      "reference_translation": "Calmez-vous, s'il vous pla\u00eet.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Please don't worry.",
+      "preprocessed_text": "please don &apos;t worry .",
+      "translated_text": "ne t&apos; inqui\u00e8te pas .",
+      "postprocessed_text": "Ne t'inqui\u00e8te pas.",
+      "composition_time": "2018-04-28T20:01:42.058997",
+      "preprocessing_begin": "2018-04-28T20:01:42.095564",
+      "preprocessing_end": "2018-04-28T20:01:44.142350",
+      "translation_begin": "2018-04-28T20:01:44.142410",
+      "translation_end": "2018-04-28T20:01:45.516153",
+      "postprocessing_begin": "2018-04-28T20:01:45.516587",
+      "postprocessing_end": "2018-04-28T20:01:45.551182",
+      "sent_time": "2018-04-28T20:01:45.553209",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:02:00.729187",
+            true
+          ]
+        ],
+        "verbatim": "t'/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:01:58.662736"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "t'/vous",
+            "2018-04-28T20:04:38.449468",
+            "2018-04-28T20:04:38.449468"
+          ]
+        ]
+      },
+      "reference_translation": "Je vous en prie, n'ayez pas peur.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "french",
+      "original_text": "Vous n'avez pas chaud?",
+      "preprocessed_text": "vous n&apos; avez pas chaud ?",
+      "translated_text": "aren &apos;t you hot ?",
+      "postprocessed_text": "Aren't you hot?",
+      "composition_time": "2018-04-28T20:01:43.946447",
+      "preprocessing_begin": "2018-04-28T20:01:43.985136",
+      "preprocessing_end": "2018-04-28T20:01:46.559974",
+      "translation_begin": "2018-04-28T20:01:46.560161",
+      "translation_end": "2018-04-28T20:01:46.962836",
+      "postprocessing_begin": "2018-04-28T20:01:46.963157",
+      "postprocessing_end": "2018-04-28T20:01:46.994495",
+      "sent_time": "2018-04-28T20:01:46.995731",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Are you not hot?",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "Please just make yourself at home.",
+      "preprocessed_text": "please just make yourself at home .",
+      "translated_text": "faites comme chez vous .",
+      "postprocessed_text": "Faites comme chez vous.",
+      "composition_time": "2018-04-28T20:02:06.144229",
+      "preprocessing_begin": "2018-04-28T20:02:06.180663",
+      "preprocessing_end": "2018-04-28T20:02:08.121706",
+      "translation_begin": "2018-04-28T20:02:08.121771",
+      "translation_end": "2018-04-28T20:02:09.482349",
+      "postprocessing_begin": "2018-04-28T20:02:09.482641",
+      "postprocessing_end": "2018-04-28T20:02:09.513400",
+      "sent_time": "2018-04-28T20:02:09.514230",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Faites comme chez vous.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "english",
+      "original_text": "But there's no need to panic.",
+      "preprocessed_text": "but there &apos;s no need to panic .",
+      "translated_text": "mais il n&apos; y a pas besoin de paniquer .",
+      "postprocessed_text": "Mais il n'y a pas besoin de paniquer.",
+      "composition_time": "2018-04-28T20:02:06.144229",
+      "preprocessing_begin": "2018-04-28T20:02:06.180663",
+      "preprocessing_end": "2018-04-28T20:02:08.121706",
+      "translation_begin": "2018-04-28T20:02:08.121771",
+      "translation_end": "2018-04-28T20:02:09.482349",
+      "postprocessing_begin": "2018-04-28T20:02:09.482641",
+      "postprocessing_end": "2018-04-28T20:02:09.513400",
+      "sent_time": "2018-04-28T20:02:09.514683",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:02:22.961455",
+            true
+          ],
+          [
+            "grammar",
+            "2018-04-28T20:04:17.226850",
+            true
+          ]
+        ],
+        "verbatim": "\"il n'y a pas besoin\" -> \"il est inutile\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:02:15.896869"
+          ]
+        ],
+        "problems": [
+          "word choice",
+          "grammar"
+        ],
+        "verbatim_history": [
+          [
+            "\"il n'y a pas besoin\" -> \"il est inutile\"",
+            "2018-04-28T20:04:26.472268",
+            "2018-04-28T20:04:26.472268"
+          ]
+        ]
+      },
+      "reference_translation": "Mais vous n'avez aucune raison de paniquer.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "english",
+      "original_text": "So, if you're feeling comfortable, what's been going on?",
+      "preprocessed_text": "so , if you &apos;re feeling comfortable , what &apos;s been going on ?",
+      "translated_text": "alors , si tu te sens \u00e0 l&apos; aise , qu&apos; est @-@ ce qui se passe ?",
+      "postprocessed_text": "Alors, si tu te sens \u00e0 l'aise, qu'est-ce qui se passe ?",
+      "composition_time": "2018-04-28T20:02:24.513339",
+      "preprocessing_begin": "2018-04-28T20:02:24.549206",
+      "preprocessing_end": "2018-04-28T20:02:26.833194",
+      "translation_begin": "2018-04-28T20:02:26.833290",
+      "translation_end": "2018-04-28T20:02:28.299634",
+      "postprocessing_begin": "2018-04-28T20:02:28.299936",
+      "postprocessing_end": "2018-04-28T20:02:28.331435",
+      "sent_time": "2018-04-28T20:02:28.332583",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:02:33.436340",
+            true
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:02:30.938149"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-04-28T20:04:30.099424",
+            "2018-04-28T20:04:30.099424"
+          ]
+        ]
+      },
+      "reference_translation": "Bon, si vous vous sentez \u00e0 l'aise, que se passe-t-il\u00a0?",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Je crois que mes voisins pensent que je veux leur faire du mal.",
+      "preprocessed_text": "je crois que mes voisins pensent que je veux leur faire du mal .",
+      "translated_text": "I think my neighbors think I want to hurt them .",
+      "postprocessed_text": "I think my neighbors think I want to hurt them.",
+      "composition_time": "2018-04-28T20:02:52.420654",
+      "preprocessing_begin": "2018-04-28T20:02:52.457434",
+      "preprocessing_end": "2018-04-28T20:02:54.569720",
+      "translation_begin": "2018-04-28T20:02:54.569780",
+      "translation_end": "2018-04-28T20:02:55.417833",
+      "postprocessing_begin": "2018-04-28T20:02:55.418161",
+      "postprocessing_end": "2018-04-28T20:02:55.454996",
+      "sent_time": "2018-04-28T20:02:55.456261",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I think my neighbours think I want to hurt them.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Alors j'ai peur de rester chez moi et j'essaye de faire le moins de bruit possible.",
+      "preprocessed_text": "alors j&apos; ai peur de rester chez moi et j&apos; essaye de faire le moins de bruit possible .",
+      "translated_text": "so I &apos;m afraid to stay at home and try to make the least noise .",
+      "postprocessed_text": "So I'm afraid to stay at home and try to make the least noise.",
+      "composition_time": "2018-04-28T20:03:13.062019",
+      "preprocessing_begin": "2018-04-28T20:03:13.113528",
+      "preprocessing_end": "2018-04-28T20:03:15.375885",
+      "translation_begin": "2018-04-28T20:03:15.375947",
+      "translation_end": "2018-04-28T20:03:16.866979",
+      "postprocessing_begin": "2018-04-28T20:03:16.867296",
+      "postprocessing_end": "2018-04-28T20:03:16.914239",
+      "sent_time": "2018-04-28T20:03:16.915537",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:04:14.905672",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-28T20:04:15.992355",
+            true
+          ]
+        ],
+        "verbatim": "\"afraid to stay at home\" does not make sense",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-04-28T20:04:13.404711"
+          ]
+        ],
+        "problems": [
+          "coherence",
+          "meaning"
+        ],
+        "verbatim_history": [
+          [
+            "\"afraid to stay at home\" does not make sense",
+            "2018-04-28T20:04:36.201796",
+            "2018-04-28T20:04:36.201796"
+          ]
+        ]
+      },
+      "reference_translation": "So I\u2019m scared of staying at home and I try to make as little noise as possible.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "french",
+      "original_text": "Mais c'est fatiguant.",
+      "preprocessed_text": "mais c&apos; est fatiguant .",
+      "translated_text": "but it &apos;s tiring .",
+      "postprocessed_text": "But it's tiring.",
+      "composition_time": "2018-04-28T20:03:17.133820",
+      "preprocessing_begin": "2018-04-28T20:03:17.172631",
+      "preprocessing_end": "2018-04-28T20:03:19.371998",
+      "translation_begin": "2018-04-28T20:03:19.372066",
+      "translation_end": "2018-04-28T20:03:19.843866",
+      "postprocessing_begin": "2018-04-28T20:03:19.844170",
+      "postprocessing_end": "2018-04-28T20:03:19.880714",
+      "sent_time": "2018-04-28T20:03:19.881823",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "But it\u2019s tiring.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "french",
+      "original_text": "Je ne me sens \u00e0 ma place nulle part, vous voyez.",
+      "preprocessed_text": "je ne me sens \u00e0 ma place nulle part , vous voyez .",
+      "translated_text": "I don &apos;t belong anywhere , you know .",
+      "postprocessed_text": "I don't belong anywhere, you know.",
+      "composition_time": "2018-04-28T20:03:25.947119",
+      "preprocessing_begin": "2018-04-28T20:03:25.984092",
+      "preprocessing_end": "2018-04-28T20:03:28.122710",
+      "translation_begin": "2018-04-28T20:03:28.122820",
+      "translation_end": "2018-04-28T20:03:28.919726",
+      "postprocessing_begin": "2018-04-28T20:03:28.920077",
+      "postprocessing_end": "2018-04-28T20:03:28.957210",
+      "sent_time": "2018-04-28T20:03:28.958284",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I don\u2019t feel at home anywhere, you see.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "I'm sure there's somewhere you fit in.",
+      "preprocessed_text": "I &apos;m sure there &apos;s somewhere you fit in .",
+      "translated_text": "je suis s\u00fbr qu&apos; il y a un endroit o\u00f9 vous vous adap@@ tez .",
+      "postprocessed_text": "Je suis s\u00fbr qu'il y a un endroit o\u00f9 vous vous adaptez.",
+      "composition_time": "2018-04-28T20:04:08.311369",
+      "preprocessing_begin": "2018-04-28T20:04:08.350181",
+      "preprocessing_end": "2018-04-28T20:04:10.423744",
+      "translation_begin": "2018-04-28T20:04:10.423820",
+      "translation_end": "2018-04-28T20:04:12.102764",
+      "postprocessing_begin": "2018-04-28T20:04:12.103188",
+      "postprocessing_end": "2018-04-28T20:04:12.158017",
+      "sent_time": "2018-04-28T20:04:12.159062",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-04-28T20:05:06.574889",
+            true
+          ],
+          [
+            "style",
+            "2018-04-28T20:05:07.529631",
+            false
+          ],
+          [
+            "word choice",
+            "2018-04-28T20:05:08.071370",
+            true
+          ]
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:05:02.818765"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je suis certaine qu'il y a des endroits o\u00f9 vous avez votre place.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "Have you always felt like this?",
+      "preprocessed_text": "have you always felt like this ?",
+      "translated_text": "tu t&apos; es toujours senti comme \u00e7a ?",
+      "postprocessed_text": "Tu t'es toujours senti comme \u00e7a ?",
+      "composition_time": "2018-04-28T20:04:08.311369",
+      "preprocessing_begin": "2018-04-28T20:04:08.350181",
+      "preprocessing_end": "2018-04-28T20:04:10.423744",
+      "translation_begin": "2018-04-28T20:04:10.423820",
+      "translation_end": "2018-04-28T20:04:12.102764",
+      "postprocessing_begin": "2018-04-28T20:04:12.103188",
+      "postprocessing_end": "2018-04-28T20:04:12.158017",
+      "sent_time": "2018-04-28T20:04:12.159665",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:05:10.626016",
+            true
+          ]
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:05:09.502551"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "Vous vous \u00eates toujours senti comme \u00e7a\u00a0?",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Je ne sais pas.",
+      "preprocessed_text": "je ne sais pas .",
+      "translated_text": "I don &apos;t know .",
+      "postprocessed_text": "I don't know.",
+      "composition_time": "2018-04-28T20:05:25.616518",
+      "preprocessing_begin": "2018-04-28T20:05:25.651923",
+      "preprocessing_end": "2018-04-28T20:05:27.587570",
+      "translation_begin": "2018-04-28T20:05:27.587633",
+      "translation_end": "2018-04-28T20:05:28.019005",
+      "postprocessing_begin": "2018-04-28T20:05:28.019327",
+      "postprocessing_end": "2018-04-28T20:05:28.048413",
+      "sent_time": "2018-04-28T20:05:28.049425",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I don\u2019t know.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Mais je crois que c'est de plus en plus difficile pour moi avec le temps.",
+      "preprocessed_text": "mais je crois que c&apos; est de plus en plus difficile pour moi avec le temps .",
+      "translated_text": "but I think it &apos;s getting harder for me in time .",
+      "postprocessed_text": "But I think it's getting harder for me in time.",
+      "composition_time": "2018-04-28T20:05:37.555768",
+      "preprocessing_begin": "2018-04-28T20:05:37.590157",
+      "preprocessing_end": "2018-04-28T20:05:39.859111",
+      "translation_begin": "2018-04-28T20:05:39.859178",
+      "translation_end": "2018-04-28T20:05:40.806224",
+      "postprocessing_begin": "2018-04-28T20:05:40.806544",
+      "postprocessing_end": "2018-04-28T20:05:40.847747",
+      "sent_time": "2018-04-28T20:05:40.848536",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:06:02.770969",
+            true
+          ]
+        ],
+        "verbatim": "\"in time\" should be \"with time\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:06:01.115343"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "\"in time\" should be \"with time\"",
+            "2018-04-28T20:06:12.494876",
+            "2018-04-28T20:06:12.494876"
+          ]
+        ]
+      },
+      "reference_translation": "But I think it\u2019s been getting worse over time.",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "french",
+      "original_text": "En plus, mes nouveaux voisins sont bizarres.",
+      "preprocessed_text": "en plus , mes nouveaux voisins sont bizarres .",
+      "translated_text": "plus , my new neighbors are weird .",
+      "postprocessed_text": "Plus, my new neighbors are weird.",
+      "composition_time": "2018-04-28T20:05:46.915142",
+      "preprocessing_begin": "2018-04-28T20:05:46.951890",
+      "preprocessing_end": "2018-04-28T20:05:49.088978",
+      "translation_begin": "2018-04-28T20:05:49.089134",
+      "translation_end": "2018-04-28T20:05:49.754924",
+      "postprocessing_begin": "2018-04-28T20:05:49.755290",
+      "postprocessing_end": "2018-04-28T20:05:49.788490",
+      "sent_time": "2018-04-28T20:05:49.789731",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "And my new neighbours are odd.",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Ils me regardent toujours d'un air \u00e9trange.",
+      "preprocessed_text": "ils me regardent toujours d&apos; un air \u00e9trange .",
+      "translated_text": "they always look at me with a strange look .",
+      "postprocessed_text": "They always look at me with a strange look.",
+      "composition_time": "2018-04-28T20:05:52.859788",
+      "preprocessing_begin": "2018-04-28T20:05:52.896831",
+      "preprocessing_end": "2018-04-28T20:05:55.002296",
+      "translation_begin": "2018-04-28T20:05:55.002393",
+      "translation_end": "2018-04-28T20:05:55.838534",
+      "postprocessing_begin": "2018-04-28T20:05:55.838811",
+      "postprocessing_end": "2018-04-28T20:05:55.876775",
+      "sent_time": "2018-04-28T20:05:55.877598",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:06:18.765074"
+          ]
+        ],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "They always look at me weirdly.",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Je pense qu'ils \u00e9coutent ce que je fais \u00e0 travers les murs.",
+      "preprocessed_text": "je pense qu&apos; ils \u00e9coutent ce que je fais \u00e0 travers les murs .",
+      "translated_text": "I think they &apos;re listening to what I &apos;m doing through the walls .",
+      "postprocessed_text": "I think they're listening to what I'm doing through the walls.",
+      "composition_time": "2018-04-28T20:06:06.506069",
+      "preprocessing_begin": "2018-04-28T20:06:06.542834",
+      "preprocessing_end": "2018-04-28T20:06:08.748989",
+      "translation_begin": "2018-04-28T20:06:08.749052",
+      "translation_end": "2018-04-28T20:06:09.777203",
+      "postprocessing_begin": "2018-04-28T20:06:09.777456",
+      "postprocessing_end": "2018-04-28T20:06:09.811080",
+      "sent_time": "2018-04-28T20:06:09.811901",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I think they listen to what I\u2019m doing through the walls.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "english",
+      "original_text": "Do you listen to them through the walls too?",
+      "preprocessed_text": "do you listen to them through the walls too ?",
+      "translated_text": "tu les \u00e9coutes aussi \u00e0 travers les murs ?",
+      "postprocessed_text": "Tu les \u00e9coutes aussi \u00e0 travers les murs ?",
+      "composition_time": "2018-04-28T20:06:32.753012",
+      "preprocessing_begin": "2018-04-28T20:06:32.787584",
+      "preprocessing_end": "2018-04-28T20:06:35.327350",
+      "translation_begin": "2018-04-28T20:06:35.327449",
+      "translation_end": "2018-04-28T20:06:36.149548",
+      "postprocessing_begin": "2018-04-28T20:06:36.149807",
+      "postprocessing_end": "2018-04-28T20:06:36.182093",
+      "sent_time": "2018-04-28T20:06:36.183167",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:07:27.473150",
+            true
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:07:26.056436"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-04-28T20:07:29.858991",
+            "2018-04-28T20:07:29.858991"
+          ]
+        ]
+      },
+      "reference_translation": "Vous les \u00e9coutez vous aussi \u00e0 travers les murs\u00a0?",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Oh non, j'aurais trop peur qu'ils s'aper\u00e7oivent que je les \u00e9coute.",
+      "preprocessed_text": "oh non , j&apos; aurais trop peur qu&apos; ils s&apos; aper\u00e7oivent que je les \u00e9coute .",
+      "translated_text": "oh , no , I &apos;d be too afraid if they found out I was listening .",
+      "postprocessed_text": "Oh, no, I'd be too afraid if they found out I was listening.",
+      "composition_time": "2018-04-28T20:06:50.741326",
+      "preprocessing_begin": "2018-04-28T20:06:50.778885",
+      "preprocessing_end": "2018-04-28T20:06:52.991042",
+      "translation_begin": "2018-04-28T20:06:52.991141",
+      "translation_end": "2018-04-28T20:06:54.054388",
+      "postprocessing_begin": "2018-04-28T20:06:54.054715",
+      "postprocessing_end": "2018-04-28T20:06:54.089933",
+      "sent_time": "2018-04-28T20:06:54.091639",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [],
+        "verbatim": "\"if\" would be better as \"that\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:06:59.370314"
+          ]
+        ],
+        "problems": [],
+        "verbatim_history": [
+          [
+            "\"if\" would be better as \"that\"",
+            "2018-04-28T20:07:13.920011",
+            "2018-04-28T20:07:13.920011"
+          ]
+        ]
+      },
+      "reference_translation": "Oh no, I would be too scared of them noticing me listening to them.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "french",
+      "original_text": "Mais je les entends quand m\u00eame.",
+      "preprocessed_text": "mais je les entends quand m\u00eame .",
+      "translated_text": "but I still hear them .",
+      "postprocessed_text": "But I still hear them.",
+      "composition_time": "2018-04-28T20:06:55.699046",
+      "preprocessing_begin": "2018-04-28T20:06:55.737493",
+      "preprocessing_end": "2018-04-28T20:06:57.807280",
+      "translation_begin": "2018-04-28T20:06:57.807349",
+      "translation_end": "2018-04-28T20:06:58.286129",
+      "postprocessing_begin": "2018-04-28T20:06:58.286442",
+      "postprocessing_end": "2018-04-28T20:06:58.320385",
+      "sent_time": "2018-04-28T20:06:58.321462",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "But I can hear them anyway.",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Les murs ne sont pas si \u00e9pais.",
+      "preprocessed_text": "les murs ne sont pas si \u00e9pais .",
+      "translated_text": "the walls aren &apos;t that thick .",
+      "postprocessed_text": "The walls aren't that thick.",
+      "composition_time": "2018-04-28T20:06:59.763681",
+      "preprocessing_begin": "2018-04-28T20:06:59.820298",
+      "preprocessing_end": "2018-04-28T20:07:01.882714",
+      "translation_begin": "2018-04-28T20:07:01.882781",
+      "translation_end": "2018-04-28T20:07:02.376630",
+      "postprocessing_begin": "2018-04-28T20:07:02.377184",
+      "postprocessing_end": "2018-04-28T20:07:02.422240",
+      "sent_time": "2018-04-28T20:07:02.423841",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "The walls aren\u2019t very thick.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "C'est pour \u00e7a aussi que je me sens \u00e9pi\u00e9 en continu.",
+      "preprocessed_text": "c&apos; est pour \u00e7a aussi que je me sens \u00e9pi@@ \u00e9 en continu .",
+      "translated_text": "that &apos;s why I feel like I &apos;m watching .",
+      "postprocessed_text": "That's why I feel like I'm watching.",
+      "composition_time": "2018-04-28T20:07:10.819813",
+      "preprocessing_begin": "2018-04-28T20:07:10.855379",
+      "preprocessing_end": "2018-04-28T20:07:12.961365",
+      "translation_begin": "2018-04-28T20:07:12.961416",
+      "translation_end": "2018-04-28T20:07:13.852902",
+      "postprocessing_begin": "2018-04-28T20:07:13.853185",
+      "postprocessing_end": "2018-04-28T20:07:13.883001",
+      "sent_time": "2018-04-28T20:07:13.884225",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-28T20:07:21.139044",
+            true
+          ],
+          [
+            "coherence",
+            "2018-04-28T20:07:22.309982",
+            true
+          ]
+        ],
+        "verbatim": "should maybe be \"being watched\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:07:19.467771"
+          ]
+        ],
+        "problems": [
+          "meaning",
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "should maybe be \"being watched\"",
+            "2018-04-28T20:07:30.708644",
+            "2018-04-28T20:07:30.708644"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s also why I feel spied on continually.",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "french",
+      "original_text": "Mais je n'ai pas l'argent de d\u00e9m\u00e9nager dans une maison.",
+      "preprocessed_text": "mais je n&apos; ai pas l&apos; argent de d\u00e9m\u00e9nager dans une maison .",
+      "translated_text": "but I don &apos;t have the money to move into a house .",
+      "postprocessed_text": "But I don't have the money to move into a house.",
+      "composition_time": "2018-04-28T20:07:21.754895",
+      "preprocessing_begin": "2018-04-28T20:07:21.790868",
+      "preprocessing_end": "2018-04-28T20:07:23.796796",
+      "translation_begin": "2018-04-28T20:07:23.796867",
+      "translation_end": "2018-04-28T20:07:24.701095",
+      "postprocessing_begin": "2018-04-28T20:07:24.701392",
+      "postprocessing_end": "2018-04-28T20:07:24.730986",
+      "sent_time": "2018-04-28T20:07:24.732130",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "But I don\u2019t have enough money to move into a house.",
+      "normalised_version": ""
+    },
+    "40": {
+      "language": "english",
+      "original_text": "Oh, so you live in a flat at the moment?",
+      "preprocessed_text": "oh , so you live in a flat at the moment ?",
+      "translated_text": "alors , vous vivez dans un appartement ?",
+      "postprocessed_text": "Alors, vous vivez dans un appartement ?",
+      "composition_time": "2018-04-28T20:07:59.131899",
+      "preprocessing_begin": "2018-04-28T20:07:59.168099",
+      "preprocessing_end": "2018-04-28T20:08:01.092783",
+      "translation_begin": "2018-04-28T20:08:01.092852",
+      "translation_end": "2018-04-28T20:08:01.871046",
+      "postprocessing_begin": "2018-04-28T20:08:01.871275",
+      "postprocessing_end": "2018-04-28T20:08:01.902161",
+      "sent_time": "2018-04-28T20:08:01.903027",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:08:12.380820",
+            true
+          ]
+        ],
+        "verbatim": "alors -> donc",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:08:08.292425"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim_history": [
+          [
+            "alors -> donc",
+            "2018-04-28T20:08:12.644492",
+            "2018-04-28T20:08:12.644492"
+          ]
+        ]
+      },
+      "reference_translation": "Ah, donc vous vivez dans un appartement actuellement\u00a0?",
+      "normalised_version": ""
+    },
+    "41": {
+      "language": "french",
+      "original_text": "Oui absolument, je ne vous l'ai pas dit plus t\u00f4t?",
+      "preprocessed_text": "oui absolument , je ne vous l&apos; ai pas dit plus t\u00f4t ?",
+      "translated_text": "yes , I did , didn &apos;t I tell you earlier ?",
+      "postprocessed_text": "Yes, I did, didn't I tell you earlier?",
+      "composition_time": "2018-04-28T20:08:24.744622",
+      "preprocessing_begin": "2018-04-28T20:08:24.782904",
+      "preprocessing_end": "2018-04-28T20:08:27.059102",
+      "translation_begin": "2018-04-28T20:08:27.059190",
+      "translation_end": "2018-04-28T20:08:28.169385",
+      "postprocessing_begin": "2018-04-28T20:08:28.169891",
+      "postprocessing_end": "2018-04-28T20:08:28.212739",
+      "sent_time": "2018-04-28T20:08:28.213798",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:12:36.128182"
+          ],
+          [
+            "perfect",
+            "2018-04-28T20:12:38.154408"
+          ]
+        ],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Yes, absolutely. Didn\u2019t I tell you earlier? ",
+      "normalised_version": ""
+    },
+    "42": {
+      "language": "french",
+      "original_text": "Je suis d\u00e9sol\u00e9.",
+      "preprocessed_text": "je suis d\u00e9sol\u00e9 .",
+      "translated_text": "I &apos;m sorry .",
+      "postprocessed_text": "I'm sorry.",
+      "composition_time": "2018-04-28T20:08:24.744622",
+      "preprocessing_begin": "2018-04-28T20:08:24.782904",
+      "preprocessing_end": "2018-04-28T20:08:27.059102",
+      "translation_begin": "2018-04-28T20:08:27.059190",
+      "translation_end": "2018-04-28T20:08:28.169385",
+      "postprocessing_begin": "2018-04-28T20:08:28.169891",
+      "postprocessing_end": "2018-04-28T20:08:28.212739",
+      "sent_time": "2018-04-28T20:08:28.214508",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m sorry.",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "english",
+      "original_text": "Maybe you did.",
+      "preprocessed_text": "maybe you did .",
+      "translated_text": "peut @-@ \u00eatre que si .",
+      "postprocessed_text": "Peut-\u00eatre que si.",
+      "composition_time": "2018-04-28T20:08:58.931319",
+      "preprocessing_begin": "2018-04-28T20:08:58.981644",
+      "preprocessing_end": "2018-04-28T20:09:00.965657",
+      "translation_begin": "2018-04-28T20:09:00.965719",
+      "translation_end": "2018-04-28T20:09:02.836167",
+      "postprocessing_begin": "2018-04-28T20:09:02.836431",
+      "postprocessing_end": "2018-04-28T20:09:02.866434",
+      "sent_time": "2018-04-28T20:09:02.867249",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Vous l'avez peut-\u00eatre dit.",
+      "normalised_version": ""
+    },
+    "44": {
+      "language": "english",
+      "original_text": "No worries.",
+      "preprocessed_text": "no worries .",
+      "translated_text": "pas de souci .",
+      "postprocessed_text": "Pas de souci.",
+      "composition_time": "2018-04-28T20:08:58.931319",
+      "preprocessing_begin": "2018-04-28T20:08:58.981644",
+      "preprocessing_end": "2018-04-28T20:09:00.965657",
+      "translation_begin": "2018-04-28T20:09:00.965719",
+      "translation_end": "2018-04-28T20:09:02.836167",
+      "postprocessing_begin": "2018-04-28T20:09:02.836431",
+      "postprocessing_end": "2018-04-28T20:09:02.866434",
+      "sent_time": "2018-04-28T20:09:02.867709",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Pas de souci.",
+      "normalised_version": ""
+    },
+    "45": {
+      "language": "english",
+      "original_text": "But you never had problems with the old neighbours then?",
+      "preprocessed_text": "but you never had problems with the old neighbours then ?",
+      "translated_text": "mais tu n&apos; as jamais eu de probl\u00e8mes avec les vieux voisins ?",
+      "postprocessed_text": "Mais tu n'as jamais eu de probl\u00e8mes avec les vieux voisins ?",
+      "composition_time": "2018-04-28T20:08:58.931319",
+      "preprocessing_begin": "2018-04-28T20:08:58.981644",
+      "preprocessing_end": "2018-04-28T20:09:00.965657",
+      "translation_begin": "2018-04-28T20:09:00.965719",
+      "translation_end": "2018-04-28T20:09:02.836167",
+      "postprocessing_begin": "2018-04-28T20:09:02.836431",
+      "postprocessing_end": "2018-04-28T20:09:02.866434",
+      "sent_time": "2018-04-28T20:09:02.868187",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-04-28T20:09:10.901709",
+            true
+          ],
+          [
+            "meaning",
+            "2018-04-28T20:09:18.316968",
+            true
+          ]
+        ],
+        "verbatim": "tu/vous ; \"vieux\" > \"pr\u00e9c\u00e9dents\" ou \"anciens\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:09:09.514954"
+          ]
+        ],
+        "problems": [
+          "word choice",
+          "meaning"
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous ; \"vieux\" > \"pr\u00e9c\u00e9dents\" ou \"anciens\"",
+            "2018-04-28T20:09:31.260320",
+            "2018-04-28T20:09:31.260320"
+          ]
+        ]
+      },
+      "reference_translation": "Mais alors vous n'avez jamais eu de probl\u00e8me avec vos anciens voisins\u00a0?",
+      "normalised_version": ""
+    },
+    "46": {
+      "language": "french",
+      "original_text": "C'\u00e9tait une personne \u00e2g\u00e9e qui n'entendait rien et ne faisait pas de bruit.",
+      "preprocessed_text": "c&apos; \u00e9tait une personne \u00e2g\u00e9e qui n&apos; entendait rien et ne faisait pas de bruit .",
+      "translated_text": "she was an old person who didn &apos;t hear anything and make no noise .",
+      "postprocessed_text": "She was an old person who didn't hear anything and make no noise.",
+      "composition_time": "2018-04-28T20:09:51.718704",
+      "preprocessing_begin": "2018-04-28T20:09:51.753862",
+      "preprocessing_end": "2018-04-28T20:09:53.855659",
+      "translation_begin": "2018-04-28T20:09:53.855838",
+      "translation_end": "2018-04-28T20:09:55.511079",
+      "postprocessing_begin": "2018-04-28T20:09:55.511362",
+      "postprocessing_end": "2018-04-28T20:09:55.542696",
+      "sent_time": "2018-04-28T20:09:55.543893",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-04-28T20:10:15.246994",
+            true
+          ]
+        ],
+        "verbatim": "neighbours was plural, but he mentions just one person. Slightly incoherent way of replying with respect to the question",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:10:14.093819"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim_history": [
+          [
+            "neighbours was plural, but he mentions just one person. Slightly incoherent way of replying with respect to the question",
+            "2018-04-28T20:10:42.588662",
+            "2018-04-28T20:10:42.588662"
+          ]
+        ]
+      },
+      "reference_translation": "It was an elderly woman who couldn\u2019t hear a thing and didn\u2019t make any noise.",
+      "normalised_version": ""
+    },
+    "47": {
+      "language": "french",
+      "original_text": "Je me sentais plus chez moi.",
+      "preprocessed_text": "je me sentais plus chez moi .",
+      "translated_text": "I didn &apos;t feel at home .",
+      "postprocessed_text": "I didn't feel at home.",
+      "composition_time": "2018-04-28T20:09:51.718704",
+      "preprocessing_begin": "2018-04-28T20:09:51.753862",
+      "preprocessing_end": "2018-04-28T20:09:53.855659",
+      "translation_begin": "2018-04-28T20:09:53.855838",
+      "translation_end": "2018-04-28T20:09:55.511079",
+      "postprocessing_begin": "2018-04-28T20:09:55.511362",
+      "postprocessing_end": "2018-04-28T20:09:55.542696",
+      "sent_time": "2018-04-28T20:09:55.544596",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I felt more at home.",
+      "normalised_version": ""
+    },
+    "48": {
+      "language": "english",
+      "original_text": "Well, that will give us a good basis to start with next time.",
+      "preprocessed_text": "well , that will give us a good basis to start with next time .",
+      "translated_text": "\u00e7a nous donnera une bonne base pour commencer la prochaine fois .",
+      "postprocessed_text": "\u00c7a nous donnera une bonne base pour commencer la prochaine fois.",
+      "composition_time": "2018-04-28T20:11:23.082988",
+      "preprocessing_begin": "2018-04-28T20:11:23.120110",
+      "preprocessing_end": "2018-04-28T20:11:25.133280",
+      "translation_begin": "2018-04-28T20:11:25.133348",
+      "translation_end": "2018-04-28T20:11:28.560405",
+      "postprocessing_begin": "2018-04-28T20:11:28.560651",
+      "postprocessing_end": "2018-04-28T20:11:28.601132",
+      "sent_time": "2018-04-28T20:11:28.601970",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Bon, \u00e7a nous donne un bon point de d\u00e9part d'o\u00f9 partir la prochaine fois.",
+      "normalised_version": ""
+    },
+    "49": {
+      "language": "english",
+      "original_text": "I'm afraid our time is up for today.",
+      "preprocessed_text": "I &apos;m afraid our time is up for today .",
+      "translated_text": "je crains que notre temps soit \u00e9coul\u00e9 .",
+      "postprocessed_text": "Je crains que notre temps soit \u00e9coul\u00e9.",
+      "composition_time": "2018-04-28T20:11:23.082988",
+      "preprocessing_begin": "2018-04-28T20:11:23.120110",
+      "preprocessing_end": "2018-04-28T20:11:25.133280",
+      "translation_begin": "2018-04-28T20:11:25.133348",
+      "translation_end": "2018-04-28T20:11:28.560405",
+      "postprocessing_begin": "2018-04-28T20:11:28.560651",
+      "postprocessing_end": "2018-04-28T20:11:28.601132",
+      "sent_time": "2018-04-28T20:11:28.602369",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-04-28T20:11:42.418455",
+            true
+          ]
+        ],
+        "verbatim": "\"je crains que\" est un anglicisme",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:11:41.086815"
+          ]
+        ],
+        "problems": [
+          "style"
+        ],
+        "verbatim_history": [
+          [
+            "\"je crains que\" est un anglicisme",
+            "2018-04-28T20:11:48.452582",
+            "2018-04-28T20:11:48.452582"
+          ]
+        ]
+      },
+      "reference_translation": "Malheureusement nous arrivons \u00e0 la fin de votre s\u00e9ance d'aujourd'hui",
+      "normalised_version": ""
+    },
+    "50": {
+      "language": "english",
+      "original_text": "I've got lots of other patients to see.",
+      "preprocessed_text": "I &apos;ve got lots of other patients to see .",
+      "translated_text": "j&apos; ai plein d&apos; autres patients \u00e0 voir .",
+      "postprocessed_text": "J'ai plein d'autres patients \u00e0 voir.",
+      "composition_time": "2018-04-28T20:11:23.082988",
+      "preprocessing_begin": "2018-04-28T20:11:23.120110",
+      "preprocessing_end": "2018-04-28T20:11:25.133280",
+      "translation_begin": "2018-04-28T20:11:25.133348",
+      "translation_end": "2018-04-28T20:11:28.560405",
+      "postprocessing_begin": "2018-04-28T20:11:28.560651",
+      "postprocessing_end": "2018-04-28T20:11:28.601132",
+      "sent_time": "2018-04-28T20:11:28.602731",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "J'ai plein d'autre patients \u00e0 voir.",
+      "normalised_version": ""
+    },
+    "51": {
+      "language": "english",
+      "original_text": "And a blind date this lunchtime!",
+      "preprocessed_text": "and a blind date this lunchtime !",
+      "translated_text": "et un rendez @-@ vous arrang\u00e9 ce midi !",
+      "postprocessed_text": "Et un rendez-vous arrang\u00e9 ce midi !",
+      "composition_time": "2018-04-28T20:11:23.082988",
+      "preprocessing_begin": "2018-04-28T20:11:23.120110",
+      "preprocessing_end": "2018-04-28T20:11:25.133280",
+      "translation_begin": "2018-04-28T20:11:25.133348",
+      "translation_end": "2018-04-28T20:11:28.560405",
+      "postprocessing_begin": "2018-04-28T20:11:28.560651",
+      "postprocessing_end": "2018-04-28T20:11:28.601132",
+      "sent_time": "2018-04-28T20:11:28.603095",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-04-28T20:12:12.806969",
+            true
+          ]
+        ],
+        "verbatim": "bizarre (arrang\u00e9?)",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:12:05.515254"
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim_history": [
+          [
+            "bizarre (arrang\u00e9?)",
+            "2018-04-28T20:12:14.271813",
+            "2018-04-28T20:12:14.271813"
+          ]
+        ]
+      },
+      "reference_translation": "Et j'ai un blind date ce midi !",
+      "normalised_version": ""
+    },
+    "52": {
+      "language": "english",
+      "original_text": "Please sign out at reception when you leave.",
+      "preprocessed_text": "please sign out at reception when you leave .",
+      "translated_text": "s&apos; il vous pla\u00eet , signez \u00e0 la r\u00e9ception quand vous partirez .",
+      "postprocessed_text": "S'il vous pla\u00eet, signez \u00e0 la r\u00e9ception quand vous partirez.",
+      "composition_time": "2018-04-28T20:11:36.095099",
+      "preprocessing_begin": "2018-04-28T20:11:36.130579",
+      "preprocessing_end": "2018-04-28T20:11:38.136129",
+      "translation_begin": "2018-04-28T20:11:38.136212",
+      "translation_end": "2018-04-28T20:11:38.943049",
+      "postprocessing_begin": "2018-04-28T20:11:38.943348",
+      "postprocessing_end": "2018-04-28T20:11:38.974892",
+      "sent_time": "2018-04-28T20:11:38.975727",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "style",
+            "2018-04-28T20:12:47.423387",
+            true
+          ]
+        ],
+        "verbatim": "\"quand vous partirez\" > \"en partant\" ; \"signez \u00e0\" sonne \u00e9trange",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-04-28T20:12:25.649532"
+          ]
+        ],
+        "problems": [
+          "style"
+        ],
+        "verbatim_history": [
+          [
+            "\"quand vous partirez\" > \"en partant\" ; \"signez \u00e0\" sonne \u00e9trange",
+            "2018-04-28T20:12:48.566462",
+            "2018-04-28T20:12:48.566462"
+          ]
+        ]
+      },
+      "reference_translation": "Signez en partant \u00e0 la r\u00e9ception, s'il vous pla\u00eet.",
+      "normalised_version": ""
+    },
+    "53": {
+      "language": "french",
+      "original_text": "D'accord, merci pour votre temps, d\u00e9sol\u00e9 de vous avoir importun\u00e9.",
+      "preprocessed_text": "d&apos; accord , merci pour votre temps , d\u00e9sol\u00e9 de vous avoir importun@@ \u00e9 .",
+      "translated_text": "okay , thanks for your time , I &apos;m sorry I bothered you .",
+      "postprocessed_text": "Okay, thanks for your time, I'm sorry I bothered you.",
+      "composition_time": "2018-04-28T20:12:58.994474",
+      "preprocessing_begin": "2018-04-28T20:12:59.031370",
+      "preprocessing_end": "2018-04-28T20:13:01.171605",
+      "translation_begin": "2018-04-28T20:13:01.171684",
+      "translation_end": "2018-04-28T20:13:02.133341",
+      "postprocessing_begin": "2018-04-28T20:13:02.133651",
+      "postprocessing_end": "2018-04-28T20:13:02.171994",
+      "sent_time": "2018-04-28T20:13:02.172901",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Ok, thank you for your time. Sorry to have bothered you.",
+      "normalised_version": ""
+    },
+    "54": {
+      "language": "french",
+      "original_text": "Et d\u00e9sol\u00e9 d'\u00eatre tout le temps d\u00e9sol\u00e9...",
+      "preprocessed_text": "et d\u00e9sol\u00e9 d&apos; \u00eatre tout le temps d\u00e9sol\u00e9 ...",
+      "translated_text": "and I &apos;m sorry I &apos;m always sorry ...",
+      "postprocessed_text": "And I'm sorry I'm always sorry...",
+      "composition_time": "2018-04-28T20:13:04.475563",
+      "preprocessing_begin": "2018-04-28T20:13:04.510265",
+      "preprocessing_end": "2018-04-28T20:13:06.588902",
+      "translation_begin": "2018-04-28T20:13:06.588974",
+      "translation_end": "2018-04-28T20:13:07.309050",
+      "postprocessing_begin": "2018-04-28T20:13:07.309393",
+      "postprocessing_end": "2018-04-28T20:13:07.340392",
+      "sent_time": "2018-04-28T20:13:07.341491",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "And sorry for being sorry all the time.",
+      "normalised_version": ""
+    },
+    "55": {
+      "language": "french",
+      "original_text": "Je suis d\u00e9sol\u00e9.",
+      "preprocessed_text": "je suis d\u00e9sol\u00e9 .",
+      "translated_text": "I &apos;m sorry .",
+      "postprocessed_text": "I'm sorry.",
+      "composition_time": "2018-04-28T20:13:07.366319",
+      "preprocessing_begin": "2018-04-28T20:13:07.400332",
+      "preprocessing_end": "2018-04-28T20:13:09.485753",
+      "translation_begin": "2018-04-28T20:13:09.485853",
+      "translation_end": "2018-04-28T20:13:09.878744",
+      "postprocessing_begin": "2018-04-28T20:13:09.879056",
+      "postprocessing_end": "2018-04-28T20:13:09.912402",
+      "sent_time": "2018-04-28T20:13:09.913266",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim": "",
+        "judgment_history": [],
+        "problems": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m sorry.",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "timestamp": "2018-04-28T20:14:31.591437",
+    "tech": "There were no technical problems",
+    "grammaticality": "good",
+    "would_use": true,
+    "coherence": "poor",
+    "particular_problems": "dans ce sc\u00e9nario, il aurait fallu utiliser \"vous\" syst\u00e9matiquement. or dans la plupart des cas le syst\u00e8me a produit du tutoiement.",
+    "verbatim_quality": "",
+    "style": "good",
+    "meaning": "good",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "timestamp": "2018-04-28T20:14:51.956478",
+    "tech": "There were no technical problems",
+    "grammaticality": "good",
+    "would_use": true,
+    "coherence": "average",
+    "particular_problems": "",
+    "verbatim_quality": "",
+    "style": "excellent",
+    "meaning": "good",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}
