@@ -1,0 +1,2094 @@
+{
+  "start_time": "2018-05-06T19:33:29.335750",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a bar.",
+      "Vous \u00eates dans un bar."
+    ],
+    [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": true,
+    "role_num": 1,
+    "role": [
+      "You are the bartender and talking to a customer.",
+      "Vous \u00eates barman/barmaid et vous parlez \u00e0 un(e) client(e)."
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (X11; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": false,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "You are a customer and are talking to the bartender.",
+      "Vous \u00eates un(e) client(e) et vous parlez au barman/\u00e0 la barmaid."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 2
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "It's not too early for a cocktail is it?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> it &apos;s not too early for a cocktail is it ?",
+      "translated_text": "bonne nuit . <CONCAT> il n&apos; est pas trop t\u00f4t pour un cocktail ?",
+      "postprocessed_text": "Il n'est pas trop t\u00f4t pour un cocktail ?",
+      "composition_time": "2018-05-06T19:34:02.986794",
+      "preprocessing_begin": "2018-05-06T19:34:03.044114",
+      "preprocessing_end": "2018-05-06T19:34:05.376030",
+      "translation_begin": "2018-05-06T19:34:05.376121",
+      "translation_end": "2018-05-06T19:34:06.547416",
+      "postprocessing_begin": "2018-05-06T19:34:06.547696",
+      "postprocessing_end": "2018-05-06T19:34:06.581712",
+      "sent_time": "2018-05-06T19:34:06.582935",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:35:38.526477"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Il n'est pas trop t\u00f4t pour un cocktail, n'est-ce pas\u00a0?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "french",
+      "original_text": "Cela d\u00e9pend du client.",
+      "preprocessed_text": "il n&apos; est pas trop t\u00f4t pour un cocktail ? <CONCAT> cela d\u00e9pend du client .",
+      "translated_text": "isn &apos;t it too early for a cocktail ? <CONCAT> it depends on the client .",
+      "postprocessed_text": "It depends on the client.",
+      "composition_time": "2018-05-06T19:34:45.646809",
+      "preprocessing_begin": "2018-05-06T19:34:45.690569",
+      "preprocessing_end": "2018-05-06T19:34:48.033595",
+      "translation_begin": "2018-05-06T19:34:48.033704",
+      "translation_end": "2018-05-06T19:34:53.654744",
+      "postprocessing_begin": "2018-05-06T19:34:53.655141",
+      "postprocessing_end": "2018-05-06T19:34:53.699945",
+      "sent_time": "2018-05-06T19:34:53.701490",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:36:21.334677",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "client",
+            "2018-05-06T19:36:23.883981",
+            "2018-05-06T19:36:23.883981"
+          ]
+        ],
+        "verbatim": "client",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:36:19.969507"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "It depends on the customer.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Si vous en voulez un je le fait.",
+      "preprocessed_text": "cela d\u00e9pend du client . <CONCAT> si vous en voulez un je le fait .",
+      "translated_text": "it depends on the client . <CONCAT> if you want one , I &apos;ll do it .",
+      "postprocessed_text": "If you want one, I'll do it.",
+      "composition_time": "2018-05-06T19:34:45.646809",
+      "preprocessing_begin": "2018-05-06T19:34:45.690569",
+      "preprocessing_end": "2018-05-06T19:34:48.033595",
+      "translation_begin": "2018-05-06T19:34:48.033704",
+      "translation_end": "2018-05-06T19:34:53.654744",
+      "postprocessing_begin": "2018-05-06T19:34:53.655141",
+      "postprocessing_end": "2018-05-06T19:34:53.699945",
+      "sent_time": "2018-05-06T19:34:53.702460",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:36:25.185066"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "If you want one, I\u2019ll make you one.",
+      "normalised_version": "Si vous en voulez un je le fais."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Sinon, je n'en fait pas.",
+      "preprocessed_text": "si vous en voulez un je le fait . <CONCAT> sinon , je n&apos; en fait pas .",
+      "translated_text": "if you want one I &apos;ll do it . <CONCAT> otherwise , I don &apos;t .",
+      "postprocessed_text": "Otherwise, I don't.",
+      "composition_time": "2018-05-06T19:34:45.646809",
+      "preprocessing_begin": "2018-05-06T19:34:45.690569",
+      "preprocessing_end": "2018-05-06T19:34:48.033595",
+      "translation_begin": "2018-05-06T19:34:48.033704",
+      "translation_end": "2018-05-06T19:34:53.654744",
+      "postprocessing_begin": "2018-05-06T19:34:53.655141",
+      "postprocessing_end": "2018-05-06T19:34:53.699945",
+      "sent_time": "2018-05-06T19:34:53.703413",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-06T19:36:28.866855",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"I don't\"",
+            "2018-05-06T19:36:35.726461",
+            "2018-05-06T19:36:35.726461"
+          ],
+          [
+            "\"I don't\" should be \"I won't\"",
+            "2018-05-06T19:36:50.105974",
+            "2018-05-06T19:36:50.105974"
+          ]
+        ],
+        "verbatim": "\"I don't\" should be \"I won't\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:36:27.566675"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Otherwise I won\u2019t.",
+      "normalised_version": "Sinon, je n'en fais pas."
+    },
+    "4": {
+      "language": "french",
+      "original_text": "C'est \u00e0 vous client de d\u00e9cider de ce qui vous convient... dans une certaine mesure.",
+      "preprocessed_text": "sinon , je n&apos; en fait pas . <CONCAT> c&apos; est \u00e0 vous client de d\u00e9cider de ce qui vous convient ... dans une certaine mesure .",
+      "translated_text": "otherwise , I don &apos;t . <CONCAT> it &apos;s up to you to decide what &apos;s best for you ... to a certain extent .",
+      "postprocessed_text": "It's up to you to decide what's best for you... to a certain extent.",
+      "composition_time": "2018-05-06T19:34:45.646809",
+      "preprocessing_begin": "2018-05-06T19:34:45.690569",
+      "preprocessing_end": "2018-05-06T19:34:48.033595",
+      "translation_begin": "2018-05-06T19:34:48.033704",
+      "translation_end": "2018-05-06T19:34:53.654744",
+      "postprocessing_begin": "2018-05-06T19:34:53.655141",
+      "postprocessing_end": "2018-05-06T19:34:53.699945",
+      "sent_time": "2018-05-06T19:34:53.704362",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:36:54.903606"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s up to you as the customer to decide what\u2019s right for you\u2026 up to a point.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "Oh, ok.",
+      "preprocessed_text": "it &apos;s up to you to decide what &apos;s best for you ... to a certain extent . <CONCAT> oh , ok .",
+      "translated_text": "c&apos; est \u00e0 toi de d\u00e9cider de ce qui est mieux pour toi ... dans une certaine mesure . <CONCAT> oh , ok .",
+      "postprocessed_text": "Oh, ok.",
+      "composition_time": "2018-05-06T19:36:08.116887",
+      "preprocessing_begin": "2018-05-06T19:36:08.172655",
+      "preprocessing_end": "2018-05-06T19:36:10.513568",
+      "translation_begin": "2018-05-06T19:36:10.513673",
+      "translation_end": "2018-05-06T19:36:16.565280",
+      "postprocessing_begin": "2018-05-06T19:36:16.565718",
+      "postprocessing_end": "2018-05-06T19:36:16.604099",
+      "sent_time": "2018-05-06T19:36:16.605775",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:36:19.353158"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Ah, OK.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "english",
+      "original_text": "Well I could have one then, if you don't mind that is... Do you have a menu?",
+      "preprocessed_text": "oh , ok . <CONCAT> well I could have one then , if you don &apos;t mind that is ... Do you have a menu ?",
+      "translated_text": "oh , d&apos; accord . <CONCAT> je pourrais en avoir un alors , si \u00e7a ne te d\u00e9range pas ...",
+      "postprocessed_text": "Je pourrais en avoir un alors, si \u00e7a ne te d\u00e9range pas...",
+      "composition_time": "2018-05-06T19:36:08.116887",
+      "preprocessing_begin": "2018-05-06T19:36:08.172655",
+      "preprocessing_end": "2018-05-06T19:36:10.513568",
+      "translation_begin": "2018-05-06T19:36:10.513673",
+      "translation_end": "2018-05-06T19:36:16.565280",
+      "postprocessing_begin": "2018-05-06T19:36:16.565718",
+      "postprocessing_end": "2018-05-06T19:36:16.604099",
+      "sent_time": "2018-05-06T19:36:16.606880",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:36:26.853115",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "vous/ru",
+            "2018-05-06T19:36:34.286988",
+            "2018-05-06T19:36:34.286988"
+          ]
+        ],
+        "verbatim": "vous/ru",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:36:22.980021"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Bon je vais en prendre un, alors, enfin si \u00e7a ne vous d\u00e9range pas\u2026 Vous avez une carte\u00a0?",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "Are there any specials?",
+      "preprocessed_text": "well I could have one then , if you don &apos;t mind that is ... Do you have a menu ? <CONCAT> are there any specials ?",
+      "translated_text": "je pourrais en avoir un alors , si \u00e7a ne vous d\u00e9range pas ... Vous avez un menu ? <CONCAT> y a @-@ t @-@ il des plats sp\u00e9ciaux ?",
+      "postprocessed_text": "Y a-t-il des plats sp\u00e9ciaux ?",
+      "composition_time": "2018-05-06T19:36:08.116887",
+      "preprocessing_begin": "2018-05-06T19:36:08.172655",
+      "preprocessing_end": "2018-05-06T19:36:10.513568",
+      "translation_begin": "2018-05-06T19:36:10.513673",
+      "translation_end": "2018-05-06T19:36:16.565280",
+      "postprocessing_begin": "2018-05-06T19:36:16.565718",
+      "postprocessing_end": "2018-05-06T19:36:16.604099",
+      "sent_time": "2018-05-06T19:36:16.607995",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:36:34.283404"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Vous avez des cocktails du jour\u00a0?",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Vous voulez un cocktail avec une planche \u00e0 d\u00e9guster ?",
+      "preprocessed_text": "y a @-@ t @-@ il des plats sp\u00e9ciaux ? <CONCAT> vous voulez un cocktail avec une planche \u00e0 d\u00e9guster ?",
+      "translated_text": "is there special food ? <CONCAT> would you like a cocktail with a piece of it ?",
+      "postprocessed_text": "Would you like a cocktail with a piece of it?",
+      "composition_time": "2018-05-06T19:37:07.073920",
+      "preprocessing_begin": "2018-05-06T19:37:07.124503",
+      "preprocessing_end": "2018-05-06T19:37:09.422103",
+      "translation_begin": "2018-05-06T19:37:09.422201",
+      "translation_end": "2018-05-06T19:37:14.280493",
+      "postprocessing_begin": "2018-05-06T19:37:14.280827",
+      "postprocessing_end": "2018-05-06T19:37:14.315696",
+      "sent_time": "2018-05-06T19:37:14.316971",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:38:39.235659",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-06T19:38:40.318208",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-06T19:38:41.112150",
+            false
+          ],
+          [
+            "coherence",
+            "2018-05-06T19:38:42.634158",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"with a piece of it\"",
+            "2018-05-06T19:38:47.089209",
+            "2018-05-06T19:38:47.089209"
+          ]
+        ],
+        "verbatim": "\"with a piece of it\"",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-06T19:38:38.012140"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning",
+          "coherence"
+        ]
+      },
+      "reference_translation": "Would you like a cocktail with a tasting platter?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "On a quelques planches sp\u00e9ciales.",
+      "preprocessed_text": "vous voulez un cocktail avec une planche \u00e0 d\u00e9guster ? <CONCAT> on a quelques planches sp\u00e9ciales .",
+      "translated_text": "you want a cocktail with a piece of board ? <CONCAT> we have some special plates .",
+      "postprocessed_text": "We have some special plates.",
+      "composition_time": "2018-05-06T19:37:07.073920",
+      "preprocessing_begin": "2018-05-06T19:37:07.124503",
+      "preprocessing_end": "2018-05-06T19:37:09.422103",
+      "translation_begin": "2018-05-06T19:37:09.422201",
+      "translation_end": "2018-05-06T19:37:14.280493",
+      "postprocessing_begin": "2018-05-06T19:37:14.280827",
+      "postprocessing_end": "2018-05-06T19:37:14.315696",
+      "sent_time": "2018-05-06T19:37:14.317608",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:37:33.755876",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "plates",
+            "2018-05-06T19:38:52.347847",
+            "2018-05-06T19:38:52.347847"
+          ]
+        ],
+        "verbatim": "plates",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:37:32.712306"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "We have some special platters.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Surtout pour partager.",
+      "preprocessed_text": "on a quelques planches sp\u00e9ciales . <CONCAT> surtout pour partager .",
+      "translated_text": "we have some special boards . <CONCAT> especially to share .",
+      "postprocessed_text": "Especially to share.",
+      "composition_time": "2018-05-06T19:37:07.073920",
+      "preprocessing_begin": "2018-05-06T19:37:07.124503",
+      "preprocessing_end": "2018-05-06T19:37:09.422103",
+      "translation_begin": "2018-05-06T19:37:09.422201",
+      "translation_end": "2018-05-06T19:37:14.280493",
+      "postprocessing_begin": "2018-05-06T19:37:14.280827",
+      "postprocessing_end": "2018-05-06T19:37:14.315696",
+      "sent_time": "2018-05-06T19:37:14.318199",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:37:35.654136"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Especially for sharing.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "C'est tr\u00e8s bon avec un mojito par exemple.",
+      "preprocessed_text": "surtout pour partager . <CONCAT> c&apos; est tr\u00e8s bon avec un mojito par exemple .",
+      "translated_text": "mostly to share . <CONCAT> it &apos;s very good with a mojito .",
+      "postprocessed_text": "It's very good with a mojito.",
+      "composition_time": "2018-05-06T19:37:07.073920",
+      "preprocessing_begin": "2018-05-06T19:37:07.124503",
+      "preprocessing_end": "2018-05-06T19:37:09.422103",
+      "translation_begin": "2018-05-06T19:37:09.422201",
+      "translation_end": "2018-05-06T19:37:14.280493",
+      "postprocessing_begin": "2018-05-06T19:37:14.280827",
+      "postprocessing_end": "2018-05-06T19:37:14.315696",
+      "sent_time": "2018-05-06T19:37:14.318797",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-06T19:37:37.492694",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"It\" should be plural",
+            "2018-05-06T19:37:46.666319",
+            "2018-05-06T19:37:46.666319"
+          ]
+        ],
+        "verbatim": "\"It\" should be plural",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:37:36.394158"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "They\u2019re very good with a mojito for example.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "I'm not that hungry actually.",
+      "preprocessed_text": "it &apos;s very good with a mojito . <CONCAT> I &apos;m not that hungry actually .",
+      "translated_text": "c&apos; est tr\u00e8s bon avec un mojito . <CONCAT> je n&apos; ai pas tr\u00e8s faim en fait .",
+      "postprocessed_text": "Je n'ai pas tr\u00e8s faim en fait.",
+      "composition_time": "2018-05-06T19:38:29.272213",
+      "preprocessing_begin": "2018-05-06T19:38:29.330323",
+      "preprocessing_end": "2018-05-06T19:38:31.746962",
+      "translation_begin": "2018-05-06T19:38:31.747060",
+      "translation_end": "2018-05-06T19:38:35.137756",
+      "postprocessing_begin": "2018-05-06T19:38:35.138190",
+      "postprocessing_end": "2018-05-06T19:38:35.173228",
+      "sent_time": "2018-05-06T19:38:35.174673",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:38:44.959832"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je n'ai pas faim, en fait.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "But what do you mean by \"a piece of it\"?",
+      "preprocessed_text": "I &apos;m not that hungry actually . <CONCAT> but what do you mean by &quot; a piece of it &quot; ?",
+      "translated_text": "je n&apos; ai pas tr\u00e8s faim en fait . <CONCAT> mais qu&apos; est @-@ ce que tu veux dire par &quot; un morceau de \u00e7a &quot; ?",
+      "postprocessed_text": "Mais qu'est-ce que tu veux dire par \"un morceau de \u00e7a\" ?",
+      "composition_time": "2018-05-06T19:38:29.272213",
+      "preprocessing_begin": "2018-05-06T19:38:29.330323",
+      "preprocessing_end": "2018-05-06T19:38:31.746962",
+      "translation_begin": "2018-05-06T19:38:31.747060",
+      "translation_end": "2018-05-06T19:38:35.137756",
+      "postprocessing_begin": "2018-05-06T19:38:35.138190",
+      "postprocessing_end": "2018-05-06T19:38:35.173228",
+      "sent_time": "2018-05-06T19:38:35.175547",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:39:25.595292",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-06T19:39:29.272832",
+            "2018-05-06T19:39:29.272832"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:39:17.486255"
+          ],
+          [
+            "medium",
+            "2018-05-06T19:39:22.706340"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Mais que voulez-vous dire par \u00ab\u00a0un morceau de \u00e7a\u00a0\u00bb\u00a0?",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Vous voulez dire une planche \u00e0 partager ?",
+      "preprocessed_text": "mais qu&apos; est @-@ ce que tu veux dire par &quot; un morceau de \u00e7a &quot; ? <CONCAT> vous voulez dire une planche \u00e0 partager ?",
+      "translated_text": "what do you mean , &quot; a piece of it &quot; ? <CONCAT> you mean a board to share ?",
+      "postprocessed_text": "You mean a board to share?",
+      "composition_time": "2018-05-06T19:39:11.779125",
+      "preprocessing_begin": "2018-05-06T19:39:11.832966",
+      "preprocessing_end": "2018-05-06T19:39:14.308112",
+      "translation_begin": "2018-05-06T19:39:14.308236",
+      "translation_end": "2018-05-06T19:39:17.440505",
+      "postprocessing_begin": "2018-05-06T19:39:17.440795",
+      "postprocessing_end": "2018-05-06T19:39:17.475489",
+      "sent_time": "2018-05-06T19:39:17.477026",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:40:51.151287",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:40:51.143947"
+          ],
+          [
+            "medium",
+            "2018-05-06T19:40:51.148739"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Do you mean a sharing board?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "C'est une planche avec des sp\u00e9cialit\u00e9s pour un ap\u00e9ritifs entre amis.",
+      "preprocessed_text": "vous voulez dire une planche \u00e0 partager ? <CONCAT> c&apos; est une planche avec des sp\u00e9cialit\u00e9s pour un ap\u00e9ri@@ tifs entre amis .",
+      "translated_text": "you mean a board to share ? <CONCAT> it &apos;s a board with speci@@ alities for a friend &apos;s drink .",
+      "postprocessed_text": "It's a board with specialities for a friend's drink.",
+      "composition_time": "2018-05-06T19:39:11.779125",
+      "preprocessing_begin": "2018-05-06T19:39:11.832966",
+      "preprocessing_end": "2018-05-06T19:39:14.308112",
+      "translation_begin": "2018-05-06T19:39:14.308236",
+      "translation_end": "2018-05-06T19:39:17.440505",
+      "postprocessing_begin": "2018-05-06T19:39:17.440795",
+      "postprocessing_end": "2018-05-06T19:39:17.475489",
+      "sent_time": "2018-05-06T19:39:17.478088",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-06T19:40:53.721458",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-06T19:40:52.337682"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning"
+        ]
+      },
+      "reference_translation": "It\u2019s a board with specialities for an aperitif between friends.",
+      "normalised_version": "C'est une planche avec des sp\u00e9cialit\u00e9s pour un ap\u00e9ritif entre amis."
+    },
+    "16": {
+      "language": "english",
+      "original_text": "Ok, I think I understand sort of.",
+      "preprocessed_text": "it &apos;s a board with speci@@ alities for a friend &apos;s drink . <CONCAT> OK , I think I understand sort of .",
+      "translated_text": "c&apos; est une planche avec des sp\u00e9cialit\u00e9s pour un verre d&apos; ami . <CONCAT> ok , je crois que je comprends .",
+      "postprocessed_text": "Ok, je crois que je comprends.",
+      "composition_time": "2018-05-06T19:40:42.041243",
+      "preprocessing_begin": "2018-05-06T19:40:42.087150",
+      "preprocessing_end": "2018-05-06T19:40:44.272683",
+      "translation_begin": "2018-05-06T19:40:44.272797",
+      "translation_end": "2018-05-06T19:40:51.095162",
+      "postprocessing_begin": "2018-05-06T19:40:51.095450",
+      "postprocessing_end": "2018-05-06T19:40:51.136250",
+      "sent_time": "2018-05-06T19:40:51.137320",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:42:29.792758"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "OK, je crois que je vois \u00e0 peu pr\u00e8s.",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "english",
+      "original_text": "But no thanks, just a nice cocktail.",
+      "preprocessed_text": "OK , I think I understand sort of . <CONCAT> but no thanks , just a nice cocktail .",
+      "translated_text": "ok , je crois que je comprends . <CONCAT> mais non merci , juste un bon cocktail .",
+      "postprocessed_text": "Mais non merci, juste un bon cocktail.",
+      "composition_time": "2018-05-06T19:40:42.041243",
+      "preprocessing_begin": "2018-05-06T19:40:42.087150",
+      "preprocessing_end": "2018-05-06T19:40:44.272683",
+      "translation_begin": "2018-05-06T19:40:44.272797",
+      "translation_end": "2018-05-06T19:40:51.095162",
+      "postprocessing_begin": "2018-05-06T19:40:51.095450",
+      "postprocessing_end": "2018-05-06T19:40:51.136250",
+      "sent_time": "2018-05-06T19:40:51.137905",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:42:31.197173"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Mais non merci, juste un bon cocktail.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Anything with rum, although I'm not a fan of mint.",
+      "preprocessed_text": "but no thanks , just a nice cocktail . <CONCAT> anything with rum , although I &apos;m not a fan of mint .",
+      "translated_text": "mais non merci , juste un bon cocktail . <CONCAT> n&apos; importe quoi avec du rhum , m\u00eame si je ne suis pas un fan de menthe .",
+      "postprocessed_text": "N'importe quoi avec du rhum, m\u00eame si je ne suis pas un fan de menthe.",
+      "composition_time": "2018-05-06T19:40:42.041243",
+      "preprocessing_begin": "2018-05-06T19:40:42.087150",
+      "preprocessing_end": "2018-05-06T19:40:44.272683",
+      "translation_begin": "2018-05-06T19:40:44.272797",
+      "translation_end": "2018-05-06T19:40:51.095162",
+      "postprocessing_begin": "2018-05-06T19:40:51.095450",
+      "postprocessing_end": "2018-05-06T19:40:51.136250",
+      "sent_time": "2018-05-06T19:40:51.138460",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:42:32.935818"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Quelque chose avec du rhum, m\u00eame si je ne suis pas une grande amatrice de menthe.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "Thank you!",
+      "preprocessed_text": "anything with rum , although I &apos;m not a fan of mint . <CONCAT> thank you !",
+      "translated_text": "n&apos; importe quoi avec du rhum , m\u00eame si je ne suis pas un fan de menthe . <CONCAT> merci !",
+      "postprocessed_text": "Merci !",
+      "composition_time": "2018-05-06T19:40:42.041243",
+      "preprocessing_begin": "2018-05-06T19:40:42.087150",
+      "preprocessing_end": "2018-05-06T19:40:44.272683",
+      "translation_begin": "2018-05-06T19:40:44.272797",
+      "translation_end": "2018-05-06T19:40:51.095162",
+      "postprocessing_begin": "2018-05-06T19:40:51.095450",
+      "postprocessing_end": "2018-05-06T19:40:51.136250",
+      "sent_time": "2018-05-06T19:40:51.139002",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:42:35.893450"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Merci\u00a0!",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "In a nice glass with a funky straw if you have one!",
+      "preprocessed_text": "thank you ! <CONCAT> in a nice glass with a funky straw if you have one !",
+      "translated_text": "merci ! <CONCAT> dans un beau verre avec une paille funky si tu en as un !",
+      "postprocessed_text": "Dans un beau verre avec une paille funky si tu en as un !",
+      "composition_time": "2018-05-06T19:41:36.176918",
+      "preprocessing_begin": "2018-05-06T19:41:36.223650",
+      "preprocessing_end": "2018-05-06T19:41:38.539055",
+      "translation_begin": "2018-05-06T19:41:38.539120",
+      "translation_end": "2018-05-06T19:41:39.841963",
+      "postprocessing_begin": "2018-05-06T19:41:39.842340",
+      "postprocessing_end": "2018-05-06T19:41:39.889761",
+      "sent_time": "2018-05-06T19:41:39.891175",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "tu/vous",
+            "2018-05-06T19:42:41.340383",
+            "2018-05-06T19:42:41.340383"
+          ]
+        ],
+        "verbatim": "tu/vous",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:42:38.257325"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": []
+      },
+      "reference_translation": "Dans un joli verre avec une paille color\u00e9e si vous en avez\u00a0!",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Sans menthe ?",
+      "preprocessed_text": "dans un beau verre avec une paille funky si tu en as un ! <CONCAT> sans menthe ?",
+      "translated_text": "in a nice glass with a funky straw if you &apos;ve got one ! <CONCAT> no mint ?",
+      "postprocessed_text": "No mint?",
+      "composition_time": "2018-05-06T19:41:46.663866",
+      "preprocessing_begin": "2018-05-06T19:41:46.715371",
+      "preprocessing_end": "2018-05-06T19:41:49.109274",
+      "translation_begin": "2018-05-06T19:41:49.109400",
+      "translation_end": "2018-05-06T19:41:52.285486",
+      "postprocessing_begin": "2018-05-06T19:41:52.285774",
+      "postprocessing_end": "2018-05-06T19:41:52.326382",
+      "sent_time": "2018-05-06T19:41:52.327969",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:42:06.343027"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "No mint?",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Pas de soucis.",
+      "preprocessed_text": "sans menthe ? <CONCAT> pas de soucis .",
+      "translated_text": "no mint ? <CONCAT> no problem .",
+      "postprocessed_text": "No problem.",
+      "composition_time": "2018-05-06T19:41:46.663866",
+      "preprocessing_begin": "2018-05-06T19:41:46.715371",
+      "preprocessing_end": "2018-05-06T19:41:49.109274",
+      "translation_begin": "2018-05-06T19:41:49.109400",
+      "translation_end": "2018-05-06T19:41:52.285486",
+      "postprocessing_begin": "2018-05-06T19:41:52.285774",
+      "postprocessing_end": "2018-05-06T19:41:52.326382",
+      "sent_time": "2018-05-06T19:41:52.329004",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:42:07.331479"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "No problem.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Un punch planteur vous conviendrait ?",
+      "preprocessed_text": "pas de soucis . <CONCAT> un punch pl@@ anteur vous conviendrait ?",
+      "translated_text": "no problem . <CONCAT> would you like a punch punch ?",
+      "postprocessed_text": "Would you like a punch punch?",
+      "composition_time": "2018-05-06T19:41:46.663866",
+      "preprocessing_begin": "2018-05-06T19:41:46.715371",
+      "preprocessing_end": "2018-05-06T19:41:49.109274",
+      "translation_begin": "2018-05-06T19:41:49.109400",
+      "translation_end": "2018-05-06T19:41:52.285486",
+      "postprocessing_begin": "2018-05-06T19:41:52.285774",
+      "postprocessing_end": "2018-05-06T19:41:52.326382",
+      "sent_time": "2018-05-06T19:41:52.330099",
+      "eval": {
+        "problem_history": [
+          [
+            "other",
+            "2018-05-06T19:42:15.366987",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "repetition of word \"punch\"",
+            "2018-05-06T19:42:20.426213",
+            "2018-05-06T19:42:20.426213"
+          ]
+        ],
+        "verbatim": "repetition of word \"punch\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:42:12.811750"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "other"
+        ]
+      },
+      "reference_translation": "Would you like a planter\u2019s punch?",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "La recette est \u00e0 base de rhum de jus de citrons, de jus d'orange et de sirop de grenadine.",
+      "preprocessed_text": "un punch pl@@ anteur vous conviendrait ? <CONCAT> la recette est \u00e0 base de rhum de jus de citrons , de jus d&apos; orange et de sirop de grenadine .",
+      "translated_text": "would you like a punch punch ? <CONCAT> the recipe is made of rum juice , orange juice and gren@@ adine .",
+      "postprocessed_text": "The recipe is made of rum juice, orange juice and grenadine.",
+      "composition_time": "2018-05-06T19:42:17.277236",
+      "preprocessing_begin": "2018-05-06T19:42:17.320444",
+      "preprocessing_end": "2018-05-06T19:42:19.582652",
+      "translation_begin": "2018-05-06T19:42:19.582924",
+      "translation_end": "2018-05-06T19:42:21.499298",
+      "postprocessing_begin": "2018-05-06T19:42:21.499701",
+      "postprocessing_end": "2018-05-06T19:42:21.535183",
+      "sent_time": "2018-05-06T19:42:21.536653",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:44:02.427516",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "rum juice",
+            "2018-05-06T19:44:07.202710",
+            "2018-05-06T19:44:07.202710"
+          ]
+        ],
+        "verbatim": "rum juice",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:43:49.922943"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "The basic ingredients are lemon juice, orange juice and grenadine.",
+      "normalised_version": "La recette est \u00e0 base de rhum de jus de citron, de jus d'orange et de sirop de grenadine."
+    },
+    "25": {
+      "language": "english",
+      "original_text": "Ah I'm not sure I know what a punch punch is, but why not!",
+      "preprocessed_text": "the recipe is made of rum juice , orange juice and gren@@ adine . <CONCAT> ah I &apos;m not sure I know what a punch punch is , but why not !",
+      "translated_text": "la recette est faite de jus de rhum , jus d&apos; orange et grenadine . <CONCAT> je ne sais pas si je sais ce qu&apos; est un coup de poing , mais pourquoi pas !",
+      "postprocessed_text": "Je ne sais pas si je sais ce qu'est un coup de poing, mais pourquoi pas !",
+      "composition_time": "2018-05-06T19:43:14.488124",
+      "preprocessing_begin": "2018-05-06T19:43:14.535661",
+      "preprocessing_end": "2018-05-06T19:43:16.996318",
+      "translation_begin": "2018-05-06T19:43:16.996433",
+      "translation_end": "2018-05-06T19:43:24.048215",
+      "postprocessing_begin": "2018-05-06T19:43:24.048513",
+      "postprocessing_end": "2018-05-06T19:43:24.097028",
+      "sent_time": "2018-05-06T19:43:24.098011",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:51:52.624815",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "coupe de poing ?",
+            "2018-05-06T19:51:57.045919",
+            "2018-05-06T19:51:57.045919"
+          ]
+        ],
+        "verbatim": "coupe de poing ?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:51:50.480230"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je ne sais pas trop ce que c'est qu'un \u00ab\u00a0punch punch\u00a0\u00bb, mais pourquoi pas\u00a0!",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Could you ask some pineapple instead of the grenadine perhaps?",
+      "preprocessed_text": "ah I &apos;m not sure I know what a punch punch is , but why not ! <CONCAT> could you ask some pineapple instead of the gren@@ adine perhaps ?",
+      "translated_text": "je ne suis pas s\u00fbr de savoir ce qu&apos; est un coup de poing , mais pourquoi pas ! <CONCAT> pourriez @-@ vous demander \u00e0 un ananas au lieu de la grenadine peut @-@ \u00eatre ?",
+      "postprocessed_text": "Pourriez-vous demander \u00e0 un ananas au lieu de la grenadine peut-\u00eatre ?",
+      "composition_time": "2018-05-06T19:43:14.488124",
+      "preprocessing_begin": "2018-05-06T19:43:14.535661",
+      "preprocessing_end": "2018-05-06T19:43:16.996318",
+      "translation_begin": "2018-05-06T19:43:16.996433",
+      "translation_end": "2018-05-06T19:43:24.048215",
+      "postprocessing_begin": "2018-05-06T19:43:24.048513",
+      "postprocessing_end": "2018-05-06T19:43:24.097028",
+      "sent_time": "2018-05-06T19:43:24.098452",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:52:08.783777",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-06T19:52:09.544760",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-06T19:52:03.534393"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Vous pourriez demander \u00e0 remplacer la grenadine par de l'ananas\u00a0?",
+      "normalised_version": "Could you ask for some pineapple instead of the grenadine perhaps?"
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Anything else, you decide!",
+      "preprocessed_text": "could you ask some pineapple instead of the gren@@ adine perhaps ? <CONCAT> anything else , you decide !",
+      "translated_text": "pourriez @-@ vous demander \u00e0 un ananas au lieu de la grenadine peut @-@ \u00eatre ? <CONCAT> n&apos; importe quoi d&apos; autre , vous d\u00e9cidez !",
+      "postprocessed_text": "N'importe quoi d'autre, vous d\u00e9cidez !",
+      "composition_time": "2018-05-06T19:43:14.488124",
+      "preprocessing_begin": "2018-05-06T19:43:14.535661",
+      "preprocessing_end": "2018-05-06T19:43:16.996318",
+      "translation_begin": "2018-05-06T19:43:16.996433",
+      "translation_end": "2018-05-06T19:43:24.048215",
+      "postprocessing_begin": "2018-05-06T19:43:24.048513",
+      "postprocessing_end": "2018-05-06T19:43:24.097028",
+      "sent_time": "2018-05-06T19:43:24.098867",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:52:12.840467"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "\u00c0 part \u00e7a, c'est vous qui d\u00e9cidez\u00a0!",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "Oh, and perhaps a bit of coconut milk if you have some.",
+      "preprocessed_text": "anything else , you decide ! <CONCAT> oh , and perhaps a bit of coconut milk if you have some .",
+      "translated_text": "n&apos; importe quoi d&apos; autre , vous d\u00e9cidez ! <CONCAT> oh , et peut @-@ \u00eatre un peu de lait de coco si vous en avez .",
+      "postprocessed_text": "Oh, et peut-\u00eatre un peu de lait de coco si vous en avez.",
+      "composition_time": "2018-05-06T19:43:25.031436",
+      "preprocessing_begin": "2018-05-06T19:43:25.077460",
+      "preprocessing_end": "2018-05-06T19:43:27.337050",
+      "translation_begin": "2018-05-06T19:43:27.337179",
+      "translation_end": "2018-05-06T19:43:29.302381",
+      "postprocessing_begin": "2018-05-06T19:43:29.302604",
+      "postprocessing_end": "2018-05-06T19:43:29.349556",
+      "sent_time": "2018-05-06T19:43:29.350646",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:52:14.903427"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Oh, et peut-\u00eatre un peu de lait de coco si vous en avez.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Une pina colada alors ?",
+      "preprocessed_text": "oh , et peut @-@ \u00eatre un peu de lait de coco si vous en avez . <CONCAT> une p@@ ina colada alors ?",
+      "translated_text": "oh , and maybe a little bit of coconut if you have it . <CONCAT> a pina col@@ adas ?",
+      "postprocessed_text": "A pina coladas?",
+      "composition_time": "2018-05-06T19:44:19.259254",
+      "preprocessing_begin": "2018-05-06T19:44:19.304195",
+      "preprocessing_end": "2018-05-06T19:44:21.615939",
+      "translation_begin": "2018-05-06T19:44:21.616044",
+      "translation_end": "2018-05-06T19:44:25.700508",
+      "postprocessing_begin": "2018-05-06T19:44:25.700797",
+      "postprocessing_end": "2018-05-06T19:44:25.737743",
+      "sent_time": "2018-05-06T19:44:25.738928",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-06T19:44:39.797663",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "mix between singular and plural",
+            "2018-05-06T19:44:51.801638",
+            "2018-05-06T19:44:51.801638"
+          ]
+        ],
+        "verbatim": "mix between singular and plural",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:44:35.277441"
+          ],
+          [
+            "medium",
+            "2018-05-06T19:44:38.913065"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "A pina colada then?",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Pas de soucis je vous fait cela tout de suite.",
+      "preprocessed_text": "une p@@ ina colada alors ? <CONCAT> pas de soucis je vous fait cela tout de suite .",
+      "translated_text": "a pina col@@ adas ? <CONCAT> don &apos;t worry , I &apos;ll do it right now .",
+      "postprocessed_text": "Don't worry, I'll do it right now.",
+      "composition_time": "2018-05-06T19:44:19.259254",
+      "preprocessing_begin": "2018-05-06T19:44:19.304195",
+      "preprocessing_end": "2018-05-06T19:44:21.615939",
+      "translation_begin": "2018-05-06T19:44:21.616044",
+      "translation_end": "2018-05-06T19:44:25.700508",
+      "postprocessing_begin": "2018-05-06T19:44:25.700797",
+      "postprocessing_end": "2018-05-06T19:44:25.737743",
+      "sent_time": "2018-05-06T19:44:25.739553",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:44:52.809243"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "No problem. I\u2019ll prepare it for you right away.",
+      "normalised_version": "Pas de soucis je vous fais cela tout de suite."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Et avec une belle ombrelle !",
+      "preprocessed_text": "pas de soucis je vous fait cela tout de suite . <CONCAT> et avec une belle ombrelle !",
+      "translated_text": "don &apos;t worry , I &apos;ll do it right now . <CONCAT> and a beautiful umbrella !",
+      "postprocessed_text": "And a beautiful umbrella!",
+      "composition_time": "2018-05-06T19:44:19.259254",
+      "preprocessing_begin": "2018-05-06T19:44:19.304195",
+      "preprocessing_end": "2018-05-06T19:44:21.615939",
+      "translation_begin": "2018-05-06T19:44:21.616044",
+      "translation_end": "2018-05-06T19:44:25.700508",
+      "postprocessing_begin": "2018-05-06T19:44:25.700797",
+      "postprocessing_end": "2018-05-06T19:44:25.737743",
+      "sent_time": "2018-05-06T19:44:25.740130",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:44:53.407094"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "With a lovely parasol!",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "Une planche pour d\u00e9guster en m\u00eame temps ?",
+      "preprocessed_text": "et avec une belle ombrelle ! <CONCAT> une planche pour d\u00e9guster en m\u00eame temps ?",
+      "translated_text": "and with a beautiful umbrella ! <CONCAT> a board for eating at the same time ?",
+      "postprocessed_text": "A board for eating at the same time?",
+      "composition_time": "2018-05-06T19:44:41.911102",
+      "preprocessing_begin": "2018-05-06T19:44:41.960790",
+      "preprocessing_end": "2018-05-06T19:44:44.345187",
+      "translation_begin": "2018-05-06T19:44:44.345387",
+      "translation_end": "2018-05-06T19:44:47.786886",
+      "postprocessing_begin": "2018-05-06T19:44:47.787261",
+      "postprocessing_end": "2018-05-06T19:44:47.833079",
+      "sent_time": "2018-05-06T19:44:47.833999",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:44:56.519733",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"board for eating\"",
+            "2018-05-06T19:45:02.264409",
+            "2018-05-06T19:45:02.264409"
+          ]
+        ],
+        "verbatim": "\"board for eating\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:44:55.249942"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "A tasting platter with that?",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Je peux vous faire \u00e7a.",
+      "preprocessed_text": "une planche pour d\u00e9guster en m\u00eame temps ? <CONCAT> je peux vous faire \u00e7a .",
+      "translated_text": "a board for eating at the same time ? <CONCAT> I can do that to you .",
+      "postprocessed_text": "I can do that to you.",
+      "composition_time": "2018-05-06T19:44:41.911102",
+      "preprocessing_begin": "2018-05-06T19:44:41.960790",
+      "preprocessing_end": "2018-05-06T19:44:44.345187",
+      "translation_begin": "2018-05-06T19:44:44.345387",
+      "translation_end": "2018-05-06T19:44:47.786886",
+      "postprocessing_begin": "2018-05-06T19:44:47.787261",
+      "postprocessing_end": "2018-05-06T19:44:47.833079",
+      "sent_time": "2018-05-06T19:44:47.834459",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:46:52.938268",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"to\" should be \"for\"",
+            "2018-05-06T19:47:02.910504",
+            "2018-05-06T19:47:02.910504"
+          ]
+        ],
+        "verbatim": "\"to\" should be \"for\"",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:45:04.745226"
+          ],
+          [
+            "medium",
+            "2018-05-06T19:46:51.470520"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "I can do that for you.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "Vous avez des pr\u00e9f\u00e9rences ?",
+      "preprocessed_text": "je peux vous faire \u00e7a . <CONCAT> vous avez des pr\u00e9f\u00e9rences ?",
+      "translated_text": "I can do that to you . <CONCAT> do you have any preferences ?",
+      "postprocessed_text": "Do you have any preferences?",
+      "composition_time": "2018-05-06T19:44:41.911102",
+      "preprocessing_begin": "2018-05-06T19:44:41.960790",
+      "preprocessing_end": "2018-05-06T19:44:44.345187",
+      "translation_begin": "2018-05-06T19:44:44.345387",
+      "translation_end": "2018-05-06T19:44:47.786886",
+      "postprocessing_begin": "2018-05-06T19:44:47.787261",
+      "postprocessing_end": "2018-05-06T19:44:47.833079",
+      "sent_time": "2018-05-06T19:44:47.834846",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:45:05.367460"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Do you have a preference?",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "Hmm, I wasn't that hungry.",
+      "preprocessed_text": "do you have any preferences ? <CONCAT> hmm , I wasn &apos;t that hungry .",
+      "translated_text": "vous avez des pr\u00e9f\u00e9rences ? <CONCAT> je n&apos; avais pas tr\u00e8s faim .",
+      "postprocessed_text": "Je n'avais pas tr\u00e8s faim.",
+      "composition_time": "2018-05-06T19:45:37.867515",
+      "preprocessing_begin": "2018-05-06T19:45:37.920139",
+      "preprocessing_end": "2018-05-06T19:45:40.183725",
+      "translation_begin": "2018-05-06T19:45:40.183874",
+      "translation_end": "2018-05-06T19:45:45.253592",
+      "postprocessing_begin": "2018-05-06T19:45:45.253895",
+      "postprocessing_end": "2018-05-06T19:45:45.289307",
+      "sent_time": "2018-05-06T19:45:45.290979",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-06T19:47:11.086855",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "temps",
+            "2018-05-06T19:47:13.676309",
+            "2018-05-06T19:47:13.676309"
+          ]
+        ],
+        "verbatim": "temps",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:47:04.505949"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Hmm, je n'avais pas vraiment faim.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "english",
+      "original_text": "But perhaps some chips would be good.",
+      "preprocessed_text": "hmm , I wasn &apos;t that hungry . <CONCAT> but perhaps some chips would be good .",
+      "translated_text": "je n&apos; avais pas tr\u00e8s faim . <CONCAT> mais peut @-@ \u00eatre que des chips , ce serait bien .",
+      "postprocessed_text": "Mais peut-\u00eatre que des chips, ce serait bien.",
+      "composition_time": "2018-05-06T19:45:37.867515",
+      "preprocessing_begin": "2018-05-06T19:45:37.920139",
+      "preprocessing_end": "2018-05-06T19:45:40.183725",
+      "translation_begin": "2018-05-06T19:45:40.183874",
+      "translation_end": "2018-05-06T19:45:45.253592",
+      "postprocessing_begin": "2018-05-06T19:45:45.253895",
+      "postprocessing_end": "2018-05-06T19:45:45.289307",
+      "sent_time": "2018-05-06T19:45:45.291991",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:47:17.316642"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Mais des frites ce serait peut-\u00eatre bien.",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "english",
+      "original_text": "No sauce though - I like them plan, with a bit of salt!",
+      "preprocessed_text": "but perhaps some chips would be good . <CONCAT> no sauce though - I like them plan , with a bit of salt !",
+      "translated_text": "mais peut @-@ \u00eatre que des chips , ce serait bien . <CONCAT> pas de sauce cependant , j&apos; aime bien ces plans , avec un peu de sel !",
+      "postprocessed_text": "Pas de sauce cependant, j'aime bien ces plans, avec un peu de sel !",
+      "composition_time": "2018-05-06T19:45:37.867515",
+      "preprocessing_begin": "2018-05-06T19:45:37.920139",
+      "preprocessing_end": "2018-05-06T19:45:40.183725",
+      "translation_begin": "2018-05-06T19:45:40.183874",
+      "translation_end": "2018-05-06T19:45:45.253592",
+      "postprocessing_begin": "2018-05-06T19:45:45.253895",
+      "postprocessing_end": "2018-05-06T19:45:45.289307",
+      "sent_time": "2018-05-06T19:45:45.292972",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:47:23.649689",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:47:21.464901"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Pas de sauce, par contre \u2014 je les aime nature, avec un peu de sel\u00a0!",
+      "normalised_version": "No sauce though - I like them plain, with a bit of salt!"
+    },
+    "38": {
+      "language": "english",
+      "original_text": "And why not a burger and a salad too!",
+      "preprocessed_text": "no sauce though - I like them plan , with a bit of salt ! <CONCAT> and why not a burger and a salad too !",
+      "translated_text": "pas de sauce , je les aime bien , avec un peu de sel ! <CONCAT> et pourquoi pas un hamburger et une salade !",
+      "postprocessed_text": "Et pourquoi pas un hamburger et une salade !",
+      "composition_time": "2018-05-06T19:45:56.338673",
+      "preprocessing_begin": "2018-05-06T19:45:56.383613",
+      "preprocessing_end": "2018-05-06T19:45:58.764351",
+      "translation_begin": "2018-05-06T19:45:58.764503",
+      "translation_end": "2018-05-06T19:46:00.415894",
+      "postprocessing_begin": "2018-05-06T19:46:00.416187",
+      "postprocessing_end": "2018-05-06T19:46:00.459239",
+      "sent_time": "2018-05-06T19:46:00.460791",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:47:27.954026"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Et pourquoi pas un burger et une salade, aussi\u00a0!",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "english",
+      "original_text": "I meant plain for the chips, sorry.",
+      "preprocessed_text": "and why not a burger and a salad too ! <CONCAT> I meant plain for the chips , sorry .",
+      "translated_text": "et pourquoi pas un hamburger et une salade ? <CONCAT> je voulais dire simple pour les chips , d\u00e9sol\u00e9 .",
+      "postprocessed_text": "Je voulais dire simple pour les chips, d\u00e9sol\u00e9.",
+      "composition_time": "2018-05-06T19:46:15.322576",
+      "preprocessing_begin": "2018-05-06T19:46:15.369663",
+      "preprocessing_end": "2018-05-06T19:46:17.579422",
+      "translation_begin": "2018-05-06T19:46:17.579496",
+      "translation_end": "2018-05-06T19:46:19.071199",
+      "postprocessing_begin": "2018-05-06T19:46:19.071587",
+      "postprocessing_end": "2018-05-06T19:46:19.107014",
+      "sent_time": "2018-05-06T19:46:19.108642",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:47:31.863319"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je voulais dire \u00ab\u00a0nature\u00a0\u00bb pour les chips, d\u00e9sol\u00e9.",
+      "normalised_version": ""
+    },
+    "40": {
+      "language": "french",
+      "original_text": "Bon en g\u00e9n\u00e9ral je sers des acras de morue et des chips de patates douces avec ce cocktail.",
+      "preprocessed_text": "je voulais dire simple pour les chips , d\u00e9sol\u00e9 . <CONCAT> bon en g\u00e9n\u00e9ral je sers des ac@@ ras de morue et des chips de patates douces avec ce cocktail .",
+      "translated_text": "I meant simple for the crisps , I &apos;m sorry . <CONCAT> good in general I serve cod@@ fish and sweet potato chips with this cocktail .",
+      "postprocessed_text": "Good in general I serve codfish and sweet potato chips with this cocktail.",
+      "composition_time": "2018-05-06T19:46:52.336402",
+      "preprocessing_begin": "2018-05-06T19:46:52.381827",
+      "preprocessing_end": "2018-05-06T19:46:54.660193",
+      "translation_begin": "2018-05-06T19:46:54.660276",
+      "translation_end": "2018-05-06T19:46:59.394913",
+      "postprocessing_begin": "2018-05-06T19:46:59.395295",
+      "postprocessing_end": "2018-05-06T19:46:59.439921",
+      "sent_time": "2018-05-06T19:46:59.441645",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:47:19.140439"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Well, usually I serve that cocktail with spicy cod fish cakes and sweet potato crisps.",
+      "normalised_version": ""
+    },
+    "41": {
+      "language": "french",
+      "original_text": "Est-ce que cela ira.",
+      "preprocessed_text": "bon en g\u00e9n\u00e9ral je sers des ac@@ ras de morue et des chips de patates douces avec ce cocktail . <CONCAT> est @-@ ce que cela ira .",
+      "translated_text": "good in general I serve cod@@ fish and sweet potato chips with this cocktail . <CONCAT> is that all right ?",
+      "postprocessed_text": "Is that all right?",
+      "composition_time": "2018-05-06T19:46:52.336402",
+      "preprocessing_begin": "2018-05-06T19:46:52.381827",
+      "preprocessing_end": "2018-05-06T19:46:54.660193",
+      "translation_begin": "2018-05-06T19:46:54.660276",
+      "translation_end": "2018-05-06T19:46:59.394913",
+      "postprocessing_begin": "2018-05-06T19:46:59.395295",
+      "postprocessing_end": "2018-05-06T19:46:59.439921",
+      "sent_time": "2018-05-06T19:46:59.442699",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:47:20.222717"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Will that be ok?",
+      "normalised_version": "Est-ce que cela ira ?"
+    },
+    "42": {
+      "language": "french",
+      "original_text": "Le hamburger arrivera plus tard.",
+      "preprocessed_text": "est @-@ ce que cela ira . <CONCAT> le hamburger arrivera plus tard .",
+      "translated_text": "is that all right ? <CONCAT> the hamburger will be here later .",
+      "postprocessed_text": "The hamburger will be here later.",
+      "composition_time": "2018-05-06T19:46:52.336402",
+      "preprocessing_begin": "2018-05-06T19:46:52.381827",
+      "preprocessing_end": "2018-05-06T19:46:54.660193",
+      "translation_begin": "2018-05-06T19:46:54.660276",
+      "translation_end": "2018-05-06T19:46:59.394913",
+      "postprocessing_begin": "2018-05-06T19:46:59.395295",
+      "postprocessing_end": "2018-05-06T19:46:59.439921",
+      "sent_time": "2018-05-06T19:46:59.443756",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:47:21.216307"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "The hamburger will come later.",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "english",
+      "original_text": "Ok, I'll have the fish and chips for starter and I'll get the burger later!",
+      "preprocessed_text": "the hamburger will be here later . <CONCAT> OK , I &apos;ll have the fish and chips for starter and I &apos;ll get the burger later !",
+      "translated_text": "le hamburger sera l\u00e0 plus tard . <CONCAT> ok , je prendrai le poisson et les frites pour commencer et je prendrai le hamburger plus tard !",
+      "postprocessed_text": "Ok, je prendrai le poisson et les frites pour commencer et je prendrai le hamburger plus tard !",
+      "composition_time": "2018-05-06T19:48:04.961402",
+      "preprocessing_begin": "2018-05-06T19:48:05.015555",
+      "preprocessing_end": "2018-05-06T19:48:07.509488",
+      "translation_begin": "2018-05-06T19:48:07.509628",
+      "translation_end": "2018-05-06T19:48:14.026005",
+      "postprocessing_begin": "2018-05-06T19:48:14.026311",
+      "postprocessing_end": "2018-05-06T19:48:14.064710",
+      "sent_time": "2018-05-06T19:48:14.065775",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:50:05.259756",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "accras vs poisson",
+            "2018-05-06T19:50:12.884072",
+            "2018-05-06T19:50:12.884072"
+          ],
+          [
+            "accras vs poisson + chips vs frites",
+            "2018-05-06T19:50:27.515687",
+            "2018-05-06T19:50:27.515687"
+          ]
+        ],
+        "verbatim": "accras vs poisson + chips vs frites",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:50:02.555297"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "OK, le fish and chips sera mon entr\u00e9e et je prendrai le burger plus tard\u00a0!",
+      "normalised_version": "Ok, I'll have the fish and chips for the starter and I'll get the burger later!"
+    },
+    "44": {
+      "language": "english",
+      "original_text": "I hope there'll be enough room for dessert afterwards!",
+      "preprocessed_text": "OK , I &apos;ll have the fish and chips for starter and I &apos;ll get the burger later ! <CONCAT> I hope there &apos;ll be enough room for dessert afterwards !",
+      "translated_text": "ok , je prendrai le poisson et les frites pour commencer et je prendrai le hamburger plus tard ! <CONCAT> j&apos; esp\u00e8re qu&apos; il y aura assez de place pour le dessert apr\u00e8s !",
+      "postprocessed_text": "J'esp\u00e8re qu'il y aura assez de place pour le dessert apr\u00e8s !",
+      "composition_time": "2018-05-06T19:48:04.961402",
+      "preprocessing_begin": "2018-05-06T19:48:05.015555",
+      "preprocessing_end": "2018-05-06T19:48:07.509488",
+      "translation_begin": "2018-05-06T19:48:07.509628",
+      "translation_end": "2018-05-06T19:48:14.026005",
+      "postprocessing_begin": "2018-05-06T19:48:14.026311",
+      "postprocessing_end": "2018-05-06T19:48:14.064710",
+      "sent_time": "2018-05-06T19:48:14.066274",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-06T19:51:06.545208",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:51:04.790408"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "J'esp\u00e8re qu'ensuite il restera de la place pour le dessert\u00a0!",
+      "normalised_version": ""
+    },
+    "45": {
+      "language": "english",
+      "original_text": "You do do desserts, don't you?",
+      "preprocessed_text": "I hope there &apos;ll be enough room for dessert afterwards ! <CONCAT> you do do desserts , don &apos;t you ?",
+      "translated_text": "j&apos; esp\u00e8re qu&apos; il y aura assez de place pour le dessert apr\u00e8s ! <CONCAT> vous faites des desserts , n&apos; est @-@ ce pas ?",
+      "postprocessed_text": "Vous faites des desserts, n'est-ce pas ?",
+      "composition_time": "2018-05-06T19:48:04.961402",
+      "preprocessing_begin": "2018-05-06T19:48:05.015555",
+      "preprocessing_end": "2018-05-06T19:48:07.509488",
+      "translation_begin": "2018-05-06T19:48:07.509628",
+      "translation_end": "2018-05-06T19:48:14.026005",
+      "postprocessing_begin": "2018-05-06T19:48:14.026311",
+      "postprocessing_end": "2018-05-06T19:48:14.064710",
+      "sent_time": "2018-05-06T19:48:14.066729",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:51:09.919565"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Vous faites bien des desserts, n'est-ce pas ?",
+      "normalised_version": ""
+    },
+    "46": {
+      "language": "french",
+      "original_text": "Oui nous faisons des desserts.",
+      "preprocessed_text": "vous faites des desserts , n&apos; est @-@ ce pas ? <CONCAT> oui nous faisons des desserts .",
+      "translated_text": "you do desserts , don &apos;t you ? <CONCAT> yes , we make desserts .",
+      "postprocessed_text": "Yes, we make desserts.",
+      "composition_time": "2018-05-06T19:48:52.164947",
+      "preprocessing_begin": "2018-05-06T19:48:52.208380",
+      "preprocessing_end": "2018-05-06T19:48:54.426960",
+      "translation_begin": "2018-05-06T19:48:54.427047",
+      "translation_end": "2018-05-06T19:48:57.565812",
+      "postprocessing_begin": "2018-05-06T19:48:57.566142",
+      "postprocessing_end": "2018-05-06T19:48:57.601013",
+      "sent_time": "2018-05-06T19:48:57.602576",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:49:31.040846",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"make\"",
+            "2018-05-06T19:49:37.620591",
+            "2018-05-06T19:49:37.620591"
+          ]
+        ],
+        "verbatim": "\"make\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:49:28.436815"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Yes, we do desserts.",
+      "normalised_version": ""
+    },
+    "47": {
+      "language": "french",
+      "original_text": "Une tr\u00e8s bonne soupe de mangue d'ailleurs que je vous recommande si vous avez encore faim apr\u00e8s votre repas.",
+      "preprocessed_text": "oui nous faisons des desserts . <CONCAT> une tr\u00e8s bonne soupe de mangue d&apos; ailleurs que je vous recommande si vous avez encore faim apr\u00e8s votre repas .",
+      "translated_text": "yes , we &apos;re making desserts . <CONCAT> a very nice mango soup , by the way , if you &apos;re still hungry after your meal .",
+      "postprocessed_text": "A very nice mango soup, by the way, if you're still hungry after your meal.",
+      "composition_time": "2018-05-06T19:48:52.164947",
+      "preprocessing_begin": "2018-05-06T19:48:52.208380",
+      "preprocessing_end": "2018-05-06T19:48:54.426960",
+      "translation_begin": "2018-05-06T19:48:54.427047",
+      "translation_end": "2018-05-06T19:48:57.565812",
+      "postprocessing_begin": "2018-05-06T19:48:57.566142",
+      "postprocessing_end": "2018-05-06T19:48:57.601013",
+      "sent_time": "2018-05-06T19:48:57.603584",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:49:40.223676"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "A very good mango soup by the way, that I would recommend if you\u2019re still hungry after your meal.",
+      "normalised_version": ""
+    },
+    "48": {
+      "language": "french",
+      "original_text": "En attendant, voici votre num\u00e9ro.",
+      "preprocessed_text": "une tr\u00e8s bonne soupe de mangue d&apos; ailleurs que je vous recommande si vous avez encore faim apr\u00e8s votre repas . <CONCAT> en attendant , voici votre num\u00e9ro .",
+      "translated_text": "a very good mango soup , by the way , if you &apos;re still hungry after your meal . <CONCAT> in the meantime , here &apos;s your number .",
+      "postprocessed_text": "In the meantime, here's your number.",
+      "composition_time": "2018-05-06T19:49:17.499353",
+      "preprocessing_begin": "2018-05-06T19:49:17.547092",
+      "preprocessing_end": "2018-05-06T19:49:19.874825",
+      "translation_begin": "2018-05-06T19:49:19.874952",
+      "translation_end": "2018-05-06T19:49:23.963330",
+      "postprocessing_begin": "2018-05-06T19:49:23.963622",
+      "postprocessing_end": "2018-05-06T19:49:24.003434",
+      "sent_time": "2018-05-06T19:49:24.004520",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:49:41.928060"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "In the meantime, here\u2019s your number.",
+      "normalised_version": ""
+    },
+    "49": {
+      "language": "french",
+      "original_text": "On vous appelle lorsque les cocktails et la planche sont pr\u00eats.",
+      "preprocessed_text": "en attendant , voici votre num\u00e9ro . <CONCAT> on vous appelle lorsque les cocktails et la planche sont pr\u00eats .",
+      "translated_text": "in the meantime , here &apos;s your number . <CONCAT> we call you when the cocktails and the board are ready .",
+      "postprocessed_text": "We call you when the cocktails and the board are ready.",
+      "composition_time": "2018-05-06T19:49:17.499353",
+      "preprocessing_begin": "2018-05-06T19:49:17.547092",
+      "preprocessing_end": "2018-05-06T19:49:19.874825",
+      "translation_begin": "2018-05-06T19:49:19.874952",
+      "translation_end": "2018-05-06T19:49:23.963330",
+      "postprocessing_begin": "2018-05-06T19:49:23.963622",
+      "postprocessing_end": "2018-05-06T19:49:24.003434",
+      "sent_time": "2018-05-06T19:49:24.005053",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-06T19:49:45.958406",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:49:44.796835"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "We\u2019ll call you when your cocktails and platter are ready.",
+      "normalised_version": ""
+    },
+    "50": {
+      "language": "english",
+      "original_text": "Great!",
+      "preprocessed_text": "we call you when the cocktails and the board are ready . <CONCAT> great !",
+      "translated_text": "on vous appelle quand les cocktails et le comit\u00e9 sont pr\u00eats . <CONCAT> g\u00e9nial !",
+      "postprocessed_text": "G\u00e9nial !",
+      "composition_time": "2018-05-06T19:50:22.350041",
+      "preprocessing_begin": "2018-05-06T19:50:22.398160",
+      "preprocessing_end": "2018-05-06T19:50:24.596219",
+      "translation_begin": "2018-05-06T19:50:24.596339",
+      "translation_end": "2018-05-06T19:50:27.620018",
+      "postprocessing_begin": "2018-05-06T19:50:27.620322",
+      "postprocessing_end": "2018-05-06T19:50:27.677309",
+      "sent_time": "2018-05-06T19:50:27.679025",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:50:32.549815"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Parfait\u00a0!",
+      "normalised_version": ""
+    },
+    "51": {
+      "language": "english",
+      "original_text": "Thanks!",
+      "preprocessed_text": "great ! <CONCAT> thanks !",
+      "translated_text": "super ! <CONCAT> merci !",
+      "postprocessed_text": "Merci !",
+      "composition_time": "2018-05-06T19:50:22.350041",
+      "preprocessing_begin": "2018-05-06T19:50:22.398160",
+      "preprocessing_end": "2018-05-06T19:50:24.596219",
+      "translation_begin": "2018-05-06T19:50:24.596339",
+      "translation_end": "2018-05-06T19:50:27.620018",
+      "postprocessing_begin": "2018-05-06T19:50:27.620322",
+      "postprocessing_end": "2018-05-06T19:50:27.677309",
+      "sent_time": "2018-05-06T19:50:27.680115",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:50:32.979852"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Merci\u00a0!",
+      "normalised_version": ""
+    },
+    "52": {
+      "language": "english",
+      "original_text": "I might be getting some shots later too, once my friends arrive!",
+      "preprocessed_text": "thanks ! <CONCAT> I might be getting some shots later too , once my friends arrive !",
+      "translated_text": "merci ! <CONCAT> je vais peut @-@ \u00eatre prendre des verres plus tard aussi , une fois que mes amis arriveront !",
+      "postprocessed_text": "Je vais peut-\u00eatre prendre des verres plus tard aussi, une fois que mes amis arriveront !",
+      "composition_time": "2018-05-06T19:50:22.350041",
+      "preprocessing_begin": "2018-05-06T19:50:22.398160",
+      "preprocessing_end": "2018-05-06T19:50:24.596219",
+      "translation_begin": "2018-05-06T19:50:24.596339",
+      "translation_end": "2018-05-06T19:50:27.620018",
+      "postprocessing_begin": "2018-05-06T19:50:27.620322",
+      "postprocessing_end": "2018-05-06T19:50:27.677309",
+      "sent_time": "2018-05-06T19:50:27.681303",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:50:33.482812"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tout \u00e0 l'heure je prendrai peut-\u00eatre aussi quelques shots, quand mes amis seront arriv\u00e9s\u00a0!",
+      "normalised_version": ""
+    },
+    "53": {
+      "language": "french",
+      "original_text": "N'h\u00e9sitez pas \u00e0 revenir.",
+      "preprocessed_text": "je vais peut @-@ \u00eatre prendre des verres plus tard aussi , une fois que mes amis arriveront ! <CONCAT> n&apos; h\u00e9sitez pas \u00e0 revenir .",
+      "translated_text": "maybe I &apos;ll get some drinks later , too , once my friends get here ! <CONCAT> don &apos;t hesitate to come back .",
+      "postprocessed_text": "Don't hesitate to come back.",
+      "composition_time": "2018-05-06T19:50:43.603348",
+      "preprocessing_begin": "2018-05-06T19:50:43.650882",
+      "preprocessing_end": "2018-05-06T19:50:46.044298",
+      "translation_begin": "2018-05-06T19:50:46.044428",
+      "translation_end": "2018-05-06T19:50:48.883837",
+      "postprocessing_begin": "2018-05-06T19:50:48.884118",
+      "postprocessing_end": "2018-05-06T19:50:48.920949",
+      "sent_time": "2018-05-06T19:50:48.922240",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:50:59.246771"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Feel free to come back up.",
+      "normalised_version": ""
+    },
+    "54": {
+      "language": "french",
+      "original_text": "Bonne soir\u00e9e en tout cas !",
+      "preprocessed_text": "n&apos; h\u00e9sitez pas \u00e0 revenir . <CONCAT> bonne soir\u00e9e en tout cas !",
+      "translated_text": "don &apos;t hesitate to come back . <CONCAT> good night , anyway !",
+      "postprocessed_text": "Good night, anyway!",
+      "composition_time": "2018-05-06T19:50:43.603348",
+      "preprocessing_begin": "2018-05-06T19:50:43.650882",
+      "preprocessing_end": "2018-05-06T19:50:46.044298",
+      "translation_begin": "2018-05-06T19:50:46.044428",
+      "translation_end": "2018-05-06T19:50:48.883837",
+      "postprocessing_begin": "2018-05-06T19:50:48.884118",
+      "postprocessing_end": "2018-05-06T19:50:48.920949",
+      "sent_time": "2018-05-06T19:50:48.924267",
+      "eval": {
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-06T19:51:03.368265",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"night\"?",
+            "2018-05-06T19:51:07.008294",
+            "2018-05-06T19:51:07.008294"
+          ]
+        ],
+        "verbatim": "\"night\"?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-06T19:51:01.771001"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "coherence"
+        ]
+      },
+      "reference_translation": "Anyway, have a good evening!",
+      "normalised_version": ""
+    },
+    "55": {
+      "language": "english",
+      "original_text": "Thanks again!",
+      "preprocessed_text": "good night , anyway ! <CONCAT> thanks again !",
+      "translated_text": "bonne nuit , en tout cas ! <CONCAT> merci encore !",
+      "postprocessed_text": "Merci encore !",
+      "composition_time": "2018-05-06T19:51:12.471194",
+      "preprocessing_begin": "2018-05-06T19:51:12.518912",
+      "preprocessing_end": "2018-05-06T19:51:14.707373",
+      "translation_begin": "2018-05-06T19:51:14.707446",
+      "translation_end": "2018-05-06T19:51:15.560171",
+      "postprocessing_begin": "2018-05-06T19:51:15.560610",
+      "postprocessing_end": "2018-05-06T19:51:15.603682",
+      "sent_time": "2018-05-06T19:51:15.605304",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-06T19:51:34.945793"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Merci encore\u00a0!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "ras",
+    "meaning": "average",
+    "coherence": "good",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "les accras, le coup de poing ???",
+    "timestamp": "2018-05-06T19:53:33.764741",
+    "verbatim_quality": "clairement quelques erreurs de traduction de fr vers en",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "average",
+    "coherence": "good",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "particular_problems": "some meaning and word choice problems, particularly with the use of the word \"board\". some grammatical problems too from one sentence to the next, such as singular/plural, use of do/will.",
+    "timestamp": "2018-05-06T19:53:08.678548",
+    "verbatim_quality": "",
+    "would_use": true,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

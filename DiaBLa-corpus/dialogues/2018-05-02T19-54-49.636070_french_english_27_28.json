@@ -1,0 +1,888 @@
+{
+  "start_time": "2018-05-02T19:54:49.636070",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a classroom.",
+      "Vous \u00eates dans une salle de classe."
+    ],
+    [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ]
+  ],
+  "user1": {
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Linux; Android 8.1.0; ONEPLUS A5010 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/169.0.0.46.94;]",
+    "role": [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ],
+    "role_num": 2,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "turn_number": 2,
+    "lang": "french"
+  },
+  "user2": {
+    "rolenum": 1,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "role": [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "eval-stage": true,
+    "turn_number": 1,
+    "lang": "english"
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Hello there",
+      "preprocessed_text": "<BEGIN>  <CONCAT> hello there",
+      "translated_text": "bonne nuit . <CONCAT> salut .",
+      "postprocessed_text": "Salut.",
+      "composition_time": "2018-05-02T19:55:33.036301",
+      "preprocessing_begin": "2018-05-02T19:55:33.070535",
+      "preprocessing_end": "2018-05-02T19:55:35.221089",
+      "translation_begin": "2018-05-02T19:55:35.221172",
+      "translation_end": "2018-05-02T19:55:35.842292",
+      "postprocessing_begin": "2018-05-02T19:55:35.842803",
+      "postprocessing_end": "2018-05-02T19:55:35.884417",
+      "sent_time": "2018-05-02T19:55:35.885015",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:56:10.363017"
+          ]
+        ]
+      },
+      "reference_translation": "Hello\u00a0!",
+      "normalised_version": "Hello there."
+    },
+    "1": {
+      "language": "french",
+      "original_text": "Bonsoir",
+      "preprocessed_text": "salut . <CONCAT> bonsoir",
+      "translated_text": "hi . <CONCAT> good evening .",
+      "postprocessed_text": "Good evening.",
+      "composition_time": "2018-05-02T19:55:45.206263",
+      "preprocessing_begin": "2018-05-02T19:55:45.238704",
+      "preprocessing_end": "2018-05-02T19:55:47.483945",
+      "translation_begin": "2018-05-02T19:55:47.484010",
+      "translation_end": "2018-05-02T19:55:48.023964",
+      "postprocessing_begin": "2018-05-02T19:55:48.024373",
+      "postprocessing_end": "2018-05-02T19:55:48.051568",
+      "sent_time": "2018-05-02T19:55:48.052996",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:57:34.652267"
+          ]
+        ]
+      },
+      "reference_translation": "Good evening.",
+      "normalised_version": "Bonsoir."
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Comment \u00e7a va ?",
+      "preprocessed_text": "bonsoir <CONCAT> comment \u00e7a va ?",
+      "translated_text": "good evening <CONCAT> how are you ?",
+      "postprocessed_text": "How are you?",
+      "composition_time": "2018-05-02T19:55:58.611179",
+      "preprocessing_begin": "2018-05-02T19:55:58.644115",
+      "preprocessing_end": "2018-05-02T19:56:00.908894",
+      "translation_begin": "2018-05-02T19:56:00.908981",
+      "translation_end": "2018-05-02T19:56:01.479415",
+      "postprocessing_begin": "2018-05-02T19:56:01.479771",
+      "postprocessing_end": "2018-05-02T19:56:01.520968",
+      "sent_time": "2018-05-02T19:56:01.521680",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:57:35.411709"
+          ]
+        ]
+      },
+      "reference_translation": "How\u2019s it going?",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "english",
+      "original_text": "Very well thanks, and you?",
+      "preprocessed_text": "how are you ? <CONCAT> very well thanks , and you ?",
+      "translated_text": "comment allez @-@ vous ? <CONCAT> tr\u00e8s bien , merci , et vous ?",
+      "postprocessed_text": "Tr\u00e8s bien, merci, et vous ?",
+      "composition_time": "2018-05-02T19:56:33.019960",
+      "preprocessing_begin": "2018-05-02T19:56:33.066808",
+      "preprocessing_end": "2018-05-02T19:56:35.254992",
+      "translation_begin": "2018-05-02T19:56:35.255067",
+      "translation_end": "2018-05-02T19:56:38.582296",
+      "postprocessing_begin": "2018-05-02T19:56:38.582706",
+      "postprocessing_end": "2018-05-02T19:56:38.616958",
+      "sent_time": "2018-05-02T19:56:38.618465",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:56:45.967934"
+          ]
+        ]
+      },
+      "reference_translation": "Tr\u00e8s bien, merci, et vous\u00a0?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "How do you think you are getting on with your Maths exam revision?",
+      "preprocessed_text": "very well thanks , and you ? <CONCAT> how do you think you are getting on with your Ma@@ ths exam revision ?",
+      "translated_text": "tr\u00e8s bien merci , et toi ? <CONCAT> comment penses @-@ tu que tu vas t&apos; en sortir avec tes r\u00e9visions de l&apos; examen Ma@@ ths ?",
+      "postprocessed_text": "Comment penses-tu que tu vas t'en sortir avec tes r\u00e9visions de l'examen Maths ?",
+      "composition_time": "2018-05-02T19:56:33.019960",
+      "preprocessing_begin": "2018-05-02T19:56:33.066808",
+      "preprocessing_end": "2018-05-02T19:56:35.254992",
+      "translation_begin": "2018-05-02T19:56:35.255067",
+      "translation_end": "2018-05-02T19:56:38.582296",
+      "postprocessing_begin": "2018-05-02T19:56:38.582706",
+      "postprocessing_end": "2018-05-02T19:56:38.616958",
+      "sent_time": "2018-05-02T19:56:38.619425",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:56:49.886208"
+          ]
+        ]
+      },
+      "reference_translation": "Comment est-ce que vous avez l'impression que vous vous en sortez avec vos r\u00e9visions pour le contr\u00f4le de maths\u00a0?",
+      "normalised_version": "How do you think you are getting on with your maths exam revision?"
+    },
+    "5": {
+      "language": "french",
+      "original_text": "\u00c7a va merci beaucoup.",
+      "preprocessed_text": "comment penses @-@ tu que tu vas t&apos; en sortir avec tes r\u00e9visions de l&apos; examen Ma@@ ths ? <CONCAT> \u00e7a va merci beaucoup .",
+      "translated_text": "how do you think you &apos;re going to get away with your math test ? <CONCAT> I &apos;m fine , thank you very much .",
+      "postprocessed_text": "I'm fine, thank you very much.",
+      "composition_time": "2018-05-02T19:57:43.773329",
+      "preprocessing_begin": "2018-05-02T19:57:43.806343",
+      "preprocessing_end": "2018-05-02T19:57:46.035527",
+      "translation_begin": "2018-05-02T19:57:46.035595",
+      "translation_end": "2018-05-02T19:57:51.912562",
+      "postprocessing_begin": "2018-05-02T19:57:51.912943",
+      "postprocessing_end": "2018-05-02T19:57:51.945259",
+      "sent_time": "2018-05-02T19:57:51.946730",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:57:59.428790"
+          ]
+        ]
+      },
+      "reference_translation": "Very well thank you.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "french",
+      "original_text": "Je ne sais pas trop, \u00e0 vrai dire.",
+      "preprocessed_text": "\u00e7a va merci beaucoup . <CONCAT> je ne sais pas trop , \u00e0 vrai dire .",
+      "translated_text": "thank you very much . <CONCAT> I &apos;m not sure , actually .",
+      "postprocessed_text": "I'm not sure, actually.",
+      "composition_time": "2018-05-02T19:57:43.773329",
+      "preprocessing_begin": "2018-05-02T19:57:43.806343",
+      "preprocessing_end": "2018-05-02T19:57:46.035527",
+      "translation_begin": "2018-05-02T19:57:46.035595",
+      "translation_end": "2018-05-02T19:57:51.912562",
+      "postprocessing_begin": "2018-05-02T19:57:51.912943",
+      "postprocessing_end": "2018-05-02T19:57:51.945259",
+      "sent_time": "2018-05-02T19:57:51.947682",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T19:58:10.123835",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T19:58:04.048659"
+          ]
+        ]
+      },
+      "reference_translation": "I don\u2019t really know, to be honest.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "J'ai un peu de mal \u00e0 comprendre les \u00e9quations diff\u00e9rentielles.",
+      "preprocessed_text": "je ne sais pas trop , \u00e0 vrai dire . <CONCAT> j&apos; ai un peu de mal \u00e0 comprendre les \u00e9quations diff\u00e9r@@ enti@@ elles .",
+      "translated_text": "I &apos;m not sure , actually . <CONCAT> I &apos;m having a little trouble understanding the differential equations .",
+      "postprocessed_text": "I'm having a little trouble understanding the differential equations.",
+      "composition_time": "2018-05-02T19:57:43.773329",
+      "preprocessing_begin": "2018-05-02T19:57:43.806343",
+      "preprocessing_end": "2018-05-02T19:57:46.035527",
+      "translation_begin": "2018-05-02T19:57:46.035595",
+      "translation_end": "2018-05-02T19:57:51.912562",
+      "postprocessing_begin": "2018-05-02T19:57:51.912943",
+      "postprocessing_end": "2018-05-02T19:57:51.945259",
+      "sent_time": "2018-05-02T19:57:51.948608",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:58:11.325678"
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019m struggling to understand differential equations.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Pouvez-vous m'aider s'il vous pla\u00eet ?",
+      "preprocessed_text": "j&apos; ai un peu de mal \u00e0 comprendre les \u00e9quations diff\u00e9r@@ enti@@ elles . <CONCAT> pouvez @-@ vous m&apos; aider s&apos; il vous pla\u00eet ?",
+      "translated_text": "I &apos;m having a little trouble understanding the differential equations . <CONCAT> can you help me , please ?",
+      "postprocessed_text": "Can you help me, please?",
+      "composition_time": "2018-05-02T19:57:43.773329",
+      "preprocessing_begin": "2018-05-02T19:57:43.806343",
+      "preprocessing_end": "2018-05-02T19:57:46.035527",
+      "translation_begin": "2018-05-02T19:57:46.035595",
+      "translation_end": "2018-05-02T19:57:51.912562",
+      "postprocessing_begin": "2018-05-02T19:57:51.912943",
+      "postprocessing_end": "2018-05-02T19:57:51.945259",
+      "sent_time": "2018-05-02T19:57:51.949603",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:58:12.541943"
+          ]
+        ]
+      },
+      "reference_translation": "Please could you help me?",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "Of course!",
+      "preprocessed_text": "can you help me , please ? <CONCAT> of course !",
+      "translated_text": "pouvez @-@ vous m&apos; aider , s&apos; il vous pla\u00eet ? <CONCAT> bien s\u00fbr !",
+      "postprocessed_text": "Bien s\u00fbr !",
+      "composition_time": "2018-05-02T19:58:34.419808",
+      "preprocessing_begin": "2018-05-02T19:58:34.455061",
+      "preprocessing_end": "2018-05-02T19:58:36.498813",
+      "translation_begin": "2018-05-02T19:58:36.498884",
+      "translation_end": "2018-05-02T19:58:39.017639",
+      "postprocessing_begin": "2018-05-02T19:58:39.017878",
+      "postprocessing_end": "2018-05-02T19:58:39.046628",
+      "sent_time": "2018-05-02T19:58:39.048042",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:58:47.899861"
+          ]
+        ]
+      },
+      "reference_translation": "Bien s\u00fbr\u00a0!",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "What exactly are you struggling to get the hang of?",
+      "preprocessed_text": "of course ! <CONCAT> what exactly are you struggling to get the hang of ?",
+      "translated_text": "bien s\u00fbr ! <CONCAT> de quoi est @-@ ce que tu te bats pour avoir le coup de main ?",
+      "postprocessed_text": "De quoi est-ce que tu te bats pour avoir le coup de main ?",
+      "composition_time": "2018-05-02T19:58:34.419808",
+      "preprocessing_begin": "2018-05-02T19:58:34.455061",
+      "preprocessing_end": "2018-05-02T19:58:36.498813",
+      "translation_begin": "2018-05-02T19:58:36.498884",
+      "translation_end": "2018-05-02T19:58:39.017639",
+      "postprocessing_begin": "2018-05-02T19:58:39.017878",
+      "postprocessing_end": "2018-05-02T19:58:39.046628",
+      "sent_time": "2018-05-02T19:58:39.049085",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T19:58:52.328204",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-02T19:58:54.868193",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-02T19:58:57.589921",
+            false
+          ],
+          [
+            "coherence",
+            "2018-05-02T19:58:58.406947",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-02T19:58:58.677096",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "meaning",
+          "coherence",
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T19:58:49.678631"
+          ]
+        ]
+      },
+      "reference_translation": "Qu'est-ce que vous avez du mal \u00e0 saisir, exactement\u00a0?",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Je n'ai malheureusement pas compris la derni\u00e8re phrase, pouvez-vous reformuler ?",
+      "preprocessed_text": "de quoi est @-@ ce que tu te bats pour avoir le coup de main ? <CONCAT> je n&apos; ai malheureusement pas compris la derni\u00e8re phrase , pouvez @-@ vous reformuler ?",
+      "translated_text": "what are you fighting for ? <CONCAT> unfortunately , I didn &apos;t understand the last sentence , can you rephrase that ?",
+      "postprocessed_text": "Unfortunately, I didn't understand the last sentence, can you rephrase that?",
+      "composition_time": "2018-05-02T19:59:27.387816",
+      "preprocessing_begin": "2018-05-02T19:59:27.424241",
+      "preprocessing_end": "2018-05-02T19:59:29.821160",
+      "translation_begin": "2018-05-02T19:59:29.821231",
+      "translation_end": "2018-05-02T19:59:31.806135",
+      "postprocessing_begin": "2018-05-02T19:59:31.806537",
+      "postprocessing_end": "2018-05-02T19:59:31.840425",
+      "sent_time": "2018-05-02T19:59:31.841716",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:00:12.107857"
+          ]
+        ]
+      },
+      "reference_translation": "Unfortunately I didn\u2019t understand the last sentence. Could you reformulate? ",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "Of course - which concepts are you needing assistance with?",
+      "preprocessed_text": "unfortunately , I didn &apos;t understand the last sentence , can you rephrase that ? <CONCAT> of course - which concepts are you needing assistance with ?",
+      "translated_text": "malheureusement , je n&apos; ai pas compris la derni\u00e8re phrase , pouvez @-@ vous reformuler \u00e7a ? <CONCAT> bien s\u00fbr , de quels concepts avez @-@ vous besoin ?",
+      "postprocessed_text": "Bien s\u00fbr, de quels concepts avez-vous besoin ?",
+      "composition_time": "2018-05-02T20:00:31.038169",
+      "preprocessing_begin": "2018-05-02T20:00:31.072294",
+      "preprocessing_end": "2018-05-02T20:00:33.203308",
+      "translation_begin": "2018-05-02T20:00:33.203380",
+      "translation_end": "2018-05-02T20:00:35.360980",
+      "postprocessing_begin": "2018-05-02T20:00:35.361247",
+      "postprocessing_end": "2018-05-02T20:00:35.390341",
+      "sent_time": "2018-05-02T20:00:35.391694",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:01:51.205038"
+          ]
+        ]
+      },
+      "reference_translation": "Bien s\u00fbr. Sur quelles notions avez-vous besoin d'aide\u00a0?",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Merci.",
+      "preprocessed_text": "bien s\u00fbr , de quels concepts avez @-@ vous besoin ? <CONCAT> merci .",
+      "translated_text": "of course , what concepts do you need ? <CONCAT> thank you .",
+      "postprocessed_text": "Thank you.",
+      "composition_time": "2018-05-02T20:01:33.356477",
+      "preprocessing_begin": "2018-05-02T20:01:33.390505",
+      "preprocessing_end": "2018-05-02T20:01:35.550639",
+      "translation_begin": "2018-05-02T20:01:35.550723",
+      "translation_end": "2018-05-02T20:01:39.050794",
+      "postprocessing_begin": "2018-05-02T20:01:39.051199",
+      "postprocessing_end": "2018-05-02T20:01:39.081192",
+      "sent_time": "2018-05-02T20:01:39.082632",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:01:46.802374"
+          ]
+        ]
+      },
+      "reference_translation": "Thank you.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "french",
+      "original_text": "J'ai besoin d'explications sur les d\u00e9riv\u00e9s secondes.",
+      "preprocessed_text": "merci . <CONCAT> j&apos; ai besoin d&apos; explications sur les d\u00e9riv\u00e9s secondes .",
+      "translated_text": "thank you . <CONCAT> I need an explanation about deriv@@ atives .",
+      "postprocessed_text": "I need an explanation about derivatives.",
+      "composition_time": "2018-05-02T20:01:33.356477",
+      "preprocessing_begin": "2018-05-02T20:01:33.390505",
+      "preprocessing_end": "2018-05-02T20:01:35.550639",
+      "translation_begin": "2018-05-02T20:01:35.550723",
+      "translation_end": "2018-05-02T20:01:39.050794",
+      "postprocessing_begin": "2018-05-02T20:01:39.051199",
+      "postprocessing_end": "2018-05-02T20:01:39.081192",
+      "sent_time": "2018-05-02T20:01:39.083599",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:01:48.279955"
+          ]
+        ]
+      },
+      "reference_translation": "I need an explanation of second derivatives.",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "J'ai du mal \u00e0 comprendre le principe",
+      "preprocessed_text": "j&apos; ai besoin d&apos; explications sur les d\u00e9riv\u00e9s secondes . <CONCAT> j&apos; ai du mal \u00e0 comprendre le principe",
+      "translated_text": "I need an explanation about deriv@@ atives . <CONCAT> I &apos;m having trouble understanding the principle .",
+      "postprocessed_text": "I'm having trouble understanding the principle.",
+      "composition_time": "2018-05-02T20:01:33.356477",
+      "preprocessing_begin": "2018-05-02T20:01:33.390505",
+      "preprocessing_end": "2018-05-02T20:01:35.550639",
+      "translation_begin": "2018-05-02T20:01:35.550723",
+      "translation_end": "2018-05-02T20:01:39.050794",
+      "postprocessing_begin": "2018-05-02T20:01:39.051199",
+      "postprocessing_end": "2018-05-02T20:01:39.081192",
+      "sent_time": "2018-05-02T20:01:39.084537",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:01:49.537045"
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019m struggling to understand the idea.",
+      "normalised_version": "J'ai du mal \u00e0 comprendre le principe."
+    },
+    "16": {
+      "language": "english",
+      "original_text": "No problem - is it differentiation or integration you're needing help with the principle of?",
+      "preprocessed_text": "I &apos;m having trouble understanding the principle . <CONCAT> no problem - is it differenti@@ ation or integration you &apos;re needing help with the principle of ?",
+      "translated_text": "j&apos; ai du mal \u00e0 comprendre le principe . <CONCAT> pas de probl\u00e8me .",
+      "postprocessed_text": "Pas de probl\u00e8me.",
+      "composition_time": "2018-05-02T20:02:35.401080",
+      "preprocessing_begin": "2018-05-02T20:02:35.436850",
+      "preprocessing_end": "2018-05-02T20:02:37.738042",
+      "translation_begin": "2018-05-02T20:02:37.738112",
+      "translation_end": "2018-05-02T20:02:40.176056",
+      "postprocessing_begin": "2018-05-02T20:02:40.176405",
+      "postprocessing_end": "2018-05-02T20:02:40.209856",
+      "sent_time": "2018-05-02T20:02:40.211457",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:03:09.073273"
+          ]
+        ]
+      },
+      "reference_translation": "Pas de probl\u00e8me. Est-ce que c'est la d\u00e9rivation ou l'int\u00e9gration dont vous avez besoin d'aide pour comprendre les principes\u00a0?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "On est d'accord que l'examen couvrira tous les concepts vus lors du second semestre ?",
+      "preprocessed_text": "pas de probl\u00e8me . <CONCAT> on est d&apos; accord que l&apos; examen couvrira tous les concepts vus lors du second semestre ?",
+      "translated_text": "no problem . <CONCAT> is it okay that the exam will cover all of the concepts that you saw in the second semester ?",
+      "postprocessed_text": "Is it okay that the exam will cover all of the concepts that you saw in the second semester?",
+      "composition_time": "2018-05-02T20:03:47.923890",
+      "preprocessing_begin": "2018-05-02T20:03:47.970179",
+      "preprocessing_end": "2018-05-02T20:03:50.492125",
+      "translation_begin": "2018-05-02T20:03:50.492192",
+      "translation_end": "2018-05-02T20:03:52.307392",
+      "postprocessing_begin": "2018-05-02T20:03:52.307834",
+      "postprocessing_end": "2018-05-02T20:03:52.337889",
+      "sent_time": "2018-05-02T20:03:52.339367",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T20:04:16.176356",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-02T20:04:22.297323",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-02T20:04:23.615431",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice",
+          "grammar",
+          "meaning"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T20:04:07.351160"
+          ]
+        ]
+      },
+      "reference_translation": "The exam will cover everything we\u2019ve seen in the second term, right?",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "Yes, everything in Term 2 will be assessed in full.",
+      "preprocessed_text": "is it okay that the exam will cover all of the concepts that you saw in the second semester ? <CONCAT> yes , everything in Ter@@ m 2 will be assessed in full .",
+      "translated_text": "est @-@ ce que l&apos; examen va couvrir tous les concepts que tu as vu au deuxi\u00e8me semestre ? <CONCAT> oui , tout dans le Ter@@ m 2 sera \u00e9valu\u00e9 \u00e0 fond .",
+      "postprocessed_text": "Oui, tout dans le Term 2 sera \u00e9valu\u00e9 \u00e0 fond.",
+      "composition_time": "2018-05-02T20:04:53.162407",
+      "preprocessing_begin": "2018-05-02T20:04:53.194440",
+      "preprocessing_end": "2018-05-02T20:04:55.489426",
+      "translation_begin": "2018-05-02T20:04:55.489495",
+      "translation_end": "2018-05-02T20:04:58.299110",
+      "postprocessing_begin": "2018-05-02T20:04:58.299338",
+      "postprocessing_end": "2018-05-02T20:04:58.328903",
+      "sent_time": "2018-05-02T20:04:58.329950",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T20:05:16.563264",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T20:05:13.235256"
+          ]
+        ]
+      },
+      "reference_translation": "Oui, tout le deuxi\u00e8me semestre sera au programme.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "Is there anything further I can help with today?",
+      "preprocessed_text": "yes , everything in Ter@@ m 2 will be assessed in full . <CONCAT> is there anything further I can help with today ?",
+      "translated_text": "oui , tout dans le Ter@@ m 2 sera \u00e9valu\u00e9 \u00e0 fond . <CONCAT> est @-@ ce qu&apos; il y a quelque chose d&apos; autre que je puisse faire aujourd&apos; hui ?",
+      "postprocessed_text": "Est-ce qu'il y a quelque chose d'autre que je puisse faire aujourd'hui ?",
+      "composition_time": "2018-05-02T20:05:35.183718",
+      "preprocessing_begin": "2018-05-02T20:05:35.220712",
+      "preprocessing_end": "2018-05-02T20:05:37.471580",
+      "translation_begin": "2018-05-02T20:05:37.471695",
+      "translation_end": "2018-05-02T20:05:42.597519",
+      "postprocessing_begin": "2018-05-02T20:05:42.597995",
+      "postprocessing_end": "2018-05-02T20:05:42.629047",
+      "sent_time": "2018-05-02T20:05:42.630561",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:06:14.154324"
+          ]
+        ]
+      },
+      "reference_translation": "Est-ce qu'il y a quelque chose d'autre pour lequel vous avez besoin d'aide\u00a0?",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "My next lesson starts shortly so I don't have much more time unfortunately.",
+      "preprocessed_text": "is there anything further I can help with today ? <CONCAT> my next lesson starts shortly so I don &apos;t have much more time unfortunately .",
+      "translated_text": "est @-@ ce qu&apos; il y a quelque chose d&apos; autre que je puisse faire aujourd&apos; hui ? <CONCAT> ma prochaine le\u00e7on commence donc je n&apos; ai pas beaucoup plus de temps malheureusement .",
+      "postprocessed_text": "Ma prochaine le\u00e7on commence donc je n'ai pas beaucoup plus de temps malheureusement.",
+      "composition_time": "2018-05-02T20:05:35.183718",
+      "preprocessing_begin": "2018-05-02T20:05:35.220712",
+      "preprocessing_end": "2018-05-02T20:05:37.471580",
+      "translation_begin": "2018-05-02T20:05:37.471695",
+      "translation_end": "2018-05-02T20:05:42.597519",
+      "postprocessing_begin": "2018-05-02T20:05:42.597995",
+      "postprocessing_end": "2018-05-02T20:05:42.629047",
+      "sent_time": "2018-05-02T20:05:42.631560",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:06:15.373292"
+          ]
+        ]
+      },
+      "reference_translation": "Mon prochain cours commence dans un instant donc je n'ai plus beaucoup de temps, malheureusement.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Pas de probl\u00e8me, c'est d\u00e9j\u00e0 beaucoup.",
+      "preprocessed_text": "ma prochaine le\u00e7on commence donc je n&apos; ai pas beaucoup plus de temps malheureusement . <CONCAT> pas de probl\u00e8me , c&apos; est d\u00e9j\u00e0 beaucoup .",
+      "translated_text": "my next lesson is starting , so I don &apos;t have much more time . <CONCAT> no problem , that &apos;s a lot .",
+      "postprocessed_text": "No problem, that's a lot.",
+      "composition_time": "2018-05-02T20:06:09.012824",
+      "preprocessing_begin": "2018-05-02T20:06:09.045906",
+      "preprocessing_end": "2018-05-02T20:06:11.225866",
+      "translation_begin": "2018-05-02T20:06:11.226079",
+      "translation_end": "2018-05-02T20:06:14.109131",
+      "postprocessing_begin": "2018-05-02T20:06:14.109575",
+      "postprocessing_end": "2018-05-02T20:06:14.148009",
+      "sent_time": "2018-05-02T20:06:14.148919",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-02T20:06:22.836330",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-02T20:06:24.082286",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "grammar",
+          "meaning"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T20:06:19.249071"
+          ],
+          [
+            "poor",
+            "2018-05-02T20:06:20.311699"
+          ],
+          [
+            "medium",
+            "2018-05-02T20:06:21.251010"
+          ]
+        ]
+      },
+      "reference_translation": "No worries, that\u2019s already a big help.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Je vous remercie pour votre temps",
+      "preprocessed_text": "pas de probl\u00e8me , c&apos; est d\u00e9j\u00e0 beaucoup . <CONCAT> je vous remercie pour votre temps",
+      "translated_text": "no problem . <CONCAT> thank you for your time .",
+      "postprocessed_text": "Thank you for your time.",
+      "composition_time": "2018-05-02T20:06:09.012824",
+      "preprocessing_begin": "2018-05-02T20:06:09.045906",
+      "preprocessing_end": "2018-05-02T20:06:11.225866",
+      "translation_begin": "2018-05-02T20:06:11.226079",
+      "translation_end": "2018-05-02T20:06:14.109131",
+      "postprocessing_begin": "2018-05-02T20:06:14.109575",
+      "postprocessing_end": "2018-05-02T20:06:14.148009",
+      "sent_time": "2018-05-02T20:06:14.149395",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:06:26.056588"
+          ]
+        ]
+      },
+      "reference_translation": "Thank you for your time.",
+      "normalised_version": "Je vous remercie pour votre temps."
+    },
+    "23": {
+      "language": "english",
+      "original_text": "No problem, enjoy the rest of your evening!",
+      "preprocessed_text": "thank you for your time . <CONCAT> no problem , enjoy the rest of your evening !",
+      "translated_text": "merci pour votre temps . <CONCAT> pas de probl\u00e8me , profitez du reste de votre soir\u00e9e !",
+      "postprocessed_text": "Pas de probl\u00e8me, profitez du reste de votre soir\u00e9e !",
+      "composition_time": "2018-05-02T20:06:41.360068",
+      "preprocessing_begin": "2018-05-02T20:06:41.393202",
+      "preprocessing_end": "2018-05-02T20:06:43.492394",
+      "translation_begin": "2018-05-02T20:06:43.492484",
+      "translation_end": "2018-05-02T20:06:44.716805",
+      "postprocessing_begin": "2018-05-02T20:06:44.717114",
+      "postprocessing_end": "2018-05-02T20:06:44.760239",
+      "sent_time": "2018-05-02T20:06:44.761108",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T20:07:23.123966"
+          ]
+        ]
+      },
+      "reference_translation": "Pas de probl\u00e8me, bonne fin de soir\u00e9e\u00a0!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "would_use": true,
+    "particular_problems": "certains concepts difficiles ou culturellement li\u00e9s \u00e0 un pays",
+    "grammaticality": "excellent",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "verbatim_quality": "",
+    "timestamp": "2018-05-02T20:08:34.173695",
+    "meaning": "good",
+    "interface": "elle est top !",
+    "coherence": "good",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "would_use": true,
+    "particular_problems": "aside from that one example, nothing particularly poorly to be non-understandable. a few grammatical issues here and there but nothing particularly major",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "verbatim_quality": "very good for the most part and definitely understandable. there was only one example where i had (deliberately) phrased something in a way that a machine translator would struggle with - it didn't seem to know how to translate 'getting the hang of something' judging by the following reply",
+    "timestamp": "2018-05-02T20:09:22.029523",
+    "meaning": "good",
+    "interface": "very clear and easy-to-use - i also like that when i accidentally navigated out of the chat window it forced me back there again.",
+    "coherence": "good",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

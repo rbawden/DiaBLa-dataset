@@ -1,0 +1,12 @@
+{
+   "age": "35-44",
+   "idnum": 59,
+   "gender": "female",
+   "creation_date": "2018-05-17T10:11:46.659337",
+   "english_ability": "native",
+   "otherlangs": "german",
+   "french_ability": "medium",
+   "worked_in_research": true,
+   "worked_in_NLP": true,
+   "agreed_to_terms_and_conditions": true
+}

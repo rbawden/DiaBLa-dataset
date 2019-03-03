@@ -1,0 +1,1391 @@
+{
+  "start_time": "2018-05-01T12:58:27.450861",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a classroom.",
+      "Vous \u00eates dans une salle de classe."
+    ],
+    [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ]
+  ],
+  "user1": {
+    "initiated_dialogue": true,
+    "turn_number": 1,
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6",
+    "role_num": 2,
+    "role": [
+      "You are the student and you are talking to your teacher.",
+      "Vous \u00eates un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e) et vous discutez avec votre professeur(e)."
+    ],
+    "lang": "french"
+  },
+  "user2": {
+    "initiated_dialogue": false,
+    "turn_number": 2,
+    "eval-stage": false,
+    "useragent": "Mozilla/5.0 (iPad; CPU OS 9_3_5 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13G36 Safari/601.1",
+    "rolenum": 1,
+    "role": [
+      "You are the teacher and you are talking to a student.",
+      "Vous \u00eates le ou la professeur(e) et vous discutez avec un(e) \u00e9l\u00e8ve(e) ou \u00e9tudiant(e)."
+    ],
+    "lang": "english"
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Monsieur, je peux vous poser une question s'il vous pla\u00eet?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> monsieur , je peux vous poser une question s&apos; il vous pla\u00eet ?",
+      "translated_text": "add@@ endum <CONCAT> sir , can I ask you a question , please ?",
+      "postprocessed_text": "Sir, can I ask you a question, please?",
+      "composition_time": "2018-05-01T12:58:51.223152",
+      "preprocessing_begin": "2018-05-01T12:58:51.276871",
+      "preprocessing_end": "2018-05-01T12:58:53.315156",
+      "translation_begin": "2018-05-01T12:58:53.315231",
+      "translation_end": "2018-05-01T12:58:54.263438",
+      "postprocessing_begin": "2018-05-01T12:58:54.263728",
+      "postprocessing_end": "2018-05-01T12:58:54.292141",
+      "sent_time": "2018-05-01T12:58:54.293113",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:02:14.679834"
+          ]
+        ]
+      },
+      "reference_translation": "Sir, may I ask you a question please?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Yes, please do.",
+      "preprocessed_text": "sir , can I ask you a question , please ? <CONCAT> yes , please do .",
+      "translated_text": "monsieur , puis @-@ je vous poser une question , s&apos; il vous pla\u00eet ? <CONCAT> oui , s&apos; il vous pla\u00eet .",
+      "postprocessed_text": "Oui, s'il vous pla\u00eet.",
+      "composition_time": "2018-05-01T12:59:16.065078",
+      "preprocessing_begin": "2018-05-01T12:59:16.101775",
+      "preprocessing_end": "2018-05-01T12:59:18.068426",
+      "translation_begin": "2018-05-01T12:59:18.068501",
+      "translation_end": "2018-05-01T12:59:19.545519",
+      "postprocessing_begin": "2018-05-01T12:59:19.545793",
+      "postprocessing_end": "2018-05-01T12:59:19.573962",
+      "sent_time": "2018-05-01T12:59:19.575127",
+      "eval": {
+        "verbatim": "\"s'il vous pla\u00eet\"",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "\"s'il vous pla\u00eet\"",
+            "2018-05-01T12:59:32.173775",
+            "2018-05-01T12:59:32.173775"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T12:59:31.645540",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T12:59:25.416442"
+          ]
+        ]
+      },
+      "reference_translation": "Oui, je vous en prie.",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "french",
+      "original_text": "Je ne comprends pas pourquoi je n'ai eu que 12/20 au contr\u00f4le.",
+      "preprocessed_text": "oui , s&apos; il vous pla\u00eet . <CONCAT> je ne comprends pas pourquoi je n&apos; ai eu que 12 / 20 au contr\u00f4le .",
+      "translated_text": "yes , please . <CONCAT> I don &apos;t understand why I only got 12 / 20 in control .",
+      "postprocessed_text": "I don't understand why I only got 12 / 20 in control.",
+      "composition_time": "2018-05-01T12:59:58.739937",
+      "preprocessing_begin": "2018-05-01T12:59:58.773329",
+      "preprocessing_end": "2018-05-01T13:00:00.885930",
+      "translation_begin": "2018-05-01T13:00:00.886030",
+      "translation_end": "2018-05-01T13:00:02.293390",
+      "postprocessing_begin": "2018-05-01T13:00:02.293699",
+      "postprocessing_end": "2018-05-01T13:00:02.321198",
+      "sent_time": "2018-05-01T13:00:02.322290",
+      "eval": {
+        "verbatim": "Not sure what in control refers to",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "Not sure what in control refers to",
+            "2018-05-01T13:03:03.777214",
+            "2018-05-01T13:03:03.777214"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-01T13:02:37.964137",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:02:22.838612"
+          ]
+        ]
+      },
+      "reference_translation": "I don\u2019t understand why I only got 12/20 on the test.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Je trouve que \u00e7a m\u00e9rite bien plus de points que \u00e7a.",
+      "preprocessed_text": "je ne comprends pas pourquoi je n&apos; ai eu que 12 / 20 au contr\u00f4le . <CONCAT> je trouve que \u00e7a m\u00e9rite bien plus de points que \u00e7a .",
+      "translated_text": "I don &apos;t understand why I only got 12 / 20 in control . <CONCAT> I think it deserves a lot more points than that .",
+      "postprocessed_text": "I think it deserves a lot more points than that.",
+      "composition_time": "2018-05-01T13:00:07.375092",
+      "preprocessing_begin": "2018-05-01T13:00:07.415653",
+      "preprocessing_end": "2018-05-01T13:00:09.502854",
+      "translation_begin": "2018-05-01T13:00:09.502950",
+      "translation_end": "2018-05-01T13:00:11.390717",
+      "postprocessing_begin": "2018-05-01T13:00:11.391012",
+      "postprocessing_end": "2018-05-01T13:00:11.421446",
+      "sent_time": "2018-05-01T13:00:11.422876",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:03:03.732523"
+          ]
+        ]
+      },
+      "reference_translation": "I think it deserves more points than that.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "Why do you think you deserve more?",
+      "preprocessed_text": "I think it deserves a lot more points than that . <CONCAT> why do you think you deserve more ?",
+      "translated_text": "je pense que \u00e7a m\u00e9rite bien plus que \u00e7a . <CONCAT> pourquoi penses @-@ tu que tu m\u00e9rites plus ?",
+      "postprocessed_text": "Pourquoi penses-tu que tu m\u00e9rites plus ?",
+      "composition_time": "2018-05-01T13:02:04.798564",
+      "preprocessing_begin": "2018-05-01T13:02:04.831477",
+      "preprocessing_end": "2018-05-01T13:02:06.819079",
+      "translation_begin": "2018-05-01T13:02:06.819142",
+      "translation_end": "2018-05-01T13:02:08.332222",
+      "postprocessing_begin": "2018-05-01T13:02:08.332614",
+      "postprocessing_end": "2018-05-01T13:02:08.361862",
+      "sent_time": "2018-05-01T13:02:08.363428",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:02:13.990370"
+          ]
+        ]
+      },
+      "reference_translation": "Pourquoi pensez-vous m\u00e9riter plus\u00a0?",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "french",
+      "original_text": "Parce que j'ai \u00e9crit 14 pages, et que j'ai mis beaucoup de citations.",
+      "preprocessed_text": "pourquoi penses @-@ tu que tu m\u00e9rites plus ? <CONCAT> parce que j&apos; ai \u00e9crit 14 pages , et que j&apos; ai mis beaucoup de citations .",
+      "translated_text": "why do you think you deserve more ? <CONCAT> because I wrote 14 pages , and I put a lot of quotes out .",
+      "postprocessed_text": "Because I wrote 14 pages, and I put a lot of quotes out.",
+      "composition_time": "2018-05-01T13:02:30.541622",
+      "preprocessing_begin": "2018-05-01T13:02:30.576648",
+      "preprocessing_end": "2018-05-01T13:02:32.820177",
+      "translation_begin": "2018-05-01T13:02:32.820246",
+      "translation_end": "2018-05-01T13:02:34.668845",
+      "postprocessing_begin": "2018-05-01T13:02:34.669364",
+      "postprocessing_end": "2018-05-01T13:02:34.700043",
+      "sent_time": "2018-05-01T13:02:34.701545",
+      "eval": {
+        "verbatim": "Should be 'quotes in'",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "Should be 'quotes in'",
+            "2018-05-01T13:06:54.398987",
+            "2018-05-01T13:06:54.398987"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:06:32.845323",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:06:27.616401"
+          ]
+        ]
+      },
+      "reference_translation": "Because I wrote 14 pages and I added lots of quotes.",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "french",
+      "original_text": "J'avais appris par coeur plein de citations, et j'en ai mis le plus possible dans ma copie.",
+      "preprocessed_text": "parce que j&apos; ai \u00e9crit 14 pages , et que j&apos; ai mis beaucoup de citations . <CONCAT> j&apos; avais appris par coeur plein de citations , et j&apos; en ai mis le plus possible dans ma copie .",
+      "translated_text": "because I wrote 14 pages , and I put a lot of quotes out . <CONCAT> I had learned a lot of quotes , and I put the best part in my copy .",
+      "postprocessed_text": "I had learned a lot of quotes, and I put the best part in my copy.",
+      "composition_time": "2018-05-01T13:02:45.219349",
+      "preprocessing_begin": "2018-05-01T13:02:45.251162",
+      "preprocessing_end": "2018-05-01T13:02:47.449445",
+      "translation_begin": "2018-05-01T13:02:47.449530",
+      "translation_end": "2018-05-01T13:02:49.952284",
+      "postprocessing_begin": "2018-05-01T13:02:49.952704",
+      "postprocessing_end": "2018-05-01T13:02:49.987204",
+      "sent_time": "2018-05-01T13:02:49.988432",
+      "eval": {
+        "verbatim": "'Best ones'",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "'Best ones'",
+            "2018-05-01T13:07:27.347133",
+            "2018-05-01T13:07:27.347133"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:07:16.122223",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:07:14.501370"
+          ]
+        ]
+      },
+      "reference_translation": "I learnt lots of quotes by heart and I wrote as many as possible in my paper.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "english",
+      "original_text": "Not all of your quotes were entirely relevant I'm afraid.",
+      "preprocessed_text": "I had learned a lot of quotes , and I put the best part in my copy . <CONCAT> not all of your quotes were entirely relevant I &apos;m afraid .",
+      "translated_text": "j&apos; ai appris beaucoup de citations , et j&apos; ai mis la meilleure partie dans ma copie . <CONCAT> toutes tes citations n&apos; \u00e9taient pas tout \u00e0 fait pertinente , j&apos; en ai peur .",
+      "postprocessed_text": "Toutes tes citations n'\u00e9taient pas tout \u00e0 fait pertinente, j'en ai peur.",
+      "composition_time": "2018-05-01T13:06:14.078763",
+      "preprocessing_begin": "2018-05-01T13:06:14.109854",
+      "preprocessing_end": "2018-05-01T13:06:16.080312",
+      "translation_begin": "2018-05-01T13:06:16.080373",
+      "translation_end": "2018-05-01T13:06:20.830273",
+      "postprocessing_begin": "2018-05-01T13:06:20.830582",
+      "postprocessing_end": "2018-05-01T13:06:20.864452",
+      "sent_time": "2018-05-01T13:06:20.865241",
+      "eval": {
+        "verbatim": "\"pertinente\" sans s",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "\"pertinente\" sans s",
+            "2018-05-01T13:06:35.192422",
+            "2018-05-01T13:06:35.192422"
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-01T13:06:29.592213",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:06:28.329627"
+          ]
+        ]
+      },
+      "reference_translation": "Je ne suis pas s\u00fbr que toutes vos citations \u00e9taient pertinentes.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "english",
+      "original_text": "Referencing quotes is useful but they need to relate to the question at hand.",
+      "preprocessed_text": "not all of your quotes were entirely relevant I &apos;m afraid . <CONCAT> referencing quotes is useful but they need to relate to the question at hand .",
+      "translated_text": "toutes tes citations n&apos; \u00e9taient pas tout \u00e0 fait pertinente , j&apos; en ai peur . <CONCAT> les guillemets sont utiles , mais ils doivent s&apos; identifier \u00e0 la question \u00e0 la main .",
+      "postprocessed_text": "Les guillemets sont utiles, mais ils doivent s'identifier \u00e0 la question \u00e0 la main.",
+      "composition_time": "2018-05-01T13:06:14.078763",
+      "preprocessing_begin": "2018-05-01T13:06:14.109854",
+      "preprocessing_end": "2018-05-01T13:06:16.080312",
+      "translation_begin": "2018-05-01T13:06:16.080373",
+      "translation_end": "2018-05-01T13:06:20.830273",
+      "postprocessing_begin": "2018-05-01T13:06:20.830582",
+      "postprocessing_end": "2018-05-01T13:06:20.864452",
+      "sent_time": "2018-05-01T13:06:20.865739",
+      "eval": {
+        "verbatim": "\"\u00e0 la main\": idiome traduit litt\u00e9ralement",
+        "judgment": "poor",
+        "verbatim_history": [
+          [
+            "\"\u00e0 la main\": idiome traduit litt\u00e9ralement",
+            "2018-05-01T13:07:02.481622",
+            "2018-05-01T13:07:02.481622"
+          ]
+        ],
+        "problems": [
+          "word choice",
+          "meaning"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:06:42.571858",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-01T13:06:45.181247",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-01T13:06:38.431346"
+          ]
+        ]
+      },
+      "reference_translation": "Mettre des citations est utile, mais il faut qu'elles soient en rapport avec la question pos\u00e9e.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "french",
+      "original_text": "Je comprends, mais quand m\u00eame, 12/20 pour 14 pages, je trouve que c'est pas assez.",
+      "preprocessed_text": "les guillemets sont utiles , mais ils doivent s&apos; identifier \u00e0 la question \u00e0 la main . <CONCAT> je comprends , mais quand m\u00eame , 12 / 20 pour 14 pages , je trouve que c&apos; est pas assez .",
+      "translated_text": "air quotes are useful , but they have to identify with the question by hand . <CONCAT> I understand that , but still , 12 / 20 for 14 pages , I don &apos;t think it &apos;s enough .",
+      "postprocessed_text": "I understand that, but still, 12 / 20 for 14 pages, I don't think it's enough.",
+      "composition_time": "2018-05-01T13:07:18.826984",
+      "preprocessing_begin": "2018-05-01T13:07:18.857554",
+      "preprocessing_end": "2018-05-01T13:07:20.931652",
+      "translation_begin": "2018-05-01T13:07:20.931737",
+      "translation_end": "2018-05-01T13:07:23.912636",
+      "postprocessing_begin": "2018-05-01T13:07:23.912917",
+      "postprocessing_end": "2018-05-01T13:07:23.944900",
+      "sent_time": "2018-05-01T13:07:23.946301",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:09:17.060015"
+          ]
+        ]
+      },
+      "reference_translation": "I get that, but even so, 12/20 for 14 pages. I don\u2019t think it\u2019s enough.",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "french",
+      "original_text": "Sinon la prochaine fois je ne r\u00e9digerai que 2 pages, comme Martin, qui a eu 15.",
+      "preprocessed_text": "je comprends , mais quand m\u00eame , 12 / 20 pour 14 pages , je trouve que c&apos; est pas assez . <CONCAT> sinon la prochaine fois je ne r\u00e9dig@@ erai que 2 pages , comme Martin , qui a eu 15 .",
+      "translated_text": "I understand that , but still , 12 / 20 for 14 pages , I don &apos;t think it &apos;s enough . <CONCAT> otherwise , next time I &apos;ll draw two pages , like Martin , who got 15 .",
+      "postprocessed_text": "Otherwise, next time I'll draw two pages, like Martin, who got 15.",
+      "composition_time": "2018-05-01T13:07:33.114940",
+      "preprocessing_begin": "2018-05-01T13:07:33.146251",
+      "preprocessing_end": "2018-05-01T13:07:35.385440",
+      "translation_begin": "2018-05-01T13:07:35.385515",
+      "translation_end": "2018-05-01T13:07:38.280332",
+      "postprocessing_begin": "2018-05-01T13:07:38.280607",
+      "postprocessing_end": "2018-05-01T13:07:38.308367",
+      "sent_time": "2018-05-01T13:07:38.309287",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:09:25.616062"
+          ]
+        ]
+      },
+      "reference_translation": "Otherwise, next time I\u2019ll only write 2 pages, like Martin, who got 15.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "french",
+      "original_text": "C'est pas juste.",
+      "preprocessed_text": "sinon la prochaine fois je ne r\u00e9dig@@ erai que 2 pages , comme Martin , qui a eu 15 . <CONCAT> c&apos; est pas juste .",
+      "translated_text": "if not , next time I &apos;ll write two pages , like Martin , who got 15 . <CONCAT> that &apos;s not fair .",
+      "postprocessed_text": "That's not fair.",
+      "composition_time": "2018-05-01T13:07:39.142920",
+      "preprocessing_begin": "2018-05-01T13:07:39.174561",
+      "preprocessing_end": "2018-05-01T13:07:41.142821",
+      "translation_begin": "2018-05-01T13:07:41.142903",
+      "translation_end": "2018-05-01T13:07:42.835507",
+      "postprocessing_begin": "2018-05-01T13:07:42.835766",
+      "postprocessing_end": "2018-05-01T13:07:42.865425",
+      "sent_time": "2018-05-01T13:07:42.866357",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:09:28.777589"
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s not fair.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "C'est votre chouchou!",
+      "preprocessed_text": "c&apos; est pas juste . <CONCAT> c&apos; est votre chouchou !",
+      "translated_text": "it &apos;s not fair . <CONCAT> it &apos;s your pet !",
+      "postprocessed_text": "It's your pet!",
+      "composition_time": "2018-05-01T13:07:43.697780",
+      "preprocessing_begin": "2018-05-01T13:07:43.729740",
+      "preprocessing_end": "2018-05-01T13:07:45.999120",
+      "translation_begin": "2018-05-01T13:07:45.999177",
+      "translation_end": "2018-05-01T13:07:46.775974",
+      "postprocessing_begin": "2018-05-01T13:07:46.776210",
+      "postprocessing_end": "2018-05-01T13:07:46.811094",
+      "sent_time": "2018-05-01T13:07:46.812167",
+      "eval": {
+        "verbatim": "",
+        "judgment": "medium",
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:09:34.286081",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:09:32.254214"
+          ]
+        ]
+      },
+      "reference_translation": "He\u2019s your favourite.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "french",
+      "original_text": "Il a toujours de meilleures notes que moi m\u00eame s'il \u00e9crit n'importe quoi.",
+      "preprocessed_text": "c&apos; est votre chouchou ! <CONCAT> il a toujours de meilleures notes que moi m\u00eame s&apos; il \u00e9crit n&apos; importe quoi .",
+      "translated_text": "he &apos;s your favorite ! <CONCAT> he always gets better grades than I do , even if he writes anything .",
+      "postprocessed_text": "He always gets better grades than I do, even if he writes anything.",
+      "composition_time": "2018-05-01T13:07:57.357097",
+      "preprocessing_begin": "2018-05-01T13:07:57.389642",
+      "preprocessing_end": "2018-05-01T13:07:59.518179",
+      "translation_begin": "2018-05-01T13:07:59.518254",
+      "translation_end": "2018-05-01T13:08:01.046669",
+      "postprocessing_begin": "2018-05-01T13:08:01.046931",
+      "postprocessing_end": "2018-05-01T13:08:01.081235",
+      "sent_time": "2018-05-01T13:08:01.082262",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:10:23.943323"
+          ]
+        ]
+      },
+      "reference_translation": "He always gets better marks than me, even if he writes any old rubbish.",
+      "normalised_version": ""
+    },
+    "14": {
+      "language": "english",
+      "original_text": "Well, he is in my golf club!",
+      "preprocessed_text": "he always gets better grades than I do , even if he writes anything . <CONCAT> well , he is in my golf club !",
+      "translated_text": "il a toujours de meilleures notes que moi , m\u00eame s&apos; il \u00e9crit quelque chose . <CONCAT> il est dans mon club de golf !",
+      "postprocessed_text": "Il est dans mon club de golf !",
+      "composition_time": "2018-05-01T13:09:06.055824",
+      "preprocessing_begin": "2018-05-01T13:09:06.088467",
+      "preprocessing_end": "2018-05-01T13:09:08.010820",
+      "translation_begin": "2018-05-01T13:09:08.010896",
+      "translation_end": "2018-05-01T13:09:09.906077",
+      "postprocessing_begin": "2018-05-01T13:09:09.906474",
+      "postprocessing_end": "2018-05-01T13:09:09.940241",
+      "sent_time": "2018-05-01T13:09:09.941853",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:09:17.186710"
+          ]
+        ]
+      },
+      "reference_translation": "Bon, il est dans mon club de golf\u00a0!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Il joue au golf avec vous?",
+      "preprocessed_text": "il est dans mon club de golf ! <CONCAT> il joue au golf avec vous ?",
+      "translated_text": "he &apos;s in my golf club ! <CONCAT> he plays golf with you ?",
+      "postprocessed_text": "He plays golf with you?",
+      "composition_time": "2018-05-01T13:09:24.247283",
+      "preprocessing_begin": "2018-05-01T13:09:24.281742",
+      "preprocessing_end": "2018-05-01T13:09:26.326384",
+      "translation_begin": "2018-05-01T13:09:26.326439",
+      "translation_end": "2018-05-01T13:09:27.342295",
+      "postprocessing_begin": "2018-05-01T13:09:27.342555",
+      "postprocessing_end": "2018-05-01T13:09:27.374940",
+      "sent_time": "2018-05-01T13:09:27.376198",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:13:22.491545"
+          ]
+        ]
+      },
+      "reference_translation": "He plays golf with you?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "french",
+      "original_text": "Mais c'est injuste!",
+      "preprocessed_text": "il joue au golf avec vous ? <CONCAT> mais c&apos; est injuste !",
+      "translated_text": "he plays golf with you ? <CONCAT> but that &apos;s not fair !",
+      "postprocessed_text": "But that's not fair!",
+      "composition_time": "2018-05-01T13:09:34.814641",
+      "preprocessing_begin": "2018-05-01T13:09:34.862310",
+      "preprocessing_end": "2018-05-01T13:09:36.864740",
+      "translation_begin": "2018-05-01T13:09:36.864805",
+      "translation_end": "2018-05-01T13:09:38.928850",
+      "postprocessing_begin": "2018-05-01T13:09:38.929168",
+      "postprocessing_end": "2018-05-01T13:09:38.960554",
+      "sent_time": "2018-05-01T13:09:38.961795",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:13:25.080664"
+          ]
+        ]
+      },
+      "reference_translation": "But that\u2019s unfair!",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Vous le connaissez personnellement, donc vous le favorisez.",
+      "preprocessed_text": "mais c&apos; est injuste ! <CONCAT> vous le connaissez personnellement , donc vous le favori@@ sez .",
+      "translated_text": "but it &apos;s unfair ! <CONCAT> you know him personally , so you favor him .",
+      "postprocessed_text": "You know him personally, so you favor him.",
+      "composition_time": "2018-05-01T13:09:34.814641",
+      "preprocessing_begin": "2018-05-01T13:09:34.862310",
+      "preprocessing_end": "2018-05-01T13:09:36.864740",
+      "translation_begin": "2018-05-01T13:09:36.864805",
+      "translation_end": "2018-05-01T13:09:38.928850",
+      "postprocessing_begin": "2018-05-01T13:09:38.929168",
+      "postprocessing_end": "2018-05-01T13:09:38.960554",
+      "sent_time": "2018-05-01T13:09:38.962490",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:13:30.317617"
+          ]
+        ]
+      },
+      "reference_translation": "You know him personally and therefore show favouritism towards him.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "french",
+      "original_text": "Je crois que je vais en discuter avec le proviseur, c'est pas normal.",
+      "preprocessed_text": "vous le connaissez personnellement , donc vous le favori@@ sez . <CONCAT> je crois que je vais en discuter avec le proviseur , c&apos; est pas normal .",
+      "translated_text": "you know him personally , so you favor him . <CONCAT> I think I &apos;ll talk to the principal about it .",
+      "postprocessed_text": "I think I'll talk to the principal about it.",
+      "composition_time": "2018-05-01T13:10:00.795808",
+      "preprocessing_begin": "2018-05-01T13:10:00.826255",
+      "preprocessing_end": "2018-05-01T13:10:02.901138",
+      "translation_begin": "2018-05-01T13:10:02.901241",
+      "translation_end": "2018-05-01T13:10:04.821488",
+      "postprocessing_begin": "2018-05-01T13:10:04.821686",
+      "postprocessing_end": "2018-05-01T13:10:04.852527",
+      "sent_time": "2018-05-01T13:10:04.853631",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:13:33.866051"
+          ]
+        ]
+      },
+      "reference_translation": "I think I\u2019m going to speak to the Head. It\u2019s not normal.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "The principal is also a member!",
+      "preprocessed_text": "I think I &apos;ll talk to the principal about it . <CONCAT> the principal is also a member !",
+      "translated_text": "je pense que j&apos; en parlerai au principal . <CONCAT> le principal est aussi un membre !",
+      "postprocessed_text": "Le principal est aussi un membre !",
+      "composition_time": "2018-05-01T13:13:09.670574",
+      "preprocessing_begin": "2018-05-01T13:13:09.705361",
+      "preprocessing_end": "2018-05-01T13:13:11.954397",
+      "translation_begin": "2018-05-01T13:13:11.954448",
+      "translation_end": "2018-05-01T13:13:13.115179",
+      "postprocessing_begin": "2018-05-01T13:13:13.115420",
+      "postprocessing_end": "2018-05-01T13:13:13.148516",
+      "sent_time": "2018-05-01T13:13:13.149836",
+      "eval": {
+        "verbatim": "\"un\" en trop",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "\"un\" en trop",
+            "2018-05-01T13:25:19.089050",
+            "2018-05-01T13:25:19.089050"
+          ]
+        ],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:14:03.758184"
+          ],
+          [
+            "medium",
+            "2018-05-01T13:25:14.330030"
+          ]
+        ]
+      },
+      "reference_translation": "Le proviseur en est membre aussi\u00a0!",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Il y a s\u00fbrement d'autres professeurs qui ne jouent pas au golf.",
+      "preprocessed_text": "le principal est aussi un membre ! <CONCAT> il y a s\u00fbrement d&apos; autres professeurs qui ne jouent pas au golf .",
+      "translated_text": "the principal is also a member ! <CONCAT> there must be other teachers who don &apos;t play golf .",
+      "postprocessed_text": "There must be other teachers who don't play golf.",
+      "composition_time": "2018-05-01T13:14:21.855932",
+      "preprocessing_begin": "2018-05-01T13:14:21.887114",
+      "preprocessing_end": "2018-05-01T13:14:23.960831",
+      "translation_begin": "2018-05-01T13:14:23.960922",
+      "translation_end": "2018-05-01T13:14:25.276271",
+      "postprocessing_begin": "2018-05-01T13:14:25.276748",
+      "postprocessing_end": "2018-05-01T13:14:25.311651",
+      "sent_time": "2018-05-01T13:14:25.312829",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:15:29.695658"
+          ]
+        ]
+      },
+      "reference_translation": "There must be other teachers who don\u2019t play golf.",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Je ne peux pas imaginer Mme Smith jouer au golf.",
+      "preprocessed_text": "il y a s\u00fbrement d&apos; autres professeurs qui ne jouent pas au golf . <CONCAT> je ne peux pas imaginer Mme Smith jouer au golf .",
+      "translated_text": "there must be other teachers who don &apos;t play golf . <CONCAT> I can &apos;t imagine Mrs. Smith playing golf .",
+      "postprocessed_text": "I can't imagine Mrs. Smith playing golf.",
+      "composition_time": "2018-05-01T13:15:42.339669",
+      "preprocessing_begin": "2018-05-01T13:15:42.375237",
+      "preprocessing_end": "2018-05-01T13:15:44.522667",
+      "translation_begin": "2018-05-01T13:15:44.522878",
+      "translation_end": "2018-05-01T13:15:46.044306",
+      "postprocessing_begin": "2018-05-01T13:15:46.044527",
+      "postprocessing_end": "2018-05-01T13:15:46.092588",
+      "sent_time": "2018-05-01T13:15:46.093859",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:21:17.163282"
+          ]
+        ]
+      },
+      "reference_translation": "I can\u2019t imagine Mrs Smith playing golf.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "english",
+      "original_text": "Ah, Mrs Smith, we've been dating for nearly a year now.",
+      "preprocessed_text": "I can &apos;t imagine Mrs. Smith playing golf . <CONCAT> ah , Mrs Smith , we &apos;ve been dating for nearly a year now .",
+      "translated_text": "je ne peux pas imaginer Mme Smith jouer au golf . <CONCAT> ah , Mme Smith , nous sortons ensemble depuis pr\u00e8s d&apos; un an maintenant .",
+      "postprocessed_text": "Ah, Mme Smith, nous sortons ensemble depuis pr\u00e8s d'un an maintenant.",
+      "composition_time": "2018-05-01T13:20:55.378797",
+      "preprocessing_begin": "2018-05-01T13:20:55.409642",
+      "preprocessing_end": "2018-05-01T13:20:57.384093",
+      "translation_begin": "2018-05-01T13:20:57.384161",
+      "translation_end": "2018-05-01T13:21:00.611951",
+      "postprocessing_begin": "2018-05-01T13:21:00.612218",
+      "postprocessing_end": "2018-05-01T13:21:00.647515",
+      "sent_time": "2018-05-01T13:21:00.648644",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:23:05.585265"
+          ]
+        ]
+      },
+      "reference_translation": "Ah, Mme Smith, \u00e7a fait presque un an qu'on sort ensemble.",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "english",
+      "original_text": "Martin introduced us.",
+      "preprocessed_text": "ah , Mrs Smith , we &apos;ve been dating for nearly a year now . <CONCAT> Martin introduced us .",
+      "translated_text": "Mme Smith , on sort ensemble depuis pr\u00e8s d&apos; un an . <CONCAT> Martin nous a pr\u00e9sent\u00e9s .",
+      "postprocessed_text": "Martin nous a pr\u00e9sent\u00e9s.",
+      "composition_time": "2018-05-01T13:20:55.378797",
+      "preprocessing_begin": "2018-05-01T13:20:55.409642",
+      "preprocessing_end": "2018-05-01T13:20:57.384093",
+      "translation_begin": "2018-05-01T13:20:57.384161",
+      "translation_end": "2018-05-01T13:21:00.611951",
+      "postprocessing_begin": "2018-05-01T13:21:00.612218",
+      "postprocessing_end": "2018-05-01T13:21:00.647515",
+      "sent_time": "2018-05-01T13:21:00.649283",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:23:09.118196"
+          ]
+        ]
+      },
+      "reference_translation": "C'est Martin qui nous a pr\u00e9sent\u00e9s.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Mais elle doit avoir 20 ans de plus que vous!",
+      "preprocessed_text": "Martin nous a pr\u00e9sent\u00e9s . <CONCAT> mais elle doit avoir 20 ans de plus que vous !",
+      "translated_text": "Martin introduced us . <CONCAT> but she must be 20 years older than you .",
+      "postprocessed_text": "But she must be 20 years older than you.",
+      "composition_time": "2018-05-01T13:23:18.463636",
+      "preprocessing_begin": "2018-05-01T13:23:18.496876",
+      "preprocessing_end": "2018-05-01T13:23:20.689269",
+      "translation_begin": "2018-05-01T13:23:20.689368",
+      "translation_end": "2018-05-01T13:23:21.750524",
+      "postprocessing_begin": "2018-05-01T13:23:21.750790",
+      "postprocessing_end": "2018-05-01T13:23:21.793594",
+      "sent_time": "2018-05-01T13:23:21.794560",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:26:22.070880"
+          ]
+        ]
+      },
+      "reference_translation": "But she must be 20 years older than you!",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "Can I quote you on that?",
+      "preprocessed_text": "but she must be 20 years older than you . <CONCAT> can I quote you on that ?",
+      "translated_text": "mais elle doit avoir 20 ans de plus que toi . <CONCAT> je peux te citer ?",
+      "postprocessed_text": "Je peux te citer ?",
+      "composition_time": "2018-05-01T13:25:11.182549",
+      "preprocessing_begin": "2018-05-01T13:25:11.213153",
+      "preprocessing_end": "2018-05-01T13:25:13.265062",
+      "translation_begin": "2018-05-01T13:25:13.265124",
+      "translation_end": "2018-05-01T13:25:14.595136",
+      "postprocessing_begin": "2018-05-01T13:25:14.595346",
+      "postprocessing_end": "2018-05-01T13:25:14.629395",
+      "sent_time": "2018-05-01T13:25:14.630427",
+      "eval": {
+        "verbatim": "",
+        "judgment": "poor",
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:25:28.515036",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-01T13:25:27.169716"
+          ]
+        ]
+      },
+      "reference_translation": "Je peux citer\u00a0?",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Playing golf and being mean to students keeps me looking young.",
+      "preprocessed_text": "can I quote you on that ? <CONCAT> playing golf and being mean to students keeps me looking young .",
+      "translated_text": "je peux te citer ? <CONCAT> jouer au golf et \u00eatre m\u00e9chant avec les \u00e9tudiants me fait para\u00eetre jeune .",
+      "postprocessed_text": "Jouer au golf et \u00eatre m\u00e9chant avec les \u00e9tudiants me fait para\u00eetre jeune.",
+      "composition_time": "2018-05-01T13:25:56.402962",
+      "preprocessing_begin": "2018-05-01T13:25:56.435536",
+      "preprocessing_end": "2018-05-01T13:25:58.350192",
+      "translation_begin": "2018-05-01T13:25:58.350263",
+      "translation_end": "2018-05-01T13:26:01.786619",
+      "postprocessing_begin": "2018-05-01T13:26:01.786835",
+      "postprocessing_end": "2018-05-01T13:26:01.816564",
+      "sent_time": "2018-05-01T13:26:01.817550",
+      "eval": {
+        "verbatim": "\"m\u00e9chant\"...",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "\"m\u00e9chant\"...",
+            "2018-05-01T13:27:12.809858",
+            "2018-05-01T13:27:12.809858"
+          ]
+        ],
+        "problems": [
+          "word choice",
+          "style"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:27:11.382249",
+            true
+          ],
+          [
+            "style",
+            "2018-05-01T13:27:12.141305",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:27:06.886164"
+          ]
+        ]
+      },
+      "reference_translation": "Jouer au golf et \u00eatre m\u00e9chant avec les \u00e9l\u00e8ves me permet de rester jeune.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "Really we're about the same age.",
+      "preprocessed_text": "playing golf and being mean to students keeps me looking young . <CONCAT> really we &apos;re about the same age .",
+      "translated_text": "jouer au golf et \u00eatre m\u00e9chant avec les \u00e9tudiants me fait para\u00eetre jeune . <CONCAT> on a vraiment le m\u00eame \u00e2ge .",
+      "postprocessed_text": "On a vraiment le m\u00eame \u00e2ge.",
+      "composition_time": "2018-05-01T13:25:56.402962",
+      "preprocessing_begin": "2018-05-01T13:25:56.435536",
+      "preprocessing_end": "2018-05-01T13:25:58.350192",
+      "translation_begin": "2018-05-01T13:25:58.350263",
+      "translation_end": "2018-05-01T13:26:01.786619",
+      "postprocessing_begin": "2018-05-01T13:26:01.786835",
+      "postprocessing_end": "2018-05-01T13:26:01.816564",
+      "sent_time": "2018-05-01T13:26:01.818060",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:27:14.162562"
+          ]
+        ]
+      },
+      "reference_translation": "En fait on a \u00e0 peu pr\u00e8s le m\u00eame age.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "french",
+      "original_text": "Vraiment?",
+      "preprocessed_text": "on a vraiment le m\u00eame \u00e2ge . <CONCAT> vraiment ?",
+      "translated_text": "we &apos;re really the same age . <CONCAT> really ?",
+      "postprocessed_text": "Really?",
+      "composition_time": "2018-05-01T13:26:51.097545",
+      "preprocessing_begin": "2018-05-01T13:26:51.129287",
+      "preprocessing_end": "2018-05-01T13:26:53.355495",
+      "translation_begin": "2018-05-01T13:26:53.355589",
+      "translation_end": "2018-05-01T13:26:55.951714",
+      "postprocessing_begin": "2018-05-01T13:26:55.951948",
+      "postprocessing_end": "2018-05-01T13:26:55.980475",
+      "sent_time": "2018-05-01T13:26:55.981507",
+      "eval": {
+        "verbatim": "",
+        "judgment": null,
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": []
+      },
+      "reference_translation": "Really?",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Je n'aurais pas pens\u00e9.",
+      "preprocessed_text": "vraiment ? <CONCAT> je n&apos; aurais pas pens\u00e9 .",
+      "translated_text": "really ? <CONCAT> I wouldn &apos;t have thought .",
+      "postprocessed_text": "I wouldn't have thought.",
+      "composition_time": "2018-05-01T13:26:51.097545",
+      "preprocessing_begin": "2018-05-01T13:26:51.129287",
+      "preprocessing_end": "2018-05-01T13:26:53.355495",
+      "translation_begin": "2018-05-01T13:26:53.355589",
+      "translation_end": "2018-05-01T13:26:55.951714",
+      "postprocessing_begin": "2018-05-01T13:26:55.951948",
+      "postprocessing_end": "2018-05-01T13:26:55.980475",
+      "sent_time": "2018-05-01T13:26:55.982174",
+      "eval": {
+        "verbatim": "",
+        "judgment": null,
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": []
+      },
+      "reference_translation": "I wouldn\u2019t have thought it.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Je l'imaginais plus jeune...",
+      "preprocessed_text": "je n&apos; aurais pas pens\u00e9 . <CONCAT> je l&apos; imaginais plus jeune ...",
+      "translated_text": "I wouldn &apos;t have thought . <CONCAT> I thought he &apos;d be younger ...",
+      "postprocessed_text": "I thought he'd be younger...",
+      "composition_time": "2018-05-01T13:26:51.097545",
+      "preprocessing_begin": "2018-05-01T13:26:51.129287",
+      "preprocessing_end": "2018-05-01T13:26:53.355495",
+      "translation_begin": "2018-05-01T13:26:53.355589",
+      "translation_end": "2018-05-01T13:26:55.951714",
+      "postprocessing_begin": "2018-05-01T13:26:55.951948",
+      "postprocessing_end": "2018-05-01T13:26:55.980475",
+      "sent_time": "2018-05-01T13:26:55.982850",
+      "eval": {
+        "verbatim": "She'd",
+        "judgment": "medium",
+        "verbatim_history": [
+          [
+            "She'd",
+            "2018-05-01T13:27:30.654222",
+            "2018-05-01T13:27:30.654222"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-01T13:27:24.179784",
+            true
+          ]
+        ],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:27:22.182300"
+          ]
+        ]
+      },
+      "reference_translation": "I thought she was younger\u2026",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "french",
+      "original_text": "Bon, vous ne voulez pas augmenter un peu ma note, m\u00eame si je ne joue pas au golf?",
+      "preprocessed_text": "je l&apos; imaginais plus jeune ... <CONCAT> bon , vous ne voulez pas augmenter un peu ma note , m\u00eame si je ne joue pas au golf ?",
+      "translated_text": "I thought he was younger ... <CONCAT> well , don &apos;t you want to raise my tab a bit , even if I don &apos;t play golf ?",
+      "postprocessed_text": "Well, don't you want to raise my tab a bit, even if I don't play golf?",
+      "composition_time": "2018-05-01T13:27:02.824310",
+      "preprocessing_begin": "2018-05-01T13:27:02.856202",
+      "preprocessing_end": "2018-05-01T13:27:04.870609",
+      "translation_begin": "2018-05-01T13:27:04.870698",
+      "translation_end": "2018-05-01T13:27:06.850007",
+      "postprocessing_begin": "2018-05-01T13:27:06.850221",
+      "postprocessing_end": "2018-05-01T13:27:06.879742",
+      "sent_time": "2018-05-01T13:27:06.880715",
+      "eval": {
+        "verbatim": "",
+        "judgment": "medium",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-01T13:27:37.675011"
+          ]
+        ]
+      },
+      "reference_translation": "Well, could you not increase my mark a little, even if I don\u2019t play golf?",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "english",
+      "original_text": "Sorry, no.",
+      "preprocessed_text": "well , don &apos;t you want to raise my tab a bit , even if I don &apos;t play golf ? <CONCAT> sorry , no .",
+      "translated_text": "tu ne veux pas augmenter mon ardoise , m\u00eame si je ne joue pas au golf ? <CONCAT> d\u00e9sol\u00e9 , non .",
+      "postprocessed_text": "D\u00e9sol\u00e9, non.",
+      "composition_time": "2018-05-01T13:29:13.430909",
+      "preprocessing_begin": "2018-05-01T13:29:13.461681",
+      "preprocessing_end": "2018-05-01T13:29:15.581194",
+      "translation_begin": "2018-05-01T13:29:15.581294",
+      "translation_end": "2018-05-01T13:29:18.883521",
+      "postprocessing_begin": "2018-05-01T13:29:18.883750",
+      "postprocessing_end": "2018-05-01T13:29:18.914056",
+      "sent_time": "2018-05-01T13:29:18.915067",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:29:39.728116"
+          ]
+        ]
+      },
+      "reference_translation": "Non, d\u00e9sol\u00e9.",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "english",
+      "original_text": "If only you had done 15 pages....",
+      "preprocessed_text": "sorry , no . <CONCAT> if only you had done 15 pages ....",
+      "translated_text": "d\u00e9sol\u00e9 , non . <CONCAT> si seulement tu avais fait 15 pages ...",
+      "postprocessed_text": "Si seulement tu avais fait 15 pages...",
+      "composition_time": "2018-05-01T13:29:13.430909",
+      "preprocessing_begin": "2018-05-01T13:29:13.461681",
+      "preprocessing_end": "2018-05-01T13:29:15.581194",
+      "translation_begin": "2018-05-01T13:29:15.581294",
+      "translation_end": "2018-05-01T13:29:18.883521",
+      "postprocessing_begin": "2018-05-01T13:29:18.883750",
+      "postprocessing_end": "2018-05-01T13:29:18.914056",
+      "sent_time": "2018-05-01T13:29:18.915620",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:29:39.732877"
+          ]
+        ]
+      },
+      "reference_translation": "Si seulement vous aviez \u00e9crit 15 pages\u2026",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "french",
+      "original_text": "C'est injuste!",
+      "preprocessed_text": "si seulement tu avais fait 15 pages ... <CONCAT> c&apos; est injuste !",
+      "translated_text": "if only you &apos;d done 15 pages ... <CONCAT> it &apos;s not fair !",
+      "postprocessed_text": "It's not fair!",
+      "composition_time": "2018-05-01T13:29:36.489287",
+      "preprocessing_begin": "2018-05-01T13:29:36.523138",
+      "preprocessing_end": "2018-05-01T13:29:38.717642",
+      "translation_begin": "2018-05-01T13:29:38.717734",
+      "translation_end": "2018-05-01T13:29:39.692838",
+      "postprocessing_begin": "2018-05-01T13:29:39.693071",
+      "postprocessing_end": "2018-05-01T13:29:39.722012",
+      "sent_time": "2018-05-01T13:29:39.723029",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:31:11.186184"
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s unfair!",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "french",
+      "original_text": "Votre r\u00e9putation ne va pas s'am\u00e9liorer.",
+      "preprocessed_text": "c&apos; est injuste ! <CONCAT> votre r\u00e9putation ne va pas s&apos; am\u00e9liorer .",
+      "translated_text": "it &apos;s not fair ! <CONCAT> your reputation isn &apos;t going to improve .",
+      "postprocessed_text": "Your reputation isn't going to improve.",
+      "composition_time": "2018-05-01T13:30:00.106411",
+      "preprocessing_begin": "2018-05-01T13:30:00.136674",
+      "preprocessing_end": "2018-05-01T13:30:02.202443",
+      "translation_begin": "2018-05-01T13:30:02.202535",
+      "translation_end": "2018-05-01T13:30:03.220265",
+      "postprocessing_begin": "2018-05-01T13:30:03.220644",
+      "postprocessing_end": "2018-05-01T13:30:03.255838",
+      "sent_time": "2018-05-01T13:30:03.257045",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:31:13.857210"
+          ]
+        ]
+      },
+      "reference_translation": "Your reputation won\u2019t get any better.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "english",
+      "original_text": "C'est la vie",
+      "preprocessed_text": "your reputation isn &apos;t going to improve . <CONCAT> C &apos;est la vie",
+      "translated_text": "ta r\u00e9putation ne va pas s&apos; am\u00e9liorer . <CONCAT> c&apos; est la vie",
+      "postprocessed_text": "C'est la vie",
+      "composition_time": "2018-05-01T13:30:52.069435",
+      "preprocessing_begin": "2018-05-01T13:30:52.101546",
+      "preprocessing_end": "2018-05-01T13:30:54.066852",
+      "translation_begin": "2018-05-01T13:30:54.066918",
+      "translation_end": "2018-05-01T13:30:55.031231",
+      "postprocessing_begin": "2018-05-01T13:30:55.031445",
+      "postprocessing_end": "2018-05-01T13:30:55.066826",
+      "sent_time": "2018-05-01T13:30:55.067847",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:32:03.000342"
+          ]
+        ]
+      },
+      "reference_translation": "C'est la vie.",
+      "normalised_version": "C'est la vie."
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Tr\u00e8s bien.",
+      "preprocessed_text": "c&apos; est la vie <CONCAT> tr\u00e8s bien .",
+      "translated_text": "that &apos;s life . <CONCAT> all right .",
+      "postprocessed_text": "All right.",
+      "composition_time": "2018-05-01T13:32:13.507926",
+      "preprocessing_begin": "2018-05-01T13:32:13.539200",
+      "preprocessing_end": "2018-05-01T13:32:15.575677",
+      "translation_begin": "2018-05-01T13:32:15.575751",
+      "translation_end": "2018-05-01T13:32:16.854510",
+      "postprocessing_begin": "2018-05-01T13:32:16.854736",
+      "postprocessing_end": "2018-05-01T13:32:16.892671",
+      "sent_time": "2018-05-01T13:32:16.893605",
+      "eval": {
+        "verbatim": "",
+        "judgment": null,
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": []
+      },
+      "reference_translation": "Fine.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "french",
+      "original_text": "Au revoir Monsieur.",
+      "preprocessed_text": "tr\u00e8s bien . <CONCAT> au revoir Monsieur .",
+      "translated_text": "all right . <CONCAT> goodbye , sir .",
+      "postprocessed_text": "Goodbye, sir.",
+      "composition_time": "2018-05-01T13:32:13.507926",
+      "preprocessing_begin": "2018-05-01T13:32:13.539200",
+      "preprocessing_end": "2018-05-01T13:32:15.575677",
+      "translation_begin": "2018-05-01T13:32:15.575751",
+      "translation_end": "2018-05-01T13:32:16.854510",
+      "postprocessing_begin": "2018-05-01T13:32:16.854736",
+      "postprocessing_end": "2018-05-01T13:32:16.892671",
+      "sent_time": "2018-05-01T13:32:16.894073",
+      "eval": {
+        "verbatim": "",
+        "judgment": null,
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": []
+      },
+      "reference_translation": "Goodbye, Sir.",
+      "normalised_version": ""
+    },
+    "39": {
+      "language": "english",
+      "original_text": "Bye",
+      "preprocessed_text": "goodbye , sir . <CONCAT> bye",
+      "translated_text": "au revoir , monsieur . <CONCAT> au revoir",
+      "postprocessed_text": "Au revoir",
+      "composition_time": "2018-05-01T13:32:36.294155",
+      "preprocessing_begin": "2018-05-01T13:32:36.326045",
+      "preprocessing_end": "2018-05-01T13:32:38.225666",
+      "translation_begin": "2018-05-01T13:32:38.225773",
+      "translation_end": "2018-05-01T13:32:38.799939",
+      "postprocessing_begin": "2018-05-01T13:32:38.800237",
+      "postprocessing_end": "2018-05-01T13:32:38.841512",
+      "sent_time": "2018-05-01T13:32:38.842406",
+      "eval": {
+        "verbatim": "",
+        "judgment": "perfect",
+        "verbatim_history": [],
+        "problems": [],
+        "problem_history": [],
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-01T13:32:49.171710"
+          ]
+        ]
+      },
+      "reference_translation": "Au revoir.",
+      "normalised_version": "Bye."
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "",
+    "particular_problems": "",
+    "timestamp": "2018-05-01T13:33:06.778502",
+    "verbatim_quality": "",
+    "tech": "There were no technical problems",
+    "meaning": "good",
+    "style": "good",
+    "grammaticality": "good",
+    "would_use": true,
+    "coherence": "good",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {},
+  "fr_transl": true
+}

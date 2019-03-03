@@ -1,0 +1,1716 @@
+{
+  "start_time": "2018-05-18T08:56:58.468806",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are feeding the ducks by the pond.",
+      "Vous nourrissez les canards au bord d'un \u00e9tang."
+    ],
+    [
+      "",
+      ""
+    ],
+    [
+      "",
+      ""
+    ]
+  ],
+  "user1": {
+    "role_num": 1,
+    "lang": "french",
+    "role": [
+      "",
+      ""
+    ],
+    "initiated_dialogue": true,
+    "turn_number": 1,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+    "eval-stage": true
+  },
+  "user2": {
+    "lang": "english",
+    "role": [
+      "",
+      ""
+    ],
+    "rolenum": 2,
+    "initiated_dialogue": false,
+    "turn_number": 2,
+    "useragent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36",
+    "eval-stage": true
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Il y a beaucoup de canards cette ann\u00e9e.",
+      "preprocessed_text": "<BEGIN>  <CONCAT> il y a beaucoup de canards cette ann\u00e9e .",
+      "translated_text": "PMS <CONCAT> there &apos;s a lot of ducks this year .",
+      "postprocessed_text": "There's a lot of ducks this year.",
+      "composition_time": "2018-05-18T08:57:31.973903",
+      "preprocessing_begin": "2018-05-18T08:57:32.057891",
+      "preprocessing_end": "2018-05-18T08:57:34.731546",
+      "translation_begin": "2018-05-18T08:57:34.731693",
+      "translation_end": "2018-05-18T08:57:35.987306",
+      "postprocessing_begin": "2018-05-18T08:57:35.987764",
+      "postprocessing_end": "2018-05-18T08:57:36.043751",
+      "sent_time": "2018-05-18T08:57:36.045439",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T08:58:19.489728"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "there ARE",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-18T08:58:21.235713",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "there ARE",
+            "2018-05-18T08:58:28.942172",
+            "2018-05-18T08:58:28.942172"
+          ]
+        ]
+      },
+      "reference_translation": "There are lots of ducks this year.",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "true.",
+      "preprocessed_text": "there &apos;s a lot of ducks this year . <CONCAT> true .",
+      "translated_text": "il y a beaucoup de canards cette ann\u00e9e . <CONCAT> c&apos; est vrai .",
+      "postprocessed_text": "C'est vrai.",
+      "composition_time": "2018-05-18T08:58:11.860203",
+      "preprocessing_begin": "2018-05-18T08:58:11.931186",
+      "preprocessing_end": "2018-05-18T08:58:14.211034",
+      "translation_begin": "2018-05-18T08:58:14.211145",
+      "translation_end": "2018-05-18T08:58:16.190587",
+      "postprocessing_begin": "2018-05-18T08:58:16.190903",
+      "postprocessing_end": "2018-05-18T08:58:16.231598",
+      "sent_time": "2018-05-18T08:58:16.232750",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T08:59:14.325598"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "C\u2019est vrai.",
+      "normalised_version": "True."
+    },
+    "2": {
+      "language": "english",
+      "original_text": "i wonder why.",
+      "preprocessed_text": "true . <CONCAT> I wonder why .",
+      "translated_text": "c&apos; est vrai . <CONCAT> je me demande pourquoi .",
+      "postprocessed_text": "Je me demande pourquoi.",
+      "composition_time": "2018-05-18T08:58:11.860203",
+      "preprocessing_begin": "2018-05-18T08:58:11.931186",
+      "preprocessing_end": "2018-05-18T08:58:14.211034",
+      "translation_begin": "2018-05-18T08:58:14.211145",
+      "translation_end": "2018-05-18T08:58:16.190587",
+      "postprocessing_begin": "2018-05-18T08:58:16.190903",
+      "postprocessing_end": "2018-05-18T08:58:16.231598",
+      "sent_time": "2018-05-18T08:58:16.233280",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T08:59:15.479371"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je me demande pourquoi.",
+      "normalised_version": "I wonder why."
+    },
+    "3": {
+      "language": "french",
+      "original_text": "Est-ce que les travaux faits r\u00e9cemment pr\u00e8s des autres \u00e9tangs n'auraient pas conduit les canards \u00e0 migrer sur cet \u00e9tang ?",
+      "preprocessed_text": "je me demande pourquoi . <CONCAT> est @-@ ce que les travaux faits r\u00e9cemment pr\u00e8s des autres \u00e9t@@ angs n&apos; auraient pas conduit les canards \u00e0 migr@@ er sur cet \u00e9tang ?",
+      "translated_text": "I wonder why . <CONCAT> was the work done recently near the other stables would not drive the ducks to migr@@ ant on this pond ?",
+      "postprocessed_text": "Was the work done recently near the other stables would not drive the ducks to migrant on this pond?",
+      "composition_time": "2018-05-18T08:59:03.788648",
+      "preprocessing_begin": "2018-05-18T08:59:03.869980",
+      "preprocessing_end": "2018-05-18T08:59:06.155487",
+      "translation_begin": "2018-05-18T08:59:06.155637",
+      "translation_end": "2018-05-18T08:59:08.435799",
+      "postprocessing_begin": "2018-05-18T08:59:08.436124",
+      "postprocessing_end": "2018-05-18T08:59:08.483532",
+      "sent_time": "2018-05-18T08:59:08.485754",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-18T08:59:38.554988"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "grammar",
+          "meaning",
+          "coherence"
+        ],
+        "verbatim": "this is one big mess",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-18T08:59:40.357601",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-18T08:59:41.112931",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-18T08:59:42.152008",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "this is one big mess",
+            "2018-05-18T08:59:59.508889",
+            "2018-05-18T08:59:59.508889"
+          ]
+        ]
+      },
+      "reference_translation": "Do you think the work they\u2019ve done recently next to the other ponds could have led the other ducks to migrate to this pond?",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "did the ducks use to live in the stables?",
+      "preprocessed_text": "was the work done recently near the other stables would not drive the ducks to migr@@ ant on this pond ? <CONCAT> did the ducks use to live in the stables ?",
+      "translated_text": "est @-@ ce que le travail a \u00e9t\u00e9 fait r\u00e9cemment pr\u00e8s des \u00e9curies n&apos; aurait pas conduit les canards pour migr@@ er sur cette mare ? <CONCAT> est @-@ ce que les canards vivaient dans l&apos; \u00e9curie ?",
+      "postprocessed_text": "Est-ce que les canards vivaient dans l'\u00e9curie ?",
+      "composition_time": "2018-05-18T09:00:42.238143",
+      "preprocessing_begin": "2018-05-18T09:00:42.330026",
+      "preprocessing_end": "2018-05-18T09:00:44.641838",
+      "translation_begin": "2018-05-18T09:00:44.642041",
+      "translation_end": "2018-05-18T09:00:47.708908",
+      "postprocessing_begin": "2018-05-18T09:00:47.709303",
+      "postprocessing_end": "2018-05-18T09:00:47.761146",
+      "sent_time": "2018-05-18T09:00:47.763413",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:03:56.582032"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "\u00e9curie pour des chevaux, pas des canards",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-18T09:03:59.900764",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\u00e9curie pour des chevaux, pas des canards",
+            "2018-05-18T09:04:09.397782",
+            "2018-05-18T09:04:09.397782"
+          ]
+        ]
+      },
+      "reference_translation": "Est-ce que les canards ont l\u2019habitude de vivre dans des \u00e9tables ?",
+      "normalised_version": "Did the ducks use to live in the stables?"
+    },
+    "5": {
+      "language": "english",
+      "original_text": "It's just like in Charlotte's Web, with all the animals living with each other",
+      "preprocessed_text": "did the ducks use to live in the stables ? <CONCAT> it &apos;s just like in Charlotte &apos;s Web , with all the animals living with each other",
+      "translated_text": "est @-@ ce que les canards vivaient dans l&apos; \u00e9curie ? <CONCAT> c&apos; est comme dans le Web de Charlotte avec tous les animaux qui vivent ensemble .",
+      "postprocessed_text": "C'est comme dans le Web de Charlotte avec tous les animaux qui vivent ensemble.",
+      "composition_time": "2018-05-18T09:01:22.669116",
+      "preprocessing_begin": "2018-05-18T09:01:22.737507",
+      "preprocessing_end": "2018-05-18T09:01:24.880194",
+      "translation_begin": "2018-05-18T09:01:24.880320",
+      "translation_end": "2018-05-18T09:01:27.331238",
+      "postprocessing_begin": "2018-05-18T09:01:27.331530",
+      "postprocessing_end": "2018-05-18T09:01:27.379106",
+      "sent_time": "2018-05-18T09:01:27.380352",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:04:13.163278"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "web ?",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-18T09:04:15.140434",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "web ?",
+            "2018-05-18T09:04:21.993715",
+            "2018-05-18T09:04:21.993715"
+          ]
+        ]
+      },
+      "reference_translation": "C\u2019est comme dans Le Petit Monde de Charlotte avec tous les animaux qui vivent ensemble.",
+      "normalised_version": "It's just like in Charlotte's Web, with all the animals living with each other."
+    },
+    "6": {
+      "language": "english",
+      "original_text": "i wonder if they ever unionised against the dominant farmer upper class",
+      "preprocessed_text": "it &apos;s just like in Charlotte &apos;s Web , with all the animals living with each other <CONCAT> I wonder if they ever uni@@ on@@ ised against the dominant farmer upper class",
+      "translated_text": "c&apos; est comme dans le Web de Charlotte avec tous les animaux qui vivent ensemble . <CONCAT> je me demande s&apos; ils ont jamais uni@@ fi\u00e9 contre la classe sup\u00e9rieure .",
+      "postprocessed_text": "Je me demande s'ils ont jamais unifi\u00e9 contre la classe sup\u00e9rieure.",
+      "composition_time": "2018-05-18T09:01:57.151605",
+      "preprocessing_begin": "2018-05-18T09:01:57.218261",
+      "preprocessing_end": "2018-05-18T09:01:59.746755",
+      "translation_begin": "2018-05-18T09:01:59.746927",
+      "translation_end": "2018-05-18T09:02:03.150460",
+      "postprocessing_begin": "2018-05-18T09:02:03.150866",
+      "postprocessing_end": "2018-05-18T09:02:03.206601",
+      "sent_time": "2018-05-18T09:02:03.208710",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:03:41.385878"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "se sont li\u00e9s",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-18T09:03:46.269438",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "se sont li\u00e9s",
+            "2018-05-18T09:03:52.641785",
+            "2018-05-18T09:03:52.641785"
+          ]
+        ]
+      },
+      "reference_translation": "Je me demande s\u2019ils se sont d\u00e9j\u00e0 regroup\u00e9s en syndicat contre la classe dominante des fermiers.",
+      "normalised_version": "I wonder if they ever unionised against the dominant farmer upper class."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "sorry.",
+      "preprocessed_text": "I wonder if they ever uni@@ on@@ ised against the dominant farmer upper class <CONCAT> sorry .",
+      "translated_text": "je me demande s&apos; ils ont jamais uni@@ fi\u00e9 contre la classe sup\u00e9rieure . <CONCAT> d\u00e9sol\u00e9 .",
+      "postprocessed_text": "D\u00e9sol\u00e9.",
+      "composition_time": "2018-05-18T09:02:17.747641",
+      "preprocessing_begin": "2018-05-18T09:02:17.823709",
+      "preprocessing_end": "2018-05-18T09:02:19.986967",
+      "translation_begin": "2018-05-18T09:02:19.987098",
+      "translation_end": "2018-05-18T09:02:22.117505",
+      "postprocessing_begin": "2018-05-18T09:02:22.117780",
+      "postprocessing_end": "2018-05-18T09:02:22.155162",
+      "sent_time": "2018-05-18T09:02:22.156540",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:03:38.891258"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "D\u00e9sol\u00e9.",
+      "normalised_version": "Sorry."
+    },
+    "8": {
+      "language": "english",
+      "original_text": "I'm just being silly.",
+      "preprocessed_text": "sorry . <CONCAT> I &apos;m just being silly .",
+      "translated_text": "d\u00e9sol\u00e9 . <CONCAT> je suis b\u00eate .",
+      "postprocessed_text": "Je suis b\u00eate.",
+      "composition_time": "2018-05-18T09:02:17.747641",
+      "preprocessing_begin": "2018-05-18T09:02:17.823709",
+      "preprocessing_end": "2018-05-18T09:02:19.986967",
+      "translation_begin": "2018-05-18T09:02:19.987098",
+      "translation_end": "2018-05-18T09:02:22.117505",
+      "postprocessing_begin": "2018-05-18T09:02:22.117780",
+      "postprocessing_end": "2018-05-18T09:02:22.155162",
+      "sent_time": "2018-05-18T09:02:22.157534",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:03:38.066413"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je raconte des b\u00eatises.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "how often do you come here?",
+      "preprocessed_text": "I &apos;m just being silly . <CONCAT> how often do you come here ?",
+      "translated_text": "je suis b\u00eate . <CONCAT> vous venez souvent ici ?",
+      "postprocessed_text": "Vous venez souvent ici ?",
+      "composition_time": "2018-05-18T09:02:53.004353",
+      "preprocessing_begin": "2018-05-18T09:02:53.071838",
+      "preprocessing_end": "2018-05-18T09:02:55.477580",
+      "translation_begin": "2018-05-18T09:02:55.477686",
+      "translation_end": "2018-05-18T09:02:58.058680",
+      "postprocessing_begin": "2018-05-18T09:02:58.058968",
+      "postprocessing_end": "2018-05-18T09:02:58.092432",
+      "sent_time": "2018-05-18T09:02:58.094108",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:03:36.301956"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Vous venez fr\u00e9quemment ici ?",
+      "normalised_version": "How often do you come here?"
+    },
+    "10": {
+      "language": "english",
+      "original_text": "i haven't seen you around these parts before",
+      "preprocessed_text": "how often do you come here ? <CONCAT> I haven &apos;t seen you around these parts before",
+      "translated_text": "vous venez souvent ici ? <CONCAT> je ne vous ai jamais vu dans le coin .",
+      "postprocessed_text": "Je ne vous ai jamais vu dans le coin.",
+      "composition_time": "2018-05-18T09:02:53.004353",
+      "preprocessing_begin": "2018-05-18T09:02:53.071838",
+      "preprocessing_end": "2018-05-18T09:02:55.477580",
+      "translation_begin": "2018-05-18T09:02:55.477686",
+      "translation_end": "2018-05-18T09:02:58.058680",
+      "postprocessing_begin": "2018-05-18T09:02:58.058968",
+      "postprocessing_end": "2018-05-18T09:02:58.092432",
+      "sent_time": "2018-05-18T09:02:58.095121",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:03:37.124055"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Je ne vous ai jamais vu dans le coin avant.",
+      "normalised_version": "I haven't seen you around these parts before."
+    },
+    "11": {
+      "language": "french",
+      "original_text": "Tu as raison, peut-\u00eatre qu'il s'agit de canards particuliers, qui pr\u00e9f\u00e9raient vivre au contact des chevaux.",
+      "preprocessed_text": "je suis b\u00eate . <CONCAT> tu as raison , peut @-@ \u00eatre qu&apos; il s&apos; agit de canards particuliers , qui pr\u00e9f@@ \u00e9raient vivre au contact des chevaux .",
+      "translated_text": "I &apos;m an idiot . <CONCAT> you &apos;re right .",
+      "postprocessed_text": "You're right.",
+      "composition_time": "2018-05-18T09:02:54.538641",
+      "preprocessing_begin": "2018-05-18T09:02:54.579178",
+      "preprocessing_end": "2018-05-18T09:02:57.016924",
+      "translation_begin": "2018-05-18T09:02:57.016992",
+      "translation_end": "2018-05-18T09:02:59.197257",
+      "postprocessing_begin": "2018-05-18T09:02:59.197739",
+      "postprocessing_end": "2018-05-18T09:02:59.238541",
+      "sent_time": "2018-05-18T09:02:59.239742",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:03:03.746523"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "You\u2019re right. Perhaps they\u2019re strange ducks, which preferred to live in the company of horses.",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "french",
+      "original_text": "C'est vrai que je ne connais pas cette esp\u00e8ce de canards avec le col vert.",
+      "preprocessed_text": "tu as raison , peut @-@ \u00eatre qu&apos; il s&apos; agit de canards particuliers , qui pr\u00e9f@@ \u00e9raient vivre au contact des chevaux . <CONCAT> c&apos; est vrai que je ne connais pas cette esp\u00e8ce de canards avec le col vert .",
+      "translated_text": "you &apos;re right . <CONCAT> it &apos;s true that I don &apos;t know that kind of ducks with the green collar .",
+      "postprocessed_text": "It's true that I don't know that kind of ducks with the green collar.",
+      "composition_time": "2018-05-18T09:03:27.421697",
+      "preprocessing_begin": "2018-05-18T09:03:27.494136",
+      "preprocessing_end": "2018-05-18T09:03:30.100705",
+      "translation_begin": "2018-05-18T09:03:30.100828",
+      "translation_end": "2018-05-18T09:03:32.156715",
+      "postprocessing_begin": "2018-05-18T09:03:32.156998",
+      "postprocessing_end": "2018-05-18T09:03:32.199398",
+      "sent_time": "2018-05-18T09:03:32.200777",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:03:41.672792"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "'that kind', it is already qualified by the 'with the green collar' and should only be 'the'... also, I feel that ducks should be singular... i may be wrong",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-18T09:03:43.992468",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'that kind', it is already qualified by the 'with the green collar' and should only be 'the'... also, I feel that ducks should be singular... i may be wrong",
+            "2018-05-18T09:05:44.346875",
+            "2018-05-18T09:05:44.346875"
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s true that I don\u2019t know that type of duck with the green collar.",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "the new socio-economic category: first the white collar workers, then the blue collar workers, now the green collars",
+      "preprocessed_text": "it &apos;s true that I don &apos;t know that kind of ducks with the green collar . <CONCAT> the new socio @-@ economic category : first the white collar workers , then the blue collar workers , now the green collars",
+      "translated_text": "c&apos; est vrai que je ne connais pas ce genre de canards avec le collier vert . <CONCAT> la nouvelle cat\u00e9gorie socio @-@ \u00e9conomique :",
+      "postprocessed_text": "La nouvelle cat\u00e9gorie socio-\u00e9conomique :",
+      "composition_time": "2018-05-18T09:04:29.788349",
+      "preprocessing_begin": "2018-05-18T09:04:29.855162",
+      "preprocessing_end": "2018-05-18T09:04:32.087549",
+      "translation_begin": "2018-05-18T09:04:32.087703",
+      "translation_end": "2018-05-18T09:04:35.662517",
+      "postprocessing_begin": "2018-05-18T09:04:35.662929",
+      "postprocessing_end": "2018-05-18T09:04:35.705360",
+      "sent_time": "2018-05-18T09:04:35.707056",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:07:22.944202"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "cat\u00e9gorie = facteur ?",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-18T09:07:25.256536",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "cat\u00e9gorie = facteur ?",
+            "2018-05-18T09:07:38.339113",
+            "2018-05-18T09:07:38.339113"
+          ]
+        ]
+      },
+      "reference_translation": "La nouvelle cat\u00e9gorie socio-\u00e9conomique : d\u2019abord les travailleurs cols blancs, ensuite les travailleurs cols bleus et maintenant les cols verts.",
+      "normalised_version": "The new socio-economic category: first the white collar workers, then the blue collar workers, now the green collars."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Tu penses que les migrations des canards seraient dues \u00e0 des facteurs socio-\u00e9conomiques ?",
+      "preprocessed_text": "la nouvelle cat\u00e9gorie socio @-@ \u00e9conomique : <CONCAT> tu penses que les migr@@ ations des canards seraient dues \u00e0 des facteurs socio @-@ \u00e9conomiques ?",
+      "translated_text": "the new social @-@ economic category : <CONCAT> do you think the duck migr@@ ations would be caused by soci@@ o@@ economic factors ?",
+      "postprocessed_text": "Do you think the duck migrations would be caused by socioeconomic factors?",
+      "composition_time": "2018-05-18T09:05:46.281570",
+      "preprocessing_begin": "2018-05-18T09:05:46.355768",
+      "preprocessing_end": "2018-05-18T09:05:48.617537",
+      "translation_begin": "2018-05-18T09:05:48.617650",
+      "translation_end": "2018-05-18T09:05:50.777685",
+      "postprocessing_begin": "2018-05-18T09:05:50.778078",
+      "postprocessing_end": "2018-05-18T09:05:50.821943",
+      "sent_time": "2018-05-18T09:05:50.823546",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:06:43.476007"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "'would' feels odd. too wishy washy. I would have put just 'are'",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-18T09:06:47.633012",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'would' feels odd. too wishy washy. I would have put just 'are'",
+            "2018-05-18T09:07:26.401186",
+            "2018-05-18T09:07:26.401186"
+          ]
+        ]
+      },
+      "reference_translation": "Do you think that the ducks\u2019 migration is due to socio-economic factors?",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Peut-\u00eatre que la pollution a augment\u00e9 ?",
+      "preprocessed_text": "tu penses que les migr@@ ations des canards seraient dues \u00e0 des facteurs socio @-@ \u00e9conomiques ? <CONCAT> peut @-@ \u00eatre que la pollution a augment\u00e9 ?",
+      "translated_text": "you think the duck migr@@ ations would be caused by some soci@@ o@@ economic factors ? <CONCAT> maybe pollution has increased ?",
+      "postprocessed_text": "Maybe pollution has increased?",
+      "composition_time": "2018-05-18T09:06:09.345918",
+      "preprocessing_begin": "2018-05-18T09:06:09.416675",
+      "preprocessing_end": "2018-05-18T09:06:11.632939",
+      "translation_begin": "2018-05-18T09:06:11.633107",
+      "translation_end": "2018-05-18T09:06:13.838618",
+      "postprocessing_begin": "2018-05-18T09:06:13.839034",
+      "postprocessing_end": "2018-05-18T09:06:13.894404",
+      "sent_time": "2018-05-18T09:06:13.896138",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:06:37.580373"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Perhaps pollution has increased?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "climate change",
+      "preprocessed_text": "maybe pollution has increased ? <CONCAT> climate change",
+      "translated_text": "peut @-@ \u00eatre que la pollution a augment\u00e9 ? <CONCAT> changement climatique",
+      "postprocessed_text": "Changement climatique",
+      "composition_time": "2018-05-18T09:06:16.127738",
+      "preprocessing_begin": "2018-05-18T09:06:16.193215",
+      "preprocessing_end": "2018-05-18T09:06:18.499276",
+      "translation_begin": "2018-05-18T09:06:18.499357",
+      "translation_end": "2018-05-18T09:06:19.648480",
+      "postprocessing_begin": "2018-05-18T09:06:19.648865",
+      "postprocessing_end": "2018-05-18T09:06:19.698970",
+      "sent_time": "2018-05-18T09:06:19.700711",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:06:28.448796"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Le changement climatique.",
+      "normalised_version": "Climate change"
+    },
+    "17": {
+      "language": "english",
+      "original_text": "and Trump",
+      "preprocessed_text": "climate change <CONCAT> and Trump",
+      "translated_text": "changement climatique <CONCAT> et Trump",
+      "postprocessed_text": "Et Trump",
+      "composition_time": "2018-05-18T09:06:19.772018",
+      "preprocessing_begin": "2018-05-18T09:06:19.835649",
+      "preprocessing_end": "2018-05-18T09:06:22.184557",
+      "translation_begin": "2018-05-18T09:06:22.184671",
+      "translation_end": "2018-05-18T09:06:22.721111",
+      "postprocessing_begin": "2018-05-18T09:06:22.721518",
+      "postprocessing_end": "2018-05-18T09:06:22.768791",
+      "sent_time": "2018-05-18T09:06:22.771709",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:06:30.108004"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Et Trump.",
+      "normalised_version": "and Trump."
+    },
+    "18": {
+      "language": "english",
+      "original_text": "everything is Trump's fault nowadays",
+      "preprocessed_text": "and Trump <CONCAT> everything is Trump &apos;s fault nowadays",
+      "translated_text": "et Trump <CONCAT> tout est de la faute de Trump de nos jours",
+      "postprocessed_text": "Tout est de la faute de Trump de nos jours",
+      "composition_time": "2018-05-18T09:06:31.229384",
+      "preprocessing_begin": "2018-05-18T09:06:31.302381",
+      "preprocessing_end": "2018-05-18T09:06:33.790741",
+      "translation_begin": "2018-05-18T09:06:33.790874",
+      "translation_end": "2018-05-18T09:06:35.195591",
+      "postprocessing_begin": "2018-05-18T09:06:35.195976",
+      "postprocessing_end": "2018-05-18T09:06:35.238836",
+      "sent_time": "2018-05-18T09:06:35.239933",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:07:14.557506"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Tout est de la faute de Trump de nos jours.",
+      "normalised_version": "Everything is Trump's fault nowadays."
+    },
+    "19": {
+      "language": "french",
+      "original_text": "C'est vrai pour des d\u00e9cisions \u00e0 court terme, mais je ne pense pas que les choix politiques actuels soient d\u00e9j\u00e0 mesurables sur la nature.",
+      "preprocessed_text": "tout est de la faute de Trump de nos jours <CONCAT> c&apos; est vrai pour des d\u00e9cisions \u00e0 court terme , mais je ne pense pas que les choix politiques actuels soient d\u00e9j\u00e0 mesur@@ ables sur la nature .",
+      "translated_text": "it &apos;s all Trump &apos;s fault these days . <CONCAT> it &apos;s true for short @-@ term decisions , but I don &apos;t think current political decisions are already measurable on nature .",
+      "postprocessed_text": "It's true for short-term decisions, but I don't think current political decisions are already measurable on nature.",
+      "composition_time": "2018-05-18T09:07:08.915807",
+      "preprocessing_begin": "2018-05-18T09:07:08.985266",
+      "preprocessing_end": "2018-05-18T09:07:11.156395",
+      "translation_begin": "2018-05-18T09:07:11.156515",
+      "translation_end": "2018-05-18T09:07:14.378706",
+      "postprocessing_begin": "2018-05-18T09:07:14.379073",
+      "postprocessing_end": "2018-05-18T09:07:14.429691",
+      "sent_time": "2018-05-18T09:07:14.431143",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:07:33.946437"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "'on nature'... don't get it",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-18T09:07:39.018481",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'on nature'... don't get it",
+            "2018-05-18T09:07:46.673222",
+            "2018-05-18T09:07:46.673222"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s true for short-term decisions, but I don\u2019t think that the current political decisions can already be said to have had an effect on nature.",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "english",
+      "original_text": "come on!",
+      "preprocessed_text": "it &apos;s true for short @-@ term decisions , but I don &apos;t think current political decisions are already measurable on nature . <CONCAT> come on !",
+      "translated_text": "c&apos; est vrai pour des d\u00e9cisions \u00e0 court terme , mais je ne pense pas que les d\u00e9cisions politiques actuelles sont d\u00e9j\u00e0 mesur@@ \u00e9es sur la nature . <CONCAT> allez !",
+      "postprocessed_text": "Allez !",
+      "composition_time": "2018-05-18T09:08:22.771074",
+      "preprocessing_begin": "2018-05-18T09:08:22.843904",
+      "preprocessing_end": "2018-05-18T09:08:25.035561",
+      "translation_begin": "2018-05-18T09:08:25.035769",
+      "translation_end": "2018-05-18T09:08:28.677132",
+      "postprocessing_begin": "2018-05-18T09:08:28.677603",
+      "postprocessing_end": "2018-05-18T09:08:28.713744",
+      "sent_time": "2018-05-18T09:08:28.715339",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:09:10.407004"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Allons !",
+      "normalised_version": "Come on!"
+    },
+    "21": {
+      "language": "english",
+      "original_text": "jump on the anti-Trump bandwagon!",
+      "preprocessed_text": "come on ! <CONCAT> jump on the anti @-@ Trump band@@ wagon !",
+      "translated_text": "allez ! <CONCAT> sautez sur le mouvement anti @-@ Trump !",
+      "postprocessed_text": "Sautez sur le mouvement anti-Trump !",
+      "composition_time": "2018-05-18T09:08:22.771074",
+      "preprocessing_begin": "2018-05-18T09:08:22.843904",
+      "preprocessing_end": "2018-05-18T09:08:25.035561",
+      "translation_begin": "2018-05-18T09:08:25.035769",
+      "translation_end": "2018-05-18T09:08:28.677132",
+      "postprocessing_begin": "2018-05-18T09:08:28.677603",
+      "postprocessing_end": "2018-05-18T09:08:28.713744",
+      "sent_time": "2018-05-18T09:08:28.716388",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:10:42.007102"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "Rejoignez",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-18T09:10:46.236715",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Rejoignez",
+            "2018-05-18T09:10:52.520647",
+            "2018-05-18T09:10:52.520647"
+          ]
+        ]
+      },
+      "reference_translation": "Prend le train anti-Trump !",
+      "normalised_version": "Jump on the anti-Trump bandwagon!"
+    },
+    "22": {
+      "language": "english",
+      "original_text": "there's plenty fo room!",
+      "preprocessed_text": "jump on the anti @-@ Trump band@@ wagon ! <CONCAT> there &apos;s plenty fo room !",
+      "translated_text": "sautez sur le mouvement anti @-@ Trump ! <CONCAT> il y a plein de place pour la pi\u00e8ce !",
+      "postprocessed_text": "Il y a plein de place pour la pi\u00e8ce !",
+      "composition_time": "2018-05-18T09:08:28.762008",
+      "preprocessing_begin": "2018-05-18T09:08:28.804271",
+      "preprocessing_end": "2018-05-18T09:08:31.177115",
+      "translation_begin": "2018-05-18T09:08:31.177225",
+      "translation_end": "2018-05-18T09:08:32.691340",
+      "postprocessing_begin": "2018-05-18T09:08:32.691745",
+      "postprocessing_end": "2018-05-18T09:08:32.733856",
+      "sent_time": "2018-05-18T09:08:32.735492",
+      "eval": {
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-18T09:10:57.065591"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "Difficile de voir comment dire cette phrase en fran\u00e7ais",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-18T09:11:00.145926",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Difficile de voir comment dire cette phrase en fran\u00e7ais",
+            "2018-05-18T09:11:16.726945",
+            "2018-05-18T09:11:16.726945"
+          ]
+        ]
+      },
+      "reference_translation": "Il y a plein de place !",
+      "normalised_version": "There's plenty of room!"
+    },
+    "23": {
+      "language": "french",
+      "original_text": "Ah mais je ne soutiens pas Trump du tout.",
+      "preprocessed_text": "il y a plein de place pour la pi\u00e8ce ! <CONCAT> ah mais je ne soutiens pas Trump du tout .",
+      "translated_text": "there &apos;s plenty of room for the play ! <CONCAT> ah , but I don &apos;t support Trump at all .",
+      "postprocessed_text": "Ah, but I don't support Trump at all.",
+      "composition_time": "2018-05-18T09:08:59.375068",
+      "preprocessing_begin": "2018-05-18T09:08:59.434675",
+      "preprocessing_end": "2018-05-18T09:09:01.955986",
+      "translation_begin": "2018-05-18T09:09:01.956092",
+      "translation_end": "2018-05-18T09:09:05.321081",
+      "postprocessing_begin": "2018-05-18T09:09:05.321320",
+      "postprocessing_end": "2018-05-18T09:09:05.368321",
+      "sent_time": "2018-05-18T09:09:05.369370",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:09:12.306074"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Oh but I don\u2019t support Trump at all.",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "Je reste pragmatique face aux canards.",
+      "preprocessed_text": "ah mais je ne soutiens pas Trump du tout . <CONCAT> je reste pragmatique face aux canards .",
+      "translated_text": "ah , but I don &apos;t support Trump at all . <CONCAT> I &apos;m being practical face @-@ to @-@ face with the ducks .",
+      "postprocessed_text": "I'm being practical face-to-face with the ducks.",
+      "composition_time": "2018-05-18T09:08:59.375068",
+      "preprocessing_begin": "2018-05-18T09:08:59.434675",
+      "preprocessing_end": "2018-05-18T09:09:01.955986",
+      "translation_begin": "2018-05-18T09:09:01.956092",
+      "translation_end": "2018-05-18T09:09:05.321081",
+      "postprocessing_begin": "2018-05-18T09:09:05.321320",
+      "postprocessing_end": "2018-05-18T09:09:05.368321",
+      "sent_time": "2018-05-18T09:09:05.369838",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:10:31.649433"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ],
+        "verbatim": "",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-18T09:10:34.144108",
+            true
+          ]
+        ],
+        "verbatim_history": []
+      },
+      "reference_translation": "I\u2019m staying pragmatic with respect to ducks.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "righteous!",
+      "preprocessed_text": "I &apos;m being practical face @-@ to @-@ face with the ducks . <CONCAT> righteous !",
+      "translated_text": "je suis un face @-@ \u00e0 @-@ face avec les canards . <CONCAT> c&apos; est vrai !",
+      "postprocessed_text": "C'est vrai !",
+      "composition_time": "2018-05-18T09:09:38.455368",
+      "preprocessing_begin": "2018-05-18T09:09:38.523764",
+      "preprocessing_end": "2018-05-18T09:09:40.769657",
+      "translation_begin": "2018-05-18T09:09:40.769772",
+      "translation_end": "2018-05-18T09:09:42.902997",
+      "postprocessing_begin": "2018-05-18T09:09:42.903331",
+      "postprocessing_end": "2018-05-18T09:09:42.949108",
+      "sent_time": "2018-05-18T09:09:42.950280",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:11:19.513288"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Vertueux !",
+      "normalised_version": "Righteous!"
+    },
+    "26": {
+      "language": "english",
+      "original_text": "i hear you, brother!",
+      "preprocessed_text": "righteous ! <CONCAT> I hear you , brother !",
+      "translated_text": "droit ! <CONCAT> je t&apos; entends , mon fr\u00e8re !",
+      "postprocessed_text": "Je t'entends, mon fr\u00e8re !",
+      "composition_time": "2018-05-18T09:09:38.455368",
+      "preprocessing_begin": "2018-05-18T09:09:38.523764",
+      "preprocessing_end": "2018-05-18T09:09:40.769657",
+      "translation_begin": "2018-05-18T09:09:40.769772",
+      "translation_end": "2018-05-18T09:09:42.902997",
+      "postprocessing_begin": "2018-05-18T09:09:42.903331",
+      "postprocessing_end": "2018-05-18T09:09:42.949108",
+      "sent_time": "2018-05-18T09:09:42.950745",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:11:21.228496"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ],
+        "verbatim": "Tr\u00e8s familier",
+        "problem_history": [
+          [
+            "style",
+            "2018-05-18T09:11:22.757975",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Tr\u00e8s familier",
+            "2018-05-18T09:11:26.472463",
+            "2018-05-18T09:11:26.472463"
+          ]
+        ]
+      },
+      "reference_translation": "Je t\u2019ai entendu mon fr\u00e8re !",
+      "normalised_version": "I hear you, brother!"
+    },
+    "27": {
+      "language": "english",
+      "original_text": "let's fight the good fight and defend the rights of powerless duck populations everywhere",
+      "preprocessed_text": "I hear you , brother ! <CONCAT> let &apos;s fight the good fight and defend the rights of powerless duck populations everywhere",
+      "translated_text": "je t&apos; entends , mon fr\u00e8re ! <CONCAT> combattons le bon combat et d\u00e9fend@@ ons les droits des populations de canards .",
+      "postprocessed_text": "Combattons le bon combat et d\u00e9fendons les droits des populations de canards.",
+      "composition_time": "2018-05-18T09:09:58.857404",
+      "preprocessing_begin": "2018-05-18T09:09:58.928409",
+      "preprocessing_end": "2018-05-18T09:10:01.139930",
+      "translation_begin": "2018-05-18T09:10:01.140035",
+      "translation_end": "2018-05-18T09:10:02.879028",
+      "postprocessing_begin": "2018-05-18T09:10:02.879256",
+      "postprocessing_end": "2018-05-18T09:10:02.920872",
+      "sent_time": "2018-05-18T09:10:02.922021",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:12:27.486472"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "Choisissons",
+        "problem_history": [
+          [
+            "other",
+            "2018-05-18T09:12:32.232286",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-18T09:12:37.424764",
+            true
+          ],
+          [
+            "other",
+            "2018-05-18T09:12:38.998337",
+            false
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "Choisissons",
+            "2018-05-18T09:12:43.376952",
+            "2018-05-18T09:12:43.376952"
+          ]
+        ]
+      },
+      "reference_translation": "Allons combattre les bonnes causes et d\u00e9fendre les droits des populations impuissantes de canards.",
+      "normalised_version": "Let's fight the good fight and defend the rights of powerless duck populations everywhere."
+    },
+    "28": {
+      "language": "english",
+      "original_text": "duck vigilantes!!",
+      "preprocessed_text": "let &apos;s fight the good fight and defend the rights of powerless duck populations everywhere <CONCAT> duck vigilantes ! !",
+      "translated_text": "battons @-@ nous et d\u00e9fend@@ ons les populations du canard sans d\u00e9fense ! <CONCAT> des justiciers !",
+      "postprocessed_text": "Des justiciers !",
+      "composition_time": "2018-05-18T09:10:12.744415",
+      "preprocessing_begin": "2018-05-18T09:10:12.812340",
+      "preprocessing_end": "2018-05-18T09:10:15.207924",
+      "translation_begin": "2018-05-18T09:10:15.208070",
+      "translation_end": "2018-05-18T09:10:16.983502",
+      "postprocessing_begin": "2018-05-18T09:10:16.983712",
+      "postprocessing_end": "2018-05-18T09:10:17.015962",
+      "sent_time": "2018-05-18T09:10:17.017018",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:44.867738"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Les d\u00e9fenseurs des canards !",
+      "normalised_version": "Duck vigilantes!!"
+    },
+    "29": {
+      "language": "french",
+      "original_text": "Et les abeilles !",
+      "preprocessed_text": "des justiciers ! <CONCAT> et les abeilles !",
+      "translated_text": "vigilantes ! <CONCAT> and the bees !",
+      "postprocessed_text": "And the bees!",
+      "composition_time": "2018-05-18T09:10:30.805851",
+      "preprocessing_begin": "2018-05-18T09:10:30.875242",
+      "preprocessing_end": "2018-05-18T09:10:33.079066",
+      "translation_begin": "2018-05-18T09:10:33.079185",
+      "translation_end": "2018-05-18T09:10:35.098608",
+      "postprocessing_begin": "2018-05-18T09:10:35.098850",
+      "postprocessing_end": "2018-05-18T09:10:35.149602",
+      "sent_time": "2018-05-18T09:10:35.151098",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:10:37.817236"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "And bees!",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Je suis tr\u00e8s inquiet face \u00e0 la disparition des abeilles...",
+      "preprocessed_text": "et les abeilles ! <CONCAT> je suis tr\u00e8s inquiet face \u00e0 la disparition des abeilles ...",
+      "translated_text": "and the bees ! <CONCAT> I &apos;m very worried about the disappearance of the bees ...",
+      "postprocessed_text": "I'm very worried about the disappearance of the bees...",
+      "composition_time": "2018-05-18T09:10:30.805851",
+      "preprocessing_begin": "2018-05-18T09:10:30.875242",
+      "preprocessing_end": "2018-05-18T09:10:33.079066",
+      "translation_begin": "2018-05-18T09:10:33.079185",
+      "translation_end": "2018-05-18T09:10:35.098608",
+      "postprocessing_begin": "2018-05-18T09:10:35.098850",
+      "postprocessing_end": "2018-05-18T09:10:35.149602",
+      "sent_time": "2018-05-18T09:10:35.151770",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:10:39.000587"
+          ],
+          [
+            "medium",
+            "2018-05-18T09:11:49.313115"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "'disappearance of THE bees'... bees disappearing ",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-18T09:11:52.296232",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "'disappearance of THE bees'... bees disappearing ",
+            "2018-05-18T09:12:23.566409",
+            "2018-05-18T09:12:23.566409"
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019m very worried about the disappearance of bees\u2026",
+      "normalised_version": ""
+    },
+    "31": {
+      "language": "english",
+      "original_text": "and the bees too",
+      "preprocessed_text": "I &apos;m very worried about the disappearance of the bees ... <CONCAT> and the bees too",
+      "translated_text": "je m&apos; inqui\u00e8te beaucoup de la disparition des abeilles ... <CONCAT> et les abeilles aussi .",
+      "postprocessed_text": "Et les abeilles aussi.",
+      "composition_time": "2018-05-18T09:10:44.749245",
+      "preprocessing_begin": "2018-05-18T09:10:44.828910",
+      "preprocessing_end": "2018-05-18T09:10:47.274807",
+      "translation_begin": "2018-05-18T09:10:47.274887",
+      "translation_end": "2018-05-18T09:10:48.517871",
+      "postprocessing_begin": "2018-05-18T09:10:48.518104",
+      "postprocessing_end": "2018-05-18T09:10:48.566428",
+      "sent_time": "2018-05-18T09:10:48.567356",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:16.094544"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Et les abeilles aussi.",
+      "normalised_version": "And the bees too."
+    },
+    "32": {
+      "language": "english",
+      "original_text": "anything else?",
+      "preprocessed_text": "and the bees too <CONCAT> anything else ?",
+      "translated_text": "et les abeilles aussi . <CONCAT> autre chose ?",
+      "postprocessed_text": "Autre chose ?",
+      "composition_time": "2018-05-18T09:11:26.716319",
+      "preprocessing_begin": "2018-05-18T09:11:26.790649",
+      "preprocessing_end": "2018-05-18T09:11:29.150591",
+      "translation_begin": "2018-05-18T09:11:29.150838",
+      "translation_end": "2018-05-18T09:11:31.957530",
+      "postprocessing_begin": "2018-05-18T09:11:31.957774",
+      "postprocessing_end": "2018-05-18T09:11:32.004789",
+      "sent_time": "2018-05-18T09:11:32.006017",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:16.100226"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Quelque chose d\u2019autre ?",
+      "normalised_version": "Anything else?"
+    },
+    "33": {
+      "language": "english",
+      "original_text": "what about dolphins?",
+      "preprocessed_text": "anything else ? <CONCAT> what about dolphins ?",
+      "translated_text": "autre chose ? <CONCAT> et les dauphins ?",
+      "postprocessed_text": "Et les dauphins ?",
+      "composition_time": "2018-05-18T09:11:26.716319",
+      "preprocessing_begin": "2018-05-18T09:11:26.790649",
+      "preprocessing_end": "2018-05-18T09:11:29.150591",
+      "translation_begin": "2018-05-18T09:11:29.150838",
+      "translation_end": "2018-05-18T09:11:31.957530",
+      "postprocessing_begin": "2018-05-18T09:11:31.957774",
+      "postprocessing_end": "2018-05-18T09:11:32.004789",
+      "sent_time": "2018-05-18T09:11:32.006573",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:19.161628"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Et les dauphins ?",
+      "normalised_version": "What about dolphins?"
+    },
+    "34": {
+      "language": "english",
+      "original_text": "they're cute and look good on posters",
+      "preprocessed_text": "what about dolphins ? <CONCAT> they &apos;re cute and look good on posters",
+      "translated_text": "et les dauphins ? <CONCAT> ils sont mignons et beaux sur les posters .",
+      "postprocessed_text": "Ils sont mignons et beaux sur les posters.",
+      "composition_time": "2018-05-18T09:11:26.716319",
+      "preprocessing_begin": "2018-05-18T09:11:26.790649",
+      "preprocessing_end": "2018-05-18T09:11:29.150591",
+      "translation_begin": "2018-05-18T09:11:29.150838",
+      "translation_end": "2018-05-18T09:11:31.957530",
+      "postprocessing_begin": "2018-05-18T09:11:31.957774",
+      "postprocessing_end": "2018-05-18T09:11:32.004789",
+      "sent_time": "2018-05-18T09:11:32.007101",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:16.474459"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Ils sont mignons et sont jolis sur les posters.",
+      "normalised_version": "They're cute and look good on posters."
+    },
+    "35": {
+      "language": "english",
+      "original_text": "everyone loves dolphins",
+      "preprocessed_text": "they &apos;re cute and look good on posters <CONCAT> everyone loves dolphins",
+      "translated_text": "ils sont mignons et beaux sur les posters . <CONCAT> tout le monde aime les dauphins .",
+      "postprocessed_text": "Tout le monde aime les dauphins.",
+      "composition_time": "2018-05-18T09:11:32.038134",
+      "preprocessing_begin": "2018-05-18T09:11:32.076729",
+      "preprocessing_end": "2018-05-18T09:11:34.265789",
+      "translation_begin": "2018-05-18T09:11:34.265868",
+      "translation_end": "2018-05-18T09:11:35.491033",
+      "postprocessing_begin": "2018-05-18T09:11:35.491289",
+      "postprocessing_end": "2018-05-18T09:11:35.531747",
+      "sent_time": "2018-05-18T09:11:35.533907",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:21.010074"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Tout le monde aime les dauphins.",
+      "normalised_version": "Everyone loves dolphins."
+    },
+    "36": {
+      "language": "french",
+      "original_text": "Je connais quelqu'un qui n'aimait pas les dauphins parce qu'ils n'ont pas de moustaches.",
+      "preprocessed_text": "tout le monde aime les dauphins . <CONCAT> je connais quelqu&apos; un qui n&apos; aimait pas les dauphins parce qu&apos; ils n&apos; ont pas de moustaches .",
+      "translated_text": "everybody loves dolphins . <CONCAT> I know someone who didn &apos;t like dolphins because they don &apos;t have a mustache .",
+      "postprocessed_text": "I know someone who didn't like dolphins because they don't have a mustache.",
+      "composition_time": "2018-05-18T09:11:56.875952",
+      "preprocessing_begin": "2018-05-18T09:11:56.950565",
+      "preprocessing_end": "2018-05-18T09:11:59.256921",
+      "translation_begin": "2018-05-18T09:11:59.257107",
+      "translation_end": "2018-05-18T09:12:01.086820",
+      "postprocessing_begin": "2018-05-18T09:12:01.087070",
+      "postprocessing_end": "2018-05-18T09:12:01.139344",
+      "sent_time": "2018-05-18T09:12:01.140687",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:12:38.337420"
+          ],
+          [
+            "medium",
+            "2018-05-18T09:13:56.731280"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "I know someone who didn\u2019t like dolphins because they don\u2019t have whiskers.",
+      "normalised_version": ""
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Cette personne aimait bien les chats parce qu'ils ont des moustaches, eux.",
+      "preprocessed_text": "je connais quelqu&apos; un qui n&apos; aimait pas les dauphins parce qu&apos; ils n&apos; ont pas de moustaches . <CONCAT> cette personne aimait bien les chats parce qu&apos; ils ont des moustaches , eux .",
+      "translated_text": "I know someone who didn &apos;t like dolphins because they don &apos;t have a moustache . <CONCAT> that person liked cats because they had mus@@ taches .",
+      "postprocessed_text": "That person liked cats because they had mustaches.",
+      "composition_time": "2018-05-18T09:12:11.410982",
+      "preprocessing_begin": "2018-05-18T09:12:11.480878",
+      "preprocessing_end": "2018-05-18T09:12:14.029804",
+      "translation_begin": "2018-05-18T09:12:14.029912",
+      "translation_end": "2018-05-18T09:12:16.029803",
+      "postprocessing_begin": "2018-05-18T09:12:16.030013",
+      "postprocessing_end": "2018-05-18T09:12:16.082168",
+      "sent_time": "2018-05-18T09:12:16.083608",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:14:12.577607"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "there's no way their cat could have a moustache",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-18T09:14:15.265252",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "there's no way their cat could have a moustache",
+            "2018-05-18T09:14:31.935908",
+            "2018-05-18T09:14:31.935908"
+          ]
+        ]
+      },
+      "reference_translation": "They liked cats because they did have whiskers.",
+      "normalised_version": ""
+    },
+    "38": {
+      "language": "english",
+      "original_text": "a mustache?!",
+      "preprocessed_text": "that person liked cats because they had mus@@ taches . <CONCAT> a mustache ? !",
+      "translated_text": "cette personne aimait les chats parce qu&apos; ils avaient des moustaches . <CONCAT> une moustache ?",
+      "postprocessed_text": "Une moustache ?",
+      "composition_time": "2018-05-18T09:13:49.542022",
+      "preprocessing_begin": "2018-05-18T09:13:49.629254",
+      "preprocessing_end": "2018-05-18T09:13:52.289106",
+      "translation_begin": "2018-05-18T09:13:52.289224",
+      "translation_end": "2018-05-18T09:13:56.679715",
+      "postprocessing_begin": "2018-05-18T09:13:56.679963",
+      "postprocessing_end": "2018-05-18T09:13:56.721520",
+      "sent_time": "2018-05-18T09:13:56.722605",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:15:06.420732"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Des moustaches ?",
+      "normalised_version": "A mustache?!"
+    },
+    "39": {
+      "language": "english",
+      "original_text": "what are they?",
+      "preprocessed_text": "a mustache ? ! <CONCAT> what are they ?",
+      "translated_text": "une moustache ? <CONCAT> qu&apos; est @-@ ce que c&apos; est ?",
+      "postprocessed_text": "Qu'est-ce que c'est ?",
+      "composition_time": "2018-05-18T09:13:49.542022",
+      "preprocessing_begin": "2018-05-18T09:13:49.629254",
+      "preprocessing_end": "2018-05-18T09:13:52.289106",
+      "translation_begin": "2018-05-18T09:13:52.289224",
+      "translation_end": "2018-05-18T09:13:56.679715",
+      "postprocessing_begin": "2018-05-18T09:13:56.679963",
+      "postprocessing_end": "2018-05-18T09:13:56.721520",
+      "sent_time": "2018-05-18T09:13:56.723079",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:15:08.283041"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "De quoi s\u2019agit-il ?",
+      "normalised_version": "What are they?"
+    },
+    "40": {
+      "language": "english",
+      "original_text": "gentlemen cats that drink cognac, smoke pipes and blather on about the Great Depression?!",
+      "preprocessed_text": "what are they ? <CONCAT> gentlemen cats that drink cognac , smoke pipes and bla@@ ther on about the Great Depression ? !",
+      "translated_text": "qu&apos; est @-@ ce que c&apos; est ? <CONCAT> des chats qui boivent du cognac , de la fum\u00e9e et du baratin sur la Grande D\u00e9@@ pression ?",
+      "postprocessed_text": "Des chats qui boivent du cognac, de la fum\u00e9e et du baratin sur la Grande D\u00e9pression ?",
+      "composition_time": "2018-05-18T09:13:49.542022",
+      "preprocessing_begin": "2018-05-18T09:13:49.629254",
+      "preprocessing_end": "2018-05-18T09:13:52.289106",
+      "translation_begin": "2018-05-18T09:13:52.289224",
+      "translation_end": "2018-05-18T09:13:56.679715",
+      "postprocessing_begin": "2018-05-18T09:13:56.679963",
+      "postprocessing_end": "2018-05-18T09:13:56.721520",
+      "sent_time": "2018-05-18T09:13:56.723512",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:16:11.843610"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "qui fument et qui parlent",
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "qui fument et qui parlent",
+            "2018-05-18T09:16:26.712202",
+            "2018-05-18T09:16:26.712202"
+          ]
+        ]
+      },
+      "reference_translation": "Des chats gentleman qui boivent du cognac, fument la pipe et discutent de la grande d\u00e9pression ?",
+      "normalised_version": "Gentlemen cats that drink cognac, smoke pipes and blather on about the Great Depression?!"
+    },
+    "41": {
+      "language": "french",
+      "original_text": "Les moustaches, c'est ce que certains hommes portent entre la bouche et le nez.",
+      "preprocessed_text": "des chats qui boivent du cognac , de la fum\u00e9e et du baratin sur la Grande D\u00e9@@ pression ? <CONCAT> les moustaches , c&apos; est ce que certains hommes portent entre la bouche et le nez .",
+      "translated_text": "cats who drink cognac , smoke , and talk about the Great Depression ? <CONCAT> mus@@ taches are what some men carry between the mouth and the nose .",
+      "postprocessed_text": "Mustaches are what some men carry between the mouth and the nose.",
+      "composition_time": "2018-05-18T09:14:36.139197",
+      "preprocessing_begin": "2018-05-18T09:14:36.210078",
+      "preprocessing_end": "2018-05-18T09:14:38.658386",
+      "translation_begin": "2018-05-18T09:14:38.658460",
+      "translation_end": "2018-05-18T09:14:41.048541",
+      "postprocessing_begin": "2018-05-18T09:14:41.048761",
+      "postprocessing_end": "2018-05-18T09:14:41.086196",
+      "sent_time": "2018-05-18T09:14:41.087297",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:15:25.102877"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "Moustaches are what certain men wear between their mouths and noses.",
+      "normalised_version": ""
+    },
+    "42": {
+      "language": "french",
+      "original_text": "Et les chats, quel que soit leur genre, ont des moustaches dont ils se servent pour se diriger dans une pi\u00e8ce.",
+      "preprocessed_text": "les moustaches , c&apos; est ce que certains hommes portent entre la bouche et le nez . <CONCAT> et les chats , quel que soit leur genre , ont des moustaches dont ils se servent pour se diriger dans une pi\u00e8ce .",
+      "translated_text": "mus@@ taches are what some men carry between the mouth and the nose . <CONCAT> and the cats , whatever they &apos;re like , have a moustache they use to run into a room .",
+      "postprocessed_text": "And the cats, whatever they're like, have a moustache they use to run into a room.",
+      "composition_time": "2018-05-18T09:15:00.641943",
+      "preprocessing_begin": "2018-05-18T09:15:00.703804",
+      "preprocessing_end": "2018-05-18T09:15:03.165056",
+      "translation_begin": "2018-05-18T09:15:03.165189",
+      "translation_end": "2018-05-18T09:15:06.377839",
+      "postprocessing_begin": "2018-05-18T09:15:06.378063",
+      "postprocessing_end": "2018-05-18T09:15:06.411650",
+      "sent_time": "2018-05-18T09:15:06.412749",
+      "eval": {
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-18T09:15:32.017323"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "meaning",
+          "word choice"
+        ],
+        "verbatim": "mustachioed cats running into room... the image is just too funny",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-18T09:15:34.064035",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-18T09:16:17.145924",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "mustachioed cats running into room... the image is just too funny",
+            "2018-05-18T09:16:29.528507",
+            "2018-05-18T09:16:29.528507"
+          ]
+        ]
+      },
+      "reference_translation": "And cats, whatever their gender, have whiskers they use to find their way around a room.",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "french",
+      "original_text": "Tu dois avoir des chats particuliers s'ils boivent du cognac.",
+      "preprocessed_text": "et les chats , quel que soit leur genre , ont des moustaches dont ils se servent pour se diriger dans une pi\u00e8ce . <CONCAT> tu dois avoir des chats particuliers s&apos; ils boivent du cognac .",
+      "translated_text": "and the cats , whatever they &apos;re like , have a moustache they use to run in a room . <CONCAT> you must have special cats if they drink brandy .",
+      "postprocessed_text": "You must have special cats if they drink brandy.",
+      "composition_time": "2018-05-18T09:16:04.956476",
+      "preprocessing_begin": "2018-05-18T09:16:05.031239",
+      "preprocessing_end": "2018-05-18T09:16:07.644201",
+      "translation_begin": "2018-05-18T09:16:07.644350",
+      "translation_end": "2018-05-18T09:16:11.793002",
+      "postprocessing_begin": "2018-05-18T09:16:11.793470",
+      "postprocessing_end": "2018-05-18T09:16:11.831093",
+      "sent_time": "2018-05-18T09:16:11.832757",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:16:36.097803"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": [],
+        "verbatim": "",
+        "problem_history": [],
+        "verbatim_history": []
+      },
+      "reference_translation": "You must have strange cats if they drink cognac.",
+      "normalised_version": ""
+    },
+    "44": {
+      "language": "french",
+      "original_text": "Mon chat n'accepte d\u00e9j\u00e0 pas de boire du lait de soja, alors du cognac...",
+      "preprocessed_text": "tu dois avoir des chats particuliers s&apos; ils boivent du cognac . <CONCAT> mon chat n&apos; accepte d\u00e9j\u00e0 pas de boire du lait de soja , alors du cognac ...",
+      "translated_text": "you must have special cats if they drink brandy . <CONCAT> my cat doesn &apos;t already agree to drink soy milk , so cognac ...",
+      "postprocessed_text": "My cat doesn't already agree to drink soy milk, so cognac...",
+      "composition_time": "2018-05-18T09:16:04.956476",
+      "preprocessing_begin": "2018-05-18T09:16:05.031239",
+      "preprocessing_end": "2018-05-18T09:16:07.644201",
+      "translation_begin": "2018-05-18T09:16:07.644350",
+      "translation_end": "2018-05-18T09:16:11.793002",
+      "postprocessing_begin": "2018-05-18T09:16:11.793470",
+      "postprocessing_end": "2018-05-18T09:16:11.831093",
+      "sent_time": "2018-05-18T09:16:11.833922",
+      "eval": {
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-18T09:16:41.273333"
+          ],
+          [
+            "medium",
+            "2018-05-18T09:16:45.814957"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "agree is just weird. 'already' is stragne aswell. Sorry I can't quite put my finger on it. \"I can't even get my cat to drink soy milk,...' would seem more natural",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-18T09:16:47.922033",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "agree is just weird. 'already' is stragne aswell. Sorry I can't quite put my finger on it. \"I can't even get my cat to drink soy milk,...' would seem more natural",
+            "2018-05-18T09:18:10.776644",
+            "2018-05-18T09:18:10.776644"
+          ]
+        ]
+      },
+      "reference_translation": "My cat won\u2019t even drink soya milk, so cognac\u2026",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "style": "good",
+    "would_use": true,
+    "grammaticality": "excellent",
+    "verbatim_quality": "la discussion \u00e9tait compr\u00e9hensible du point de vue linguistique. en revanche, mon interlocuteur introduisait beaucoup d'humour rendant la discussion \u00e9trange.",
+    "meaning": "good",
+    "particular_problems": "certains mots \u00e9taient mal choisis, du point de vue s\u00e9mantique. en revanche, les r\u00e8gles grammaticales \u00e9taient bien respect\u00e9es.",
+    "interface": "tr\u00e8s bien. juste rappeler en pop-up la signification de chaque smiley quand on passe la souris sur le smiley.",
+    "tech": "There were no technical problems",
+    "coherence": "poor",
+    "timestamp": "2018-05-18T09:22:10.075305",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "style": "good",
+    "would_use": true,
+    "grammaticality": "excellent",
+    "verbatim_quality": "",
+    "meaning": "average",
+    "particular_problems": "some words were mistranslated (eg. moustache vs. whiskers) and made the english version rather whimsical",
+    "interface": "while it was evident at times i was speaking with a translation, it is funcitonal enough to work with and around (when mistranslation arise)",
+    "tech": "There were no technical problems",
+    "coherence": "good",
+    "timestamp": "2018-05-18T09:21:27.795277",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

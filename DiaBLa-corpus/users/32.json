@@ -1,0 +1,12 @@
+{
+   "age": "45-54",
+   "gender": "male",
+   "idnum": 32,
+   "otherlangs": "spanish, italian",
+   "creation_date": "2018-05-03T13:54:36.656129",
+   "french_ability": "native",
+   "english_ability": "good",
+   "worked_in_research": false,
+   "worked_in_NLP": false,
+   "agreed_to_terms_and_conditions": true
+}

@@ -1,0 +1,1466 @@
+{
+  "start_time": "2018-05-02T18:54:48.531754",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are in a retirement home.",
+      "Vous \u00eates dans une maison de retraite."
+    ],
+    [
+      "You are visiting and talking to an old friend.",
+      "Vous rendez visite et discutez avec un(e) vieil(le) ami(e)."
+    ],
+    [
+      "You are a resident and you are talking with an old friend who is visiting you.",
+      "Vous \u00eates un r\u00e9sident(e). Vous discutez avec un vieil ami qui est venu vous rendre visite"
+    ]
+  ],
+  "user1": {
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:59.0) Gecko/20100101 Firefox/59.0",
+    "role": [
+      "You are visiting and talking to an old friend.",
+      "Vous rendez visite et discutez avec un(e) vieil(le) ami(e)."
+    ],
+    "role_num": 1,
+    "initiated_dialogue": true,
+    "turn_number": 1,
+    "lang": "french"
+  },
+  "user2": {
+    "rolenum": 2,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15",
+    "role": [
+      "You are a resident and you are talking with an old friend who is visiting you.",
+      "Vous \u00eates un r\u00e9sident(e). Vous discutez avec un vieil ami qui est venu vous rendre visite"
+    ],
+    "initiated_dialogue": false,
+    "eval-stage": true,
+    "turn_number": 2,
+    "lang": "english"
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "french",
+      "original_text": "Bonjour Maria !",
+      "preprocessed_text": "<BEGIN>  <CONCAT> bonjour Maria !",
+      "translated_text": "jum@@ ble <CONCAT> good morning , Maria !",
+      "postprocessed_text": "Good morning, Maria!",
+      "composition_time": "2018-05-02T18:55:18.228176",
+      "preprocessing_begin": "2018-05-02T18:55:18.261721",
+      "preprocessing_end": "2018-05-02T18:55:20.759014",
+      "translation_begin": "2018-05-02T18:55:20.759099",
+      "translation_end": "2018-05-02T18:55:23.641142",
+      "postprocessing_begin": "2018-05-02T18:55:23.641422",
+      "postprocessing_end": "2018-05-02T18:55:23.673301",
+      "sent_time": "2018-05-02T18:55:23.674617",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T18:56:52.961524"
+          ]
+        ]
+      },
+      "reference_translation": "Hello Maria!",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "french",
+      "original_text": "Comment vas-tu ?",
+      "preprocessed_text": "bonjour Ear@@ endel ! <CONCAT> comment vas @-@ tu ?",
+      "translated_text": "hello , Ear@@ end@@ el ! <CONCAT> how are you ?",
+      "postprocessed_text": "How are you?",
+      "composition_time": "2018-05-02T18:55:34.403308",
+      "preprocessing_begin": "2018-05-02T18:55:34.436443",
+      "preprocessing_end": "2018-05-02T18:55:36.821076",
+      "translation_begin": "2018-05-02T18:55:36.821154",
+      "translation_end": "2018-05-02T18:55:37.735237",
+      "postprocessing_begin": "2018-05-02T18:55:37.735590",
+      "postprocessing_end": "2018-05-02T18:55:37.775323",
+      "sent_time": "2018-05-02T18:55:37.776207",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T18:56:54.636517"
+          ]
+        ]
+      },
+      "reference_translation": "How are you doing?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "So so.",
+      "preprocessed_text": "how are you ? <CONCAT> so so .",
+      "translated_text": "comment allez @-@ vous ? <CONCAT> tr\u00e8s bien .",
+      "postprocessed_text": "Tr\u00e8s bien.",
+      "composition_time": "2018-05-02T18:56:32.515438",
+      "preprocessing_begin": "2018-05-02T18:56:32.550123",
+      "preprocessing_end": "2018-05-02T18:56:34.611837",
+      "translation_begin": "2018-05-02T18:56:34.611895",
+      "translation_end": "2018-05-02T18:56:41.051337",
+      "postprocessing_begin": "2018-05-02T18:56:41.051757",
+      "postprocessing_end": "2018-05-02T18:56:41.083319",
+      "sent_time": "2018-05-02T18:56:41.084463",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T18:56:51.830988"
+          ]
+        ]
+      },
+      "reference_translation": "\u00c7a va \u00e7a va.",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "english",
+      "original_text": "The leg's playing up a bit.",
+      "preprocessed_text": "so so . <CONCAT> the leg &apos;s playing up a bit .",
+      "translated_text": "tout \u00e0 fait . <CONCAT> la jambe se joue un peu .",
+      "postprocessed_text": "La jambe se joue un peu.",
+      "composition_time": "2018-05-02T18:56:32.515438",
+      "preprocessing_begin": "2018-05-02T18:56:32.550123",
+      "preprocessing_end": "2018-05-02T18:56:34.611837",
+      "translation_begin": "2018-05-02T18:56:34.611895",
+      "translation_end": "2018-05-02T18:56:41.051337",
+      "postprocessing_begin": "2018-05-02T18:56:41.051757",
+      "postprocessing_end": "2018-05-02T18:56:41.083319",
+      "sent_time": "2018-05-02T18:56:41.085103",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T18:57:05.397463",
+            true
+          ],
+          [
+            "meaning",
+            "2018-05-02T18:57:18.854645",
+            false
+          ],
+          [
+            "word choice",
+            "2018-05-02T18:57:19.648872",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T18:56:59.642165"
+          ]
+        ]
+      },
+      "reference_translation": "Ma jambe fait un peu des siennes.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "english",
+      "original_text": "And the nurses keep disturbing me every time I nod off.",
+      "preprocessed_text": "the leg &apos;s playing up a bit . <CONCAT> and the nurses keep disturbing me every time I nod off .",
+      "translated_text": "la jambe se joue un peu . <CONCAT> et les infirmi\u00e8res continuent de me d\u00e9ranger \u00e0 chaque fois que je signe .",
+      "postprocessed_text": "Et les infirmi\u00e8res continuent de me d\u00e9ranger \u00e0 chaque fois que je signe.",
+      "composition_time": "2018-05-02T18:56:32.515438",
+      "preprocessing_begin": "2018-05-02T18:56:32.550123",
+      "preprocessing_end": "2018-05-02T18:56:34.611837",
+      "translation_begin": "2018-05-02T18:56:34.611895",
+      "translation_end": "2018-05-02T18:56:41.051337",
+      "postprocessing_begin": "2018-05-02T18:56:41.051757",
+      "postprocessing_end": "2018-05-02T18:56:41.083319",
+      "sent_time": "2018-05-02T18:56:41.085761",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T18:57:16.060799",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T18:57:13.194686"
+          ]
+        ]
+      },
+      "reference_translation": "Et les infirmi\u00e8res n'arr\u00eatent pas de me d\u00e9ranger \u00e0 chaque fois que je pique du nez.",
+      "normalised_version": ""
+    },
+    "5": {
+      "language": "english",
+      "original_text": "You can never get any peace around here!",
+      "preprocessed_text": "and the nurses keep disturbing me every time I nod off . <CONCAT> you can never get any peace around here !",
+      "translated_text": "et les infirmi\u00e8res continuent de me d\u00e9ranger \u00e0 chaque fois que je signe . <CONCAT> on ne peut jamais avoir la paix ici !",
+      "postprocessed_text": "On ne peut jamais avoir la paix ici !",
+      "composition_time": "2018-05-02T18:56:32.515438",
+      "preprocessing_begin": "2018-05-02T18:56:32.550123",
+      "preprocessing_end": "2018-05-02T18:56:34.611837",
+      "translation_begin": "2018-05-02T18:56:34.611895",
+      "translation_end": "2018-05-02T18:56:41.051337",
+      "postprocessing_begin": "2018-05-02T18:56:41.051757",
+      "postprocessing_end": "2018-05-02T18:56:41.083319",
+      "sent_time": "2018-05-02T18:56:41.087306",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T18:57:22.637101"
+          ]
+        ]
+      },
+      "reference_translation": "On ne peut jamais \u00eatre tranquille, ici\u00a0!",
+      "normalised_version": ""
+    },
+    "6": {
+      "language": "french",
+      "original_text": "C'est bien vrai, elles passent leur temps \u00e0 nous d\u00e9ranger.",
+      "preprocessed_text": "on ne peut jamais avoir la paix ici ! <CONCAT> c&apos; est bien vrai , elles passent leur temps \u00e0 nous d\u00e9ranger .",
+      "translated_text": "we can never have peace here ! <CONCAT> it &apos;s true , they spend their time bothering us .",
+      "postprocessed_text": "It's true, they spend their time bothering us.",
+      "composition_time": "2018-05-02T18:57:54.831858",
+      "preprocessing_begin": "2018-05-02T18:57:54.865412",
+      "preprocessing_end": "2018-05-02T18:57:56.982542",
+      "translation_begin": "2018-05-02T18:57:56.982633",
+      "translation_end": "2018-05-02T18:57:58.534797",
+      "postprocessing_begin": "2018-05-02T18:57:58.535054",
+      "postprocessing_end": "2018-05-02T18:57:58.576685",
+      "sent_time": "2018-05-02T18:57:58.577684",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T18:59:06.352376"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s true - they spend their time bothering us.",
+      "normalised_version": ""
+    },
+    "7": {
+      "language": "french",
+      "original_text": "Elle d\u00e9placent des objets dans les chambres.",
+      "preprocessed_text": "c&apos; est bien vrai , elles passent leur temps \u00e0 nous d\u00e9ranger . <CONCAT> elle d\u00e9placent des objets dans les chambres .",
+      "translated_text": "it &apos;s true , they spend their time bothering us . <CONCAT> she &apos;s moving objects in the rooms .",
+      "postprocessed_text": "She's moving objects in the rooms.",
+      "composition_time": "2018-05-02T18:58:06.520544",
+      "preprocessing_begin": "2018-05-02T18:58:06.574638",
+      "preprocessing_end": "2018-05-02T18:58:08.663091",
+      "translation_begin": "2018-05-02T18:58:08.663165",
+      "translation_end": "2018-05-02T18:58:10.195366",
+      "postprocessing_begin": "2018-05-02T18:58:10.195818",
+      "postprocessing_end": "2018-05-02T18:58:10.235903",
+      "sent_time": "2018-05-02T18:58:10.237320",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "coherence",
+            "2018-05-02T18:58:53.891098",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "who is \"she\"?",
+            "2018-05-02T18:58:57.265762",
+            "2018-05-02T18:58:57.265762"
+          ]
+        ],
+        "problems": [
+          "coherence"
+        ],
+        "verbatim": "who is \"she\"?",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T18:58:53.889128"
+          ]
+        ]
+      },
+      "reference_translation": "They move objects around the rooms.",
+      "normalised_version": ""
+    },
+    "8": {
+      "language": "french",
+      "original_text": "Elle nous disent d'aller ici, de faire \u00e7a, pfff.",
+      "preprocessed_text": "elle d\u00e9placent des objets dans les chambres . <CONCAT> elle nous disent d&apos; aller ici , de faire \u00e7a , pfff .",
+      "translated_text": "she &apos;s moving objects in the rooms . <CONCAT> she tells us to go here , do that , pfft .",
+      "postprocessed_text": "She tells us to go here, do that, pfft.",
+      "composition_time": "2018-05-02T18:58:30.702869",
+      "preprocessing_begin": "2018-05-02T18:58:30.736953",
+      "preprocessing_end": "2018-05-02T18:58:33.003554",
+      "translation_begin": "2018-05-02T18:58:33.003619",
+      "translation_end": "2018-05-02T18:58:34.735776",
+      "postprocessing_begin": "2018-05-02T18:58:34.736111",
+      "postprocessing_end": "2018-05-02T18:58:34.767656",
+      "sent_time": "2018-05-02T18:58:34.768953",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T18:59:03.374926"
+          ]
+        ]
+      },
+      "reference_translation": "They tell us to go there, do that, huh.",
+      "normalised_version": ""
+    },
+    "9": {
+      "language": "english",
+      "original_text": "Who's that?",
+      "preprocessed_text": "she tells us to go here , do that , pfft . <CONCAT> who &apos;s that ?",
+      "translated_text": "elle nous a dit de venir ici , de faire \u00e7a , pfft . <CONCAT> qui est @-@ ce ?",
+      "postprocessed_text": "Qui est-ce ?",
+      "composition_time": "2018-05-02T18:58:47.632827",
+      "preprocessing_begin": "2018-05-02T18:58:47.664010",
+      "preprocessing_end": "2018-05-02T18:58:49.712826",
+      "translation_begin": "2018-05-02T18:58:49.712899",
+      "translation_end": "2018-05-02T18:58:53.845094",
+      "postprocessing_begin": "2018-05-02T18:58:53.845501",
+      "postprocessing_end": "2018-05-02T18:58:53.879408",
+      "sent_time": "2018-05-02T18:58:53.880745",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T19:01:51.056186",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T19:01:49.756811"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:04:01.028486"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:04:12.487482"
+          ]
+        ]
+      },
+      "reference_translation": "Qui donc\u00a0?",
+      "normalised_version": ""
+    },
+    "10": {
+      "language": "english",
+      "original_text": "I can't see very well anymore.",
+      "preprocessed_text": "who &apos;s that ? <CONCAT> I can &apos;t see very well anymore .",
+      "translated_text": "qui est @-@ ce ? <CONCAT> je ne vois plus tr\u00e8s bien .",
+      "postprocessed_text": "Je ne vois plus tr\u00e8s bien.",
+      "composition_time": "2018-05-02T18:58:47.632827",
+      "preprocessing_begin": "2018-05-02T18:58:47.664010",
+      "preprocessing_end": "2018-05-02T18:58:49.712826",
+      "translation_begin": "2018-05-02T18:58:49.712899",
+      "translation_end": "2018-05-02T18:58:53.845094",
+      "postprocessing_begin": "2018-05-02T18:58:53.845501",
+      "postprocessing_end": "2018-05-02T18:58:53.879408",
+      "sent_time": "2018-05-02T18:58:53.881700",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T19:01:54.905803",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T19:01:53.856949"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:04:00.493665"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:04:12.063392"
+          ]
+        ]
+      },
+      "reference_translation": "Je n'y vois plus tr\u00e8s bien.",
+      "normalised_version": ""
+    },
+    "11": {
+      "language": "english",
+      "original_text": "Why is there a woman in my room?",
+      "preprocessed_text": "I can &apos;t see very well anymore . <CONCAT> why is there a woman in my room ?",
+      "translated_text": "je ne vois plus tr\u00e8s bien . <CONCAT> pourquoi y a @-@ t @-@ il une femme dans ma chambre ?",
+      "postprocessed_text": "Pourquoi y a-t-il une femme dans ma chambre ?",
+      "composition_time": "2018-05-02T18:58:47.632827",
+      "preprocessing_begin": "2018-05-02T18:58:47.664010",
+      "preprocessing_end": "2018-05-02T18:58:49.712826",
+      "translation_begin": "2018-05-02T18:58:49.712899",
+      "translation_end": "2018-05-02T18:58:53.845094",
+      "postprocessing_begin": "2018-05-02T18:58:53.845501",
+      "postprocessing_end": "2018-05-02T18:58:53.879408",
+      "sent_time": "2018-05-02T18:58:53.882586",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T19:01:58.475094",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-02T19:01:57.332166"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:03:59.996906"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:04:11.359333"
+          ]
+        ]
+      },
+      "reference_translation": "Pourquoi y a-t-il une femme dans ma chambre\u00a0?",
+      "normalised_version": ""
+    },
+    "12": {
+      "language": "english",
+      "original_text": "And you shouldn't be complaining!",
+      "preprocessed_text": "why is there a woman in my room ? <CONCAT> and you shouldn &apos;t be complaining !",
+      "translated_text": "pourquoi y a @-@ t @-@ il une femme dans ma chambre ? <CONCAT> et tu ne devrais pas te plaindre !",
+      "postprocessed_text": "Et tu ne devrais pas te plaindre !",
+      "composition_time": "2018-05-02T18:59:43.751625",
+      "preprocessing_begin": "2018-05-02T18:59:43.782501",
+      "preprocessing_end": "2018-05-02T18:59:45.879760",
+      "translation_begin": "2018-05-02T18:59:45.879832",
+      "translation_end": "2018-05-02T18:59:49.254974",
+      "postprocessing_begin": "2018-05-02T18:59:49.255329",
+      "postprocessing_end": "2018-05-02T18:59:49.292961",
+      "sent_time": "2018-05-02T18:59:49.294233",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:02:01.457894"
+          ]
+        ]
+      },
+      "reference_translation": "Et tu ne devrais pas te plaindre\u00a0!",
+      "normalised_version": ""
+    },
+    "13": {
+      "language": "english",
+      "original_text": "You get to stay at home and live you life, while I'm stuck in here.",
+      "preprocessed_text": "and you shouldn &apos;t be complaining ! <CONCAT> you get to stay at home and live you life , while I &apos;m stuck in here .",
+      "translated_text": "et tu ne devrais pas te plaindre ! <CONCAT> tu peux rester \u00e0 la maison et vivre , pendant que je suis coinc\u00e9 ici .",
+      "postprocessed_text": "Tu peux rester \u00e0 la maison et vivre, pendant que je suis coinc\u00e9 ici.",
+      "composition_time": "2018-05-02T18:59:43.751625",
+      "preprocessing_begin": "2018-05-02T18:59:43.782501",
+      "preprocessing_end": "2018-05-02T18:59:45.879760",
+      "translation_begin": "2018-05-02T18:59:45.879832",
+      "translation_end": "2018-05-02T18:59:49.254974",
+      "postprocessing_begin": "2018-05-02T18:59:49.255329",
+      "postprocessing_end": "2018-05-02T18:59:49.292961",
+      "sent_time": "2018-05-02T18:59:49.294973",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:02:02.248088"
+          ]
+        ]
+      },
+      "reference_translation": "Toi au moins tu habites chez toi et tu vis ta vie, alors que moi je suis coinc\u00e9e ici.",
+      "normalised_version": "You get to stay at home and live your life, while I'm stuck in here."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "Je rigolais !",
+      "preprocessed_text": "tu peux rester \u00e0 la maison et vivre , pendant que je suis coinc\u00e9 ici . <CONCAT> je rigolais !",
+      "translated_text": "you can stay home and live , while I &apos;m stuck here . <CONCAT> I was kidding !",
+      "postprocessed_text": "I was kidding!",
+      "composition_time": "2018-05-02T19:00:58.108597",
+      "preprocessing_begin": "2018-05-02T19:00:58.143231",
+      "preprocessing_end": "2018-05-02T19:01:00.280812",
+      "translation_begin": "2018-05-02T19:01:00.280868",
+      "translation_end": "2018-05-02T19:01:02.875738",
+      "postprocessing_begin": "2018-05-02T19:01:02.876114",
+      "postprocessing_end": "2018-05-02T19:01:02.912708",
+      "sent_time": "2018-05-02T19:01:02.913839",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:02:22.348025"
+          ]
+        ]
+      },
+      "reference_translation": "I was joking!",
+      "normalised_version": ""
+    },
+    "15": {
+      "language": "french",
+      "original_text": "Elles font \u00e7a pour ton bien.",
+      "preprocessed_text": "je rigolais ! <CONCAT> elles font \u00e7a pour ton bien .",
+      "translated_text": "I was kidding ! <CONCAT> they &apos;re doing it for your own good .",
+      "postprocessed_text": "They're doing it for your own good.",
+      "composition_time": "2018-05-02T19:00:58.108597",
+      "preprocessing_begin": "2018-05-02T19:00:58.143231",
+      "preprocessing_end": "2018-05-02T19:01:00.280812",
+      "translation_begin": "2018-05-02T19:01:00.280868",
+      "translation_end": "2018-05-02T19:01:02.875738",
+      "postprocessing_begin": "2018-05-02T19:01:02.876114",
+      "postprocessing_end": "2018-05-02T19:01:02.912708",
+      "sent_time": "2018-05-02T19:01:02.914326",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:02:22.891133"
+          ]
+        ]
+      },
+      "reference_translation": "They do that for your own good.",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "For my own good?!",
+      "preprocessed_text": "they &apos;re doing it for your own good . <CONCAT> for my own good ? !",
+      "translated_text": "ils le font pour ton propre bien . <CONCAT> pour mon propre bien ?",
+      "postprocessed_text": "Pour mon propre bien ?",
+      "composition_time": "2018-05-02T19:01:19.960915",
+      "preprocessing_begin": "2018-05-02T19:01:19.995019",
+      "preprocessing_end": "2018-05-02T19:01:22.240893",
+      "translation_begin": "2018-05-02T19:01:22.240979",
+      "translation_end": "2018-05-02T19:01:23.293536",
+      "postprocessing_begin": "2018-05-02T19:01:23.293784",
+      "postprocessing_end": "2018-05-02T19:01:23.328448",
+      "sent_time": "2018-05-02T19:01:23.329262",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:03:32.427036"
+          ]
+        ]
+      },
+      "reference_translation": "Pour mon bien\u00a0?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "french",
+      "original_text": "Voil\u00e0, c'est \u00e7a !",
+      "preprocessed_text": "pour mon propre bien ? <CONCAT> voil\u00e0 , c&apos; est \u00e7a !",
+      "translated_text": "for my own good ? <CONCAT> that &apos;s it , that &apos;s it !",
+      "postprocessed_text": "That's it, that's it!",
+      "composition_time": "2018-05-02T19:01:44.208699",
+      "preprocessing_begin": "2018-05-02T19:01:44.240052",
+      "preprocessing_end": "2018-05-02T19:01:46.367408",
+      "translation_begin": "2018-05-02T19:01:46.367481",
+      "translation_end": "2018-05-02T19:01:47.409024",
+      "postprocessing_begin": "2018-05-02T19:01:47.409453",
+      "postprocessing_end": "2018-05-02T19:01:47.440889",
+      "sent_time": "2018-05-02T19:01:47.441976",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:02:24.900005"
+          ]
+        ]
+      },
+      "reference_translation": "Yeah, that\u2019s right.",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "You've been talking about me behind my back.",
+      "preprocessed_text": "that &apos;s it , that &apos;s it ! <CONCAT> you &apos;ve been talking about me behind my back .",
+      "translated_text": "c&apos; est \u00e7a , c&apos; est \u00e7a ! <CONCAT> tu as parl\u00e9 de moi dans mon dos .",
+      "postprocessed_text": "Tu as parl\u00e9 de moi dans mon dos.",
+      "composition_time": "2018-05-02T19:02:14.349935",
+      "preprocessing_begin": "2018-05-02T19:02:14.384644",
+      "preprocessing_end": "2018-05-02T19:02:16.557237",
+      "translation_begin": "2018-05-02T19:02:16.557302",
+      "translation_end": "2018-05-02T19:02:19.462523",
+      "postprocessing_begin": "2018-05-02T19:02:19.462903",
+      "postprocessing_end": "2018-05-02T19:02:19.505645",
+      "sent_time": "2018-05-02T19:02:19.506912",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:03:32.429797"
+          ]
+        ]
+      },
+      "reference_translation": "Tu as parl\u00e9 de moi dans mon dos.",
+      "normalised_version": ""
+    },
+    "19": {
+      "language": "english",
+      "original_text": "They've turned you against me, I know it!",
+      "preprocessed_text": "you &apos;ve been talking about me behind my back . <CONCAT> they &apos;ve turned you against me , I know it !",
+      "translated_text": "tu as parl\u00e9 de moi dans mon dos . <CONCAT> ils t&apos; ont retourn\u00e9 contre moi , je le sais !",
+      "postprocessed_text": "Ils t'ont retourn\u00e9 contre moi, je le sais !",
+      "composition_time": "2018-05-02T19:02:14.349935",
+      "preprocessing_begin": "2018-05-02T19:02:14.384644",
+      "preprocessing_end": "2018-05-02T19:02:16.557237",
+      "translation_begin": "2018-05-02T19:02:16.557302",
+      "translation_end": "2018-05-02T19:02:19.462523",
+      "postprocessing_begin": "2018-05-02T19:02:19.462903",
+      "postprocessing_end": "2018-05-02T19:02:19.505645",
+      "sent_time": "2018-05-02T19:02:19.507842",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:03:33.596265"
+          ]
+        ]
+      },
+      "reference_translation": "Elles t'ont retourn\u00e9e contre moi, je le sais\u00a0!",
+      "normalised_version": ""
+    },
+    "20": {
+      "language": "french",
+      "original_text": "Allons, allons, tu sais bien que je ne ferais jamais cela!",
+      "preprocessed_text": "ils t&apos; ont retourn\u00e9 contre moi , je le sais ! <CONCAT> allons , allons , tu sais bien que je ne ferais jamais cela !",
+      "translated_text": "they turned you against me , I know it ! <CONCAT> come on , come on , you know I would never do that !",
+      "postprocessed_text": "Come on, come on, you know I would never do that!",
+      "composition_time": "2018-05-02T19:03:01.732115",
+      "preprocessing_begin": "2018-05-02T19:03:01.762898",
+      "preprocessing_end": "2018-05-02T19:03:03.959210",
+      "translation_begin": "2018-05-02T19:03:03.959279",
+      "translation_end": "2018-05-02T19:03:06.086350",
+      "postprocessing_begin": "2018-05-02T19:03:06.086828",
+      "postprocessing_end": "2018-05-02T19:03:06.137829",
+      "sent_time": "2018-05-02T19:03:06.139217",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:04:58.563503"
+          ]
+        ]
+      },
+      "reference_translation": "Come on, come on, you know that I would never do that!",
+      "normalised_version": ""
+    },
+    "21": {
+      "language": "french",
+      "original_text": "Raconte-moi ta journ\u00e9e.",
+      "preprocessed_text": "allons , allons , tu sais bien que je ne ferais jamais cela ! <CONCAT> raconte @-@ moi ta journ\u00e9e .",
+      "translated_text": "come on , you know I would never do that ! <CONCAT> tell me about your day .",
+      "postprocessed_text": "Tell me about your day.",
+      "composition_time": "2018-05-02T19:03:27.033886",
+      "preprocessing_begin": "2018-05-02T19:03:27.069024",
+      "preprocessing_end": "2018-05-02T19:03:29.349808",
+      "translation_begin": "2018-05-02T19:03:29.349880",
+      "translation_end": "2018-05-02T19:03:32.371037",
+      "postprocessing_begin": "2018-05-02T19:03:32.371323",
+      "postprocessing_end": "2018-05-02T19:03:32.419554",
+      "sent_time": "2018-05-02T19:03:32.420757",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:04:58.566699"
+          ]
+        ]
+      },
+      "reference_translation": "Tell me about your day.",
+      "normalised_version": ""
+    },
+    "22": {
+      "language": "french",
+      "original_text": "Qu'est-ce que tu as mang\u00e9 ?",
+      "preprocessed_text": "raconte @-@ moi ta journ\u00e9e . <CONCAT> qu&apos; est @-@ ce que tu as mang\u00e9 ?",
+      "translated_text": "tell me about your day . <CONCAT> what did you eat ?",
+      "postprocessed_text": "What did you eat?",
+      "composition_time": "2018-05-02T19:03:27.033886",
+      "preprocessing_begin": "2018-05-02T19:03:27.069024",
+      "preprocessing_end": "2018-05-02T19:03:29.349808",
+      "translation_begin": "2018-05-02T19:03:29.349880",
+      "translation_end": "2018-05-02T19:03:32.371037",
+      "postprocessing_begin": "2018-05-02T19:03:32.371323",
+      "postprocessing_end": "2018-05-02T19:03:32.419554",
+      "sent_time": "2018-05-02T19:03:32.421403",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-02T19:04:58.572981",
+            true
+          ],
+          [
+            "style",
+            "2018-05-02T19:05:15.604520",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-02T19:05:16.674676",
+            false
+          ],
+          [
+            "style",
+            "2018-05-02T19:05:17.919272",
+            false
+          ],
+          [
+            "grammar",
+            "2018-05-02T19:05:18.849132",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"did you eat\" instead of \"have you eaten\"",
+            "2018-05-02T19:05:39.591908",
+            "2018-05-02T19:05:39.591908"
+          ]
+        ],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "\"did you eat\" instead of \"have you eaten\"",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T19:04:58.569823"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:06:05.486454"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:06:07.020367"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:06:13.919901"
+          ]
+        ]
+      },
+      "reference_translation": "What have you had to eat?",
+      "normalised_version": ""
+    },
+    "23": {
+      "language": "english",
+      "original_text": "I knew it!",
+      "preprocessed_text": "what did you eat ? <CONCAT> I knew it !",
+      "translated_text": "qu&apos; est @-@ ce que tu as mang\u00e9 ? <CONCAT> je le savais !",
+      "postprocessed_text": "Je le savais !",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.549469",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:05:14.315312"
+          ]
+        ]
+      },
+      "reference_translation": "Je le savais\u00a0!",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "english",
+      "original_text": "You have been talking to the nurses.",
+      "preprocessed_text": "I knew it ! <CONCAT> you have been talking to the nurses .",
+      "translated_text": "je le savais ! <CONCAT> vous avez parl\u00e9 aux infirmi\u00e8res .",
+      "postprocessed_text": "Vous avez parl\u00e9 aux infirmi\u00e8res.",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.550232",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T19:05:26.604112",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:05:14.941006"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:05:25.761779"
+          ]
+        ]
+      },
+      "reference_translation": "Tu as parl\u00e9 aux infirmi\u00e8res.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "They've been trying to get me to eat all day.",
+      "preprocessed_text": "you have been talking to the nurses . <CONCAT> they &apos;ve been trying to get me to eat all day .",
+      "translated_text": "vous avez parl\u00e9 aux infirmi\u00e8res . <CONCAT> ils ont essay\u00e9 de me faire manger toute la journ\u00e9e .",
+      "postprocessed_text": "Ils ont essay\u00e9 de me faire manger toute la journ\u00e9e.",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.551078",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T19:05:32.359757",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:05:15.695151"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:05:30.443559"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:05:37.238422"
+          ]
+        ]
+      },
+      "reference_translation": "Elles ont essay\u00e9 toute la journ\u00e9e de me faire manger.",
+      "normalised_version": ""
+    },
+    "26": {
+      "language": "english",
+      "original_text": "Except I'm too smart for them.",
+      "preprocessed_text": "they &apos;ve been trying to get me to eat all day . <CONCAT> except I &apos;m too smart for them .",
+      "translated_text": "ils ont essay\u00e9 de me faire manger toute la journ\u00e9e . <CONCAT> sauf que je suis trop intelligent pour eux .",
+      "postprocessed_text": "Sauf que je suis trop intelligent pour eux.",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.552002",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-02T19:05:21.809275",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "grammar"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:05:16.950276"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:05:19.601744"
+          ]
+        ]
+      },
+      "reference_translation": "Sauf que je suis trop intelligente pour elles.",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "I know they're trying to poison me you see.",
+      "preprocessed_text": "except I &apos;m too smart for them . <CONCAT> I know they &apos;re trying to poison me you see .",
+      "translated_text": "sauf que je suis trop intelligent pour eux . <CONCAT> je sais qu&apos; ils essaient de m&apos; empoisonner .",
+      "postprocessed_text": "Je sais qu'ils essaient de m'empoisonner.",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.552934",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T19:05:35.668453"
+          ],
+          [
+            "perfect",
+            "2018-05-02T19:05:37.861842"
+          ]
+        ]
+      },
+      "reference_translation": "Je sais qu'elles essayent de m'empoisonner, tu vois.",
+      "normalised_version": ""
+    },
+    "28": {
+      "language": "english",
+      "original_text": "So I've kept a little stash of sweets here under my pillow.",
+      "preprocessed_text": "I know they &apos;re trying to poison me you see . <CONCAT> so I &apos;ve kept a little stash of sweets here under my pillow .",
+      "translated_text": "je sais qu&apos; ils essaient de m&apos; empoisonner . <CONCAT> j&apos; ai gard\u00e9 des bonbons sous mon oreiller .",
+      "postprocessed_text": "J'ai gard\u00e9 des bonbons sous mon oreiller.",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.553850",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:05:39.403096"
+          ]
+        ]
+      },
+      "reference_translation": "Donc j'ai gard\u00e9 une petite r\u00e9serve de bonbons sous mon oreiller.",
+      "normalised_version": ""
+    },
+    "29": {
+      "language": "english",
+      "original_text": "That way I'll never starve.",
+      "preprocessed_text": "so I &apos;ve kept a little stash of sweets here under my pillow . <CONCAT> that way I &apos;ll never starve .",
+      "translated_text": "j&apos; ai gard\u00e9 des bonbons sous mon oreiller . <CONCAT> comme \u00e7a , je ne mourrai jamais de faim .",
+      "postprocessed_text": "Comme \u00e7a, je ne mourrai jamais de faim.",
+      "composition_time": "2018-05-02T19:04:47.190340",
+      "preprocessing_begin": "2018-05-02T19:04:47.222564",
+      "preprocessing_end": "2018-05-02T19:04:49.268201",
+      "translation_begin": "2018-05-02T19:04:49.268291",
+      "translation_end": "2018-05-02T19:04:58.515978",
+      "postprocessing_begin": "2018-05-02T19:04:58.516238",
+      "postprocessing_end": "2018-05-02T19:04:58.548196",
+      "sent_time": "2018-05-02T19:04:58.555557",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:05:40.983507"
+          ]
+        ]
+      },
+      "reference_translation": "Comme \u00e7a, je ne mourrai jamais de faim.",
+      "normalised_version": ""
+    },
+    "30": {
+      "language": "french",
+      "original_text": "Arr\u00eate de dire des s\u00f4tises, ils ne feraient jamais \u00e7a.",
+      "preprocessed_text": "comme \u00e7a , je ne mourrai jamais de faim . <CONCAT> arr\u00eate de dire des s@@ \u00f4@@ tises , ils ne feraient jamais \u00e7a .",
+      "translated_text": "that way , I &apos;ll never starve . <CONCAT> stop talking nonsense , they would never do that .",
+      "postprocessed_text": "Stop talking nonsense, they would never do that.",
+      "composition_time": "2018-05-02T19:06:26.751587",
+      "preprocessing_begin": "2018-05-02T19:06:26.786871",
+      "preprocessing_end": "2018-05-02T19:06:29.159159",
+      "translation_begin": "2018-05-02T19:06:29.159222",
+      "translation_end": "2018-05-02T19:06:30.853530",
+      "postprocessing_begin": "2018-05-02T19:06:30.853866",
+      "postprocessing_end": "2018-05-02T19:06:30.891885",
+      "sent_time": "2018-05-02T19:06:30.892837",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:06:35.303649"
+          ]
+        ]
+      },
+      "reference_translation": "Stop saying silly things. They\u2019d never do that.",
+      "normalised_version": "Arr\u00eate de dire des sottises, ils ne feraient jamais \u00e7a."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "C'est le printemps, que dirais-tu d'une sortie au parc ?",
+      "preprocessed_text": "arr\u00eate de dire des s@@ \u00f4@@ tises , ils ne feraient jamais \u00e7a . <CONCAT> c&apos; est le printemps , que dirais @-@ tu d&apos; une sortie au parc ?",
+      "translated_text": "stop talking nonsense , they would never do that . <CONCAT> it &apos;s spring , how about a way out in the park ?",
+      "postprocessed_text": "It's spring, how about a way out in the park?",
+      "composition_time": "2018-05-02T19:07:50.731792",
+      "preprocessing_begin": "2018-05-02T19:07:50.765754",
+      "preprocessing_end": "2018-05-02T19:07:53.049225",
+      "translation_begin": "2018-05-02T19:07:53.049308",
+      "translation_end": "2018-05-02T19:07:58.523320",
+      "postprocessing_begin": "2018-05-02T19:07:58.523595",
+      "postprocessing_end": "2018-05-02T19:07:58.555256",
+      "sent_time": "2018-05-02T19:07:58.556088",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T19:09:21.715202",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-02T19:09:22.748791",
+            false
+          ],
+          [
+            "meaning",
+            "2018-05-02T19:09:23.502337",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"way out\"",
+            "2018-05-02T19:09:29.387103",
+            "2018-05-02T19:09:29.387103"
+          ]
+        ],
+        "problems": [
+          "meaning"
+        ],
+        "verbatim": "\"way out\"",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:08:15.589314"
+          ],
+          [
+            "medium",
+            "2018-05-02T19:09:19.457227"
+          ]
+        ]
+      },
+      "reference_translation": "It\u2019s spring. What do you say to a walk in the park?",
+      "normalised_version": ""
+    },
+    "32": {
+      "language": "french",
+      "original_text": "On pourrait organiser \u00e7a pendant un weekend du mois de mai.",
+      "preprocessed_text": "c&apos; est le printemps , que dirais @-@ tu d&apos; une sortie au parc ? <CONCAT> on pourrait organiser \u00e7a pendant un weekend du mois de mai .",
+      "translated_text": "it &apos;s spring , how about a way out in the park ? <CONCAT> we could arrange this for a weekend of May .",
+      "postprocessed_text": "We could arrange this for a weekend of May.",
+      "composition_time": "2018-05-02T19:07:50.731792",
+      "preprocessing_begin": "2018-05-02T19:07:50.765754",
+      "preprocessing_end": "2018-05-02T19:07:53.049225",
+      "translation_begin": "2018-05-02T19:07:53.049308",
+      "translation_end": "2018-05-02T19:07:58.523320",
+      "postprocessing_begin": "2018-05-02T19:07:58.523595",
+      "postprocessing_end": "2018-05-02T19:07:58.555256",
+      "sent_time": "2018-05-02T19:07:58.556475",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T19:08:20.497640",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "this",
+            "2018-05-02T19:08:23.487892",
+            "2018-05-02T19:08:23.487892"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "this",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T19:08:18.586598"
+          ]
+        ]
+      },
+      "reference_translation": "We could organise it for a weekend in May.",
+      "normalised_version": ""
+    },
+    "33": {
+      "language": "french",
+      "original_text": "Je demanderai \u00e0 Marcel, Jeannine et L\u00e9on s'ils veulent venir.",
+      "preprocessed_text": "on pourrait organiser \u00e7a pendant un weekend du mois de mai . <CONCAT> je demanderai \u00e0 Marcel , Jeannine et L\u00e9on s&apos; ils veulent venir .",
+      "translated_text": "we could arrange this for a weekend of May . <CONCAT> I &apos;ll ask Marcel , Jeannine and Leon if they want to come .",
+      "postprocessed_text": "I'll ask Marcel, Jeannine and Leon if they want to come.",
+      "composition_time": "2018-05-02T19:07:50.731792",
+      "preprocessing_begin": "2018-05-02T19:07:50.765754",
+      "preprocessing_end": "2018-05-02T19:07:53.049225",
+      "translation_begin": "2018-05-02T19:07:53.049308",
+      "translation_end": "2018-05-02T19:07:58.523320",
+      "postprocessing_begin": "2018-05-02T19:07:58.523595",
+      "postprocessing_end": "2018-05-02T19:07:58.555256",
+      "sent_time": "2018-05-02T19:07:58.556850",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:08:25.675070"
+          ]
+        ]
+      },
+      "reference_translation": "I\u2019ll ask Marcel, Jeannine and L\u00e9on if they want to come along.",
+      "normalised_version": ""
+    },
+    "34": {
+      "language": "english",
+      "original_text": "I'm not friends with Jeannine anymore.",
+      "preprocessed_text": "I &apos;ll ask Marcel , Jeannine and Leon if they want to come . <CONCAT> I &apos;m not friends with Jeannine anymore .",
+      "translated_text": "je vais demander \u00e0 Marcel , Jeannine et Leon s&apos; ils veulent venir . <CONCAT> je ne suis plus ami avec Jeannine .",
+      "postprocessed_text": "Je ne suis plus ami avec Jeannine.",
+      "composition_time": "2018-05-02T19:09:12.249441",
+      "preprocessing_begin": "2018-05-02T19:09:12.281984",
+      "preprocessing_end": "2018-05-02T19:09:14.540745",
+      "translation_begin": "2018-05-02T19:09:14.540861",
+      "translation_end": "2018-05-02T19:09:19.414490",
+      "postprocessing_begin": "2018-05-02T19:09:19.414890",
+      "postprocessing_end": "2018-05-02T19:09:19.444161",
+      "sent_time": "2018-05-02T19:09:19.445600",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:09:38.928984"
+          ]
+        ]
+      },
+      "reference_translation": "Jeannine et moi ne sommes plus amies.",
+      "normalised_version": ""
+    },
+    "35": {
+      "language": "english",
+      "original_text": "She keeps stealing my crossword.",
+      "preprocessed_text": "I &apos;m not friends with Jeannine anymore . <CONCAT> she keeps stealing my crossword .",
+      "translated_text": "je ne suis plus amie avec Jeannine . <CONCAT> elle vole mes mots crois\u00e9s .",
+      "postprocessed_text": "Elle vole mes mots crois\u00e9s.",
+      "composition_time": "2018-05-02T19:09:12.249441",
+      "preprocessing_begin": "2018-05-02T19:09:12.281984",
+      "preprocessing_end": "2018-05-02T19:09:14.540745",
+      "translation_begin": "2018-05-02T19:09:14.540861",
+      "translation_end": "2018-05-02T19:09:19.414490",
+      "postprocessing_begin": "2018-05-02T19:09:19.414890",
+      "postprocessing_end": "2018-05-02T19:09:19.444161",
+      "sent_time": "2018-05-02T19:09:19.446602",
+      "eval": {
+        "judgment": "perfect",
+        "problem_history": [],
+        "verbatim_history": [],
+        "problems": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-02T19:09:39.426291"
+          ]
+        ]
+      },
+      "reference_translation": "Elle n'arr\u00eate pas de voler mes mots crois\u00e9s.",
+      "normalised_version": ""
+    },
+    "36": {
+      "language": "english",
+      "original_text": "And I'm sure she snogged Leon behind the medicine cupboard last Thursday.",
+      "preprocessed_text": "she keeps stealing my crossword . <CONCAT> and I &apos;m sure she sno@@ gged Leon behind the medicine cupboard last Thursday .",
+      "translated_text": "elle vole mes mots crois\u00e9s . <CONCAT> et je suis s\u00fbr qu&apos; elle a balanc\u00e9 Leon derri\u00e8re le placard de m\u00e9decine jeudi dernier .",
+      "postprocessed_text": "Et je suis s\u00fbr qu'elle a balanc\u00e9 Leon derri\u00e8re le placard de m\u00e9decine jeudi dernier.",
+      "composition_time": "2018-05-02T19:09:12.249441",
+      "preprocessing_begin": "2018-05-02T19:09:12.281984",
+      "preprocessing_end": "2018-05-02T19:09:14.540745",
+      "translation_begin": "2018-05-02T19:09:14.540861",
+      "translation_end": "2018-05-02T19:09:19.414490",
+      "postprocessing_begin": "2018-05-02T19:09:19.414890",
+      "postprocessing_end": "2018-05-02T19:09:19.444161",
+      "sent_time": "2018-05-02T19:09:19.447602",
+      "eval": {
+        "judgment": "poor",
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-02T19:09:53.173179",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-02T19:10:02.618363",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "problems": [
+          "meaning",
+          "coherence"
+        ],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T19:09:51.550724"
+          ],
+          [
+            "poor",
+            "2018-05-02T19:10:08.374623"
+          ]
+        ]
+      },
+      "reference_translation": "Et je suis s\u00fbre qu'elle a roul\u00e9 un patin \u00e0 Leon derri\u00e8re le placard \u00e0 m\u00e9dicaments jeudi dernier.",
+      "normalised_version": "And I'm sure she snogged L\u00e9on behind the medicine cupboard last Thursday."
+    },
+    "37": {
+      "language": "french",
+      "original_text": "Dommage, on fera sans eux !",
+      "preprocessed_text": "et je suis s\u00fbr qu&apos; elle a balanc\u00e9 Leon derri\u00e8re le placard de m\u00e9decine jeudi dernier . <CONCAT> dommage , on fera sans eux !",
+      "translated_text": "and I &apos;m sure she dumped Leon behind the medicine cabinet last Thursday . <CONCAT> too bad , we &apos;ll do it without them !",
+      "postprocessed_text": "Too bad, we'll do it without them!",
+      "composition_time": "2018-05-02T19:10:28.583552",
+      "preprocessing_begin": "2018-05-02T19:10:28.615489",
+      "preprocessing_end": "2018-05-02T19:10:30.748017",
+      "translation_begin": "2018-05-02T19:10:30.748114",
+      "translation_end": "2018-05-02T19:10:32.719152",
+      "postprocessing_begin": "2018-05-02T19:10:32.719550",
+      "postprocessing_end": "2018-05-02T19:10:32.749108",
+      "sent_time": "2018-05-02T19:10:32.750372",
+      "eval": {
+        "judgment": "medium",
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-02T19:10:47.402252",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "\"do it\" is a bit too generic",
+            "2018-05-02T19:10:56.355397",
+            "2018-05-02T19:10:56.355397"
+          ]
+        ],
+        "problems": [
+          "word choice"
+        ],
+        "verbatim": "\"do it\" is a bit too generic",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-02T19:10:46.447835"
+          ]
+        ]
+      },
+      "reference_translation": "That\u2019s a shame - we\u2019ll go without them then!",
+      "normalised_version": ""
+    }
+  },
+  "final_evaluation_user1": {
+    "would_use": true,
+    "particular_problems": "certains mots ont \u00e9t\u00e9 mal traduits.",
+    "grammaticality": "excellent",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "verbatim_quality": "dialogue de bonne qualit\u00e9. j'ai mal interpr\u00e9t\u00e9 la situation au d\u00e9but, ce qui a d\u00fb amener quelques difficult\u00e9s de compr\u00e9hension chez mon interlocuteur.",
+    "timestamp": "2018-05-02T19:13:29.993366",
+    "meaning": "good",
+    "interface": "ras !",
+    "coherence": "excellent",
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "would_use": true,
+    "particular_problems": "some sentences were not very natural in terms of syntax and use of tenses",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "excellent",
+    "verbatim_quality": "the dialogue was very understandable.",
+    "timestamp": "2018-05-02T19:12:52.215344",
+    "meaning": "good",
+    "interface": "",
+    "coherence": "excellent",
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}

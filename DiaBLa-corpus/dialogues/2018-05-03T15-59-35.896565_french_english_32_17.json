@@ -1,0 +1,1698 @@
+{
+  "start_time": "2018-05-03T15:59:35.896565",
+  "end_time": null,
+  "scenario": [
+    [
+      "You are both organising a party.",
+      "Vous organisez une f\u00eate."
+    ],
+    [
+      "It's your party.",
+      "C'est votre anniversaire"
+    ],
+    [
+      "It's their party.",
+      "C'est l'anniversaire de la personne avec qui vous discutez."
+    ]
+  ],
+  "user1": {
+    "turn_number": 2,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "role_num": 1,
+    "role": [
+      "It's your party.",
+      "C'est votre anniversaire"
+    ],
+    "lang": "french",
+    "eval-stage": true,
+    "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+  },
+  "user2": {
+    "turn_number": 1,
+    "initiated_dialogue": [
+      false,
+      true
+    ],
+    "useragent": "Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Mobile/14G60 Safari/602.1",
+    "role": [
+      "It's their party.",
+      "C'est l'anniversaire de la personne avec qui vous discutez."
+    ],
+    "lang": "english",
+    "eval-stage": true,
+    "rolenum": 2
+  },
+  "translation_model": "2to2",
+  "utterances": {
+    "0": {
+      "language": "english",
+      "original_text": "Have I got the right date?",
+      "preprocessed_text": "<BEGIN>  <CONCAT> have I got the right date ?",
+      "translated_text": "traduction : <CONCAT> ai @-@ je le bon rendez @-@ vous ?",
+      "postprocessed_text": "Ai-je le bon rendez-vous ?",
+      "composition_time": "2018-05-03T16:00:18.227199",
+      "preprocessing_begin": "2018-05-03T16:00:18.279834",
+      "preprocessing_end": "2018-05-03T16:00:20.424658",
+      "translation_begin": "2018-05-03T16:00:20.424817",
+      "translation_end": "2018-05-03T16:00:23.143719",
+      "postprocessing_begin": "2018-05-03T16:00:23.143934",
+      "postprocessing_end": "2018-05-03T16:00:23.173823",
+      "sent_time": "2018-05-03T16:00:23.174894",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:00:49.721363",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "style ampoul\u00e9, plus vraiment utilis\u00e9 depuis le milieu de XXeme si\u00e8cle, il faut plut\u00f4t dire, le bon rdv est-il le 11 juin",
+            "2018-05-03T16:02:47.893695",
+            "2018-05-03T16:02:47.893695"
+          ]
+        ],
+        "verbatim": "style ampoul\u00e9, plus vraiment utilis\u00e9 depuis le milieu de XXeme si\u00e8cle, il faut plut\u00f4t dire, le bon rdv est-il le 11 juin",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T16:00:39.685441"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Est-ce que j'ai la bonne date\u00a0?",
+      "normalised_version": ""
+    },
+    "1": {
+      "language": "english",
+      "original_text": "Saturday 11 June?",
+      "preprocessed_text": "have I got the right date ? <CONCAT> Saturday 11 June ?",
+      "translated_text": "j&apos; ai la bonne date ? <CONCAT> samedi 11 juin ?",
+      "postprocessed_text": "Samedi 11 juin ?",
+      "composition_time": "2018-05-03T16:00:18.227199",
+      "preprocessing_begin": "2018-05-03T16:00:18.279834",
+      "preprocessing_end": "2018-05-03T16:00:20.424658",
+      "translation_begin": "2018-05-03T16:00:20.424817",
+      "translation_end": "2018-05-03T16:00:23.143719",
+      "postprocessing_begin": "2018-05-03T16:00:23.143934",
+      "postprocessing_end": "2018-05-03T16:00:23.173823",
+      "sent_time": "2018-05-03T16:00:23.175369",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:02:47.884983"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Samedi 11 juin\u00a0?",
+      "normalised_version": ""
+    },
+    "2": {
+      "language": "english",
+      "original_text": "Is that right?",
+      "preprocessed_text": "Saturday 11 June ? <CONCAT> is that right ?",
+      "translated_text": "samedi 11 juin ? <CONCAT> c&apos; est vrai ?",
+      "postprocessed_text": "C'est vrai ?",
+      "composition_time": "2018-05-03T16:00:18.227199",
+      "preprocessing_begin": "2018-05-03T16:00:18.279834",
+      "preprocessing_end": "2018-05-03T16:00:20.424658",
+      "translation_begin": "2018-05-03T16:00:20.424817",
+      "translation_end": "2018-05-03T16:00:23.143719",
+      "postprocessing_begin": "2018-05-03T16:00:23.143934",
+      "postprocessing_end": "2018-05-03T16:00:23.173823",
+      "sent_time": "2018-05-03T16:00:23.175812",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T16:03:03.371986",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "les fran\u00e7ais ne diraient jamais \u00e7a, ils diraient plut\u00f4t  'tu confirme'",
+            "2018-05-03T16:04:39.376795",
+            "2018-05-03T16:04:39.376795"
+          ]
+        ],
+        "verbatim": "les fran\u00e7ais ne diraient jamais \u00e7a, ils diraient plut\u00f4t  'tu confirme'",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:02:55.066908"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "C'est bien \u00e7a\u00a0?",
+      "normalised_version": ""
+    },
+    "3": {
+      "language": "english",
+      "original_text": "It is going to be a lot of fun",
+      "preprocessed_text": "is that right ? <CONCAT> it is going to be a lot of fun",
+      "translated_text": "c&apos; est vrai ? <CONCAT> \u00e7a va \u00eatre marrant .",
+      "postprocessed_text": "\u00c7a va \u00eatre marrant.",
+      "composition_time": "2018-05-03T16:04:00.602926",
+      "preprocessing_begin": "2018-05-03T16:04:00.636998",
+      "preprocessing_end": "2018-05-03T16:04:03.038884",
+      "translation_begin": "2018-05-03T16:04:03.038952",
+      "translation_end": "2018-05-03T16:04:04.098073",
+      "postprocessing_begin": "2018-05-03T16:04:04.098279",
+      "postprocessing_end": "2018-05-03T16:04:04.143106",
+      "sent_time": "2018-05-03T16:04:04.144068",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:04:42.637732"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "On va bien s'amuser.",
+      "normalised_version": ""
+    },
+    "4": {
+      "language": "french",
+      "original_text": "oui, tu as le bon RDV, je te le confirme.",
+      "preprocessed_text": "\u00e7a va \u00eatre marrant . <CONCAT> oui , tu as le bon RDV , je te le confirme .",
+      "translated_text": "this is gonna be fun . <CONCAT> yeah , you have the right date , I &apos;ll confirm it .",
+      "postprocessed_text": "Yeah, you have the right date, I'll confirm it.",
+      "composition_time": "2018-05-03T16:05:42.871008",
+      "preprocessing_begin": "2018-05-03T16:05:42.906531",
+      "preprocessing_end": "2018-05-03T16:05:45.071806",
+      "translation_begin": "2018-05-03T16:05:45.071889",
+      "translation_end": "2018-05-03T16:05:48.249119",
+      "postprocessing_begin": "2018-05-03T16:05:48.249334",
+      "postprocessing_end": "2018-05-03T16:05:48.278824",
+      "sent_time": "2018-05-03T16:05:48.279728",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:06:10.030494"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Yes, you have the right meeting, that\u2019s correct.",
+      "normalised_version": "Oui, tu as le bon RDV, je te le confirme."
+    },
+    "5": {
+      "language": "french",
+      "original_text": "peux tu apporter une ou 2 bouteilles de champagne?",
+      "preprocessed_text": "oui , tu as le bon RDV , je te le confirme . <CONCAT> peux tu apporter une ou 2 bouteilles de champagne ?",
+      "translated_text": "yeah , you have the right date , I can confirm that . <CONCAT> can you bring a couple of bottles of champagne ?",
+      "postprocessed_text": "Can you bring a couple of bottles of champagne?",
+      "composition_time": "2018-05-03T16:05:42.871008",
+      "preprocessing_begin": "2018-05-03T16:05:42.906531",
+      "preprocessing_end": "2018-05-03T16:05:45.071806",
+      "translation_begin": "2018-05-03T16:05:45.071889",
+      "translation_end": "2018-05-03T16:05:48.249119",
+      "postprocessing_begin": "2018-05-03T16:05:48.249334",
+      "postprocessing_end": "2018-05-03T16:05:48.278824",
+      "sent_time": "2018-05-03T16:05:48.280117",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:07:37.707213"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Can you bring one or two bottles of champagne?",
+      "normalised_version": "Peux-tu apporter une ou deux bouteilles de champagne?"
+    },
+    "6": {
+      "language": "english",
+      "original_text": "I think it is probably better if you ask friends to bring a bottle",
+      "preprocessed_text": "can you bring a couple of bottles of champagne ? <CONCAT> I think it is probably better if you ask friends to bring a bottle",
+      "translated_text": "pouvez @-@ vous apporter quelques bouteilles de champagne ? <CONCAT> je pense que c&apos; est mieux si vous demandez \u00e0 des amis d&apos; apporter une bouteille .",
+      "postprocessed_text": "Je pense que c'est mieux si vous demandez \u00e0 des amis d'apporter une bouteille.",
+      "composition_time": "2018-05-03T16:06:40.099143",
+      "preprocessing_begin": "2018-05-03T16:06:40.133200",
+      "preprocessing_end": "2018-05-03T16:06:42.271539",
+      "translation_begin": "2018-05-03T16:06:42.271668",
+      "translation_end": "2018-05-03T16:06:44.488986",
+      "postprocessing_begin": "2018-05-03T16:06:44.489212",
+      "postprocessing_end": "2018-05-03T16:06:44.523660",
+      "sent_time": "2018-05-03T16:06:44.524589",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:07:31.349431",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "je pratique le tutoiement, le vouvoiement n'est pas appropri\u00e9 entre amis",
+            "2018-05-03T16:08:28.508099",
+            "2018-05-03T16:08:28.508099"
+          ]
+        ],
+        "verbatim": "je pratique le tutoiement, le vouvoiement n'est pas appropri\u00e9 entre amis",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T16:07:28.415948"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Je pense que ce serait mieux que tu demandes \u00e0 des amis d'apporter une bouteille.",
+      "normalised_version": "I think it is probably better if you ask friends to bring a bottle."
+    },
+    "7": {
+      "language": "english",
+      "original_text": "As I am your good friend I can tell you directly I don't think it is a good idea to ask for expensive champagne",
+      "preprocessed_text": "I think it is probably better if you ask friends to bring a bottle <CONCAT> as I am your good friend I can tell you directly I don &apos;t think it is a good idea to ask for expensive champagne",
+      "translated_text": "je pense que c&apos; est mieux si vous demandez \u00e0 des amis d&apos; apporter une bouteille . <CONCAT> comme je suis votre bon ami , je peux vous dire directement que je ne pense pas que ce soit une bonne id\u00e9e de demander du champagne hors de prix .",
+      "postprocessed_text": "Comme je suis votre bon ami, je peux vous dire directement que je ne pense pas que ce soit une bonne id\u00e9e de demander du champagne hors de prix.",
+      "composition_time": "2018-05-03T16:07:20.584006",
+      "preprocessing_begin": "2018-05-03T16:07:20.619332",
+      "preprocessing_end": "2018-05-03T16:07:22.728461",
+      "translation_begin": "2018-05-03T16:07:22.728532",
+      "translation_end": "2018-05-03T16:07:26.982497",
+      "postprocessing_begin": "2018-05-03T16:07:26.982692",
+      "postprocessing_end": "2018-05-03T16:07:27.023876",
+      "sent_time": "2018-05-03T16:07:27.024882",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "bon ami n'est pas correcte, nous disons juste je suis votre ami",
+            "2018-05-03T16:09:17.249959",
+            "2018-05-03T16:09:17.249959"
+          ]
+        ],
+        "verbatim": "bon ami n'est pas correcte, nous disons juste je suis votre ami",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:08:40.333038"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": []
+      },
+      "reference_translation": "Comme je suis  un vrai ami je peux te dire en face qu'\u00e0 mon avis ce n'est pas une bonne id\u00e9e de demander du champagne hors de prix.",
+      "normalised_version": "As I am your good friend I can tell you directly I don't think it is a good idea to ask for expensive champagne."
+    },
+    "8": {
+      "language": "english",
+      "original_text": "You may make people feel uneasy",
+      "preprocessed_text": "as I am your good friend I can tell you directly I don &apos;t think it is a good idea to ask for expensive champagne <CONCAT> you may make people feel uneasy",
+      "translated_text": "puisque je suis ton bon ami , je peux te dire directement que je ne pense pas que ce soit une bonne id\u00e9e de demander du champagne hors de prix . <CONCAT> tu peux rendre les gens mal \u00e0 l&apos; aise .",
+      "postprocessed_text": "Tu peux rendre les gens mal \u00e0 l'aise.",
+      "composition_time": "2018-05-03T16:07:30.487485",
+      "preprocessing_begin": "2018-05-03T16:07:30.523413",
+      "preprocessing_end": "2018-05-03T16:07:32.733166",
+      "translation_begin": "2018-05-03T16:07:32.733226",
+      "translation_end": "2018-05-03T16:07:35.794580",
+      "postprocessing_begin": "2018-05-03T16:07:35.794775",
+      "postprocessing_end": "2018-05-03T16:07:35.830467",
+      "sent_time": "2018-05-03T16:07:35.831344",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:09:21.999865"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu pourrais mettre les gens mal \u00e0 l'aise.",
+      "normalised_version": "You may make people feel uneasy."
+    },
+    "9": {
+      "language": "english",
+      "original_text": "I can help you with lots of the other organising",
+      "preprocessed_text": "you may make people feel uneasy <CONCAT> I can help you with lots of the other organising",
+      "translated_text": "tu peux rendre les gens mal \u00e0 l&apos; aise <CONCAT> je peux t&apos; aider avec beaucoup de l&apos; autre organisation",
+      "postprocessed_text": "Je peux t'aider avec beaucoup de l'autre organisation",
+      "composition_time": "2018-05-03T16:08:15.265907",
+      "preprocessing_begin": "2018-05-03T16:08:15.303419",
+      "preprocessing_end": "2018-05-03T16:08:17.853558",
+      "translation_begin": "2018-05-03T16:08:17.853616",
+      "translation_end": "2018-05-03T16:08:19.537208",
+      "postprocessing_begin": "2018-05-03T16:08:19.537463",
+      "postprocessing_end": "2018-05-03T16:08:19.575065",
+      "sent_time": "2018-05-03T16:08:19.576002",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T16:10:20.732241",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "pourquoi de l'autre organisation, ce n'est pas comprehensible pour un fran\u00e7ais",
+            "2018-05-03T16:10:25.062863",
+            "2018-05-03T16:10:25.062863"
+          ]
+        ],
+        "verbatim": "pourquoi de l'autre organisation, ce n'est pas comprehensible pour un fran\u00e7ais",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:09:25.253183"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je peux t'aider \u00e0 organiser plein d'autres choses.",
+      "normalised_version": "I can help you with lots of the other organising."
+    },
+    "10": {
+      "language": "english",
+      "original_text": "Decorations, food, music and anything else",
+      "preprocessed_text": "I can help you with lots of the other organising <CONCAT> decorations , food , music and anything else",
+      "translated_text": "je peux vous aider avec beaucoup de l&apos; autre organisation . <CONCAT> des d\u00e9corations , de la nourriture , de la musique et tout le reste .",
+      "postprocessed_text": "Des d\u00e9corations, de la nourriture, de la musique et tout le reste.",
+      "composition_time": "2018-05-03T16:08:36.647717",
+      "preprocessing_begin": "2018-05-03T16:08:36.681438",
+      "preprocessing_end": "2018-05-03T16:08:38.732326",
+      "translation_begin": "2018-05-03T16:08:38.732396",
+      "translation_end": "2018-05-03T16:08:40.443495",
+      "postprocessing_begin": "2018-05-03T16:08:40.443718",
+      "postprocessing_end": "2018-05-03T16:08:40.482718",
+      "sent_time": "2018-05-03T16:08:40.483601",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:10:34.217770"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "D\u00e9corations, nourriture, musique, et tout le reste.",
+      "normalised_version": "Decorations, food, music and anything else."
+    },
+    "11": {
+      "language": "french",
+      "original_text": "tu as raison, am\u00e8nes plut\u00f4t du champomy!",
+      "preprocessed_text": "des d\u00e9corations , de la nourriture , de la musique et tout le reste . <CONCAT> tu as raison , am\u00e8nes plut\u00f4t du cham@@ po@@ my !",
+      "translated_text": "decorations , food , music , everything . <CONCAT> you &apos;re right .",
+      "postprocessed_text": "You're right.",
+      "composition_time": "2018-05-03T16:11:13.230332",
+      "preprocessing_begin": "2018-05-03T16:11:13.265867",
+      "preprocessing_end": "2018-05-03T16:11:15.547237",
+      "translation_begin": "2018-05-03T16:11:15.547354",
+      "translation_end": "2018-05-03T16:11:17.256595",
+      "postprocessing_begin": "2018-05-03T16:11:17.256789",
+      "postprocessing_end": "2018-05-03T16:11:17.288126",
+      "sent_time": "2018-05-03T16:11:17.289148",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:11:22.997998"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "You\u2019re right, bring some champomy instead!",
+      "normalised_version": "Tu as raison, am\u00e8nes plut\u00f4t du champomy!"
+    },
+    "12": {
+      "language": "french",
+      "original_text": "prends des ingr\u00e9dients bon march\u00e9, ce n'est que mom anniversaire, pas la r\u00e9ception d'un amabssadeur",
+      "preprocessed_text": "tu as raison , am\u00e8nes plut\u00f4t du cham@@ po@@ my ! <CONCAT> prends des ingr\u00e9dients bon march\u00e9 , ce n&apos; est que mo@@ m anniversaire , pas la r\u00e9ception d&apos; un am@@ ab@@ ss@@ ad@@ eur",
+      "translated_text": "you &apos;re right . <CONCAT> take cheap ingredients , it &apos;s only a birthday , not the reception of an amp .",
+      "postprocessed_text": "Take cheap ingredients, it's only a birthday, not the reception of an amp.",
+      "composition_time": "2018-05-03T16:12:48.799210",
+      "preprocessing_begin": "2018-05-03T16:12:48.835203",
+      "preprocessing_end": "2018-05-03T16:12:51.012217",
+      "translation_begin": "2018-05-03T16:12:51.012313",
+      "translation_end": "2018-05-03T16:12:52.886823",
+      "postprocessing_begin": "2018-05-03T16:12:52.887026",
+      "postprocessing_end": "2018-05-03T16:12:52.921285",
+      "sent_time": "2018-05-03T16:12:52.922401",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T16:17:40.536228",
+            true
+          ],
+          [
+            "style",
+            "2018-05-03T16:17:46.411704",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:13:07.515877"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "grammar",
+          "style"
+        ]
+      },
+      "reference_translation": "Bring cheap ingredients. It\u2019s only my birthday, not an ambssador\u2019s reception.",
+      "normalised_version": "Prends des ingr\u00e9dients bon march\u00e9, ce n'est que mon anniversaire, pas la r\u00e9ception d'un ambassadeur."
+    },
+    "13": {
+      "language": "english",
+      "original_text": "Your birthday is important but I agree you don't have to spend a lot to make a great party",
+      "preprocessed_text": "take cheap ingredients , it &apos;s only a birthday , not the reception of an amp . <CONCAT> your birthday is important but I agree you don &apos;t have to spend a lot to make a great party",
+      "translated_text": "prenez les ingr\u00e9dients bon march\u00e9 , c&apos; est seulement un anniversaire , pas la r\u00e9ception d&apos; une ampoule . <CONCAT> votre anniversaire est important mais je suis d&apos; accord que vous n&apos; avez pas \u00e0 d\u00e9penser beaucoup pour faire une grande f\u00eate",
+      "postprocessed_text": "Votre anniversaire est important mais je suis d'accord que vous n'avez pas \u00e0 d\u00e9penser beaucoup pour faire une grande f\u00eate",
+      "composition_time": "2018-05-03T16:13:40.962889",
+      "preprocessing_begin": "2018-05-03T16:13:40.995138",
+      "preprocessing_end": "2018-05-03T16:13:43.021938",
+      "translation_begin": "2018-05-03T16:13:43.022015",
+      "translation_end": "2018-05-03T16:13:46.281911",
+      "postprocessing_begin": "2018-05-03T16:13:46.282119",
+      "postprocessing_end": "2018-05-03T16:13:46.312154",
+      "sent_time": "2018-05-03T16:13:46.313056",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:14:10.633928"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Ton anniversaire est important mais je suis d'accord que tu n'as pas besoin de d\u00e9penser beaucoup pour faire une super f\u00eate.",
+      "normalised_version": "Your birthday is important but I agree you don't have to spend a lot to make a great party."
+    },
+    "14": {
+      "language": "french",
+      "original_text": "pardon, je veux dire ambassadeur",
+      "preprocessed_text": "votre anniversaire est important mais je suis d&apos; accord que vous n&apos; avez pas \u00e0 d\u00e9penser beaucoup pour faire une grande f\u00eate <CONCAT> pardon , je veux dire ambassadeur",
+      "translated_text": "your birthday is important , but I agree you don &apos;t have to spend a lot to have a big party . <CONCAT> sorry , I mean Ambassador .",
+      "postprocessed_text": "Sorry, I mean Ambassador.",
+      "composition_time": "2018-05-03T16:13:51.116708",
+      "preprocessing_begin": "2018-05-03T16:13:51.163689",
+      "preprocessing_end": "2018-05-03T16:13:53.367189",
+      "translation_begin": "2018-05-03T16:13:53.367252",
+      "translation_end": "2018-05-03T16:13:56.113110",
+      "postprocessing_begin": "2018-05-03T16:13:56.113311",
+      "postprocessing_end": "2018-05-03T16:13:56.146228",
+      "sent_time": "2018-05-03T16:13:56.147948",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:14:14.112501"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Sorry, I mean ambassador",
+      "normalised_version": "Pardon, je veux dire ambassadeur."
+    },
+    "15": {
+      "language": "english",
+      "original_text": "What sort of music were you thinking of?",
+      "preprocessed_text": "sorry , I mean Ambassador . <CONCAT> what sort of music were you thinking of ?",
+      "translated_text": "d\u00e9sol\u00e9 , je veux dire l&apos; ambassadeur . <CONCAT> quel genre de musique pensiez @-@ vous ?",
+      "postprocessed_text": "Quel genre de musique pensiez-vous ?",
+      "composition_time": "2018-05-03T16:14:37.672887",
+      "preprocessing_begin": "2018-05-03T16:14:37.722177",
+      "preprocessing_end": "2018-05-03T16:14:39.889235",
+      "translation_begin": "2018-05-03T16:14:39.889379",
+      "translation_end": "2018-05-03T16:14:41.202849",
+      "postprocessing_begin": "2018-05-03T16:14:41.203068",
+      "postprocessing_end": "2018-05-03T16:14:41.232678",
+      "sent_time": "2018-05-03T16:14:41.233611",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T16:14:51.121985",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "il faut dire   \u00e0 quelle genre de musique penses-tu? conserver le tutoiement et dure soit  \u00e0 quelle genre de musique penses-tu ou quel est le genre de musique auquel tu penses?",
+            "2018-05-03T16:16:51.768804",
+            "2018-05-03T16:16:51.768804"
+          ]
+        ],
+        "verbatim": "il faut dire   \u00e0 quelle genre de musique penses-tu? conserver le tutoiement et dure soit  \u00e0 quelle genre de musique penses-tu ou quel est le genre de musique auquel tu penses?",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:14:45.488027"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Tu pensais \u00e0 quelle sorte de musique\u00a0?",
+      "normalised_version": ""
+    },
+    "16": {
+      "language": "english",
+      "original_text": "Do you have anything to play it on that would be loud enough?",
+      "preprocessed_text": "what sort of music were you thinking of ? <CONCAT> do you have anything to play it on that would be loud enough ?",
+      "translated_text": "\u00e0 quel genre de musique pensiez @-@ vous ? <CONCAT> avez @-@ vous quelque chose pour le jouer ?",
+      "postprocessed_text": "Avez-vous quelque chose pour le jouer ?",
+      "composition_time": "2018-05-03T16:15:06.624797",
+      "preprocessing_begin": "2018-05-03T16:15:06.662779",
+      "preprocessing_end": "2018-05-03T16:15:08.930899",
+      "translation_begin": "2018-05-03T16:15:08.930967",
+      "translation_end": "2018-05-03T16:15:10.770843",
+      "postprocessing_begin": "2018-05-03T16:15:10.771050",
+      "postprocessing_end": "2018-05-03T16:15:10.803356",
+      "sent_time": "2018-05-03T16:15:10.804270",
+      "eval": {
+        "problem_history": [
+          [
+            "meaning",
+            "2018-05-03T16:17:02.120710",
+            true
+          ],
+          [
+            "style",
+            "2018-05-03T16:17:02.724719",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-03T16:17:03.823629",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-03T16:17:05.098708",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "soit on demande si il y a des instruments de musiaque avec lesquels nous pourrons jouer, soit si il y aura une chaine hifi pour mettre des diques ou brancher une source de musique",
+            "2018-05-03T16:18:48.463482",
+            "2018-05-03T16:18:48.463482"
+          ]
+        ],
+        "verbatim": "soit on demande si il y a des instruments de musiaque avec lesquels nous pourrons jouer, soit si il y aura une chaine hifi pour mettre des diques ou brancher une source de musique",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:16:54.285492"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "meaning",
+          "style",
+          "word choice",
+          "coherence"
+        ]
+      },
+      "reference_translation": "Est-ce que tu as quelque chose qui serait suffisamment fort\u00a0?",
+      "normalised_version": ""
+    },
+    "17": {
+      "language": "english",
+      "original_text": "Or do you have any friends who could play instruments?",
+      "preprocessed_text": "do you have anything to play it on that would be loud enough ? <CONCAT> or do you have any friends who could play instruments ?",
+      "translated_text": "avez @-@ vous quelque chose pour le jouer ? <CONCAT> ou avez @-@ vous des amis qui pourraient jouer des instruments ?",
+      "postprocessed_text": "Ou avez-vous des amis qui pourraient jouer des instruments ?",
+      "composition_time": "2018-05-03T16:15:35.020398",
+      "preprocessing_begin": "2018-05-03T16:15:35.054677",
+      "preprocessing_end": "2018-05-03T16:15:37.187365",
+      "translation_begin": "2018-05-03T16:15:37.187429",
+      "translation_end": "2018-05-03T16:15:39.549613",
+      "postprocessing_begin": "2018-05-03T16:15:39.549813",
+      "postprocessing_end": "2018-05-03T16:15:39.580594",
+      "sent_time": "2018-05-03T16:15:39.581619",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:18:58.546557",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "il vaut mieux dire, avez vous des amis qui savent jouer de la musique, ou qui savent jouer d'un instrument",
+            "2018-05-03T16:19:48.316768",
+            "2018-05-03T16:19:48.316768"
+          ]
+        ],
+        "verbatim": "il vaut mieux dire, avez vous des amis qui savent jouer de la musique, ou qui savent jouer d'un instrument",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T16:18:54.769408"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "Ou est-ce que tu as des amis qui pourraient jouer de leurs instruments\u00a0?",
+      "normalised_version": ""
+    },
+    "18": {
+      "language": "english",
+      "original_text": "I have a few friends who play folk type instruments; bagpipes, hurdy gurdy, clarinet and the violin",
+      "preprocessed_text": "or do you have any friends who could play instruments ? <CONCAT> I have a few friends who play folk type instruments ; bag@@ pipes , hur@@ dy gur@@ dy , clarinet and the violin",
+      "translated_text": "ou avez @-@ vous des amis qui pourraient jouer des instruments ? <CONCAT> j&apos; ai quelques amis qui jouent des instruments de type , de la cornemuse , de la clarinette , de la clarinette et du violon .",
+      "postprocessed_text": "J'ai quelques amis qui jouent des instruments de type, de la cornemuse, de la clarinette, de la clarinette et du violon.",
+      "composition_time": "2018-05-03T16:16:24.446283",
+      "preprocessing_begin": "2018-05-03T16:16:24.493303",
+      "preprocessing_end": "2018-05-03T16:16:26.508755",
+      "translation_begin": "2018-05-03T16:16:26.508837",
+      "translation_end": "2018-05-03T16:16:29.325914",
+      "postprocessing_begin": "2018-05-03T16:16:29.326149",
+      "postprocessing_end": "2018-05-03T16:16:29.355301",
+      "sent_time": "2018-05-03T16:16:29.356186",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:20:06.712034",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            ">>> qui jouent des instruments du type cornemuse, clarinette, violon",
+            "2018-05-03T16:21:03.161932",
+            "2018-05-03T16:21:03.161932"
+          ]
+        ],
+        "verbatim": ">>> qui jouent des instruments du type cornemuse, clarinette, violon",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T16:20:00.939107"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "J'ai quelques amis qui jouent des instruments traditionnels\u00a0: cornemuses, vielle \u00e0 roue, clarinette et violon.",
+      "normalised_version": "I have a few friends who play folk type instruments; bagpipes, hurdy gurdy, clarinet and the violin."
+    },
+    "19": {
+      "language": "english",
+      "original_text": "Maybe you would like that before rock music",
+      "preprocessed_text": "I have a few friends who play folk type instruments ; bag@@ pipes , hur@@ dy gur@@ dy , clarinet and the violin <CONCAT> maybe you would like that before rock music",
+      "translated_text": "j&apos; ai quelques amis qui jouent des instruments de type , de la cornemuse , de la clarinette , de la clarinette et du violon . <CONCAT> peut @-@ \u00eatre que tu aimerais \u00e7a avant la musique de rock .",
+      "postprocessed_text": "Peut-\u00eatre que tu aimerais \u00e7a avant la musique de rock.",
+      "composition_time": "2018-05-03T16:16:43.560616",
+      "preprocessing_begin": "2018-05-03T16:16:43.597152",
+      "preprocessing_end": "2018-05-03T16:16:45.716927",
+      "translation_begin": "2018-05-03T16:16:45.716998",
+      "translation_end": "2018-05-03T16:16:48.589038",
+      "postprocessing_begin": "2018-05-03T16:16:48.589262",
+      "postprocessing_end": "2018-05-03T16:16:48.627324",
+      "sent_time": "2018-05-03T16:16:48.628373",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:21:07.013927"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu aimerais peut-\u00eatre \u00e7a avant de passer du rock.",
+      "normalised_version": "Maybe you would like that before rock music."
+    },
+    "20": {
+      "language": "french",
+      "original_text": "le premier qui arrive avec une cornemuse sera directement renvoy\u00e9 en Ecosse.",
+      "preprocessed_text": "peut @-@ \u00eatre que tu aimerais \u00e7a avant la musique de rock . <CONCAT> le premier qui arrive avec une cornemuse sera directement renvoy\u00e9 en Ecosse .",
+      "translated_text": "maybe you &apos;d like that before the rock music . <CONCAT> the first one to come with a bag@@ pipe will be sent directly back to Scotland .",
+      "postprocessed_text": "The first one to come with a bagpipe will be sent directly back to Scotland.",
+      "composition_time": "2018-05-03T16:22:48.889229",
+      "preprocessing_begin": "2018-05-03T16:22:48.930779",
+      "preprocessing_end": "2018-05-03T16:22:51.192481",
+      "translation_begin": "2018-05-03T16:22:51.192600",
+      "translation_end": "2018-05-03T16:22:56.776251",
+      "postprocessing_begin": "2018-05-03T16:22:56.776483",
+      "postprocessing_end": "2018-05-03T16:22:56.808292",
+      "sent_time": "2018-05-03T16:22:56.809298",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T16:27:35.448196",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:23:18.040475"
+          ],
+          [
+            "medium",
+            "2018-05-03T16:23:21.740537"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "The first person who comes with bagpipes will be sent directly back to Scotland.",
+      "normalised_version": "Le premier qui arrive avec une cornemuse sera directement renvoy\u00e9 en Ecosse."
+    },
+    "21": {
+      "language": "french",
+      "original_text": "c'est mon anniversaire, pas un enterrement.",
+      "preprocessed_text": "le premier qui arrive avec une cornemuse sera directement renvoy\u00e9 en Ecosse . <CONCAT> c&apos; est mon anniversaire , pas un enterrement .",
+      "translated_text": "the first one to come with a bag@@ pipe will be sent directly back to Scotland . <CONCAT> it &apos;s my birthday , not a funeral .",
+      "postprocessed_text": "It's my birthday, not a funeral.",
+      "composition_time": "2018-05-03T16:22:48.889229",
+      "preprocessing_begin": "2018-05-03T16:22:48.930779",
+      "preprocessing_end": "2018-05-03T16:22:51.192481",
+      "translation_begin": "2018-05-03T16:22:51.192600",
+      "translation_end": "2018-05-03T16:22:56.776251",
+      "postprocessing_begin": "2018-05-03T16:22:56.776483",
+      "postprocessing_end": "2018-05-03T16:22:56.808292",
+      "sent_time": "2018-05-03T16:22:56.809771",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:27:23.992472"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "It\u2019s my birthday. Not a funeral.",
+      "normalised_version": "C\u2019est mon anniversaire, pas un enterrement."
+    },
+    "22": {
+      "language": "french",
+      "original_text": "restons rock s'il te plait",
+      "preprocessed_text": "c&apos; est mon anniversaire , pas un enterrement . <CONCAT> restons rock s&apos; il te plait",
+      "translated_text": "it &apos;s my birthday , not a funeral . <CONCAT> let &apos;s just stay rock",
+      "postprocessed_text": "Let's just stay rock",
+      "composition_time": "2018-05-03T16:22:48.889229",
+      "preprocessing_begin": "2018-05-03T16:22:48.930779",
+      "preprocessing_end": "2018-05-03T16:22:51.192481",
+      "translation_begin": "2018-05-03T16:22:51.192600",
+      "translation_end": "2018-05-03T16:22:56.776251",
+      "postprocessing_begin": "2018-05-03T16:22:56.776483",
+      "postprocessing_end": "2018-05-03T16:22:56.808292",
+      "sent_time": "2018-05-03T16:22:56.810149",
+      "eval": {
+        "problem_history": [
+          [
+            "grammar",
+            "2018-05-03T16:27:57.811071",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:27:16.874327"
+          ],
+          [
+            "medium",
+            "2018-05-03T16:27:54.539513"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "grammar"
+        ]
+      },
+      "reference_translation": "Let\u2019s stay with rock\u2019n\u2019roll please.",
+      "normalised_version": "Restons rock s'il te pla\u00eet."
+    },
+    "23": {
+      "language": "english",
+      "original_text": "I won't share with my lovely musical friends your opinion!!",
+      "preprocessed_text": "let &apos;s just stay rock <CONCAT> I won &apos;t share with my lovely musical friends your opinion ! !",
+      "translated_text": "let&apos; s just stay rock <CONCAT> je ne vais pas partager avec mes charmants amis musiciens votre opinion !",
+      "postprocessed_text": "Je ne vais pas partager avec mes charmants amis musiciens votre opinion !",
+      "composition_time": "2018-05-03T16:24:05.645086",
+      "preprocessing_begin": "2018-05-03T16:24:05.685504",
+      "preprocessing_end": "2018-05-03T16:24:07.941798",
+      "translation_begin": "2018-05-03T16:24:07.941864",
+      "translation_end": "2018-05-03T16:24:09.596807",
+      "postprocessing_begin": "2018-05-03T16:24:09.597007",
+      "postprocessing_end": "2018-05-03T16:24:09.632032",
+      "sent_time": "2018-05-03T16:24:09.633131",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:25:33.691286",
+            true
+          ],
+          [
+            "word choice",
+            "2018-05-03T16:25:35.251194",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-03T16:26:31.869996",
+            true
+          ],
+          [
+            "style",
+            "2018-05-03T16:26:34.094641",
+            false
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "tutoiement appropri\u00e9 et inversion de l'ordre des mots",
+            "2018-05-03T16:26:53.552822",
+            "2018-05-03T16:26:53.552822"
+          ]
+        ],
+        "verbatim": "tutoiement appropri\u00e9 et inversion de l'ordre des mots",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T16:24:20.318380"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "word choice",
+          "grammar"
+        ]
+      },
+      "reference_translation": "Je ne partagerai pas ton opinion \u00e0 mes charmants amis musiciens\u00a0!",
+      "normalised_version": ""
+    },
+    "24": {
+      "language": "french",
+      "original_text": "C'est bien pour \u00e7a que ce sont tes amis, pas les miens.",
+      "preprocessed_text": "je ne vais pas partager avec mes charmants amis musiciens votre opinion ! <CONCAT> c&apos; est bien pour \u00e7a que ce sont tes amis , pas les miens .",
+      "translated_text": "I &apos;m not going to share with my charming musicians your opinion ! <CONCAT> that &apos;s why they &apos;re your friends , not mine .",
+      "postprocessed_text": "That's why they're your friends, not mine.",
+      "composition_time": "2018-05-03T16:25:13.124298",
+      "preprocessing_begin": "2018-05-03T16:25:13.159107",
+      "preprocessing_end": "2018-05-03T16:25:15.367715",
+      "translation_begin": "2018-05-03T16:25:15.367778",
+      "translation_end": "2018-05-03T16:25:17.354684",
+      "postprocessing_begin": "2018-05-03T16:25:17.354903",
+      "postprocessing_end": "2018-05-03T16:25:17.388350",
+      "sent_time": "2018-05-03T16:25:17.389239",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:28:06.101900"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "That\u2019s exactly why they\u2019re your friends, not mine.",
+      "normalised_version": ""
+    },
+    "25": {
+      "language": "english",
+      "original_text": "I was thinking of my french bagpipe playing friends, they play lovely french dance music",
+      "preprocessed_text": "that &apos;s why they &apos;re your friends , not mine . <CONCAT> I was thinking of my french bag@@ pipe playing friends , they play lovely french dance music",
+      "translated_text": "c&apos; est pour \u00e7a qu&apos; ils sont tes amis , pas les miens . <CONCAT> je pensais \u00e0 ma cornemuse avec des amis , ils jouent de la musique de danse fran\u00e7aise .",
+      "postprocessed_text": "Je pensais \u00e0 ma cornemuse avec des amis, ils jouent de la musique de danse fran\u00e7aise.",
+      "composition_time": "2018-05-03T16:25:30.647180",
+      "preprocessing_begin": "2018-05-03T16:25:30.696050",
+      "preprocessing_end": "2018-05-03T16:25:32.841755",
+      "translation_begin": "2018-05-03T16:25:32.841846",
+      "translation_end": "2018-05-03T16:25:35.441639",
+      "postprocessing_begin": "2018-05-03T16:25:35.441854",
+      "postprocessing_end": "2018-05-03T16:25:35.479994",
+      "sent_time": "2018-05-03T16:25:35.480895",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:28:39.391644"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je pensais \u00e0 mes amis fran\u00e7ais joueurs de cornemuse, ils jouent de la tr\u00e8s jolie musique fran\u00e7aise \u00e0 danser.",
+      "normalised_version": "I was thinking of my french bagpipe-playing friends, they play lovely French dance music."
+    },
+    "26": {
+      "language": "english",
+      "original_text": "You could be open minded!!",
+      "preprocessed_text": "I was thinking of my french bag@@ pipe playing friends , they play lovely french dance music <CONCAT> you could be open minded ! !",
+      "translated_text": "je pensais \u00e0 ma cornemuse en train de jouer aux amis , ils jouent de la musique de danse fran\u00e7aise . <CONCAT> tu peux \u00eatre ouvert d&apos; esprit !",
+      "postprocessed_text": "Tu peux \u00eatre ouvert d'esprit !",
+      "composition_time": "2018-05-03T16:26:47.321067",
+      "preprocessing_begin": "2018-05-03T16:26:47.355280",
+      "preprocessing_end": "2018-05-03T16:26:49.571759",
+      "translation_begin": "2018-05-03T16:26:49.571826",
+      "translation_end": "2018-05-03T16:26:53.162249",
+      "postprocessing_begin": "2018-05-03T16:26:53.162552",
+      "postprocessing_end": "2018-05-03T16:26:53.196979",
+      "sent_time": "2018-05-03T16:26:53.198151",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:28:41.064672"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Tu pourrais \u00eatre ouvert d'esprit\u00a0!",
+      "normalised_version": ""
+    },
+    "27": {
+      "language": "english",
+      "original_text": "If you heard good alternative music you might like it",
+      "preprocessed_text": "you could be open minded ! ! <CONCAT> if you heard good alternative music you might like it",
+      "translated_text": "tu pourrais \u00eatre ouvert ! <CONCAT> si tu entendais de la bonne musique , \u00e7a te plairait .",
+      "postprocessed_text": "Si tu entendais de la bonne musique, \u00e7a te plairait.",
+      "composition_time": "2018-05-03T16:26:47.321067",
+      "preprocessing_begin": "2018-05-03T16:26:47.355280",
+      "preprocessing_end": "2018-05-03T16:26:49.571759",
+      "translation_begin": "2018-05-03T16:26:49.571826",
+      "translation_end": "2018-05-03T16:26:53.162249",
+      "postprocessing_begin": "2018-05-03T16:26:53.162552",
+      "postprocessing_end": "2018-05-03T16:26:53.196979",
+      "sent_time": "2018-05-03T16:26:53.198582",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:28:44.185728"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Si tu entends de la bonne musique alternative, tu pourrais aimer \u00e7a.",
+      "normalised_version": "If you heard good alternative music you might like it."
+    },
+    "28": {
+      "language": "english",
+      "original_text": "Maybe when it is my party you can come and enjoy something new",
+      "preprocessed_text": "if you heard good alternative music you might like it <CONCAT> maybe when it is my party you can come and enjoy something new",
+      "translated_text": "si tu entends de la bonne musique que tu pourrais aimer <CONCAT> peut @-@ \u00eatre que quand c&apos; est ma f\u00eate tu peux venir et profiter de quelque chose de nouveau",
+      "postprocessed_text": "Peut-\u00eatre que quand c'est ma f\u00eate tu peux venir et profiter de quelque chose de nouveau",
+      "composition_time": "2018-05-03T16:27:08.880050",
+      "preprocessing_begin": "2018-05-03T16:27:08.914706",
+      "preprocessing_end": "2018-05-03T16:27:11.019577",
+      "translation_begin": "2018-05-03T16:27:11.019636",
+      "translation_end": "2018-05-03T16:27:13.472684",
+      "postprocessing_begin": "2018-05-03T16:27:13.472886",
+      "postprocessing_end": "2018-05-03T16:27:13.507116",
+      "sent_time": "2018-05-03T16:27:13.508014",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:28:52.298596"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Peut-\u00eatre qu'\u00e0 ma propre f\u00eate tu viendras et tu aimeras quelque chose de nouveau.",
+      "normalised_version": "Maybe when it is my party you can come and enjoy something new."
+    },
+    "29": {
+      "language": "french",
+      "original_text": "c'est bien pour \u00e7a que j'\u00e9coute de la bonne pop rock anglaise, jamais de musique fran\u00e7aise ni ecossaise, ni bretonne",
+      "preprocessed_text": "peut @-@ \u00eatre que quand c&apos; est ma f\u00eate tu peux venir et profiter de quelque chose de nouveau <CONCAT> c&apos; est bien pour \u00e7a que j&apos; \u00e9coute de la bonne pop rock anglaise , jamais de musique fran\u00e7aise ni e@@ cos@@ sai@@ se , ni bret@@ onne",
+      "translated_text": "maybe when it &apos;s my party , you can come and enjoy something new . <CONCAT> that &apos;s why I &apos;m listening to the good English pop rock , no French music , no co@@ eds , no Breton .",
+      "postprocessed_text": "That's why I'm listening to the good English pop rock, no French music, no coeds, no Breton.",
+      "composition_time": "2018-05-03T16:28:26.792307",
+      "preprocessing_begin": "2018-05-03T16:28:26.827446",
+      "preprocessing_end": "2018-05-03T16:28:29.021416",
+      "translation_begin": "2018-05-03T16:28:29.021540",
+      "translation_end": "2018-05-03T16:28:32.229769",
+      "postprocessing_begin": "2018-05-03T16:28:32.229942",
+      "postprocessing_end": "2018-05-03T16:28:32.267528",
+      "sent_time": "2018-05-03T16:28:32.268491",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T16:29:45.105565",
+            true
+          ],
+          [
+            "other",
+            "2018-05-03T16:30:11.285065",
+            true
+          ],
+          [
+            "coherence",
+            "2018-05-03T16:30:12.261359",
+            true
+          ],
+          [
+            "other",
+            "2018-05-03T16:30:13.170090",
+            false
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:29:39.014541"
+          ],
+          [
+            "poor",
+            "2018-05-03T16:29:42.312924"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice",
+          "coherence"
+        ]
+      },
+      "reference_translation": "That\u2019s exactly why I listen to good English pop rock and never to French, Scottish or Breton music.",
+      "normalised_version": "C\u2019est bien pour \u00e7a que j'\u00e9coute de la bonne pop rock anglaise, jamais de musique fran\u00e7aise ni \u00e9cossaise, ni bretonne."
+    },
+    "30": {
+      "language": "english",
+      "original_text": "I don't like Breton, all that moving slowly around in a line or circle - very dull",
+      "preprocessed_text": "that &apos;s why I &apos;m listening to the good English pop rock , no French music , no co@@ eds , no Breton . <CONCAT> I don &apos;t like Breton , all that moving slowly around in a line or circle - very dull",
+      "translated_text": "c&apos; est pour \u00e7a que j&apos; \u00e9coute le bon vieux rock anglais , pas de musique fran\u00e7aise , pas de \u00e9tudiantes , pas de Breton . <CONCAT> je n&apos; aime pas bre@@ ton , tout ce qui bouge lentement dans une ligne ou un cercle , tr\u00e8s ennuyeux .",
+      "postprocessed_text": "Je n'aime pas breton, tout ce qui bouge lentement dans une ligne ou un cercle, tr\u00e8s ennuyeux.",
+      "composition_time": "2018-05-03T16:29:14.918919",
+      "preprocessing_begin": "2018-05-03T16:29:14.954917",
+      "preprocessing_end": "2018-05-03T16:29:17.074626",
+      "translation_begin": "2018-05-03T16:29:17.074686",
+      "translation_end": "2018-05-03T16:29:20.732690",
+      "postprocessing_begin": "2018-05-03T16:29:20.732876",
+      "postprocessing_end": "2018-05-03T16:29:20.773053",
+      "sent_time": "2018-05-03T16:29:20.774066",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T16:30:55.260753",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "je n'aime pas l musique bretonne>>>  c'est tr\u00e8s ennuyeux",
+            "2018-05-03T16:31:38.939171",
+            "2018-05-03T16:31:38.939171"
+          ]
+        ],
+        "verbatim": "je n'aime pas l musique bretonne>>>  c'est tr\u00e8s ennuyeux",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:30:53.065989"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je n'aime pas la musique bretonne, toute cette fa\u00e7on de se d\u00e9placer lentement en ligne ou en cercle \u2014 tr\u00e8s terne.",
+      "normalised_version": "I don't like Breton, all that moving slowly around in a line or circle - very dull."
+    },
+    "31": {
+      "language": "french",
+      "original_text": "mais c'est sens\u00e9 \u00eatre mom anniversaire, pas ta f\u00eate.",
+      "preprocessed_text": "je n&apos; aime pas bre@@ ton , tout ce qui bouge lentement dans une ligne ou un cercle , tr\u00e8s ennuyeux . <CONCAT> mais c&apos; est sens\u00e9 \u00eatre mo@@ m anniversaire , pas ta f\u00eate .",
+      "translated_text": "I don &apos;t like Breton , anything that moves slowly in a line or a circle , very boring . <CONCAT> but it &apos;s supposed to be my birthday , not your party .",
+      "postprocessed_text": "But it's supposed to be my birthday, not your party.",
+      "composition_time": "2018-05-03T16:30:38.757925",
+      "preprocessing_begin": "2018-05-03T16:30:38.793324",
+      "preprocessing_end": "2018-05-03T16:30:40.988210",
+      "translation_begin": "2018-05-03T16:30:40.988291",
+      "translation_end": "2018-05-03T16:30:45.914828",
+      "postprocessing_begin": "2018-05-03T16:30:45.915117",
+      "postprocessing_end": "2018-05-03T16:30:45.957700",
+      "sent_time": "2018-05-03T16:30:45.958545",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:31:42.345608"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "But it\u2019s supposed to be my birthday, not your party.",
+      "normalised_version": "Mais c'est sens\u00e9 \u00eatre mon anniversaire, pas ta f\u00eate."
+    },
+    "32": {
+      "language": "french",
+      "original_text": "je r\u00e9clame le droit de choisir la musique que j'aime \u00e0 mom anniversaire, tu veux bien?",
+      "preprocessed_text": "mais c&apos; est sens\u00e9 \u00eatre mo@@ m anniversaire , pas ta f\u00eate . <CONCAT> je r\u00e9clame le droit de choisir la musique que j&apos; aime \u00e0 mo@@ m anniversaire , tu veux bien ?",
+      "translated_text": "but it &apos;s supposed to be my birthday , not your party . <CONCAT> I demand the right to choose the music that I love at my birthday , would you ?",
+      "postprocessed_text": "I demand the right to choose the music that I love at my birthday, would you?",
+      "composition_time": "2018-05-03T16:30:38.757925",
+      "preprocessing_begin": "2018-05-03T16:30:38.793324",
+      "preprocessing_end": "2018-05-03T16:30:40.988210",
+      "translation_begin": "2018-05-03T16:30:40.988291",
+      "translation_end": "2018-05-03T16:30:45.914828",
+      "postprocessing_begin": "2018-05-03T16:30:45.915117",
+      "postprocessing_end": "2018-05-03T16:30:45.957700",
+      "sent_time": "2018-05-03T16:30:45.959002",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:31:48.371991",
+            true
+          ],
+          [
+            "grammar",
+            "2018-05-03T16:31:55.125300",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "medium",
+            "2018-05-03T16:31:45.716462"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style",
+          "grammar"
+        ]
+      },
+      "reference_translation": "I demand the right to choose the music I like on my birthday. Is that ok with you?",
+      "normalised_version": "Je r\u00e9clame le droit de choisir la musique que j'aime \u00e0 mon anniversaire, tu veux bien?"
+    },
+    "33": {
+      "language": "english",
+      "original_text": "I know, \"it's may party I can cry if I want to \" that is a good pop song !!!",
+      "preprocessed_text": "I demand the right to choose the music that I love at my birthday , would you ? <CONCAT> I know , &quot; it &apos;s may party I can cry if I want to &quot; that is a good pop song ! ! !",
+      "translated_text": "j&apos; exige le droit de choisir la musique que j&apos; aime \u00e0 mon anniversaire , n&apos; est @-@ ce pas ? <CONCAT> je sais , &quot; c&apos; est peut @-@ \u00eatre la f\u00eate je peux pleurer si je veux &quot; c&apos; est une bonne chanson pop !",
+      "postprocessed_text": "Je sais, \"c'est peut-\u00eatre la f\u00eate je peux pleurer si je veux\" c'est une bonne chanson pop !",
+      "composition_time": "2018-05-03T16:32:46.180367",
+      "preprocessing_begin": "2018-05-03T16:32:46.217667",
+      "preprocessing_end": "2018-05-03T16:32:48.509998",
+      "translation_begin": "2018-05-03T16:32:48.510089",
+      "translation_end": "2018-05-03T16:32:52.414367",
+      "postprocessing_begin": "2018-05-03T16:32:52.414582",
+      "postprocessing_end": "2018-05-03T16:32:52.445090",
+      "sent_time": "2018-05-03T16:32:52.446030",
+      "eval": {
+        "problem_history": [
+          [
+            "word choice",
+            "2018-05-03T16:35:25.630388",
+            true
+          ]
+        ],
+        "verbatim_history": [
+          [
+            "je ne comprends pas",
+            "2018-05-03T16:35:47.221548",
+            "2018-05-03T16:35:47.221548"
+          ]
+        ],
+        "verbatim": "je ne comprends pas",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:33:25.669758"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": [
+          "word choice"
+        ]
+      },
+      "reference_translation": "Je sais, \u00ab\u00a0it's my party, I can cry if I want to\u00a0\u00bb, c'est une bonne chanson pop\u00a0!!!",
+      "normalised_version": "I know, \"it's may party I can cry if I want to\u201d - that is a good pop song!!!"
+    },
+    "34": {
+      "language": "english",
+      "original_text": "I meant that when I have a party for my birthday you may enjoy some different type of music but for your party rock/pop will be great",
+      "preprocessed_text": "I know , &quot; it &apos;s may party I can cry if I want to &quot; that is a good pop song ! ! ! <CONCAT> I meant that when I have a party for my birthday you may enjoy some different type of music but for your party rock / pop will be great",
+      "translated_text": "je sais , &quot; c&apos; est peut @-@ \u00eatre la f\u00eate je peux pleurer si je veux &quot; c&apos; est une bonne chanson pop ! <CONCAT> je voulais dire que quand j&apos; ai une f\u00eate pour mon anniversaire , tu pourrais appr\u00e9cier un autre genre de musique mais pour ta f\u00eate rock / pop sera super",
+      "postprocessed_text": "Je voulais dire que quand j'ai une f\u00eate pour mon anniversaire, tu pourrais appr\u00e9cier un autre genre de musique mais pour ta f\u00eate rock / pop sera super",
+      "composition_time": "2018-05-03T16:33:38.990236",
+      "preprocessing_begin": "2018-05-03T16:33:39.022886",
+      "preprocessing_end": "2018-05-03T16:33:41.071440",
+      "translation_begin": "2018-05-03T16:33:41.071539",
+      "translation_end": "2018-05-03T16:33:45.370343",
+      "postprocessing_begin": "2018-05-03T16:33:45.370526",
+      "postprocessing_end": "2018-05-03T16:33:45.399947",
+      "sent_time": "2018-05-03T16:33:45.400857",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:35:56.913421"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je voulais dire que quand je fais une f\u00eate pour mon anniversaire, tu pourras profiter de diff\u00e9rents types de musique, mais que pour ta f\u00eate, le pop/rock ira tr\u00e8s bien.",
+      "normalised_version": "I meant that when I have a party for my birthday you may enjoy some different type of music but for your party rock/pop will be great."
+    },
+    "35": {
+      "language": "english",
+      "original_text": "It is your choice after all",
+      "preprocessed_text": "I meant that when I have a party for my birthday you may enjoy some different type of music but for your party rock / pop will be great <CONCAT> it is your choice after all",
+      "translated_text": "je voulais dire que quand j&apos; ai une f\u00eate pour mon anniversaire , tu pourrais appr\u00e9cier un autre genre de musique mais pour ta f\u00eate rock / pop sera super . <CONCAT> c&apos; est ton choix apr\u00e8s tout .",
+      "postprocessed_text": "C'est ton choix apr\u00e8s tout.",
+      "composition_time": "2018-05-03T16:33:47.904438",
+      "preprocessing_begin": "2018-05-03T16:33:47.937269",
+      "preprocessing_end": "2018-05-03T16:33:49.996821",
+      "translation_begin": "2018-05-03T16:33:49.996878",
+      "translation_end": "2018-05-03T16:33:52.978376",
+      "postprocessing_begin": "2018-05-03T16:33:52.978611",
+      "postprocessing_end": "2018-05-03T16:33:53.009506",
+      "sent_time": "2018-05-03T16:33:53.010560",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:35:58.518427"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C'est ton choix, apr\u00e8s tout.",
+      "normalised_version": "It is your choice after all."
+    },
+    "36": {
+      "language": "french",
+      "original_text": "je ne la connais pas, mais tu peux me la jouer ou me la faire \u00e9couter si tu veux, mais il est d\u00e9fendu de pleurer \u00e0 mes f\u00eates, sauf de joie",
+      "preprocessed_text": "c&apos; est ton choix apr\u00e8s tout . <CONCAT> je ne la connais pas , mais tu peux me la jouer ou me la faire \u00e9couter si tu veux , mais il est d\u00e9fendu de pleurer \u00e0 mes f\u00eates , sauf de joie",
+      "translated_text": "it &apos;s your choice , after all . <CONCAT> I don &apos;t know it , but you can play it or play it to me if you want , but it &apos;s forbidden to cry at my parties , except for joy .",
+      "postprocessed_text": "I don't know it, but you can play it or play it to me if you want, but it's forbidden to cry at my parties, except for joy.",
+      "composition_time": "2018-05-03T16:35:04.073188",
+      "preprocessing_begin": "2018-05-03T16:35:04.109988",
+      "preprocessing_end": "2018-05-03T16:35:06.377420",
+      "translation_begin": "2018-05-03T16:35:06.377532",
+      "translation_end": "2018-05-03T16:35:09.780883",
+      "postprocessing_begin": "2018-05-03T16:35:09.781089",
+      "postprocessing_end": "2018-05-03T16:35:09.823158",
+      "sent_time": "2018-05-03T16:35:09.824131",
+      "eval": {
+        "problem_history": [
+          [
+            "style",
+            "2018-05-03T16:37:40.512715",
+            true
+          ]
+        ],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:35:58.797727"
+          ],
+          [
+            "medium",
+            "2018-05-03T16:37:37.814903"
+          ]
+        ],
+        "judgment": "medium",
+        "problems": [
+          "style"
+        ]
+      },
+      "reference_translation": "I don\u2019t know it, but you could play it for me or play it to me, but it\u2019s forbidden to cry at my parties, unless it\u2019s out of joy.",
+      "normalised_version": "Je ne la connais pas, mais tu peux me la jouer ou me la faire \u00e9couter si tu veux, mais il est d\u00e9fendu de pleurer \u00e0 mes f\u00eates, sauf de joie."
+    },
+    "37": {
+      "language": "english",
+      "original_text": "I was only being humourous",
+      "preprocessed_text": "I don &apos;t know it , but you can play it or play it to me if you want , but it &apos;s forbidden to cry at my parties , except for joy . <CONCAT> I was only being hum@@ our@@ ous",
+      "translated_text": "je ne sais pas , mais tu peux la jouer ou la jouer \u00e0 moi si tu veux , mais c&apos; est interdit de pleurer \u00e0 mes f\u00eates , sauf de la joie . <CONCAT> je n&apos; \u00e9tais que hum@@ ec@@ tif",
+      "postprocessed_text": "Je n'\u00e9tais que humectif",
+      "composition_time": "2018-05-03T16:36:35.969827",
+      "preprocessing_begin": "2018-05-03T16:36:36.021029",
+      "preprocessing_end": "2018-05-03T16:36:38.268294",
+      "translation_begin": "2018-05-03T16:36:38.268399",
+      "translation_end": "2018-05-03T16:36:41.847614",
+      "postprocessing_begin": "2018-05-03T16:36:41.847805",
+      "postprocessing_end": "2018-05-03T16:36:41.877384",
+      "sent_time": "2018-05-03T16:36:41.878261",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "ce mot est inconnu des fran\u00e7ais du XXI Siecle",
+            "2018-05-03T16:37:30.861303",
+            "2018-05-03T16:37:30.861303"
+          ]
+        ],
+        "verbatim": "ce mot est inconnu des fran\u00e7ais du XXI Siecle",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:36:48.147246"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": []
+      },
+      "reference_translation": "Je faisais juste de l'humour.",
+      "normalised_version": "I was only being humourous."
+    },
+    "38": {
+      "language": "english",
+      "original_text": "It is a song by Lesley Gore from the 1960's, you should listen to it on youtube",
+      "preprocessed_text": "I was only being hum@@ our@@ ous <CONCAT> it is a song by Lesley Gore from the 1960 &apos;s , you should listen to it on you@@ tube",
+      "translated_text": "je ne faisais que plaisanter . <CONCAT> c&apos; est une chanson de Lesley Gore depuis 1960 , tu devrais l&apos; \u00e9couter sur YouTube .",
+      "postprocessed_text": "C'est une chanson de Lesley Gore depuis 1960, tu devrais l'\u00e9couter sur YouTube.",
+      "composition_time": "2018-05-03T16:37:16.637494",
+      "preprocessing_begin": "2018-05-03T16:37:16.672019",
+      "preprocessing_end": "2018-05-03T16:37:18.709697",
+      "translation_begin": "2018-05-03T16:37:18.709766",
+      "translation_end": "2018-05-03T16:37:20.560484",
+      "postprocessing_begin": "2018-05-03T16:37:20.560715",
+      "postprocessing_end": "2018-05-03T16:37:20.596025",
+      "sent_time": "2018-05-03T16:37:20.596962",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:37:44.847153"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "C'est une chanson de Lesly Gore, des ann\u00e9es 1960, tu devrais l'\u00e9couter sur YouTube.",
+      "normalised_version": "It is a song by Lesley Gore from the 1960's, you should listen to it on YouTube."
+    },
+    "39": {
+      "language": "french",
+      "original_text": "envoie moi le lien",
+      "preprocessed_text": "c&apos; est une chanson de Lesley Gore depuis 1960 , tu devrais l&apos; \u00e9couter sur YouTube . <CONCAT> envoie moi le lien",
+      "translated_text": "it &apos;s a song from Lesley Gore since 1960 , you should hear it on YouTube . <CONCAT> send me the link .",
+      "postprocessed_text": "Send me the link.",
+      "composition_time": "2018-05-03T16:38:05.087578",
+      "preprocessing_begin": "2018-05-03T16:38:05.137773",
+      "preprocessing_end": "2018-05-03T16:38:07.670042",
+      "translation_begin": "2018-05-03T16:38:07.670152",
+      "translation_end": "2018-05-03T16:38:09.519890",
+      "postprocessing_begin": "2018-05-03T16:38:09.520113",
+      "postprocessing_end": "2018-05-03T16:38:09.559591",
+      "sent_time": "2018-05-03T16:38:09.560551",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:38:46.496701"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Send me the link.",
+      "normalised_version": "Envoie-moi le lien."
+    },
+    "40": {
+      "language": "english",
+      "original_text": "I will do tomorrow",
+      "preprocessed_text": "send me the link . <CONCAT> I will do tomorrow",
+      "translated_text": "envoyez @-@ moi le lien . <CONCAT> je le ferai demain .",
+      "postprocessed_text": "Je le ferai demain.",
+      "composition_time": "2018-05-03T16:38:33.161159",
+      "preprocessing_begin": "2018-05-03T16:38:33.196053",
+      "preprocessing_end": "2018-05-03T16:38:35.570264",
+      "translation_begin": "2018-05-03T16:38:35.570325",
+      "translation_end": "2018-05-03T16:38:36.498869",
+      "postprocessing_begin": "2018-05-03T16:38:36.499085",
+      "postprocessing_end": "2018-05-03T16:38:36.540210",
+      "sent_time": "2018-05-03T16:38:36.541135",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:39:25.040604"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Je ferai \u00e7a demain.",
+      "normalised_version": "I will do tomorrow."
+    },
+    "41": {
+      "language": "english",
+      "original_text": "What about food?",
+      "preprocessed_text": "I will do tomorrow <CONCAT> what about food ?",
+      "translated_text": "je ferai demain . <CONCAT> et la nourriture ?",
+      "postprocessed_text": "Et la nourriture ?",
+      "composition_time": "2018-05-03T16:38:59.081489",
+      "preprocessing_begin": "2018-05-03T16:38:59.116454",
+      "preprocessing_end": "2018-05-03T16:39:01.253901",
+      "translation_begin": "2018-05-03T16:39:01.253963",
+      "translation_end": "2018-05-03T16:39:02.055080",
+      "postprocessing_begin": "2018-05-03T16:39:02.055271",
+      "postprocessing_end": "2018-05-03T16:39:02.084775",
+      "sent_time": "2018-05-03T16:39:02.085652",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:39:29.955863"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Et pour la nourriture\u00a0?",
+      "normalised_version": ""
+    },
+    "42": {
+      "language": "english",
+      "original_text": "Have you had any thoughts?",
+      "preprocessed_text": "what about food ? <CONCAT> have you had any thoughts ?",
+      "translated_text": "et la nourriture ? <CONCAT> as @-@ tu eu des pens\u00e9es ?",
+      "postprocessed_text": "As-tu eu des pens\u00e9es ?",
+      "composition_time": "2018-05-03T16:39:08.527150",
+      "preprocessing_begin": "2018-05-03T16:39:08.574484",
+      "preprocessing_end": "2018-05-03T16:39:10.690979",
+      "translation_begin": "2018-05-03T16:39:10.691066",
+      "translation_end": "2018-05-03T16:39:11.721493",
+      "postprocessing_begin": "2018-05-03T16:39:11.721652",
+      "postprocessing_end": "2018-05-03T16:39:11.753835",
+      "sent_time": "2018-05-03T16:39:11.754648",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [
+          [
+            "y as tu pens\u00e9",
+            "2018-05-03T16:39:53.454754",
+            "2018-05-03T16:39:53.454754"
+          ]
+        ],
+        "verbatim": "y as tu pens\u00e9",
+        "judgment_history": [
+          [
+            "poor",
+            "2018-05-03T16:39:34.954701"
+          ]
+        ],
+        "judgment": "poor",
+        "problems": []
+      },
+      "reference_translation": "Tu as des id\u00e9es\u00a0?",
+      "normalised_version": ""
+    },
+    "43": {
+      "language": "french",
+      "original_text": "faisons simple, pain surprise, saucisson, pain, cornichons, etc",
+      "preprocessed_text": "as @-@ tu eu des pens\u00e9es ? <CONCAT> faisons simple , pain surprise , saucisson , pain , cornichons , etc",
+      "translated_text": "have you had any thoughts ? <CONCAT> let &apos;s keep it simple .",
+      "postprocessed_text": "Let's keep it simple.",
+      "composition_time": "2018-05-03T16:40:57.857200",
+      "preprocessing_begin": "2018-05-03T16:40:57.895669",
+      "preprocessing_end": "2018-05-03T16:41:00.073853",
+      "translation_begin": "2018-05-03T16:41:00.073954",
+      "translation_end": "2018-05-03T16:41:01.901964",
+      "postprocessing_begin": "2018-05-03T16:41:01.902164",
+      "postprocessing_end": "2018-05-03T16:41:01.932349",
+      "sent_time": "2018-05-03T16:41:01.933353",
+      "eval": {
+        "problem_history": [],
+        "verbatim_history": [],
+        "verbatim": "",
+        "judgment_history": [
+          [
+            "perfect",
+            "2018-05-03T16:42:01.942888"
+          ]
+        ],
+        "judgment": "perfect",
+        "problems": []
+      },
+      "reference_translation": "Let's stay simple: pain surprise, salami, bread, pickles, etc.",
+      "normalised_version": "Faisons simple: pain surprise, saucisson, pain, cornichons, etc."
+    }
+  },
+  "final_evaluation_user1": {
+    "interface": "bien,\r\nmais c,est encore un peu l\u00e9ger pour \u00eatre utiliser au quotidien",
+    "meaning": "average",
+    "coherence": "average",
+    "grammaticality": "average",
+    "tech": "There were no technical problems",
+    "style": "average",
+    "particular_problems": "le tutoiement / vouvoiement est alternatif; quelques tournures typiquement anglaises;",
+    "timestamp": "2018-05-03T16:46:03.782262",
+    "verbatim_quality": "pas mal.",
+    "would_use": false,
+    "word_choice": "average",
+    "technical_issue": "There were no technical problems"
+  },
+  "final_evaluation_user2": {
+    "interface": "",
+    "meaning": "good",
+    "coherence": "excellent",
+    "grammaticality": "good",
+    "tech": "There were no technical problems",
+    "style": "good",
+    "particular_problems": "only one word was incomprehensible",
+    "timestamp": "2018-05-03T16:44:23.397797",
+    "verbatim_quality": "generally clear but slightly abrupt feeling was conveyed by the word choice",
+    "would_use": true,
+    "word_choice": "good",
+    "technical_issue": "There were no technical problems"
+  },
+  "fr_transl": true
+}
