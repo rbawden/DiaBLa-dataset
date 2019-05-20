@@ -1,4 +1,4 @@
-# DiaBLa English-French dialogue corpus
+# DiaBLa English-French MT dialogue test set
 (Dialogue BiLingue "Bilingual Dialogue")
 
 English-French test set for the evaluation of Machine Translation (MT) for informal, written bilingual dialogue. 
