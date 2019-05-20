@@ -13,7 +13,7 @@ Dialogue annotations:
 
 ## Use as a test set
 
-Raw source and reference files in `DiaBLa-corpus`:
+Raw source and reference files in `DiaBLa-corpus/`:
 
 - Source files: `diabla.en2fr_orig` and `diabla.fr2en_orig`.
 - Reference files: `diabla.en2fr_ref` and `diabla.fr2en_ref`.
@@ -23,7 +23,7 @@ Each source file contains the entire dialogue, from the point of view of the spe
 
 The reference files contain only those sentences that should be evaluated (i.e. the sentences that were originally in the source language). Once you have translated the entire source file, filter your translations as follows:
 
-`bash scripts/filter-sents-for-eval.sh <YOUR_TRANSLATION_FILE> diabla.{en2fr,fr2en}.eval-filter > OUT`
+`bash scripts/filter-sents-for-eval.sh <YOUR_TRANSLATION_FILE> DiaBLa-corpus/diabla.{en2fr,fr2en}.eval-filter > OUT`
 
 Then evaluate the filtered sentences against the reference translations using your favourite metric.
 
