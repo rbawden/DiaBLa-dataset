@@ -18,10 +18,9 @@ Then evaluate the filtered sentences against the reference translations using yo
 
 ## .json formatted corpus (containing all annotations)
 
-The corpus also exists in `.json` format, with extra annotations for each dialogue and each utterance.
+The corpus also exists in `.json` format, containing all annotations and information.
 
 Each dialogue file has the following dialogue-level information:
- 
  ```
   "start_time": <DATETIME>,
   "end_time": <ENDTIME>,
@@ -84,7 +83,7 @@ id : {
    }
 ```
 
-
+N.B. We log historic changes concerning the evaluation of the machine translated sentences so that we can see when they were evaluated and whether participants later changed their minds. 
 
 
 
