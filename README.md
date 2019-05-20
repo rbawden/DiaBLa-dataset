@@ -116,8 +116,8 @@ User files are structured as follows:
 ```
 {
    "idnum": 1,
-   "age": "35-44",
-   "gender": "male",
+   "age": "18-24|25-34|35-44|55-64|65-74",
+   "gender": "male|female",
    "english_ability": "poor|medium|good|near-native|native",
    "french_ability": "poor|medium|good|near-native|native",
    "otherlangs": <LIST OF OTHER LANGUAGES SPOKEN>,
