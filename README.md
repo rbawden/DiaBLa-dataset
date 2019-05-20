@@ -10,19 +10,6 @@ Dialogue annotations:
  * manually produced reference translations
  * manually normalised versions of source sentences
 
-## Citation
-
-If you use this corpus, please cite:
-
-```
-@article{bawden_diabla2019,
-    author = {Rachel Bawden and Sophie Rosset and Thomas Lavergne and Eric Bilinski},
-    title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
-    year = {2019},
-    url = {http://arxiv.org/abs/...},
-}
-
-```
 
 ## Use as a test set
 
@@ -38,9 +25,25 @@ The reference files contain only those sentences that should be evaluated (i.e. 
 Then evaluate the filtered sentences against the reference translations using your favourite metric.
 
 
-## .json formatted corpus (containing all annotations)
+## Citation
 
-The corpus also exists in `.json` format, containing all annotations and information.
+If you use this corpus, please cite:
+
+```
+@article{bawden_diabla2019,
+    author = {Rachel Bawden and Sophie Rosset and Thomas Lavergne and Eric Bilinski},
+    title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
+    year = {2019},
+    url = {http://arxiv.org/abs/...},
+}
+```
+
+
+## Structure and content
+
+### .json formatted corpus (containing all annotations)
+
+The corpus also exists in `.json` format, containing all annotations and information. All dialogue files are found `dialogues/` and information for each user is found in `users/`.
 
 Each dialogue file has the following dialogue-level information:
  ```
@@ -69,7 +72,7 @@ Each dialogue file has the following dialogue-level information:
      }
  ```
 
-Each utterance (ids start at 0) is structured as followed:
+Each utterance in the dialogue (ids start at 0) is structured as followed:
 
 ```
 id : {
@@ -105,12 +108,29 @@ id : {
    }
 ```
 
+User files are structured as follows:
+
+```
+{
+   "idnum": 1,
+   "age": "35-44",
+   "gender": "male",
+   "english_ability": "poor|medium|good|near-native|native",
+   "french_ability": "poor|medium|good|near-native|native",
+   "otherlangs": <LIST OF OTHER LANGUAGES SPOKEN>,
+   "worked_in_research": true|false,
+   "worked_in_NLP": true|false,
+   "agreed_to_terms_and_conditions": true
+   "creation_date": <DATETIME>,
+}
+```
+
 N.B. Historic changes concerning the evaluation of the machine translated sentences are logged (when sentences are evaluated and whether the pairticpants change their mind).
 
 
 
 
-## Scenarios
+### Scenarios
 
 There are 12 different scenarios (and 12 dialogues associated with each one, 6 for each translation model):
 
