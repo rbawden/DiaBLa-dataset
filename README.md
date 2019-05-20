@@ -10,6 +10,20 @@ Dialogue annotations:
  * manually produced reference translations
  * manually normalised versions of source sentences
 
+## Citation
+
+If you use this corpus, please cite:
+
+```
+@article{bawden_diabla2019,
+    author = {Rachel Bawden and Sophie Rosset and Thomas Lavergne and Eric Bilinski},
+    title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
+    year = {2019},
+    url = {http://arxiv.org/abs/...},
+}
+
+```
+
 ## Use as a test set
 
 - Source files: `diabla.en2fr_orig` and `diabla.fr2en_orig`.
