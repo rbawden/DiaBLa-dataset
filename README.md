@@ -13,9 +13,11 @@ Dialogue annotations:
 
 ## Use as a test set
 
-- Source files: `DiaBLa-corpus/diabla.en2fr_orig` and `DiaBLa-corpus/diabla.fr2en_orig`.
-- Reference files: `DiaBLa-corpus/diabla.en2fr_ref` and `DiaBLa-corpus/diabla.fr2en_ref`.
-- Info file: `DiaBLa-corpus/diabla.info`
+Raw source and reference files in `DiaBLa-corpus`:
+
+- Source files: `diabla.en2fr_orig` and `diabla.fr2en_orig`.
+- Reference files: `diabla.en2fr_ref` and `diabla.fr2en_ref`.
+- Info file: `diabla.info`
  
 Each source file contains the entire dialogue, from the point of view of the speaker of the source language (containing their own original sentences and the machine translated versions of the other speaker's utterances). This is important for contextual translation - to have access to all context present when the source utterances were produced. 
 
