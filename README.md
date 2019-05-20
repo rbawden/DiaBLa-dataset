@@ -3,7 +3,7 @@
 
 English-French test set for the evaluation of Machine Translation (MT) for informal, written bilingual dialogue. 
 
-The test set contains 5,700+ sentences from 144 spontaneous, written dialogues between English and French speakers. The dialogues are mediated by one of two neural MT systems (a baseline RNN and a lightly contextual RNN model that uses the previous sentence). Each dialogue is associated with one of twelve varied scenarios, which are listed [here](#scenarios).
+The test set contains 5,700+ sentences from 144 spontaneous, written dialogues between English and French speakers. The dialogues are mediated by one of two neural MT systems (a baseline RNN and a lightly contextual RNN model that uses the previous sentence). Each dialogue is associated with one of twelve varied scenarios, which are listed in `meta_info/scenarios.txt`.
 
 Dialogue annotations:
  * fine-grained sentence-level judgments of MT quality, produced by the dialogue participants themselves
@@ -132,7 +132,7 @@ N.B. Historic changes concerning the evaluation of the machine translated senten
 
 
 
-
+<!--
 ### Scenarios
 
 There are 12 different scenarios (and 12 dialogues associated with each one, 6 for each translation model):
@@ -183,7 +183,7 @@ There are 12 different scenarios (and 12 dialogues associated with each one, 6 f
 12. __You are on holiday by the pool.__
   - Role 1: You are trying to relax and the other person wants to do something else.
   - Role 2: You want to do something else and the other person is trying to relax.
-
+-->
 
 
 
