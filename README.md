@@ -3,7 +3,7 @@
 
 English-French test set for the evaluation of Machine Translation (MT) for informal, written bilingual dialogue. 
 
-The test set contains 5,700+ sentences from 144 spontaneous, written dialogues between English and French speakers. The dialogues are mediated by one of two neural MT systems (a baseline RNN and a lightly contextual RNN model that uses the previous sentence). Each dialogue is associated with one of twelve varied scenarios, which are listed [](here).
+The test set contains 5,700+ sentences from 144 spontaneous, written dialogues between English and French speakers. The dialogues are mediated by one of two neural MT systems (a baseline RNN and a lightly contextual RNN model that uses the previous sentence). Each dialogue is associated with one of twelve varied scenarios, which are listed [here](#scenarios).
 
 Dialogue annotations:
  * fine-grained sentence-level judgments of MT quality, produced by the dialogue participants themselves
