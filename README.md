@@ -51,19 +51,21 @@ The corpus also exists in `.json` format, containing all annotations and informa
 Each dialogue file has the following dialogue-level information:
  ```
   "start_time": <DATETIME>,
-  "end_time": <ENDTIME>,
   "scenario": [
              [SCENARIO DESCRIPTION (IN ENGLISH), SCENARIO DESCRIPTION (IN FRENCH)],
              [ROLE 1 (IN ENGLISH), ROLE 2 (IN FRENCH)],
              [ROLE 2 (IN ENGLISH), ROLE 2 (IN FRENCH)]
             ],
   "user1": {
-     "turn_number": 1 OR 2,
+     "idnum": <ID>,
+     "gender": "male/female",
+     "age": "18-24|25-34|35-44|55-64|65-74",
+     "turn_number": "1|2",
      "role": [TEXT DESCRIPTION OF ROLE (IN ENGLISH), TEXT DESCRIPTION OF ROLE (IN FRENCH)],
      "lang": "french or "english"
      }
    "user2": {
-     "turn_number": 1 OR 2,
+     "turn_number": "1|2",
      "role": [TEXT DESCRIPTION OF ROLE (IN ENGLISH), TEXT DESCRIPTION OF ROLE (IN FRENCH)],
      "lang": "french or "english"
      }
