@@ -1,14 +1,14 @@
-# DiaBLa English-French MT dialogue test set
+# DiaBLa English-French MT dialogue dataset
 (Dialogue BiLingue "Bilingual Dialogue")
 
-English-French test set for the evaluation of Machine Translation (MT) for informal, written bilingual dialogue. 
+English-French  dataset for the evaluation of Machine Translation (MT) for informal, written bilingual dialogue. 
 
-The test set contains 5,700+ sentences from 144 spontaneous, written dialogues between English and French speakers. The dialogues are mediated by one of two neural MT systems (a baseline RNN and a lightly contextual RNN model that uses the previous sentence). Each dialogue is associated with one of twelve varied scenarios, which are listed in `meta_info/scenarios.txt`.
+The test set contains 5,700+ sentences from 144 spontaneous, written dialogues between English and French speakers. The dialogues are mediated by one of two neural MT systems (a baseline RNN and a lightly contextual RNN model that uses the previous sentence). Each dialogue is associated with one of twelve varied scenarios, which are listed in `meta_info/scenarios.txt`. In addition, the participants evaluated in real time the quality of the MT systems from a monolingual point of view. Once collected, the dialogues were anonymised, and manually normalised versions of sentences were produced where necessary. Importantly, reference translations were produced for all sentences.
 
 Dialogue annotations:
- * fine-grained sentence-level judgments of MT quality, produced by the dialogue participants themselves
- * manually produced reference translations
- * manually normalised versions of source sentences
+ * fine-grained __sentence-level judgments of MT quality__, produced by the dialogue participants themselves
+ * manually produced __reference translations__
+ * manually __normalised versions__ of source sentences
 
 
 ## Use as a test set
