@@ -88,7 +88,7 @@ id : {
   "translated_text": <TRANSLATED TEXT>,
   "postprocessed_text": <TRANSLATED, PREPROCESSED TEXT>,
   "reference_translation": <HUMAN TRANSLATION>,
-  "composition_time": <DATETIME>, # message is entered
+  "composition_time": <DATETIME>,
   "preprocessing_begin": <DATETIME>,
   "preprocessing_end": <DATETIME>,
   "translation_begin": <DATETIME>,
