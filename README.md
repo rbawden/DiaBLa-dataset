@@ -130,7 +130,7 @@ User files are structured as follows:
 }
 ```
 
-N.B. Historic changes concerning the evaluation of the machine translated sentences are logged (when sentences are evaluated and whether the pairticpants change their mind).
+N.B. Historic changes concerning the evaluation of the machine translated sentences are logged (when sentences are evaluated and whether the participants change their mind).
 
 
 
