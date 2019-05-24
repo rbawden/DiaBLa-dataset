@@ -30,7 +30,7 @@ Then evaluate the filtered sentences against the reference translations using yo
 
 ## Citation
 
-If you use this corpus, please cite:
+If you use this corpus, please cite: (coming very soon!)
 
 ```
 @article{bawden_diabla2019,
