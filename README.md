@@ -38,6 +38,7 @@ If you use this corpus, please cite: (coming very soon!)
     title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
     year = {2019},
     url = {http://arxiv.org/abs/...},
+    journal = {CoRR}
 }
 ```
 
