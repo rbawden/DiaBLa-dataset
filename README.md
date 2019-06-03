@@ -37,7 +37,7 @@ If you use this corpus, please cite: (coming very soon!)
     author = {Rachel Bawden and Sophie Rosset and Thomas Lavergne and Eric Bilinski},
     title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
     year = {2019},
-    url = {http://arxiv.org/abs/...},
+    url = {http://arxiv.org/abs/1905.13354},
     journal = {CoRR}
 }
 ```
