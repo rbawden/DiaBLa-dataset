@@ -42,6 +42,9 @@ If you use this corpus, please cite:
 }
 ```
 
+## Licence
+
+The dataset is distributed under a CC BY-NC-SA 4.0 licence.
 
 ## Structure and content
 
