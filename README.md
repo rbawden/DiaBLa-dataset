@@ -35,12 +35,17 @@ Then evaluate the filtered sentences against the reference translations using yo
 If you use this corpus, please cite:
 
 ```
-@article{bawden_diabla2019,
-    author = {Rachel Bawden and Sophie Rosset and Thomas Lavergne and Eric Bilinski},
-    title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
-    year = {2019},
-    url = {http://arxiv.org/abs/1905.13354},
-    journal = {CoRR}
+@article{bawden_DiaBLa:-A-Corpus-of_2021,
+  author = {Bawden, Rachel and Bilinski, Eric and Lavergne, Thomas and Rosset, Sophie},
+  doi = {10.1007/s10579-020-09514-4},
+  title = {DiaBLa: A Corpus of Bilingual Spontaneous Written Dialogues for Machine Translation},
+  year = {2021},
+  journal = {Language Resources and Evaluation},
+  publisher = {Springer Verlag},
+  volume = {55},
+  pages = {635--660},
+  url = {https://hal.inria.fr/hal-03021633},
+  pdf = {https://hal.inria.fr/hal-03021633/file/diabla-lre-personal-formatting.pdf},
 }
 ```
 
